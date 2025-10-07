@@ -25,10 +25,6 @@ public final class AbilityMetaSpecialEnergyOuterClass {
     float getValue();
   }
   /**
-   * <pre>
-   *5.3.0
-   * </pre>
-   *
    * Protobuf type {@code AbilityMetaSpecialEnergy}
    */
   public static final class AbilityMetaSpecialEnergy extends
@@ -279,10 +275,6 @@ public final class AbilityMetaSpecialEnergyOuterClass {
       return builder;
     }
     /**
-     * <pre>
-     *5.3.0
-     * </pre>
-     *
      * Protobuf type {@code AbilityMetaSpecialEnergy}
      */
     public static final class Builder extends
