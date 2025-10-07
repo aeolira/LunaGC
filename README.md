@@ -1,6 +1,6 @@
 # LunaGC-6.0.0 VERY WIP
 
-## A better, more functional version of the holy Grasscutter
+## Updated version of Grasscutters, with some new features implemented.
 Old Discord for LunaGC https://discord.gg/7D5gkyJR5Y (don't ask for support there, instead create an issue in this repository)
 
 Features and functionality of the ps is not guaranteed, try it yourself to see what works and what doesnt.
@@ -78,4 +78,5 @@ Contribute if you want/can...
 
 ## Credit
 
+Protos [hk4e-protos](https://gitlab.com/kitkat-multiverse/genshin-protocol)
 patch Repository [hk4e-patch-universal](https://github.com/oureveryday/hk4e-patch-universal) (and credit to Hartie95 for fixing it)
