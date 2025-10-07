@@ -1,11 +1,10 @@
-# LunaGC-6.0.0
-###### wip
-
-## This is possibly the only public PS with Mob spawns in Fontaine and Natlan
-###### only up to 5.4
+# LunaGC-6.0.0 VERY WIP
 
 ## A better, more functional version of the holy Grasscutter
 Old Discord for LunaGC https://discord.gg/7D5gkyJR5Y (don't ask for support there, instead create an issue in this repository)
+
+Features and functionality of the ps is not guaranteed, try it yourself to see what works and what doesnt.
+This is possibly the only public PS with updated mob and gadget spawns! (Up to Version 5.4)
 
 Contribute if you want/can...
 
@@ -76,17 +75,6 @@ Contribute if you want/can...
 - Make sure to set useEncryption and useInRouting both to false otherwise you might encounter errors.
 - To use windy make sure that you put your luac files in C:\Windy (make the folder if it doesnt exist)
 - If you get an error related to MongoDB connection timeout, check if the mongodb service is running. On windows: Press windows key and r then type `services.msc`, look for mongodb server and if it's not started then start it by right clicking on it and start. On linux, you can do `systemctl status mongod` to see if it's running, if it isn't then type `systemctl start mongod`. However, if you get error 14 on linux change the owner of the mongodb folder and the .sock file (`sudo chown -R mongodb:mongodb /var/lib/mongodb` and `sudo chown mongodb:mongodb /tmp/mongodb-27017.sock` then try to start the service again.)
-
-
-## What works
-
-- find out
-
-
-## What doesn't work
-
-- a lot of stuff
-- find out
 
 ## Credit
 
