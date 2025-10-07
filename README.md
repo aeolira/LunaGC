@@ -78,5 +78,5 @@ Contribute if you want/can...
 
 ## Credit
 
-proto repository [hk4e-protos](https://gitlab.com/kitkat-multiverse/genshin-protocol)
+proto Repository [hk4e-protos](https://gitlab.com/kitkat-multiverse/genshin-protocol)
 patch Repository [hk4e-patch-universal](https://github.com/oureveryday/hk4e-patch-universal) (and credit to Hartie95 for fixing it)
