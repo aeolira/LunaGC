@@ -138,10 +138,10 @@ public final class AttackResultOuterClass {
     int getLBKEDDNMPLJ();
 
     /**
-     * <code>uint32 defense_id = 3;</code>
-     * @return The defenseId.
+     * <code>uint32 LMFMFNEMLPL = 3;</code>
+     * @return The lMFMFNEMLPL.
      */
-    int getDefenseId();
+    int getLMFMFNEMLPL();
 
     /**
      * <code>int32 hit_retreat_angle_compat = 13;</code>
@@ -210,10 +210,10 @@ public final class AttackResultOuterClass {
     int getCIEICIEFBEB();
 
     /**
-     * <code>uint32 INOJLEHGLMH = 15;</code>
-     * @return The iNOJLEHGLMH.
+     * <code>uint32 defense_id = 15;</code>
+     * @return The defenseId.
      */
-    int getINOJLEHGLMH();
+    int getDefenseId();
 
     /**
      * <code>uint32 EEDCANEAEHL = 1769;</code>
@@ -331,7 +331,7 @@ public final class AttackResultOuterClass {
             }
             case 24: {
 
-              defenseId_ = input.readUInt32();
+              lMFMFNEMLPL_ = input.readUInt32();
               break;
             }
             case 34: {
@@ -406,7 +406,7 @@ public final class AttackResultOuterClass {
             }
             case 120: {
 
-              iNOJLEHGLMH_ = input.readUInt32();
+              defenseId_ = input.readUInt32();
               break;
             }
             case 1368: {
@@ -780,15 +780,15 @@ public final class AttackResultOuterClass {
       return lBKEDDNMPLJ_;
     }
 
-    public static final int DEFENSE_ID_FIELD_NUMBER = 3;
-    private int defenseId_;
+    public static final int LMFMFNEMLPL_FIELD_NUMBER = 3;
+    private int lMFMFNEMLPL_;
     /**
-     * <code>uint32 defense_id = 3;</code>
-     * @return The defenseId.
+     * <code>uint32 LMFMFNEMLPL = 3;</code>
+     * @return The lMFMFNEMLPL.
      */
     @java.lang.Override
-    public int getDefenseId() {
-      return defenseId_;
+    public int getLMFMFNEMLPL() {
+      return lMFMFNEMLPL_;
     }
 
     public static final int HIT_RETREAT_ANGLE_COMPAT_FIELD_NUMBER = 13;
@@ -912,15 +912,15 @@ public final class AttackResultOuterClass {
       return cIEICIEFBEB_;
     }
 
-    public static final int INOJLEHGLMH_FIELD_NUMBER = 15;
-    private int iNOJLEHGLMH_;
+    public static final int DEFENSE_ID_FIELD_NUMBER = 15;
+    private int defenseId_;
     /**
-     * <code>uint32 INOJLEHGLMH = 15;</code>
-     * @return The iNOJLEHGLMH.
+     * <code>uint32 defense_id = 15;</code>
+     * @return The defenseId.
      */
     @java.lang.Override
-    public int getINOJLEHGLMH() {
-      return iNOJLEHGLMH_;
+    public int getDefenseId() {
+      return defenseId_;
     }
 
     public static final int EEDCANEAEHL_FIELD_NUMBER = 1769;
@@ -1032,8 +1032,8 @@ public final class AttackResultOuterClass {
       if (damage_ != 0F) {
         output.writeFloat(2, damage_);
       }
-      if (defenseId_ != 0) {
-        output.writeUInt32(3, defenseId_);
+      if (lMFMFNEMLPL_ != 0) {
+        output.writeUInt32(3, lMFMFNEMLPL_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(animEventId_)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 4, animEventId_);
@@ -1062,8 +1062,8 @@ public final class AttackResultOuterClass {
       if (hitRetreatAngleCompat_ != 0) {
         output.writeInt32(13, hitRetreatAngleCompat_);
       }
-      if (iNOJLEHGLMH_ != 0) {
-        output.writeUInt32(15, iNOJLEHGLMH_);
+      if (defenseId_ != 0) {
+        output.writeUInt32(15, defenseId_);
       }
       if (kGAOBDMOGDH_ != false) {
         output.writeBool(171, kGAOBDMOGDH_);
@@ -1143,9 +1143,9 @@ public final class AttackResultOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeFloatSize(2, damage_);
       }
-      if (defenseId_ != 0) {
+      if (lMFMFNEMLPL_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, defenseId_);
+          .computeUInt32Size(3, lMFMFNEMLPL_);
       }
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(animEventId_)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(4, animEventId_);
@@ -1182,9 +1182,9 @@ public final class AttackResultOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeInt32Size(13, hitRetreatAngleCompat_);
       }
-      if (iNOJLEHGLMH_ != 0) {
+      if (defenseId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, iNOJLEHGLMH_);
+          .computeUInt32Size(15, defenseId_);
       }
       if (kGAOBDMOGDH_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -1321,8 +1321,8 @@ public final class AttackResultOuterClass {
           != other.getBMDHDAPKMKM()) return false;
       if (getLBKEDDNMPLJ()
           != other.getLBKEDDNMPLJ()) return false;
-      if (getDefenseId()
-          != other.getDefenseId()) return false;
+      if (getLMFMFNEMLPL()
+          != other.getLMFMFNEMLPL()) return false;
       if (getHitRetreatAngleCompat()
           != other.getHitRetreatAngleCompat()) return false;
       if (getJPEPHLKMJCB()
@@ -1346,8 +1346,8 @@ public final class AttackResultOuterClass {
           != other.getAttackerId()) return false;
       if (getCIEICIEFBEB()
           != other.getCIEICIEFBEB()) return false;
-      if (getINOJLEHGLMH()
-          != other.getINOJLEHGLMH()) return false;
+      if (getDefenseId()
+          != other.getDefenseId()) return false;
       if (getEEDCANEAEHL()
           != other.getEEDCANEAEHL()) return false;
       if (java.lang.Float.floatToIntBits(getLEMBDPPIEDH())
@@ -1411,8 +1411,8 @@ public final class AttackResultOuterClass {
       hash = (53 * hash) + getBMDHDAPKMKM();
       hash = (37 * hash) + LBKEDDNMPLJ_FIELD_NUMBER;
       hash = (53 * hash) + getLBKEDDNMPLJ();
-      hash = (37 * hash) + DEFENSE_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getDefenseId();
+      hash = (37 * hash) + LMFMFNEMLPL_FIELD_NUMBER;
+      hash = (53 * hash) + getLMFMFNEMLPL();
       hash = (37 * hash) + HIT_RETREAT_ANGLE_COMPAT_FIELD_NUMBER;
       hash = (53 * hash) + getHitRetreatAngleCompat();
       hash = (37 * hash) + JPEPHLKMJCB_FIELD_NUMBER;
@@ -1440,8 +1440,8 @@ public final class AttackResultOuterClass {
       hash = (53 * hash) + getAttackerId();
       hash = (37 * hash) + CIEICIEFBEB_FIELD_NUMBER;
       hash = (53 * hash) + getCIEICIEFBEB();
-      hash = (37 * hash) + INOJLEHGLMH_FIELD_NUMBER;
-      hash = (53 * hash) + getINOJLEHGLMH();
+      hash = (37 * hash) + DEFENSE_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getDefenseId();
       hash = (37 * hash) + EEDCANEAEHL_FIELD_NUMBER;
       hash = (53 * hash) + getEEDCANEAEHL();
       hash = (37 * hash) + LEMBDPPIEDH_FIELD_NUMBER;
@@ -1633,7 +1633,7 @@ public final class AttackResultOuterClass {
 
         lBKEDDNMPLJ_ = 0;
 
-        defenseId_ = 0;
+        lMFMFNEMLPL_ = 0;
 
         hitRetreatAngleCompat_ = 0;
 
@@ -1657,7 +1657,7 @@ public final class AttackResultOuterClass {
 
         cIEICIEFBEB_ = 0;
 
-        iNOJLEHGLMH_ = 0;
+        defenseId_ = 0;
 
         eEDCANEAEHL_ = 0;
 
@@ -1733,7 +1733,7 @@ public final class AttackResultOuterClass {
         result.iIIMLDNKGHM_ = iIIMLDNKGHM_;
         result.bMDHDAPKMKM_ = bMDHDAPKMKM_;
         result.lBKEDDNMPLJ_ = lBKEDDNMPLJ_;
-        result.defenseId_ = defenseId_;
+        result.lMFMFNEMLPL_ = lMFMFNEMLPL_;
         result.hitRetreatAngleCompat_ = hitRetreatAngleCompat_;
         result.jPEPHLKMJCB_ = jPEPHLKMJCB_;
         result.cBLHEJANHPA_ = cBLHEJANHPA_;
@@ -1745,7 +1745,7 @@ public final class AttackResultOuterClass {
         result.jLCDPBIPPIN_ = jLCDPBIPPIN_;
         result.attackerId_ = attackerId_;
         result.cIEICIEFBEB_ = cIEICIEFBEB_;
-        result.iNOJLEHGLMH_ = iNOJLEHGLMH_;
+        result.defenseId_ = defenseId_;
         result.eEDCANEAEHL_ = eEDCANEAEHL_;
         result.lEMBDPPIEDH_ = lEMBDPPIEDH_;
         result.damage_ = damage_;
@@ -1843,8 +1843,8 @@ public final class AttackResultOuterClass {
         if (other.getLBKEDDNMPLJ() != 0) {
           setLBKEDDNMPLJ(other.getLBKEDDNMPLJ());
         }
-        if (other.getDefenseId() != 0) {
-          setDefenseId(other.getDefenseId());
+        if (other.getLMFMFNEMLPL() != 0) {
+          setLMFMFNEMLPL(other.getLMFMFNEMLPL());
         }
         if (other.getHitRetreatAngleCompat() != 0) {
           setHitRetreatAngleCompat(other.getHitRetreatAngleCompat());
@@ -1879,8 +1879,8 @@ public final class AttackResultOuterClass {
         if (other.getCIEICIEFBEB() != 0) {
           setCIEICIEFBEB(other.getCIEICIEFBEB());
         }
-        if (other.getINOJLEHGLMH() != 0) {
-          setINOJLEHGLMH(other.getINOJLEHGLMH());
+        if (other.getDefenseId() != 0) {
+          setDefenseId(other.getDefenseId());
         }
         if (other.getEEDCANEAEHL() != 0) {
           setEEDCANEAEHL(other.getEEDCANEAEHL());
@@ -2722,33 +2722,33 @@ public final class AttackResultOuterClass {
         return this;
       }
 
-      private int defenseId_ ;
+      private int lMFMFNEMLPL_ ;
       /**
-       * <code>uint32 defense_id = 3;</code>
-       * @return The defenseId.
+       * <code>uint32 LMFMFNEMLPL = 3;</code>
+       * @return The lMFMFNEMLPL.
        */
       @java.lang.Override
-      public int getDefenseId() {
-        return defenseId_;
+      public int getLMFMFNEMLPL() {
+        return lMFMFNEMLPL_;
       }
       /**
-       * <code>uint32 defense_id = 3;</code>
-       * @param value The defenseId to set.
+       * <code>uint32 LMFMFNEMLPL = 3;</code>
+       * @param value The lMFMFNEMLPL to set.
        * @return This builder for chaining.
        */
-      public Builder setDefenseId(int value) {
+      public Builder setLMFMFNEMLPL(int value) {
         
-        defenseId_ = value;
+        lMFMFNEMLPL_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 defense_id = 3;</code>
+       * <code>uint32 LMFMFNEMLPL = 3;</code>
        * @return This builder for chaining.
        */
-      public Builder clearDefenseId() {
+      public Builder clearLMFMFNEMLPL() {
         
-        defenseId_ = 0;
+        lMFMFNEMLPL_ = 0;
         onChanged();
         return this;
       }
@@ -3094,33 +3094,33 @@ public final class AttackResultOuterClass {
         return this;
       }
 
-      private int iNOJLEHGLMH_ ;
+      private int defenseId_ ;
       /**
-       * <code>uint32 INOJLEHGLMH = 15;</code>
-       * @return The iNOJLEHGLMH.
+       * <code>uint32 defense_id = 15;</code>
+       * @return The defenseId.
        */
       @java.lang.Override
-      public int getINOJLEHGLMH() {
-        return iNOJLEHGLMH_;
+      public int getDefenseId() {
+        return defenseId_;
       }
       /**
-       * <code>uint32 INOJLEHGLMH = 15;</code>
-       * @param value The iNOJLEHGLMH to set.
+       * <code>uint32 defense_id = 15;</code>
+       * @param value The defenseId to set.
        * @return This builder for chaining.
        */
-      public Builder setINOJLEHGLMH(int value) {
+      public Builder setDefenseId(int value) {
         
-        iNOJLEHGLMH_ = value;
+        defenseId_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 INOJLEHGLMH = 15;</code>
+       * <code>uint32 defense_id = 15;</code>
        * @return This builder for chaining.
        */
-      public Builder clearINOJLEHGLMH() {
+      public Builder clearDefenseId() {
         
-        iNOJLEHGLMH_ = 0;
+        defenseId_ = 0;
         onChanged();
         return this;
       }
@@ -3450,14 +3450,14 @@ public final class AttackResultOuterClass {
       "HitEffectResult\022\024\n\013NGAMJEAOKFA\030\240\t \001(\r\022\024\n" +
       "\013GGEGPHLLKBH\030\325\002 \001(\r\022\023\n\013IIIMLDNKGHM\030\006 \001(\r" +
       "\022\024\n\013BMDHDAPKMKM\030\206\t \001(\r\022\024\n\013LBKEDDNMPLJ\030\204\014" +
-      " \001(\r\022\022\n\ndefense_id\030\003 \001(\r\022 \n\030hit_retreat_" +
-      "angle_compat\030\r \001(\005\022\024\n\013JPEPHLKMJCB\030\335\n \001(\r" +
-      "\022\023\n\013CBLHEJANHPA\030\013 \001(\010\022\024\n\013KGAOBDMOGDH\030\253\001 " +
-      "\001(\010\022\024\n\013AKHIABKJIJG\030\337\t \001(\010\022\024\n\013CPMHCDAFFOD" +
-      "\030\254\005 \001(\010\022\024\n\013BBAAEMJMCJJ\030\351\017 \001(\r\022\024\n\013PGNFHFE" +
-      "HLHL\030\264\016 \001(\r\022\024\n\013JLCDPBIPPIN\030\217\016 \001(\002\022\023\n\013att" +
-      "acker_id\030\t \001(\r\022\024\n\013CIEICIEFBEB\030\347\002 \001(\r\022\023\n\013" +
-      "INOJLEHGLMH\030\017 \001(\r\022\024\n\013EEDCANEAEHL\030\351\r \001(\r\022" +
+      " \001(\r\022\023\n\013LMFMFNEMLPL\030\003 \001(\r\022 \n\030hit_retreat" +
+      "_angle_compat\030\r \001(\005\022\024\n\013JPEPHLKMJCB\030\335\n \001(" +
+      "\r\022\023\n\013CBLHEJANHPA\030\013 \001(\010\022\024\n\013KGAOBDMOGDH\030\253\001" +
+      " \001(\010\022\024\n\013AKHIABKJIJG\030\337\t \001(\010\022\024\n\013CPMHCDAFFO" +
+      "D\030\254\005 \001(\010\022\024\n\013BBAAEMJMCJJ\030\351\017 \001(\r\022\024\n\013PGNFHF" +
+      "EHLHL\030\264\016 \001(\r\022\024\n\013JLCDPBIPPIN\030\217\016 \001(\002\022\023\n\013at" +
+      "tacker_id\030\t \001(\r\022\024\n\013CIEICIEFBEB\030\347\002 \001(\r\022\022\n" +
+      "\ndefense_id\030\017 \001(\r\022\024\n\013EEDCANEAEHL\030\351\r \001(\r\022" +
       "\024\n\013LEMBDPPIEDH\030\356\002 \001(\002\022\016\n\006damage\030\002 \001(\002\022\024\n" +
       "\014element_type\030\010 \001(\r\022\024\n\013HBOMIFNBHHG\030\376\r \001(" +
       "\002\022\024\n\013PEAOHGAIJBG\030\341\n \001(\r\022\024\n\013KFGKPKNJNGJ\030\314" +
@@ -3477,7 +3477,7 @@ public final class AttackResultOuterClass {
     internal_static_AttackResult_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_AttackResult_descriptor,
-        new java.lang.String[] { "HitCollision", "ResolvedDir", "KEJPHAIMHMK", "AbilityIdentifier", "AnimEventId", "HitEffResult", "NGAMJEAOKFA", "GGEGPHLLKBH", "IIIMLDNKGHM", "BMDHDAPKMKM", "LBKEDDNMPLJ", "DefenseId", "HitRetreatAngleCompat", "JPEPHLKMJCB", "CBLHEJANHPA", "KGAOBDMOGDH", "AKHIABKJIJG", "CPMHCDAFFOD", "BBAAEMJMCJJ", "PGNFHFEHLHL", "JLCDPBIPPIN", "AttackerId", "CIEICIEFBEB", "INOJLEHGLMH", "EEDCANEAEHL", "LEMBDPPIEDH", "Damage", "ElementType", "HBOMIFNBHHG", "PEAOHGAIJBG", "KFGKPKNJNGJ", "CFNOIKPPCCM", });
+        new java.lang.String[] { "HitCollision", "ResolvedDir", "KEJPHAIMHMK", "AbilityIdentifier", "AnimEventId", "HitEffResult", "NGAMJEAOKFA", "GGEGPHLLKBH", "IIIMLDNKGHM", "BMDHDAPKMKM", "LBKEDDNMPLJ", "LMFMFNEMLPL", "HitRetreatAngleCompat", "JPEPHLKMJCB", "CBLHEJANHPA", "KGAOBDMOGDH", "AKHIABKJIJG", "CPMHCDAFFOD", "BBAAEMJMCJJ", "PGNFHFEHLHL", "JLCDPBIPPIN", "AttackerId", "CIEICIEFBEB", "DefenseId", "EEDCANEAEHL", "LEMBDPPIEDH", "Damage", "ElementType", "HBOMIFNBHHG", "PEAOHGAIJBG", "KFGKPKNJNGJ", "CFNOIKPPCCM", });
     emu.grasscutter.net.proto.AbilityIdentifierOuterClass.getDescriptor();
     emu.grasscutter.net.proto.AttackHitEffectResultOuterClass.getDescriptor();
     emu.grasscutter.net.proto.VectorOuterClass.getDescriptor();

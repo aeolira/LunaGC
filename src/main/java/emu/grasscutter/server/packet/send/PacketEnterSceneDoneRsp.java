@@ -9,8 +9,14 @@ public class PacketEnterSceneDoneRsp extends BasePacket {
     public PacketEnterSceneDoneRsp(Player player) {
         super(PacketOpcodes.EnterSceneDoneRsp);
 
+        int maskedToken = (player.getEnterSceneToken() ^ 49009) - 34315;
+        int maskedRetcode = (0 ^ 27936) - 48812;
+
         EnterSceneDoneRsp p =
-                EnterSceneDoneRsp.newBuilder().setEnterSceneToken(player.getEnterSceneToken()).build();
+                EnterSceneDoneRsp.newBuilder()
+                    .setEnterSceneToken(maskedToken)
+                    .setRetcode(maskedRetcode)
+                    .build();
 
         this.setData(p);
     }

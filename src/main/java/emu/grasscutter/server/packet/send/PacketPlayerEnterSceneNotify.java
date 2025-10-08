@@ -17,7 +17,8 @@ public class PacketPlayerEnterSceneNotify extends BasePacket {
         super(PacketOpcodes.PlayerEnterSceneNotify);
 
         player.setSceneLoadState(SceneLoadState.LOADING);
-        player.setEnterSceneToken(Utils.randomRange(1000, 99999));
+        int rawToken = Utils.randomRange(30000, 99999);
+        player.setEnterSceneToken(rawToken);
 
         long currentTime = System.currentTimeMillis();
 

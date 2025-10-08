@@ -64,7 +64,7 @@ public final class PacketOpcodes {
 	public static final int SceneTeamUpdateNotify = 25841; 
 	public static final int SyncTeamEntityNotify = 24345; 
 	public static final int SyncScenePlayTeamEntityNotify = 8452; 
-	public static final int WindSeedType1Notify = 26953;  // todo
+	public static final int WindSeedType1Notify = 21994;
 	public static final int EnterWorldAreaReq = 5869; 
 	public static final int EnterWorldAreaRsp = 23822; 
     public static final int GetWidgetSlotReq = 7158;
@@ -199,6 +199,7 @@ public final class PacketOpcodes {
 	public static final int ScenePlayBattleUidOpNotify = 3049;
 	public static final int ScenePlayOwnerCheckRsp = 644;
 	public static final int ScenePlayerSoundNotify = 25922; 
+    public static final int SceneTransToPointReq = 29351;
 	public static final int SceneTransToPointRsp = 8560; 
 	public static final int SceneWeatherForcastRsp = 21091;
 	public static final int SetUpAvatarTeamReq = 26162; 
@@ -309,6 +310,14 @@ public final class PacketOpcodes {
 	public static final int WeaponUpgradeRsp = 575; 
     public static final int CalcWeaponUpgradeReturnItemsReq = 2030; 
     public static final int CalcWeaponUpgradeReturnItemsRsp = 9257; 
+    public static final int ObstacleModifyNotify = 2387;
+    public static final int UnlockTransPointReq = 5099;
+    public static final int UnlockTransPointRsp = 1; // todo
+    public static final int GetMapMarkTipsReq = 3911;
+    public static final int GetCityReputationMapInfoReq = 24080;
+    public static final int GetInvestigationMonsterReq = 3782; 
+	public static final int GetInvestigationMonsterRsp = 28167; 
+
 
     // useless
     public static final int PlayerReportReq = 5599; // who tf are u gonna report
@@ -317,7 +326,6 @@ public final class PacketOpcodes {
 
     // todo (never)
     public static final int RechargeRsp = 1;
-    public static final int SceneTransToPointReq = 1;
     public static final int SetPlayerHeadImageRsp = 1;  
     public static final int AvatarPromoteReq = 1; // tbd
 	public static final int AsterLittleInfoNotify = 1;
@@ -350,8 +358,6 @@ public final class PacketOpcodes {
 	public static final int GetDungeonEntryExploreConditionRsp = 1; 
 	public static final int GetGameplayRecommendationReq = 1; 
 	public static final int GetGameplayRecommendationRsp = 1; 
-	public static final int GetInvestigationMonsterReq = 1; 
-	public static final int GetInvestigationMonsterRsp = 1; 
 	public static final int GetParentQuestVideoKeyRsp = 1; 
     public static final int GetShopmallDataReq = 1;
 	public static final int GetShopmallDataRsp = 1;
@@ -1267,7 +1273,6 @@ public final class PacketOpcodes {
     public static final int GetCityHuntingOfferRsp = 1;
     public static final int GetCityReputationInfoReq = 1;
     public static final int GetCityReputationInfoRsp = 1;
-    public static final int GetCityReputationMapInfoReq = 1;
     public static final int GetCityReputationMapInfoRsp = 1;
     public static final int GetCompoundDataReq = 1;
     public static final int GetCompoundDataRsp = 1;
@@ -1292,7 +1297,6 @@ public final class PacketOpcodes {
     public static final int GetHuntingOfferRewardRsp = 1;
     public static final int GetMailItemReq = 1;
     public static final int GetMailItemRsp = 1;
-    public static final int GetMapMarkTipsReq = 1;
     public static final int GetMapMarkTipsRsp = 1;
     public static final int GetMechanicusInfoReq = 1;
     public static final int GetMechanicusInfoRsp = 1;
@@ -1708,7 +1712,6 @@ public final class PacketOpcodes {
     public static final int NightCrowGadgetObservationMatchReq = 1;
     public static final int NightCrowGadgetObservationMatchRsp = 1;
     public static final int NpcTalkStateNotify = 1;
-    public static final int ObstacleModifyNotify = 1;
     public static final int OfferingInteractReq = 1;
     public static final int OfferingPariSearchFinishNotify = 1;
     public static final int OfferingPariSearchReq = 1;
@@ -2354,8 +2357,6 @@ public final class PacketOpcodes {
     public static final int UnlockNameCardNotify = 1;
     public static final int UnlockPersonalLineReq = 1;
     public static final int UnlockPersonalLineRsp = 1;
-    public static final int UnlockTransPointReq = 24950;
-    public static final int UnlockTransPointRsp = 1;
     public static final int UnlockedFurnitureFormulaDataNotify = 1;
     public static final int UnlockedFurnitureSuiteDataNotify = 1;
     public static final int UnmarkEntityInMinMapNotify = 1;
