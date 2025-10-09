@@ -26,7 +26,7 @@ public final class AvatarGainFlycloakNotifyOuterClass {
   }
   /**
    * <pre>
-   * CmdId: 25727
+   * CmdId: 25300
    * </pre>
    *
    * Protobuf type {@code AvatarGainFlycloakNotify}
@@ -278,7 +278,7 @@ public final class AvatarGainFlycloakNotifyOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 25727
+     * CmdId: 25300
      * </pre>
      *
      * Protobuf type {@code AvatarGainFlycloakNotify}

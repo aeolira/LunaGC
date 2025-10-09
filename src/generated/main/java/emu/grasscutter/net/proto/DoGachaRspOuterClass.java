@@ -19,6 +19,12 @@ public final class DoGachaRspOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
+     * <code>uint32 cost_item_id = 1;</code>
+     * @return The costItemId.
+     */
+    int getCostItemId();
+
+    /**
      * <code>repeated .GachaItem gacha_item_list = 2;</code>
      */
     java.util.List<emu.grasscutter.net.proto.GachaItemOuterClass.GachaItem> 
@@ -49,34 +55,36 @@ public final class DoGachaRspOuterClass {
     int getGachaTimes();
 
     /**
-     * <pre>
-     *2x
-     * </pre>
-     *
-     * <code>bool is_under_minors_restrict = 117;</code>
-     * @return The isUnderMinorsRestrict.
+     * <code>uint32 left_gacha_times = 4;</code>
+     * @return The leftGachaTimes.
      */
-    boolean getIsUnderMinorsRestrict();
+    int getLeftGachaTimes();
 
     /**
      * <pre>
-     *1x
+     * dk
      * </pre>
      *
-     * <code>bool is_epitomized = 1783;</code>
-     * @return The isEpitomized.
+     * <code>uint32 wish_item_id = 5;</code>
+     * @return The wishItemId.
      */
-    boolean getIsEpitomized();
+    int getWishItemId();
 
     /**
      * <pre>
-     *2x
+     * dk
      * </pre>
      *
-     * <code>bool is_under_general_restrict = 805;</code>
-     * @return The isUnderGeneralRestrict.
+     * <code>uint32 wish_progress = 6;</code>
+     * @return The wishProgress.
      */
-    boolean getIsUnderGeneralRestrict();
+    int getWishProgress();
+
+    /**
+     * <code>uint32 gacha_schedule_id = 7;</code>
+     * @return The gachaScheduleId.
+     */
+    int getGachaScheduleId();
 
     /**
      * <code>uint32 gacha_type = 8;</code>
@@ -85,16 +93,32 @@ public final class DoGachaRspOuterClass {
     int getGachaType();
 
     /**
-     * <code>uint32 wish_item_id = 1;</code>
-     * @return The wishItemId.
+     * <code>uint32 new_gacha_random = 9;</code>
+     * @return The newGachaRandom.
      */
-    int getWishItemId();
+    int getNewGachaRandom();
 
     /**
+     * <code>uint32 gacha_times_limit = 10;</code>
+     * @return The gachaTimesLimit.
+     */
+    int getGachaTimesLimit();
+
+    /**
+     * <pre>
+     * dk
+     * </pre>
+     *
      * <code>uint32 wish_max_progress = 11;</code>
      * @return The wishMaxProgress.
      */
     int getWishMaxProgress();
+
+    /**
+     * <code>int32 retcode = 12;</code>
+     * @return The retcode.
+     */
+    int getRetcode();
 
     /**
      * <code>uint32 cost_item_num = 13;</code>
@@ -109,40 +133,28 @@ public final class DoGachaRspOuterClass {
     int getTenCostItemNum();
 
     /**
-     * <code>uint32 wish_progress = 5;</code>
-     * @return The wishProgress.
-     */
-    int getWishProgress();
-
-    /**
-     * <code>uint32 cost_item_id = 4;</code>
-     * @return The costItemId.
-     */
-    int getCostItemId();
-
-    /**
-     * <code>uint32 cur_schedule_daily_gacha_times = 1031;</code>
-     * @return The curScheduleDailyGachaTimes.
-     */
-    int getCurScheduleDailyGachaTimes();
-
-    /**
-     * <code>int32 retcode = 12;</code>
-     * @return The retcode.
-     */
-    int getRetcode();
-
-    /**
-     * <code>uint32 ten_cost_item_id = 831;</code>
+     * <code>uint32 ten_cost_item_id = 15;</code>
      * @return The tenCostItemId.
      */
     int getTenCostItemId();
 
     /**
-     * <code>uint32 left_gacha_times = 15;</code>
-     * @return The leftGachaTimes.
+     * <code>bool ONAKGOEIBEJ = 237;</code>
+     * @return The oNAKGOEIBEJ.
      */
-    int getLeftGachaTimes();
+    boolean getONAKGOEIBEJ();
+
+    /**
+     * <code>bool MPDGNGKJJDD = 628;</code>
+     * @return The mPDGNGKJJDD.
+     */
+    boolean getMPDGNGKJJDD();
+
+    /**
+     * <code>bool EGONNFEODIO = 871;</code>
+     * @return The eGONNFEODIO.
+     */
+    boolean getEGONNFEODIO();
 
     /**
      * <code>uint32 daily_gacha_times = 1288;</code>
@@ -151,26 +163,14 @@ public final class DoGachaRspOuterClass {
     int getDailyGachaTimes();
 
     /**
-     * <code>uint32 gacha_schedule_id = 7;</code>
-     * @return The gachaScheduleId.
+     * <code>uint32 cur_schedule_daily_gacha_times = 1381;</code>
+     * @return The curScheduleDailyGachaTimes.
      */
-    int getGachaScheduleId();
-
-    /**
-     * <code>uint32 new_gacha_random = 9;</code>
-     * @return The newGachaRandom.
-     */
-    int getNewGachaRandom();
-
-    /**
-     * <code>uint32 gacha_times_limit = 10;</code>
-     * @return The gachaTimesLimit.
-     */
-    int getGachaTimesLimit();
+    int getCurScheduleDailyGachaTimes();
   }
   /**
    * <pre>
-   * CmdId: 1113
+   * CmdID: 1113
    * </pre>
    *
    * Protobuf type {@code DoGachaRsp}
@@ -221,7 +221,7 @@ public final class DoGachaRspOuterClass {
               break;
             case 8: {
 
-              wishItemId_ = input.readUInt32();
+              costItemId_ = input.readUInt32();
               break;
             }
             case 18: {
@@ -240,10 +240,15 @@ public final class DoGachaRspOuterClass {
             }
             case 32: {
 
-              costItemId_ = input.readUInt32();
+              leftGachaTimes_ = input.readUInt32();
               break;
             }
             case 40: {
+
+              wishItemId_ = input.readUInt32();
+              break;
+            }
+            case 48: {
 
               wishProgress_ = input.readUInt32();
               break;
@@ -290,27 +295,22 @@ public final class DoGachaRspOuterClass {
             }
             case 120: {
 
-              leftGachaTimes_ = input.readUInt32();
-              break;
-            }
-            case 936: {
-
-              isUnderMinorsRestrict_ = input.readBool();
-              break;
-            }
-            case 6440: {
-
-              isUnderGeneralRestrict_ = input.readBool();
-              break;
-            }
-            case 6648: {
-
               tenCostItemId_ = input.readUInt32();
               break;
             }
-            case 8248: {
+            case 1896: {
 
-              curScheduleDailyGachaTimes_ = input.readUInt32();
+              oNAKGOEIBEJ_ = input.readBool();
+              break;
+            }
+            case 5024: {
+
+              mPDGNGKJJDD_ = input.readBool();
+              break;
+            }
+            case 6968: {
+
+              eGONNFEODIO_ = input.readBool();
               break;
             }
             case 10304: {
@@ -318,9 +318,9 @@ public final class DoGachaRspOuterClass {
               dailyGachaTimes_ = input.readUInt32();
               break;
             }
-            case 14264: {
+            case 11048: {
 
-              isEpitomized_ = input.readBool();
+              curScheduleDailyGachaTimes_ = input.readUInt32();
               break;
             }
             default: {
@@ -356,6 +356,17 @@ public final class DoGachaRspOuterClass {
       return emu.grasscutter.net.proto.DoGachaRspOuterClass.internal_static_DoGachaRsp_fieldAccessorTable
           .ensureFieldAccessorsInitialized(
               emu.grasscutter.net.proto.DoGachaRspOuterClass.DoGachaRsp.class, emu.grasscutter.net.proto.DoGachaRspOuterClass.DoGachaRsp.Builder.class);
+    }
+
+    public static final int COST_ITEM_ID_FIELD_NUMBER = 1;
+    private int costItemId_;
+    /**
+     * <code>uint32 cost_item_id = 1;</code>
+     * @return The costItemId.
+     */
+    @java.lang.Override
+    public int getCostItemId() {
+      return costItemId_;
     }
 
     public static final int GACHA_ITEM_LIST_FIELD_NUMBER = 2;
@@ -409,165 +420,10 @@ public final class DoGachaRspOuterClass {
       return gachaTimes_;
     }
 
-    public static final int IS_UNDER_MINORS_RESTRICT_FIELD_NUMBER = 117;
-    private boolean isUnderMinorsRestrict_;
-    /**
-     * <pre>
-     *2x
-     * </pre>
-     *
-     * <code>bool is_under_minors_restrict = 117;</code>
-     * @return The isUnderMinorsRestrict.
-     */
-    @java.lang.Override
-    public boolean getIsUnderMinorsRestrict() {
-      return isUnderMinorsRestrict_;
-    }
-
-    public static final int IS_EPITOMIZED_FIELD_NUMBER = 1783;
-    private boolean isEpitomized_;
-    /**
-     * <pre>
-     *1x
-     * </pre>
-     *
-     * <code>bool is_epitomized = 1783;</code>
-     * @return The isEpitomized.
-     */
-    @java.lang.Override
-    public boolean getIsEpitomized() {
-      return isEpitomized_;
-    }
-
-    public static final int IS_UNDER_GENERAL_RESTRICT_FIELD_NUMBER = 805;
-    private boolean isUnderGeneralRestrict_;
-    /**
-     * <pre>
-     *2x
-     * </pre>
-     *
-     * <code>bool is_under_general_restrict = 805;</code>
-     * @return The isUnderGeneralRestrict.
-     */
-    @java.lang.Override
-    public boolean getIsUnderGeneralRestrict() {
-      return isUnderGeneralRestrict_;
-    }
-
-    public static final int GACHA_TYPE_FIELD_NUMBER = 8;
-    private int gachaType_;
-    /**
-     * <code>uint32 gacha_type = 8;</code>
-     * @return The gachaType.
-     */
-    @java.lang.Override
-    public int getGachaType() {
-      return gachaType_;
-    }
-
-    public static final int WISH_ITEM_ID_FIELD_NUMBER = 1;
-    private int wishItemId_;
-    /**
-     * <code>uint32 wish_item_id = 1;</code>
-     * @return The wishItemId.
-     */
-    @java.lang.Override
-    public int getWishItemId() {
-      return wishItemId_;
-    }
-
-    public static final int WISH_MAX_PROGRESS_FIELD_NUMBER = 11;
-    private int wishMaxProgress_;
-    /**
-     * <code>uint32 wish_max_progress = 11;</code>
-     * @return The wishMaxProgress.
-     */
-    @java.lang.Override
-    public int getWishMaxProgress() {
-      return wishMaxProgress_;
-    }
-
-    public static final int COST_ITEM_NUM_FIELD_NUMBER = 13;
-    private int costItemNum_;
-    /**
-     * <code>uint32 cost_item_num = 13;</code>
-     * @return The costItemNum.
-     */
-    @java.lang.Override
-    public int getCostItemNum() {
-      return costItemNum_;
-    }
-
-    public static final int TEN_COST_ITEM_NUM_FIELD_NUMBER = 14;
-    private int tenCostItemNum_;
-    /**
-     * <code>uint32 ten_cost_item_num = 14;</code>
-     * @return The tenCostItemNum.
-     */
-    @java.lang.Override
-    public int getTenCostItemNum() {
-      return tenCostItemNum_;
-    }
-
-    public static final int WISH_PROGRESS_FIELD_NUMBER = 5;
-    private int wishProgress_;
-    /**
-     * <code>uint32 wish_progress = 5;</code>
-     * @return The wishProgress.
-     */
-    @java.lang.Override
-    public int getWishProgress() {
-      return wishProgress_;
-    }
-
-    public static final int COST_ITEM_ID_FIELD_NUMBER = 4;
-    private int costItemId_;
-    /**
-     * <code>uint32 cost_item_id = 4;</code>
-     * @return The costItemId.
-     */
-    @java.lang.Override
-    public int getCostItemId() {
-      return costItemId_;
-    }
-
-    public static final int CUR_SCHEDULE_DAILY_GACHA_TIMES_FIELD_NUMBER = 1031;
-    private int curScheduleDailyGachaTimes_;
-    /**
-     * <code>uint32 cur_schedule_daily_gacha_times = 1031;</code>
-     * @return The curScheduleDailyGachaTimes.
-     */
-    @java.lang.Override
-    public int getCurScheduleDailyGachaTimes() {
-      return curScheduleDailyGachaTimes_;
-    }
-
-    public static final int RETCODE_FIELD_NUMBER = 12;
-    private int retcode_;
-    /**
-     * <code>int32 retcode = 12;</code>
-     * @return The retcode.
-     */
-    @java.lang.Override
-    public int getRetcode() {
-      return retcode_;
-    }
-
-    public static final int TEN_COST_ITEM_ID_FIELD_NUMBER = 831;
-    private int tenCostItemId_;
-    /**
-     * <code>uint32 ten_cost_item_id = 831;</code>
-     * @return The tenCostItemId.
-     */
-    @java.lang.Override
-    public int getTenCostItemId() {
-      return tenCostItemId_;
-    }
-
-    public static final int LEFT_GACHA_TIMES_FIELD_NUMBER = 15;
+    public static final int LEFT_GACHA_TIMES_FIELD_NUMBER = 4;
     private int leftGachaTimes_;
     /**
-     * <code>uint32 left_gacha_times = 15;</code>
+     * <code>uint32 left_gacha_times = 4;</code>
      * @return The leftGachaTimes.
      */
     @java.lang.Override
@@ -575,15 +431,34 @@ public final class DoGachaRspOuterClass {
       return leftGachaTimes_;
     }
 
-    public static final int DAILY_GACHA_TIMES_FIELD_NUMBER = 1288;
-    private int dailyGachaTimes_;
+    public static final int WISH_ITEM_ID_FIELD_NUMBER = 5;
+    private int wishItemId_;
     /**
-     * <code>uint32 daily_gacha_times = 1288;</code>
-     * @return The dailyGachaTimes.
+     * <pre>
+     * dk
+     * </pre>
+     *
+     * <code>uint32 wish_item_id = 5;</code>
+     * @return The wishItemId.
      */
     @java.lang.Override
-    public int getDailyGachaTimes() {
-      return dailyGachaTimes_;
+    public int getWishItemId() {
+      return wishItemId_;
+    }
+
+    public static final int WISH_PROGRESS_FIELD_NUMBER = 6;
+    private int wishProgress_;
+    /**
+     * <pre>
+     * dk
+     * </pre>
+     *
+     * <code>uint32 wish_progress = 6;</code>
+     * @return The wishProgress.
+     */
+    @java.lang.Override
+    public int getWishProgress() {
+      return wishProgress_;
     }
 
     public static final int GACHA_SCHEDULE_ID_FIELD_NUMBER = 7;
@@ -595,6 +470,17 @@ public final class DoGachaRspOuterClass {
     @java.lang.Override
     public int getGachaScheduleId() {
       return gachaScheduleId_;
+    }
+
+    public static final int GACHA_TYPE_FIELD_NUMBER = 8;
+    private int gachaType_;
+    /**
+     * <code>uint32 gacha_type = 8;</code>
+     * @return The gachaType.
+     */
+    @java.lang.Override
+    public int getGachaType() {
+      return gachaType_;
     }
 
     public static final int NEW_GACHA_RANDOM_FIELD_NUMBER = 9;
@@ -619,6 +505,120 @@ public final class DoGachaRspOuterClass {
       return gachaTimesLimit_;
     }
 
+    public static final int WISH_MAX_PROGRESS_FIELD_NUMBER = 11;
+    private int wishMaxProgress_;
+    /**
+     * <pre>
+     * dk
+     * </pre>
+     *
+     * <code>uint32 wish_max_progress = 11;</code>
+     * @return The wishMaxProgress.
+     */
+    @java.lang.Override
+    public int getWishMaxProgress() {
+      return wishMaxProgress_;
+    }
+
+    public static final int RETCODE_FIELD_NUMBER = 12;
+    private int retcode_;
+    /**
+     * <code>int32 retcode = 12;</code>
+     * @return The retcode.
+     */
+    @java.lang.Override
+    public int getRetcode() {
+      return retcode_;
+    }
+
+    public static final int COST_ITEM_NUM_FIELD_NUMBER = 13;
+    private int costItemNum_;
+    /**
+     * <code>uint32 cost_item_num = 13;</code>
+     * @return The costItemNum.
+     */
+    @java.lang.Override
+    public int getCostItemNum() {
+      return costItemNum_;
+    }
+
+    public static final int TEN_COST_ITEM_NUM_FIELD_NUMBER = 14;
+    private int tenCostItemNum_;
+    /**
+     * <code>uint32 ten_cost_item_num = 14;</code>
+     * @return The tenCostItemNum.
+     */
+    @java.lang.Override
+    public int getTenCostItemNum() {
+      return tenCostItemNum_;
+    }
+
+    public static final int TEN_COST_ITEM_ID_FIELD_NUMBER = 15;
+    private int tenCostItemId_;
+    /**
+     * <code>uint32 ten_cost_item_id = 15;</code>
+     * @return The tenCostItemId.
+     */
+    @java.lang.Override
+    public int getTenCostItemId() {
+      return tenCostItemId_;
+    }
+
+    public static final int ONAKGOEIBEJ_FIELD_NUMBER = 237;
+    private boolean oNAKGOEIBEJ_;
+    /**
+     * <code>bool ONAKGOEIBEJ = 237;</code>
+     * @return The oNAKGOEIBEJ.
+     */
+    @java.lang.Override
+    public boolean getONAKGOEIBEJ() {
+      return oNAKGOEIBEJ_;
+    }
+
+    public static final int MPDGNGKJJDD_FIELD_NUMBER = 628;
+    private boolean mPDGNGKJJDD_;
+    /**
+     * <code>bool MPDGNGKJJDD = 628;</code>
+     * @return The mPDGNGKJJDD.
+     */
+    @java.lang.Override
+    public boolean getMPDGNGKJJDD() {
+      return mPDGNGKJJDD_;
+    }
+
+    public static final int EGONNFEODIO_FIELD_NUMBER = 871;
+    private boolean eGONNFEODIO_;
+    /**
+     * <code>bool EGONNFEODIO = 871;</code>
+     * @return The eGONNFEODIO.
+     */
+    @java.lang.Override
+    public boolean getEGONNFEODIO() {
+      return eGONNFEODIO_;
+    }
+
+    public static final int DAILY_GACHA_TIMES_FIELD_NUMBER = 1288;
+    private int dailyGachaTimes_;
+    /**
+     * <code>uint32 daily_gacha_times = 1288;</code>
+     * @return The dailyGachaTimes.
+     */
+    @java.lang.Override
+    public int getDailyGachaTimes() {
+      return dailyGachaTimes_;
+    }
+
+    public static final int CUR_SCHEDULE_DAILY_GACHA_TIMES_FIELD_NUMBER = 1381;
+    private int curScheduleDailyGachaTimes_;
+    /**
+     * <code>uint32 cur_schedule_daily_gacha_times = 1381;</code>
+     * @return The curScheduleDailyGachaTimes.
+     */
+    @java.lang.Override
+    public int getCurScheduleDailyGachaTimes() {
+      return curScheduleDailyGachaTimes_;
+    }
+
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
     public final boolean isInitialized() {
@@ -633,8 +633,8 @@ public final class DoGachaRspOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
-      if (wishItemId_ != 0) {
-        output.writeUInt32(1, wishItemId_);
+      if (costItemId_ != 0) {
+        output.writeUInt32(1, costItemId_);
       }
       for (int i = 0; i < gachaItemList_.size(); i++) {
         output.writeMessage(2, gachaItemList_.get(i));
@@ -642,11 +642,14 @@ public final class DoGachaRspOuterClass {
       if (gachaTimes_ != 0) {
         output.writeUInt32(3, gachaTimes_);
       }
-      if (costItemId_ != 0) {
-        output.writeUInt32(4, costItemId_);
+      if (leftGachaTimes_ != 0) {
+        output.writeUInt32(4, leftGachaTimes_);
+      }
+      if (wishItemId_ != 0) {
+        output.writeUInt32(5, wishItemId_);
       }
       if (wishProgress_ != 0) {
-        output.writeUInt32(5, wishProgress_);
+        output.writeUInt32(6, wishProgress_);
       }
       if (gachaScheduleId_ != 0) {
         output.writeUInt32(7, gachaScheduleId_);
@@ -672,26 +675,23 @@ public final class DoGachaRspOuterClass {
       if (tenCostItemNum_ != 0) {
         output.writeUInt32(14, tenCostItemNum_);
       }
-      if (leftGachaTimes_ != 0) {
-        output.writeUInt32(15, leftGachaTimes_);
-      }
-      if (isUnderMinorsRestrict_ != false) {
-        output.writeBool(117, isUnderMinorsRestrict_);
-      }
-      if (isUnderGeneralRestrict_ != false) {
-        output.writeBool(805, isUnderGeneralRestrict_);
-      }
       if (tenCostItemId_ != 0) {
-        output.writeUInt32(831, tenCostItemId_);
+        output.writeUInt32(15, tenCostItemId_);
       }
-      if (curScheduleDailyGachaTimes_ != 0) {
-        output.writeUInt32(1031, curScheduleDailyGachaTimes_);
+      if (oNAKGOEIBEJ_ != false) {
+        output.writeBool(237, oNAKGOEIBEJ_);
+      }
+      if (mPDGNGKJJDD_ != false) {
+        output.writeBool(628, mPDGNGKJJDD_);
+      }
+      if (eGONNFEODIO_ != false) {
+        output.writeBool(871, eGONNFEODIO_);
       }
       if (dailyGachaTimes_ != 0) {
         output.writeUInt32(1288, dailyGachaTimes_);
       }
-      if (isEpitomized_ != false) {
-        output.writeBool(1783, isEpitomized_);
+      if (curScheduleDailyGachaTimes_ != 0) {
+        output.writeUInt32(1381, curScheduleDailyGachaTimes_);
       }
       unknownFields.writeTo(output);
     }
@@ -702,9 +702,9 @@ public final class DoGachaRspOuterClass {
       if (size != -1) return size;
 
       size = 0;
-      if (wishItemId_ != 0) {
+      if (costItemId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, wishItemId_);
+          .computeUInt32Size(1, costItemId_);
       }
       for (int i = 0; i < gachaItemList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -714,13 +714,17 @@ public final class DoGachaRspOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(3, gachaTimes_);
       }
-      if (costItemId_ != 0) {
+      if (leftGachaTimes_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, costItemId_);
+          .computeUInt32Size(4, leftGachaTimes_);
+      }
+      if (wishItemId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(5, wishItemId_);
       }
       if (wishProgress_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, wishProgress_);
+          .computeUInt32Size(6, wishProgress_);
       }
       if (gachaScheduleId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -754,33 +758,29 @@ public final class DoGachaRspOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(14, tenCostItemNum_);
       }
-      if (leftGachaTimes_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, leftGachaTimes_);
-      }
-      if (isUnderMinorsRestrict_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(117, isUnderMinorsRestrict_);
-      }
-      if (isUnderGeneralRestrict_ != false) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(805, isUnderGeneralRestrict_);
-      }
       if (tenCostItemId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(831, tenCostItemId_);
+          .computeUInt32Size(15, tenCostItemId_);
       }
-      if (curScheduleDailyGachaTimes_ != 0) {
+      if (oNAKGOEIBEJ_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1031, curScheduleDailyGachaTimes_);
+          .computeBoolSize(237, oNAKGOEIBEJ_);
+      }
+      if (mPDGNGKJJDD_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(628, mPDGNGKJJDD_);
+      }
+      if (eGONNFEODIO_ != false) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeBoolSize(871, eGONNFEODIO_);
       }
       if (dailyGachaTimes_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(1288, dailyGachaTimes_);
       }
-      if (isEpitomized_ != false) {
+      if (curScheduleDailyGachaTimes_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(1783, isEpitomized_);
+          .computeUInt32Size(1381, curScheduleDailyGachaTimes_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -797,46 +797,46 @@ public final class DoGachaRspOuterClass {
       }
       emu.grasscutter.net.proto.DoGachaRspOuterClass.DoGachaRsp other = (emu.grasscutter.net.proto.DoGachaRspOuterClass.DoGachaRsp) obj;
 
+      if (getCostItemId()
+          != other.getCostItemId()) return false;
       if (!getGachaItemListList()
           .equals(other.getGachaItemListList())) return false;
       if (getGachaTimes()
           != other.getGachaTimes()) return false;
-      if (getIsUnderMinorsRestrict()
-          != other.getIsUnderMinorsRestrict()) return false;
-      if (getIsEpitomized()
-          != other.getIsEpitomized()) return false;
-      if (getIsUnderGeneralRestrict()
-          != other.getIsUnderGeneralRestrict()) return false;
-      if (getGachaType()
-          != other.getGachaType()) return false;
-      if (getWishItemId()
-          != other.getWishItemId()) return false;
-      if (getWishMaxProgress()
-          != other.getWishMaxProgress()) return false;
-      if (getCostItemNum()
-          != other.getCostItemNum()) return false;
-      if (getTenCostItemNum()
-          != other.getTenCostItemNum()) return false;
-      if (getWishProgress()
-          != other.getWishProgress()) return false;
-      if (getCostItemId()
-          != other.getCostItemId()) return false;
-      if (getCurScheduleDailyGachaTimes()
-          != other.getCurScheduleDailyGachaTimes()) return false;
-      if (getRetcode()
-          != other.getRetcode()) return false;
-      if (getTenCostItemId()
-          != other.getTenCostItemId()) return false;
       if (getLeftGachaTimes()
           != other.getLeftGachaTimes()) return false;
-      if (getDailyGachaTimes()
-          != other.getDailyGachaTimes()) return false;
+      if (getWishItemId()
+          != other.getWishItemId()) return false;
+      if (getWishProgress()
+          != other.getWishProgress()) return false;
       if (getGachaScheduleId()
           != other.getGachaScheduleId()) return false;
+      if (getGachaType()
+          != other.getGachaType()) return false;
       if (getNewGachaRandom()
           != other.getNewGachaRandom()) return false;
       if (getGachaTimesLimit()
           != other.getGachaTimesLimit()) return false;
+      if (getWishMaxProgress()
+          != other.getWishMaxProgress()) return false;
+      if (getRetcode()
+          != other.getRetcode()) return false;
+      if (getCostItemNum()
+          != other.getCostItemNum()) return false;
+      if (getTenCostItemNum()
+          != other.getTenCostItemNum()) return false;
+      if (getTenCostItemId()
+          != other.getTenCostItemId()) return false;
+      if (getONAKGOEIBEJ()
+          != other.getONAKGOEIBEJ()) return false;
+      if (getMPDGNGKJJDD()
+          != other.getMPDGNGKJJDD()) return false;
+      if (getEGONNFEODIO()
+          != other.getEGONNFEODIO()) return false;
+      if (getDailyGachaTimes()
+          != other.getDailyGachaTimes()) return false;
+      if (getCurScheduleDailyGachaTimes()
+          != other.getCurScheduleDailyGachaTimes()) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -848,51 +848,51 @@ public final class DoGachaRspOuterClass {
       }
       int hash = 41;
       hash = (19 * hash) + getDescriptor().hashCode();
+      hash = (37 * hash) + COST_ITEM_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getCostItemId();
       if (getGachaItemListCount() > 0) {
         hash = (37 * hash) + GACHA_ITEM_LIST_FIELD_NUMBER;
         hash = (53 * hash) + getGachaItemListList().hashCode();
       }
       hash = (37 * hash) + GACHA_TIMES_FIELD_NUMBER;
       hash = (53 * hash) + getGachaTimes();
-      hash = (37 * hash) + IS_UNDER_MINORS_RESTRICT_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getIsUnderMinorsRestrict());
-      hash = (37 * hash) + IS_EPITOMIZED_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getIsEpitomized());
-      hash = (37 * hash) + IS_UNDER_GENERAL_RESTRICT_FIELD_NUMBER;
-      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
-          getIsUnderGeneralRestrict());
-      hash = (37 * hash) + GACHA_TYPE_FIELD_NUMBER;
-      hash = (53 * hash) + getGachaType();
-      hash = (37 * hash) + WISH_ITEM_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getWishItemId();
-      hash = (37 * hash) + WISH_MAX_PROGRESS_FIELD_NUMBER;
-      hash = (53 * hash) + getWishMaxProgress();
-      hash = (37 * hash) + COST_ITEM_NUM_FIELD_NUMBER;
-      hash = (53 * hash) + getCostItemNum();
-      hash = (37 * hash) + TEN_COST_ITEM_NUM_FIELD_NUMBER;
-      hash = (53 * hash) + getTenCostItemNum();
-      hash = (37 * hash) + WISH_PROGRESS_FIELD_NUMBER;
-      hash = (53 * hash) + getWishProgress();
-      hash = (37 * hash) + COST_ITEM_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getCostItemId();
-      hash = (37 * hash) + CUR_SCHEDULE_DAILY_GACHA_TIMES_FIELD_NUMBER;
-      hash = (53 * hash) + getCurScheduleDailyGachaTimes();
-      hash = (37 * hash) + RETCODE_FIELD_NUMBER;
-      hash = (53 * hash) + getRetcode();
-      hash = (37 * hash) + TEN_COST_ITEM_ID_FIELD_NUMBER;
-      hash = (53 * hash) + getTenCostItemId();
       hash = (37 * hash) + LEFT_GACHA_TIMES_FIELD_NUMBER;
       hash = (53 * hash) + getLeftGachaTimes();
-      hash = (37 * hash) + DAILY_GACHA_TIMES_FIELD_NUMBER;
-      hash = (53 * hash) + getDailyGachaTimes();
+      hash = (37 * hash) + WISH_ITEM_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getWishItemId();
+      hash = (37 * hash) + WISH_PROGRESS_FIELD_NUMBER;
+      hash = (53 * hash) + getWishProgress();
       hash = (37 * hash) + GACHA_SCHEDULE_ID_FIELD_NUMBER;
       hash = (53 * hash) + getGachaScheduleId();
+      hash = (37 * hash) + GACHA_TYPE_FIELD_NUMBER;
+      hash = (53 * hash) + getGachaType();
       hash = (37 * hash) + NEW_GACHA_RANDOM_FIELD_NUMBER;
       hash = (53 * hash) + getNewGachaRandom();
       hash = (37 * hash) + GACHA_TIMES_LIMIT_FIELD_NUMBER;
       hash = (53 * hash) + getGachaTimesLimit();
+      hash = (37 * hash) + WISH_MAX_PROGRESS_FIELD_NUMBER;
+      hash = (53 * hash) + getWishMaxProgress();
+      hash = (37 * hash) + RETCODE_FIELD_NUMBER;
+      hash = (53 * hash) + getRetcode();
+      hash = (37 * hash) + COST_ITEM_NUM_FIELD_NUMBER;
+      hash = (53 * hash) + getCostItemNum();
+      hash = (37 * hash) + TEN_COST_ITEM_NUM_FIELD_NUMBER;
+      hash = (53 * hash) + getTenCostItemNum();
+      hash = (37 * hash) + TEN_COST_ITEM_ID_FIELD_NUMBER;
+      hash = (53 * hash) + getTenCostItemId();
+      hash = (37 * hash) + ONAKGOEIBEJ_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getONAKGOEIBEJ());
+      hash = (37 * hash) + MPDGNGKJJDD_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getMPDGNGKJJDD());
+      hash = (37 * hash) + EGONNFEODIO_FIELD_NUMBER;
+      hash = (53 * hash) + com.google.protobuf.Internal.hashBoolean(
+          getEGONNFEODIO());
+      hash = (37 * hash) + DAILY_GACHA_TIMES_FIELD_NUMBER;
+      hash = (53 * hash) + getDailyGachaTimes();
+      hash = (37 * hash) + CUR_SCHEDULE_DAILY_GACHA_TIMES_FIELD_NUMBER;
+      hash = (53 * hash) + getCurScheduleDailyGachaTimes();
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -990,7 +990,7 @@ public final class DoGachaRspOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 1113
+     * CmdID: 1113
      * </pre>
      *
      * Protobuf type {@code DoGachaRsp}
@@ -1031,6 +1031,8 @@ public final class DoGachaRspOuterClass {
       @java.lang.Override
       public Builder clear() {
         super.clear();
+        costItemId_ = 0;
+
         if (gachaItemListBuilder_ == null) {
           gachaItemList_ = java.util.Collections.emptyList();
           bitField0_ = (bitField0_ & ~0x00000001);
@@ -1039,41 +1041,39 @@ public final class DoGachaRspOuterClass {
         }
         gachaTimes_ = 0;
 
-        isUnderMinorsRestrict_ = false;
-
-        isEpitomized_ = false;
-
-        isUnderGeneralRestrict_ = false;
-
-        gachaType_ = 0;
+        leftGachaTimes_ = 0;
 
         wishItemId_ = 0;
 
+        wishProgress_ = 0;
+
+        gachaScheduleId_ = 0;
+
+        gachaType_ = 0;
+
+        newGachaRandom_ = 0;
+
+        gachaTimesLimit_ = 0;
+
         wishMaxProgress_ = 0;
+
+        retcode_ = 0;
 
         costItemNum_ = 0;
 
         tenCostItemNum_ = 0;
 
-        wishProgress_ = 0;
-
-        costItemId_ = 0;
-
-        curScheduleDailyGachaTimes_ = 0;
-
-        retcode_ = 0;
-
         tenCostItemId_ = 0;
 
-        leftGachaTimes_ = 0;
+        oNAKGOEIBEJ_ = false;
+
+        mPDGNGKJJDD_ = false;
+
+        eGONNFEODIO_ = false;
 
         dailyGachaTimes_ = 0;
 
-        gachaScheduleId_ = 0;
-
-        newGachaRandom_ = 0;
-
-        gachaTimesLimit_ = 0;
+        curScheduleDailyGachaTimes_ = 0;
 
         return this;
       }
@@ -1102,6 +1102,7 @@ public final class DoGachaRspOuterClass {
       public emu.grasscutter.net.proto.DoGachaRspOuterClass.DoGachaRsp buildPartial() {
         emu.grasscutter.net.proto.DoGachaRspOuterClass.DoGachaRsp result = new emu.grasscutter.net.proto.DoGachaRspOuterClass.DoGachaRsp(this);
         int from_bitField0_ = bitField0_;
+        result.costItemId_ = costItemId_;
         if (gachaItemListBuilder_ == null) {
           if (((bitField0_ & 0x00000001) != 0)) {
             gachaItemList_ = java.util.Collections.unmodifiableList(gachaItemList_);
@@ -1112,24 +1113,23 @@ public final class DoGachaRspOuterClass {
           result.gachaItemList_ = gachaItemListBuilder_.build();
         }
         result.gachaTimes_ = gachaTimes_;
-        result.isUnderMinorsRestrict_ = isUnderMinorsRestrict_;
-        result.isEpitomized_ = isEpitomized_;
-        result.isUnderGeneralRestrict_ = isUnderGeneralRestrict_;
-        result.gachaType_ = gachaType_;
-        result.wishItemId_ = wishItemId_;
-        result.wishMaxProgress_ = wishMaxProgress_;
-        result.costItemNum_ = costItemNum_;
-        result.tenCostItemNum_ = tenCostItemNum_;
-        result.wishProgress_ = wishProgress_;
-        result.costItemId_ = costItemId_;
-        result.curScheduleDailyGachaTimes_ = curScheduleDailyGachaTimes_;
-        result.retcode_ = retcode_;
-        result.tenCostItemId_ = tenCostItemId_;
         result.leftGachaTimes_ = leftGachaTimes_;
-        result.dailyGachaTimes_ = dailyGachaTimes_;
+        result.wishItemId_ = wishItemId_;
+        result.wishProgress_ = wishProgress_;
         result.gachaScheduleId_ = gachaScheduleId_;
+        result.gachaType_ = gachaType_;
         result.newGachaRandom_ = newGachaRandom_;
         result.gachaTimesLimit_ = gachaTimesLimit_;
+        result.wishMaxProgress_ = wishMaxProgress_;
+        result.retcode_ = retcode_;
+        result.costItemNum_ = costItemNum_;
+        result.tenCostItemNum_ = tenCostItemNum_;
+        result.tenCostItemId_ = tenCostItemId_;
+        result.oNAKGOEIBEJ_ = oNAKGOEIBEJ_;
+        result.mPDGNGKJJDD_ = mPDGNGKJJDD_;
+        result.eGONNFEODIO_ = eGONNFEODIO_;
+        result.dailyGachaTimes_ = dailyGachaTimes_;
+        result.curScheduleDailyGachaTimes_ = curScheduleDailyGachaTimes_;
         onBuilt();
         return result;
       }
@@ -1178,6 +1178,9 @@ public final class DoGachaRspOuterClass {
 
       public Builder mergeFrom(emu.grasscutter.net.proto.DoGachaRspOuterClass.DoGachaRsp other) {
         if (other == emu.grasscutter.net.proto.DoGachaRspOuterClass.DoGachaRsp.getDefaultInstance()) return this;
+        if (other.getCostItemId() != 0) {
+          setCostItemId(other.getCostItemId());
+        }
         if (gachaItemListBuilder_ == null) {
           if (!other.gachaItemList_.isEmpty()) {
             if (gachaItemList_.isEmpty()) {
@@ -1207,23 +1210,32 @@ public final class DoGachaRspOuterClass {
         if (other.getGachaTimes() != 0) {
           setGachaTimes(other.getGachaTimes());
         }
-        if (other.getIsUnderMinorsRestrict() != false) {
-          setIsUnderMinorsRestrict(other.getIsUnderMinorsRestrict());
-        }
-        if (other.getIsEpitomized() != false) {
-          setIsEpitomized(other.getIsEpitomized());
-        }
-        if (other.getIsUnderGeneralRestrict() != false) {
-          setIsUnderGeneralRestrict(other.getIsUnderGeneralRestrict());
-        }
-        if (other.getGachaType() != 0) {
-          setGachaType(other.getGachaType());
+        if (other.getLeftGachaTimes() != 0) {
+          setLeftGachaTimes(other.getLeftGachaTimes());
         }
         if (other.getWishItemId() != 0) {
           setWishItemId(other.getWishItemId());
         }
+        if (other.getWishProgress() != 0) {
+          setWishProgress(other.getWishProgress());
+        }
+        if (other.getGachaScheduleId() != 0) {
+          setGachaScheduleId(other.getGachaScheduleId());
+        }
+        if (other.getGachaType() != 0) {
+          setGachaType(other.getGachaType());
+        }
+        if (other.getNewGachaRandom() != 0) {
+          setNewGachaRandom(other.getNewGachaRandom());
+        }
+        if (other.getGachaTimesLimit() != 0) {
+          setGachaTimesLimit(other.getGachaTimesLimit());
+        }
         if (other.getWishMaxProgress() != 0) {
           setWishMaxProgress(other.getWishMaxProgress());
+        }
+        if (other.getRetcode() != 0) {
+          setRetcode(other.getRetcode());
         }
         if (other.getCostItemNum() != 0) {
           setCostItemNum(other.getCostItemNum());
@@ -1231,35 +1243,23 @@ public final class DoGachaRspOuterClass {
         if (other.getTenCostItemNum() != 0) {
           setTenCostItemNum(other.getTenCostItemNum());
         }
-        if (other.getWishProgress() != 0) {
-          setWishProgress(other.getWishProgress());
-        }
-        if (other.getCostItemId() != 0) {
-          setCostItemId(other.getCostItemId());
-        }
-        if (other.getCurScheduleDailyGachaTimes() != 0) {
-          setCurScheduleDailyGachaTimes(other.getCurScheduleDailyGachaTimes());
-        }
-        if (other.getRetcode() != 0) {
-          setRetcode(other.getRetcode());
-        }
         if (other.getTenCostItemId() != 0) {
           setTenCostItemId(other.getTenCostItemId());
         }
-        if (other.getLeftGachaTimes() != 0) {
-          setLeftGachaTimes(other.getLeftGachaTimes());
+        if (other.getONAKGOEIBEJ() != false) {
+          setONAKGOEIBEJ(other.getONAKGOEIBEJ());
+        }
+        if (other.getMPDGNGKJJDD() != false) {
+          setMPDGNGKJJDD(other.getMPDGNGKJJDD());
+        }
+        if (other.getEGONNFEODIO() != false) {
+          setEGONNFEODIO(other.getEGONNFEODIO());
         }
         if (other.getDailyGachaTimes() != 0) {
           setDailyGachaTimes(other.getDailyGachaTimes());
         }
-        if (other.getGachaScheduleId() != 0) {
-          setGachaScheduleId(other.getGachaScheduleId());
-        }
-        if (other.getNewGachaRandom() != 0) {
-          setNewGachaRandom(other.getNewGachaRandom());
-        }
-        if (other.getGachaTimesLimit() != 0) {
-          setGachaTimesLimit(other.getGachaTimesLimit());
+        if (other.getCurScheduleDailyGachaTimes() != 0) {
+          setCurScheduleDailyGachaTimes(other.getCurScheduleDailyGachaTimes());
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -1290,6 +1290,37 @@ public final class DoGachaRspOuterClass {
         return this;
       }
       private int bitField0_;
+
+      private int costItemId_ ;
+      /**
+       * <code>uint32 cost_item_id = 1;</code>
+       * @return The costItemId.
+       */
+      @java.lang.Override
+      public int getCostItemId() {
+        return costItemId_;
+      }
+      /**
+       * <code>uint32 cost_item_id = 1;</code>
+       * @param value The costItemId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setCostItemId(int value) {
+        
+        costItemId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 cost_item_id = 1;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearCostItemId() {
+        
+        costItemId_ = 0;
+        onChanged();
+        return this;
+      }
 
       private java.util.List<emu.grasscutter.net.proto.GachaItemOuterClass.GachaItem> gachaItemList_ =
         java.util.Collections.emptyList();
@@ -1562,131 +1593,150 @@ public final class DoGachaRspOuterClass {
         return this;
       }
 
-      private boolean isUnderMinorsRestrict_ ;
+      private int leftGachaTimes_ ;
       /**
-       * <pre>
-       *2x
-       * </pre>
-       *
-       * <code>bool is_under_minors_restrict = 117;</code>
-       * @return The isUnderMinorsRestrict.
+       * <code>uint32 left_gacha_times = 4;</code>
+       * @return The leftGachaTimes.
        */
       @java.lang.Override
-      public boolean getIsUnderMinorsRestrict() {
-        return isUnderMinorsRestrict_;
+      public int getLeftGachaTimes() {
+        return leftGachaTimes_;
       }
       /**
-       * <pre>
-       *2x
-       * </pre>
-       *
-       * <code>bool is_under_minors_restrict = 117;</code>
-       * @param value The isUnderMinorsRestrict to set.
+       * <code>uint32 left_gacha_times = 4;</code>
+       * @param value The leftGachaTimes to set.
        * @return This builder for chaining.
        */
-      public Builder setIsUnderMinorsRestrict(boolean value) {
+      public Builder setLeftGachaTimes(int value) {
         
-        isUnderMinorsRestrict_ = value;
+        leftGachaTimes_ = value;
         onChanged();
         return this;
       }
       /**
-       * <pre>
-       *2x
-       * </pre>
-       *
-       * <code>bool is_under_minors_restrict = 117;</code>
+       * <code>uint32 left_gacha_times = 4;</code>
        * @return This builder for chaining.
        */
-      public Builder clearIsUnderMinorsRestrict() {
+      public Builder clearLeftGachaTimes() {
         
-        isUnderMinorsRestrict_ = false;
+        leftGachaTimes_ = 0;
         onChanged();
         return this;
       }
 
-      private boolean isEpitomized_ ;
+      private int wishItemId_ ;
       /**
        * <pre>
-       *1x
+       * dk
        * </pre>
        *
-       * <code>bool is_epitomized = 1783;</code>
-       * @return The isEpitomized.
+       * <code>uint32 wish_item_id = 5;</code>
+       * @return The wishItemId.
        */
       @java.lang.Override
-      public boolean getIsEpitomized() {
-        return isEpitomized_;
+      public int getWishItemId() {
+        return wishItemId_;
       }
       /**
        * <pre>
-       *1x
+       * dk
        * </pre>
        *
-       * <code>bool is_epitomized = 1783;</code>
-       * @param value The isEpitomized to set.
+       * <code>uint32 wish_item_id = 5;</code>
+       * @param value The wishItemId to set.
        * @return This builder for chaining.
        */
-      public Builder setIsEpitomized(boolean value) {
+      public Builder setWishItemId(int value) {
         
-        isEpitomized_ = value;
+        wishItemId_ = value;
         onChanged();
         return this;
       }
       /**
        * <pre>
-       *1x
+       * dk
        * </pre>
        *
-       * <code>bool is_epitomized = 1783;</code>
+       * <code>uint32 wish_item_id = 5;</code>
        * @return This builder for chaining.
        */
-      public Builder clearIsEpitomized() {
+      public Builder clearWishItemId() {
         
-        isEpitomized_ = false;
+        wishItemId_ = 0;
         onChanged();
         return this;
       }
 
-      private boolean isUnderGeneralRestrict_ ;
+      private int wishProgress_ ;
       /**
        * <pre>
-       *2x
+       * dk
        * </pre>
        *
-       * <code>bool is_under_general_restrict = 805;</code>
-       * @return The isUnderGeneralRestrict.
+       * <code>uint32 wish_progress = 6;</code>
+       * @return The wishProgress.
        */
       @java.lang.Override
-      public boolean getIsUnderGeneralRestrict() {
-        return isUnderGeneralRestrict_;
+      public int getWishProgress() {
+        return wishProgress_;
       }
       /**
        * <pre>
-       *2x
+       * dk
        * </pre>
        *
-       * <code>bool is_under_general_restrict = 805;</code>
-       * @param value The isUnderGeneralRestrict to set.
+       * <code>uint32 wish_progress = 6;</code>
+       * @param value The wishProgress to set.
        * @return This builder for chaining.
        */
-      public Builder setIsUnderGeneralRestrict(boolean value) {
+      public Builder setWishProgress(int value) {
         
-        isUnderGeneralRestrict_ = value;
+        wishProgress_ = value;
         onChanged();
         return this;
       }
       /**
        * <pre>
-       *2x
+       * dk
        * </pre>
        *
-       * <code>bool is_under_general_restrict = 805;</code>
+       * <code>uint32 wish_progress = 6;</code>
        * @return This builder for chaining.
        */
-      public Builder clearIsUnderGeneralRestrict() {
+      public Builder clearWishProgress() {
         
-        isUnderGeneralRestrict_ = false;
+        wishProgress_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int gachaScheduleId_ ;
+      /**
+       * <code>uint32 gacha_schedule_id = 7;</code>
+       * @return The gachaScheduleId.
+       */
+      @java.lang.Override
+      public int getGachaScheduleId() {
+        return gachaScheduleId_;
+      }
+      /**
+       * <code>uint32 gacha_schedule_id = 7;</code>
+       * @param value The gachaScheduleId to set.
+       * @return This builder for chaining.
+       */
+      public Builder setGachaScheduleId(int value) {
+        
+        gachaScheduleId_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 gacha_schedule_id = 7;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearGachaScheduleId() {
+        
+        gachaScheduleId_ = 0;
         onChanged();
         return this;
       }
@@ -1722,39 +1772,74 @@ public final class DoGachaRspOuterClass {
         return this;
       }
 
-      private int wishItemId_ ;
+      private int newGachaRandom_ ;
       /**
-       * <code>uint32 wish_item_id = 1;</code>
-       * @return The wishItemId.
+       * <code>uint32 new_gacha_random = 9;</code>
+       * @return The newGachaRandom.
        */
       @java.lang.Override
-      public int getWishItemId() {
-        return wishItemId_;
+      public int getNewGachaRandom() {
+        return newGachaRandom_;
       }
       /**
-       * <code>uint32 wish_item_id = 1;</code>
-       * @param value The wishItemId to set.
+       * <code>uint32 new_gacha_random = 9;</code>
+       * @param value The newGachaRandom to set.
        * @return This builder for chaining.
        */
-      public Builder setWishItemId(int value) {
+      public Builder setNewGachaRandom(int value) {
         
-        wishItemId_ = value;
+        newGachaRandom_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 wish_item_id = 1;</code>
+       * <code>uint32 new_gacha_random = 9;</code>
        * @return This builder for chaining.
        */
-      public Builder clearWishItemId() {
+      public Builder clearNewGachaRandom() {
         
-        wishItemId_ = 0;
+        newGachaRandom_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int gachaTimesLimit_ ;
+      /**
+       * <code>uint32 gacha_times_limit = 10;</code>
+       * @return The gachaTimesLimit.
+       */
+      @java.lang.Override
+      public int getGachaTimesLimit() {
+        return gachaTimesLimit_;
+      }
+      /**
+       * <code>uint32 gacha_times_limit = 10;</code>
+       * @param value The gachaTimesLimit to set.
+       * @return This builder for chaining.
+       */
+      public Builder setGachaTimesLimit(int value) {
+        
+        gachaTimesLimit_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>uint32 gacha_times_limit = 10;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearGachaTimesLimit() {
+        
+        gachaTimesLimit_ = 0;
         onChanged();
         return this;
       }
 
       private int wishMaxProgress_ ;
       /**
+       * <pre>
+       * dk
+       * </pre>
+       *
        * <code>uint32 wish_max_progress = 11;</code>
        * @return The wishMaxProgress.
        */
@@ -1763,6 +1848,10 @@ public final class DoGachaRspOuterClass {
         return wishMaxProgress_;
       }
       /**
+       * <pre>
+       * dk
+       * </pre>
+       *
        * <code>uint32 wish_max_progress = 11;</code>
        * @param value The wishMaxProgress to set.
        * @return This builder for chaining.
@@ -1774,12 +1863,47 @@ public final class DoGachaRspOuterClass {
         return this;
       }
       /**
+       * <pre>
+       * dk
+       * </pre>
+       *
        * <code>uint32 wish_max_progress = 11;</code>
        * @return This builder for chaining.
        */
       public Builder clearWishMaxProgress() {
         
         wishMaxProgress_ = 0;
+        onChanged();
+        return this;
+      }
+
+      private int retcode_ ;
+      /**
+       * <code>int32 retcode = 12;</code>
+       * @return The retcode.
+       */
+      @java.lang.Override
+      public int getRetcode() {
+        return retcode_;
+      }
+      /**
+       * <code>int32 retcode = 12;</code>
+       * @param value The retcode to set.
+       * @return This builder for chaining.
+       */
+      public Builder setRetcode(int value) {
+        
+        retcode_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>int32 retcode = 12;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearRetcode() {
+        
+        retcode_ = 0;
         onChanged();
         return this;
       }
@@ -1846,133 +1970,9 @@ public final class DoGachaRspOuterClass {
         return this;
       }
 
-      private int wishProgress_ ;
-      /**
-       * <code>uint32 wish_progress = 5;</code>
-       * @return The wishProgress.
-       */
-      @java.lang.Override
-      public int getWishProgress() {
-        return wishProgress_;
-      }
-      /**
-       * <code>uint32 wish_progress = 5;</code>
-       * @param value The wishProgress to set.
-       * @return This builder for chaining.
-       */
-      public Builder setWishProgress(int value) {
-        
-        wishProgress_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 wish_progress = 5;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearWishProgress() {
-        
-        wishProgress_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int costItemId_ ;
-      /**
-       * <code>uint32 cost_item_id = 4;</code>
-       * @return The costItemId.
-       */
-      @java.lang.Override
-      public int getCostItemId() {
-        return costItemId_;
-      }
-      /**
-       * <code>uint32 cost_item_id = 4;</code>
-       * @param value The costItemId to set.
-       * @return This builder for chaining.
-       */
-      public Builder setCostItemId(int value) {
-        
-        costItemId_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 cost_item_id = 4;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearCostItemId() {
-        
-        costItemId_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int curScheduleDailyGachaTimes_ ;
-      /**
-       * <code>uint32 cur_schedule_daily_gacha_times = 1031;</code>
-       * @return The curScheduleDailyGachaTimes.
-       */
-      @java.lang.Override
-      public int getCurScheduleDailyGachaTimes() {
-        return curScheduleDailyGachaTimes_;
-      }
-      /**
-       * <code>uint32 cur_schedule_daily_gacha_times = 1031;</code>
-       * @param value The curScheduleDailyGachaTimes to set.
-       * @return This builder for chaining.
-       */
-      public Builder setCurScheduleDailyGachaTimes(int value) {
-        
-        curScheduleDailyGachaTimes_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 cur_schedule_daily_gacha_times = 1031;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearCurScheduleDailyGachaTimes() {
-        
-        curScheduleDailyGachaTimes_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int retcode_ ;
-      /**
-       * <code>int32 retcode = 12;</code>
-       * @return The retcode.
-       */
-      @java.lang.Override
-      public int getRetcode() {
-        return retcode_;
-      }
-      /**
-       * <code>int32 retcode = 12;</code>
-       * @param value The retcode to set.
-       * @return This builder for chaining.
-       */
-      public Builder setRetcode(int value) {
-        
-        retcode_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>int32 retcode = 12;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearRetcode() {
-        
-        retcode_ = 0;
-        onChanged();
-        return this;
-      }
-
       private int tenCostItemId_ ;
       /**
-       * <code>uint32 ten_cost_item_id = 831;</code>
+       * <code>uint32 ten_cost_item_id = 15;</code>
        * @return The tenCostItemId.
        */
       @java.lang.Override
@@ -1980,7 +1980,7 @@ public final class DoGachaRspOuterClass {
         return tenCostItemId_;
       }
       /**
-       * <code>uint32 ten_cost_item_id = 831;</code>
+       * <code>uint32 ten_cost_item_id = 15;</code>
        * @param value The tenCostItemId to set.
        * @return This builder for chaining.
        */
@@ -1991,7 +1991,7 @@ public final class DoGachaRspOuterClass {
         return this;
       }
       /**
-       * <code>uint32 ten_cost_item_id = 831;</code>
+       * <code>uint32 ten_cost_item_id = 15;</code>
        * @return This builder for chaining.
        */
       public Builder clearTenCostItemId() {
@@ -2001,33 +2001,95 @@ public final class DoGachaRspOuterClass {
         return this;
       }
 
-      private int leftGachaTimes_ ;
+      private boolean oNAKGOEIBEJ_ ;
       /**
-       * <code>uint32 left_gacha_times = 15;</code>
-       * @return The leftGachaTimes.
+       * <code>bool ONAKGOEIBEJ = 237;</code>
+       * @return The oNAKGOEIBEJ.
        */
       @java.lang.Override
-      public int getLeftGachaTimes() {
-        return leftGachaTimes_;
+      public boolean getONAKGOEIBEJ() {
+        return oNAKGOEIBEJ_;
       }
       /**
-       * <code>uint32 left_gacha_times = 15;</code>
-       * @param value The leftGachaTimes to set.
+       * <code>bool ONAKGOEIBEJ = 237;</code>
+       * @param value The oNAKGOEIBEJ to set.
        * @return This builder for chaining.
        */
-      public Builder setLeftGachaTimes(int value) {
+      public Builder setONAKGOEIBEJ(boolean value) {
         
-        leftGachaTimes_ = value;
+        oNAKGOEIBEJ_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 left_gacha_times = 15;</code>
+       * <code>bool ONAKGOEIBEJ = 237;</code>
        * @return This builder for chaining.
        */
-      public Builder clearLeftGachaTimes() {
+      public Builder clearONAKGOEIBEJ() {
         
-        leftGachaTimes_ = 0;
+        oNAKGOEIBEJ_ = false;
+        onChanged();
+        return this;
+      }
+
+      private boolean mPDGNGKJJDD_ ;
+      /**
+       * <code>bool MPDGNGKJJDD = 628;</code>
+       * @return The mPDGNGKJJDD.
+       */
+      @java.lang.Override
+      public boolean getMPDGNGKJJDD() {
+        return mPDGNGKJJDD_;
+      }
+      /**
+       * <code>bool MPDGNGKJJDD = 628;</code>
+       * @param value The mPDGNGKJJDD to set.
+       * @return This builder for chaining.
+       */
+      public Builder setMPDGNGKJJDD(boolean value) {
+        
+        mPDGNGKJJDD_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool MPDGNGKJJDD = 628;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearMPDGNGKJJDD() {
+        
+        mPDGNGKJJDD_ = false;
+        onChanged();
+        return this;
+      }
+
+      private boolean eGONNFEODIO_ ;
+      /**
+       * <code>bool EGONNFEODIO = 871;</code>
+       * @return The eGONNFEODIO.
+       */
+      @java.lang.Override
+      public boolean getEGONNFEODIO() {
+        return eGONNFEODIO_;
+      }
+      /**
+       * <code>bool EGONNFEODIO = 871;</code>
+       * @param value The eGONNFEODIO to set.
+       * @return This builder for chaining.
+       */
+      public Builder setEGONNFEODIO(boolean value) {
+        
+        eGONNFEODIO_ = value;
+        onChanged();
+        return this;
+      }
+      /**
+       * <code>bool EGONNFEODIO = 871;</code>
+       * @return This builder for chaining.
+       */
+      public Builder clearEGONNFEODIO() {
+        
+        eGONNFEODIO_ = false;
         onChanged();
         return this;
       }
@@ -2063,95 +2125,33 @@ public final class DoGachaRspOuterClass {
         return this;
       }
 
-      private int gachaScheduleId_ ;
+      private int curScheduleDailyGachaTimes_ ;
       /**
-       * <code>uint32 gacha_schedule_id = 7;</code>
-       * @return The gachaScheduleId.
+       * <code>uint32 cur_schedule_daily_gacha_times = 1381;</code>
+       * @return The curScheduleDailyGachaTimes.
        */
       @java.lang.Override
-      public int getGachaScheduleId() {
-        return gachaScheduleId_;
+      public int getCurScheduleDailyGachaTimes() {
+        return curScheduleDailyGachaTimes_;
       }
       /**
-       * <code>uint32 gacha_schedule_id = 7;</code>
-       * @param value The gachaScheduleId to set.
+       * <code>uint32 cur_schedule_daily_gacha_times = 1381;</code>
+       * @param value The curScheduleDailyGachaTimes to set.
        * @return This builder for chaining.
        */
-      public Builder setGachaScheduleId(int value) {
+      public Builder setCurScheduleDailyGachaTimes(int value) {
         
-        gachaScheduleId_ = value;
+        curScheduleDailyGachaTimes_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 gacha_schedule_id = 7;</code>
+       * <code>uint32 cur_schedule_daily_gacha_times = 1381;</code>
        * @return This builder for chaining.
        */
-      public Builder clearGachaScheduleId() {
+      public Builder clearCurScheduleDailyGachaTimes() {
         
-        gachaScheduleId_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int newGachaRandom_ ;
-      /**
-       * <code>uint32 new_gacha_random = 9;</code>
-       * @return The newGachaRandom.
-       */
-      @java.lang.Override
-      public int getNewGachaRandom() {
-        return newGachaRandom_;
-      }
-      /**
-       * <code>uint32 new_gacha_random = 9;</code>
-       * @param value The newGachaRandom to set.
-       * @return This builder for chaining.
-       */
-      public Builder setNewGachaRandom(int value) {
-        
-        newGachaRandom_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 new_gacha_random = 9;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearNewGachaRandom() {
-        
-        newGachaRandom_ = 0;
-        onChanged();
-        return this;
-      }
-
-      private int gachaTimesLimit_ ;
-      /**
-       * <code>uint32 gacha_times_limit = 10;</code>
-       * @return The gachaTimesLimit.
-       */
-      @java.lang.Override
-      public int getGachaTimesLimit() {
-        return gachaTimesLimit_;
-      }
-      /**
-       * <code>uint32 gacha_times_limit = 10;</code>
-       * @param value The gachaTimesLimit to set.
-       * @return This builder for chaining.
-       */
-      public Builder setGachaTimesLimit(int value) {
-        
-        gachaTimesLimit_ = value;
-        onChanged();
-        return this;
-      }
-      /**
-       * <code>uint32 gacha_times_limit = 10;</code>
-       * @return This builder for chaining.
-       */
-      public Builder clearGachaTimesLimit() {
-        
-        gachaTimesLimit_ = 0;
+        curScheduleDailyGachaTimes_ = 0;
         onChanged();
         return this;
       }
@@ -2222,22 +2222,21 @@ public final class DoGachaRspOuterClass {
       descriptor;
   static {
     java.lang.String[] descriptorData = {
-      "\n\020DoGachaRsp.proto\032\017GachaItem.proto\"\243\004\n\n" +
-      "DoGachaRsp\022#\n\017gacha_item_list\030\002 \003(\0132\n.Ga" +
-      "chaItem\022\023\n\013gacha_times\030\003 \001(\r\022 \n\030is_under" +
-      "_minors_restrict\030u \001(\010\022\026\n\ris_epitomized\030" +
-      "\367\r \001(\010\022\"\n\031is_under_general_restrict\030\245\006 \001" +
-      "(\010\022\022\n\ngacha_type\030\010 \001(\r\022\024\n\014wish_item_id\030\001" +
-      " \001(\r\022\031\n\021wish_max_progress\030\013 \001(\r\022\025\n\rcost_" +
-      "item_num\030\r \001(\r\022\031\n\021ten_cost_item_num\030\016 \001(" +
-      "\r\022\025\n\rwish_progress\030\005 \001(\r\022\024\n\014cost_item_id" +
-      "\030\004 \001(\r\022\'\n\036cur_schedule_daily_gacha_times" +
-      "\030\207\010 \001(\r\022\017\n\007retcode\030\014 \001(\005\022\031\n\020ten_cost_ite" +
-      "m_id\030\277\006 \001(\r\022\030\n\020left_gacha_times\030\017 \001(\r\022\032\n" +
-      "\021daily_gacha_times\030\210\n \001(\r\022\031\n\021gacha_sched" +
-      "ule_id\030\007 \001(\r\022\030\n\020new_gacha_random\030\t \001(\r\022\031" +
-      "\n\021gacha_times_limit\030\n \001(\rB\033\n\031emu.grasscu" +
-      "tter.net.protob\006proto3"
+      "\n\020DoGachaRsp.proto\032\017GachaItem.proto\"\206\004\n\n" +
+      "DoGachaRsp\022\024\n\014cost_item_id\030\001 \001(\r\022#\n\017gach" +
+      "a_item_list\030\002 \003(\0132\n.GachaItem\022\023\n\013gacha_t" +
+      "imes\030\003 \001(\r\022\030\n\020left_gacha_times\030\004 \001(\r\022\024\n\014" +
+      "wish_item_id\030\005 \001(\r\022\025\n\rwish_progress\030\006 \001(" +
+      "\r\022\031\n\021gacha_schedule_id\030\007 \001(\r\022\022\n\ngacha_ty" +
+      "pe\030\010 \001(\r\022\030\n\020new_gacha_random\030\t \001(\r\022\031\n\021ga" +
+      "cha_times_limit\030\n \001(\r\022\031\n\021wish_max_progre" +
+      "ss\030\013 \001(\r\022\017\n\007retcode\030\014 \001(\005\022\025\n\rcost_item_n" +
+      "um\030\r \001(\r\022\031\n\021ten_cost_item_num\030\016 \001(\r\022\030\n\020t" +
+      "en_cost_item_id\030\017 \001(\r\022\024\n\013ONAKGOEIBEJ\030\355\001 " +
+      "\001(\010\022\024\n\013MPDGNGKJJDD\030\364\004 \001(\010\022\024\n\013EGONNFEODIO" +
+      "\030\347\006 \001(\010\022\032\n\021daily_gacha_times\030\210\n \001(\r\022\'\n\036c" +
+      "ur_schedule_daily_gacha_times\030\345\n \001(\rB\033\n\031" +
+      "emu.grasscutter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -2249,7 +2248,7 @@ public final class DoGachaRspOuterClass {
     internal_static_DoGachaRsp_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_DoGachaRsp_descriptor,
-        new java.lang.String[] { "GachaItemList", "GachaTimes", "IsUnderMinorsRestrict", "IsEpitomized", "IsUnderGeneralRestrict", "GachaType", "WishItemId", "WishMaxProgress", "CostItemNum", "TenCostItemNum", "WishProgress", "CostItemId", "CurScheduleDailyGachaTimes", "Retcode", "TenCostItemId", "LeftGachaTimes", "DailyGachaTimes", "GachaScheduleId", "NewGachaRandom", "GachaTimesLimit", });
+        new java.lang.String[] { "CostItemId", "GachaItemList", "GachaTimes", "LeftGachaTimes", "WishItemId", "WishProgress", "GachaScheduleId", "GachaType", "NewGachaRandom", "GachaTimesLimit", "WishMaxProgress", "Retcode", "CostItemNum", "TenCostItemNum", "TenCostItemId", "ONAKGOEIBEJ", "MPDGNGKJJDD", "EGONNFEODIO", "DailyGachaTimes", "CurScheduleDailyGachaTimes", });
     emu.grasscutter.net.proto.GachaItemOuterClass.getDescriptor();
   }
 

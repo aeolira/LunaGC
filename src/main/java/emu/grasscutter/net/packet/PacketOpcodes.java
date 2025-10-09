@@ -99,13 +99,13 @@ public final class PacketOpcodes {
 	public static final int AvatarChangeAnimHashRsp = 29581;
 	public static final int AvatarChangeCostumeReq = 7656; 
 	public static final int AvatarChangeCostumeRsp = 20814;
-    public static final int AvatarChangeCostumeNotify = 27209; // 5246 / 3540
+    public static final int AvatarChangeCostumeNotify = 5246;
     public static final int AvatarGainCostumeNotify = 27209; 
 	public static final int AvatarGainTraceEffectNotify = 27778; 
-    public static final int AvatarGainFlycloakNotify = 25727; // idk dih
-	public static final int AvatarTraceEffectChangeNotify = 9634; // 5246 / 3540
+    public static final int AvatarGainFlycloakNotify = 25300;
+	public static final int AvatarTraceEffectChangeNotify = 3540;
 	public static final int AvatarEquipChangeNotify = 799; 
-	public static final int AvatarFlycloakChangeNotify = 2962; // idk dih
+	public static final int AvatarFlycloakChangeNotify = 1928;
 	public static final int AvatarFightPropNotify = 27866; 
 	public static final int AvatarFightPropUpdateNotify = 7507; 
 	public static final int AvatarPropChangeReasonNotify = 24733; 
@@ -113,8 +113,8 @@ public final class PacketOpcodes {
 	public static final int AvatarTeamAllDataNotify = 1158; 
 	public static final int AvatarTeamUpdateNotify = 28453; 
 	public static final int AvatarUnlockTalentNotify = 22281; 
-	public static final int AvatarWearFlycloakReq = 26596; // idk dih
-	public static final int AvatarWearFlycloakRsp = 27760; // idk dih
+	public static final int AvatarWearFlycloakReq = 9611;
+	public static final int AvatarWearFlycloakRsp = 1860;
 	public static final int ChangeTeamNameReq = 4001; 
 	public static final int ChangeTeamNameRsp = 22264; 
     public static final int ChooseCurAvatarTeamReq = 25704;
@@ -317,7 +317,8 @@ public final class PacketOpcodes {
     public static final int GetCityReputationMapInfoReq = 24080;
     public static final int GetInvestigationMonsterReq = 3782; 
 	public static final int GetInvestigationMonsterRsp = 28167; 
-
+    public static final int ReadPrivateChatReq = 1063;
+    public static final int ReadPrivateChatRsp = 4735;
 
     // useless
     public static final int PlayerReportReq = 5599; // who tf are u gonna report
@@ -1897,8 +1898,6 @@ public final class PacketOpcodes {
     public static final int ReadMailNotify = 1;
     public static final int ReadNicknameAuditReq = 1;
     public static final int ReadNicknameAuditRsp = 1;
-    public static final int ReadPrivateChatReq = 1;
-    public static final int ReadPrivateChatRsp = 1;
     public static final int ReadSignatureAuditReq = 1;
     public static final int ReadSignatureAuditRsp = 1;
     public static final int ReceivedTrialAvatarActivityRewardReq = 1;
