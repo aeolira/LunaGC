@@ -36,36 +36,40 @@ public final class GetMailItemRspOuterClass {
     int getMailIdList(int index);
 
     /**
-     * <code>repeated .EquipParam item_list = 12;</code>
+     * <code>repeated .EquipParam item_list = 9;</code>
      */
     java.util.List<emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam> 
         getItemListList();
     /**
-     * <code>repeated .EquipParam item_list = 12;</code>
+     * <code>repeated .EquipParam item_list = 9;</code>
      */
     emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam getItemList(int index);
     /**
-     * <code>repeated .EquipParam item_list = 12;</code>
+     * <code>repeated .EquipParam item_list = 9;</code>
      */
     int getItemListCount();
     /**
-     * <code>repeated .EquipParam item_list = 12;</code>
+     * <code>repeated .EquipParam item_list = 9;</code>
      */
     java.util.List<? extends emu.grasscutter.net.proto.EquipParamOuterClass.EquipParamOrBuilder> 
         getItemListOrBuilderList();
     /**
-     * <code>repeated .EquipParam item_list = 12;</code>
+     * <code>repeated .EquipParam item_list = 9;</code>
      */
     emu.grasscutter.net.proto.EquipParamOuterClass.EquipParamOrBuilder getItemListOrBuilder(
         int index);
 
     /**
-     * <code>int32 retcode = 13;</code>
+     * <code>int32 retcode = 10;</code>
      * @return The retcode.
      */
     int getRetcode();
   }
   /**
+   * <pre>
+   * CmdId: 20578
+   * </pre>
+   *
    * Protobuf type {@code GetMailItemRsp}
    */
   public static final class GetMailItemRsp extends
@@ -113,6 +117,20 @@ public final class GetMailItemRspOuterClass {
             case 0:
               done = true;
               break;
+            case 74: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                itemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam>();
+                mutable_bitField0_ |= 0x00000002;
+              }
+              itemList_.add(
+                  input.readMessage(emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam.parser(), extensionRegistry));
+              break;
+            }
+            case 80: {
+
+              retcode_ = input.readInt32();
+              break;
+            }
             case 88: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 mailIdList_ = newIntList();
@@ -134,20 +152,6 @@ public final class GetMailItemRspOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 98: {
-              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
-                itemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam>();
-                mutable_bitField0_ |= 0x00000002;
-              }
-              itemList_.add(
-                  input.readMessage(emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam.parser(), extensionRegistry));
-              break;
-            }
-            case 104: {
-
-              retcode_ = input.readInt32();
-              break;
-            }
             default: {
               if (!parseUnknownField(
                   input, unknownFields, extensionRegistry, tag)) {
@@ -163,11 +167,11 @@ public final class GetMailItemRspOuterClass {
         throw new com.google.protobuf.InvalidProtocolBufferException(
             e).setUnfinishedMessage(this);
       } finally {
-        if (((mutable_bitField0_ & 0x00000001) != 0)) {
-          mailIdList_.makeImmutable(); // C
-        }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           itemList_ = java.util.Collections.unmodifiableList(itemList_);
+        }
+        if (((mutable_bitField0_ & 0x00000001) != 0)) {
+          mailIdList_.makeImmutable(); // C
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -214,17 +218,17 @@ public final class GetMailItemRspOuterClass {
     }
     private int mailIdListMemoizedSerializedSize = -1;
 
-    public static final int ITEM_LIST_FIELD_NUMBER = 12;
+    public static final int ITEM_LIST_FIELD_NUMBER = 9;
     private java.util.List<emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam> itemList_;
     /**
-     * <code>repeated .EquipParam item_list = 12;</code>
+     * <code>repeated .EquipParam item_list = 9;</code>
      */
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam> getItemListList() {
       return itemList_;
     }
     /**
-     * <code>repeated .EquipParam item_list = 12;</code>
+     * <code>repeated .EquipParam item_list = 9;</code>
      */
     @java.lang.Override
     public java.util.List<? extends emu.grasscutter.net.proto.EquipParamOuterClass.EquipParamOrBuilder> 
@@ -232,21 +236,21 @@ public final class GetMailItemRspOuterClass {
       return itemList_;
     }
     /**
-     * <code>repeated .EquipParam item_list = 12;</code>
+     * <code>repeated .EquipParam item_list = 9;</code>
      */
     @java.lang.Override
     public int getItemListCount() {
       return itemList_.size();
     }
     /**
-     * <code>repeated .EquipParam item_list = 12;</code>
+     * <code>repeated .EquipParam item_list = 9;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam getItemList(int index) {
       return itemList_.get(index);
     }
     /**
-     * <code>repeated .EquipParam item_list = 12;</code>
+     * <code>repeated .EquipParam item_list = 9;</code>
      */
     @java.lang.Override
     public emu.grasscutter.net.proto.EquipParamOuterClass.EquipParamOrBuilder getItemListOrBuilder(
@@ -254,10 +258,10 @@ public final class GetMailItemRspOuterClass {
       return itemList_.get(index);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 13;
+    public static final int RETCODE_FIELD_NUMBER = 10;
     private int retcode_;
     /**
-     * <code>int32 retcode = 13;</code>
+     * <code>int32 retcode = 10;</code>
      * @return The retcode.
      */
     @java.lang.Override
@@ -280,18 +284,18 @@ public final class GetMailItemRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       getSerializedSize();
+      for (int i = 0; i < itemList_.size(); i++) {
+        output.writeMessage(9, itemList_.get(i));
+      }
+      if (retcode_ != 0) {
+        output.writeInt32(10, retcode_);
+      }
       if (getMailIdListList().size() > 0) {
         output.writeUInt32NoTag(90);
         output.writeUInt32NoTag(mailIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < mailIdList_.size(); i++) {
         output.writeUInt32NoTag(mailIdList_.getInt(i));
-      }
-      for (int i = 0; i < itemList_.size(); i++) {
-        output.writeMessage(12, itemList_.get(i));
-      }
-      if (retcode_ != 0) {
-        output.writeInt32(13, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -302,6 +306,14 @@ public final class GetMailItemRspOuterClass {
       if (size != -1) return size;
 
       size = 0;
+      for (int i = 0; i < itemList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(9, itemList_.get(i));
+      }
+      if (retcode_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt32Size(10, retcode_);
+      }
       {
         int dataSize = 0;
         for (int i = 0; i < mailIdList_.size(); i++) {
@@ -315,14 +327,6 @@ public final class GetMailItemRspOuterClass {
               .computeInt32SizeNoTag(dataSize);
         }
         mailIdListMemoizedSerializedSize = dataSize;
-      }
-      for (int i = 0; i < itemList_.size(); i++) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, itemList_.get(i));
-      }
-      if (retcode_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(13, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -462,6 +466,10 @@ public final class GetMailItemRspOuterClass {
       return builder;
     }
     /**
+     * <pre>
+     * CmdId: 20578
+     * </pre>
+     *
      * Protobuf type {@code GetMailItemRsp}
      */
     public static final class Builder extends
@@ -761,7 +769,7 @@ public final class GetMailItemRspOuterClass {
           emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam, emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam.Builder, emu.grasscutter.net.proto.EquipParamOuterClass.EquipParamOrBuilder> itemListBuilder_;
 
       /**
-       * <code>repeated .EquipParam item_list = 12;</code>
+       * <code>repeated .EquipParam item_list = 9;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam> getItemListList() {
         if (itemListBuilder_ == null) {
@@ -771,7 +779,7 @@ public final class GetMailItemRspOuterClass {
         }
       }
       /**
-       * <code>repeated .EquipParam item_list = 12;</code>
+       * <code>repeated .EquipParam item_list = 9;</code>
        */
       public int getItemListCount() {
         if (itemListBuilder_ == null) {
@@ -781,7 +789,7 @@ public final class GetMailItemRspOuterClass {
         }
       }
       /**
-       * <code>repeated .EquipParam item_list = 12;</code>
+       * <code>repeated .EquipParam item_list = 9;</code>
        */
       public emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam getItemList(int index) {
         if (itemListBuilder_ == null) {
@@ -791,7 +799,7 @@ public final class GetMailItemRspOuterClass {
         }
       }
       /**
-       * <code>repeated .EquipParam item_list = 12;</code>
+       * <code>repeated .EquipParam item_list = 9;</code>
        */
       public Builder setItemList(
           int index, emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam value) {
@@ -808,7 +816,7 @@ public final class GetMailItemRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EquipParam item_list = 12;</code>
+       * <code>repeated .EquipParam item_list = 9;</code>
        */
       public Builder setItemList(
           int index, emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam.Builder builderForValue) {
@@ -822,7 +830,7 @@ public final class GetMailItemRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EquipParam item_list = 12;</code>
+       * <code>repeated .EquipParam item_list = 9;</code>
        */
       public Builder addItemList(emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam value) {
         if (itemListBuilder_ == null) {
@@ -838,7 +846,7 @@ public final class GetMailItemRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EquipParam item_list = 12;</code>
+       * <code>repeated .EquipParam item_list = 9;</code>
        */
       public Builder addItemList(
           int index, emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam value) {
@@ -855,7 +863,7 @@ public final class GetMailItemRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EquipParam item_list = 12;</code>
+       * <code>repeated .EquipParam item_list = 9;</code>
        */
       public Builder addItemList(
           emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam.Builder builderForValue) {
@@ -869,7 +877,7 @@ public final class GetMailItemRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EquipParam item_list = 12;</code>
+       * <code>repeated .EquipParam item_list = 9;</code>
        */
       public Builder addItemList(
           int index, emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam.Builder builderForValue) {
@@ -883,7 +891,7 @@ public final class GetMailItemRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EquipParam item_list = 12;</code>
+       * <code>repeated .EquipParam item_list = 9;</code>
        */
       public Builder addAllItemList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam> values) {
@@ -898,7 +906,7 @@ public final class GetMailItemRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EquipParam item_list = 12;</code>
+       * <code>repeated .EquipParam item_list = 9;</code>
        */
       public Builder clearItemList() {
         if (itemListBuilder_ == null) {
@@ -911,7 +919,7 @@ public final class GetMailItemRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EquipParam item_list = 12;</code>
+       * <code>repeated .EquipParam item_list = 9;</code>
        */
       public Builder removeItemList(int index) {
         if (itemListBuilder_ == null) {
@@ -924,14 +932,14 @@ public final class GetMailItemRspOuterClass {
         return this;
       }
       /**
-       * <code>repeated .EquipParam item_list = 12;</code>
+       * <code>repeated .EquipParam item_list = 9;</code>
        */
       public emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam.Builder getItemListBuilder(
           int index) {
         return getItemListFieldBuilder().getBuilder(index);
       }
       /**
-       * <code>repeated .EquipParam item_list = 12;</code>
+       * <code>repeated .EquipParam item_list = 9;</code>
        */
       public emu.grasscutter.net.proto.EquipParamOuterClass.EquipParamOrBuilder getItemListOrBuilder(
           int index) {
@@ -941,7 +949,7 @@ public final class GetMailItemRspOuterClass {
         }
       }
       /**
-       * <code>repeated .EquipParam item_list = 12;</code>
+       * <code>repeated .EquipParam item_list = 9;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.EquipParamOuterClass.EquipParamOrBuilder> 
            getItemListOrBuilderList() {
@@ -952,14 +960,14 @@ public final class GetMailItemRspOuterClass {
         }
       }
       /**
-       * <code>repeated .EquipParam item_list = 12;</code>
+       * <code>repeated .EquipParam item_list = 9;</code>
        */
       public emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam.Builder addItemListBuilder() {
         return getItemListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam.getDefaultInstance());
       }
       /**
-       * <code>repeated .EquipParam item_list = 12;</code>
+       * <code>repeated .EquipParam item_list = 9;</code>
        */
       public emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam.Builder addItemListBuilder(
           int index) {
@@ -967,7 +975,7 @@ public final class GetMailItemRspOuterClass {
             index, emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam.getDefaultInstance());
       }
       /**
-       * <code>repeated .EquipParam item_list = 12;</code>
+       * <code>repeated .EquipParam item_list = 9;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.EquipParamOuterClass.EquipParam.Builder> 
            getItemListBuilderList() {
@@ -990,7 +998,7 @@ public final class GetMailItemRspOuterClass {
 
       private int retcode_ ;
       /**
-       * <code>int32 retcode = 13;</code>
+       * <code>int32 retcode = 10;</code>
        * @return The retcode.
        */
       @java.lang.Override
@@ -998,7 +1006,7 @@ public final class GetMailItemRspOuterClass {
         return retcode_;
       }
       /**
-       * <code>int32 retcode = 13;</code>
+       * <code>int32 retcode = 10;</code>
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
@@ -1009,7 +1017,7 @@ public final class GetMailItemRspOuterClass {
         return this;
       }
       /**
-       * <code>int32 retcode = 13;</code>
+       * <code>int32 retcode = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
@@ -1087,8 +1095,8 @@ public final class GetMailItemRspOuterClass {
     java.lang.String[] descriptorData = {
       "\n\024GetMailItemRsp.proto\032\020EquipParam.proto" +
       "\"W\n\016GetMailItemRsp\022\024\n\014mail_id_list\030\013 \003(\r" +
-      "\022\036\n\titem_list\030\014 \003(\0132\013.EquipParam\022\017\n\007retc" +
-      "ode\030\r \001(\005B\033\n\031emu.grasscutter.net.protob\006" +
+      "\022\036\n\titem_list\030\t \003(\0132\013.EquipParam\022\017\n\007retc" +
+      "ode\030\n \001(\005B\033\n\031emu.grasscutter.net.protob\006" +
       "proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor

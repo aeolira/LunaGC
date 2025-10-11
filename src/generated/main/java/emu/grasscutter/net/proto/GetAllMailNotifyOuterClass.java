@@ -19,18 +19,14 @@ public final class GetAllMailNotifyOuterClass {
       com.google.protobuf.MessageOrBuilder {
 
     /**
-     * <pre>
-     * dk
-     * </pre>
-     *
-     * <code>bool is_collected = 9;</code>
+     * <code>bool is_collected = 2;</code>
      * @return The isCollected.
      */
     boolean getIsCollected();
   }
   /**
    * <pre>
-   * CmdId: 28859 / 4104
+   * CmdId: 2076
    * </pre>
    *
    * Protobuf type {@code GetAllMailNotify}
@@ -77,7 +73,7 @@ public final class GetAllMailNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 72: {
+            case 16: {
 
               isCollected_ = input.readBool();
               break;
@@ -114,14 +110,10 @@ public final class GetAllMailNotifyOuterClass {
               emu.grasscutter.net.proto.GetAllMailNotifyOuterClass.GetAllMailNotify.class, emu.grasscutter.net.proto.GetAllMailNotifyOuterClass.GetAllMailNotify.Builder.class);
     }
 
-    public static final int IS_COLLECTED_FIELD_NUMBER = 9;
+    public static final int IS_COLLECTED_FIELD_NUMBER = 2;
     private boolean isCollected_;
     /**
-     * <pre>
-     * dk
-     * </pre>
-     *
-     * <code>bool is_collected = 9;</code>
+     * <code>bool is_collected = 2;</code>
      * @return The isCollected.
      */
     @java.lang.Override
@@ -144,7 +136,7 @@ public final class GetAllMailNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isCollected_ != false) {
-        output.writeBool(9, isCollected_);
+        output.writeBool(2, isCollected_);
       }
       unknownFields.writeTo(output);
     }
@@ -157,7 +149,7 @@ public final class GetAllMailNotifyOuterClass {
       size = 0;
       if (isCollected_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(9, isCollected_);
+          .computeBoolSize(2, isCollected_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -287,7 +279,7 @@ public final class GetAllMailNotifyOuterClass {
     }
     /**
      * <pre>
-     * CmdId: 28859 / 4104
+     * CmdId: 2076
      * </pre>
      *
      * Protobuf type {@code GetAllMailNotify}
@@ -438,11 +430,7 @@ public final class GetAllMailNotifyOuterClass {
 
       private boolean isCollected_ ;
       /**
-       * <pre>
-       * dk
-       * </pre>
-       *
-       * <code>bool is_collected = 9;</code>
+       * <code>bool is_collected = 2;</code>
        * @return The isCollected.
        */
       @java.lang.Override
@@ -450,11 +438,7 @@ public final class GetAllMailNotifyOuterClass {
         return isCollected_;
       }
       /**
-       * <pre>
-       * dk
-       * </pre>
-       *
-       * <code>bool is_collected = 9;</code>
+       * <code>bool is_collected = 2;</code>
        * @param value The isCollected to set.
        * @return This builder for chaining.
        */
@@ -465,11 +449,7 @@ public final class GetAllMailNotifyOuterClass {
         return this;
       }
       /**
-       * <pre>
-       * dk
-       * </pre>
-       *
-       * <code>bool is_collected = 9;</code>
+       * <code>bool is_collected = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearIsCollected() {
@@ -546,7 +526,7 @@ public final class GetAllMailNotifyOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\026GetAllMailNotify.proto\"(\n\020GetAllMailNo" +
-      "tify\022\024\n\014is_collected\030\t \001(\010B\033\n\031emu.grassc" +
+      "tify\022\024\n\014is_collected\030\002 \001(\010B\033\n\031emu.grassc" +
       "utter.net.protob\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
