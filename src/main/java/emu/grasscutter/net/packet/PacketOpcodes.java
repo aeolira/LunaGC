@@ -394,12 +394,58 @@ public final class PacketOpcodes {
     public static final int LeaveWorldNotify = 20875; // unsure
     public static final int GroupUnloadNotify = 25270;
 
+    public static final int CheckAddItemExceedLimitNotify = 27332; 
+	public static final int CodexDataUpdateNotify = 27672; 
+	public static final int QueryCodexMonsterBeKilledNumRsp = 7929;
+	public static final int QuestDestroyNpcReq = 21986;
+	public static final int QuestDestroyNpcRsp = 210;
+	public static final int QuestUpdateQuestTimeVarNotify = 25835;
+	public static final int QuestUpdateQuestVarNotify = 9101; 
+    public static final int QuestUpdateQuestVarReq = 27138;
+	public static final int QuestUpdateQuestVarRsp = 22965; 
+	public static final int RemoveRandTaskInfoNotify = 318;
+	public static final int WidgetDoBagReq = 4981;
+    public static final int WidgetDoBagRsp = 27385;
+	public static final int TryEnterHomeReq = 6990;
+	public static final int TryEnterHomeRsp = 24310;
+	public static final int GetParentQuestVideoKeyRsp = 7905; 
+    public static final int AddQuestContentProgressReq = 8467;
+    public static final int AddQuestContentProgressRsp = 4639;
+    public static final int ServerCondMeetQuestListUpdateNotify = 27533;
+    public static final int QueryPathReq = 2365;
+    public static final int QueryPathRsp = 2380;
+    public static final int QuestCreateEntityReq = 28209;
+    public static final int QuestCreateEntityRsp = 3851;
+    public static final int QuestDelNotify = 5774;
+    public static final int QuestDestroyEntityReq = 21434;
+    public static final int QuestDestroyEntityRsp = 22819;
+    public static final int QuestGlobalVarNotify = 26735;
+    public static final int QuestListNotify = 27354;
+    public static final int QuestListUpdateNotify = 7418;
+    public static final int QuestProgressUpdateNotify = 29291;
+    public static final int QuestRenameAvatarReq = 3171;
+    public static final int QuestRenameAvatarRsp = 4888;
+    public static final int QuestTransmitReq = 21060;
+    public static final int QuestTransmitRsp = 6996;
+    public static final int ParentQuestInferenceDataNotify = 9229;
+    public static final int FindHilichurlFinishSecondQuestNotify = 8589;
+    public static final int FinishedParentQuestNotify = 3959;
+    public static final int FinishedParentQuestUpdateNotify = 7709;
+    public static final int GetQuestLackingResourceReq = 2455;
+    public static final int GetQuestLackingResourceRsp = 23296;
+
+
     // useless
     public static final int PlayerReportReq = 5599; // who tf are u gonna report
     public static final int PlayerReportRsp = 8507;
     // :skull:
 
     // todo (never)
+    public static final int GetParentQuestVideoKeyReq = 1; // t
+    public static final int GetGameTimeLockedQuestListReq = 1; // t
+    public static final int GetGameTimeLockedQuestListRsp = 1; // t
+    public static final int FindHilichurlAcceptQuestNotify = 1; // t
+    public static final int CancelFinishParentQuestNotify = 1; // t
     public static final int RechargeRsp = 1;
     public static final int SetPlayerHeadImageRsp = 1;  
     public static final int AvatarPromoteReq = 1; // tbd
@@ -408,8 +454,6 @@ public final class PacketOpcodes {
 	public static final int BartenderGetFormulaRsp = 1;
 	public static final int BeginCameraSceneLookNotify = 1; 
 	public static final int BlessingAcceptAllGivePicRsp = 1;
-	public static final int CheckAddItemExceedLimitNotify = 1; 
-	public static final int CodexDataUpdateNotify = 1; 
 	public static final int DealAddFriendRsp = 1; 
 	public static final int DeathZoneObserveNotify = 1;
 	public static final int DraftOwnerStartInviteReq = 1;
@@ -432,7 +476,6 @@ public final class PacketOpcodes {
 	public static final int GetDungeonEntryExploreConditionRsp = 1; 
 	public static final int GetGameplayRecommendationReq = 1; 
 	public static final int GetGameplayRecommendationRsp = 1; 
-	public static final int GetParentQuestVideoKeyRsp = 1; 
 	public static final int HitClientTrivialNotify = 1; 
 	public static final int HomeAvatarTalkRsp = 1; 
 	public static final int HomeChooseModuleReq = 1;
@@ -456,12 +499,6 @@ public final class PacketOpcodes {
 	public static final int PlayerEyePointStateNotify = 1;
 	public static final int PlayerMatchAgreedResultNotify = 1;
 	public static final int PublishCustomDungeonReq = 1;
-	public static final int QueryCodexMonsterBeKilledNumRsp = 1;
-	public static final int QuestDestroyNpcRsp = 1;
-	public static final int QuestUpdateQuestTimeVarNotify = 1;
-	public static final int QuestUpdateQuestVarNotify = 1; 
-	public static final int QuestUpdateQuestVarRsp = 1; 
-	public static final int RemoveRandTaskInfoNotify = 1;
 	public static final int RequestLiveInfoRsp = 1;
 	public static final int RogueSwitchAvatarReq = 1;
 	public static final int RogueSwitchAvatarRsp = 1;
@@ -481,12 +518,9 @@ public final class PacketOpcodes {
 	public static final int TowerAllDataRsp = 1;
 	public static final int TowerLevelEndNotify = 1;
 	public static final int TrialAvatarFirstPassDungeonNotify = 1;
-	public static final int TryEnterHomeReq = 1;
-	public static final int TryEnterHomeRsp = 1;
 	public static final int UpdateAbilityCreatedMovingPlatformNotify = 1;
 	public static final int UpdatePS4FriendListRsp = 1;
 	public static final int WatcherEventTypeNotify = 1;
-	public static final int WidgetDoBagReq = 1;
 	public static final int WidgetQuickHitTreeReq = 1;
     public static final int HomeLimitedShopInfoNotify = 1;
     public static final int SceneEntityUpdateNotify = 1;
@@ -541,8 +575,6 @@ public final class PacketOpcodes {
     public static final int AddNewUgcDungeonReq = 1;
     public static final int AddNewUgcDungeonRsp = 1;
     public static final int AddNoGachaAvatarCardNotify = 1;
-    public static final int AddQuestContentProgressReq = 1;
-    public static final int AddQuestContentProgressRsp = 1;
     public static final int AddRandTaskInfoNotify = 1;
     public static final int AddReunionReportedTypeReq = 1;
     public static final int AddReunionReportedTypeRsp = 1;
@@ -692,7 +724,6 @@ public final class PacketOpcodes {
     public static final int CancelCityReputationRequestRsp = 1;
     public static final int CancelCoopTaskReq = 1;
     public static final int CancelCoopTaskRsp = 1;
-    public static final int CancelFinishParentQuestNotify = 1;
     public static final int CardProductRewardNotify = 1;
     public static final int CataLogFinishedGlobalWatcherAllDataNotify = 1;
     public static final int CataLogNewFinishedGlobalWatcherNotify = 1;
@@ -1028,15 +1059,11 @@ public final class PacketOpcodes {
     public static final int ExpeditionStartRsp = 1;
     public static final int ExpeditionTakeRewardReq = 1;
     public static final int ExpeditionTakeRewardRsp = 1;
-    public static final int FindHilichurlAcceptQuestNotify = 1;
-    public static final int FindHilichurlFinishSecondQuestNotify = 1;
     public static final int FinishDeliveryNotify = 1;
     public static final int FinishLanternProjectionReq = 1;
     public static final int FinishLanternProjectionRsp = 1;
     public static final int FinishMainCoopReq = 1;
     public static final int FinishMainCoopRsp = 1;
-    public static final int FinishedParentQuestNotify = 1;
-    public static final int FinishedParentQuestUpdateNotify = 1;
     public static final int FinishedTalkIdListNotify = 1;
     public static final int FireworksLaunchDataNotify = 1;
     public static final int FireworksReformDataNotify = 1;
@@ -1333,8 +1360,6 @@ public final class PacketOpcodes {
     public static final int GetFriendShowNameCardInfoReq = 1;
     public static final int GetFriendShowNameCardInfoRsp = 1;
     public static final int GetFurnitureCurModuleArrangeCountReq = 1;
-    public static final int GetGameTimeLockedQuestListReq = 1;
-    public static final int GetGameTimeLockedQuestListRsp = 1;
     public static final int GetHomeExchangeWoodInfoRsp = 1;
     public static final int GetHomeLevelUpRewardReq = 1;
     public static final int GetHomeLevelUpRewardRsp = 1;
@@ -1346,7 +1371,6 @@ public final class PacketOpcodes {
     public static final int GetNextResourceInfoReq = 1;
     public static final int GetOpActivityInfoReq = 1;
     public static final int GetOpActivityInfoRsp = 1;
-    public static final int GetParentQuestVideoKeyReq = 1;
     public static final int GetPlayerAskFriendListReq = 1;
     public static final int GetPlayerAskFriendListRsp = 1;
     public static final int GetPlayerBlacklistReq = 1;
@@ -1356,8 +1380,6 @@ public final class PacketOpcodes {
     public static final int GetProfilePictureDataRsp = 1;
     public static final int GetPushTipsRewardReq = 1;
     public static final int GetPushTipsRewardRsp = 1;
-    public static final int GetQuestLackingResourceReq = 1;
-    public static final int GetQuestLackingResourceRsp = 1;
     public static final int GetRecommendCustomDungeonReq = 1;
     public static final int GetRecommendCustomDungeonRsp = 1;
     public static final int GetReunionMissionInfoReq = 1;
@@ -1749,7 +1771,6 @@ public final class PacketOpcodes {
     public static final int PacmanRestartDungeonRsp = 1;
     public static final int PacmanSetMapRotateTypeReq = 1;
     public static final int PacmanSetMapRotateTypeRsp = 1;
-    public static final int ParentQuestInferenceDataNotify = 1;
     public static final int PathfindingEnterSceneRsp = 1;
     public static final int PathfindingPingNotify = 1;
     public static final int PersistentDungeonSwitchAvatarReq = 1;
@@ -1881,23 +1902,6 @@ public final class PacketOpcodes {
     public static final int PushTipsChangeNotify = 1;
     public static final int PushTipsReadFinishReq = 1;
     public static final int PushTipsReadFinishRsp = 1;
-    public static final int QueryPathReq = 1;
-    public static final int QueryPathRsp = 1;
-    public static final int QuestCreateEntityReq = 1;
-    public static final int QuestCreateEntityRsp = 1;
-    public static final int QuestDelNotify = 1;
-    public static final int QuestDestroyEntityReq = 1;
-    public static final int QuestDestroyEntityRsp = 1;
-    public static final int QuestDestroyNpcReq = 1;
-    public static final int QuestGlobalVarNotify = 1;
-    public static final int QuestListNotify = 1;
-    public static final int QuestListUpdateNotify = 1;
-    public static final int QuestProgressUpdateNotify = 1;
-    public static final int QuestRenameAvatarReq = 1;
-    public static final int QuestRenameAvatarRsp = 1;
-    public static final int QuestTransmitReq = 1;
-    public static final int QuestTransmitRsp = 1;
-    public static final int QuestUpdateQuestVarReq = 1;
     public static final int QuickOpenActivityReq = 1;
     public static final int QuickOpenActivityRsp = 1;
     public static final int ReadNicknameAuditReq = 1;
@@ -2069,7 +2073,6 @@ public final class PacketOpcodes {
     public static final int ServerAnnounceNotify = 1;
     public static final int ServerAnnounceRevokeNotify = 1;
     public static final int ServerCombatEndNotify = 1;
-    public static final int ServerCondMeetQuestListUpdateNotify = 1;
     public static final int ServerDisconnectClientNotify = 1;
     public static final int ServerLogNotify = 1;
     public static final int ServerMessageNotify = 1;
@@ -2411,7 +2414,6 @@ public final class PacketOpcodes {
     public static final int WidgetCaptureAnimalReq = 1;
     public static final int WidgetCaptureAnimalRsp = 1;
     public static final int WidgetCoolDownNotify = 1;
-    public static final int WidgetDoBagRsp = 1;
     public static final int WidgetGadgetAllDataNotify = 1;
     public static final int WidgetGadgetDataNotify = 1;
     public static final int WidgetGadgetDestroyNotify = 1;
