@@ -8,6 +8,10 @@ This is possibly the only public PS with updated mob and gadget spawns! (Up to V
 
 Contribute if you want/can...
 
+# Outstanding bugs:
+- Inventory reset
+- Map not displaying properly
+
 
 # Read the [handbook](handbook.md)!
 
