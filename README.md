@@ -12,7 +12,6 @@ Contribute if you want/can...
 - Inventory reset
 - Map not displaying properly
 
-
 # Read the [handbook](handbook.md)!
 
 # Setup Guide
