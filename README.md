@@ -11,6 +11,9 @@ Contribute if you want/can...
 # Outstanding bug(s) hall of fame:
 - Map not displaying properly
 
+# Outstanding critical stuff that does not work hall of fame:
+- Lauma and Flins (bad res)
+
 # Read the [handbook](handbook.md)!
 
 # Setup Guide
