@@ -39,7 +39,7 @@ public final class PacketOpcodes {
     public static final int OpenStateChangeNotify = 21126;
 	public static final int OpenStateUpdateNotify = 25705;
     public static final int AvatarDataNotify = 9081;
-    public static final int PlayerStoreNotify = 2450;
+    public static final int PlayerStoreNotify = 2540;
     public static final int PlayerDataNotify = 2675;
     public static final int BattlePassCurScheduleUpdateNotify = 26024;
 	public static final int BattlePassMissionUpdateNotify = 2699;
@@ -109,7 +109,7 @@ public final class PacketOpcodes {
 	public static final int AvatarFlycloakChangeNotify = 1928;
 	public static final int AvatarFightPropNotify = 27866; 
 	public static final int AvatarFightPropUpdateNotify = 7507; 
-	public static final int AvatarPropChangeReasonNotify = 24733; 
+	public static final int AvatarPropChangeReasonNotify = 24773; 
 	public static final int AvatarPropNotify = 20108; 
 	public static final int AvatarTeamAllDataNotify = 1158; 
 	public static final int AvatarTeamUpdateNotify = 28453; 
