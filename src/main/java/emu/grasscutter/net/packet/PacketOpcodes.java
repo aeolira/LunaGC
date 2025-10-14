@@ -479,7 +479,7 @@ public final class PacketOpcodes {
     public static final int ForgeStartRsp = 28596;
     public static final int CombineDataNotify = 699;
     public static final int CombineFormulaDataNotify = 26457;
-    public static final int CombineReq = 29351;
+    public static final int CombineReq = 29321;
     public static final int CombineRsp = 3920;
     public static final int CompoundDataNotify = 24538;
     public static final int CompoundUnlockNotify = 27473;
