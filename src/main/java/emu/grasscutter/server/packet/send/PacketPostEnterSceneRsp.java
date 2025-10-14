@@ -10,12 +10,10 @@ public class PacketPostEnterSceneRsp extends BasePacket {
         super(PacketOpcodes.PostEnterSceneRsp);
 
         int maskedToken = (player.getEnterSceneToken() ^ 59003) + 18565;
-        int maskedRetcode = (0 - 3964) ^ 29623;
 
         PostEnterSceneRsp p =
                 PostEnterSceneRsp.newBuilder()
                     .setEnterSceneToken(maskedToken)
-                    .setRetcode(maskedRetcode)
                     .build();
 
         //

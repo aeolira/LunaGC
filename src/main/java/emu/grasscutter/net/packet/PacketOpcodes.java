@@ -53,7 +53,7 @@ public final class PacketOpcodes {
     public static final int ToTheMoonEnterSceneReq = 6146;
     public static final int ClientAbilityInitFinishNotify = 28628; 
     public static final int GetSceneAreaReq = 8097; 
-	public static final int GetSceneAreaRsp = 23699; 
+	public static final int GetSceneAreaRsp = 23669; 
 	public static final int GetScenePointReq = 2446; 
 	public static final int GetScenePointRsp = 270;
     public static final int WorldDataNotify = 21967;

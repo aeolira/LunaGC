@@ -20,8 +20,6 @@ public class HandlerEnterSceneDoneReq extends PacketHandler {
     public void handle(GameSession session, byte[] header, byte[] payload) throws Exception {
         EnterSceneDoneReq req = EnterSceneDoneReq.parseFrom(payload);
         
-        int enterSceneToken = (req.getEnterSceneToken() + 34313) ^ 8244;
-        
         var player = session.getPlayer();
 
         // Finished loading

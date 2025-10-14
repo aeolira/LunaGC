@@ -9,7 +9,7 @@ This is possibly the only public PS with updated mob and gadget spawns! (Up to V
 Contribute if you want/can...
 
 # Outstanding bug(s) hall of fame:
-- Map not displaying properly
+- soon
 
 # Outstanding critical stuff that does not work hall of fame:
 - Lauma and Flins (bad res)

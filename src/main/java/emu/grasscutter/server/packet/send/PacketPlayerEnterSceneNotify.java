@@ -17,8 +17,7 @@ public class PacketPlayerEnterSceneNotify extends BasePacket {
         super(PacketOpcodes.PlayerEnterSceneNotify);
 
         player.setSceneLoadState(SceneLoadState.LOADING);
-        int rawToken = Utils.randomRange(30000, 99999);
-        player.setEnterSceneToken(rawToken);
+        player.setEnterSceneToken(Utils.randomRange(1000, 99999));
 
         long currentTime = System.currentTimeMillis();
 
@@ -30,7 +29,7 @@ public class PacketPlayerEnterSceneNotify extends BasePacket {
                         .setType(EnterType.ENTER_TYPE_SELF)
                         .setTargetUid((player.getUid() - 30259) ^ 4145)
                         .setEnterSceneToken((player.getEnterSceneToken() ^ 57361) - 22665)
-                        .setWorldLevel((player.getWorldLevel() ^ 31579) + 19873)
+                        .setWorldLevel(player.getWorldLevel())
                         //.setEnterReason(EnterReason.Login.getValue())
                         //.setIsFirstLoginEnterScene(player.isFirstLoginEnterScene())
                         //.setWorldType(1)
@@ -38,7 +37,7 @@ public class PacketPlayerEnterSceneNotify extends BasePacket {
                                 "3-"
                                         + player.getUid()
                                         + "-"
-                                        + (int) (currentTime / 1000)
+                                        + (int) (System.currentTimeMillis() / 1000)
                                         + "-"
                                         + 18402);
 
@@ -92,7 +91,7 @@ public class PacketPlayerEnterSceneNotify extends BasePacket {
                         .setType(teleportProperties.getEnterType())
                         .setTargetUid((target.getUid() - 30259) ^ 4145)
                         .setEnterSceneToken((player.getEnterSceneToken() ^ 57361) - 22665)
-                        .setWorldLevel((target.getWorld().getWorldLevel() ^ 31579) + 19873)
+                        .setWorldLevel(target.getWorld().getWorldLevel())
                         //.setEnterReason(teleportProperties.getEnterReason().getValue())
                         //.setWorldType(1)
                         .setSceneTransaction(
@@ -100,13 +99,13 @@ public class PacketPlayerEnterSceneNotify extends BasePacket {
                                         + "-"
                                         + target.getUid()
                                         + "-"
-                                        + (int) (currentTime / 1000)
+                                        + (int) (System.currentTimeMillis() / 1000)
                                         + "-"
                                         + 18402);
 
         // Apply the dungeon ID to the packet if it's a dungeon.
         if (teleportProperties.getDungeonId() != 0) {
-            proto.setDungeonId((teleportProperties.getDungeonId() ^ 27544) - 17829);
+            //proto.setDungeonId(teleportProperties.getDungeonId());
         }
 
         this.setData(proto);
@@ -139,7 +138,7 @@ public class PacketPlayerEnterSceneNotify extends BasePacket {
                                         + "-"
                                         + targetUid
                                         + "-"
-                                        + (int) (currentTime / 1000)
+                                        + (int) (System.currentTimeMillis() / 1000)
                                         + "-"
                                         + 105092);
 

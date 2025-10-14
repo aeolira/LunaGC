@@ -13,8 +13,6 @@ public class HandlerSceneInitFinishReq extends PacketHandler {
     public void handle(GameSession session, byte[] header, byte[] payload) throws Exception {
         SceneInitFinishReq req = SceneInitFinishReq.parseFrom(payload);
         
-        int enterSceneToken = (req.getEnterSceneToken() - 63693) ^ 22131;
-        
         var player = session.getPlayer();
         var world = player.getWorld();
 
