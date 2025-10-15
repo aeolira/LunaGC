@@ -185,7 +185,7 @@ public final class PacketOpcodes {
 	public static final int MarkMapReq = 8272; 
     public static final int MarkMapRsp = 22508;
 	public static final int MassiveEntityElementOpBatchNotify = 7343; 
-	public static final int PersonalSceneJumpReq = 8616;  // prob
+	public static final int PersonalSceneJumpReq = 24082;  // prob
 	public static final int PersonalSceneJumpRsp = 22226; 
 	public static final int PlayerGameTimeNotify = 7576; 
 	public static final int PlayerLogoutReq = 9839;
@@ -296,6 +296,9 @@ public final class PacketOpcodes {
     public static final int DungeonRestartRsp = 5702;
     public static final int PlayerEnterDungeonReq = 24794;
     public static final int PlayerEnterDungeonRsp = 1772;
+    public static final int DungeonPlayerDieReq = 7955;
+    public static final int DungeonPlayerDieRsp = 1; // idfk its jut a retcode
+    public static final int DungeonPreloadMonsterNotify = 20227;
     public static final int AvatarUpgradeReq = 26430; 
 	public static final int AvatarUpgradeRsp = 9724; // prob 
 	public static final int NpcTalkReq = 2192; 
@@ -363,6 +366,7 @@ public final class PacketOpcodes {
     public static final int ChangeGameTimeReq = 28276;
     public static final int ChangeGameTimeRsp = 28589;
     public static final int EnterTransPointRegionNotify = 4797;
+    public static final int ExitTransPointRegionNotify = 7461;
     public static final int EntityAuthorityChangeNotify = 3821;
     public static final int GachaOpenWishNotify = 3402;
     public static final int GachaSimpleInfoNotify = 23345;
@@ -497,6 +501,9 @@ public final class PacketOpcodes {
     public static final int PlayerCookArgsRsp = 3845;
     public static final int PlayerCookReq = 4765;
     public static final int PlayerCookRsp = 7469;
+    public static final int SelectWorktopOptionReq = 22940;
+    public static final int SelectWorktopOptionRsp = 7133;
+    public static final int ServerAnnounceNotify = 7583;
 
     // useless
     public static final int PlayerReportReq = 5599; // who tf are u gonna report
@@ -504,6 +511,7 @@ public final class PacketOpcodes {
     // :skull:
 
     // todo (never)
+    public static final int DungeonDataNotify = 1;
     public static final int PlayerCompoundMaterialBoostReq = 1;
     public static final int CommonPlayerTipsNotify = 1;
     public static final int EvtDestroyServerGadgetNotify = 1;
@@ -981,16 +989,12 @@ public final class PacketOpcodes {
     public static final int DungeonCandidateTeamSetChangingAvatarRsp = 1;
     public static final int DungeonCandidateTeamSetReadyReq = 1;
     public static final int DungeonCandidateTeamSetReadyRsp = 1;
-    public static final int DungeonDataNotify = 1;
     public static final int DungeonEntryToBeExploreNotify = 1;
     public static final int DungeonFollowNotify = 1;
     public static final int DungeonGetStatueDropReq = 1;
     public static final int DungeonGetStatueDropRsp = 1;
     public static final int DungeonInterruptChallengeReq = 1;
     public static final int DungeonInterruptChallengeRsp = 1;
-    public static final int DungeonPlayerDieReq = 1;
-    public static final int DungeonPlayerDieRsp = 1;
-    public static final int DungeonPreloadMonsterNotify = 1;
     public static final int DungeonRestartInviteReplyReq = 1;
     public static final int DungeonRestartInviteReplyRsp = 1;
     public static final int DungeonReviseLevelNotify = 1;
@@ -1085,7 +1089,6 @@ public final class PacketOpcodes {
     public static final int ExitCustomDungeonTryReq = 1;
     public static final int ExitCustomDungeonTryRsp = 1;
     public static final int ExitSceneWeatherAreaNotify = 1;
-    public static final int ExitTransPointRegionNotify = 1;
     public static final int ExpeditionChallengeEnterRegionNotify = 1;
     public static final int ExpeditionChallengeFinishedNotify = 1;
     public static final int ExpeditionRecallReq = 1;
@@ -2070,9 +2073,6 @@ public final class PacketOpcodes {
     public static final int SelectEffigyChallengeConditionRsp = 1;
     public static final int SelectRoguelikeDungeonCardReq = 1;
     public static final int SelectRoguelikeDungeonCardRsp = 1;
-    public static final int SelectWorktopOptionReq = 1;
-    public static final int SelectWorktopOptionRsp = 1;
-    public static final int ServerAnnounceNotify = 1;
     public static final int ServerAnnounceRevokeNotify = 1;
     public static final int ServerCombatEndNotify = 1;
     public static final int ServerDisconnectClientNotify = 1;
