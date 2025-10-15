@@ -3,6 +3,8 @@
 ## Updated version of Grasscutters, with some new features implemented.
 Old Discord for LunaGC https://discord.gg/7D5gkyJR5Y (don't ask for support there, instead create an issue in this repository)
 
+# NOTE: Don't use Cultivation until the maintainer updates the patches! See [patching the game](#patching-the-game)
+
 Features and functionality of the ps is not guaranteed, try it yourself to see what works and what doesnt.
 This is possibly the only public PS with updated mob and gadget spawns! (Up to Version 5.4)
 
@@ -27,11 +29,14 @@ Contribute if you want/can...
 - Get game version REL6.0.0 (pray you still have it)
 - Make sure to install java and set the environment variables.
 - Build the server (refer to "Compile the actual server" in this guide.)
-- Put [Astrolabe.dll](https://github.com/pmagixc/LunaGC_6.0.0/raw/main/patch/Astrolabe.dll) in the local game root directory
 - Download the [Resources](https://github.com/pmagixc/6.0-res), make a new folder called `resources` in the downloaded LunaGC folder and then extract the resources in that new folder.
 - Set useEncryption, Questing and useInRouting to false (it should be false by default, if not then change it)
 - Start the server and the game, make sure to also create an account in the LunaGC console!
 - Have fun (or don't)
+
+### Patching the game
+- Put [Astrolabe.dll](https://github.com/pmagixc/LunaGC_6.0.0/raw/main/patch/Astrolabe.dll) in the game directory
+- To "disable" the patch, just rename Astrolabe.dll to something else so it's not a DLL (for example Astrolabe.deleleu)
 
 ### Getting started
 
