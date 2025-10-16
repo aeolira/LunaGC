@@ -3,8 +3,6 @@
 ## Updated version of Grasscutters, with some new features implemented.
 Old Discord for LunaGC https://discord.gg/7D5gkyJR5Y (don't ask for support there, instead create an issue in this repository)
 
-# NOTE: Don't use Cultivation until the maintainer updates the patches! See [patching the game](#patching-the-game)
-
 Features and functionality of the ps is not guaranteed, try it yourself to see what works and what doesnt.
 This is possibly the only public PS with updated mob and gadget spawns! (Up to Version 5.4)
 
