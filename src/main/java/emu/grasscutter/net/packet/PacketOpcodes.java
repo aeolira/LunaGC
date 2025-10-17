@@ -154,7 +154,7 @@ public final class PacketOpcodes {
     public static final int EvtAnimatorStateChangedNotify = 6787;
     public static final int EvtAvatarEnterFocusNotify = 26704;
     public static final int EvtAvatarExitFocusNotify = 8958;
-    public static final int EvtAvatarUpdateFocusNotify = 2665;
+    public static final int EvtAvatarUpdateFocusNotify = 26652;
     public static final int EvtBulletDeactiveNotify = 7946;
     public static final int EvtBulletMoveNotify = 5175;
     public static final int EvtEntityStartDieEndNotify = 5768;
@@ -185,7 +185,7 @@ public final class PacketOpcodes {
 	public static final int MarkMapReq = 8272; 
     public static final int MarkMapRsp = 22508;
 	public static final int MassiveEntityElementOpBatchNotify = 7343; 
-	public static final int PersonalSceneJumpReq = 24082;  // prob
+	public static final int PersonalSceneJumpReq = 24082;
 	public static final int PersonalSceneJumpRsp = 22226; 
 	public static final int PlayerGameTimeNotify = 7576; 
 	public static final int PlayerLogoutReq = 9839;
@@ -504,6 +504,30 @@ public final class PacketOpcodes {
     public static final int SelectWorktopOptionReq = 22940;
     public static final int SelectWorktopOptionRsp = 7133;
     public static final int ServerAnnounceNotify = 7583;
+    public static final int TowerAllDataReq = 5245;
+	public static final int TowerAllDataRsp = 7400;
+	public static final int TowerLevelEndNotify = 27498;
+    public static final int TowerBriefDataNotify = 9152;
+    public static final int TowerBuffSelectReq = 424;
+    public static final int TowerBuffSelectRsp = 9330;
+    public static final int TowerCurLevelRecordChangeNotify = 4290;
+    public static final int TowerEnterLevelReq = 3176;
+    public static final int TowerEnterLevelRsp = 21969;
+    public static final int TowerFloorRecordChangeNotify = 25518;
+    public static final int TowerGetFloorStarRewardReq = 1328;
+    public static final int TowerGetFloorStarRewardRsp = 5731;
+    public static final int TowerLevelStarCondNotify = 4674;
+    public static final int TowerMiddleLevelChangeTeamNotify = 1; // t ?
+    public static final int TowerRecordHandbookReq = 1; // t ?
+    public static final int TowerRecordHandbookRsp = 468;
+    public static final int TowerSurrenderReq = 1; // t
+    public static final int TowerSurrenderRsp = 1; // t
+    public static final int TowerTeamSelectReq = 5387;
+    public static final int TowerTeamSelectRsp = 22256;
+    public static final int PersonalLineAllDataReq = 3505;
+    public static final int PersonalLineAllDataRsp = 478;
+    public static final int UnlockPersonalLineReq = 5001; // ?
+    public static final int UnlockPersonalLineRsp = 25739;
 
     // useless
     public static final int PlayerReportReq = 5599; // who tf are u gonna report
@@ -511,6 +535,8 @@ public final class PacketOpcodes {
     // :skull:
 
     // todo (never)
+    public static final int PersonalLineNewUnlockNotify = 1;
+    public static final int TowerDailyRewardProgressChangeNotify = 1;
     public static final int DungeonDataNotify = 1;
     public static final int PlayerCompoundMaterialBoostReq = 1;
     public static final int CommonPlayerTipsNotify = 1;
@@ -587,8 +613,6 @@ public final class PacketOpcodes {
 	public static final int TakeBattlePassRewardRsp = 1;
 	public static final int TakeOfferingLevelRewardReq = 1;
 	public static final int ToTheMoonQueryPathReq = 1;
-	public static final int TowerAllDataRsp = 1;
-	public static final int TowerLevelEndNotify = 1;
 	public static final int TrialAvatarFirstPassDungeonNotify = 1;
 	public static final int UpdateAbilityCreatedMovingPlatformNotify = 1;
 	public static final int UpdatePS4FriendListRsp = 1;
@@ -1790,9 +1814,6 @@ public final class PacketOpcodes {
     public static final int PathfindingPingNotify = 1;
     public static final int PersistentDungeonSwitchAvatarReq = 1;
     public static final int PersistentDungeonSwitchAvatarRsp = 1;
-    public static final int PersonalLineAllDataReq = 1;
-    public static final int PersonalLineAllDataRsp = 1;
-    public static final int PersonalLineNewUnlockNotify = 1;
     public static final int PhotoActivityClientViewReq = 1;
     public static final int PhotoActivityClientViewRsp = 1;
     public static final int PhotoActivityFinishReq = 1;
@@ -2252,25 +2273,6 @@ public final class PacketOpcodes {
     public static final int ToTheMoonQueryPathRsp = 1;
     public static final int ToTheMoonRemoveObstacleReq = 1;
     public static final int ToTheMoonRemoveObstacleRsp = 1;
-    public static final int TowerAllDataReq = 1;
-    public static final int TowerBriefDataNotify = 1;
-    public static final int TowerBuffSelectReq = 1;
-    public static final int TowerBuffSelectRsp = 1;
-    public static final int TowerCurLevelRecordChangeNotify = 1;
-    public static final int TowerDailyRewardProgressChangeNotify = 1;
-    public static final int TowerEnterLevelReq = 1;
-    public static final int TowerEnterLevelRsp = 1;
-    public static final int TowerFloorRecordChangeNotify = 1;
-    public static final int TowerGetFloorStarRewardReq = 1;
-    public static final int TowerGetFloorStarRewardRsp = 1;
-    public static final int TowerLevelStarCondNotify = 1;
-    public static final int TowerMiddleLevelChangeTeamNotify = 1;
-    public static final int TowerRecordHandbookReq = 1;
-    public static final int TowerRecordHandbookRsp = 1;
-    public static final int TowerSurrenderReq = 1;
-    public static final int TowerSurrenderRsp = 1;
-    public static final int TowerTeamSelectReq = 1;
-    public static final int TowerTeamSelectRsp = 1;
     public static final int TreasureMapBonusChallengeNotify = 1;
     public static final int TreasureMapCurrencyNotify = 1;
     public static final int TreasureMapDetectorDataNotify = 1;
@@ -2354,8 +2356,6 @@ public final class PacketOpcodes {
     public static final int UnlockCoopChapterReq = 1;
     public static final int UnlockCoopChapterRsp = 1;
     public static final int UnlockNameCardNotify = 1;
-    public static final int UnlockPersonalLineReq = 1;
-    public static final int UnlockPersonalLineRsp = 1;
     public static final int UnlockedFurnitureFormulaDataNotify = 1;
     public static final int UnlockedFurnitureSuiteDataNotify = 1;
     public static final int UnmarkEntityInMinMapNotify = 1;
