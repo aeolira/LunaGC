@@ -9,7 +9,7 @@ This is possibly the only public PS with updated mob and gadget spawns! (Up to V
 Contribute if you want/can...
 
 # Outstanding bug(s) hall of fame:
-- soon
+- Abyss (as expected) - can't pass to next floor and completing a chamber correctly results in a fail - not to forget the wrong floor and chamber numbers being displayed (for example floor 0 chamber 1000)
 
 # Outstanding critical stuff that does not work hall of fame:
 - Lauma and Flins (bad res)
