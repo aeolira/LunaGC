@@ -29,12 +29,13 @@ Contribute if you want/can...
 - Build the server (refer to "Compile the actual server" in this guide.)
 - Download the [Resources](https://github.com/pmagixc/6.0-res), make a new folder called `resources` in the downloaded LunaGC folder and then extract the resources in that new folder.
 - Set useEncryption, Questing and useInRouting to false (it should be false by default, if not then change it)
+- [Patch the game](#patching-the-game)
 - Start the server and the game, make sure to also create an account in the LunaGC console!
 - Have fun (or don't)
 
 ### Patching the game
 - Put [Astrolabe.dll](https://github.com/pmagixc/LunaGC_6.0.0/raw/main/patch/Astrolabe.dll) in the game directory
-- To "disable" the patch, just rename Astrolabe.dll to something else so it's not a DLL (for example Astrolabe.deleleu)
+- To "disable" the patch, just rename Astrolabe.dll to something else so it's not a DLL or don't name it Astrolabe (for example Astrolabe.deleleu / astrollable.dll)
 
 ### Getting started
 
