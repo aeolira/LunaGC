@@ -18,10 +18,6 @@ public final class AsterLargeDetailInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:AsterLargeDetailInfo)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    int getBeginTime();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0      
@@ -40,7 +36,6 @@ public final class AsterLargeDetailInfoOuterClass {
      * <code>bool is_open = 4;</code>
      * @return The isOpen.
      */
->>>>>>> origin/6.5.0
     boolean getIsOpen();
   }
   /**
@@ -132,9 +127,6 @@ public final class AsterLargeDetailInfoOuterClass {
 
     public static final int BEGIN_TIME_FIELD_NUMBER = 5;
     private int beginTime_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0      
@@ -143,7 +135,6 @@ public final class AsterLargeDetailInfoOuterClass {
      * <code>uint32 begin_time = 5;</code>
      * @return The beginTime.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getBeginTime() {
       return beginTime_;
@@ -151,9 +142,6 @@ public final class AsterLargeDetailInfoOuterClass {
 
     public static final int IS_OPEN_FIELD_NUMBER = 4;
     private boolean isOpen_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0      
@@ -162,7 +150,6 @@ public final class AsterLargeDetailInfoOuterClass {
      * <code>bool is_open = 4;</code>
      * @return The isOpen.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsOpen() {
       return isOpen_;
@@ -489,9 +476,6 @@ public final class AsterLargeDetailInfoOuterClass {
       }
 
       private int beginTime_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0      
@@ -500,14 +484,10 @@ public final class AsterLargeDetailInfoOuterClass {
        * <code>uint32 begin_time = 5;</code>
        * @return The beginTime.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getBeginTime() {
         return beginTime_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0      
@@ -517,16 +497,12 @@ public final class AsterLargeDetailInfoOuterClass {
        * @param value The beginTime to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setBeginTime(int value) {
-
+        
         beginTime_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0      
@@ -535,18 +511,14 @@ public final class AsterLargeDetailInfoOuterClass {
        * <code>uint32 begin_time = 5;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearBeginTime() {
-
+        
         beginTime_ = 0;
         onChanged();
         return this;
       }
 
       private boolean isOpen_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0      
@@ -555,14 +527,10 @@ public final class AsterLargeDetailInfoOuterClass {
        * <code>bool is_open = 4;</code>
        * @return The isOpen.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsOpen() {
         return isOpen_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0      
@@ -572,16 +540,12 @@ public final class AsterLargeDetailInfoOuterClass {
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setIsOpen(boolean value) {
-
+        
         isOpen_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0      
@@ -590,9 +554,8 @@ public final class AsterLargeDetailInfoOuterClass {
        * <code>bool is_open = 4;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearIsOpen() {
-
+        
         isOpen_ = false;
         onChanged();
         return this;
@@ -608,6 +571,7 @@ public final class AsterLargeDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:AsterLargeDetailInfo)
     }
@@ -651,7 +615,7 @@ public final class AsterLargeDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AsterLargeDetailInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AsterLargeDetailInfo_fieldAccessorTable;
 

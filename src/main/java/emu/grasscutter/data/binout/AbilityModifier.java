@@ -1,14 +1,8 @@
 package emu.grasscutter.data.binout;
 
-import com.google.gson.TypeAdapter;
-import com.google.gson.annotations.JsonAdapter;
 import com.google.gson.annotations.SerializedName;
-import com.google.gson.stream.JsonReader;
-import com.google.gson.stream.JsonToken;
-import com.google.gson.stream.JsonWriter;
 import emu.grasscutter.data.common.DynamicFloat;
 import emu.grasscutter.game.props.ElementType;
-import java.io.IOException;
 import java.io.Serializable;
 import java.util.List;
 import java.util.Map;
@@ -22,57 +16,34 @@ public class AbilityModifier implements Serializable {
 
     @SerializedName(
             value = "onAdded",
-            alternate = {"KCICDEJLIJD", "EHNPMFJPEAI"})
+            alternate = {"KCICDEJLIJD"})
     public AbilityModifierAction[] onAdded;
 
     @SerializedName(
             value = "onThinkInterval",
-            alternate = {"PBDDACFFPOE", "HLCGGKIJAGM"})
+            alternate = {"PBDDACFFPOE"})
     public AbilityModifierAction[] onThinkInterval;
 
-    @SerializedName(value = "onRemoved", alternate = "HCAONLNGFGO")
     public AbilityModifierAction[] onRemoved;
-
-    @SerializedName(value = "onBeingHit", alternate = "MGGKNJPGHPG")
     public AbilityModifierAction[] onBeingHit;
-
-    @SerializedName(value = "onAttackLanded", alternate = "LBABLMBNAJE")
     public AbilityModifierAction[] onAttackLanded;
-
-    @SerializedName(value = "onHittingOther", alternate = "BIGKPCNFDOM")
     public AbilityModifierAction[] onHittingOther;
-
-    @SerializedName(value = "onKill", alternate = "JNPMADJHDPI")
     public AbilityModifierAction[] onKill;
-
     public AbilityModifierAction[] onCrash;
-
-    @SerializedName(value = "onAvatarIn", alternate = "PCHKGCNLAKL")
     public AbilityModifierAction[] onAvatarIn;
-
-    @SerializedName(value = "onAvatarOut", alternate = "GNNLFAGCOED")
     public AbilityModifierAction[] onAvatarOut;
-
-    @SerializedName(value = "onReconnect", alternate = "OPOMCDOLKFF")
     public AbilityModifierAction[] onReconnect;
-
     public AbilityModifierAction[] onChangeAuthority;
-
-    @SerializedName(value = "onVehicleIn", alternate = "NNFFLLKFNKN")
     public AbilityModifierAction[] onVehicleIn;
-
     public AbilityModifierAction[] onVehicleOut;
     public AbilityModifierAction[] onZoneEnter;
     public AbilityModifierAction[] onZoneExit;
-    @SerializedName(value = "onHeal", alternate = "JKCBCFOKMCE")
     public AbilityModifierAction[] onHeal;
-    @SerializedName(value = "onBeingHealed", alternate = "COJIHOHKDJF")
     public AbilityModifierAction[] onBeingHealed;
     public DynamicFloat duration = DynamicFloat.ZERO;
     public DynamicFloat thinkInterval = DynamicFloat.ZERO;
     public String stacking;
 
-    @SerializedName(value = "modifierMixins", alternate = "IIECHMHLPDM")
     public AbilityMixinData[] modifierMixins;
     public AbilityModifierProperty properties;
 
@@ -313,11 +284,6 @@ public class AbilityModifier implements Serializable {
         public Type type;
 
         public String target;
-
-        @JsonAdapter(NullSafeStringAdapter.class)
-        @SerializedName(value = "animatorParamName", alternate = {"triggerID", "boolID", "intID", "floatID"})
-        public String animatorParamName;
-        @SerializedName(value = "predicates", alternate = "GLCOHEDMLDM")
         public List<Object> predicates;
 
         @SerializedName(
@@ -326,11 +292,11 @@ public class AbilityModifier implements Serializable {
         public DynamicFloat amount = DynamicFloat.ZERO;
 
         @SerializedName(
-                value = "amountByCasterAttackRatio",
+                value = "amountByTargetCurrentHPRatio",
                 alternate = {"GMFELAKANEF", "KECHKKGGAPF"})
         public DynamicFloat amountByCasterAttackRatio = DynamicFloat.ZERO;
 
-        @SerializedName(value = "amountByCasterCurrentHPRatio")
+        @SerializedName(value = "unknown2")
         public DynamicFloat amountByCasterCurrentHPRatio = DynamicFloat.ZERO;
 
         @SerializedName(
@@ -340,12 +306,10 @@ public class AbilityModifier implements Serializable {
 
         public DynamicFloat amountByGetDamage = DynamicFloat.ZERO;
 
-        public DynamicFloat amountByCasterDefRatio = DynamicFloat.ZERO;
-
-        @SerializedName(value = "amountByTargetCurrentHPRatio")
+        @SerializedName(value = "amountByTargetMaxHPRatio")
         public DynamicFloat amountByTargetCurrentHPRatio = DynamicFloat.ZERO;
 
-        @SerializedName(value = "amountByTargetMaxHPRatio", alternate = "GGLMMJHNGMO")
+        @SerializedName(value = "unknown1", alternate = "GGLMMJHNGMO")
         public DynamicFloat amountByTargetMaxHPRatio = DynamicFloat.ZERO;
 
         public DynamicFloat limboByTargetMaxHPRatio = DynamicFloat.ZERO;
@@ -379,10 +343,7 @@ public class AbilityModifier implements Serializable {
         public String abilityFormula;
         public String srcTarget, dstTarget;
         public String srcKey, dstKey;
-        @SerializedName(value = "targetPredicates", alternate = "KNABHPHLAAB")
         public List<Map<String, Object>> targetPredicates;
-
-        public Map<String, Object> otherTargets;
 
         public DynamicFloat minValue = DynamicFloat.ZERO;
         public DynamicFloat maxValue = DynamicFloat.ZERO;
@@ -397,16 +358,11 @@ public class AbilityModifier implements Serializable {
         public int summonTag;
 
         public AbilityModifierAction[] actions;
-
-        @SerializedName(value = "successActions", alternate = "NCEBCLBNOFG")
         public AbilityModifierAction[] successActions;
-
-        @SerializedName(value = "failActions", alternate = "JINAOHPNJKC")
         public AbilityModifierAction[] failActions;
 
         public DropType dropType = DropType.LevelControl;
         public DynamicFloat baseEnergy;
-        @SerializedName(value = "ratio", alternate = "value")
         public DynamicFloat ratio = DynamicFloat.ONE;
         public String determineType;
         public int configID;
@@ -452,7 +408,7 @@ public class AbilityModifier implements Serializable {
 
     public static class AbilityModifierProperty implements Serializable {
         public float Actor_HpThresholdRatio;
-
+        // Add more properties here when GC needs them.
     }
 
     public enum State {
@@ -490,18 +446,11 @@ public class AbilityModifier implements Serializable {
             MuteTaunt
     }
 
-    static class NullSafeStringAdapter extends TypeAdapter<String> {
-        @Override
-        public void write(JsonWriter out, String value) throws IOException {
-            if (value == null) out.nullValue();
-            else out.value(value);
-        }
-
-        @Override
-        public String read(JsonReader in) throws IOException {
-            if (in.peek() == JsonToken.STRING) return in.nextString();
-            in.skipValue();
-            return null;
-        }
-    }
+    // The following should be implemented into DynamicFloat if older resource formats need to be
+    // supported
+    // public static class AbilityModifierValue {
+    //     public boolean isFormula;
+    //     public boolean isDynamic;
+    //     public String dynamicKey;
+    // }
 }

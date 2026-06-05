@@ -18,10 +18,6 @@ public final class Uint32PairOuterClass {
       // @@protoc_insertion_point(interface_extends:Uint32Pair)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    int getValue();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -40,7 +36,6 @@ public final class Uint32PairOuterClass {
      * <code>uint32 key = 1;</code>
      * @return The key.
      */
->>>>>>> origin/6.5.0
     int getKey();
   }
   /**
@@ -132,9 +127,6 @@ public final class Uint32PairOuterClass {
 
     public static final int VALUE_FIELD_NUMBER = 2;
     private int value_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -143,7 +135,6 @@ public final class Uint32PairOuterClass {
      * <code>uint32 value = 2;</code>
      * @return The value.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getValue() {
       return value_;
@@ -151,9 +142,6 @@ public final class Uint32PairOuterClass {
 
     public static final int KEY_FIELD_NUMBER = 1;
     private int key_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -162,7 +150,6 @@ public final class Uint32PairOuterClass {
      * <code>uint32 key = 1;</code>
      * @return The key.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getKey() {
       return key_;
@@ -488,9 +475,6 @@ public final class Uint32PairOuterClass {
       }
 
       private int value_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -499,14 +483,10 @@ public final class Uint32PairOuterClass {
        * <code>uint32 value = 2;</code>
        * @return The value.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getValue() {
         return value_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -516,16 +496,12 @@ public final class Uint32PairOuterClass {
        * @param value The value to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setValue(int value) {
-
+        
         value_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -534,18 +510,14 @@ public final class Uint32PairOuterClass {
        * <code>uint32 value = 2;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearValue() {
-
+        
         value_ = 0;
         onChanged();
         return this;
       }
 
       private int key_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -554,14 +526,10 @@ public final class Uint32PairOuterClass {
        * <code>uint32 key = 1;</code>
        * @return The key.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getKey() {
         return key_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -571,16 +539,12 @@ public final class Uint32PairOuterClass {
        * @param value The key to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setKey(int value) {
-
+        
         key_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -589,9 +553,8 @@ public final class Uint32PairOuterClass {
        * <code>uint32 key = 1;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearKey() {
-
+        
         key_ = 0;
         onChanged();
         return this;
@@ -607,6 +570,7 @@ public final class Uint32PairOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:Uint32Pair)
     }
@@ -650,7 +614,7 @@ public final class Uint32PairOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Uint32Pair_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Uint32Pair_fieldAccessorTable;
 

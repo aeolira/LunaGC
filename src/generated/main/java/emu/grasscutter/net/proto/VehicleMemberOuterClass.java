@@ -18,12 +18,6 @@ public final class VehicleMemberOuterClass {
       // @@protoc_insertion_point(interface_extends:VehicleMember)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    int getUid();
-
-    int getPos();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -52,7 +46,6 @@ public final class VehicleMemberOuterClass {
      * <code>uint64 avatar_guid = 2;</code>
      * @return The avatarGuid.
      */
->>>>>>> origin/6.5.0
     long getAvatarGuid();
   }
   /**
@@ -149,9 +142,6 @@ public final class VehicleMemberOuterClass {
 
     public static final int UID_FIELD_NUMBER = 1;
     private int uid_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -160,7 +150,6 @@ public final class VehicleMemberOuterClass {
      * <code>uint32 uid = 1;</code>
      * @return The uid.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getUid() {
       return uid_;
@@ -168,9 +157,6 @@ public final class VehicleMemberOuterClass {
 
     public static final int POS_FIELD_NUMBER = 3;
     private int pos_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -179,7 +165,6 @@ public final class VehicleMemberOuterClass {
      * <code>uint32 pos = 3;</code>
      * @return The pos.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getPos() {
       return pos_;
@@ -187,9 +172,6 @@ public final class VehicleMemberOuterClass {
 
     public static final int AVATAR_GUID_FIELD_NUMBER = 2;
     private long avatarGuid_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -198,7 +180,6 @@ public final class VehicleMemberOuterClass {
      * <code>uint64 avatar_guid = 2;</code>
      * @return The avatarGuid.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public long getAvatarGuid() {
       return avatarGuid_;
@@ -542,9 +523,6 @@ public final class VehicleMemberOuterClass {
       }
 
       private int uid_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -553,14 +531,10 @@ public final class VehicleMemberOuterClass {
        * <code>uint32 uid = 1;</code>
        * @return The uid.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getUid() {
         return uid_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -570,16 +544,12 @@ public final class VehicleMemberOuterClass {
        * @param value The uid to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setUid(int value) {
-
+        
         uid_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -588,18 +558,14 @@ public final class VehicleMemberOuterClass {
        * <code>uint32 uid = 1;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearUid() {
-
+        
         uid_ = 0;
         onChanged();
         return this;
       }
 
       private int pos_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -608,14 +574,10 @@ public final class VehicleMemberOuterClass {
        * <code>uint32 pos = 3;</code>
        * @return The pos.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getPos() {
         return pos_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -625,16 +587,12 @@ public final class VehicleMemberOuterClass {
        * @param value The pos to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setPos(int value) {
-
+        
         pos_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -643,18 +601,14 @@ public final class VehicleMemberOuterClass {
        * <code>uint32 pos = 3;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearPos() {
-
+        
         pos_ = 0;
         onChanged();
         return this;
       }
 
       private long avatarGuid_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -663,14 +617,10 @@ public final class VehicleMemberOuterClass {
        * <code>uint64 avatar_guid = 2;</code>
        * @return The avatarGuid.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public long getAvatarGuid() {
         return avatarGuid_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -680,16 +630,12 @@ public final class VehicleMemberOuterClass {
        * @param value The avatarGuid to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setAvatarGuid(long value) {
-
+        
         avatarGuid_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -698,9 +644,8 @@ public final class VehicleMemberOuterClass {
        * <code>uint64 avatar_guid = 2;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearAvatarGuid() {
-
+        
         avatarGuid_ = 0L;
         onChanged();
         return this;
@@ -716,6 +661,7 @@ public final class VehicleMemberOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:VehicleMember)
     }
@@ -759,7 +705,7 @@ public final class VehicleMemberOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_VehicleMember_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_VehicleMember_fieldAccessorTable;
 

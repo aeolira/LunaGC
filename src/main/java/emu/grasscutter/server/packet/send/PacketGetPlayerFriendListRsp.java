@@ -29,12 +29,12 @@ public class PacketGetPlayerFriendListRsp extends BasePacket {
                         .setLastActiveTime((int) (System.currentTimeMillis() / 1000f))
                         .setNameCardId(serverAccount.nameCardId)
                         .setOnlineState(FriendOnlineState.FriendOnlineState_FRIEND_ONLINE)
-                        .setIsMpModeAvailable(true)
+                        .setParam(1)
                         .setIsGameSource(true)
-                        .setParam(0)
-                        .setPlatformType(PlatformTypeOuterClass.PlatformType.PlatformType_CLOUD_PC)
-                        .setIsInDuel(false)
-                        .setIsDuelObservable(false)
+                        .setPlatformType(PlatformTypeOuterClass.PlatformType.PlatformType_PC)
+                        .setFriendEnterHomeOptionValue(
+                                FriendEnterHomeOptionOuterClass.FriendEnterHomeOption
+                                        .FriendEnterHomeOption_REFUSE_VALUE)
                         .build();
 
         GetPlayerFriendListRsp.Builder proto =

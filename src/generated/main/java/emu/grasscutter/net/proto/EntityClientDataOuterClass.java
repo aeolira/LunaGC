@@ -18,12 +18,6 @@ public final class EntityClientDataOuterClass {
       // @@protoc_insertion_point(interface_extends:EntityClientData)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    int getWindChangeSceneTime();
-
-    int getWindChangeTargetLevel();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -52,7 +46,6 @@ public final class EntityClientDataOuterClass {
      * <code>float windmill_sync_angle = 2;</code>
      * @return The windmillSyncAngle.
      */
->>>>>>> origin/6.5.0
     float getWindmillSyncAngle();
   }
   /**
@@ -149,9 +142,6 @@ public final class EntityClientDataOuterClass {
 
     public static final int WIND_CHANGE_SCENE_TIME_FIELD_NUMBER = 1;
     private int windChangeSceneTime_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -160,7 +150,6 @@ public final class EntityClientDataOuterClass {
      * <code>uint32 wind_change_scene_time = 1;</code>
      * @return The windChangeSceneTime.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getWindChangeSceneTime() {
       return windChangeSceneTime_;
@@ -168,9 +157,6 @@ public final class EntityClientDataOuterClass {
 
     public static final int WIND_CHANGE_TARGET_LEVEL_FIELD_NUMBER = 3;
     private int windChangeTargetLevel_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -179,7 +165,6 @@ public final class EntityClientDataOuterClass {
      * <code>int32 wind_change_target_level = 3;</code>
      * @return The windChangeTargetLevel.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getWindChangeTargetLevel() {
       return windChangeTargetLevel_;
@@ -187,9 +172,6 @@ public final class EntityClientDataOuterClass {
 
     public static final int WINDMILL_SYNC_ANGLE_FIELD_NUMBER = 2;
     private float windmillSyncAngle_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -198,7 +180,6 @@ public final class EntityClientDataOuterClass {
      * <code>float windmill_sync_angle = 2;</code>
      * @return The windmillSyncAngle.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public float getWindmillSyncAngle() {
       return windmillSyncAngle_;
@@ -543,9 +524,6 @@ public final class EntityClientDataOuterClass {
       }
 
       private int windChangeSceneTime_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -554,14 +532,10 @@ public final class EntityClientDataOuterClass {
        * <code>uint32 wind_change_scene_time = 1;</code>
        * @return The windChangeSceneTime.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getWindChangeSceneTime() {
         return windChangeSceneTime_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -571,16 +545,12 @@ public final class EntityClientDataOuterClass {
        * @param value The windChangeSceneTime to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setWindChangeSceneTime(int value) {
-
+        
         windChangeSceneTime_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -589,18 +559,14 @@ public final class EntityClientDataOuterClass {
        * <code>uint32 wind_change_scene_time = 1;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearWindChangeSceneTime() {
-
+        
         windChangeSceneTime_ = 0;
         onChanged();
         return this;
       }
 
       private int windChangeTargetLevel_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -609,14 +575,10 @@ public final class EntityClientDataOuterClass {
        * <code>int32 wind_change_target_level = 3;</code>
        * @return The windChangeTargetLevel.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getWindChangeTargetLevel() {
         return windChangeTargetLevel_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -626,16 +588,12 @@ public final class EntityClientDataOuterClass {
        * @param value The windChangeTargetLevel to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setWindChangeTargetLevel(int value) {
-
+        
         windChangeTargetLevel_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -644,18 +602,14 @@ public final class EntityClientDataOuterClass {
        * <code>int32 wind_change_target_level = 3;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearWindChangeTargetLevel() {
-
+        
         windChangeTargetLevel_ = 0;
         onChanged();
         return this;
       }
 
       private float windmillSyncAngle_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -664,14 +618,10 @@ public final class EntityClientDataOuterClass {
        * <code>float windmill_sync_angle = 2;</code>
        * @return The windmillSyncAngle.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public float getWindmillSyncAngle() {
         return windmillSyncAngle_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -681,16 +631,12 @@ public final class EntityClientDataOuterClass {
        * @param value The windmillSyncAngle to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setWindmillSyncAngle(float value) {
-
+        
         windmillSyncAngle_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -699,9 +645,8 @@ public final class EntityClientDataOuterClass {
        * <code>float windmill_sync_angle = 2;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearWindmillSyncAngle() {
-
+        
         windmillSyncAngle_ = 0F;
         onChanged();
         return this;
@@ -717,6 +662,7 @@ public final class EntityClientDataOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:EntityClientData)
     }
@@ -760,7 +706,7 @@ public final class EntityClientDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EntityClientData_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EntityClientData_fieldAccessorTable;
 

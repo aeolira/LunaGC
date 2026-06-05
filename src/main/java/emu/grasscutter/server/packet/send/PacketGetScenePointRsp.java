@@ -12,15 +12,14 @@ public class PacketGetScenePointRsp extends BasePacket {
 
         GetScenePointRsp.Builder p = GetScenePointRsp.newBuilder().setSceneId(sceneId);
 
-        var unlockedPoints = player.getUnlockedScenePoints(sceneId);
-        if (GameData.getScenePointIdList().size() == 0 || unlockedPoints.isEmpty()) {
+        if (GameData.getScenePointIdList().size() == 0) {
             for (int i = 1; i < 1000; i++) {
                 p.addUnlockedPointList(i);
                 p.addUnhidePointList(i);
             }
         } else {
-            p.addAllUnlockedPointList(unlockedPoints);
-            p.addAllUnhidePointList(unlockedPoints);
+            p.addAllUnlockedPointList(player.getUnlockedScenePoints(sceneId));
+            p.addAllUnhidePointList(player.getUnlockedScenePoints(sceneId));
         }
 
         for (int i = 1; i < 9; i++) {

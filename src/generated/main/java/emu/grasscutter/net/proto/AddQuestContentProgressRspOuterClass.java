@@ -18,10 +18,6 @@ public final class AddQuestContentProgressRspOuterClass {
       // @@protoc_insertion_point(interface_extends:AddQuestContentProgressRsp)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    int getRetcode();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          // offset: 32
@@ -40,7 +36,6 @@ public final class AddQuestContentProgressRspOuterClass {
      * <code>uint32 content_type = 9;</code>
      * @return The contentType.
      */
->>>>>>> origin/6.5.0
     int getContentType();
   }
   /**
@@ -132,9 +127,6 @@ public final class AddQuestContentProgressRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 6;
     private int retcode_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          // offset: 32
@@ -143,7 +135,6 @@ public final class AddQuestContentProgressRspOuterClass {
      * <code>int32 retcode = 6;</code>
      * @return The retcode.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -151,9 +142,6 @@ public final class AddQuestContentProgressRspOuterClass {
 
     public static final int CONTENT_TYPE_FIELD_NUMBER = 9;
     private int contentType_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          // offset: 36 DMHOICCBMPC
@@ -162,7 +150,6 @@ public final class AddQuestContentProgressRspOuterClass {
      * <code>uint32 content_type = 9;</code>
      * @return The contentType.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getContentType() {
       return contentType_;
@@ -488,9 +475,6 @@ public final class AddQuestContentProgressRspOuterClass {
       }
 
       private int retcode_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          // offset: 32
@@ -499,14 +483,10 @@ public final class AddQuestContentProgressRspOuterClass {
        * <code>int32 retcode = 6;</code>
        * @return The retcode.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          // offset: 32
@@ -516,16 +496,12 @@ public final class AddQuestContentProgressRspOuterClass {
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
-
+        
         retcode_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          // offset: 32
@@ -534,18 +510,14 @@ public final class AddQuestContentProgressRspOuterClass {
        * <code>int32 retcode = 6;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearRetcode() {
-
+        
         retcode_ = 0;
         onChanged();
         return this;
       }
 
       private int contentType_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          // offset: 36 DMHOICCBMPC
@@ -554,14 +526,10 @@ public final class AddQuestContentProgressRspOuterClass {
        * <code>uint32 content_type = 9;</code>
        * @return The contentType.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getContentType() {
         return contentType_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          // offset: 36 DMHOICCBMPC
@@ -571,16 +539,12 @@ public final class AddQuestContentProgressRspOuterClass {
        * @param value The contentType to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setContentType(int value) {
-
+        
         contentType_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          // offset: 36 DMHOICCBMPC
@@ -589,9 +553,8 @@ public final class AddQuestContentProgressRspOuterClass {
        * <code>uint32 content_type = 9;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearContentType() {
-
+        
         contentType_ = 0;
         onChanged();
         return this;
@@ -607,6 +570,7 @@ public final class AddQuestContentProgressRspOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:AddQuestContentProgressRsp)
     }
@@ -650,7 +614,7 @@ public final class AddQuestContentProgressRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AddQuestContentProgressRsp_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AddQuestContentProgressRsp_fieldAccessorTable;
 

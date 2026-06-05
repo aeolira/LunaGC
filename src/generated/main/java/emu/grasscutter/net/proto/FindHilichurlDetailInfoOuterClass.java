@@ -21,7 +21,7 @@ public final class FindHilichurlDetailInfoOuterClass {
     /**
      * <code>repeated .KDLAPAGEBBJ FMCBBDAOAID = 2;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.KDLAPAGEBBJOuterClass.KDLAPAGEBBJ>
+    java.util.List<emu.grasscutter.net.proto.KDLAPAGEBBJOuterClass.KDLAPAGEBBJ> 
         getFMCBBDAOAIDList();
     /**
      * <code>repeated .KDLAPAGEBBJ FMCBBDAOAID = 2;</code>
@@ -34,7 +34,7 @@ public final class FindHilichurlDetailInfoOuterClass {
     /**
      * <code>repeated .KDLAPAGEBBJ FMCBBDAOAID = 2;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.KDLAPAGEBBJOuterClass.KDLAPAGEBBJOrBuilder>
+    java.util.List<? extends emu.grasscutter.net.proto.KDLAPAGEBBJOuterClass.KDLAPAGEBBJOrBuilder> 
         getFMCBBDAOAIDOrBuilderList();
     /**
      * <code>repeated .KDLAPAGEBBJ FMCBBDAOAID = 2;</code>
@@ -48,8 +48,6 @@ public final class FindHilichurlDetailInfoOuterClass {
      */
     int getFCFICEIPBKH();
 
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -58,7 +56,6 @@ public final class FindHilichurlDetailInfoOuterClass {
      * <code>bool is_content_closed = 9;</code>
      * @return The isContentClosed.
      */
->>>>>>> origin/6.5.0
     boolean getIsContentClosed();
 
     /**
@@ -73,8 +70,6 @@ public final class FindHilichurlDetailInfoOuterClass {
      */
     int getFIPBFDJDGBN();
 
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -83,7 +78,6 @@ public final class FindHilichurlDetailInfoOuterClass {
      * <code>uint32 content_close_time = 13;</code>
      * @return The contentCloseTime.
      */
->>>>>>> origin/6.5.0
     int getContentCloseTime();
   }
   /**
@@ -215,7 +209,7 @@ public final class FindHilichurlDetailInfoOuterClass {
      * <code>repeated .KDLAPAGEBBJ FMCBBDAOAID = 2;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.KDLAPAGEBBJOuterClass.KDLAPAGEBBJOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.KDLAPAGEBBJOuterClass.KDLAPAGEBBJOrBuilder> 
         getFMCBBDAOAIDOrBuilderList() {
       return fMCBBDAOAID_;
     }
@@ -255,9 +249,6 @@ public final class FindHilichurlDetailInfoOuterClass {
 
     public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 9;
     private boolean isContentClosed_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -266,7 +257,6 @@ public final class FindHilichurlDetailInfoOuterClass {
      * <code>bool is_content_closed = 9;</code>
      * @return The isContentClosed.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsContentClosed() {
       return isContentClosed_;
@@ -296,9 +286,6 @@ public final class FindHilichurlDetailInfoOuterClass {
 
     public static final int CONTENT_CLOSE_TIME_FIELD_NUMBER = 13;
     private int contentCloseTime_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -307,7 +294,6 @@ public final class FindHilichurlDetailInfoOuterClass {
      * <code>uint32 content_close_time = 13;</code>
      * @return The contentCloseTime.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getContentCloseTime() {
       return contentCloseTime_;
@@ -689,7 +675,7 @@ public final class FindHilichurlDetailInfoOuterClass {
               fMCBBDAOAIDBuilder_ = null;
               fMCBBDAOAID_ = other.fMCBBDAOAID_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              fMCBBDAOAIDBuilder_ =
+              fMCBBDAOAIDBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getFMCBBDAOAIDFieldBuilder() : null;
             } else {
@@ -937,7 +923,7 @@ public final class FindHilichurlDetailInfoOuterClass {
       /**
        * <code>repeated .KDLAPAGEBBJ FMCBBDAOAID = 2;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.KDLAPAGEBBJOuterClass.KDLAPAGEBBJOrBuilder>
+      public java.util.List<? extends emu.grasscutter.net.proto.KDLAPAGEBBJOuterClass.KDLAPAGEBBJOrBuilder> 
            getFMCBBDAOAIDOrBuilderList() {
         if (fMCBBDAOAIDBuilder_ != null) {
           return fMCBBDAOAIDBuilder_.getMessageOrBuilderList();
@@ -963,12 +949,12 @@ public final class FindHilichurlDetailInfoOuterClass {
       /**
        * <code>repeated .KDLAPAGEBBJ FMCBBDAOAID = 2;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.KDLAPAGEBBJOuterClass.KDLAPAGEBBJ.Builder>
+      public java.util.List<emu.grasscutter.net.proto.KDLAPAGEBBJOuterClass.KDLAPAGEBBJ.Builder> 
            getFMCBBDAOAIDBuilderList() {
         return getFMCBBDAOAIDFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.KDLAPAGEBBJOuterClass.KDLAPAGEBBJ, emu.grasscutter.net.proto.KDLAPAGEBBJOuterClass.KDLAPAGEBBJ.Builder, emu.grasscutter.net.proto.KDLAPAGEBBJOuterClass.KDLAPAGEBBJOrBuilder>
+          emu.grasscutter.net.proto.KDLAPAGEBBJOuterClass.KDLAPAGEBBJ, emu.grasscutter.net.proto.KDLAPAGEBBJOuterClass.KDLAPAGEBBJ.Builder, emu.grasscutter.net.proto.KDLAPAGEBBJOuterClass.KDLAPAGEBBJOrBuilder> 
           getFMCBBDAOAIDFieldBuilder() {
         if (fMCBBDAOAIDBuilder_ == null) {
           fMCBBDAOAIDBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -997,7 +983,7 @@ public final class FindHilichurlDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFCFICEIPBKH(int value) {
-
+        
         fCFICEIPBKH_ = value;
         onChanged();
         return this;
@@ -1007,16 +993,13 @@ public final class FindHilichurlDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFCFICEIPBKH() {
-
+        
         fCFICEIPBKH_ = 0;
         onChanged();
         return this;
       }
 
       private boolean isContentClosed_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1025,14 +1008,10 @@ public final class FindHilichurlDetailInfoOuterClass {
        * <code>bool is_content_closed = 9;</code>
        * @return The isContentClosed.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsContentClosed() {
         return isContentClosed_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1042,16 +1021,12 @@ public final class FindHilichurlDetailInfoOuterClass {
        * @param value The isContentClosed to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setIsContentClosed(boolean value) {
-
+        
         isContentClosed_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1060,9 +1035,8 @@ public final class FindHilichurlDetailInfoOuterClass {
        * <code>bool is_content_closed = 9;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearIsContentClosed() {
-
+        
         isContentClosed_ = false;
         onChanged();
         return this;
@@ -1083,7 +1057,7 @@ public final class FindHilichurlDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOIGLPCCJDFE(boolean value) {
-
+        
         oIGLPCCJDFE_ = value;
         onChanged();
         return this;
@@ -1093,7 +1067,7 @@ public final class FindHilichurlDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOIGLPCCJDFE() {
-
+        
         oIGLPCCJDFE_ = false;
         onChanged();
         return this;
@@ -1114,7 +1088,7 @@ public final class FindHilichurlDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFIPBFDJDGBN(int value) {
-
+        
         fIPBFDJDGBN_ = value;
         onChanged();
         return this;
@@ -1124,16 +1098,13 @@ public final class FindHilichurlDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFIPBFDJDGBN() {
-
+        
         fIPBFDJDGBN_ = 0;
         onChanged();
         return this;
       }
 
       private int contentCloseTime_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1142,14 +1113,10 @@ public final class FindHilichurlDetailInfoOuterClass {
        * <code>uint32 content_close_time = 13;</code>
        * @return The contentCloseTime.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getContentCloseTime() {
         return contentCloseTime_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1159,16 +1126,12 @@ public final class FindHilichurlDetailInfoOuterClass {
        * @param value The contentCloseTime to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setContentCloseTime(int value) {
-
+        
         contentCloseTime_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1177,9 +1140,8 @@ public final class FindHilichurlDetailInfoOuterClass {
        * <code>uint32 content_close_time = 13;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearContentCloseTime() {
-
+        
         contentCloseTime_ = 0;
         onChanged();
         return this;
@@ -1195,6 +1157,7 @@ public final class FindHilichurlDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:FindHilichurlDetailInfo)
     }
@@ -1238,7 +1201,7 @@ public final class FindHilichurlDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FindHilichurlDetailInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FindHilichurlDetailInfo_fieldAccessorTable;
 

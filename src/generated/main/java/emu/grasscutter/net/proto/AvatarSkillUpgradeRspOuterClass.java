@@ -18,16 +18,6 @@ public final class AvatarSkillUpgradeRspOuterClass {
       // @@protoc_insertion_point(interface_extends:AvatarSkillUpgradeRsp)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    int getRetcode();
-
-    int getAvatarSkillId();
-
-    long getAvatarGuid();
-
-    int getCurLevel();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -76,7 +66,6 @@ public final class AvatarSkillUpgradeRspOuterClass {
      * <code>uint32 old_level = 11;</code>
      * @return The oldLevel.
      */
->>>>>>> origin/6.5.0
     int getOldLevel();
   }
   /**
@@ -128,27 +117,27 @@ public final class AvatarSkillUpgradeRspOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 40: {
 
               avatarGuid_ = input.readUInt64();
               break;
             }
-            case 64: {
-
-              avatarSkillId_ = input.readUInt32();
-              break;
-            }
-            case 72: {
+            case 48: {
 
               curLevel_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 80: {
+
+              avatarSkillId_ = input.readUInt32();
+              break;
+            }
+            case 88: {
 
               oldLevel_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 104: {
 
               retcode_ = input.readInt32();
               break;
@@ -185,11 +174,8 @@ public final class AvatarSkillUpgradeRspOuterClass {
               emu.grasscutter.net.proto.AvatarSkillUpgradeRspOuterClass.AvatarSkillUpgradeRsp.class, emu.grasscutter.net.proto.AvatarSkillUpgradeRspOuterClass.AvatarSkillUpgradeRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 15;
+    public static final int RETCODE_FIELD_NUMBER = 13;
     private int retcode_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -198,17 +184,13 @@ public final class AvatarSkillUpgradeRspOuterClass {
      * <code>int32 retcode = 13;</code>
      * @return The retcode.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
     }
 
-    public static final int AVATAR_SKILL_ID_FIELD_NUMBER = 8;
+    public static final int AVATAR_SKILL_ID_FIELD_NUMBER = 10;
     private int avatarSkillId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0     
@@ -217,17 +199,13 @@ public final class AvatarSkillUpgradeRspOuterClass {
      * <code>uint32 avatar_skill_id = 10;</code>
      * @return The avatarSkillId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getAvatarSkillId() {
       return avatarSkillId_;
     }
 
-    public static final int AVATAR_GUID_FIELD_NUMBER = 1;
+    public static final int AVATAR_GUID_FIELD_NUMBER = 5;
     private long avatarGuid_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -236,17 +214,13 @@ public final class AvatarSkillUpgradeRspOuterClass {
      * <code>uint64 avatar_guid = 5;</code>
      * @return The avatarGuid.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public long getAvatarGuid() {
       return avatarGuid_;
     }
 
-    public static final int CUR_LEVEL_FIELD_NUMBER = 9;
+    public static final int CUR_LEVEL_FIELD_NUMBER = 6;
     private int curLevel_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0     
@@ -255,17 +229,13 @@ public final class AvatarSkillUpgradeRspOuterClass {
      * <code>uint32 cur_level = 6;</code>
      * @return The curLevel.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCurLevel() {
       return curLevel_;
     }
 
-    public static final int OLD_LEVEL_FIELD_NUMBER = 14;
+    public static final int OLD_LEVEL_FIELD_NUMBER = 11;
     private int oldLevel_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0     
@@ -274,7 +244,6 @@ public final class AvatarSkillUpgradeRspOuterClass {
      * <code>uint32 old_level = 11;</code>
      * @return The oldLevel.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getOldLevel() {
       return oldLevel_;
@@ -295,19 +264,19 @@ public final class AvatarSkillUpgradeRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (avatarGuid_ != 0L) {
-        output.writeUInt64(1, avatarGuid_);
+        output.writeUInt64(5, avatarGuid_);
       }
       if (curLevel_ != 0) {
-        output.writeUInt32(9, curLevel_);
+        output.writeUInt32(6, curLevel_);
       }
       if (avatarSkillId_ != 0) {
-        output.writeUInt32(8, avatarSkillId_);
+        output.writeUInt32(10, avatarSkillId_);
       }
       if (oldLevel_ != 0) {
-        output.writeUInt32(14, oldLevel_);
+        output.writeUInt32(11, oldLevel_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(15, retcode_);
+        output.writeInt32(13, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -320,23 +289,23 @@ public final class AvatarSkillUpgradeRspOuterClass {
       size = 0;
       if (avatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(1, avatarGuid_);
+          .computeUInt64Size(5, avatarGuid_);
       }
       if (curLevel_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, curLevel_);
+          .computeUInt32Size(6, curLevel_);
       }
       if (avatarSkillId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, avatarSkillId_);
+          .computeUInt32Size(10, avatarSkillId_);
       }
       if (oldLevel_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, oldLevel_);
+          .computeUInt32Size(11, oldLevel_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(15, retcode_);
+          .computeInt32Size(13, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -656,9 +625,6 @@ public final class AvatarSkillUpgradeRspOuterClass {
       }
 
       private int retcode_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -667,14 +633,10 @@ public final class AvatarSkillUpgradeRspOuterClass {
        * <code>int32 retcode = 13;</code>
        * @return The retcode.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -684,16 +646,12 @@ public final class AvatarSkillUpgradeRspOuterClass {
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
-
+        
         retcode_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -702,18 +660,14 @@ public final class AvatarSkillUpgradeRspOuterClass {
        * <code>int32 retcode = 13;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearRetcode() {
-
+        
         retcode_ = 0;
         onChanged();
         return this;
       }
 
       private int avatarSkillId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -722,14 +676,10 @@ public final class AvatarSkillUpgradeRspOuterClass {
        * <code>uint32 avatar_skill_id = 10;</code>
        * @return The avatarSkillId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getAvatarSkillId() {
         return avatarSkillId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -739,16 +689,12 @@ public final class AvatarSkillUpgradeRspOuterClass {
        * @param value The avatarSkillId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setAvatarSkillId(int value) {
-
+        
         avatarSkillId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -757,18 +703,14 @@ public final class AvatarSkillUpgradeRspOuterClass {
        * <code>uint32 avatar_skill_id = 10;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearAvatarSkillId() {
-
+        
         avatarSkillId_ = 0;
         onChanged();
         return this;
       }
 
       private long avatarGuid_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -777,14 +719,10 @@ public final class AvatarSkillUpgradeRspOuterClass {
        * <code>uint64 avatar_guid = 5;</code>
        * @return The avatarGuid.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public long getAvatarGuid() {
         return avatarGuid_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -794,16 +732,12 @@ public final class AvatarSkillUpgradeRspOuterClass {
        * @param value The avatarGuid to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setAvatarGuid(long value) {
-
+        
         avatarGuid_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -812,18 +746,14 @@ public final class AvatarSkillUpgradeRspOuterClass {
        * <code>uint64 avatar_guid = 5;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearAvatarGuid() {
-
+        
         avatarGuid_ = 0L;
         onChanged();
         return this;
       }
 
       private int curLevel_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -832,14 +762,10 @@ public final class AvatarSkillUpgradeRspOuterClass {
        * <code>uint32 cur_level = 6;</code>
        * @return The curLevel.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCurLevel() {
         return curLevel_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -849,16 +775,12 @@ public final class AvatarSkillUpgradeRspOuterClass {
        * @param value The curLevel to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setCurLevel(int value) {
-
+        
         curLevel_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -867,18 +789,14 @@ public final class AvatarSkillUpgradeRspOuterClass {
        * <code>uint32 cur_level = 6;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearCurLevel() {
-
+        
         curLevel_ = 0;
         onChanged();
         return this;
       }
 
       private int oldLevel_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -887,14 +805,10 @@ public final class AvatarSkillUpgradeRspOuterClass {
        * <code>uint32 old_level = 11;</code>
        * @return The oldLevel.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getOldLevel() {
         return oldLevel_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -904,16 +818,12 @@ public final class AvatarSkillUpgradeRspOuterClass {
        * @param value The oldLevel to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setOldLevel(int value) {
-
+        
         oldLevel_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -922,9 +832,8 @@ public final class AvatarSkillUpgradeRspOuterClass {
        * <code>uint32 old_level = 11;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearOldLevel() {
-
+        
         oldLevel_ = 0;
         onChanged();
         return this;
@@ -940,6 +849,7 @@ public final class AvatarSkillUpgradeRspOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:AvatarSkillUpgradeRsp)
     }
@@ -983,7 +893,7 @@ public final class AvatarSkillUpgradeRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarSkillUpgradeRsp_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarSkillUpgradeRsp_fieldAccessorTable;
 

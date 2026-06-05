@@ -53,8 +53,6 @@ public final class SeaLampActivityDetailInfoOuterClass {
      */
     int getEIBAFNPFPPO();
 
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -63,7 +61,6 @@ public final class SeaLampActivityDetailInfoOuterClass {
      * <code>uint32 progress = 13;</code>
      * @return The progress.
      */
->>>>>>> origin/6.5.0
     int getProgress();
 
     /**
@@ -263,9 +260,6 @@ public final class SeaLampActivityDetailInfoOuterClass {
 
     public static final int PROGRESS_FIELD_NUMBER = 13;
     private int progress_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -274,7 +268,6 @@ public final class SeaLampActivityDetailInfoOuterClass {
      * <code>uint32 progress = 13;</code>
      * @return The progress.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getProgress() {
       return progress_;
@@ -802,7 +795,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCPCOHCIGMPF(int value) {
-
+        
         cPCOHCIGMPF_ = value;
         onChanged();
         return this;
@@ -812,7 +805,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCPCOHCIGMPF() {
-
+        
         cPCOHCIGMPF_ = 0;
         onChanged();
         return this;
@@ -833,7 +826,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIGECDEBECMH(int value) {
-
+        
         iGECDEBECMH_ = value;
         onChanged();
         return this;
@@ -843,7 +836,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIGECDEBECMH() {
-
+        
         iGECDEBECMH_ = 0;
         onChanged();
         return this;
@@ -864,7 +857,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEIBAFNPFPPO(int value) {
-
+        
         eIBAFNPFPPO_ = value;
         onChanged();
         return this;
@@ -874,16 +867,13 @@ public final class SeaLampActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEIBAFNPFPPO() {
-
+        
         eIBAFNPFPPO_ = 0;
         onChanged();
         return this;
       }
 
       private int progress_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -892,14 +882,10 @@ public final class SeaLampActivityDetailInfoOuterClass {
        * <code>uint32 progress = 13;</code>
        * @return The progress.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getProgress() {
         return progress_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -909,16 +895,12 @@ public final class SeaLampActivityDetailInfoOuterClass {
        * @param value The progress to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setProgress(int value) {
-
+        
         progress_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -927,9 +909,8 @@ public final class SeaLampActivityDetailInfoOuterClass {
        * <code>uint32 progress = 13;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearProgress() {
-
+        
         progress_ = 0;
         onChanged();
         return this;
@@ -950,7 +931,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setKEDBEMPECOA(int value) {
-
+        
         kEDBEMPECOA_ = value;
         onChanged();
         return this;
@@ -960,7 +941,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearKEDBEMPECOA() {
-
+        
         kEDBEMPECOA_ = 0;
         onChanged();
         return this;
@@ -976,6 +957,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:SeaLampActivityDetailInfo)
     }
@@ -1019,7 +1001,7 @@ public final class SeaLampActivityDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SeaLampActivityDetailInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SeaLampActivityDetailInfo_fieldAccessorTable;
 

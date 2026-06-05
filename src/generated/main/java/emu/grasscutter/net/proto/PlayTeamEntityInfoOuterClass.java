@@ -18,20 +18,6 @@ public final class PlayTeamEntityInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:PlayTeamEntityInfo)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    boolean hasAbilityInfo();
-
-    emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo getAbilityInfo();
-
-    emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder getAbilityInfoOrBuilder();
-
-    int getEntityId();
-
-    int getPlayerUid();
-
-    int getAuthorityPeerId();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -97,7 +83,6 @@ public final class PlayTeamEntityInfoOuterClass {
      * <code>uint32 gadget_config_id = 5;</code>
      * @return The gadgetConfigId.
      */
->>>>>>> origin/6.5.0
     int getGadgetConfigId();
   }
   /**
@@ -212,9 +197,6 @@ public final class PlayTeamEntityInfoOuterClass {
 
     public static final int ABILITY_INFO_FIELD_NUMBER = 6;
     private emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo abilityInfo_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -223,14 +205,10 @@ public final class PlayTeamEntityInfoOuterClass {
      * <code>.AbilitySyncStateInfo ability_info = 6;</code>
      * @return Whether the abilityInfo field is set.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasAbilityInfo() {
       return abilityInfo_ != null;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -239,14 +217,10 @@ public final class PlayTeamEntityInfoOuterClass {
      * <code>.AbilitySyncStateInfo ability_info = 6;</code>
      * @return The abilityInfo.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo getAbilityInfo() {
       return abilityInfo_ == null ? emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.getDefaultInstance() : abilityInfo_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -254,7 +228,6 @@ public final class PlayTeamEntityInfoOuterClass {
      *
      * <code>.AbilitySyncStateInfo ability_info = 6;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder getAbilityInfoOrBuilder() {
       return getAbilityInfo();
@@ -262,9 +235,6 @@ public final class PlayTeamEntityInfoOuterClass {
 
     public static final int ENTITY_ID_FIELD_NUMBER = 1;
     private int entityId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -273,7 +243,6 @@ public final class PlayTeamEntityInfoOuterClass {
      * <code>uint32 entity_id = 1;</code>
      * @return The entityId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getEntityId() {
       return entityId_;
@@ -281,9 +250,6 @@ public final class PlayTeamEntityInfoOuterClass {
 
     public static final int PLAYER_UID_FIELD_NUMBER = 2;
     private int playerUid_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -292,7 +258,6 @@ public final class PlayTeamEntityInfoOuterClass {
      * <code>uint32 player_uid = 2;</code>
      * @return The playerUid.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getPlayerUid() {
       return playerUid_;
@@ -300,9 +265,6 @@ public final class PlayTeamEntityInfoOuterClass {
 
     public static final int AUTHORITY_PEER_ID_FIELD_NUMBER = 3;
     private int authorityPeerId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -311,7 +273,6 @@ public final class PlayTeamEntityInfoOuterClass {
      * <code>uint32 authority_peer_id = 3;</code>
      * @return The authorityPeerId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getAuthorityPeerId() {
       return authorityPeerId_;
@@ -319,9 +280,6 @@ public final class PlayTeamEntityInfoOuterClass {
 
     public static final int GADGET_CONFIG_ID_FIELD_NUMBER = 5;
     private int gadgetConfigId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -330,7 +288,6 @@ public final class PlayTeamEntityInfoOuterClass {
      * <code>uint32 gadget_config_id = 5;</code>
      * @return The gadgetConfigId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getGadgetConfigId() {
       return gadgetConfigId_;
@@ -722,13 +679,6 @@ public final class PlayTeamEntityInfoOuterClass {
       private emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo abilityInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder> abilityInfoBuilder_;
-<<<<<<< HEAD
-
-      public boolean hasAbilityInfo() {
-        return abilityInfoBuilder_ != null || abilityInfo_ != null;
-      }
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -748,7 +698,6 @@ public final class PlayTeamEntityInfoOuterClass {
        * <code>.AbilitySyncStateInfo ability_info = 6;</code>
        * @return The abilityInfo.
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo getAbilityInfo() {
         if (abilityInfoBuilder_ == null) {
           return abilityInfo_ == null ? emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.getDefaultInstance() : abilityInfo_;
@@ -756,9 +705,6 @@ public final class PlayTeamEntityInfoOuterClass {
           return abilityInfoBuilder_.getMessage();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -766,7 +712,6 @@ public final class PlayTeamEntityInfoOuterClass {
        *
        * <code>.AbilitySyncStateInfo ability_info = 6;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setAbilityInfo(emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo value) {
         if (abilityInfoBuilder_ == null) {
           if (value == null) {
@@ -780,9 +725,6 @@ public final class PlayTeamEntityInfoOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -790,7 +732,6 @@ public final class PlayTeamEntityInfoOuterClass {
        *
        * <code>.AbilitySyncStateInfo ability_info = 6;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setAbilityInfo(
           emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder builderForValue) {
         if (abilityInfoBuilder_ == null) {
@@ -802,9 +743,6 @@ public final class PlayTeamEntityInfoOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -812,7 +750,6 @@ public final class PlayTeamEntityInfoOuterClass {
        *
        * <code>.AbilitySyncStateInfo ability_info = 6;</code>
        */
->>>>>>> origin/6.5.0
       public Builder mergeAbilityInfo(emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo value) {
         if (abilityInfoBuilder_ == null) {
           if (abilityInfo_ != null) {
@@ -828,9 +765,6 @@ public final class PlayTeamEntityInfoOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -838,7 +772,6 @@ public final class PlayTeamEntityInfoOuterClass {
        *
        * <code>.AbilitySyncStateInfo ability_info = 6;</code>
        */
->>>>>>> origin/6.5.0
       public Builder clearAbilityInfo() {
         if (abilityInfoBuilder_ == null) {
           abilityInfo_ = null;
@@ -850,9 +783,6 @@ public final class PlayTeamEntityInfoOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -860,15 +790,11 @@ public final class PlayTeamEntityInfoOuterClass {
        *
        * <code>.AbilitySyncStateInfo ability_info = 6;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder getAbilityInfoBuilder() {
-
+        
         onChanged();
         return getAbilityInfoFieldBuilder().getBuilder();
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -876,7 +802,6 @@ public final class PlayTeamEntityInfoOuterClass {
        *
        * <code>.AbilitySyncStateInfo ability_info = 6;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder getAbilityInfoOrBuilder() {
         if (abilityInfoBuilder_ != null) {
           return abilityInfoBuilder_.getMessageOrBuilder();
@@ -885,9 +810,6 @@ public final class PlayTeamEntityInfoOuterClass {
               emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.getDefaultInstance() : abilityInfo_;
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -895,9 +817,8 @@ public final class PlayTeamEntityInfoOuterClass {
        *
        * <code>.AbilitySyncStateInfo ability_info = 6;</code>
        */
->>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder>
+          emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo.Builder, emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfoOrBuilder> 
           getAbilityInfoFieldBuilder() {
         if (abilityInfoBuilder_ == null) {
           abilityInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -911,9 +832,6 @@ public final class PlayTeamEntityInfoOuterClass {
       }
 
       private int entityId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -922,14 +840,10 @@ public final class PlayTeamEntityInfoOuterClass {
        * <code>uint32 entity_id = 1;</code>
        * @return The entityId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getEntityId() {
         return entityId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -939,16 +853,12 @@ public final class PlayTeamEntityInfoOuterClass {
        * @param value The entityId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setEntityId(int value) {
-
+        
         entityId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -957,18 +867,14 @@ public final class PlayTeamEntityInfoOuterClass {
        * <code>uint32 entity_id = 1;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearEntityId() {
-
+        
         entityId_ = 0;
         onChanged();
         return this;
       }
 
       private int playerUid_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -977,14 +883,10 @@ public final class PlayTeamEntityInfoOuterClass {
        * <code>uint32 player_uid = 2;</code>
        * @return The playerUid.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getPlayerUid() {
         return playerUid_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -994,16 +896,12 @@ public final class PlayTeamEntityInfoOuterClass {
        * @param value The playerUid to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setPlayerUid(int value) {
-
+        
         playerUid_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1012,18 +910,14 @@ public final class PlayTeamEntityInfoOuterClass {
        * <code>uint32 player_uid = 2;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearPlayerUid() {
-
+        
         playerUid_ = 0;
         onChanged();
         return this;
       }
 
       private int authorityPeerId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1032,14 +926,10 @@ public final class PlayTeamEntityInfoOuterClass {
        * <code>uint32 authority_peer_id = 3;</code>
        * @return The authorityPeerId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getAuthorityPeerId() {
         return authorityPeerId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1049,16 +939,12 @@ public final class PlayTeamEntityInfoOuterClass {
        * @param value The authorityPeerId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setAuthorityPeerId(int value) {
-
+        
         authorityPeerId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1067,18 +953,14 @@ public final class PlayTeamEntityInfoOuterClass {
        * <code>uint32 authority_peer_id = 3;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearAuthorityPeerId() {
-
+        
         authorityPeerId_ = 0;
         onChanged();
         return this;
       }
 
       private int gadgetConfigId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1087,14 +969,10 @@ public final class PlayTeamEntityInfoOuterClass {
        * <code>uint32 gadget_config_id = 5;</code>
        * @return The gadgetConfigId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getGadgetConfigId() {
         return gadgetConfigId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1104,16 +982,12 @@ public final class PlayTeamEntityInfoOuterClass {
        * @param value The gadgetConfigId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setGadgetConfigId(int value) {
-
+        
         gadgetConfigId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1122,9 +996,8 @@ public final class PlayTeamEntityInfoOuterClass {
        * <code>uint32 gadget_config_id = 5;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearGadgetConfigId() {
-
+        
         gadgetConfigId_ = 0;
         onChanged();
         return this;
@@ -1140,6 +1013,7 @@ public final class PlayTeamEntityInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:PlayTeamEntityInfo)
     }
@@ -1183,7 +1057,7 @@ public final class PlayTeamEntityInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayTeamEntityInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayTeamEntityInfo_fieldAccessorTable;
 

@@ -30,8 +30,6 @@ public final class AiSyncInfoOuterClass {
      */
     boolean getHasPathToTarget();
 
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -40,7 +38,6 @@ public final class AiSyncInfoOuterClass {
      * <code>uint32 entity_id = 3;</code>
      * @return The entityId.
      */
->>>>>>> origin/6.5.0
     int getEntityId();
   }
   /**
@@ -88,17 +85,17 @@ public final class AiSyncInfoOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 24: {
 
               entityId_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 88: {
 
               hasPathToTarget_ = input.readBool();
               break;
             }
-            case 24: {
+            case 104: {
 
               isSelfKilling_ = input.readBool();
               break;
@@ -135,7 +132,7 @@ public final class AiSyncInfoOuterClass {
               emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo.class, emu.grasscutter.net.proto.AiSyncInfoOuterClass.AiSyncInfo.Builder.class);
     }
 
-    public static final int IS_SELF_KILLING_FIELD_NUMBER = 3;
+    public static final int IS_SELF_KILLING_FIELD_NUMBER = 13;
     private boolean isSelfKilling_;
     /**
      * <code>bool is_self_killing = 13;</code>
@@ -146,7 +143,7 @@ public final class AiSyncInfoOuterClass {
       return isSelfKilling_;
     }
 
-    public static final int HAS_PATH_TO_TARGET_FIELD_NUMBER = 12;
+    public static final int HAS_PATH_TO_TARGET_FIELD_NUMBER = 11;
     private boolean hasPathToTarget_;
     /**
      * <code>bool has_path_to_target = 11;</code>
@@ -157,11 +154,8 @@ public final class AiSyncInfoOuterClass {
       return hasPathToTarget_;
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 1;
+    public static final int ENTITY_ID_FIELD_NUMBER = 3;
     private int entityId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -170,7 +164,6 @@ public final class AiSyncInfoOuterClass {
      * <code>uint32 entity_id = 3;</code>
      * @return The entityId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getEntityId() {
       return entityId_;
@@ -191,13 +184,13 @@ public final class AiSyncInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (entityId_ != 0) {
-        output.writeUInt32(1, entityId_);
+        output.writeUInt32(3, entityId_);
       }
       if (hasPathToTarget_ != false) {
-        output.writeBool(12, hasPathToTarget_);
+        output.writeBool(11, hasPathToTarget_);
       }
       if (isSelfKilling_ != false) {
-        output.writeBool(3, isSelfKilling_);
+        output.writeBool(13, isSelfKilling_);
       }
       unknownFields.writeTo(output);
     }
@@ -210,15 +203,15 @@ public final class AiSyncInfoOuterClass {
       size = 0;
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, entityId_);
+          .computeUInt32Size(3, entityId_);
       }
       if (hasPathToTarget_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(12, hasPathToTarget_);
+          .computeBoolSize(11, hasPathToTarget_);
       }
       if (isSelfKilling_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, isSelfKilling_);
+          .computeBoolSize(13, isSelfKilling_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -529,7 +522,7 @@ public final class AiSyncInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsSelfKilling(boolean value) {
-
+        
         isSelfKilling_ = value;
         onChanged();
         return this;
@@ -539,7 +532,7 @@ public final class AiSyncInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsSelfKilling() {
-
+        
         isSelfKilling_ = false;
         onChanged();
         return this;
@@ -560,7 +553,7 @@ public final class AiSyncInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setHasPathToTarget(boolean value) {
-
+        
         hasPathToTarget_ = value;
         onChanged();
         return this;
@@ -570,16 +563,13 @@ public final class AiSyncInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHasPathToTarget() {
-
+        
         hasPathToTarget_ = false;
         onChanged();
         return this;
       }
 
       private int entityId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -588,14 +578,10 @@ public final class AiSyncInfoOuterClass {
        * <code>uint32 entity_id = 3;</code>
        * @return The entityId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getEntityId() {
         return entityId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -605,16 +591,12 @@ public final class AiSyncInfoOuterClass {
        * @param value The entityId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setEntityId(int value) {
-
+        
         entityId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -623,9 +605,8 @@ public final class AiSyncInfoOuterClass {
        * <code>uint32 entity_id = 3;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearEntityId() {
-
+        
         entityId_ = 0;
         onChanged();
         return this;
@@ -641,6 +622,7 @@ public final class AiSyncInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:AiSyncInfo)
     }
@@ -684,7 +666,7 @@ public final class AiSyncInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AiSyncInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AiSyncInfo_fieldAccessorTable;
 

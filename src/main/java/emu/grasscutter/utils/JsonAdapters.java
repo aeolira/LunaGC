@@ -42,10 +42,6 @@ public interface JsonAdapters {
                     reader.endArray();
                     return new DynamicFloat(opStack);
                 }
-                case BEGIN_OBJECT -> {
-                    reader.skipValue();
-                    return DynamicFloat.ZERO;
-                }
                 default -> throw new IOException(
                         "Invalid DynamicFloat definition - " + reader.peek().name());
             }
@@ -63,8 +59,8 @@ public interface JsonAdapters {
                 val i = new IntArrayList();
                 while (reader.hasNext()) i.add(reader.nextInt());
                 reader.endArray();
-                i.trim();
-
+                i.trim(); // We might have a ton of these from resources and almost all of them
+                // immutable, don't overprovision!
                 return i;
             }
             throw new IOException("Invalid IntList definition - " + reader.peek().name());
@@ -73,7 +69,7 @@ public interface JsonAdapters {
         @Override
         public void write(JsonWriter writer, IntList l) throws IOException {
             writer.beginArray();
-            for (val i : l)
+            for (val i : l) // .forEach() doesn't appreciate exceptions
             writer.value(i);
             writer.endArray();
         }
@@ -102,6 +98,8 @@ public interface JsonAdapters {
             if (in.peek() != JsonToken.STRING)
                 throw new IOException("Invalid GridPosition definition - " + in.peek().name());
 
+            // GridPosition follows the format of: (x, y, z).
+            // Flatten to (x,y,z) for easier parsing.
             var str = in.nextString().replace("(", "").replace(")", "").replace(" ", "");
             var split = str.split(",");
 
@@ -117,14 +115,14 @@ public interface JsonAdapters {
         @Override
         public Position read(JsonReader reader) throws IOException {
             switch (reader.peek()) {
-                case BEGIN_ARRAY -> {
+                case BEGIN_ARRAY -> { // "pos": [x,y,z]
                     reader.beginArray();
                     val array = new FloatArrayList(3);
                     while (reader.hasNext()) array.add(reader.nextInt());
                     reader.endArray();
                     return new Position(array);
                 }
-                case BEGIN_OBJECT -> {
+                case BEGIN_OBJECT -> { // "pos": {"x": x, "y": y, "z": z}
                     float x = 0f;
                     float y = 0f;
                     float z = 0f;
@@ -135,7 +133,7 @@ public interface JsonAdapters {
                             case "x", "X", "_x" -> x = (float) reader.nextDouble();
                             case "y", "Y", "_y" -> y = (float) reader.nextDouble();
                             case "z", "Z", "_z" -> z = (float) reader.nextDouble();
-                            default -> reader.skipValue();
+                            default -> throw new IOException("Invalid field in Position definition - " + name);
                         }
                     }
                     reader.endObject();
@@ -161,16 +159,19 @@ public interface JsonAdapters {
             Class<T> enumClass = (Class<T>) type.getRawType();
             if (!enumClass.isEnum()) return null;
 
+            // Make mappings of (string) names to enum constants
             val map = new HashMap<String, T>();
             val enumConstants = enumClass.getEnumConstants();
             for (val constant : enumConstants) map.put(constant.toString(), constant);
 
+            // If the enum also has a numeric value, map those to the constants too
+            // System.out.println("Looking for enum value field");
             for (Field f : enumClass.getDeclaredFields()) {
                 if (switch (f.getName()) {
                     case "value", "id" -> true;
                     default -> false;
                 }) {
-
+                    // System.out.println("Enum value field found - " + f.getName());
                     try {
                         for (var constant : enumConstants) {
                             var accessible = f.canAccess(constant);
@@ -179,7 +180,7 @@ public interface JsonAdapters {
                             f.setAccessible(accessible);
                         }
                     } catch (IllegalAccessException e) {
-
+                        // System.out.println("Failed to access enum id field.");
                     }
                     break;
                 }

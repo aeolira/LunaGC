@@ -18,23 +18,6 @@ public final class GetOnlinePlayerListRspOuterClass {
       // @@protoc_insertion_point(interface_extends:GetOnlinePlayerListRsp)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    java.util.List<emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo>
-        getPlayerInfoListList();
-
-    emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo getPlayerInfoList(int index);
-
-    int getPlayerInfoListCount();
-
-    java.util.List<? extends emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder>
-        getPlayerInfoListOrBuilderList();
-
-    emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder getPlayerInfoListOrBuilder(
-        int index);
-
-    int getParam();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -97,7 +80,6 @@ public final class GetOnlinePlayerListRspOuterClass {
      * <code>int32 retcode = 13;</code>
      * @return The retcode.
      */
->>>>>>> origin/6.5.0
     int getRetcode();
   }
   /**
@@ -205,11 +187,8 @@ public final class GetOnlinePlayerListRspOuterClass {
               emu.grasscutter.net.proto.GetOnlinePlayerListRspOuterClass.GetOnlinePlayerListRsp.class, emu.grasscutter.net.proto.GetOnlinePlayerListRspOuterClass.GetOnlinePlayerListRsp.Builder.class);
     }
 
-    public static final int PLAYER_INFO_LIST_FIELD_NUMBER = 10;
+    public static final int PLAYER_INFO_LIST_FIELD_NUMBER = 2;
     private java.util.List<emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo> playerInfoList_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -217,14 +196,10 @@ public final class GetOnlinePlayerListRspOuterClass {
      *
      * <code>repeated .OnlinePlayerInfo player_info_list = 2;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo> getPlayerInfoListList() {
       return playerInfoList_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -232,15 +207,11 @@ public final class GetOnlinePlayerListRspOuterClass {
      *
      * <code>repeated .OnlinePlayerInfo player_info_list = 2;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder> 
         getPlayerInfoListOrBuilderList() {
       return playerInfoList_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -248,14 +219,10 @@ public final class GetOnlinePlayerListRspOuterClass {
      *
      * <code>repeated .OnlinePlayerInfo player_info_list = 2;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getPlayerInfoListCount() {
       return playerInfoList_.size();
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -263,14 +230,10 @@ public final class GetOnlinePlayerListRspOuterClass {
      *
      * <code>repeated .OnlinePlayerInfo player_info_list = 2;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo getPlayerInfoList(int index) {
       return playerInfoList_.get(index);
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -278,18 +241,14 @@ public final class GetOnlinePlayerListRspOuterClass {
      *
      * <code>repeated .OnlinePlayerInfo player_info_list = 2;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder getPlayerInfoListOrBuilder(
         int index) {
       return playerInfoList_.get(index);
     }
 
-    public static final int PARAM_FIELD_NUMBER = 8;
+    public static final int PARAM_FIELD_NUMBER = 3;
     private int param_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -298,17 +257,13 @@ public final class GetOnlinePlayerListRspOuterClass {
      * <code>uint32 param = 3;</code>
      * @return The param.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getParam() {
       return param_;
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 15;
+    public static final int RETCODE_FIELD_NUMBER = 13;
     private int retcode_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -317,7 +272,6 @@ public final class GetOnlinePlayerListRspOuterClass {
      * <code>int32 retcode = 13;</code>
      * @return The retcode.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -338,13 +292,13 @@ public final class GetOnlinePlayerListRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < playerInfoList_.size(); i++) {
-        output.writeMessage(10, playerInfoList_.get(i));
+        output.writeMessage(2, playerInfoList_.get(i));
       }
       if (param_ != 0) {
-        output.writeUInt32(8, param_);
+        output.writeUInt32(3, param_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(15, retcode_);
+        output.writeInt32(13, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -357,15 +311,15 @@ public final class GetOnlinePlayerListRspOuterClass {
       size = 0;
       for (int i = 0; i < playerInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, playerInfoList_.get(i));
+          .computeMessageSize(2, playerInfoList_.get(i));
       }
       if (param_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(8, param_);
+          .computeUInt32Size(3, param_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(15, retcode_);
+          .computeInt32Size(13, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -659,7 +613,7 @@ public final class GetOnlinePlayerListRspOuterClass {
               playerInfoListBuilder_ = null;
               playerInfoList_ = other.playerInfoList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              playerInfoListBuilder_ =
+              playerInfoListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getPlayerInfoListFieldBuilder() : null;
             } else {
@@ -715,8 +669,6 @@ public final class GetOnlinePlayerListRspOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder> playerInfoListBuilder_;
 
-<<<<<<< HEAD
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -724,7 +676,6 @@ public final class GetOnlinePlayerListRspOuterClass {
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo> getPlayerInfoListList() {
         if (playerInfoListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(playerInfoList_);
@@ -732,9 +683,6 @@ public final class GetOnlinePlayerListRspOuterClass {
           return playerInfoListBuilder_.getMessageList();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -742,7 +690,6 @@ public final class GetOnlinePlayerListRspOuterClass {
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public int getPlayerInfoListCount() {
         if (playerInfoListBuilder_ == null) {
           return playerInfoList_.size();
@@ -750,9 +697,6 @@ public final class GetOnlinePlayerListRspOuterClass {
           return playerInfoListBuilder_.getCount();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -760,7 +704,6 @@ public final class GetOnlinePlayerListRspOuterClass {
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo getPlayerInfoList(int index) {
         if (playerInfoListBuilder_ == null) {
           return playerInfoList_.get(index);
@@ -768,9 +711,6 @@ public final class GetOnlinePlayerListRspOuterClass {
           return playerInfoListBuilder_.getMessage(index);
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -778,7 +718,6 @@ public final class GetOnlinePlayerListRspOuterClass {
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setPlayerInfoList(
           int index, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo value) {
         if (playerInfoListBuilder_ == null) {
@@ -793,9 +732,6 @@ public final class GetOnlinePlayerListRspOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -803,7 +739,6 @@ public final class GetOnlinePlayerListRspOuterClass {
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setPlayerInfoList(
           int index, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder builderForValue) {
         if (playerInfoListBuilder_ == null) {
@@ -815,9 +750,6 @@ public final class GetOnlinePlayerListRspOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -825,7 +757,6 @@ public final class GetOnlinePlayerListRspOuterClass {
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addPlayerInfoList(emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo value) {
         if (playerInfoListBuilder_ == null) {
           if (value == null) {
@@ -839,9 +770,6 @@ public final class GetOnlinePlayerListRspOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -849,7 +777,6 @@ public final class GetOnlinePlayerListRspOuterClass {
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addPlayerInfoList(
           int index, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo value) {
         if (playerInfoListBuilder_ == null) {
@@ -864,9 +791,6 @@ public final class GetOnlinePlayerListRspOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -874,7 +798,6 @@ public final class GetOnlinePlayerListRspOuterClass {
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addPlayerInfoList(
           emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder builderForValue) {
         if (playerInfoListBuilder_ == null) {
@@ -886,9 +809,6 @@ public final class GetOnlinePlayerListRspOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -896,7 +816,6 @@ public final class GetOnlinePlayerListRspOuterClass {
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addPlayerInfoList(
           int index, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder builderForValue) {
         if (playerInfoListBuilder_ == null) {
@@ -908,9 +827,6 @@ public final class GetOnlinePlayerListRspOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -918,7 +834,6 @@ public final class GetOnlinePlayerListRspOuterClass {
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addAllPlayerInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo> values) {
         if (playerInfoListBuilder_ == null) {
@@ -931,9 +846,6 @@ public final class GetOnlinePlayerListRspOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -941,7 +853,6 @@ public final class GetOnlinePlayerListRspOuterClass {
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public Builder clearPlayerInfoList() {
         if (playerInfoListBuilder_ == null) {
           playerInfoList_ = java.util.Collections.emptyList();
@@ -952,9 +863,6 @@ public final class GetOnlinePlayerListRspOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -962,7 +870,6 @@ public final class GetOnlinePlayerListRspOuterClass {
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public Builder removePlayerInfoList(int index) {
         if (playerInfoListBuilder_ == null) {
           ensurePlayerInfoListIsMutable();
@@ -973,9 +880,6 @@ public final class GetOnlinePlayerListRspOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -983,14 +887,10 @@ public final class GetOnlinePlayerListRspOuterClass {
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder getPlayerInfoListBuilder(
           int index) {
         return getPlayerInfoListFieldBuilder().getBuilder(index);
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -998,7 +898,6 @@ public final class GetOnlinePlayerListRspOuterClass {
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder getPlayerInfoListOrBuilder(
           int index) {
         if (playerInfoListBuilder_ == null) {
@@ -1006,10 +905,6 @@ public final class GetOnlinePlayerListRspOuterClass {
           return playerInfoListBuilder_.getMessageOrBuilder(index);
         }
       }
-<<<<<<< HEAD
-
-      public java.util.List<? extends emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder>
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1018,7 +913,6 @@ public final class GetOnlinePlayerListRspOuterClass {
        * <code>repeated .OnlinePlayerInfo player_info_list = 2;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder> 
->>>>>>> origin/6.5.0
            getPlayerInfoListOrBuilderList() {
         if (playerInfoListBuilder_ != null) {
           return playerInfoListBuilder_.getMessageOrBuilderList();
@@ -1026,9 +920,6 @@ public final class GetOnlinePlayerListRspOuterClass {
           return java.util.Collections.unmodifiableList(playerInfoList_);
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1036,14 +927,10 @@ public final class GetOnlinePlayerListRspOuterClass {
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder addPlayerInfoListBuilder() {
         return getPlayerInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.getDefaultInstance());
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1051,16 +938,11 @@ public final class GetOnlinePlayerListRspOuterClass {
        *
        * <code>repeated .OnlinePlayerInfo player_info_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder addPlayerInfoListBuilder(
           int index) {
         return getPlayerInfoListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.getDefaultInstance());
       }
-<<<<<<< HEAD
-
-      public java.util.List<emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder>
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1069,12 +951,11 @@ public final class GetOnlinePlayerListRspOuterClass {
        * <code>repeated .OnlinePlayerInfo player_info_list = 2;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder> 
->>>>>>> origin/6.5.0
            getPlayerInfoListBuilderList() {
         return getPlayerInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder>
+          emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfo.Builder, emu.grasscutter.net.proto.OnlinePlayerInfoOuterClass.OnlinePlayerInfoOrBuilder> 
           getPlayerInfoListFieldBuilder() {
         if (playerInfoListBuilder_ == null) {
           playerInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1089,9 +970,6 @@ public final class GetOnlinePlayerListRspOuterClass {
       }
 
       private int param_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1100,14 +978,10 @@ public final class GetOnlinePlayerListRspOuterClass {
        * <code>uint32 param = 3;</code>
        * @return The param.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getParam() {
         return param_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1117,16 +991,12 @@ public final class GetOnlinePlayerListRspOuterClass {
        * @param value The param to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setParam(int value) {
-
+        
         param_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1135,18 +1005,14 @@ public final class GetOnlinePlayerListRspOuterClass {
        * <code>uint32 param = 3;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearParam() {
-
+        
         param_ = 0;
         onChanged();
         return this;
       }
 
       private int retcode_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1155,14 +1021,10 @@ public final class GetOnlinePlayerListRspOuterClass {
        * <code>int32 retcode = 13;</code>
        * @return The retcode.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1172,16 +1034,12 @@ public final class GetOnlinePlayerListRspOuterClass {
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
-
+        
         retcode_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1190,9 +1048,8 @@ public final class GetOnlinePlayerListRspOuterClass {
        * <code>int32 retcode = 13;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearRetcode() {
-
+        
         retcode_ = 0;
         onChanged();
         return this;
@@ -1208,6 +1065,7 @@ public final class GetOnlinePlayerListRspOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:GetOnlinePlayerListRsp)
     }
@@ -1251,7 +1109,7 @@ public final class GetOnlinePlayerListRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetOnlinePlayerListRsp_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetOnlinePlayerListRsp_fieldAccessorTable;
 

@@ -18,8 +18,6 @@ public final class AvatarPromoteReqOuterClass {
       // @@protoc_insertion_point(interface_extends:AvatarPromoteReq)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5     
@@ -28,7 +26,6 @@ public final class AvatarPromoteReqOuterClass {
      * <code>uint64 guid = 7;</code>
      * @return The guid.
      */
->>>>>>> origin/6.5.0
     long getGuid();
   }
   /**
@@ -80,11 +77,7 @@ public final class AvatarPromoteReqOuterClass {
             case 0:
               done = true;
               break;
-<<<<<<< HEAD
-            case 120: {
-=======
             case 56: {
->>>>>>> origin/6.5.0
 
               guid_ = input.readUInt64();
               break;
@@ -121,11 +114,6 @@ public final class AvatarPromoteReqOuterClass {
               emu.grasscutter.net.proto.AvatarPromoteReqOuterClass.AvatarPromoteReq.class, emu.grasscutter.net.proto.AvatarPromoteReqOuterClass.AvatarPromoteReq.Builder.class);
     }
 
-<<<<<<< HEAD
-    public static final int GUID_FIELD_NUMBER = 15;
-    private long guid_;
-
-=======
     public static final int GUID_FIELD_NUMBER = 7;
     private long guid_;
     /**
@@ -136,7 +124,6 @@ public final class AvatarPromoteReqOuterClass {
      * <code>uint64 guid = 7;</code>
      * @return The guid.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public long getGuid() {
       return guid_;
@@ -157,11 +144,7 @@ public final class AvatarPromoteReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (guid_ != 0L) {
-<<<<<<< HEAD
-        output.writeUInt64(15, guid_);
-=======
         output.writeUInt64(7, guid_);
->>>>>>> origin/6.5.0
       }
       unknownFields.writeTo(output);
     }
@@ -174,11 +157,7 @@ public final class AvatarPromoteReqOuterClass {
       size = 0;
       if (guid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-<<<<<<< HEAD
-          .computeUInt64Size(15, guid_);
-=======
           .computeUInt64Size(7, guid_);
->>>>>>> origin/6.5.0
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -458,9 +437,6 @@ public final class AvatarPromoteReqOuterClass {
       }
 
       private long guid_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5     
@@ -469,14 +445,10 @@ public final class AvatarPromoteReqOuterClass {
        * <code>uint64 guid = 7;</code>
        * @return The guid.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public long getGuid() {
         return guid_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5     
@@ -486,16 +458,12 @@ public final class AvatarPromoteReqOuterClass {
        * @param value The guid to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setGuid(long value) {
-
+        
         guid_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5     
@@ -504,9 +472,8 @@ public final class AvatarPromoteReqOuterClass {
        * <code>uint64 guid = 7;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearGuid() {
-
+        
         guid_ = 0L;
         onChanged();
         return this;
@@ -522,6 +489,7 @@ public final class AvatarPromoteReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:AvatarPromoteReq)
     }
@@ -565,7 +533,7 @@ public final class AvatarPromoteReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarPromoteReq_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarPromoteReq_fieldAccessorTable;
 

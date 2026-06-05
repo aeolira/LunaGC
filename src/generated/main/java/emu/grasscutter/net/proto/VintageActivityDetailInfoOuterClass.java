@@ -150,8 +150,6 @@ public final class VintageActivityDetailInfoOuterClass {
      */
     emu.grasscutter.net.proto.FHCMCMDABNKOuterClass.FHCMCMDABNKOrBuilder getELNFBDICJGMOrBuilder();
 
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -160,7 +158,6 @@ public final class VintageActivityDetailInfoOuterClass {
      * <code>bool is_content_closed = 10;</code>
      * @return The isContentClosed.
      */
->>>>>>> origin/6.5.0
     boolean getIsContentClosed();
   }
   /**
@@ -333,7 +330,7 @@ public final class VintageActivityDetailInfoOuterClass {
           java.lang.Integer, emu.grasscutter.net.proto.IMPMPMNGLAGOuterClass.IMPMPMNGLAG> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, emu.grasscutter.net.proto.IMPMPMNGLAGOuterClass.IMPMPMNGLAG>newDefaultInstance(
-                  emu.grasscutter.net.proto.VintageActivityDetailInfoOuterClass.internal_static_VintageActivityDetailInfo_PFPAJHIANNDEntry_descriptor,
+                  emu.grasscutter.net.proto.VintageActivityDetailInfoOuterClass.internal_static_VintageActivityDetailInfo_PFPAJHIANNDEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
@@ -360,7 +357,7 @@ public final class VintageActivityDetailInfoOuterClass {
     @java.lang.Override
     public boolean containsPFPAJHIANND(
         int key) {
-
+      
       return internalGetPFPAJHIANND().getMap().containsKey(key);
     }
     /**
@@ -387,7 +384,7 @@ public final class VintageActivityDetailInfoOuterClass {
     public emu.grasscutter.net.proto.IMPMPMNGLAGOuterClass.IMPMPMNGLAG getPFPAJHIANNDOrDefault(
         int key,
         emu.grasscutter.net.proto.IMPMPMNGLAGOuterClass.IMPMPMNGLAG defaultValue) {
-
+      
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.IMPMPMNGLAGOuterClass.IMPMPMNGLAG> map =
           internalGetPFPAJHIANND().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -399,7 +396,7 @@ public final class VintageActivityDetailInfoOuterClass {
 
     public emu.grasscutter.net.proto.IMPMPMNGLAGOuterClass.IMPMPMNGLAG getPFPAJHIANNDOrThrow(
         int key) {
-
+      
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.IMPMPMNGLAGOuterClass.IMPMPMNGLAG> map =
           internalGetPFPAJHIANND().getMap();
       if (!map.containsKey(key)) {
@@ -440,7 +437,7 @@ public final class VintageActivityDetailInfoOuterClass {
           java.lang.Integer, emu.grasscutter.net.proto.FBINEKMHLNDOuterClass.FBINEKMHLND> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, emu.grasscutter.net.proto.FBINEKMHLNDOuterClass.FBINEKMHLND>newDefaultInstance(
-                  emu.grasscutter.net.proto.VintageActivityDetailInfoOuterClass.internal_static_VintageActivityDetailInfo_OKJBALNDPFCEntry_descriptor,
+                  emu.grasscutter.net.proto.VintageActivityDetailInfoOuterClass.internal_static_VintageActivityDetailInfo_OKJBALNDPFCEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
@@ -467,7 +464,7 @@ public final class VintageActivityDetailInfoOuterClass {
     @java.lang.Override
     public boolean containsOKJBALNDPFC(
         int key) {
-
+      
       return internalGetOKJBALNDPFC().getMap().containsKey(key);
     }
     /**
@@ -494,7 +491,7 @@ public final class VintageActivityDetailInfoOuterClass {
     public emu.grasscutter.net.proto.FBINEKMHLNDOuterClass.FBINEKMHLND getOKJBALNDPFCOrDefault(
         int key,
         emu.grasscutter.net.proto.FBINEKMHLNDOuterClass.FBINEKMHLND defaultValue) {
-
+      
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FBINEKMHLNDOuterClass.FBINEKMHLND> map =
           internalGetOKJBALNDPFC().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -506,7 +503,7 @@ public final class VintageActivityDetailInfoOuterClass {
 
     public emu.grasscutter.net.proto.FBINEKMHLNDOuterClass.FBINEKMHLND getOKJBALNDPFCOrThrow(
         int key) {
-
+      
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FBINEKMHLNDOuterClass.FBINEKMHLND> map =
           internalGetOKJBALNDPFC().getMap();
       if (!map.containsKey(key)) {
@@ -521,7 +518,7 @@ public final class VintageActivityDetailInfoOuterClass {
           java.lang.Integer, emu.grasscutter.net.proto.JGLNJLMPCOKOuterClass.JGLNJLMPCOK> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, emu.grasscutter.net.proto.JGLNJLMPCOKOuterClass.JGLNJLMPCOK>newDefaultInstance(
-                  emu.grasscutter.net.proto.VintageActivityDetailInfoOuterClass.internal_static_VintageActivityDetailInfo_GHPCABLHJIMEntry_descriptor,
+                  emu.grasscutter.net.proto.VintageActivityDetailInfoOuterClass.internal_static_VintageActivityDetailInfo_GHPCABLHJIMEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
@@ -548,7 +545,7 @@ public final class VintageActivityDetailInfoOuterClass {
     @java.lang.Override
     public boolean containsGHPCABLHJIM(
         int key) {
-
+      
       return internalGetGHPCABLHJIM().getMap().containsKey(key);
     }
     /**
@@ -575,7 +572,7 @@ public final class VintageActivityDetailInfoOuterClass {
     public emu.grasscutter.net.proto.JGLNJLMPCOKOuterClass.JGLNJLMPCOK getGHPCABLHJIMOrDefault(
         int key,
         emu.grasscutter.net.proto.JGLNJLMPCOKOuterClass.JGLNJLMPCOK defaultValue) {
-
+      
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.JGLNJLMPCOKOuterClass.JGLNJLMPCOK> map =
           internalGetGHPCABLHJIM().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -587,7 +584,7 @@ public final class VintageActivityDetailInfoOuterClass {
 
     public emu.grasscutter.net.proto.JGLNJLMPCOKOuterClass.JGLNJLMPCOK getGHPCABLHJIMOrThrow(
         int key) {
-
+      
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.JGLNJLMPCOKOuterClass.JGLNJLMPCOK> map =
           internalGetGHPCABLHJIM().getMap();
       if (!map.containsKey(key)) {
@@ -624,9 +621,6 @@ public final class VintageActivityDetailInfoOuterClass {
 
     public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 10;
     private boolean isContentClosed_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -635,7 +629,6 @@ public final class VintageActivityDetailInfoOuterClass {
      * <code>bool is_content_closed = 10;</code>
      * @return The isContentClosed.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsContentClosed() {
       return isContentClosed_;
@@ -1150,7 +1143,7 @@ public final class VintageActivityDetailInfoOuterClass {
       @java.lang.Override
       public boolean containsPFPAJHIANND(
           int key) {
-
+        
         return internalGetPFPAJHIANND().getMap().containsKey(key);
       }
       /**
@@ -1177,7 +1170,7 @@ public final class VintageActivityDetailInfoOuterClass {
       public emu.grasscutter.net.proto.IMPMPMNGLAGOuterClass.IMPMPMNGLAG getPFPAJHIANNDOrDefault(
           int key,
           emu.grasscutter.net.proto.IMPMPMNGLAGOuterClass.IMPMPMNGLAG defaultValue) {
-
+        
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.IMPMPMNGLAGOuterClass.IMPMPMNGLAG> map =
             internalGetPFPAJHIANND().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -1189,7 +1182,7 @@ public final class VintageActivityDetailInfoOuterClass {
 
       public emu.grasscutter.net.proto.IMPMPMNGLAGOuterClass.IMPMPMNGLAG getPFPAJHIANNDOrThrow(
           int key) {
-
+        
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.IMPMPMNGLAGOuterClass.IMPMPMNGLAG> map =
             internalGetPFPAJHIANND().getMap();
         if (!map.containsKey(key)) {
@@ -1209,7 +1202,7 @@ public final class VintageActivityDetailInfoOuterClass {
 
       public Builder removePFPAJHIANND(
           int key) {
-
+        
         internalGetMutablePFPAJHIANND().getMutableMap()
             .remove(key);
         return this;
@@ -1228,7 +1221,7 @@ public final class VintageActivityDetailInfoOuterClass {
       public Builder putPFPAJHIANND(
           int key,
           emu.grasscutter.net.proto.IMPMPMNGLAGOuterClass.IMPMPMNGLAG value) {
-
+        
         if (value == null) { throw new java.lang.NullPointerException(); }
         internalGetMutablePFPAJHIANND().getMutableMap()
             .put(key, value);
@@ -1332,7 +1325,7 @@ public final class VintageActivityDetailInfoOuterClass {
        * <code>.PGOLPDPHJKG BIDPJADENCE = 11;</code>
        */
       public emu.grasscutter.net.proto.PGOLPDPHJKGOuterClass.PGOLPDPHJKG.Builder getBIDPJADENCEBuilder() {
-
+        
         onChanged();
         return getBIDPJADENCEFieldBuilder().getBuilder();
       }
@@ -1351,7 +1344,7 @@ public final class VintageActivityDetailInfoOuterClass {
        * <code>.PGOLPDPHJKG BIDPJADENCE = 11;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.PGOLPDPHJKGOuterClass.PGOLPDPHJKG, emu.grasscutter.net.proto.PGOLPDPHJKGOuterClass.PGOLPDPHJKG.Builder, emu.grasscutter.net.proto.PGOLPDPHJKGOuterClass.PGOLPDPHJKGOrBuilder>
+          emu.grasscutter.net.proto.PGOLPDPHJKGOuterClass.PGOLPDPHJKG, emu.grasscutter.net.proto.PGOLPDPHJKGOuterClass.PGOLPDPHJKG.Builder, emu.grasscutter.net.proto.PGOLPDPHJKGOuterClass.PGOLPDPHJKGOrBuilder> 
           getBIDPJADENCEFieldBuilder() {
         if (bIDPJADENCEBuilder_ == null) {
           bIDPJADENCEBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1397,7 +1390,7 @@ public final class VintageActivityDetailInfoOuterClass {
       @java.lang.Override
       public boolean containsOKJBALNDPFC(
           int key) {
-
+        
         return internalGetOKJBALNDPFC().getMap().containsKey(key);
       }
       /**
@@ -1424,7 +1417,7 @@ public final class VintageActivityDetailInfoOuterClass {
       public emu.grasscutter.net.proto.FBINEKMHLNDOuterClass.FBINEKMHLND getOKJBALNDPFCOrDefault(
           int key,
           emu.grasscutter.net.proto.FBINEKMHLNDOuterClass.FBINEKMHLND defaultValue) {
-
+        
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FBINEKMHLNDOuterClass.FBINEKMHLND> map =
             internalGetOKJBALNDPFC().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -1436,7 +1429,7 @@ public final class VintageActivityDetailInfoOuterClass {
 
       public emu.grasscutter.net.proto.FBINEKMHLNDOuterClass.FBINEKMHLND getOKJBALNDPFCOrThrow(
           int key) {
-
+        
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FBINEKMHLNDOuterClass.FBINEKMHLND> map =
             internalGetOKJBALNDPFC().getMap();
         if (!map.containsKey(key)) {
@@ -1456,7 +1449,7 @@ public final class VintageActivityDetailInfoOuterClass {
 
       public Builder removeOKJBALNDPFC(
           int key) {
-
+        
         internalGetMutableOKJBALNDPFC().getMutableMap()
             .remove(key);
         return this;
@@ -1475,7 +1468,7 @@ public final class VintageActivityDetailInfoOuterClass {
       public Builder putOKJBALNDPFC(
           int key,
           emu.grasscutter.net.proto.FBINEKMHLNDOuterClass.FBINEKMHLND value) {
-
+        
         if (value == null) { throw new java.lang.NullPointerException(); }
         internalGetMutableOKJBALNDPFC().getMutableMap()
             .put(key, value);
@@ -1525,7 +1518,7 @@ public final class VintageActivityDetailInfoOuterClass {
       @java.lang.Override
       public boolean containsGHPCABLHJIM(
           int key) {
-
+        
         return internalGetGHPCABLHJIM().getMap().containsKey(key);
       }
       /**
@@ -1552,7 +1545,7 @@ public final class VintageActivityDetailInfoOuterClass {
       public emu.grasscutter.net.proto.JGLNJLMPCOKOuterClass.JGLNJLMPCOK getGHPCABLHJIMOrDefault(
           int key,
           emu.grasscutter.net.proto.JGLNJLMPCOKOuterClass.JGLNJLMPCOK defaultValue) {
-
+        
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.JGLNJLMPCOKOuterClass.JGLNJLMPCOK> map =
             internalGetGHPCABLHJIM().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -1564,7 +1557,7 @@ public final class VintageActivityDetailInfoOuterClass {
 
       public emu.grasscutter.net.proto.JGLNJLMPCOKOuterClass.JGLNJLMPCOK getGHPCABLHJIMOrThrow(
           int key) {
-
+        
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.JGLNJLMPCOKOuterClass.JGLNJLMPCOK> map =
             internalGetGHPCABLHJIM().getMap();
         if (!map.containsKey(key)) {
@@ -1584,7 +1577,7 @@ public final class VintageActivityDetailInfoOuterClass {
 
       public Builder removeGHPCABLHJIM(
           int key) {
-
+        
         internalGetMutableGHPCABLHJIM().getMutableMap()
             .remove(key);
         return this;
@@ -1603,7 +1596,7 @@ public final class VintageActivityDetailInfoOuterClass {
       public Builder putGHPCABLHJIM(
           int key,
           emu.grasscutter.net.proto.JGLNJLMPCOKOuterClass.JGLNJLMPCOK value) {
-
+        
         if (value == null) { throw new java.lang.NullPointerException(); }
         internalGetMutableGHPCABLHJIM().getMutableMap()
             .put(key, value);
@@ -1707,7 +1700,7 @@ public final class VintageActivityDetailInfoOuterClass {
        * <code>.FHCMCMDABNK ELNFBDICJGM = 14;</code>
        */
       public emu.grasscutter.net.proto.FHCMCMDABNKOuterClass.FHCMCMDABNK.Builder getELNFBDICJGMBuilder() {
-
+        
         onChanged();
         return getELNFBDICJGMFieldBuilder().getBuilder();
       }
@@ -1726,7 +1719,7 @@ public final class VintageActivityDetailInfoOuterClass {
        * <code>.FHCMCMDABNK ELNFBDICJGM = 14;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.FHCMCMDABNKOuterClass.FHCMCMDABNK, emu.grasscutter.net.proto.FHCMCMDABNKOuterClass.FHCMCMDABNK.Builder, emu.grasscutter.net.proto.FHCMCMDABNKOuterClass.FHCMCMDABNKOrBuilder>
+          emu.grasscutter.net.proto.FHCMCMDABNKOuterClass.FHCMCMDABNK, emu.grasscutter.net.proto.FHCMCMDABNKOuterClass.FHCMCMDABNK.Builder, emu.grasscutter.net.proto.FHCMCMDABNKOuterClass.FHCMCMDABNKOrBuilder> 
           getELNFBDICJGMFieldBuilder() {
         if (eLNFBDICJGMBuilder_ == null) {
           eLNFBDICJGMBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1740,9 +1733,6 @@ public final class VintageActivityDetailInfoOuterClass {
       }
 
       private boolean isContentClosed_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1751,14 +1741,10 @@ public final class VintageActivityDetailInfoOuterClass {
        * <code>bool is_content_closed = 10;</code>
        * @return The isContentClosed.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsContentClosed() {
         return isContentClosed_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1768,16 +1754,12 @@ public final class VintageActivityDetailInfoOuterClass {
        * @param value The isContentClosed to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setIsContentClosed(boolean value) {
-
+        
         isContentClosed_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1786,9 +1768,8 @@ public final class VintageActivityDetailInfoOuterClass {
        * <code>bool is_content_closed = 10;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearIsContentClosed() {
-
+        
         isContentClosed_ = false;
         onChanged();
         return this;
@@ -1804,6 +1785,7 @@ public final class VintageActivityDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:VintageActivityDetailInfo)
     }
@@ -1847,22 +1829,22 @@ public final class VintageActivityDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_VintageActivityDetailInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_VintageActivityDetailInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_VintageActivityDetailInfo_PFPAJHIANNDEntry_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_VintageActivityDetailInfo_PFPAJHIANNDEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_VintageActivityDetailInfo_OKJBALNDPFCEntry_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_VintageActivityDetailInfo_OKJBALNDPFCEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_VintageActivityDetailInfo_GHPCABLHJIMEntry_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_VintageActivityDetailInfo_GHPCABLHJIMEntry_fieldAccessorTable;
 

@@ -18,8 +18,6 @@ public final class ChooseCurAvatarTeamReqOuterClass {
       // @@protoc_insertion_point(interface_extends:ChooseCurAvatarTeamReq)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -28,7 +26,6 @@ public final class ChooseCurAvatarTeamReqOuterClass {
      * <code>uint32 team_id = 5;</code>
      * @return The teamId.
      */
->>>>>>> origin/6.5.0
     int getTeamId();
   }
   /**
@@ -80,7 +77,7 @@ public final class ChooseCurAvatarTeamReqOuterClass {
             case 0:
               done = true;
               break;
-            case 80: {
+            case 40: {
 
               teamId_ = input.readUInt32();
               break;
@@ -117,11 +114,8 @@ public final class ChooseCurAvatarTeamReqOuterClass {
               emu.grasscutter.net.proto.ChooseCurAvatarTeamReqOuterClass.ChooseCurAvatarTeamReq.class, emu.grasscutter.net.proto.ChooseCurAvatarTeamReqOuterClass.ChooseCurAvatarTeamReq.Builder.class);
     }
 
-    public static final int TEAM_ID_FIELD_NUMBER = 10;
+    public static final int TEAM_ID_FIELD_NUMBER = 5;
     private int teamId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -130,7 +124,6 @@ public final class ChooseCurAvatarTeamReqOuterClass {
      * <code>uint32 team_id = 5;</code>
      * @return The teamId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getTeamId() {
       return teamId_;
@@ -151,7 +144,7 @@ public final class ChooseCurAvatarTeamReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (teamId_ != 0) {
-        output.writeUInt32(10, teamId_);
+        output.writeUInt32(5, teamId_);
       }
       unknownFields.writeTo(output);
     }
@@ -164,7 +157,7 @@ public final class ChooseCurAvatarTeamReqOuterClass {
       size = 0;
       if (teamId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, teamId_);
+          .computeUInt32Size(5, teamId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -443,9 +436,6 @@ public final class ChooseCurAvatarTeamReqOuterClass {
       }
 
       private int teamId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -454,14 +444,10 @@ public final class ChooseCurAvatarTeamReqOuterClass {
        * <code>uint32 team_id = 5;</code>
        * @return The teamId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getTeamId() {
         return teamId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -471,16 +457,12 @@ public final class ChooseCurAvatarTeamReqOuterClass {
        * @param value The teamId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setTeamId(int value) {
-
+        
         teamId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -489,9 +471,8 @@ public final class ChooseCurAvatarTeamReqOuterClass {
        * <code>uint32 team_id = 5;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearTeamId() {
-
+        
         teamId_ = 0;
         onChanged();
         return this;
@@ -507,6 +488,7 @@ public final class ChooseCurAvatarTeamReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:ChooseCurAvatarTeamReq)
     }
@@ -550,7 +532,7 @@ public final class ChooseCurAvatarTeamReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ChooseCurAvatarTeamReq_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ChooseCurAvatarTeamReq_fieldAccessorTable;
 

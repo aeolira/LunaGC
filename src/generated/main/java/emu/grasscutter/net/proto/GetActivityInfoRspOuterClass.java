@@ -18,40 +18,6 @@ public final class GetActivityInfoRspOuterClass {
       // @@protoc_insertion_point(interface_extends:GetActivityInfoRsp)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair>
-        getDisableTransferPointInteractionListList();
-
-    emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getDisableTransferPointInteractionList(int index);
-
-    int getDisableTransferPointInteractionListCount();
-
-    java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder>
-        getDisableTransferPointInteractionListOrBuilderList();
-
-    emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getDisableTransferPointInteractionListOrBuilder(
-        int index);
-
-    java.util.List<emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo>
-        getActivityInfoListList();
-
-    emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo getActivityInfoList(int index);
-
-    int getActivityInfoListCount();
-
-    java.util.List<? extends emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfoOrBuilder>
-        getActivityInfoListOrBuilderList();
-
-    emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfoOrBuilder getActivityInfoListOrBuilder(
-        int index);
-
-    java.util.List<java.lang.Integer> getActivatedSaleIdListList();
-
-    int getActivatedSaleIdListCount();
-
-    int getActivatedSaleIdList(int index);
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -177,7 +143,6 @@ public final class GetActivityInfoRspOuterClass {
      * <code>int32 retcode = 9;</code>
      * @return The retcode.
      */
->>>>>>> origin/6.5.0
     int getRetcode();
   }
   /**
@@ -318,11 +283,8 @@ public final class GetActivityInfoRspOuterClass {
               emu.grasscutter.net.proto.GetActivityInfoRspOuterClass.GetActivityInfoRsp.class, emu.grasscutter.net.proto.GetActivityInfoRspOuterClass.GetActivityInfoRsp.Builder.class);
     }
 
-    public static final int DISABLE_TRANSFER_POINT_INTERACTION_LIST_FIELD_NUMBER = 13;
+    public static final int DISABLE_TRANSFER_POINT_INTERACTION_LIST_FIELD_NUMBER = 2;
     private java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> disableTransferPointInteractionList_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -330,14 +292,10 @@ public final class GetActivityInfoRspOuterClass {
      *
      * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 2;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> getDisableTransferPointInteractionListList() {
       return disableTransferPointInteractionList_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -345,15 +303,11 @@ public final class GetActivityInfoRspOuterClass {
      *
      * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 2;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
         getDisableTransferPointInteractionListOrBuilderList() {
       return disableTransferPointInteractionList_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -361,14 +315,10 @@ public final class GetActivityInfoRspOuterClass {
      *
      * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 2;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getDisableTransferPointInteractionListCount() {
       return disableTransferPointInteractionList_.size();
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -376,14 +326,10 @@ public final class GetActivityInfoRspOuterClass {
      *
      * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 2;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getDisableTransferPointInteractionList(int index) {
       return disableTransferPointInteractionList_.get(index);
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -391,7 +337,6 @@ public final class GetActivityInfoRspOuterClass {
      *
      * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 2;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getDisableTransferPointInteractionListOrBuilder(
         int index) {
@@ -400,9 +345,6 @@ public final class GetActivityInfoRspOuterClass {
 
     public static final int ACTIVITY_INFO_LIST_FIELD_NUMBER = 1;
     private java.util.List<emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo> activityInfoList_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -410,14 +352,10 @@ public final class GetActivityInfoRspOuterClass {
      *
      * <code>repeated .ActivityInfo activity_info_list = 1;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo> getActivityInfoListList() {
       return activityInfoList_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -425,15 +363,11 @@ public final class GetActivityInfoRspOuterClass {
      *
      * <code>repeated .ActivityInfo activity_info_list = 1;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfoOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfoOrBuilder> 
         getActivityInfoListOrBuilderList() {
       return activityInfoList_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -441,14 +375,10 @@ public final class GetActivityInfoRspOuterClass {
      *
      * <code>repeated .ActivityInfo activity_info_list = 1;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getActivityInfoListCount() {
       return activityInfoList_.size();
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -456,14 +386,10 @@ public final class GetActivityInfoRspOuterClass {
      *
      * <code>repeated .ActivityInfo activity_info_list = 1;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo getActivityInfoList(int index) {
       return activityInfoList_.get(index);
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -471,18 +397,14 @@ public final class GetActivityInfoRspOuterClass {
      *
      * <code>repeated .ActivityInfo activity_info_list = 1;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfoOrBuilder getActivityInfoListOrBuilder(
         int index) {
       return activityInfoList_.get(index);
     }
 
-    public static final int ACTIVATED_SALE_ID_LIST_FIELD_NUMBER = 7;
+    public static final int ACTIVATED_SALE_ID_LIST_FIELD_NUMBER = 4;
     private com.google.protobuf.Internal.IntList activatedSaleIdList_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -491,19 +413,11 @@ public final class GetActivityInfoRspOuterClass {
      * <code>repeated uint32 activated_sale_id_list = 4;</code>
      * @return A list containing the activatedSaleIdList.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getActivatedSaleIdListList() {
       return activatedSaleIdList_;
     }
-<<<<<<< HEAD
-
-    public int getActivatedSaleIdListCount() {
-      return activatedSaleIdList_.size();
-    }
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -524,17 +438,13 @@ public final class GetActivityInfoRspOuterClass {
      * @param index The index of the element to return.
      * @return The activatedSaleIdList at the given index.
      */
->>>>>>> origin/6.5.0
     public int getActivatedSaleIdList(int index) {
       return activatedSaleIdList_.getInt(index);
     }
     private int activatedSaleIdListMemoizedSerializedSize = -1;
 
-    public static final int RETCODE_FIELD_NUMBER = 5;
+    public static final int RETCODE_FIELD_NUMBER = 9;
     private int retcode_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -543,7 +453,6 @@ public final class GetActivityInfoRspOuterClass {
      * <code>int32 retcode = 9;</code>
      * @return The retcode.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -568,7 +477,7 @@ public final class GetActivityInfoRspOuterClass {
         output.writeMessage(1, activityInfoList_.get(i));
       }
       for (int i = 0; i < disableTransferPointInteractionList_.size(); i++) {
-        output.writeMessage(13, disableTransferPointInteractionList_.get(i));
+        output.writeMessage(2, disableTransferPointInteractionList_.get(i));
       }
       if (getActivatedSaleIdListList().size() > 0) {
         output.writeUInt32NoTag(34);
@@ -578,7 +487,7 @@ public final class GetActivityInfoRspOuterClass {
         output.writeUInt32NoTag(activatedSaleIdList_.getInt(i));
       }
       if (retcode_ != 0) {
-        output.writeInt32(5, retcode_);
+        output.writeInt32(9, retcode_);
       }
       unknownFields.writeTo(output);
     }
@@ -595,7 +504,7 @@ public final class GetActivityInfoRspOuterClass {
       }
       for (int i = 0; i < disableTransferPointInteractionList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(13, disableTransferPointInteractionList_.get(i));
+          .computeMessageSize(2, disableTransferPointInteractionList_.get(i));
       }
       {
         int dataSize = 0;
@@ -613,7 +522,7 @@ public final class GetActivityInfoRspOuterClass {
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(5, retcode_);
+          .computeInt32Size(9, retcode_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -935,7 +844,7 @@ public final class GetActivityInfoRspOuterClass {
               disableTransferPointInteractionListBuilder_ = null;
               disableTransferPointInteractionList_ = other.disableTransferPointInteractionList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              disableTransferPointInteractionListBuilder_ =
+              disableTransferPointInteractionListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getDisableTransferPointInteractionListFieldBuilder() : null;
             } else {
@@ -961,7 +870,7 @@ public final class GetActivityInfoRspOuterClass {
               activityInfoListBuilder_ = null;
               activityInfoList_ = other.activityInfoList_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              activityInfoListBuilder_ =
+              activityInfoListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getActivityInfoListFieldBuilder() : null;
             } else {
@@ -1024,8 +933,6 @@ public final class GetActivityInfoRspOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> disableTransferPointInteractionListBuilder_;
 
-<<<<<<< HEAD
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -1033,7 +940,6 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> getDisableTransferPointInteractionListList() {
         if (disableTransferPointInteractionListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(disableTransferPointInteractionList_);
@@ -1041,9 +947,6 @@ public final class GetActivityInfoRspOuterClass {
           return disableTransferPointInteractionListBuilder_.getMessageList();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -1051,7 +954,6 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public int getDisableTransferPointInteractionListCount() {
         if (disableTransferPointInteractionListBuilder_ == null) {
           return disableTransferPointInteractionList_.size();
@@ -1059,9 +961,6 @@ public final class GetActivityInfoRspOuterClass {
           return disableTransferPointInteractionListBuilder_.getCount();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -1069,7 +968,6 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair getDisableTransferPointInteractionList(int index) {
         if (disableTransferPointInteractionListBuilder_ == null) {
           return disableTransferPointInteractionList_.get(index);
@@ -1077,9 +975,6 @@ public final class GetActivityInfoRspOuterClass {
           return disableTransferPointInteractionListBuilder_.getMessage(index);
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -1087,7 +982,6 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setDisableTransferPointInteractionList(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
         if (disableTransferPointInteractionListBuilder_ == null) {
@@ -1102,9 +996,6 @@ public final class GetActivityInfoRspOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -1112,7 +1003,6 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setDisableTransferPointInteractionList(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
         if (disableTransferPointInteractionListBuilder_ == null) {
@@ -1124,9 +1014,6 @@ public final class GetActivityInfoRspOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -1134,7 +1021,6 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addDisableTransferPointInteractionList(emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
         if (disableTransferPointInteractionListBuilder_ == null) {
           if (value == null) {
@@ -1148,9 +1034,6 @@ public final class GetActivityInfoRspOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -1158,7 +1041,6 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addDisableTransferPointInteractionList(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair value) {
         if (disableTransferPointInteractionListBuilder_ == null) {
@@ -1173,9 +1055,6 @@ public final class GetActivityInfoRspOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -1183,7 +1062,6 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addDisableTransferPointInteractionList(
           emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
         if (disableTransferPointInteractionListBuilder_ == null) {
@@ -1195,9 +1073,6 @@ public final class GetActivityInfoRspOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -1205,7 +1080,6 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addDisableTransferPointInteractionList(
           int index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder builderForValue) {
         if (disableTransferPointInteractionListBuilder_ == null) {
@@ -1217,9 +1091,6 @@ public final class GetActivityInfoRspOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -1227,7 +1098,6 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addAllDisableTransferPointInteractionList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair> values) {
         if (disableTransferPointInteractionListBuilder_ == null) {
@@ -1240,9 +1110,6 @@ public final class GetActivityInfoRspOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -1250,7 +1117,6 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public Builder clearDisableTransferPointInteractionList() {
         if (disableTransferPointInteractionListBuilder_ == null) {
           disableTransferPointInteractionList_ = java.util.Collections.emptyList();
@@ -1261,9 +1127,6 @@ public final class GetActivityInfoRspOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -1271,7 +1134,6 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public Builder removeDisableTransferPointInteractionList(int index) {
         if (disableTransferPointInteractionListBuilder_ == null) {
           ensureDisableTransferPointInteractionListIsMutable();
@@ -1282,9 +1144,6 @@ public final class GetActivityInfoRspOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -1292,14 +1151,10 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder getDisableTransferPointInteractionListBuilder(
           int index) {
         return getDisableTransferPointInteractionListFieldBuilder().getBuilder(index);
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -1307,7 +1162,6 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder getDisableTransferPointInteractionListOrBuilder(
           int index) {
         if (disableTransferPointInteractionListBuilder_ == null) {
@@ -1315,10 +1169,6 @@ public final class GetActivityInfoRspOuterClass {
           return disableTransferPointInteractionListBuilder_.getMessageOrBuilder(index);
         }
       }
-<<<<<<< HEAD
-
-      public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder>
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -1327,7 +1177,6 @@ public final class GetActivityInfoRspOuterClass {
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 2;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
->>>>>>> origin/6.5.0
            getDisableTransferPointInteractionListOrBuilderList() {
         if (disableTransferPointInteractionListBuilder_ != null) {
           return disableTransferPointInteractionListBuilder_.getMessageOrBuilderList();
@@ -1335,9 +1184,6 @@ public final class GetActivityInfoRspOuterClass {
           return java.util.Collections.unmodifiableList(disableTransferPointInteractionList_);
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -1345,14 +1191,10 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder addDisableTransferPointInteractionListBuilder() {
         return getDisableTransferPointInteractionListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.getDefaultInstance());
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -1360,16 +1202,11 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 2;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder addDisableTransferPointInteractionListBuilder(
           int index) {
         return getDisableTransferPointInteractionListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.getDefaultInstance());
       }
-<<<<<<< HEAD
-
-      public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder>
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -1378,12 +1215,11 @@ public final class GetActivityInfoRspOuterClass {
        * <code>repeated .Uint32Pair disable_transfer_point_interaction_list = 2;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder> 
->>>>>>> origin/6.5.0
            getDisableTransferPointInteractionListBuilderList() {
         return getDisableTransferPointInteractionListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder>
+          emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32Pair.Builder, emu.grasscutter.net.proto.Uint32PairOuterClass.Uint32PairOrBuilder> 
           getDisableTransferPointInteractionListFieldBuilder() {
         if (disableTransferPointInteractionListBuilder_ == null) {
           disableTransferPointInteractionListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1409,8 +1245,6 @@ public final class GetActivityInfoRspOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo, emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo.Builder, emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfoOrBuilder> activityInfoListBuilder_;
 
-<<<<<<< HEAD
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1418,7 +1252,6 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .ActivityInfo activity_info_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo> getActivityInfoListList() {
         if (activityInfoListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(activityInfoList_);
@@ -1426,9 +1259,6 @@ public final class GetActivityInfoRspOuterClass {
           return activityInfoListBuilder_.getMessageList();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1436,7 +1266,6 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .ActivityInfo activity_info_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public int getActivityInfoListCount() {
         if (activityInfoListBuilder_ == null) {
           return activityInfoList_.size();
@@ -1444,9 +1273,6 @@ public final class GetActivityInfoRspOuterClass {
           return activityInfoListBuilder_.getCount();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1454,7 +1280,6 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .ActivityInfo activity_info_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo getActivityInfoList(int index) {
         if (activityInfoListBuilder_ == null) {
           return activityInfoList_.get(index);
@@ -1462,9 +1287,6 @@ public final class GetActivityInfoRspOuterClass {
           return activityInfoListBuilder_.getMessage(index);
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1472,7 +1294,6 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .ActivityInfo activity_info_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setActivityInfoList(
           int index, emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo value) {
         if (activityInfoListBuilder_ == null) {
@@ -1487,9 +1308,6 @@ public final class GetActivityInfoRspOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1497,7 +1315,6 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .ActivityInfo activity_info_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setActivityInfoList(
           int index, emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo.Builder builderForValue) {
         if (activityInfoListBuilder_ == null) {
@@ -1509,9 +1326,6 @@ public final class GetActivityInfoRspOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1519,7 +1333,6 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .ActivityInfo activity_info_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addActivityInfoList(emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo value) {
         if (activityInfoListBuilder_ == null) {
           if (value == null) {
@@ -1533,9 +1346,6 @@ public final class GetActivityInfoRspOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1543,7 +1353,6 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .ActivityInfo activity_info_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addActivityInfoList(
           int index, emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo value) {
         if (activityInfoListBuilder_ == null) {
@@ -1558,9 +1367,6 @@ public final class GetActivityInfoRspOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1568,7 +1374,6 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .ActivityInfo activity_info_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addActivityInfoList(
           emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo.Builder builderForValue) {
         if (activityInfoListBuilder_ == null) {
@@ -1580,9 +1385,6 @@ public final class GetActivityInfoRspOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1590,7 +1392,6 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .ActivityInfo activity_info_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addActivityInfoList(
           int index, emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo.Builder builderForValue) {
         if (activityInfoListBuilder_ == null) {
@@ -1602,9 +1403,6 @@ public final class GetActivityInfoRspOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1612,7 +1410,6 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .ActivityInfo activity_info_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addAllActivityInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo> values) {
         if (activityInfoListBuilder_ == null) {
@@ -1625,9 +1422,6 @@ public final class GetActivityInfoRspOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1635,7 +1429,6 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .ActivityInfo activity_info_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder clearActivityInfoList() {
         if (activityInfoListBuilder_ == null) {
           activityInfoList_ = java.util.Collections.emptyList();
@@ -1646,9 +1439,6 @@ public final class GetActivityInfoRspOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1656,7 +1446,6 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .ActivityInfo activity_info_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder removeActivityInfoList(int index) {
         if (activityInfoListBuilder_ == null) {
           ensureActivityInfoListIsMutable();
@@ -1667,9 +1456,6 @@ public final class GetActivityInfoRspOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1677,14 +1463,10 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .ActivityInfo activity_info_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo.Builder getActivityInfoListBuilder(
           int index) {
         return getActivityInfoListFieldBuilder().getBuilder(index);
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1692,7 +1474,6 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .ActivityInfo activity_info_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfoOrBuilder getActivityInfoListOrBuilder(
           int index) {
         if (activityInfoListBuilder_ == null) {
@@ -1700,10 +1481,6 @@ public final class GetActivityInfoRspOuterClass {
           return activityInfoListBuilder_.getMessageOrBuilder(index);
         }
       }
-<<<<<<< HEAD
-
-      public java.util.List<? extends emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfoOrBuilder>
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1712,7 +1489,6 @@ public final class GetActivityInfoRspOuterClass {
        * <code>repeated .ActivityInfo activity_info_list = 1;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfoOrBuilder> 
->>>>>>> origin/6.5.0
            getActivityInfoListOrBuilderList() {
         if (activityInfoListBuilder_ != null) {
           return activityInfoListBuilder_.getMessageOrBuilderList();
@@ -1720,9 +1496,6 @@ public final class GetActivityInfoRspOuterClass {
           return java.util.Collections.unmodifiableList(activityInfoList_);
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1730,14 +1503,10 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .ActivityInfo activity_info_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo.Builder addActivityInfoListBuilder() {
         return getActivityInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo.getDefaultInstance());
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1745,16 +1514,11 @@ public final class GetActivityInfoRspOuterClass {
        *
        * <code>repeated .ActivityInfo activity_info_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo.Builder addActivityInfoListBuilder(
           int index) {
         return getActivityInfoListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo.getDefaultInstance());
       }
-<<<<<<< HEAD
-
-      public java.util.List<emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo.Builder>
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1763,12 +1527,11 @@ public final class GetActivityInfoRspOuterClass {
        * <code>repeated .ActivityInfo activity_info_list = 1;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo.Builder> 
->>>>>>> origin/6.5.0
            getActivityInfoListBuilderList() {
         return getActivityInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo, emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo.Builder, emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfoOrBuilder>
+          emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo, emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo.Builder, emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfoOrBuilder> 
           getActivityInfoListFieldBuilder() {
         if (activityInfoListBuilder_ == null) {
           activityInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1789,9 +1552,6 @@ public final class GetActivityInfoRspOuterClass {
           bitField0_ |= 0x00000004;
          }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -1800,23 +1560,11 @@ public final class GetActivityInfoRspOuterClass {
        * <code>repeated uint32 activated_sale_id_list = 4;</code>
        * @return A list containing the activatedSaleIdList.
        */
->>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getActivatedSaleIdListList() {
         return ((bitField0_ & 0x00000004) != 0) ?
                  java.util.Collections.unmodifiableList(activatedSaleIdList_) : activatedSaleIdList_;
       }
-<<<<<<< HEAD
-
-      public int getActivatedSaleIdListCount() {
-        return activatedSaleIdList_.size();
-      }
-
-      public int getActivatedSaleIdList(int index) {
-        return activatedSaleIdList_.getInt(index);
-      }
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -1850,7 +1598,6 @@ public final class GetActivityInfoRspOuterClass {
        * @param value The activatedSaleIdList to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setActivatedSaleIdList(
           int index, int value) {
         ensureActivatedSaleIdListIsMutable();
@@ -1858,9 +1605,6 @@ public final class GetActivityInfoRspOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -1870,16 +1614,12 @@ public final class GetActivityInfoRspOuterClass {
        * @param value The activatedSaleIdList to add.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder addActivatedSaleIdList(int value) {
         ensureActivatedSaleIdListIsMutable();
         activatedSaleIdList_.addInt(value);
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -1889,7 +1629,6 @@ public final class GetActivityInfoRspOuterClass {
        * @param values The activatedSaleIdList to add.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder addAllActivatedSaleIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureActivatedSaleIdListIsMutable();
@@ -1898,9 +1637,6 @@ public final class GetActivityInfoRspOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -1909,7 +1645,6 @@ public final class GetActivityInfoRspOuterClass {
        * <code>repeated uint32 activated_sale_id_list = 4;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearActivatedSaleIdList() {
         activatedSaleIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000004);
@@ -1918,9 +1653,6 @@ public final class GetActivityInfoRspOuterClass {
       }
 
       private int retcode_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1929,14 +1661,10 @@ public final class GetActivityInfoRspOuterClass {
        * <code>int32 retcode = 9;</code>
        * @return The retcode.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1946,16 +1674,12 @@ public final class GetActivityInfoRspOuterClass {
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
-
+        
         retcode_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1964,9 +1688,8 @@ public final class GetActivityInfoRspOuterClass {
        * <code>int32 retcode = 9;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearRetcode() {
-
+        
         retcode_ = 0;
         onChanged();
         return this;
@@ -1982,6 +1705,7 @@ public final class GetActivityInfoRspOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:GetActivityInfoRsp)
     }
@@ -2025,7 +1749,7 @@ public final class GetActivityInfoRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetActivityInfoRsp_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetActivityInfoRsp_fieldAccessorTable;
 

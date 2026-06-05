@@ -18,14 +18,6 @@ public final class AbilityScalarValueEntryOuterClass {
       // @@protoc_insertion_point(interface_extends:AbilityScalarValueEntry)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    boolean hasKey();
-
-    emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString getKey();
-
-    emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder getKeyOrBuilder();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -61,7 +53,6 @@ public final class AbilityScalarValueEntryOuterClass {
      * <code>float float_value = 3;</code>
      * @return The floatValue.
      */
->>>>>>> origin/6.5.0
     float getFloatValue();
   }
   /**
@@ -161,9 +152,6 @@ public final class AbilityScalarValueEntryOuterClass {
 
     public static final int KEY_FIELD_NUMBER = 1;
     private emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString key_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -172,14 +160,10 @@ public final class AbilityScalarValueEntryOuterClass {
      * <code>.AbilityString key = 1;</code>
      * @return Whether the key field is set.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasKey() {
       return key_ != null;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -188,14 +172,10 @@ public final class AbilityScalarValueEntryOuterClass {
      * <code>.AbilityString key = 1;</code>
      * @return The key.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString getKey() {
       return key_ == null ? emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.getDefaultInstance() : key_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -203,7 +183,6 @@ public final class AbilityScalarValueEntryOuterClass {
      *
      * <code>.AbilityString key = 1;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder getKeyOrBuilder() {
       return getKey();
@@ -211,9 +190,6 @@ public final class AbilityScalarValueEntryOuterClass {
 
     public static final int FLOAT_VALUE_FIELD_NUMBER = 3;
     private float floatValue_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -222,7 +198,6 @@ public final class AbilityScalarValueEntryOuterClass {
      * <code>float float_value = 3;</code>
      * @return The floatValue.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public float getFloatValue() {
       return floatValue_;
@@ -565,13 +540,6 @@ public final class AbilityScalarValueEntryOuterClass {
       private emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString key_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder> keyBuilder_;
-<<<<<<< HEAD
-
-      public boolean hasKey() {
-        return keyBuilder_ != null || key_ != null;
-      }
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -591,7 +559,6 @@ public final class AbilityScalarValueEntryOuterClass {
        * <code>.AbilityString key = 1;</code>
        * @return The key.
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString getKey() {
         if (keyBuilder_ == null) {
           return key_ == null ? emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.getDefaultInstance() : key_;
@@ -599,9 +566,6 @@ public final class AbilityScalarValueEntryOuterClass {
           return keyBuilder_.getMessage();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -609,7 +573,6 @@ public final class AbilityScalarValueEntryOuterClass {
        *
        * <code>.AbilityString key = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setKey(emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString value) {
         if (keyBuilder_ == null) {
           if (value == null) {
@@ -623,9 +586,6 @@ public final class AbilityScalarValueEntryOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -633,7 +593,6 @@ public final class AbilityScalarValueEntryOuterClass {
        *
        * <code>.AbilityString key = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setKey(
           emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder builderForValue) {
         if (keyBuilder_ == null) {
@@ -645,9 +604,6 @@ public final class AbilityScalarValueEntryOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -655,7 +611,6 @@ public final class AbilityScalarValueEntryOuterClass {
        *
        * <code>.AbilityString key = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder mergeKey(emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString value) {
         if (keyBuilder_ == null) {
           if (key_ != null) {
@@ -671,9 +626,6 @@ public final class AbilityScalarValueEntryOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -681,7 +633,6 @@ public final class AbilityScalarValueEntryOuterClass {
        *
        * <code>.AbilityString key = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder clearKey() {
         if (keyBuilder_ == null) {
           key_ = null;
@@ -693,9 +644,6 @@ public final class AbilityScalarValueEntryOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -703,15 +651,11 @@ public final class AbilityScalarValueEntryOuterClass {
        *
        * <code>.AbilityString key = 1;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder getKeyBuilder() {
-
+        
         onChanged();
         return getKeyFieldBuilder().getBuilder();
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -719,7 +663,6 @@ public final class AbilityScalarValueEntryOuterClass {
        *
        * <code>.AbilityString key = 1;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder getKeyOrBuilder() {
         if (keyBuilder_ != null) {
           return keyBuilder_.getMessageOrBuilder();
@@ -728,9 +671,6 @@ public final class AbilityScalarValueEntryOuterClass {
               emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.getDefaultInstance() : key_;
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -738,9 +678,8 @@ public final class AbilityScalarValueEntryOuterClass {
        *
        * <code>.AbilityString key = 1;</code>
        */
->>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder>
+          emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.Builder, emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityStringOrBuilder> 
           getKeyFieldBuilder() {
         if (keyBuilder_ == null) {
           keyBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -754,9 +693,6 @@ public final class AbilityScalarValueEntryOuterClass {
       }
 
       private float floatValue_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -765,14 +701,10 @@ public final class AbilityScalarValueEntryOuterClass {
        * <code>float float_value = 3;</code>
        * @return The floatValue.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public float getFloatValue() {
         return floatValue_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -782,16 +714,12 @@ public final class AbilityScalarValueEntryOuterClass {
        * @param value The floatValue to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setFloatValue(float value) {
-
+        
         floatValue_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -800,9 +728,8 @@ public final class AbilityScalarValueEntryOuterClass {
        * <code>float float_value = 3;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearFloatValue() {
-
+        
         floatValue_ = 0F;
         onChanged();
         return this;
@@ -818,6 +745,7 @@ public final class AbilityScalarValueEntryOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:AbilityScalarValueEntry)
     }
@@ -861,7 +789,7 @@ public final class AbilityScalarValueEntryOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AbilityScalarValueEntry_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AbilityScalarValueEntry_fieldAccessorTable;
 

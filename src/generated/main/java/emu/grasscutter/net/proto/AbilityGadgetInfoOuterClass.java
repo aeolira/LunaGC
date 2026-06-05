@@ -18,12 +18,6 @@ public final class AbilityGadgetInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:AbilityGadgetInfo)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    int getCampTargetType();
-
-    int getCampId();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -52,7 +46,6 @@ public final class AbilityGadgetInfoOuterClass {
      * <code>uint32 target_entity_id = 3;</code>
      * @return The targetEntityId.
      */
->>>>>>> origin/6.5.0
     int getTargetEntityId();
   }
   /**
@@ -149,9 +142,6 @@ public final class AbilityGadgetInfoOuterClass {
 
     public static final int CAMP_TARGET_TYPE_FIELD_NUMBER = 2;
     private int campTargetType_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -160,7 +150,6 @@ public final class AbilityGadgetInfoOuterClass {
      * <code>uint32 camp_target_type = 2;</code>
      * @return The campTargetType.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCampTargetType() {
       return campTargetType_;
@@ -168,9 +157,6 @@ public final class AbilityGadgetInfoOuterClass {
 
     public static final int CAMP_ID_FIELD_NUMBER = 1;
     private int campId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -179,7 +165,6 @@ public final class AbilityGadgetInfoOuterClass {
      * <code>uint32 camp_id = 1;</code>
      * @return The campId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCampId() {
       return campId_;
@@ -187,9 +172,6 @@ public final class AbilityGadgetInfoOuterClass {
 
     public static final int TARGET_ENTITY_ID_FIELD_NUMBER = 3;
     private int targetEntityId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -198,7 +180,6 @@ public final class AbilityGadgetInfoOuterClass {
      * <code>uint32 target_entity_id = 3;</code>
      * @return The targetEntityId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getTargetEntityId() {
       return targetEntityId_;
@@ -541,9 +522,6 @@ public final class AbilityGadgetInfoOuterClass {
       }
 
       private int campTargetType_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -552,14 +530,10 @@ public final class AbilityGadgetInfoOuterClass {
        * <code>uint32 camp_target_type = 2;</code>
        * @return The campTargetType.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCampTargetType() {
         return campTargetType_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -569,16 +543,12 @@ public final class AbilityGadgetInfoOuterClass {
        * @param value The campTargetType to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setCampTargetType(int value) {
-
+        
         campTargetType_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -587,18 +557,14 @@ public final class AbilityGadgetInfoOuterClass {
        * <code>uint32 camp_target_type = 2;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearCampTargetType() {
-
+        
         campTargetType_ = 0;
         onChanged();
         return this;
       }
 
       private int campId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -607,14 +573,10 @@ public final class AbilityGadgetInfoOuterClass {
        * <code>uint32 camp_id = 1;</code>
        * @return The campId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCampId() {
         return campId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -624,16 +586,12 @@ public final class AbilityGadgetInfoOuterClass {
        * @param value The campId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setCampId(int value) {
-
+        
         campId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -642,18 +600,14 @@ public final class AbilityGadgetInfoOuterClass {
        * <code>uint32 camp_id = 1;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearCampId() {
-
+        
         campId_ = 0;
         onChanged();
         return this;
       }
 
       private int targetEntityId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -662,14 +616,10 @@ public final class AbilityGadgetInfoOuterClass {
        * <code>uint32 target_entity_id = 3;</code>
        * @return The targetEntityId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getTargetEntityId() {
         return targetEntityId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -679,16 +629,12 @@ public final class AbilityGadgetInfoOuterClass {
        * @param value The targetEntityId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setTargetEntityId(int value) {
-
+        
         targetEntityId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -697,9 +643,8 @@ public final class AbilityGadgetInfoOuterClass {
        * <code>uint32 target_entity_id = 3;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearTargetEntityId() {
-
+        
         targetEntityId_ = 0;
         onChanged();
         return this;
@@ -715,6 +660,7 @@ public final class AbilityGadgetInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:AbilityGadgetInfo)
     }
@@ -758,7 +704,7 @@ public final class AbilityGadgetInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AbilityGadgetInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AbilityGadgetInfo_fieldAccessorTable;
 

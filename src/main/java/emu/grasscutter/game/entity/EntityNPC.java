@@ -69,8 +69,6 @@ public class EntityNPC extends GameEntity {
                         .setEntityAuthorityInfo(authority)
                         .setLifeState(1);
 
-        this.injectIntMotionInfo(entityInfo);
-
         entityInfo.setNpc(
                 SceneNpcInfoOuterClass.SceneNpcInfo.newBuilder()
                         .setNpcId(metaNpc.npc_id)

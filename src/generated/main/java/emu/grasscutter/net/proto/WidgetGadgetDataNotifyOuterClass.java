@@ -83,7 +83,7 @@ public final class WidgetGadgetDataNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 18: {
+            case 26: {
               emu.grasscutter.net.proto.WidgetGadgetDataOuterClass.WidgetGadgetData.Builder subBuilder = null;
               if (widgetGadgetData_ != null) {
                 subBuilder = widgetGadgetData_.toBuilder();
@@ -128,7 +128,7 @@ public final class WidgetGadgetDataNotifyOuterClass {
               emu.grasscutter.net.proto.WidgetGadgetDataNotifyOuterClass.WidgetGadgetDataNotify.class, emu.grasscutter.net.proto.WidgetGadgetDataNotifyOuterClass.WidgetGadgetDataNotify.Builder.class);
     }
 
-    public static final int WIDGET_GADGET_DATA_FIELD_NUMBER = 2;
+    public static final int WIDGET_GADGET_DATA_FIELD_NUMBER = 3;
     private emu.grasscutter.net.proto.WidgetGadgetDataOuterClass.WidgetGadgetData widgetGadgetData_;
     /**
      * <code>.WidgetGadgetData widget_gadget_data = 3;</code>
@@ -169,7 +169,7 @@ public final class WidgetGadgetDataNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (widgetGadgetData_ != null) {
-        output.writeMessage(2, getWidgetGadgetData());
+        output.writeMessage(3, getWidgetGadgetData());
       }
       unknownFields.writeTo(output);
     }
@@ -182,7 +182,7 @@ public final class WidgetGadgetDataNotifyOuterClass {
       size = 0;
       if (widgetGadgetData_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, getWidgetGadgetData());
+          .computeMessageSize(3, getWidgetGadgetData());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

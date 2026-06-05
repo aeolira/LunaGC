@@ -21,7 +21,7 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
     /**
      * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND>
+    java.util.List<emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND> 
         getLGIIAMBMLKCList();
     /**
      * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
@@ -34,7 +34,7 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
     /**
      * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBNDOrBuilder>
+    java.util.List<? extends emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBNDOrBuilder> 
         getLGIIAMBMLKCOrBuilderList();
     /**
      * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
@@ -42,8 +42,6 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
     emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBNDOrBuilder getLGIIAMBMLKCOrBuilder(
         int index);
 
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -52,7 +50,6 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
      * <code>bool is_content_closed = 13;</code>
      * @return The isContentClosed.
      */
->>>>>>> origin/6.5.0
     boolean getIsContentClosed();
 
     /**
@@ -175,7 +172,7 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
      * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBNDOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBNDOrBuilder> 
         getLGIIAMBMLKCOrBuilderList() {
       return lGIIAMBMLKC_;
     }
@@ -202,11 +199,8 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
       return lGIIAMBMLKC_.get(index);
     }
 
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 11;
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 13;
     private boolean isContentClosed_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -215,7 +209,6 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
      * <code>bool is_content_closed = 13;</code>
      * @return The isContentClosed.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsContentClosed() {
       return isContentClosed_;
@@ -250,7 +243,7 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
         output.writeMessage(12, lGIIAMBMLKC_.get(i));
       }
       if (isContentClosed_ != false) {
-        output.writeBool(11, isContentClosed_);
+        output.writeBool(13, isContentClosed_);
       }
       if (dELEOLGNEDK_ != 0) {
         output.writeUInt32(15, dELEOLGNEDK_);
@@ -270,7 +263,7 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
       }
       if (isContentClosed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, isContentClosed_);
+          .computeBoolSize(13, isContentClosed_);
       }
       if (dELEOLGNEDK_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -565,7 +558,7 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
               lGIIAMBMLKCBuilder_ = null;
               lGIIAMBMLKC_ = other.lGIIAMBMLKC_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              lGIIAMBMLKCBuilder_ =
+              lGIIAMBMLKCBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getLGIIAMBMLKCFieldBuilder() : null;
             } else {
@@ -804,7 +797,7 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
       /**
        * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBNDOrBuilder>
+      public java.util.List<? extends emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBNDOrBuilder> 
            getLGIIAMBMLKCOrBuilderList() {
         if (lGIIAMBMLKCBuilder_ != null) {
           return lGIIAMBMLKCBuilder_.getMessageOrBuilderList();
@@ -830,12 +823,12 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
       /**
        * <code>repeated .IHMEPOBHBND LGIIAMBMLKC = 12;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND.Builder>
+      public java.util.List<emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND.Builder> 
            getLGIIAMBMLKCBuilderList() {
         return getLGIIAMBMLKCFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND, emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND.Builder, emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBNDOrBuilder>
+          emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND, emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBND.Builder, emu.grasscutter.net.proto.IHMEPOBHBNDOuterClass.IHMEPOBHBNDOrBuilder> 
           getLGIIAMBMLKCFieldBuilder() {
         if (lGIIAMBMLKCBuilder_ == null) {
           lGIIAMBMLKCBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -850,9 +843,6 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
       }
 
       private boolean isContentClosed_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -861,14 +851,10 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
        * <code>bool is_content_closed = 13;</code>
        * @return The isContentClosed.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsContentClosed() {
         return isContentClosed_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -878,16 +864,12 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
        * @param value The isContentClosed to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setIsContentClosed(boolean value) {
-
+        
         isContentClosed_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -896,9 +878,8 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
        * <code>bool is_content_closed = 13;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearIsContentClosed() {
-
+        
         isContentClosed_ = false;
         onChanged();
         return this;
@@ -919,7 +900,7 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDELEOLGNEDK(int value) {
-
+        
         dELEOLGNEDK_ = value;
         onChanged();
         return this;
@@ -929,7 +910,7 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDELEOLGNEDK() {
-
+        
         dELEOLGNEDK_ = 0;
         onChanged();
         return this;
@@ -945,6 +926,7 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:TreasureSeelieActivityDetailInfo)
     }
@@ -988,7 +970,7 @@ public final class TreasureSeelieActivityDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_TreasureSeelieActivityDetailInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_TreasureSeelieActivityDetailInfo_fieldAccessorTable;
 

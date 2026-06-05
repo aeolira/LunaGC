@@ -18,10 +18,6 @@ public final class TakeMaterialDeleteReturnReqOuterClass {
       // @@protoc_insertion_point(interface_extends:TakeMaterialDeleteReturnReq)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    int getTypeValue();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -39,7 +35,6 @@ public final class TakeMaterialDeleteReturnReqOuterClass {
      * <code>.MaterialDeleteReturnType type = 11;</code>
      * @return The type.
      */
->>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.MaterialDeleteReturnTypeOuterClass.MaterialDeleteReturnType getType();
   }
   /**
@@ -132,13 +127,6 @@ public final class TakeMaterialDeleteReturnReqOuterClass {
 
     public static final int TYPE_FIELD_NUMBER = 11;
     private int type_;
-<<<<<<< HEAD
-
-    @java.lang.Override public int getTypeValue() {
-      return type_;
-    }
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -158,7 +146,6 @@ public final class TakeMaterialDeleteReturnReqOuterClass {
      * <code>.MaterialDeleteReturnType type = 11;</code>
      * @return The type.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override public emu.grasscutter.net.proto.MaterialDeleteReturnTypeOuterClass.MaterialDeleteReturnType getType() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.MaterialDeleteReturnTypeOuterClass.MaterialDeleteReturnType result = emu.grasscutter.net.proto.MaterialDeleteReturnTypeOuterClass.MaterialDeleteReturnType.valueOf(type_);
@@ -471,13 +458,6 @@ public final class TakeMaterialDeleteReturnReqOuterClass {
       }
 
       private int type_ = 0;
-<<<<<<< HEAD
-
-      @java.lang.Override public int getTypeValue() {
-        return type_;
-      }
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -498,16 +478,12 @@ public final class TakeMaterialDeleteReturnReqOuterClass {
        * @param value The enum numeric value on the wire for type to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setTypeValue(int value) {
-
+        
         type_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -516,16 +492,12 @@ public final class TakeMaterialDeleteReturnReqOuterClass {
        * <code>.MaterialDeleteReturnType type = 11;</code>
        * @return The type.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.MaterialDeleteReturnTypeOuterClass.MaterialDeleteReturnType getType() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.MaterialDeleteReturnTypeOuterClass.MaterialDeleteReturnType result = emu.grasscutter.net.proto.MaterialDeleteReturnTypeOuterClass.MaterialDeleteReturnType.valueOf(type_);
         return result == null ? emu.grasscutter.net.proto.MaterialDeleteReturnTypeOuterClass.MaterialDeleteReturnType.UNRECOGNIZED : result;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -535,19 +507,15 @@ public final class TakeMaterialDeleteReturnReqOuterClass {
        * @param value The type to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setType(emu.grasscutter.net.proto.MaterialDeleteReturnTypeOuterClass.MaterialDeleteReturnType value) {
         if (value == null) {
           throw new NullPointerException();
         }
-
+        
         type_ = value.getNumber();
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -556,9 +524,8 @@ public final class TakeMaterialDeleteReturnReqOuterClass {
        * <code>.MaterialDeleteReturnType type = 11;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearType() {
-
+        
         type_ = 0;
         onChanged();
         return this;
@@ -574,6 +541,7 @@ public final class TakeMaterialDeleteReturnReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:TakeMaterialDeleteReturnReq)
     }
@@ -617,7 +585,7 @@ public final class TakeMaterialDeleteReturnReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_TakeMaterialDeleteReturnReq_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_TakeMaterialDeleteReturnReq_fieldAccessorTable;
 

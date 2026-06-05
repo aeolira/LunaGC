@@ -1,5 +1,7 @@
 package emu.grasscutter.game.entity;
 
+
+
 import emu.grasscutter.*;
 import emu.grasscutter.data.GameData;
 import emu.grasscutter.data.excels.avatar.*;
@@ -71,6 +73,9 @@ public class EntityAvatar extends GameEntity {
 
         this.initAbilities();
 
+        // New EntityAvatar instances are created on every scene transition.
+        // Ensure that isDead is properly carried over between scenes.
+        // Otherwise avatars could have 0 HP but not considered dead.
         this.checkIfDead();
     }
     public long getLastExecutionTime() {
@@ -86,6 +91,7 @@ public class EntityAvatar extends GameEntity {
             }
         }
 
+
     public void setLastExecutionTime(long time) {
         this.lastExecutionTime = time;
     }
@@ -94,6 +100,7 @@ public class EntityAvatar extends GameEntity {
     public int getEntityTypeId() {
         return this.getAvatar().getAvatarId();
     }
+
 
     public Player getPlayer() {
         return this.avatar.getPlayer();
@@ -114,6 +121,9 @@ public class EntityAvatar extends GameEntity {
         return getAvatar().getFightProperties();
     }
 
+    /**
+     * @return The entity ID of the avatar's equipped weapon.
+     */
     public int getWeaponEntityId() {
         var avatar = this.getAvatar();
 
@@ -124,15 +134,7 @@ public class EntityAvatar extends GameEntity {
 
     @Override
     public void onDeath(int killerId) {
-        var st = Thread.currentThread().getStackTrace();
-        Grasscutter.getLogger().info("[DEATH] avatarId={} entityId={} killerId={} | {}  {}  {}  {}  {}",
-            this.getAvatar().getAvatarId(), this.getId(), killerId,
-            st.length > 2 ? st[2] : "-",
-            st.length > 3 ? st[3] : "-",
-            st.length > 4 ? st[4] : "-",
-            st.length > 5 ? st[5] : "-",
-            st.length > 6 ? st[6] : "-");
-        super.onDeath(killerId);
+        super.onDeath(killerId); // Invoke super class's onDeath() method.
 
         this.killedType = PlayerDieType.PlayerDieType_PLAYER_DIE_KILL_BY_MONSTER;
         this.killedBy = killerId;
@@ -140,7 +142,7 @@ public class EntityAvatar extends GameEntity {
     }
 
     public void onDeath(PlayerDieType dieType, int killerId) {
-        super.onDeath(killerId);
+        super.onDeath(killerId); // Invoke super class's onDeath() method.
 
         this.killedType = dieType;
         this.killedBy = killerId;
@@ -158,12 +160,13 @@ public class EntityAvatar extends GameEntity {
 
     @Override
     public float heal(float amount, boolean mute) {
-
+        // Do not heal character if they are dead.
         var currentHp = this.getFightProperty(FightProperty.FIGHT_PROP_CUR_HP);
         if (currentHp <= 0) {
             return 0f;
         }
 
+        // Check if the character hasn't been marked as dead.
         if (currentHp > 0 && this.isDead()) {
             this.setDead(false);
             mute = false;
@@ -200,14 +203,14 @@ public class EntityAvatar extends GameEntity {
     }
 
     public void clearEnergy(ChangeEnergyReason reason) {
-
+        // Fight props.
         val curEnergyProp = GetEnergyProp(this.getAvatar());
         float curEnergy = this.getFightProperty(curEnergyProp);
         Grasscutter.getLogger().info("EnergyProp: "+curEnergyProp.name());
-
+        // Set energy to zero.
         this.avatar.setCurrentEnergy(curEnergyProp, 0);
         getPlayer().sendPacket(new PacketAvatarFightPropNotify(this.getAvatar()));
-
+        // Send packets.
         this.getScene().broadcastPacket(new PacketEntityFightPropUpdateNotify(this, curEnergyProp));
 
         if (reason == ChangeEnergyReason.ChangeEnergyReason_CHANGE_ENERGY_SKILL_START) {
@@ -217,6 +220,12 @@ public class EntityAvatar extends GameEntity {
         }
     }
 
+    /**
+     * Adds a fixed amount of energy to the current avatar.
+     *
+     * @param amount The amount of energy to add.
+     * @return True if the energy was added, false if the energy was not added.
+     */
     public boolean addEnergy(float amount) {
         var curEnergyProp = this.getAvatar().getSkillDepot().getElementType().getCurEnergyProp();
         var curEnergy = this.getFightProperty(curEnergyProp);
@@ -233,7 +242,7 @@ public class EntityAvatar extends GameEntity {
     }
 
     public void addEnergy(float amount, PropChangeReason reason, boolean isFlat) {
-
+        // Get current and maximum energy for this avatar.
         val elementType = this.getAvatar().getSkillDepot().getElementType();
         val curEnergyProp = elementType.getCurEnergyProp();
         val maxEnergyProp = elementType.getMaxEnergyProp();
@@ -241,12 +250,15 @@ public class EntityAvatar extends GameEntity {
         float curEnergy = this.getFightProperty(curEnergyProp);
         float maxEnergy = this.getFightProperty(maxEnergyProp);
 
+        // Scale amount by energy recharge, if the amount is not flat.
         if (!isFlat) {
             amount *= this.getFightProperty(FightProperty.FIGHT_PROP_CHARGE_EFFICIENCY);
         }
 
+        // Determine the new energy value.
         float newEnergy = Math.min(curEnergy + amount, maxEnergy);
 
+        // Set energy and notify.
         if (newEnergy != curEnergy) {
             this.avatar.setCurrentEnergy(curEnergyProp, newEnergy);
 
@@ -315,7 +327,6 @@ public class EntityAvatar extends GameEntity {
 
         if (this.getScene() != null) {
             entityInfo.setMotionInfo(this.getMotionInfo());
-            this.injectIntMotionInfo(entityInfo);
         }
 
         this.addAllFightPropsToEntityInfo(entityInfo);
@@ -338,6 +349,7 @@ public class EntityAvatar extends GameEntity {
         AbilityControlBlock.Builder abilityControlBlock = AbilityControlBlock.newBuilder();
         int embryoId = 0;
 
+        // Add avatar abilities
         if (data.getAbilities() != null) {
             for (int id : data.getAbilities()) {
                 AbilityEmbryo emb =
@@ -349,11 +361,8 @@ public class EntityAvatar extends GameEntity {
                 abilityControlBlock.addAbilityEmbryoList(emb);
             }
         }
-
-        boolean inNatlan = this.getPlayer().getScene() != null && this.getPlayer().getScene().getId() == 101;
-        int phlogistonHash = Utils.abilityHash("DynamicAbility_Phlogiston");
+        // Add default abilities
         for (int id : GameConstants.DEFAULT_ABILITY_HASHES) {
-            if (id == phlogistonHash && !inNatlan) continue;
             AbilityEmbryo emb =
                     AbilityEmbryo.newBuilder()
                             .setAbilityId(++embryoId)
@@ -362,7 +371,7 @@ public class EntityAvatar extends GameEntity {
                             .build();
             abilityControlBlock.addAbilityEmbryoList(emb);
         }
-
+        // Add team resonances
         for (int id : this.getPlayer().getTeamManager().getTeamResonancesConfig()) {
             AbilityEmbryo emb =
                     AbilityEmbryo.newBuilder()
@@ -372,7 +381,7 @@ public class EntityAvatar extends GameEntity {
                             .build();
             abilityControlBlock.addAbilityEmbryoList(emb);
         }
-
+        // Add skill depot abilities
         AvatarSkillDepotData skillDepot =
                 GameData.getAvatarSkillDepotDataMap().get(this.getAvatar().getSkillDepotId());
         if (skillDepot != null && skillDepot.getAbilities() != null) {
@@ -386,7 +395,7 @@ public class EntityAvatar extends GameEntity {
                 abilityControlBlock.addAbilityEmbryoList(emb);
             }
         }
-
+        // Add equip abilities
         if (this.getAvatar().getExtraAbilityEmbryos().size() > 0) {
             for (String skill : this.getAvatar().getExtraAbilityEmbryos()) {
                 AbilityEmbryo emb =
@@ -399,17 +408,25 @@ public class EntityAvatar extends GameEntity {
             }
         }
 
+        //
         return abilityControlBlock.build();
     }
 
+    /**
+     * Move this entity to a new position. Additionally invoke player move event.
+     *
+     * @param newPosition The new position.
+     * @param rotation The new rotation.
+     */
     @Override
     public void move(Position newPosition, Position rotation) {
-
+        // Invoke player move event.
         PlayerMoveEvent event =
                 new PlayerMoveEvent(
                         this.getPlayer(), PlayerMoveEvent.MoveType.PLAYER, this.getPosition(), newPosition);
         event.call();
 
+        // Set position and rotation.
         super.move(event.getDestination(), rotation);
     }
 
@@ -417,6 +434,8 @@ public class EntityAvatar extends GameEntity {
     public void onAbilityValueUpdate() {
         super.onAbilityValueUpdate();
 
+        // TODO: Replace with a proper implementation/call.
+        // Check if the condition for 35303 is met.
         if (this.getGlobalAbilityValues().containsKey("_ABILITY_UziExplode_Count")) {
             var count = this.getGlobalAbilityValues().get("_ABILITY_UziExplode_Count");
             if (count == 2f) {

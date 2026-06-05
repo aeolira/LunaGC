@@ -18,14 +18,6 @@ public final class FishBattleEndReqOuterClass {
       // @@protoc_insertion_point(interface_extends:FishBattleEndReq)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    boolean getIsAlwaysBonus();
-
-    int getMaxBonusTime();
-
-    int getBattleResultValue();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -63,7 +55,6 @@ public final class FishBattleEndReqOuterClass {
      * <code>.FishBattleResult battle_result = 4;</code>
      * @return The battleResult.
      */
->>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.FishBattleResultOuterClass.FishBattleResult getBattleResult();
   }
   /**
@@ -166,9 +157,6 @@ public final class FishBattleEndReqOuterClass {
 
     public static final int IS_ALWAYS_BONUS_FIELD_NUMBER = 7;
     private boolean isAlwaysBonus_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -177,7 +165,6 @@ public final class FishBattleEndReqOuterClass {
      * <code>bool is_always_bonus = 7;</code>
      * @return The isAlwaysBonus.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsAlwaysBonus() {
       return isAlwaysBonus_;
@@ -185,9 +172,6 @@ public final class FishBattleEndReqOuterClass {
 
     public static final int MAX_BONUS_TIME_FIELD_NUMBER = 3;
     private int maxBonusTime_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -196,7 +180,6 @@ public final class FishBattleEndReqOuterClass {
      * <code>uint32 max_bonus_time = 3;</code>
      * @return The maxBonusTime.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getMaxBonusTime() {
       return maxBonusTime_;
@@ -204,13 +187,6 @@ public final class FishBattleEndReqOuterClass {
 
     public static final int BATTLE_RESULT_FIELD_NUMBER = 4;
     private int battleResult_;
-<<<<<<< HEAD
-
-    @java.lang.Override public int getBattleResultValue() {
-      return battleResult_;
-    }
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -230,7 +206,6 @@ public final class FishBattleEndReqOuterClass {
      * <code>.FishBattleResult battle_result = 4;</code>
      * @return The battleResult.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override public emu.grasscutter.net.proto.FishBattleResultOuterClass.FishBattleResult getBattleResult() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.FishBattleResultOuterClass.FishBattleResult result = emu.grasscutter.net.proto.FishBattleResultOuterClass.FishBattleResult.valueOf(battleResult_);
@@ -578,9 +553,6 @@ public final class FishBattleEndReqOuterClass {
       }
 
       private boolean isAlwaysBonus_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -589,14 +561,10 @@ public final class FishBattleEndReqOuterClass {
        * <code>bool is_always_bonus = 7;</code>
        * @return The isAlwaysBonus.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsAlwaysBonus() {
         return isAlwaysBonus_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -606,16 +574,12 @@ public final class FishBattleEndReqOuterClass {
        * @param value The isAlwaysBonus to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setIsAlwaysBonus(boolean value) {
-
+        
         isAlwaysBonus_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -624,18 +588,14 @@ public final class FishBattleEndReqOuterClass {
        * <code>bool is_always_bonus = 7;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearIsAlwaysBonus() {
-
+        
         isAlwaysBonus_ = false;
         onChanged();
         return this;
       }
 
       private int maxBonusTime_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -644,14 +604,10 @@ public final class FishBattleEndReqOuterClass {
        * <code>uint32 max_bonus_time = 3;</code>
        * @return The maxBonusTime.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getMaxBonusTime() {
         return maxBonusTime_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -661,16 +617,12 @@ public final class FishBattleEndReqOuterClass {
        * @param value The maxBonusTime to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setMaxBonusTime(int value) {
-
+        
         maxBonusTime_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -679,22 +631,14 @@ public final class FishBattleEndReqOuterClass {
        * <code>uint32 max_bonus_time = 3;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearMaxBonusTime() {
-
+        
         maxBonusTime_ = 0;
         onChanged();
         return this;
       }
 
       private int battleResult_ = 0;
-<<<<<<< HEAD
-
-      @java.lang.Override public int getBattleResultValue() {
-        return battleResult_;
-      }
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -715,16 +659,12 @@ public final class FishBattleEndReqOuterClass {
        * @param value The enum numeric value on the wire for battleResult to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setBattleResultValue(int value) {
-
+        
         battleResult_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -733,16 +673,12 @@ public final class FishBattleEndReqOuterClass {
        * <code>.FishBattleResult battle_result = 4;</code>
        * @return The battleResult.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.FishBattleResultOuterClass.FishBattleResult getBattleResult() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.FishBattleResultOuterClass.FishBattleResult result = emu.grasscutter.net.proto.FishBattleResultOuterClass.FishBattleResult.valueOf(battleResult_);
         return result == null ? emu.grasscutter.net.proto.FishBattleResultOuterClass.FishBattleResult.UNRECOGNIZED : result;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -752,19 +688,15 @@ public final class FishBattleEndReqOuterClass {
        * @param value The battleResult to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setBattleResult(emu.grasscutter.net.proto.FishBattleResultOuterClass.FishBattleResult value) {
         if (value == null) {
           throw new NullPointerException();
         }
-
+        
         battleResult_ = value.getNumber();
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -773,9 +705,8 @@ public final class FishBattleEndReqOuterClass {
        * <code>.FishBattleResult battle_result = 4;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearBattleResult() {
-
+        
         battleResult_ = 0;
         onChanged();
         return this;
@@ -791,6 +722,7 @@ public final class FishBattleEndReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:FishBattleEndReq)
     }
@@ -834,7 +766,7 @@ public final class FishBattleEndReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FishBattleEndReq_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FishBattleEndReq_fieldAccessorTable;
 

@@ -98,8 +98,6 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
      */
     boolean getAEIMHLOIOKN();
 
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -108,7 +106,6 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
      * <code>bool is_content_closed = 13;</code>
      * @return The isContentClosed.
      */
->>>>>>> origin/6.5.0
     boolean getIsContentClosed();
 
     /**
@@ -261,7 +258,7 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.PlantFlowerActivityDetailInfoOuterClass.internal_static_PlantFlowerActivityDetailInfo_HNIOAODPNELEntry_descriptor,
+                  emu.grasscutter.net.proto.PlantFlowerActivityDetailInfoOuterClass.internal_static_PlantFlowerActivityDetailInfo_HNIOAODPNELEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -288,7 +285,7 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
     @java.lang.Override
     public boolean containsHNIOAODPNEL(
         int key) {
-
+      
       return internalGetHNIOAODPNEL().getMap().containsKey(key);
     }
     /**
@@ -315,7 +312,7 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
     public int getHNIOAODPNELOrDefault(
         int key,
         int defaultValue) {
-
+      
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetHNIOAODPNEL().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -327,7 +324,7 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
 
     public int getHNIOAODPNELOrThrow(
         int key) {
-
+      
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetHNIOAODPNEL().getMap();
       if (!map.containsKey(key)) {
@@ -342,7 +339,7 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.PlantFlowerActivityDetailInfoOuterClass.internal_static_PlantFlowerActivityDetailInfo_HDBFNEKCNLJEntry_descriptor,
+                  emu.grasscutter.net.proto.PlantFlowerActivityDetailInfoOuterClass.internal_static_PlantFlowerActivityDetailInfo_HDBFNEKCNLJEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -369,7 +366,7 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
     @java.lang.Override
     public boolean containsHDBFNEKCNLJ(
         int key) {
-
+      
       return internalGetHDBFNEKCNLJ().getMap().containsKey(key);
     }
     /**
@@ -396,7 +393,7 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
     public int getHDBFNEKCNLJOrDefault(
         int key,
         int defaultValue) {
-
+      
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetHDBFNEKCNLJ().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -408,7 +405,7 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
 
     public int getHDBFNEKCNLJOrThrow(
         int key) {
-
+      
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetHDBFNEKCNLJ().getMap();
       if (!map.containsKey(key)) {
@@ -441,9 +438,6 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
 
     public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 13;
     private boolean isContentClosed_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -452,7 +446,6 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
      * <code>bool is_content_closed = 13;</code>
      * @return The isContentClosed.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsContentClosed() {
       return isContentClosed_;
@@ -939,7 +932,7 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
       @java.lang.Override
       public boolean containsHNIOAODPNEL(
           int key) {
-
+        
         return internalGetHNIOAODPNEL().getMap().containsKey(key);
       }
       /**
@@ -966,7 +959,7 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
       public int getHNIOAODPNELOrDefault(
           int key,
           int defaultValue) {
-
+        
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetHNIOAODPNEL().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -978,7 +971,7 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
 
       public int getHNIOAODPNELOrThrow(
           int key) {
-
+        
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetHNIOAODPNEL().getMap();
         if (!map.containsKey(key)) {
@@ -998,7 +991,7 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
 
       public Builder removeHNIOAODPNEL(
           int key) {
-
+        
         internalGetMutableHNIOAODPNEL().getMutableMap()
             .remove(key);
         return this;
@@ -1017,7 +1010,8 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
       public Builder putHNIOAODPNEL(
           int key,
           int value) {
-
+        
+        
         internalGetMutableHNIOAODPNEL().getMutableMap()
             .put(key, value);
         return this;
@@ -1066,7 +1060,7 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
       @java.lang.Override
       public boolean containsHDBFNEKCNLJ(
           int key) {
-
+        
         return internalGetHDBFNEKCNLJ().getMap().containsKey(key);
       }
       /**
@@ -1093,7 +1087,7 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
       public int getHDBFNEKCNLJOrDefault(
           int key,
           int defaultValue) {
-
+        
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetHDBFNEKCNLJ().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -1105,7 +1099,7 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
 
       public int getHDBFNEKCNLJOrThrow(
           int key) {
-
+        
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetHDBFNEKCNLJ().getMap();
         if (!map.containsKey(key)) {
@@ -1125,7 +1119,7 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
 
       public Builder removeHDBFNEKCNLJ(
           int key) {
-
+        
         internalGetMutableHDBFNEKCNLJ().getMutableMap()
             .remove(key);
         return this;
@@ -1144,7 +1138,8 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
       public Builder putHDBFNEKCNLJ(
           int key,
           int value) {
-
+        
+        
         internalGetMutableHDBFNEKCNLJ().getMutableMap()
             .put(key, value);
         return this;
@@ -1175,7 +1170,7 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setJPHIEIBHOLI(int value) {
-
+        
         jPHIEIBHOLI_ = value;
         onChanged();
         return this;
@@ -1185,7 +1180,7 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearJPHIEIBHOLI() {
-
+        
         jPHIEIBHOLI_ = 0;
         onChanged();
         return this;
@@ -1206,7 +1201,7 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAEIMHLOIOKN(boolean value) {
-
+        
         aEIMHLOIOKN_ = value;
         onChanged();
         return this;
@@ -1216,16 +1211,13 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAEIMHLOIOKN() {
-
+        
         aEIMHLOIOKN_ = false;
         onChanged();
         return this;
       }
 
       private boolean isContentClosed_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1234,14 +1226,10 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
        * <code>bool is_content_closed = 13;</code>
        * @return The isContentClosed.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsContentClosed() {
         return isContentClosed_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1251,16 +1239,12 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
        * @param value The isContentClosed to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setIsContentClosed(boolean value) {
-
+        
         isContentClosed_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1269,9 +1253,8 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
        * <code>bool is_content_closed = 13;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearIsContentClosed() {
-
+        
         isContentClosed_ = false;
         onChanged();
         return this;
@@ -1292,7 +1275,7 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBMLIGIIELDE(int value) {
-
+        
         bMLIGIIELDE_ = value;
         onChanged();
         return this;
@@ -1302,7 +1285,7 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBMLIGIIELDE() {
-
+        
         bMLIGIIELDE_ = 0;
         onChanged();
         return this;
@@ -1318,6 +1301,7 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:PlantFlowerActivityDetailInfo)
     }
@@ -1361,17 +1345,17 @@ public final class PlantFlowerActivityDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlantFlowerActivityDetailInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlantFlowerActivityDetailInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlantFlowerActivityDetailInfo_HNIOAODPNELEntry_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlantFlowerActivityDetailInfo_HNIOAODPNELEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlantFlowerActivityDetailInfo_HDBFNEKCNLJEntry_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlantFlowerActivityDetailInfo_HDBFNEKCNLJEntry_fieldAccessorTable;
 

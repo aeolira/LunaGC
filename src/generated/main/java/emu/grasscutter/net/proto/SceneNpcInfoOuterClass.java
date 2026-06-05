@@ -18,14 +18,6 @@ public final class SceneNpcInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:SceneNpcInfo)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    int getRoomId();
-
-    int getNpcId();
-
-    int getParentQuestId();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -64,7 +56,6 @@ public final class SceneNpcInfoOuterClass {
      * <code>uint32 block_id = 4;</code>
      * @return The blockId.
      */
->>>>>>> origin/6.5.0
     int getBlockId();
   }
   /**
@@ -166,9 +157,6 @@ public final class SceneNpcInfoOuterClass {
 
     public static final int ROOM_ID_FIELD_NUMBER = 2;
     private int roomId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -177,7 +165,6 @@ public final class SceneNpcInfoOuterClass {
      * <code>uint32 room_id = 2;</code>
      * @return The roomId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRoomId() {
       return roomId_;
@@ -185,9 +172,6 @@ public final class SceneNpcInfoOuterClass {
 
     public static final int NPC_ID_FIELD_NUMBER = 1;
     private int npcId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -196,7 +180,6 @@ public final class SceneNpcInfoOuterClass {
      * <code>uint32 npc_id = 1;</code>
      * @return The npcId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getNpcId() {
       return npcId_;
@@ -204,9 +187,6 @@ public final class SceneNpcInfoOuterClass {
 
     public static final int PARENT_QUEST_ID_FIELD_NUMBER = 3;
     private int parentQuestId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -215,7 +195,6 @@ public final class SceneNpcInfoOuterClass {
      * <code>uint32 parent_quest_id = 3;</code>
      * @return The parentQuestId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getParentQuestId() {
       return parentQuestId_;
@@ -223,9 +202,6 @@ public final class SceneNpcInfoOuterClass {
 
     public static final int BLOCK_ID_FIELD_NUMBER = 4;
     private int blockId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -234,7 +210,6 @@ public final class SceneNpcInfoOuterClass {
      * <code>uint32 block_id = 4;</code>
      * @return The blockId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getBlockId() {
       return blockId_;
@@ -594,9 +569,6 @@ public final class SceneNpcInfoOuterClass {
       }
 
       private int roomId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -605,14 +577,10 @@ public final class SceneNpcInfoOuterClass {
        * <code>uint32 room_id = 2;</code>
        * @return The roomId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRoomId() {
         return roomId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -622,16 +590,12 @@ public final class SceneNpcInfoOuterClass {
        * @param value The roomId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setRoomId(int value) {
-
+        
         roomId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -640,18 +604,14 @@ public final class SceneNpcInfoOuterClass {
        * <code>uint32 room_id = 2;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearRoomId() {
-
+        
         roomId_ = 0;
         onChanged();
         return this;
       }
 
       private int npcId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -660,14 +620,10 @@ public final class SceneNpcInfoOuterClass {
        * <code>uint32 npc_id = 1;</code>
        * @return The npcId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getNpcId() {
         return npcId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -677,16 +633,12 @@ public final class SceneNpcInfoOuterClass {
        * @param value The npcId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setNpcId(int value) {
-
+        
         npcId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -695,18 +647,14 @@ public final class SceneNpcInfoOuterClass {
        * <code>uint32 npc_id = 1;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearNpcId() {
-
+        
         npcId_ = 0;
         onChanged();
         return this;
       }
 
       private int parentQuestId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -715,14 +663,10 @@ public final class SceneNpcInfoOuterClass {
        * <code>uint32 parent_quest_id = 3;</code>
        * @return The parentQuestId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getParentQuestId() {
         return parentQuestId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -732,16 +676,12 @@ public final class SceneNpcInfoOuterClass {
        * @param value The parentQuestId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setParentQuestId(int value) {
-
+        
         parentQuestId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -750,18 +690,14 @@ public final class SceneNpcInfoOuterClass {
        * <code>uint32 parent_quest_id = 3;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearParentQuestId() {
-
+        
         parentQuestId_ = 0;
         onChanged();
         return this;
       }
 
       private int blockId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -770,14 +706,10 @@ public final class SceneNpcInfoOuterClass {
        * <code>uint32 block_id = 4;</code>
        * @return The blockId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getBlockId() {
         return blockId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -787,16 +719,12 @@ public final class SceneNpcInfoOuterClass {
        * @param value The blockId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setBlockId(int value) {
-
+        
         blockId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -805,9 +733,8 @@ public final class SceneNpcInfoOuterClass {
        * <code>uint32 block_id = 4;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearBlockId() {
-
+        
         blockId_ = 0;
         onChanged();
         return this;
@@ -823,6 +750,7 @@ public final class SceneNpcInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:SceneNpcInfo)
     }
@@ -866,7 +794,7 @@ public final class SceneNpcInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SceneNpcInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SceneNpcInfo_fieldAccessorTable;
 

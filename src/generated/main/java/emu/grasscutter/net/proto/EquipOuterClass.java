@@ -18,20 +18,6 @@ public final class EquipOuterClass {
       // @@protoc_insertion_point(interface_extends:Equip)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    boolean getIsLocked();
-
-    boolean hasReliquary();
-
-    emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary getReliquary();
-
-    emu.grasscutter.net.proto.ReliquaryOuterClass.ReliquaryOrBuilder getReliquaryOrBuilder();
-
-    boolean hasWeapon();
-
-    emu.grasscutter.net.proto.WeaponOuterClass.Weapon getWeapon();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -94,7 +80,6 @@ public final class EquipOuterClass {
      *
      * <code>.Weapon weapon = 2;</code>
      */
->>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.WeaponOuterClass.WeaponOrBuilder getWeaponOrBuilder();
 
     public emu.grasscutter.net.proto.EquipOuterClass.Equip.DetailCase getDetailCase();
@@ -252,9 +237,6 @@ public final class EquipOuterClass {
 
     public static final int IS_LOCKED_FIELD_NUMBER = 3;
     private boolean isLocked_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -263,16 +245,12 @@ public final class EquipOuterClass {
      * <code>bool is_locked = 3;</code>
      * @return The isLocked.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsLocked() {
       return isLocked_;
     }
 
     public static final int RELIQUARY_FIELD_NUMBER = 1;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -281,14 +259,10 @@ public final class EquipOuterClass {
      * <code>.Reliquary reliquary = 1;</code>
      * @return Whether the reliquary field is set.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasReliquary() {
       return detailCase_ == 1;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -297,7 +271,6 @@ public final class EquipOuterClass {
      * <code>.Reliquary reliquary = 1;</code>
      * @return The reliquary.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary getReliquary() {
       if (detailCase_ == 1) {
@@ -305,9 +278,6 @@ public final class EquipOuterClass {
       }
       return emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary.getDefaultInstance();
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -315,7 +285,6 @@ public final class EquipOuterClass {
      *
      * <code>.Reliquary reliquary = 1;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ReliquaryOuterClass.ReliquaryOrBuilder getReliquaryOrBuilder() {
       if (detailCase_ == 1) {
@@ -325,9 +294,6 @@ public final class EquipOuterClass {
     }
 
     public static final int WEAPON_FIELD_NUMBER = 2;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -336,14 +302,10 @@ public final class EquipOuterClass {
      * <code>.Weapon weapon = 2;</code>
      * @return Whether the weapon field is set.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasWeapon() {
       return detailCase_ == 2;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -352,7 +314,6 @@ public final class EquipOuterClass {
      * <code>.Weapon weapon = 2;</code>
      * @return The weapon.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.WeaponOuterClass.Weapon getWeapon() {
       if (detailCase_ == 2) {
@@ -360,9 +321,6 @@ public final class EquipOuterClass {
       }
       return emu.grasscutter.net.proto.WeaponOuterClass.Weapon.getDefaultInstance();
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -370,7 +328,6 @@ public final class EquipOuterClass {
      *
      * <code>.Weapon weapon = 2;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.WeaponOuterClass.WeaponOrBuilder getWeaponOrBuilder() {
       if (detailCase_ == 2) {
@@ -765,10 +722,8 @@ public final class EquipOuterClass {
         return this;
       }
 
-      private boolean isLocked_ ;
-<<<<<<< HEAD
 
-=======
+      private boolean isLocked_ ;
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -777,14 +732,10 @@ public final class EquipOuterClass {
        * <code>bool is_locked = 3;</code>
        * @return The isLocked.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsLocked() {
         return isLocked_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -794,16 +745,12 @@ public final class EquipOuterClass {
        * @param value The isLocked to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setIsLocked(boolean value) {
-
+        
         isLocked_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -812,9 +759,8 @@ public final class EquipOuterClass {
        * <code>bool is_locked = 3;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearIsLocked() {
-
+        
         isLocked_ = false;
         onChanged();
         return this;
@@ -822,9 +768,6 @@ public final class EquipOuterClass {
 
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary, emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary.Builder, emu.grasscutter.net.proto.ReliquaryOuterClass.ReliquaryOrBuilder> reliquaryBuilder_;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -833,14 +776,10 @@ public final class EquipOuterClass {
        * <code>.Reliquary reliquary = 1;</code>
        * @return Whether the reliquary field is set.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean hasReliquary() {
         return detailCase_ == 1;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -849,7 +788,6 @@ public final class EquipOuterClass {
        * <code>.Reliquary reliquary = 1;</code>
        * @return The reliquary.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary getReliquary() {
         if (reliquaryBuilder_ == null) {
@@ -864,9 +802,6 @@ public final class EquipOuterClass {
           return emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary.getDefaultInstance();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -874,7 +809,6 @@ public final class EquipOuterClass {
        *
        * <code>.Reliquary reliquary = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setReliquary(emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary value) {
         if (reliquaryBuilder_ == null) {
           if (value == null) {
@@ -888,9 +822,6 @@ public final class EquipOuterClass {
         detailCase_ = 1;
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -898,7 +829,6 @@ public final class EquipOuterClass {
        *
        * <code>.Reliquary reliquary = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setReliquary(
           emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary.Builder builderForValue) {
         if (reliquaryBuilder_ == null) {
@@ -910,9 +840,6 @@ public final class EquipOuterClass {
         detailCase_ = 1;
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -920,7 +847,6 @@ public final class EquipOuterClass {
        *
        * <code>.Reliquary reliquary = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder mergeReliquary(emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary value) {
         if (reliquaryBuilder_ == null) {
           if (detailCase_ == 1 &&
@@ -940,9 +866,6 @@ public final class EquipOuterClass {
         detailCase_ = 1;
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -950,7 +873,6 @@ public final class EquipOuterClass {
        *
        * <code>.Reliquary reliquary = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder clearReliquary() {
         if (reliquaryBuilder_ == null) {
           if (detailCase_ == 1) {
@@ -967,13 +889,6 @@ public final class EquipOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-      public emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary.Builder getReliquaryBuilder() {
-        return getReliquaryFieldBuilder().getBuilder();
-      }
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -991,7 +906,6 @@ public final class EquipOuterClass {
        *
        * <code>.Reliquary reliquary = 1;</code>
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.ReliquaryOuterClass.ReliquaryOrBuilder getReliquaryOrBuilder() {
         if ((detailCase_ == 1) && (reliquaryBuilder_ != null)) {
@@ -1003,9 +917,6 @@ public final class EquipOuterClass {
           return emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary.getDefaultInstance();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1013,9 +924,8 @@ public final class EquipOuterClass {
        *
        * <code>.Reliquary reliquary = 1;</code>
        */
->>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary, emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary.Builder, emu.grasscutter.net.proto.ReliquaryOuterClass.ReliquaryOrBuilder>
+          emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary, emu.grasscutter.net.proto.ReliquaryOuterClass.Reliquary.Builder, emu.grasscutter.net.proto.ReliquaryOuterClass.ReliquaryOrBuilder> 
           getReliquaryFieldBuilder() {
         if (reliquaryBuilder_ == null) {
           if (!(detailCase_ == 1)) {
@@ -1035,9 +945,6 @@ public final class EquipOuterClass {
 
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.WeaponOuterClass.Weapon, emu.grasscutter.net.proto.WeaponOuterClass.Weapon.Builder, emu.grasscutter.net.proto.WeaponOuterClass.WeaponOrBuilder> weaponBuilder_;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1046,14 +953,10 @@ public final class EquipOuterClass {
        * <code>.Weapon weapon = 2;</code>
        * @return Whether the weapon field is set.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean hasWeapon() {
         return detailCase_ == 2;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1062,7 +965,6 @@ public final class EquipOuterClass {
        * <code>.Weapon weapon = 2;</code>
        * @return The weapon.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.WeaponOuterClass.Weapon getWeapon() {
         if (weaponBuilder_ == null) {
@@ -1077,9 +979,6 @@ public final class EquipOuterClass {
           return emu.grasscutter.net.proto.WeaponOuterClass.Weapon.getDefaultInstance();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1087,7 +986,6 @@ public final class EquipOuterClass {
        *
        * <code>.Weapon weapon = 2;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setWeapon(emu.grasscutter.net.proto.WeaponOuterClass.Weapon value) {
         if (weaponBuilder_ == null) {
           if (value == null) {
@@ -1101,9 +999,6 @@ public final class EquipOuterClass {
         detailCase_ = 2;
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1111,7 +1006,6 @@ public final class EquipOuterClass {
        *
        * <code>.Weapon weapon = 2;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setWeapon(
           emu.grasscutter.net.proto.WeaponOuterClass.Weapon.Builder builderForValue) {
         if (weaponBuilder_ == null) {
@@ -1123,9 +1017,6 @@ public final class EquipOuterClass {
         detailCase_ = 2;
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1133,7 +1024,6 @@ public final class EquipOuterClass {
        *
        * <code>.Weapon weapon = 2;</code>
        */
->>>>>>> origin/6.5.0
       public Builder mergeWeapon(emu.grasscutter.net.proto.WeaponOuterClass.Weapon value) {
         if (weaponBuilder_ == null) {
           if (detailCase_ == 2 &&
@@ -1153,9 +1043,6 @@ public final class EquipOuterClass {
         detailCase_ = 2;
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1163,7 +1050,6 @@ public final class EquipOuterClass {
        *
        * <code>.Weapon weapon = 2;</code>
        */
->>>>>>> origin/6.5.0
       public Builder clearWeapon() {
         if (weaponBuilder_ == null) {
           if (detailCase_ == 2) {
@@ -1180,13 +1066,6 @@ public final class EquipOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-      public emu.grasscutter.net.proto.WeaponOuterClass.Weapon.Builder getWeaponBuilder() {
-        return getWeaponFieldBuilder().getBuilder();
-      }
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1204,7 +1083,6 @@ public final class EquipOuterClass {
        *
        * <code>.Weapon weapon = 2;</code>
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.WeaponOuterClass.WeaponOrBuilder getWeaponOrBuilder() {
         if ((detailCase_ == 2) && (weaponBuilder_ != null)) {
@@ -1216,9 +1094,6 @@ public final class EquipOuterClass {
           return emu.grasscutter.net.proto.WeaponOuterClass.Weapon.getDefaultInstance();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1226,9 +1101,8 @@ public final class EquipOuterClass {
        *
        * <code>.Weapon weapon = 2;</code>
        */
->>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.WeaponOuterClass.Weapon, emu.grasscutter.net.proto.WeaponOuterClass.Weapon.Builder, emu.grasscutter.net.proto.WeaponOuterClass.WeaponOrBuilder>
+          emu.grasscutter.net.proto.WeaponOuterClass.Weapon, emu.grasscutter.net.proto.WeaponOuterClass.Weapon.Builder, emu.grasscutter.net.proto.WeaponOuterClass.WeaponOrBuilder> 
           getWeaponFieldBuilder() {
         if (weaponBuilder_ == null) {
           if (!(detailCase_ == 2)) {
@@ -1256,6 +1130,7 @@ public final class EquipOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:Equip)
     }
@@ -1299,7 +1174,7 @@ public final class EquipOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Equip_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Equip_fieldAccessorTable;
 

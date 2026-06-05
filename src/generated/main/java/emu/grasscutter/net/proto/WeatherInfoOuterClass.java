@@ -18,8 +18,6 @@ public final class WeatherInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:WeatherInfo)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -28,7 +26,6 @@ public final class WeatherInfoOuterClass {
      * <code>uint32 weather_area_id = 1;</code>
      * @return The weatherAreaId.
      */
->>>>>>> origin/6.5.0
     int getWeatherAreaId();
   }
   /**
@@ -115,9 +112,6 @@ public final class WeatherInfoOuterClass {
 
     public static final int WEATHER_AREA_ID_FIELD_NUMBER = 1;
     private int weatherAreaId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -126,7 +120,6 @@ public final class WeatherInfoOuterClass {
      * <code>uint32 weather_area_id = 1;</code>
      * @return The weatherAreaId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getWeatherAreaId() {
       return weatherAreaId_;
@@ -435,9 +428,6 @@ public final class WeatherInfoOuterClass {
       }
 
       private int weatherAreaId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -446,14 +436,10 @@ public final class WeatherInfoOuterClass {
        * <code>uint32 weather_area_id = 1;</code>
        * @return The weatherAreaId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getWeatherAreaId() {
         return weatherAreaId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -463,16 +449,12 @@ public final class WeatherInfoOuterClass {
        * @param value The weatherAreaId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setWeatherAreaId(int value) {
-
+        
         weatherAreaId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -481,9 +463,8 @@ public final class WeatherInfoOuterClass {
        * <code>uint32 weather_area_id = 1;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearWeatherAreaId() {
-
+        
         weatherAreaId_ = 0;
         onChanged();
         return this;
@@ -499,6 +480,7 @@ public final class WeatherInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:WeatherInfo)
     }
@@ -542,7 +524,7 @@ public final class WeatherInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WeatherInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WeatherInfo_fieldAccessorTable;
 

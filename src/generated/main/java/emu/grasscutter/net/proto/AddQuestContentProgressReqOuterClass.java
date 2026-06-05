@@ -18,12 +18,6 @@ public final class AddQuestContentProgressReqOuterClass {
       // @@protoc_insertion_point(interface_extends:AddQuestContentProgressReq)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    int getContentType();
-
-    int getAddProgress();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          // offset: 32 DMHOICCBMPC
@@ -52,7 +46,6 @@ public final class AddQuestContentProgressReqOuterClass {
      * <code>uint32 param = 5;</code>
      * @return The param.
      */
->>>>>>> origin/6.5.0
     int getParam();
   }
   /**
@@ -149,9 +142,6 @@ public final class AddQuestContentProgressReqOuterClass {
 
     public static final int CONTENT_TYPE_FIELD_NUMBER = 2;
     private int contentType_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          // offset: 32 DMHOICCBMPC
@@ -160,7 +150,6 @@ public final class AddQuestContentProgressReqOuterClass {
      * <code>uint32 content_type = 2;</code>
      * @return The contentType.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getContentType() {
       return contentType_;
@@ -168,9 +157,6 @@ public final class AddQuestContentProgressReqOuterClass {
 
     public static final int ADD_PROGRESS_FIELD_NUMBER = 3;
     private int addProgress_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          // offset: 36 CFFMEHBDMNL
@@ -179,7 +165,6 @@ public final class AddQuestContentProgressReqOuterClass {
      * <code>uint32 add_progress = 3;</code>
      * @return The addProgress.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getAddProgress() {
       return addProgress_;
@@ -187,9 +172,6 @@ public final class AddQuestContentProgressReqOuterClass {
 
     public static final int PARAM_FIELD_NUMBER = 5;
     private int param_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          // offset: 40
@@ -198,7 +180,6 @@ public final class AddQuestContentProgressReqOuterClass {
      * <code>uint32 param = 5;</code>
      * @return The param.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getParam() {
       return param_;
@@ -541,9 +522,6 @@ public final class AddQuestContentProgressReqOuterClass {
       }
 
       private int contentType_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          // offset: 32 DMHOICCBMPC
@@ -552,14 +530,10 @@ public final class AddQuestContentProgressReqOuterClass {
        * <code>uint32 content_type = 2;</code>
        * @return The contentType.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getContentType() {
         return contentType_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          // offset: 32 DMHOICCBMPC
@@ -569,16 +543,12 @@ public final class AddQuestContentProgressReqOuterClass {
        * @param value The contentType to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setContentType(int value) {
-
+        
         contentType_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          // offset: 32 DMHOICCBMPC
@@ -587,18 +557,14 @@ public final class AddQuestContentProgressReqOuterClass {
        * <code>uint32 content_type = 2;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearContentType() {
-
+        
         contentType_ = 0;
         onChanged();
         return this;
       }
 
       private int addProgress_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          // offset: 36 CFFMEHBDMNL
@@ -607,14 +573,10 @@ public final class AddQuestContentProgressReqOuterClass {
        * <code>uint32 add_progress = 3;</code>
        * @return The addProgress.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getAddProgress() {
         return addProgress_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          // offset: 36 CFFMEHBDMNL
@@ -624,16 +586,12 @@ public final class AddQuestContentProgressReqOuterClass {
        * @param value The addProgress to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setAddProgress(int value) {
-
+        
         addProgress_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          // offset: 36 CFFMEHBDMNL
@@ -642,18 +600,14 @@ public final class AddQuestContentProgressReqOuterClass {
        * <code>uint32 add_progress = 3;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearAddProgress() {
-
+        
         addProgress_ = 0;
         onChanged();
         return this;
       }
 
       private int param_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          // offset: 40
@@ -662,14 +616,10 @@ public final class AddQuestContentProgressReqOuterClass {
        * <code>uint32 param = 5;</code>
        * @return The param.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getParam() {
         return param_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          // offset: 40
@@ -679,16 +629,12 @@ public final class AddQuestContentProgressReqOuterClass {
        * @param value The param to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setParam(int value) {
-
+        
         param_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          // offset: 40
@@ -697,9 +643,8 @@ public final class AddQuestContentProgressReqOuterClass {
        * <code>uint32 param = 5;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearParam() {
-
+        
         param_ = 0;
         onChanged();
         return this;
@@ -715,6 +660,7 @@ public final class AddQuestContentProgressReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:AddQuestContentProgressReq)
     }
@@ -758,7 +704,7 @@ public final class AddQuestContentProgressReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AddQuestContentProgressReq_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AddQuestContentProgressReq_fieldAccessorTable;
 

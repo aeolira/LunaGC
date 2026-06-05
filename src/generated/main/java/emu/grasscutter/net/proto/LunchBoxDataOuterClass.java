@@ -18,10 +18,6 @@ public final class LunchBoxDataOuterClass {
       // @@protoc_insertion_point(interface_extends:LunchBoxData)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    int getSlotMaterialMapCount();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -37,7 +33,6 @@ public final class LunchBoxDataOuterClass {
      *
      * <code>map&lt;uint32, uint32&gt; slot_material_map = 13;</code>
      */
->>>>>>> origin/6.5.0
     boolean containsSlotMaterialMap(
         int key);
     /**
@@ -46,11 +41,6 @@ public final class LunchBoxDataOuterClass {
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getSlotMaterialMap();
-<<<<<<< HEAD
-
-    java.util.Map<java.lang.Integer, java.lang.Integer>
-    getSlotMaterialMapMap();
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -67,13 +57,10 @@ public final class LunchBoxDataOuterClass {
      *
      * <code>map&lt;uint32, uint32&gt; slot_material_map = 13;</code>
      */
->>>>>>> origin/6.5.0
 
     int getSlotMaterialMapOrDefault(
         int key,
         int defaultValue);
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -81,7 +68,6 @@ public final class LunchBoxDataOuterClass {
      *
      * <code>map&lt;uint32, uint32&gt; slot_material_map = 13;</code>
      */
->>>>>>> origin/6.5.0
 
     int getSlotMaterialMapOrThrow(
         int key);
@@ -195,7 +181,7 @@ public final class LunchBoxDataOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.LunchBoxDataOuterClass.internal_static_LunchBoxData_SlotMaterialMapEntry_descriptor,
+                  emu.grasscutter.net.proto.LunchBoxDataOuterClass.internal_static_LunchBoxData_SlotMaterialMapEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -215,8 +201,6 @@ public final class LunchBoxDataOuterClass {
     public int getSlotMaterialMapCount() {
       return internalGetSlotMaterialMap().getMap().size();
     }
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -224,12 +208,11 @@ public final class LunchBoxDataOuterClass {
      *
      * <code>map&lt;uint32, uint32&gt; slot_material_map = 13;</code>
      */
->>>>>>> origin/6.5.0
 
     @java.lang.Override
     public boolean containsSlotMaterialMap(
         int key) {
-
+      
       return internalGetSlotMaterialMap().getMap().containsKey(key);
     }
     /**
@@ -240,9 +223,6 @@ public final class LunchBoxDataOuterClass {
     public java.util.Map<java.lang.Integer, java.lang.Integer> getSlotMaterialMap() {
       return getSlotMaterialMapMap();
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -250,15 +230,11 @@ public final class LunchBoxDataOuterClass {
      *
      * <code>map&lt;uint32, uint32&gt; slot_material_map = 13;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
 
     public java.util.Map<java.lang.Integer, java.lang.Integer> getSlotMaterialMapMap() {
       return internalGetSlotMaterialMap().getMap();
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -266,20 +242,16 @@ public final class LunchBoxDataOuterClass {
      *
      * <code>map&lt;uint32, uint32&gt; slot_material_map = 13;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
 
     public int getSlotMaterialMapOrDefault(
         int key,
         int defaultValue) {
-
+      
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetSlotMaterialMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -287,12 +259,11 @@ public final class LunchBoxDataOuterClass {
      *
      * <code>map&lt;uint32, uint32&gt; slot_material_map = 13;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
 
     public int getSlotMaterialMapOrThrow(
         int key) {
-
+      
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetSlotMaterialMap().getMap();
       if (!map.containsKey(key)) {
@@ -663,8 +634,6 @@ public final class LunchBoxDataOuterClass {
       public int getSlotMaterialMapCount() {
         return internalGetSlotMaterialMap().getMap().size();
       }
-<<<<<<< HEAD
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -672,12 +641,11 @@ public final class LunchBoxDataOuterClass {
        *
        * <code>map&lt;uint32, uint32&gt; slot_material_map = 13;</code>
        */
->>>>>>> origin/6.5.0
 
       @java.lang.Override
       public boolean containsSlotMaterialMap(
           int key) {
-
+        
         return internalGetSlotMaterialMap().getMap().containsKey(key);
       }
       /**
@@ -688,9 +656,6 @@ public final class LunchBoxDataOuterClass {
       public java.util.Map<java.lang.Integer, java.lang.Integer> getSlotMaterialMap() {
         return getSlotMaterialMapMap();
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -698,15 +663,11 @@ public final class LunchBoxDataOuterClass {
        *
        * <code>map&lt;uint32, uint32&gt; slot_material_map = 13;</code>
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
 
       public java.util.Map<java.lang.Integer, java.lang.Integer> getSlotMaterialMapMap() {
         return internalGetSlotMaterialMap().getMap();
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -714,20 +675,16 @@ public final class LunchBoxDataOuterClass {
        *
        * <code>map&lt;uint32, uint32&gt; slot_material_map = 13;</code>
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
 
       public int getSlotMaterialMapOrDefault(
           int key,
           int defaultValue) {
-
+        
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetSlotMaterialMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -735,12 +692,11 @@ public final class LunchBoxDataOuterClass {
        *
        * <code>map&lt;uint32, uint32&gt; slot_material_map = 13;</code>
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
 
       public int getSlotMaterialMapOrThrow(
           int key) {
-
+        
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetSlotMaterialMap().getMap();
         if (!map.containsKey(key)) {
@@ -754,8 +710,6 @@ public final class LunchBoxDataOuterClass {
             .clear();
         return this;
       }
-<<<<<<< HEAD
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -763,11 +717,10 @@ public final class LunchBoxDataOuterClass {
        *
        * <code>map&lt;uint32, uint32&gt; slot_material_map = 13;</code>
        */
->>>>>>> origin/6.5.0
 
       public Builder removeSlotMaterialMap(
           int key) {
-
+        
         internalGetMutableSlotMaterialMap().getMutableMap()
             .remove(key);
         return this;
@@ -780,9 +733,6 @@ public final class LunchBoxDataOuterClass {
       getMutableSlotMaterialMap() {
         return internalGetMutableSlotMaterialMap().getMutableMap();
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -790,17 +740,15 @@ public final class LunchBoxDataOuterClass {
        *
        * <code>map&lt;uint32, uint32&gt; slot_material_map = 13;</code>
        */
->>>>>>> origin/6.5.0
       public Builder putSlotMaterialMap(
           int key,
           int value) {
-
+        
+        
         internalGetMutableSlotMaterialMap().getMutableMap()
             .put(key, value);
         return this;
       }
-<<<<<<< HEAD
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -808,7 +756,6 @@ public final class LunchBoxDataOuterClass {
        *
        * <code>map&lt;uint32, uint32&gt; slot_material_map = 13;</code>
        */
->>>>>>> origin/6.5.0
 
       public Builder putAllSlotMaterialMap(
           java.util.Map<java.lang.Integer, java.lang.Integer> values) {
@@ -827,6 +774,7 @@ public final class LunchBoxDataOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:LunchBoxData)
     }
@@ -870,12 +818,12 @@ public final class LunchBoxDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_LunchBoxData_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_LunchBoxData_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_LunchBoxData_SlotMaterialMapEntry_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_LunchBoxData_SlotMaterialMapEntry_fieldAccessorTable;
 

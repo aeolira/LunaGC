@@ -86,17 +86,17 @@ public final class ForgeStartReqOuterClass {
             case 0:
               done = true;
               break;
-            case 24: {
+            case 8: {
 
               forgeId_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 40: {
 
               avatarId_ = input.readUInt32();
               break;
             }
-            case 104: {
+            case 64: {
 
               forgeCount_ = input.readUInt32();
               break;
@@ -133,7 +133,7 @@ public final class ForgeStartReqOuterClass {
               emu.grasscutter.net.proto.ForgeStartReqOuterClass.ForgeStartReq.class, emu.grasscutter.net.proto.ForgeStartReqOuterClass.ForgeStartReq.Builder.class);
     }
 
-    public static final int AVATAR_ID_FIELD_NUMBER = 12;
+    public static final int AVATAR_ID_FIELD_NUMBER = 5;
     private int avatarId_;
     /**
      * <code>uint32 avatar_id = 5;</code>
@@ -144,7 +144,7 @@ public final class ForgeStartReqOuterClass {
       return avatarId_;
     }
 
-    public static final int FORGE_COUNT_FIELD_NUMBER = 13;
+    public static final int FORGE_COUNT_FIELD_NUMBER = 8;
     private int forgeCount_;
     /**
      * <code>uint32 forge_count = 8;</code>
@@ -155,7 +155,7 @@ public final class ForgeStartReqOuterClass {
       return forgeCount_;
     }
 
-    public static final int FORGE_ID_FIELD_NUMBER = 3;
+    public static final int FORGE_ID_FIELD_NUMBER = 1;
     private int forgeId_;
     /**
      * <code>uint32 forge_id = 1;</code>
@@ -181,13 +181,13 @@ public final class ForgeStartReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (forgeId_ != 0) {
-        output.writeUInt32(3, forgeId_);
+        output.writeUInt32(1, forgeId_);
       }
       if (avatarId_ != 0) {
-        output.writeUInt32(12, avatarId_);
+        output.writeUInt32(5, avatarId_);
       }
       if (forgeCount_ != 0) {
-        output.writeUInt32(13, forgeCount_);
+        output.writeUInt32(8, forgeCount_);
       }
       unknownFields.writeTo(output);
     }
@@ -200,15 +200,15 @@ public final class ForgeStartReqOuterClass {
       size = 0;
       if (forgeId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(3, forgeId_);
+          .computeUInt32Size(1, forgeId_);
       }
       if (avatarId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, avatarId_);
+          .computeUInt32Size(5, avatarId_);
       }
       if (forgeCount_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, forgeCount_);
+          .computeUInt32Size(8, forgeCount_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

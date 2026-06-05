@@ -21,7 +21,7 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
     /**
      * <code>repeated .PlayTeamEntityInfo DCBANMCKCMP = 3;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfo>
+    java.util.List<emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfo> 
         getDCBANMCKCMPList();
     /**
      * <code>repeated .PlayTeamEntityInfo DCBANMCKCMP = 3;</code>
@@ -34,7 +34,7 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
     /**
      * <code>repeated .PlayTeamEntityInfo DCBANMCKCMP = 3;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfoOrBuilder>
+    java.util.List<? extends emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfoOrBuilder> 
         getDCBANMCKCMPOrBuilderList();
     /**
      * <code>repeated .PlayTeamEntityInfo DCBANMCKCMP = 3;</code>
@@ -42,8 +42,6 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
     emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfoOrBuilder getDCBANMCKCMPOrBuilder(
         int index);
 
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -52,7 +50,6 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
      * <code>uint32 scene_id = 11;</code>
      * @return The sceneId.
      */
->>>>>>> origin/6.5.0
     int getSceneId();
   }
   /**
@@ -106,18 +103,18 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
-
-              sceneId_ = input.readUInt32();
-              break;
-            }
-            case 82: {
+            case 26: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 dCBANMCKCMP_ = new java.util.ArrayList<emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfo>();
                 mutable_bitField0_ |= 0x00000001;
               }
               dCBANMCKCMP_.add(
                   input.readMessage(emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfo.parser(), extensionRegistry));
+              break;
+            }
+            case 88: {
+
+              sceneId_ = input.readUInt32();
               break;
             }
             default: {
@@ -155,7 +152,7 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
               emu.grasscutter.net.proto.SyncScenePlayTeamEntityNotifyOuterClass.SyncScenePlayTeamEntityNotify.class, emu.grasscutter.net.proto.SyncScenePlayTeamEntityNotifyOuterClass.SyncScenePlayTeamEntityNotify.Builder.class);
     }
 
-    public static final int DCBANMCKCMP_FIELD_NUMBER = 10;
+    public static final int DCBANMCKCMP_FIELD_NUMBER = 3;
     private java.util.List<emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfo> dCBANMCKCMP_;
     /**
      * <code>repeated .PlayTeamEntityInfo DCBANMCKCMP = 3;</code>
@@ -168,7 +165,7 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
      * <code>repeated .PlayTeamEntityInfo DCBANMCKCMP = 3;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfoOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfoOrBuilder> 
         getDCBANMCKCMPOrBuilderList() {
       return dCBANMCKCMP_;
     }
@@ -195,11 +192,8 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
       return dCBANMCKCMP_.get(index);
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 6;
+    public static final int SCENE_ID_FIELD_NUMBER = 11;
     private int sceneId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -208,7 +202,6 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
      * <code>uint32 scene_id = 11;</code>
      * @return The sceneId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getSceneId() {
       return sceneId_;
@@ -229,10 +222,10 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < dCBANMCKCMP_.size(); i++) {
-        output.writeMessage(10, dCBANMCKCMP_.get(i));
+        output.writeMessage(3, dCBANMCKCMP_.get(i));
       }
       if (sceneId_ != 0) {
-        output.writeUInt32(6, sceneId_);
+        output.writeUInt32(11, sceneId_);
       }
       unknownFields.writeTo(output);
     }
@@ -245,11 +238,11 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
       size = 0;
       for (int i = 0; i < dCBANMCKCMP_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(10, dCBANMCKCMP_.get(i));
+          .computeMessageSize(3, dCBANMCKCMP_.get(i));
       }
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(6, sceneId_);
+          .computeUInt32Size(11, sceneId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -536,7 +529,7 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
               dCBANMCKCMPBuilder_ = null;
               dCBANMCKCMP_ = other.dCBANMCKCMP_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              dCBANMCKCMPBuilder_ =
+              dCBANMCKCMPBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getDCBANMCKCMPFieldBuilder() : null;
             } else {
@@ -772,7 +765,7 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
       /**
        * <code>repeated .PlayTeamEntityInfo DCBANMCKCMP = 3;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfoOrBuilder>
+      public java.util.List<? extends emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfoOrBuilder> 
            getDCBANMCKCMPOrBuilderList() {
         if (dCBANMCKCMPBuilder_ != null) {
           return dCBANMCKCMPBuilder_.getMessageOrBuilderList();
@@ -798,12 +791,12 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
       /**
        * <code>repeated .PlayTeamEntityInfo DCBANMCKCMP = 3;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfo.Builder>
+      public java.util.List<emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfo.Builder> 
            getDCBANMCKCMPBuilderList() {
         return getDCBANMCKCMPFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfo, emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfo.Builder, emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfoOrBuilder>
+          emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfo, emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfo.Builder, emu.grasscutter.net.proto.PlayTeamEntityInfoOuterClass.PlayTeamEntityInfoOrBuilder> 
           getDCBANMCKCMPFieldBuilder() {
         if (dCBANMCKCMPBuilder_ == null) {
           dCBANMCKCMPBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -818,9 +811,6 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
       }
 
       private int sceneId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -829,14 +819,10 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
        * <code>uint32 scene_id = 11;</code>
        * @return The sceneId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getSceneId() {
         return sceneId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -846,16 +832,12 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
        * @param value The sceneId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setSceneId(int value) {
-
+        
         sceneId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -864,9 +846,8 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
        * <code>uint32 scene_id = 11;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearSceneId() {
-
+        
         sceneId_ = 0;
         onChanged();
         return this;
@@ -882,6 +863,7 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:SyncScenePlayTeamEntityNotify)
     }
@@ -925,7 +907,7 @@ public final class SyncScenePlayTeamEntityNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SyncScenePlayTeamEntityNotify_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SyncScenePlayTeamEntityNotify_fieldAccessorTable;
 

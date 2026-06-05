@@ -104,7 +104,7 @@ public final class ReliquaryDecomposeReqOuterClass {
               configId_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 64: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 guidList_ = newLongList();
                 mutable_bitField0_ |= 0x00000001;
@@ -112,7 +112,7 @@ public final class ReliquaryDecomposeReqOuterClass {
               guidList_.addLong(input.readUInt64());
               break;
             }
-            case 90: {
+            case 66: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -125,7 +125,7 @@ public final class ReliquaryDecomposeReqOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 104: {
+            case 120: {
 
               targetCount_ = input.readUInt32();
               break;
@@ -165,7 +165,7 @@ public final class ReliquaryDecomposeReqOuterClass {
               emu.grasscutter.net.proto.ReliquaryDecomposeReqOuterClass.ReliquaryDecomposeReq.class, emu.grasscutter.net.proto.ReliquaryDecomposeReqOuterClass.ReliquaryDecomposeReq.Builder.class);
     }
 
-    public static final int TARGET_COUNT_FIELD_NUMBER = 13;
+    public static final int TARGET_COUNT_FIELD_NUMBER = 15;
     private int targetCount_;
     /**
      * <code>uint32 target_count = 15;</code>
@@ -187,7 +187,7 @@ public final class ReliquaryDecomposeReqOuterClass {
       return configId_;
     }
 
-    public static final int GUID_LIST_FIELD_NUMBER = 11;
+    public static final int GUID_LIST_FIELD_NUMBER = 8;
     private com.google.protobuf.Internal.LongList guidList_;
     /**
      * <code>repeated uint64 guid_list = 8;</code>
@@ -234,14 +234,14 @@ public final class ReliquaryDecomposeReqOuterClass {
         output.writeUInt32(1, configId_);
       }
       if (getGuidListList().size() > 0) {
-        output.writeUInt32NoTag(90);
+        output.writeUInt32NoTag(66);
         output.writeUInt32NoTag(guidListMemoizedSerializedSize);
       }
       for (int i = 0; i < guidList_.size(); i++) {
         output.writeUInt64NoTag(guidList_.getLong(i));
       }
       if (targetCount_ != 0) {
-        output.writeUInt32(13, targetCount_);
+        output.writeUInt32(15, targetCount_);
       }
       unknownFields.writeTo(output);
     }
@@ -272,7 +272,7 @@ public final class ReliquaryDecomposeReqOuterClass {
       }
       if (targetCount_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, targetCount_);
+          .computeUInt32Size(15, targetCount_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;

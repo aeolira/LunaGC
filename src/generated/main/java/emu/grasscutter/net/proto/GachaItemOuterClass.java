@@ -18,42 +18,6 @@ public final class GachaItemOuterClass {
       // @@protoc_insertion_point(interface_extends:GachaItem)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>
-        getTokenItemListList();
-
-    emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getTokenItemList(int index);
-
-    int getTokenItemListCount();
-
-    java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
-        getTokenItemListOrBuilderList();
-
-    emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getTokenItemListOrBuilder(
-        int index);
-
-    boolean hasGachaItem();
-
-    emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getGachaItem();
-
-    emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getGachaItemOrBuilder();
-
-    java.util.List<emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem>
-        getTransferItemsList();
-
-    emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem getTransferItems(int index);
-
-    int getTransferItemsCount();
-
-    java.util.List<? extends emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItemOrBuilder>
-        getTransferItemsOrBuilderList();
-
-    emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItemOrBuilder getTransferItemsOrBuilder(
-        int index);
-
-    boolean getIsGachaItemNew();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -187,7 +151,6 @@ public final class GachaItemOuterClass {
      * <code>bool is_flash_card = 11;</code>
      * @return The isFlashCard.
      */
->>>>>>> origin/6.5.0
     boolean getIsFlashCard();
   }
   /**
@@ -317,11 +280,8 @@ public final class GachaItemOuterClass {
               emu.grasscutter.net.proto.GachaItemOuterClass.GachaItem.class, emu.grasscutter.net.proto.GachaItemOuterClass.GachaItem.Builder.class);
     }
 
-    public static final int TOKEN_ITEM_LIST_FIELD_NUMBER = 2;
+    public static final int TOKEN_ITEM_LIST_FIELD_NUMBER = 14;
     private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> tokenItemList_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -329,14 +289,10 @@ public final class GachaItemOuterClass {
      *
      * <code>repeated .ItemParam token_item_list = 14;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> getTokenItemListList() {
       return tokenItemList_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -344,15 +300,11 @@ public final class GachaItemOuterClass {
      *
      * <code>repeated .ItemParam token_item_list = 14;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
         getTokenItemListOrBuilderList() {
       return tokenItemList_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -360,14 +312,10 @@ public final class GachaItemOuterClass {
      *
      * <code>repeated .ItemParam token_item_list = 14;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getTokenItemListCount() {
       return tokenItemList_.size();
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -375,14 +323,10 @@ public final class GachaItemOuterClass {
      *
      * <code>repeated .ItemParam token_item_list = 14;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getTokenItemList(int index) {
       return tokenItemList_.get(index);
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -390,7 +334,6 @@ public final class GachaItemOuterClass {
      *
      * <code>repeated .ItemParam token_item_list = 14;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getTokenItemListOrBuilder(
         int index) {
@@ -399,9 +342,6 @@ public final class GachaItemOuterClass {
 
     public static final int GACHA_ITEM_FIELD_NUMBER = 7;
     private emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam gachaItem_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -410,14 +350,10 @@ public final class GachaItemOuterClass {
      * <code>.ItemParam gacha_item = 7;</code>
      * @return Whether the gachaItem field is set.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasGachaItem() {
       return gachaItem_ != null;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -426,14 +362,10 @@ public final class GachaItemOuterClass {
      * <code>.ItemParam gacha_item = 7;</code>
      * @return The gachaItem.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getGachaItem() {
       return gachaItem_ == null ? emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.getDefaultInstance() : gachaItem_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -441,7 +373,6 @@ public final class GachaItemOuterClass {
      *
      * <code>.ItemParam gacha_item = 7;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getGachaItemOrBuilder() {
       return getGachaItem();
@@ -449,9 +380,6 @@ public final class GachaItemOuterClass {
 
     public static final int TRANSFER_ITEMS_FIELD_NUMBER = 9;
     private java.util.List<emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem> transferItems_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -459,14 +387,10 @@ public final class GachaItemOuterClass {
      *
      * <code>repeated .GachaTransferItem transfer_items = 9;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem> getTransferItemsList() {
       return transferItems_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -474,15 +398,11 @@ public final class GachaItemOuterClass {
      *
      * <code>repeated .GachaTransferItem transfer_items = 9;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItemOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItemOrBuilder> 
         getTransferItemsOrBuilderList() {
       return transferItems_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -490,14 +410,10 @@ public final class GachaItemOuterClass {
      *
      * <code>repeated .GachaTransferItem transfer_items = 9;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getTransferItemsCount() {
       return transferItems_.size();
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -505,14 +421,10 @@ public final class GachaItemOuterClass {
      *
      * <code>repeated .GachaTransferItem transfer_items = 9;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem getTransferItems(int index) {
       return transferItems_.get(index);
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -520,18 +432,14 @@ public final class GachaItemOuterClass {
      *
      * <code>repeated .GachaTransferItem transfer_items = 9;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItemOrBuilder getTransferItemsOrBuilder(
         int index) {
       return transferItems_.get(index);
     }
 
-    public static final int IS_GACHA_ITEM_NEW_FIELD_NUMBER = 11;
+    public static final int IS_GACHA_ITEM_NEW_FIELD_NUMBER = 8;
     private boolean isGachaItemNew_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5    
@@ -540,17 +448,11 @@ public final class GachaItemOuterClass {
      * <code>bool is_gacha_item_new = 8;</code>
      * @return The isGachaItemNew.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsGachaItemNew() {
       return isGachaItemNew_;
     }
 
-<<<<<<< HEAD
-    public static final int IS_FLASH_CARD_FIELD_NUMBER = 14;
-    private boolean isFlashCard_;
-
-=======
     public static final int IS_FLASH_CARD_FIELD_NUMBER = 11;
     private boolean isFlashCard_;
     /**
@@ -561,7 +463,6 @@ public final class GachaItemOuterClass {
      * <code>bool is_flash_card = 11;</code>
      * @return The isFlashCard.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsFlashCard() {
       return isFlashCard_;
@@ -585,20 +486,16 @@ public final class GachaItemOuterClass {
         output.writeMessage(7, getGachaItem());
       }
       if (isGachaItemNew_ != false) {
-        output.writeBool(11, isGachaItemNew_);
+        output.writeBool(8, isGachaItemNew_);
       }
       for (int i = 0; i < transferItems_.size(); i++) {
         output.writeMessage(9, transferItems_.get(i));
       }
       if (isFlashCard_ != false) {
-<<<<<<< HEAD
-        output.writeBool(14, isFlashCard_);
-=======
         output.writeBool(11, isFlashCard_);
->>>>>>> origin/6.5.0
       }
       for (int i = 0; i < tokenItemList_.size(); i++) {
-        output.writeMessage(2, tokenItemList_.get(i));
+        output.writeMessage(14, tokenItemList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -615,7 +512,7 @@ public final class GachaItemOuterClass {
       }
       if (isGachaItemNew_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, isGachaItemNew_);
+          .computeBoolSize(8, isGachaItemNew_);
       }
       for (int i = 0; i < transferItems_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -623,15 +520,11 @@ public final class GachaItemOuterClass {
       }
       if (isFlashCard_ != false) {
         size += com.google.protobuf.CodedOutputStream
-<<<<<<< HEAD
-          .computeBoolSize(14, isFlashCard_);
-=======
           .computeBoolSize(11, isFlashCard_);
->>>>>>> origin/6.5.0
       }
       for (int i = 0; i < tokenItemList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, tokenItemList_.get(i));
+          .computeMessageSize(14, tokenItemList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -965,7 +858,7 @@ public final class GachaItemOuterClass {
               tokenItemListBuilder_ = null;
               tokenItemList_ = other.tokenItemList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              tokenItemListBuilder_ =
+              tokenItemListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getTokenItemListFieldBuilder() : null;
             } else {
@@ -994,7 +887,7 @@ public final class GachaItemOuterClass {
               transferItemsBuilder_ = null;
               transferItems_ = other.transferItems_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              transferItemsBuilder_ =
+              transferItemsBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getTransferItemsFieldBuilder() : null;
             } else {
@@ -1050,8 +943,6 @@ public final class GachaItemOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> tokenItemListBuilder_;
 
-<<<<<<< HEAD
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1059,7 +950,6 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
        */
->>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> getTokenItemListList() {
         if (tokenItemListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(tokenItemList_);
@@ -1067,9 +957,6 @@ public final class GachaItemOuterClass {
           return tokenItemListBuilder_.getMessageList();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1077,7 +964,6 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
        */
->>>>>>> origin/6.5.0
       public int getTokenItemListCount() {
         if (tokenItemListBuilder_ == null) {
           return tokenItemList_.size();
@@ -1085,9 +971,6 @@ public final class GachaItemOuterClass {
           return tokenItemListBuilder_.getCount();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1095,7 +978,6 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getTokenItemList(int index) {
         if (tokenItemListBuilder_ == null) {
           return tokenItemList_.get(index);
@@ -1103,9 +985,6 @@ public final class GachaItemOuterClass {
           return tokenItemListBuilder_.getMessage(index);
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1113,7 +992,6 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setTokenItemList(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
         if (tokenItemListBuilder_ == null) {
@@ -1128,9 +1006,6 @@ public final class GachaItemOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1138,7 +1013,6 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setTokenItemList(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
         if (tokenItemListBuilder_ == null) {
@@ -1150,9 +1024,6 @@ public final class GachaItemOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1160,7 +1031,6 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addTokenItemList(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
         if (tokenItemListBuilder_ == null) {
           if (value == null) {
@@ -1174,9 +1044,6 @@ public final class GachaItemOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1184,7 +1051,6 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addTokenItemList(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
         if (tokenItemListBuilder_ == null) {
@@ -1199,9 +1065,6 @@ public final class GachaItemOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1209,7 +1072,6 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addTokenItemList(
           emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
         if (tokenItemListBuilder_ == null) {
@@ -1221,9 +1083,6 @@ public final class GachaItemOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1231,7 +1090,6 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addTokenItemList(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
         if (tokenItemListBuilder_ == null) {
@@ -1243,9 +1101,6 @@ public final class GachaItemOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1253,7 +1108,6 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addAllTokenItemList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> values) {
         if (tokenItemListBuilder_ == null) {
@@ -1266,9 +1120,6 @@ public final class GachaItemOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1276,7 +1127,6 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
        */
->>>>>>> origin/6.5.0
       public Builder clearTokenItemList() {
         if (tokenItemListBuilder_ == null) {
           tokenItemList_ = java.util.Collections.emptyList();
@@ -1287,9 +1137,6 @@ public final class GachaItemOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1297,7 +1144,6 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
        */
->>>>>>> origin/6.5.0
       public Builder removeTokenItemList(int index) {
         if (tokenItemListBuilder_ == null) {
           ensureTokenItemListIsMutable();
@@ -1308,9 +1154,6 @@ public final class GachaItemOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1318,14 +1161,10 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder getTokenItemListBuilder(
           int index) {
         return getTokenItemListFieldBuilder().getBuilder(index);
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1333,7 +1172,6 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getTokenItemListOrBuilder(
           int index) {
         if (tokenItemListBuilder_ == null) {
@@ -1341,10 +1179,6 @@ public final class GachaItemOuterClass {
           return tokenItemListBuilder_.getMessageOrBuilder(index);
         }
       }
-<<<<<<< HEAD
-
-      public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1353,7 +1187,6 @@ public final class GachaItemOuterClass {
        * <code>repeated .ItemParam token_item_list = 14;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
->>>>>>> origin/6.5.0
            getTokenItemListOrBuilderList() {
         if (tokenItemListBuilder_ != null) {
           return tokenItemListBuilder_.getMessageOrBuilderList();
@@ -1361,9 +1194,6 @@ public final class GachaItemOuterClass {
           return java.util.Collections.unmodifiableList(tokenItemList_);
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1371,14 +1201,10 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder addTokenItemListBuilder() {
         return getTokenItemListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.getDefaultInstance());
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1386,16 +1212,11 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .ItemParam token_item_list = 14;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder addTokenItemListBuilder(
           int index) {
         return getTokenItemListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.getDefaultInstance());
       }
-<<<<<<< HEAD
-
-      public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder>
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1404,12 +1225,11 @@ public final class GachaItemOuterClass {
        * <code>repeated .ItemParam token_item_list = 14;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder> 
->>>>>>> origin/6.5.0
            getTokenItemListBuilderList() {
         return getTokenItemListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
+          emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
           getTokenItemListFieldBuilder() {
         if (tokenItemListBuilder_ == null) {
           tokenItemListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1426,13 +1246,6 @@ public final class GachaItemOuterClass {
       private emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam gachaItem_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> gachaItemBuilder_;
-<<<<<<< HEAD
-
-      public boolean hasGachaItem() {
-        return gachaItemBuilder_ != null || gachaItem_ != null;
-      }
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1452,7 +1265,6 @@ public final class GachaItemOuterClass {
        * <code>.ItemParam gacha_item = 7;</code>
        * @return The gachaItem.
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getGachaItem() {
         if (gachaItemBuilder_ == null) {
           return gachaItem_ == null ? emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.getDefaultInstance() : gachaItem_;
@@ -1460,9 +1272,6 @@ public final class GachaItemOuterClass {
           return gachaItemBuilder_.getMessage();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1470,7 +1279,6 @@ public final class GachaItemOuterClass {
        *
        * <code>.ItemParam gacha_item = 7;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setGachaItem(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
         if (gachaItemBuilder_ == null) {
           if (value == null) {
@@ -1484,9 +1292,6 @@ public final class GachaItemOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1494,7 +1299,6 @@ public final class GachaItemOuterClass {
        *
        * <code>.ItemParam gacha_item = 7;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setGachaItem(
           emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
         if (gachaItemBuilder_ == null) {
@@ -1506,9 +1310,6 @@ public final class GachaItemOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1516,7 +1317,6 @@ public final class GachaItemOuterClass {
        *
        * <code>.ItemParam gacha_item = 7;</code>
        */
->>>>>>> origin/6.5.0
       public Builder mergeGachaItem(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
         if (gachaItemBuilder_ == null) {
           if (gachaItem_ != null) {
@@ -1532,9 +1332,6 @@ public final class GachaItemOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1542,7 +1339,6 @@ public final class GachaItemOuterClass {
        *
        * <code>.ItemParam gacha_item = 7;</code>
        */
->>>>>>> origin/6.5.0
       public Builder clearGachaItem() {
         if (gachaItemBuilder_ == null) {
           gachaItem_ = null;
@@ -1554,9 +1350,6 @@ public final class GachaItemOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1564,15 +1357,11 @@ public final class GachaItemOuterClass {
        *
        * <code>.ItemParam gacha_item = 7;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder getGachaItemBuilder() {
-
+        
         onChanged();
         return getGachaItemFieldBuilder().getBuilder();
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1580,7 +1369,6 @@ public final class GachaItemOuterClass {
        *
        * <code>.ItemParam gacha_item = 7;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getGachaItemOrBuilder() {
         if (gachaItemBuilder_ != null) {
           return gachaItemBuilder_.getMessageOrBuilder();
@@ -1589,9 +1377,6 @@ public final class GachaItemOuterClass {
               emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.getDefaultInstance() : gachaItem_;
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1599,9 +1384,8 @@ public final class GachaItemOuterClass {
        *
        * <code>.ItemParam gacha_item = 7;</code>
        */
->>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
+          emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
           getGachaItemFieldBuilder() {
         if (gachaItemBuilder_ == null) {
           gachaItemBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1626,8 +1410,6 @@ public final class GachaItemOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem, emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem.Builder, emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItemOrBuilder> transferItemsBuilder_;
 
-<<<<<<< HEAD
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1635,7 +1417,6 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
        */
->>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem> getTransferItemsList() {
         if (transferItemsBuilder_ == null) {
           return java.util.Collections.unmodifiableList(transferItems_);
@@ -1643,9 +1424,6 @@ public final class GachaItemOuterClass {
           return transferItemsBuilder_.getMessageList();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1653,7 +1431,6 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
        */
->>>>>>> origin/6.5.0
       public int getTransferItemsCount() {
         if (transferItemsBuilder_ == null) {
           return transferItems_.size();
@@ -1661,9 +1438,6 @@ public final class GachaItemOuterClass {
           return transferItemsBuilder_.getCount();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1671,7 +1445,6 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem getTransferItems(int index) {
         if (transferItemsBuilder_ == null) {
           return transferItems_.get(index);
@@ -1679,9 +1452,6 @@ public final class GachaItemOuterClass {
           return transferItemsBuilder_.getMessage(index);
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1689,7 +1459,6 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setTransferItems(
           int index, emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem value) {
         if (transferItemsBuilder_ == null) {
@@ -1704,9 +1473,6 @@ public final class GachaItemOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1714,7 +1480,6 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setTransferItems(
           int index, emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem.Builder builderForValue) {
         if (transferItemsBuilder_ == null) {
@@ -1726,9 +1491,6 @@ public final class GachaItemOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1736,7 +1498,6 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addTransferItems(emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem value) {
         if (transferItemsBuilder_ == null) {
           if (value == null) {
@@ -1750,9 +1511,6 @@ public final class GachaItemOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1760,7 +1518,6 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addTransferItems(
           int index, emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem value) {
         if (transferItemsBuilder_ == null) {
@@ -1775,9 +1532,6 @@ public final class GachaItemOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1785,7 +1539,6 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addTransferItems(
           emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem.Builder builderForValue) {
         if (transferItemsBuilder_ == null) {
@@ -1797,9 +1550,6 @@ public final class GachaItemOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1807,7 +1557,6 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addTransferItems(
           int index, emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem.Builder builderForValue) {
         if (transferItemsBuilder_ == null) {
@@ -1819,9 +1568,6 @@ public final class GachaItemOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1829,7 +1575,6 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addAllTransferItems(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem> values) {
         if (transferItemsBuilder_ == null) {
@@ -1842,9 +1587,6 @@ public final class GachaItemOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1852,7 +1594,6 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
        */
->>>>>>> origin/6.5.0
       public Builder clearTransferItems() {
         if (transferItemsBuilder_ == null) {
           transferItems_ = java.util.Collections.emptyList();
@@ -1863,9 +1604,6 @@ public final class GachaItemOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1873,7 +1611,6 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
        */
->>>>>>> origin/6.5.0
       public Builder removeTransferItems(int index) {
         if (transferItemsBuilder_ == null) {
           ensureTransferItemsIsMutable();
@@ -1884,9 +1621,6 @@ public final class GachaItemOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1894,14 +1628,10 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem.Builder getTransferItemsBuilder(
           int index) {
         return getTransferItemsFieldBuilder().getBuilder(index);
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1909,7 +1639,6 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItemOrBuilder getTransferItemsOrBuilder(
           int index) {
         if (transferItemsBuilder_ == null) {
@@ -1917,10 +1646,6 @@ public final class GachaItemOuterClass {
           return transferItemsBuilder_.getMessageOrBuilder(index);
         }
       }
-<<<<<<< HEAD
-
-      public java.util.List<? extends emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItemOrBuilder>
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1929,7 +1654,6 @@ public final class GachaItemOuterClass {
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItemOrBuilder> 
->>>>>>> origin/6.5.0
            getTransferItemsOrBuilderList() {
         if (transferItemsBuilder_ != null) {
           return transferItemsBuilder_.getMessageOrBuilderList();
@@ -1937,9 +1661,6 @@ public final class GachaItemOuterClass {
           return java.util.Collections.unmodifiableList(transferItems_);
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1947,14 +1668,10 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem.Builder addTransferItemsBuilder() {
         return getTransferItemsFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem.getDefaultInstance());
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1962,16 +1679,11 @@ public final class GachaItemOuterClass {
        *
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem.Builder addTransferItemsBuilder(
           int index) {
         return getTransferItemsFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem.getDefaultInstance());
       }
-<<<<<<< HEAD
-
-      public java.util.List<emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem.Builder>
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1980,12 +1692,11 @@ public final class GachaItemOuterClass {
        * <code>repeated .GachaTransferItem transfer_items = 9;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem.Builder> 
->>>>>>> origin/6.5.0
            getTransferItemsBuilderList() {
         return getTransferItemsFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem, emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem.Builder, emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItemOrBuilder>
+          emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem, emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItem.Builder, emu.grasscutter.net.proto.GachaTransferItemOuterClass.GachaTransferItemOrBuilder> 
           getTransferItemsFieldBuilder() {
         if (transferItemsBuilder_ == null) {
           transferItemsBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -2000,9 +1711,6 @@ public final class GachaItemOuterClass {
       }
 
       private boolean isGachaItemNew_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5    
@@ -2011,14 +1719,10 @@ public final class GachaItemOuterClass {
        * <code>bool is_gacha_item_new = 8;</code>
        * @return The isGachaItemNew.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsGachaItemNew() {
         return isGachaItemNew_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5    
@@ -2028,16 +1732,12 @@ public final class GachaItemOuterClass {
        * @param value The isGachaItemNew to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setIsGachaItemNew(boolean value) {
-
+        
         isGachaItemNew_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5    
@@ -2046,18 +1746,14 @@ public final class GachaItemOuterClass {
        * <code>bool is_gacha_item_new = 8;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearIsGachaItemNew() {
-
+        
         isGachaItemNew_ = false;
         onChanged();
         return this;
       }
 
       private boolean isFlashCard_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5    
@@ -2066,14 +1762,10 @@ public final class GachaItemOuterClass {
        * <code>bool is_flash_card = 11;</code>
        * @return The isFlashCard.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsFlashCard() {
         return isFlashCard_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5    
@@ -2083,16 +1775,12 @@ public final class GachaItemOuterClass {
        * @param value The isFlashCard to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setIsFlashCard(boolean value) {
-
+        
         isFlashCard_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5    
@@ -2101,9 +1789,8 @@ public final class GachaItemOuterClass {
        * <code>bool is_flash_card = 11;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearIsFlashCard() {
-
+        
         isFlashCard_ = false;
         onChanged();
         return this;
@@ -2119,6 +1806,7 @@ public final class GachaItemOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:GachaItem)
     }
@@ -2162,7 +1850,7 @@ public final class GachaItemOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GachaItem_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GachaItem_fieldAccessorTable;
 

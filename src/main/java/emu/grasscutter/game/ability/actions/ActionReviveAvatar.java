@@ -48,6 +48,7 @@ public final class ActionReviveAvatar extends AbilityActionHandler {
                     new PacketAvatarLifeStateChangeNotify(entityAvatar.getAvatar())
                 );
                 entityAvatar.heal(healAmount, false);
+                Grasscutter.getLogger().info("healed " + entityAvatar.getAvatar().getAvatarId() + " for " + healAmount);
             }
 
         });

@@ -18,14 +18,6 @@ public final class SceneReliquaryInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:SceneReliquaryInfo)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    int getLevel();
-
-    int getPromoteLevel();
-
-    int getItemId();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -64,7 +56,6 @@ public final class SceneReliquaryInfoOuterClass {
      * <code>uint64 guid = 2;</code>
      * @return The guid.
      */
->>>>>>> origin/6.5.0
     long getGuid();
   }
   /**
@@ -166,9 +157,6 @@ public final class SceneReliquaryInfoOuterClass {
 
     public static final int LEVEL_FIELD_NUMBER = 3;
     private int level_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -177,7 +165,6 @@ public final class SceneReliquaryInfoOuterClass {
      * <code>uint32 level = 3;</code>
      * @return The level.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getLevel() {
       return level_;
@@ -185,9 +172,6 @@ public final class SceneReliquaryInfoOuterClass {
 
     public static final int PROMOTE_LEVEL_FIELD_NUMBER = 4;
     private int promoteLevel_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -196,7 +180,6 @@ public final class SceneReliquaryInfoOuterClass {
      * <code>uint32 promote_level = 4;</code>
      * @return The promoteLevel.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getPromoteLevel() {
       return promoteLevel_;
@@ -204,9 +187,6 @@ public final class SceneReliquaryInfoOuterClass {
 
     public static final int ITEM_ID_FIELD_NUMBER = 1;
     private int itemId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -215,7 +195,6 @@ public final class SceneReliquaryInfoOuterClass {
      * <code>uint32 item_id = 1;</code>
      * @return The itemId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getItemId() {
       return itemId_;
@@ -223,9 +202,6 @@ public final class SceneReliquaryInfoOuterClass {
 
     public static final int GUID_FIELD_NUMBER = 2;
     private long guid_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -234,7 +210,6 @@ public final class SceneReliquaryInfoOuterClass {
      * <code>uint64 guid = 2;</code>
      * @return The guid.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public long getGuid() {
       return guid_;
@@ -595,9 +570,6 @@ public final class SceneReliquaryInfoOuterClass {
       }
 
       private int level_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -606,14 +578,10 @@ public final class SceneReliquaryInfoOuterClass {
        * <code>uint32 level = 3;</code>
        * @return The level.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getLevel() {
         return level_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -623,16 +591,12 @@ public final class SceneReliquaryInfoOuterClass {
        * @param value The level to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setLevel(int value) {
-
+        
         level_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -641,18 +605,14 @@ public final class SceneReliquaryInfoOuterClass {
        * <code>uint32 level = 3;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearLevel() {
-
+        
         level_ = 0;
         onChanged();
         return this;
       }
 
       private int promoteLevel_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -661,14 +621,10 @@ public final class SceneReliquaryInfoOuterClass {
        * <code>uint32 promote_level = 4;</code>
        * @return The promoteLevel.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getPromoteLevel() {
         return promoteLevel_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -678,16 +634,12 @@ public final class SceneReliquaryInfoOuterClass {
        * @param value The promoteLevel to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setPromoteLevel(int value) {
-
+        
         promoteLevel_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -696,18 +648,14 @@ public final class SceneReliquaryInfoOuterClass {
        * <code>uint32 promote_level = 4;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearPromoteLevel() {
-
+        
         promoteLevel_ = 0;
         onChanged();
         return this;
       }
 
       private int itemId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -716,14 +664,10 @@ public final class SceneReliquaryInfoOuterClass {
        * <code>uint32 item_id = 1;</code>
        * @return The itemId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getItemId() {
         return itemId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -733,16 +677,12 @@ public final class SceneReliquaryInfoOuterClass {
        * @param value The itemId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setItemId(int value) {
-
+        
         itemId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -751,18 +691,14 @@ public final class SceneReliquaryInfoOuterClass {
        * <code>uint32 item_id = 1;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearItemId() {
-
+        
         itemId_ = 0;
         onChanged();
         return this;
       }
 
       private long guid_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -771,14 +707,10 @@ public final class SceneReliquaryInfoOuterClass {
        * <code>uint64 guid = 2;</code>
        * @return The guid.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public long getGuid() {
         return guid_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -788,16 +720,12 @@ public final class SceneReliquaryInfoOuterClass {
        * @param value The guid to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setGuid(long value) {
-
+        
         guid_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -806,9 +734,8 @@ public final class SceneReliquaryInfoOuterClass {
        * <code>uint64 guid = 2;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearGuid() {
-
+        
         guid_ = 0L;
         onChanged();
         return this;
@@ -824,6 +751,7 @@ public final class SceneReliquaryInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:SceneReliquaryInfo)
     }
@@ -867,7 +795,7 @@ public final class SceneReliquaryInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SceneReliquaryInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SceneReliquaryInfo_fieldAccessorTable;
 

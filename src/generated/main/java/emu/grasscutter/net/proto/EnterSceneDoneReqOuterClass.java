@@ -18,6 +18,14 @@ public final class EnterSceneDoneReqOuterClass {
       // @@protoc_insertion_point(interface_extends:EnterSceneDoneReq)
       com.google.protobuf.MessageOrBuilder {
 
+    /**
+     * <pre>
+     *6.4.0          //8
+     * </pre>
+     *
+     * <code>uint32 enter_scene_token = 15;</code>
+     * @return The enterSceneToken.
+     */
     int getEnterSceneToken();
   }
   /**
@@ -69,7 +77,7 @@ public final class EnterSceneDoneReqOuterClass {
             case 0:
               done = true;
               break;
-            case 104: {
+            case 120: {
 
               enterSceneToken_ = input.readUInt32();
               break;
@@ -106,7 +114,7 @@ public final class EnterSceneDoneReqOuterClass {
               emu.grasscutter.net.proto.EnterSceneDoneReqOuterClass.EnterSceneDoneReq.class, emu.grasscutter.net.proto.EnterSceneDoneReqOuterClass.EnterSceneDoneReq.Builder.class);
     }
 
-    public static final int ENTER_SCENE_TOKEN_FIELD_NUMBER = 13;
+    public static final int ENTER_SCENE_TOKEN_FIELD_NUMBER = 15;
     private int enterSceneToken_;
     /**
      * <pre>
@@ -136,7 +144,7 @@ public final class EnterSceneDoneReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (enterSceneToken_ != 0) {
-        output.writeUInt32(13, enterSceneToken_);
+        output.writeUInt32(15, enterSceneToken_);
       }
       unknownFields.writeTo(output);
     }
@@ -149,7 +157,7 @@ public final class EnterSceneDoneReqOuterClass {
       size = 0;
       if (enterSceneToken_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(13, enterSceneToken_);
+          .computeUInt32Size(15, enterSceneToken_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -450,7 +458,7 @@ public final class EnterSceneDoneReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEnterSceneToken(int value) {
-
+        
         enterSceneToken_ = value;
         onChanged();
         return this;
@@ -464,7 +472,7 @@ public final class EnterSceneDoneReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEnterSceneToken() {
-
+        
         enterSceneToken_ = 0;
         onChanged();
         return this;
@@ -480,6 +488,7 @@ public final class EnterSceneDoneReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:EnterSceneDoneReq)
     }
@@ -523,7 +532,7 @@ public final class EnterSceneDoneReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EnterSceneDoneReq_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EnterSceneDoneReq_fieldAccessorTable;
 

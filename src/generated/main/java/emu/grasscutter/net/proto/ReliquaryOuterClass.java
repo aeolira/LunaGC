@@ -35,16 +35,6 @@ public final class ReliquaryOuterClass {
      */
     int getOIGPOFNBKGG(int index);
 
-<<<<<<< HEAD
-    java.util.List<java.lang.Integer> getAppendPropIdListList();
-
-    int getAppendPropIdListCount();
-
-    int getAppendPropIdList(int index);
-
-    int getExp();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -92,7 +82,6 @@ public final class ReliquaryOuterClass {
      * <code>uint32 main_prop_id = 4;</code>
      * @return The mainPropId.
      */
->>>>>>> origin/6.5.0
     int getMainPropId();
 
     /**
@@ -101,10 +90,6 @@ public final class ReliquaryOuterClass {
      */
     boolean getDCCECKHJPKB();
 
-<<<<<<< HEAD
-    int getPromoteLevel();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -123,7 +108,6 @@ public final class ReliquaryOuterClass {
      * <code>uint32 level = 1;</code>
      * @return The level.
      */
->>>>>>> origin/6.5.0
     int getLevel();
   }
   /**
@@ -309,9 +293,6 @@ public final class ReliquaryOuterClass {
 
     public static final int APPEND_PROP_ID_LIST_FIELD_NUMBER = 5;
     private com.google.protobuf.Internal.IntList appendPropIdList_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -320,19 +301,11 @@ public final class ReliquaryOuterClass {
      * <code>repeated uint32 append_prop_id_list = 5;</code>
      * @return A list containing the appendPropIdList.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getAppendPropIdListList() {
       return appendPropIdList_;
     }
-<<<<<<< HEAD
-
-    public int getAppendPropIdListCount() {
-      return appendPropIdList_.size();
-    }
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -353,7 +326,6 @@ public final class ReliquaryOuterClass {
      * @param index The index of the element to return.
      * @return The appendPropIdList at the given index.
      */
->>>>>>> origin/6.5.0
     public int getAppendPropIdList(int index) {
       return appendPropIdList_.getInt(index);
     }
@@ -361,9 +333,6 @@ public final class ReliquaryOuterClass {
 
     public static final int EXP_FIELD_NUMBER = 2;
     private int exp_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -372,7 +341,6 @@ public final class ReliquaryOuterClass {
      * <code>uint32 exp = 2;</code>
      * @return The exp.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getExp() {
       return exp_;
@@ -380,9 +348,6 @@ public final class ReliquaryOuterClass {
 
     public static final int MAIN_PROP_ID_FIELD_NUMBER = 4;
     private int mainPropId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -391,7 +356,6 @@ public final class ReliquaryOuterClass {
      * <code>uint32 main_prop_id = 4;</code>
      * @return The mainPropId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getMainPropId() {
       return mainPropId_;
@@ -410,9 +374,6 @@ public final class ReliquaryOuterClass {
 
     public static final int PROMOTE_LEVEL_FIELD_NUMBER = 3;
     private int promoteLevel_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -421,7 +382,6 @@ public final class ReliquaryOuterClass {
      * <code>uint32 promote_level = 3;</code>
      * @return The promoteLevel.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getPromoteLevel() {
       return promoteLevel_;
@@ -429,9 +389,6 @@ public final class ReliquaryOuterClass {
 
     public static final int LEVEL_FIELD_NUMBER = 1;
     private int level_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -440,7 +397,6 @@ public final class ReliquaryOuterClass {
      * <code>uint32 level = 1;</code>
      * @return The level.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getLevel() {
       return level_;
@@ -994,9 +950,6 @@ public final class ReliquaryOuterClass {
           bitField0_ |= 0x00000002;
          }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1005,23 +958,11 @@ public final class ReliquaryOuterClass {
        * <code>repeated uint32 append_prop_id_list = 5;</code>
        * @return A list containing the appendPropIdList.
        */
->>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getAppendPropIdListList() {
         return ((bitField0_ & 0x00000002) != 0) ?
                  java.util.Collections.unmodifiableList(appendPropIdList_) : appendPropIdList_;
       }
-<<<<<<< HEAD
-
-      public int getAppendPropIdListCount() {
-        return appendPropIdList_.size();
-      }
-
-      public int getAppendPropIdList(int index) {
-        return appendPropIdList_.getInt(index);
-      }
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1055,7 +996,6 @@ public final class ReliquaryOuterClass {
        * @param value The appendPropIdList to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setAppendPropIdList(
           int index, int value) {
         ensureAppendPropIdListIsMutable();
@@ -1063,9 +1003,6 @@ public final class ReliquaryOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1075,16 +1012,12 @@ public final class ReliquaryOuterClass {
        * @param value The appendPropIdList to add.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder addAppendPropIdList(int value) {
         ensureAppendPropIdListIsMutable();
         appendPropIdList_.addInt(value);
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1094,7 +1027,6 @@ public final class ReliquaryOuterClass {
        * @param values The appendPropIdList to add.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder addAllAppendPropIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureAppendPropIdListIsMutable();
@@ -1103,9 +1035,6 @@ public final class ReliquaryOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1114,7 +1043,6 @@ public final class ReliquaryOuterClass {
        * <code>repeated uint32 append_prop_id_list = 5;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearAppendPropIdList() {
         appendPropIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
@@ -1123,9 +1051,6 @@ public final class ReliquaryOuterClass {
       }
 
       private int exp_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1134,14 +1059,10 @@ public final class ReliquaryOuterClass {
        * <code>uint32 exp = 2;</code>
        * @return The exp.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getExp() {
         return exp_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1151,16 +1072,12 @@ public final class ReliquaryOuterClass {
        * @param value The exp to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setExp(int value) {
-
+        
         exp_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1169,18 +1086,14 @@ public final class ReliquaryOuterClass {
        * <code>uint32 exp = 2;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearExp() {
-
+        
         exp_ = 0;
         onChanged();
         return this;
       }
 
       private int mainPropId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1189,14 +1102,10 @@ public final class ReliquaryOuterClass {
        * <code>uint32 main_prop_id = 4;</code>
        * @return The mainPropId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getMainPropId() {
         return mainPropId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1206,16 +1115,12 @@ public final class ReliquaryOuterClass {
        * @param value The mainPropId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setMainPropId(int value) {
-
+        
         mainPropId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1224,9 +1129,8 @@ public final class ReliquaryOuterClass {
        * <code>uint32 main_prop_id = 4;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearMainPropId() {
-
+        
         mainPropId_ = 0;
         onChanged();
         return this;
@@ -1247,7 +1151,7 @@ public final class ReliquaryOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDCCECKHJPKB(boolean value) {
-
+        
         dCCECKHJPKB_ = value;
         onChanged();
         return this;
@@ -1257,16 +1161,13 @@ public final class ReliquaryOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDCCECKHJPKB() {
-
+        
         dCCECKHJPKB_ = false;
         onChanged();
         return this;
       }
 
       private int promoteLevel_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1275,14 +1176,10 @@ public final class ReliquaryOuterClass {
        * <code>uint32 promote_level = 3;</code>
        * @return The promoteLevel.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getPromoteLevel() {
         return promoteLevel_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1292,16 +1189,12 @@ public final class ReliquaryOuterClass {
        * @param value The promoteLevel to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setPromoteLevel(int value) {
-
+        
         promoteLevel_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1310,18 +1203,14 @@ public final class ReliquaryOuterClass {
        * <code>uint32 promote_level = 3;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearPromoteLevel() {
-
+        
         promoteLevel_ = 0;
         onChanged();
         return this;
       }
 
       private int level_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1330,14 +1219,10 @@ public final class ReliquaryOuterClass {
        * <code>uint32 level = 1;</code>
        * @return The level.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getLevel() {
         return level_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1347,16 +1232,12 @@ public final class ReliquaryOuterClass {
        * @param value The level to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setLevel(int value) {
-
+        
         level_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1365,9 +1246,8 @@ public final class ReliquaryOuterClass {
        * <code>uint32 level = 1;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearLevel() {
-
+        
         level_ = 0;
         onChanged();
         return this;
@@ -1383,6 +1263,7 @@ public final class ReliquaryOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:Reliquary)
     }
@@ -1426,7 +1307,7 @@ public final class ReliquaryOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Reliquary_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Reliquary_fieldAccessorTable;
 

@@ -18,10 +18,6 @@ public final class EnterWorldAreaReqOuterClass {
       // @@protoc_insertion_point(interface_extends:EnterWorldAreaReq)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    int getAreaType();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -40,7 +36,6 @@ public final class EnterWorldAreaReqOuterClass {
      * <code>uint32 area_id = 8;</code>
      * @return The areaId.
      */
->>>>>>> origin/6.5.0
     int getAreaId();
   }
   /**
@@ -92,12 +87,12 @@ public final class EnterWorldAreaReqOuterClass {
             case 0:
               done = true;
               break;
-            case 72: {
+            case 64: {
 
               areaId_ = input.readUInt32();
               break;
             }
-            case 8: {
+            case 104: {
 
               areaType_ = input.readUInt32();
               break;
@@ -134,11 +129,8 @@ public final class EnterWorldAreaReqOuterClass {
               emu.grasscutter.net.proto.EnterWorldAreaReqOuterClass.EnterWorldAreaReq.class, emu.grasscutter.net.proto.EnterWorldAreaReqOuterClass.EnterWorldAreaReq.Builder.class);
     }
 
-    public static final int AREA_TYPE_FIELD_NUMBER = 1;
+    public static final int AREA_TYPE_FIELD_NUMBER = 13;
     private int areaType_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -147,17 +139,13 @@ public final class EnterWorldAreaReqOuterClass {
      * <code>uint32 area_type = 13;</code>
      * @return The areaType.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getAreaType() {
       return areaType_;
     }
 
-    public static final int AREA_ID_FIELD_NUMBER = 9;
+    public static final int AREA_ID_FIELD_NUMBER = 8;
     private int areaId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -166,7 +154,6 @@ public final class EnterWorldAreaReqOuterClass {
      * <code>uint32 area_id = 8;</code>
      * @return The areaId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getAreaId() {
       return areaId_;
@@ -187,10 +174,10 @@ public final class EnterWorldAreaReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (areaId_ != 0) {
-        output.writeUInt32(9, areaId_);
+        output.writeUInt32(8, areaId_);
       }
       if (areaType_ != 0) {
-        output.writeUInt32(1, areaType_);
+        output.writeUInt32(13, areaType_);
       }
       unknownFields.writeTo(output);
     }
@@ -203,11 +190,11 @@ public final class EnterWorldAreaReqOuterClass {
       size = 0;
       if (areaId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, areaId_);
+          .computeUInt32Size(8, areaId_);
       }
       if (areaType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, areaType_);
+          .computeUInt32Size(13, areaType_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -496,9 +483,6 @@ public final class EnterWorldAreaReqOuterClass {
       }
 
       private int areaType_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -507,14 +491,10 @@ public final class EnterWorldAreaReqOuterClass {
        * <code>uint32 area_type = 13;</code>
        * @return The areaType.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getAreaType() {
         return areaType_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -524,16 +504,12 @@ public final class EnterWorldAreaReqOuterClass {
        * @param value The areaType to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setAreaType(int value) {
-
+        
         areaType_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -542,18 +518,14 @@ public final class EnterWorldAreaReqOuterClass {
        * <code>uint32 area_type = 13;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearAreaType() {
-
+        
         areaType_ = 0;
         onChanged();
         return this;
       }
 
       private int areaId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -562,14 +534,10 @@ public final class EnterWorldAreaReqOuterClass {
        * <code>uint32 area_id = 8;</code>
        * @return The areaId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getAreaId() {
         return areaId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -579,16 +547,12 @@ public final class EnterWorldAreaReqOuterClass {
        * @param value The areaId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setAreaId(int value) {
-
+        
         areaId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -597,9 +561,8 @@ public final class EnterWorldAreaReqOuterClass {
        * <code>uint32 area_id = 8;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearAreaId() {
-
+        
         areaId_ = 0;
         onChanged();
         return this;
@@ -615,6 +578,7 @@ public final class EnterWorldAreaReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:EnterWorldAreaReq)
     }
@@ -658,7 +622,7 @@ public final class EnterWorldAreaReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EnterWorldAreaReq_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EnterWorldAreaReq_fieldAccessorTable;
 

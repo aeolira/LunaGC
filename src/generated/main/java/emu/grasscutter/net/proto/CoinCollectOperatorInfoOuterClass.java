@@ -18,8 +18,6 @@ public final class CoinCollectOperatorInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:CoinCollectOperatorInfo)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -28,7 +26,6 @@ public final class CoinCollectOperatorInfoOuterClass {
      * <code>uint32 level_id = 1;</code>
      * @return The levelId.
      */
->>>>>>> origin/6.5.0
     int getLevelId();
   }
   /**
@@ -115,9 +112,6 @@ public final class CoinCollectOperatorInfoOuterClass {
 
     public static final int LEVEL_ID_FIELD_NUMBER = 1;
     private int levelId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -126,7 +120,6 @@ public final class CoinCollectOperatorInfoOuterClass {
      * <code>uint32 level_id = 1;</code>
      * @return The levelId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getLevelId() {
       return levelId_;
@@ -435,9 +428,6 @@ public final class CoinCollectOperatorInfoOuterClass {
       }
 
       private int levelId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -446,14 +436,10 @@ public final class CoinCollectOperatorInfoOuterClass {
        * <code>uint32 level_id = 1;</code>
        * @return The levelId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getLevelId() {
         return levelId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -463,16 +449,12 @@ public final class CoinCollectOperatorInfoOuterClass {
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setLevelId(int value) {
-
+        
         levelId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -481,9 +463,8 @@ public final class CoinCollectOperatorInfoOuterClass {
        * <code>uint32 level_id = 1;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearLevelId() {
-
+        
         levelId_ = 0;
         onChanged();
         return this;
@@ -499,6 +480,7 @@ public final class CoinCollectOperatorInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:CoinCollectOperatorInfo)
     }
@@ -542,7 +524,7 @@ public final class CoinCollectOperatorInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CoinCollectOperatorInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CoinCollectOperatorInfo_fieldAccessorTable;
 

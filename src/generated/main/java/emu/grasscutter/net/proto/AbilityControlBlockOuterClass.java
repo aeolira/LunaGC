@@ -18,18 +18,6 @@ public final class AbilityControlBlockOuterClass {
       // @@protoc_insertion_point(interface_extends:AbilityControlBlock)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    java.util.List<emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryo>
-        getAbilityEmbryoListList();
-
-    emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryo getAbilityEmbryoList(int index);
-
-    int getAbilityEmbryoListCount();
-
-    java.util.List<? extends emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryoOrBuilder>
-        getAbilityEmbryoListOrBuilderList();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -71,7 +59,6 @@ public final class AbilityControlBlockOuterClass {
      *
      * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
      */
->>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryoOrBuilder getAbilityEmbryoListOrBuilder(
         int index);
   }
@@ -168,9 +155,6 @@ public final class AbilityControlBlockOuterClass {
 
     public static final int ABILITY_EMBRYO_LIST_FIELD_NUMBER = 1;
     private java.util.List<emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryo> abilityEmbryoList_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -178,14 +162,10 @@ public final class AbilityControlBlockOuterClass {
      *
      * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryo> getAbilityEmbryoListList() {
       return abilityEmbryoList_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -193,15 +173,11 @@ public final class AbilityControlBlockOuterClass {
      *
      * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryoOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryoOrBuilder> 
         getAbilityEmbryoListOrBuilderList() {
       return abilityEmbryoList_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -209,14 +185,10 @@ public final class AbilityControlBlockOuterClass {
      *
      * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getAbilityEmbryoListCount() {
       return abilityEmbryoList_.size();
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -224,14 +196,10 @@ public final class AbilityControlBlockOuterClass {
      *
      * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryo getAbilityEmbryoList(int index) {
       return abilityEmbryoList_.get(index);
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -239,7 +207,6 @@ public final class AbilityControlBlockOuterClass {
      *
      * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryoOrBuilder getAbilityEmbryoListOrBuilder(
         int index) {
@@ -550,7 +517,7 @@ public final class AbilityControlBlockOuterClass {
               abilityEmbryoListBuilder_ = null;
               abilityEmbryoList_ = other.abilityEmbryoList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              abilityEmbryoListBuilder_ =
+              abilityEmbryoListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getAbilityEmbryoListFieldBuilder() : null;
             } else {
@@ -600,8 +567,6 @@ public final class AbilityControlBlockOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryo, emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryo.Builder, emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryoOrBuilder> abilityEmbryoListBuilder_;
 
-<<<<<<< HEAD
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -609,7 +574,6 @@ public final class AbilityControlBlockOuterClass {
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryo> getAbilityEmbryoListList() {
         if (abilityEmbryoListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(abilityEmbryoList_);
@@ -617,9 +581,6 @@ public final class AbilityControlBlockOuterClass {
           return abilityEmbryoListBuilder_.getMessageList();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -627,7 +588,6 @@ public final class AbilityControlBlockOuterClass {
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public int getAbilityEmbryoListCount() {
         if (abilityEmbryoListBuilder_ == null) {
           return abilityEmbryoList_.size();
@@ -635,9 +595,6 @@ public final class AbilityControlBlockOuterClass {
           return abilityEmbryoListBuilder_.getCount();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -645,7 +602,6 @@ public final class AbilityControlBlockOuterClass {
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryo getAbilityEmbryoList(int index) {
         if (abilityEmbryoListBuilder_ == null) {
           return abilityEmbryoList_.get(index);
@@ -653,9 +609,6 @@ public final class AbilityControlBlockOuterClass {
           return abilityEmbryoListBuilder_.getMessage(index);
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -663,7 +616,6 @@ public final class AbilityControlBlockOuterClass {
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setAbilityEmbryoList(
           int index, emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryo value) {
         if (abilityEmbryoListBuilder_ == null) {
@@ -678,9 +630,6 @@ public final class AbilityControlBlockOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -688,7 +637,6 @@ public final class AbilityControlBlockOuterClass {
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setAbilityEmbryoList(
           int index, emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryo.Builder builderForValue) {
         if (abilityEmbryoListBuilder_ == null) {
@@ -700,9 +648,6 @@ public final class AbilityControlBlockOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -710,7 +655,6 @@ public final class AbilityControlBlockOuterClass {
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addAbilityEmbryoList(emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryo value) {
         if (abilityEmbryoListBuilder_ == null) {
           if (value == null) {
@@ -724,9 +668,6 @@ public final class AbilityControlBlockOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -734,7 +675,6 @@ public final class AbilityControlBlockOuterClass {
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addAbilityEmbryoList(
           int index, emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryo value) {
         if (abilityEmbryoListBuilder_ == null) {
@@ -749,9 +689,6 @@ public final class AbilityControlBlockOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -759,7 +696,6 @@ public final class AbilityControlBlockOuterClass {
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addAbilityEmbryoList(
           emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryo.Builder builderForValue) {
         if (abilityEmbryoListBuilder_ == null) {
@@ -771,9 +707,6 @@ public final class AbilityControlBlockOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -781,7 +714,6 @@ public final class AbilityControlBlockOuterClass {
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addAbilityEmbryoList(
           int index, emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryo.Builder builderForValue) {
         if (abilityEmbryoListBuilder_ == null) {
@@ -793,9 +725,6 @@ public final class AbilityControlBlockOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -803,7 +732,6 @@ public final class AbilityControlBlockOuterClass {
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addAllAbilityEmbryoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryo> values) {
         if (abilityEmbryoListBuilder_ == null) {
@@ -816,9 +744,6 @@ public final class AbilityControlBlockOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -826,7 +751,6 @@ public final class AbilityControlBlockOuterClass {
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder clearAbilityEmbryoList() {
         if (abilityEmbryoListBuilder_ == null) {
           abilityEmbryoList_ = java.util.Collections.emptyList();
@@ -837,9 +761,6 @@ public final class AbilityControlBlockOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -847,7 +768,6 @@ public final class AbilityControlBlockOuterClass {
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder removeAbilityEmbryoList(int index) {
         if (abilityEmbryoListBuilder_ == null) {
           ensureAbilityEmbryoListIsMutable();
@@ -858,9 +778,6 @@ public final class AbilityControlBlockOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -868,14 +785,10 @@ public final class AbilityControlBlockOuterClass {
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryo.Builder getAbilityEmbryoListBuilder(
           int index) {
         return getAbilityEmbryoListFieldBuilder().getBuilder(index);
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -883,7 +796,6 @@ public final class AbilityControlBlockOuterClass {
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryoOrBuilder getAbilityEmbryoListOrBuilder(
           int index) {
         if (abilityEmbryoListBuilder_ == null) {
@@ -891,10 +803,6 @@ public final class AbilityControlBlockOuterClass {
           return abilityEmbryoListBuilder_.getMessageOrBuilder(index);
         }
       }
-<<<<<<< HEAD
-
-      public java.util.List<? extends emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryoOrBuilder>
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -903,7 +811,6 @@ public final class AbilityControlBlockOuterClass {
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryoOrBuilder> 
->>>>>>> origin/6.5.0
            getAbilityEmbryoListOrBuilderList() {
         if (abilityEmbryoListBuilder_ != null) {
           return abilityEmbryoListBuilder_.getMessageOrBuilderList();
@@ -911,9 +818,6 @@ public final class AbilityControlBlockOuterClass {
           return java.util.Collections.unmodifiableList(abilityEmbryoList_);
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -921,14 +825,10 @@ public final class AbilityControlBlockOuterClass {
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryo.Builder addAbilityEmbryoListBuilder() {
         return getAbilityEmbryoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryo.getDefaultInstance());
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -936,16 +836,11 @@ public final class AbilityControlBlockOuterClass {
        *
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryo.Builder addAbilityEmbryoListBuilder(
           int index) {
         return getAbilityEmbryoListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryo.getDefaultInstance());
       }
-<<<<<<< HEAD
-
-      public java.util.List<emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryo.Builder>
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -954,12 +849,11 @@ public final class AbilityControlBlockOuterClass {
        * <code>repeated .AbilityEmbryo ability_embryo_list = 1;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryo.Builder> 
->>>>>>> origin/6.5.0
            getAbilityEmbryoListBuilderList() {
         return getAbilityEmbryoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryo, emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryo.Builder, emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryoOrBuilder>
+          emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryo, emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryo.Builder, emu.grasscutter.net.proto.AbilityEmbryoOuterClass.AbilityEmbryoOrBuilder> 
           getAbilityEmbryoListFieldBuilder() {
         if (abilityEmbryoListBuilder_ == null) {
           abilityEmbryoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -983,6 +877,7 @@ public final class AbilityControlBlockOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:AbilityControlBlock)
     }
@@ -1026,7 +921,7 @@ public final class AbilityControlBlockOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AbilityControlBlock_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AbilityControlBlock_fieldAccessorTable;
 

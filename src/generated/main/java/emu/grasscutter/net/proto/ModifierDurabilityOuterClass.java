@@ -18,10 +18,6 @@ public final class ModifierDurabilityOuterClass {
       // @@protoc_insertion_point(interface_extends:ModifierDurability)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    float getRemainingDurability();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -40,7 +36,6 @@ public final class ModifierDurabilityOuterClass {
      * <code>float reduce_ratio = 1;</code>
      * @return The reduceRatio.
      */
->>>>>>> origin/6.5.0
     float getReduceRatio();
   }
   /**
@@ -132,9 +127,6 @@ public final class ModifierDurabilityOuterClass {
 
     public static final int REMAINING_DURABILITY_FIELD_NUMBER = 2;
     private float remainingDurability_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -143,7 +135,6 @@ public final class ModifierDurabilityOuterClass {
      * <code>float remaining_durability = 2;</code>
      * @return The remainingDurability.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public float getRemainingDurability() {
       return remainingDurability_;
@@ -151,9 +142,6 @@ public final class ModifierDurabilityOuterClass {
 
     public static final int REDUCE_RATIO_FIELD_NUMBER = 1;
     private float reduceRatio_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -162,7 +150,6 @@ public final class ModifierDurabilityOuterClass {
      * <code>float reduce_ratio = 1;</code>
      * @return The reduceRatio.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public float getReduceRatio() {
       return reduceRatio_;
@@ -492,9 +479,6 @@ public final class ModifierDurabilityOuterClass {
       }
 
       private float remainingDurability_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -503,14 +487,10 @@ public final class ModifierDurabilityOuterClass {
        * <code>float remaining_durability = 2;</code>
        * @return The remainingDurability.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public float getRemainingDurability() {
         return remainingDurability_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -520,16 +500,12 @@ public final class ModifierDurabilityOuterClass {
        * @param value The remainingDurability to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setRemainingDurability(float value) {
-
+        
         remainingDurability_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -538,18 +514,14 @@ public final class ModifierDurabilityOuterClass {
        * <code>float remaining_durability = 2;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearRemainingDurability() {
-
+        
         remainingDurability_ = 0F;
         onChanged();
         return this;
       }
 
       private float reduceRatio_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -558,14 +530,10 @@ public final class ModifierDurabilityOuterClass {
        * <code>float reduce_ratio = 1;</code>
        * @return The reduceRatio.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public float getReduceRatio() {
         return reduceRatio_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -575,16 +543,12 @@ public final class ModifierDurabilityOuterClass {
        * @param value The reduceRatio to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setReduceRatio(float value) {
-
+        
         reduceRatio_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -593,9 +557,8 @@ public final class ModifierDurabilityOuterClass {
        * <code>float reduce_ratio = 1;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearReduceRatio() {
-
+        
         reduceRatio_ = 0F;
         onChanged();
         return this;
@@ -611,6 +574,7 @@ public final class ModifierDurabilityOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:ModifierDurability)
     }
@@ -654,7 +618,7 @@ public final class ModifierDurabilityOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ModifierDurability_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ModifierDurability_fieldAccessorTable;
 

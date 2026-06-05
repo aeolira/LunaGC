@@ -18,17 +18,6 @@ public final class AbilityStringOuterClass {
       // @@protoc_insertion_point(interface_extends:AbilityString)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    boolean hasStr();
-
-    java.lang.String getStr();
-
-    com.google.protobuf.ByteString
-        getStrBytes();
-
-    boolean hasHash();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -75,7 +64,6 @@ public final class AbilityStringOuterClass {
      * <code>uint32 hash = 2;</code>
      * @return The hash.
      */
->>>>>>> origin/6.5.0
     int getHash();
 
     public emu.grasscutter.net.proto.AbilityStringOuterClass.AbilityString.TypeCase getTypeCase();
@@ -210,13 +198,6 @@ public final class AbilityStringOuterClass {
     }
 
     public static final int STR_FIELD_NUMBER = 1;
-<<<<<<< HEAD
-
-    public boolean hasStr() {
-      return typeCase_ == 1;
-    }
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -236,7 +217,6 @@ public final class AbilityStringOuterClass {
      * <code>string str = 1;</code>
      * @return The str.
      */
->>>>>>> origin/6.5.0
     public java.lang.String getStr() {
       java.lang.Object ref = "";
       if (typeCase_ == 1) {
@@ -245,7 +225,7 @@ public final class AbilityStringOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         if (typeCase_ == 1) {
@@ -254,9 +234,6 @@ public final class AbilityStringOuterClass {
         return s;
       }
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -265,7 +242,6 @@ public final class AbilityStringOuterClass {
      * <code>string str = 1;</code>
      * @return The bytes for str.
      */
->>>>>>> origin/6.5.0
     public com.google.protobuf.ByteString
         getStrBytes() {
       java.lang.Object ref = "";
@@ -273,7 +249,7 @@ public final class AbilityStringOuterClass {
         ref = type_;
       }
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         if (typeCase_ == 1) {
@@ -286,9 +262,6 @@ public final class AbilityStringOuterClass {
     }
 
     public static final int HASH_FIELD_NUMBER = 2;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -297,14 +270,10 @@ public final class AbilityStringOuterClass {
      * <code>uint32 hash = 2;</code>
      * @return Whether the hash field is set.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasHash() {
       return typeCase_ == 2;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -313,7 +282,6 @@ public final class AbilityStringOuterClass {
      * <code>uint32 hash = 2;</code>
      * @return The hash.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getHash() {
       if (typeCase_ == 2) {
@@ -685,8 +653,6 @@ public final class AbilityStringOuterClass {
         return this;
       }
 
-<<<<<<< HEAD
-=======
 
       /**
        * <pre>
@@ -696,14 +662,10 @@ public final class AbilityStringOuterClass {
        * <code>string str = 1;</code>
        * @return Whether the str field is set.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean hasStr() {
         return typeCase_ == 1;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -712,7 +674,6 @@ public final class AbilityStringOuterClass {
        * <code>string str = 1;</code>
        * @return The str.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public java.lang.String getStr() {
         java.lang.Object ref = "";
@@ -731,9 +692,6 @@ public final class AbilityStringOuterClass {
           return (java.lang.String) ref;
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -742,7 +700,6 @@ public final class AbilityStringOuterClass {
        * <code>string str = 1;</code>
        * @return The bytes for str.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public com.google.protobuf.ByteString
           getStrBytes() {
@@ -751,7 +708,7 @@ public final class AbilityStringOuterClass {
           ref = type_;
         }
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           if (typeCase_ == 1) {
@@ -762,9 +719,6 @@ public final class AbilityStringOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -774,7 +728,6 @@ public final class AbilityStringOuterClass {
        * @param value The str to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setStr(
           java.lang.String value) {
         if (value == null) {
@@ -785,9 +738,6 @@ public final class AbilityStringOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -796,7 +746,6 @@ public final class AbilityStringOuterClass {
        * <code>string str = 1;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearStr() {
         if (typeCase_ == 1) {
           typeCase_ = 0;
@@ -805,9 +754,6 @@ public final class AbilityStringOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -817,7 +763,6 @@ public final class AbilityStringOuterClass {
        * @param value The bytes for str to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setStrBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
@@ -830,12 +775,6 @@ public final class AbilityStringOuterClass {
         return this;
       }
 
-<<<<<<< HEAD
-      public boolean hasHash() {
-        return typeCase_ == 2;
-      }
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -855,16 +794,12 @@ public final class AbilityStringOuterClass {
        * <code>uint32 hash = 2;</code>
        * @return The hash.
        */
->>>>>>> origin/6.5.0
       public int getHash() {
         if (typeCase_ == 2) {
           return (java.lang.Integer) type_;
         }
         return 0;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -874,16 +809,12 @@ public final class AbilityStringOuterClass {
        * @param value The hash to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setHash(int value) {
         typeCase_ = 2;
         type_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -892,7 +823,6 @@ public final class AbilityStringOuterClass {
        * <code>uint32 hash = 2;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearHash() {
         if (typeCase_ == 2) {
           typeCase_ = 0;
@@ -912,6 +842,7 @@ public final class AbilityStringOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:AbilityString)
     }
@@ -955,7 +886,7 @@ public final class AbilityStringOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AbilityString_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AbilityString_fieldAccessorTable;
 

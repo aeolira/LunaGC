@@ -18,10 +18,6 @@ public final class ForceUpdateInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:ForceUpdateInfo)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    java.lang.String getForceUpdateUrl();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -39,7 +35,6 @@ public final class ForceUpdateInfoOuterClass {
      * <code>string force_update_url = 1;</code>
      * @return The bytes for forceUpdateUrl.
      */
->>>>>>> origin/6.5.0
     com.google.protobuf.ByteString
         getForceUpdateUrlBytes();
   }
@@ -129,9 +124,6 @@ public final class ForceUpdateInfoOuterClass {
 
     public static final int FORCE_UPDATE_URL_FIELD_NUMBER = 1;
     private volatile java.lang.Object forceUpdateUrl_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -140,23 +132,19 @@ public final class ForceUpdateInfoOuterClass {
      * <code>string force_update_url = 1;</code>
      * @return The forceUpdateUrl.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getForceUpdateUrl() {
       java.lang.Object ref = forceUpdateUrl_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         forceUpdateUrl_ = s;
         return s;
       }
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -165,13 +153,12 @@ public final class ForceUpdateInfoOuterClass {
      * <code>string force_update_url = 1;</code>
      * @return The bytes for forceUpdateUrl.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getForceUpdateUrlBytes() {
       java.lang.Object ref = forceUpdateUrl_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         forceUpdateUrl_ = b;
@@ -484,9 +471,6 @@ public final class ForceUpdateInfoOuterClass {
       }
 
       private java.lang.Object forceUpdateUrl_ = "";
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -495,7 +479,6 @@ public final class ForceUpdateInfoOuterClass {
        * <code>string force_update_url = 1;</code>
        * @return The forceUpdateUrl.
        */
->>>>>>> origin/6.5.0
       public java.lang.String getForceUpdateUrl() {
         java.lang.Object ref = forceUpdateUrl_;
         if (!(ref instanceof java.lang.String)) {
@@ -508,9 +491,6 @@ public final class ForceUpdateInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -519,12 +499,11 @@ public final class ForceUpdateInfoOuterClass {
        * <code>string force_update_url = 1;</code>
        * @return The bytes for forceUpdateUrl.
        */
->>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getForceUpdateUrlBytes() {
         java.lang.Object ref = forceUpdateUrl_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           forceUpdateUrl_ = b;
@@ -533,9 +512,6 @@ public final class ForceUpdateInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -545,20 +521,16 @@ public final class ForceUpdateInfoOuterClass {
        * @param value The forceUpdateUrl to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setForceUpdateUrl(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         forceUpdateUrl_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -567,16 +539,12 @@ public final class ForceUpdateInfoOuterClass {
        * <code>string force_update_url = 1;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearForceUpdateUrl() {
-
+        
         forceUpdateUrl_ = getDefaultInstance().getForceUpdateUrl();
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -586,14 +554,13 @@ public final class ForceUpdateInfoOuterClass {
        * @param value The bytes for forceUpdateUrl to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setForceUpdateUrlBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+        
         forceUpdateUrl_ = value;
         onChanged();
         return this;
@@ -609,6 +576,7 @@ public final class ForceUpdateInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:ForceUpdateInfo)
     }
@@ -652,7 +620,7 @@ public final class ForceUpdateInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ForceUpdateInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ForceUpdateInfo_fieldAccessorTable;
 

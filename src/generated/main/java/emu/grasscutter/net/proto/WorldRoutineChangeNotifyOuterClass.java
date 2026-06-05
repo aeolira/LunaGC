@@ -18,14 +18,6 @@ public final class WorldRoutineChangeNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:WorldRoutineChangeNotify)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    boolean hasRoutineInfo();
-
-    emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo getRoutineInfo();
-
-    emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfoOrBuilder getRoutineInfoOrBuilder();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -61,7 +53,6 @@ public final class WorldRoutineChangeNotifyOuterClass {
      * <code>uint32 routine_type = 1;</code>
      * @return The routineType.
      */
->>>>>>> origin/6.5.0
     int getRoutineType();
   }
   /**
@@ -165,9 +156,6 @@ public final class WorldRoutineChangeNotifyOuterClass {
 
     public static final int ROUTINE_INFO_FIELD_NUMBER = 4;
     private emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo routineInfo_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -176,14 +164,10 @@ public final class WorldRoutineChangeNotifyOuterClass {
      * <code>.WorldRoutineInfo routine_info = 4;</code>
      * @return Whether the routineInfo field is set.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasRoutineInfo() {
       return routineInfo_ != null;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -192,14 +176,10 @@ public final class WorldRoutineChangeNotifyOuterClass {
      * <code>.WorldRoutineInfo routine_info = 4;</code>
      * @return The routineInfo.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo getRoutineInfo() {
       return routineInfo_ == null ? emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo.getDefaultInstance() : routineInfo_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -207,7 +187,6 @@ public final class WorldRoutineChangeNotifyOuterClass {
      *
      * <code>.WorldRoutineInfo routine_info = 4;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfoOrBuilder getRoutineInfoOrBuilder() {
       return getRoutineInfo();
@@ -215,9 +194,6 @@ public final class WorldRoutineChangeNotifyOuterClass {
 
     public static final int ROUTINE_TYPE_FIELD_NUMBER = 1;
     private int routineType_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -226,7 +202,6 @@ public final class WorldRoutineChangeNotifyOuterClass {
      * <code>uint32 routine_type = 1;</code>
      * @return The routineType.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRoutineType() {
       return routineType_;
@@ -571,13 +546,6 @@ public final class WorldRoutineChangeNotifyOuterClass {
       private emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo routineInfo_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo, emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo.Builder, emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfoOrBuilder> routineInfoBuilder_;
-<<<<<<< HEAD
-
-      public boolean hasRoutineInfo() {
-        return routineInfoBuilder_ != null || routineInfo_ != null;
-      }
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -597,7 +565,6 @@ public final class WorldRoutineChangeNotifyOuterClass {
        * <code>.WorldRoutineInfo routine_info = 4;</code>
        * @return The routineInfo.
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo getRoutineInfo() {
         if (routineInfoBuilder_ == null) {
           return routineInfo_ == null ? emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo.getDefaultInstance() : routineInfo_;
@@ -605,9 +572,6 @@ public final class WorldRoutineChangeNotifyOuterClass {
           return routineInfoBuilder_.getMessage();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -615,7 +579,6 @@ public final class WorldRoutineChangeNotifyOuterClass {
        *
        * <code>.WorldRoutineInfo routine_info = 4;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setRoutineInfo(emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo value) {
         if (routineInfoBuilder_ == null) {
           if (value == null) {
@@ -629,9 +592,6 @@ public final class WorldRoutineChangeNotifyOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -639,7 +599,6 @@ public final class WorldRoutineChangeNotifyOuterClass {
        *
        * <code>.WorldRoutineInfo routine_info = 4;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setRoutineInfo(
           emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo.Builder builderForValue) {
         if (routineInfoBuilder_ == null) {
@@ -651,9 +610,6 @@ public final class WorldRoutineChangeNotifyOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -661,7 +617,6 @@ public final class WorldRoutineChangeNotifyOuterClass {
        *
        * <code>.WorldRoutineInfo routine_info = 4;</code>
        */
->>>>>>> origin/6.5.0
       public Builder mergeRoutineInfo(emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo value) {
         if (routineInfoBuilder_ == null) {
           if (routineInfo_ != null) {
@@ -677,9 +632,6 @@ public final class WorldRoutineChangeNotifyOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -687,7 +639,6 @@ public final class WorldRoutineChangeNotifyOuterClass {
        *
        * <code>.WorldRoutineInfo routine_info = 4;</code>
        */
->>>>>>> origin/6.5.0
       public Builder clearRoutineInfo() {
         if (routineInfoBuilder_ == null) {
           routineInfo_ = null;
@@ -699,9 +650,6 @@ public final class WorldRoutineChangeNotifyOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -709,15 +657,11 @@ public final class WorldRoutineChangeNotifyOuterClass {
        *
        * <code>.WorldRoutineInfo routine_info = 4;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo.Builder getRoutineInfoBuilder() {
-
+        
         onChanged();
         return getRoutineInfoFieldBuilder().getBuilder();
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -725,7 +669,6 @@ public final class WorldRoutineChangeNotifyOuterClass {
        *
        * <code>.WorldRoutineInfo routine_info = 4;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfoOrBuilder getRoutineInfoOrBuilder() {
         if (routineInfoBuilder_ != null) {
           return routineInfoBuilder_.getMessageOrBuilder();
@@ -734,9 +677,6 @@ public final class WorldRoutineChangeNotifyOuterClass {
               emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo.getDefaultInstance() : routineInfo_;
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -744,9 +684,8 @@ public final class WorldRoutineChangeNotifyOuterClass {
        *
        * <code>.WorldRoutineInfo routine_info = 4;</code>
        */
->>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo, emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo.Builder, emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfoOrBuilder>
+          emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo, emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfo.Builder, emu.grasscutter.net.proto.WorldRoutineInfoOuterClass.WorldRoutineInfoOrBuilder> 
           getRoutineInfoFieldBuilder() {
         if (routineInfoBuilder_ == null) {
           routineInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -760,9 +699,6 @@ public final class WorldRoutineChangeNotifyOuterClass {
       }
 
       private int routineType_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -771,14 +707,10 @@ public final class WorldRoutineChangeNotifyOuterClass {
        * <code>uint32 routine_type = 1;</code>
        * @return The routineType.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRoutineType() {
         return routineType_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -788,16 +720,12 @@ public final class WorldRoutineChangeNotifyOuterClass {
        * @param value The routineType to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setRoutineType(int value) {
-
+        
         routineType_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -806,9 +734,8 @@ public final class WorldRoutineChangeNotifyOuterClass {
        * <code>uint32 routine_type = 1;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearRoutineType() {
-
+        
         routineType_ = 0;
         onChanged();
         return this;
@@ -824,6 +751,7 @@ public final class WorldRoutineChangeNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:WorldRoutineChangeNotify)
     }
@@ -867,7 +795,7 @@ public final class WorldRoutineChangeNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WorldRoutineChangeNotify_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WorldRoutineChangeNotify_fieldAccessorTable;
 

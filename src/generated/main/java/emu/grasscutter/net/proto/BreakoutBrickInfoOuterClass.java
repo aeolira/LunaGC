@@ -18,8 +18,6 @@ public final class BreakoutBrickInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:BreakoutBrickInfo)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -28,7 +26,6 @@ public final class BreakoutBrickInfoOuterClass {
      * <code>uint32 hp = 1;</code>
      * @return The hp.
      */
->>>>>>> origin/6.5.0
     int getHp();
 
     /**
@@ -37,8 +34,6 @@ public final class BreakoutBrickInfoOuterClass {
      */
     int getFIBGIIOHEMH();
 
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -47,7 +42,6 @@ public final class BreakoutBrickInfoOuterClass {
      * <code>uint32 element_type = 2;</code>
      * @return The elementType.
      */
->>>>>>> origin/6.5.0
     int getElementType();
   }
   /**
@@ -144,9 +138,6 @@ public final class BreakoutBrickInfoOuterClass {
 
     public static final int HP_FIELD_NUMBER = 1;
     private int hp_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -155,7 +146,6 @@ public final class BreakoutBrickInfoOuterClass {
      * <code>uint32 hp = 1;</code>
      * @return The hp.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getHp() {
       return hp_;
@@ -174,9 +164,6 @@ public final class BreakoutBrickInfoOuterClass {
 
     public static final int ELEMENT_TYPE_FIELD_NUMBER = 2;
     private int elementType_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -185,7 +172,6 @@ public final class BreakoutBrickInfoOuterClass {
      * <code>uint32 element_type = 2;</code>
      * @return The elementType.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getElementType() {
       return elementType_;
@@ -528,9 +514,6 @@ public final class BreakoutBrickInfoOuterClass {
       }
 
       private int hp_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -539,14 +522,10 @@ public final class BreakoutBrickInfoOuterClass {
        * <code>uint32 hp = 1;</code>
        * @return The hp.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getHp() {
         return hp_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -556,16 +535,12 @@ public final class BreakoutBrickInfoOuterClass {
        * @param value The hp to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setHp(int value) {
-
+        
         hp_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -574,9 +549,8 @@ public final class BreakoutBrickInfoOuterClass {
        * <code>uint32 hp = 1;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearHp() {
-
+        
         hp_ = 0;
         onChanged();
         return this;
@@ -597,7 +571,7 @@ public final class BreakoutBrickInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFIBGIIOHEMH(int value) {
-
+        
         fIBGIIOHEMH_ = value;
         onChanged();
         return this;
@@ -607,16 +581,13 @@ public final class BreakoutBrickInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFIBGIIOHEMH() {
-
+        
         fIBGIIOHEMH_ = 0;
         onChanged();
         return this;
       }
 
       private int elementType_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -625,14 +596,10 @@ public final class BreakoutBrickInfoOuterClass {
        * <code>uint32 element_type = 2;</code>
        * @return The elementType.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getElementType() {
         return elementType_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -642,16 +609,12 @@ public final class BreakoutBrickInfoOuterClass {
        * @param value The elementType to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setElementType(int value) {
-
+        
         elementType_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -660,9 +623,8 @@ public final class BreakoutBrickInfoOuterClass {
        * <code>uint32 element_type = 2;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearElementType() {
-
+        
         elementType_ = 0;
         onChanged();
         return this;
@@ -678,6 +640,7 @@ public final class BreakoutBrickInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:BreakoutBrickInfo)
     }
@@ -721,7 +684,7 @@ public final class BreakoutBrickInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_BreakoutBrickInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_BreakoutBrickInfo_fieldAccessorTable;
 

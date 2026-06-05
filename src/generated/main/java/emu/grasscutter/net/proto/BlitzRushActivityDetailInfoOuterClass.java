@@ -18,23 +18,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:BlitzRushActivityDetailInfo)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    java.util.List<emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK>
-        getStageListList();
-
-    emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK getStageList(int index);
-
-    int getStageListCount();
-
-    java.util.List<? extends emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEKOrBuilder>
-        getStageListOrBuilderList();
-
-    emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEKOrBuilder getStageListOrBuilder(
-        int index);
-
-    int getContentCloseTime();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -97,7 +80,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
      * <code>bool is_content_closed = 14;</code>
      * @return The isContentClosed.
      */
->>>>>>> origin/6.5.0
     boolean getIsContentClosed();
   }
   /**
@@ -203,9 +185,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
 
     public static final int STAGE_LIST_FIELD_NUMBER = 1;
     private java.util.List<emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK> stageList_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -213,14 +192,10 @@ public final class BlitzRushActivityDetailInfoOuterClass {
      *
      * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK> getStageListList() {
       return stageList_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -228,15 +203,11 @@ public final class BlitzRushActivityDetailInfoOuterClass {
      *
      * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEKOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEKOrBuilder> 
         getStageListOrBuilderList() {
       return stageList_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -244,14 +215,10 @@ public final class BlitzRushActivityDetailInfoOuterClass {
      *
      * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getStageListCount() {
       return stageList_.size();
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -259,14 +226,10 @@ public final class BlitzRushActivityDetailInfoOuterClass {
      *
      * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK getStageList(int index) {
       return stageList_.get(index);
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -274,7 +237,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
      *
      * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEKOrBuilder getStageListOrBuilder(
         int index) {
@@ -283,9 +245,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
 
     public static final int CONTENT_CLOSE_TIME_FIELD_NUMBER = 3;
     private int contentCloseTime_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -294,7 +253,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
      * <code>uint32 content_close_time = 3;</code>
      * @return The contentCloseTime.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getContentCloseTime() {
       return contentCloseTime_;
@@ -302,9 +260,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
 
     public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 14;
     private boolean isContentClosed_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -313,7 +268,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
      * <code>bool is_content_closed = 14;</code>
      * @return The isContentClosed.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsContentClosed() {
       return isContentClosed_;
@@ -652,7 +606,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
               stageListBuilder_ = null;
               stageList_ = other.stageList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              stageListBuilder_ =
+              stageListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getStageListFieldBuilder() : null;
             } else {
@@ -708,8 +662,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK, emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK.Builder, emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEKOrBuilder> stageListBuilder_;
 
-<<<<<<< HEAD
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -717,7 +669,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK> getStageListList() {
         if (stageListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(stageList_);
@@ -725,9 +676,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
           return stageListBuilder_.getMessageList();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -735,7 +683,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public int getStageListCount() {
         if (stageListBuilder_ == null) {
           return stageList_.size();
@@ -743,9 +690,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
           return stageListBuilder_.getCount();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -753,7 +697,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK getStageList(int index) {
         if (stageListBuilder_ == null) {
           return stageList_.get(index);
@@ -761,9 +704,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
           return stageListBuilder_.getMessage(index);
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -771,7 +711,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setStageList(
           int index, emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK value) {
         if (stageListBuilder_ == null) {
@@ -786,9 +725,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -796,7 +732,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setStageList(
           int index, emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK.Builder builderForValue) {
         if (stageListBuilder_ == null) {
@@ -808,9 +743,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -818,7 +750,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addStageList(emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK value) {
         if (stageListBuilder_ == null) {
           if (value == null) {
@@ -832,9 +763,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -842,7 +770,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addStageList(
           int index, emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK value) {
         if (stageListBuilder_ == null) {
@@ -857,9 +784,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -867,7 +791,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addStageList(
           emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK.Builder builderForValue) {
         if (stageListBuilder_ == null) {
@@ -879,9 +802,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -889,7 +809,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addStageList(
           int index, emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK.Builder builderForValue) {
         if (stageListBuilder_ == null) {
@@ -901,9 +820,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -911,7 +827,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addAllStageList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK> values) {
         if (stageListBuilder_ == null) {
@@ -924,9 +839,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -934,7 +846,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder clearStageList() {
         if (stageListBuilder_ == null) {
           stageList_ = java.util.Collections.emptyList();
@@ -945,9 +856,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -955,7 +863,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public Builder removeStageList(int index) {
         if (stageListBuilder_ == null) {
           ensureStageListIsMutable();
@@ -966,9 +873,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -976,14 +880,10 @@ public final class BlitzRushActivityDetailInfoOuterClass {
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK.Builder getStageListBuilder(
           int index) {
         return getStageListFieldBuilder().getBuilder(index);
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -991,7 +891,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEKOrBuilder getStageListOrBuilder(
           int index) {
         if (stageListBuilder_ == null) {
@@ -999,10 +898,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
           return stageListBuilder_.getMessageOrBuilder(index);
         }
       }
-<<<<<<< HEAD
-
-      public java.util.List<? extends emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEKOrBuilder>
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1011,7 +906,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEKOrBuilder> 
->>>>>>> origin/6.5.0
            getStageListOrBuilderList() {
         if (stageListBuilder_ != null) {
           return stageListBuilder_.getMessageOrBuilderList();
@@ -1019,9 +913,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
           return java.util.Collections.unmodifiableList(stageList_);
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1029,14 +920,10 @@ public final class BlitzRushActivityDetailInfoOuterClass {
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK.Builder addStageListBuilder() {
         return getStageListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK.getDefaultInstance());
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1044,16 +931,11 @@ public final class BlitzRushActivityDetailInfoOuterClass {
        *
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK.Builder addStageListBuilder(
           int index) {
         return getStageListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK.getDefaultInstance());
       }
-<<<<<<< HEAD
-
-      public java.util.List<emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK.Builder>
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1062,12 +944,11 @@ public final class BlitzRushActivityDetailInfoOuterClass {
        * <code>repeated .LAGAFOGNLEK stage_list = 1;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK.Builder> 
->>>>>>> origin/6.5.0
            getStageListBuilderList() {
         return getStageListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK, emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK.Builder, emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEKOrBuilder>
+          emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK, emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEK.Builder, emu.grasscutter.net.proto.LAGAFOGNLEKOuterClass.LAGAFOGNLEKOrBuilder> 
           getStageListFieldBuilder() {
         if (stageListBuilder_ == null) {
           stageListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1082,9 +963,6 @@ public final class BlitzRushActivityDetailInfoOuterClass {
       }
 
       private int contentCloseTime_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1093,14 +971,10 @@ public final class BlitzRushActivityDetailInfoOuterClass {
        * <code>uint32 content_close_time = 3;</code>
        * @return The contentCloseTime.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getContentCloseTime() {
         return contentCloseTime_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1110,16 +984,12 @@ public final class BlitzRushActivityDetailInfoOuterClass {
        * @param value The contentCloseTime to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setContentCloseTime(int value) {
-
+        
         contentCloseTime_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1128,18 +998,14 @@ public final class BlitzRushActivityDetailInfoOuterClass {
        * <code>uint32 content_close_time = 3;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearContentCloseTime() {
-
+        
         contentCloseTime_ = 0;
         onChanged();
         return this;
       }
 
       private boolean isContentClosed_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1148,14 +1014,10 @@ public final class BlitzRushActivityDetailInfoOuterClass {
        * <code>bool is_content_closed = 14;</code>
        * @return The isContentClosed.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsContentClosed() {
         return isContentClosed_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1165,16 +1027,12 @@ public final class BlitzRushActivityDetailInfoOuterClass {
        * @param value The isContentClosed to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setIsContentClosed(boolean value) {
-
+        
         isContentClosed_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1183,9 +1041,8 @@ public final class BlitzRushActivityDetailInfoOuterClass {
        * <code>bool is_content_closed = 14;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearIsContentClosed() {
-
+        
         isContentClosed_ = false;
         onChanged();
         return this;
@@ -1201,6 +1058,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:BlitzRushActivityDetailInfo)
     }
@@ -1244,7 +1102,7 @@ public final class BlitzRushActivityDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_BlitzRushActivityDetailInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_BlitzRushActivityDetailInfo_fieldAccessorTable;
 

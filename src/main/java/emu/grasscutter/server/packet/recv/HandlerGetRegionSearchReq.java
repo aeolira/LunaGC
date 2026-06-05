@@ -8,6 +8,6 @@ public class HandlerGetRegionSearchReq extends PacketHandler {
 
     @Override
     public void handle(GameSession session, byte[] header, byte[] payload) throws Exception {
-        session.send(new BasePacket(PacketOpcodes.RegionSearchNotify));
+        // Auto template
     }
 }

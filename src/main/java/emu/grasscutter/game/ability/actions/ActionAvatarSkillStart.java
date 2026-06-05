@@ -17,7 +17,6 @@ import emu.grasscutter.server.packet.send.PacketEntityFightPropChangeReasonNotif
 import emu.grasscutter.server.packet.send.PacketEntityFightPropUpdateNotify;
 import emu.grasscutter.game.entity.*;
 import emu.grasscutter.game.quest.enums.QuestContent;
-import static emu.grasscutter.config.Configuration.GAME_OPTIONS;
 
 @AbilityAction(AbilityModifierAction.Type.AvatarSkillStart)
 public class ActionAvatarSkillStart extends AbilityActionHandler {
@@ -26,33 +25,38 @@ public class ActionAvatarSkillStart extends AbilityActionHandler {
             Ability ability, AbilityModifierAction action, ByteString abilityData, GameEntity target) {
         var owner = ability.getOwner();
         float costStaminaRatio = action.costStaminaRatio.get(ability);
+        Grasscutter.getLogger().info("Ratio: {}", costStaminaRatio);
 
+        
         if (costStaminaRatio != 1.0f && costStaminaRatio != 0.0f) {
             var player = ability.getPlayerOwner();
             if (player != null) {
                 StaminaManager staminaManager = player.getStaminaManager();
                 GameSession session = player.getSession();
 
-                int staminaCost = (int) (costStaminaRatio * 100);
+                // Convert the RATIO to INTERNAL stamina value (displayed value × 100)
+                int staminaCost = (int) (costStaminaRatio * 100); // e.g., 20.0 → 2000 internal stamina
 
+                // Subtract stamina directly (negative value for cost)
                 Consumption consumption = new Consumption(
-                    ConsumptionType.FIGHT,
-                    -Math.abs(staminaCost)
+                    ConsumptionType.FIGHT, 
+                    -Math.abs(staminaCost) // Ensure negative value
                 );
 
                 staminaManager.updateStaminaRelative(session, consumption, true);
                 staminaManager.staminaRecoverDelay = 0;
+
+                // Log for debugging
+                Grasscutter.getLogger().info(
+                    "Skill Stamina Cost: Displayed={}, Internal={}",
+                    costStaminaRatio, staminaCost
+                );
             }
         }
-
+    
        if (action.skillID == 11065) {
             Avatar avatar = ability.getPlayerOwner().getCurrentAvatar();
-            if (GAME_OPTIONS.energyUsage) {
-                avatar.clearSpecialEnergy();
-            } else {
-
-                avatar.addSpecialEnergy(avatar.getFightProperty(FightProperty.FIGHT_PROP_MAX_SPECIAL_ENERGY));
-            }
+            avatar.clearSpecialEnergy();
         }
         if (owner instanceof EntityAvatar avatar) {
             avatar
@@ -68,3 +72,4 @@ public class ActionAvatarSkillStart extends AbilityActionHandler {
         return true;
     }
 }
+

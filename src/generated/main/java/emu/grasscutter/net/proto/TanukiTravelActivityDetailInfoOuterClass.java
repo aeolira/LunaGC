@@ -21,7 +21,7 @@ public final class TanukiTravelActivityDetailInfoOuterClass {
     /**
      * <code>repeated .OFFICPDHBCI KJHIGIHFFGH = 6;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.OFFICPDHBCIOuterClass.OFFICPDHBCI>
+    java.util.List<emu.grasscutter.net.proto.OFFICPDHBCIOuterClass.OFFICPDHBCI> 
         getKJHIGIHFFGHList();
     /**
      * <code>repeated .OFFICPDHBCI KJHIGIHFFGH = 6;</code>
@@ -34,7 +34,7 @@ public final class TanukiTravelActivityDetailInfoOuterClass {
     /**
      * <code>repeated .OFFICPDHBCI KJHIGIHFFGH = 6;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.OFFICPDHBCIOuterClass.OFFICPDHBCIOrBuilder>
+    java.util.List<? extends emu.grasscutter.net.proto.OFFICPDHBCIOuterClass.OFFICPDHBCIOrBuilder> 
         getKJHIGIHFFGHOrBuilderList();
     /**
      * <code>repeated .OFFICPDHBCI KJHIGIHFFGH = 6;</code>
@@ -42,8 +42,6 @@ public final class TanukiTravelActivityDetailInfoOuterClass {
     emu.grasscutter.net.proto.OFFICPDHBCIOuterClass.OFFICPDHBCIOrBuilder getKJHIGIHFFGHOrBuilder(
         int index);
 
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -52,7 +50,6 @@ public final class TanukiTravelActivityDetailInfoOuterClass {
      * <code>bool is_content_closed = 3;</code>
      * @return The isContentClosed.
      */
->>>>>>> origin/6.5.0
     boolean getIsContentClosed();
 
     /**
@@ -175,7 +172,7 @@ public final class TanukiTravelActivityDetailInfoOuterClass {
      * <code>repeated .OFFICPDHBCI KJHIGIHFFGH = 6;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.OFFICPDHBCIOuterClass.OFFICPDHBCIOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.OFFICPDHBCIOuterClass.OFFICPDHBCIOrBuilder> 
         getKJHIGIHFFGHOrBuilderList() {
       return kJHIGIHFFGH_;
     }
@@ -204,9 +201,6 @@ public final class TanukiTravelActivityDetailInfoOuterClass {
 
     public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 3;
     private boolean isContentClosed_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -215,7 +209,6 @@ public final class TanukiTravelActivityDetailInfoOuterClass {
      * <code>bool is_content_closed = 3;</code>
      * @return The isContentClosed.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsContentClosed() {
       return isContentClosed_;
@@ -565,7 +558,7 @@ public final class TanukiTravelActivityDetailInfoOuterClass {
               kJHIGIHFFGHBuilder_ = null;
               kJHIGIHFFGH_ = other.kJHIGIHFFGH_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              kJHIGIHFFGHBuilder_ =
+              kJHIGIHFFGHBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getKJHIGIHFFGHFieldBuilder() : null;
             } else {
@@ -804,7 +797,7 @@ public final class TanukiTravelActivityDetailInfoOuterClass {
       /**
        * <code>repeated .OFFICPDHBCI KJHIGIHFFGH = 6;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.OFFICPDHBCIOuterClass.OFFICPDHBCIOrBuilder>
+      public java.util.List<? extends emu.grasscutter.net.proto.OFFICPDHBCIOuterClass.OFFICPDHBCIOrBuilder> 
            getKJHIGIHFFGHOrBuilderList() {
         if (kJHIGIHFFGHBuilder_ != null) {
           return kJHIGIHFFGHBuilder_.getMessageOrBuilderList();
@@ -830,12 +823,12 @@ public final class TanukiTravelActivityDetailInfoOuterClass {
       /**
        * <code>repeated .OFFICPDHBCI KJHIGIHFFGH = 6;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.OFFICPDHBCIOuterClass.OFFICPDHBCI.Builder>
+      public java.util.List<emu.grasscutter.net.proto.OFFICPDHBCIOuterClass.OFFICPDHBCI.Builder> 
            getKJHIGIHFFGHBuilderList() {
         return getKJHIGIHFFGHFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.OFFICPDHBCIOuterClass.OFFICPDHBCI, emu.grasscutter.net.proto.OFFICPDHBCIOuterClass.OFFICPDHBCI.Builder, emu.grasscutter.net.proto.OFFICPDHBCIOuterClass.OFFICPDHBCIOrBuilder>
+          emu.grasscutter.net.proto.OFFICPDHBCIOuterClass.OFFICPDHBCI, emu.grasscutter.net.proto.OFFICPDHBCIOuterClass.OFFICPDHBCI.Builder, emu.grasscutter.net.proto.OFFICPDHBCIOuterClass.OFFICPDHBCIOrBuilder> 
           getKJHIGIHFFGHFieldBuilder() {
         if (kJHIGIHFFGHBuilder_ == null) {
           kJHIGIHFFGHBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -850,9 +843,6 @@ public final class TanukiTravelActivityDetailInfoOuterClass {
       }
 
       private boolean isContentClosed_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -861,14 +851,10 @@ public final class TanukiTravelActivityDetailInfoOuterClass {
        * <code>bool is_content_closed = 3;</code>
        * @return The isContentClosed.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsContentClosed() {
         return isContentClosed_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -878,16 +864,12 @@ public final class TanukiTravelActivityDetailInfoOuterClass {
        * @param value The isContentClosed to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setIsContentClosed(boolean value) {
-
+        
         isContentClosed_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -896,9 +878,8 @@ public final class TanukiTravelActivityDetailInfoOuterClass {
        * <code>bool is_content_closed = 3;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearIsContentClosed() {
-
+        
         isContentClosed_ = false;
         onChanged();
         return this;
@@ -919,7 +900,7 @@ public final class TanukiTravelActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBJHLBMLBBBP(int value) {
-
+        
         bJHLBMLBBBP_ = value;
         onChanged();
         return this;
@@ -929,7 +910,7 @@ public final class TanukiTravelActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBJHLBMLBBBP() {
-
+        
         bJHLBMLBBBP_ = 0;
         onChanged();
         return this;
@@ -945,6 +926,7 @@ public final class TanukiTravelActivityDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:TanukiTravelActivityDetailInfo)
     }
@@ -988,7 +970,7 @@ public final class TanukiTravelActivityDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_TanukiTravelActivityDetailInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_TanukiTravelActivityDetailInfo_fieldAccessorTable;
 

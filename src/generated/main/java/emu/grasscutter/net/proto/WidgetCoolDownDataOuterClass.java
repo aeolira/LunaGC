@@ -18,12 +18,6 @@ public final class WidgetCoolDownDataOuterClass {
       // @@protoc_insertion_point(interface_extends:WidgetCoolDownData)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    int getId();
-
-    boolean getIsSuccess();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -52,7 +46,6 @@ public final class WidgetCoolDownDataOuterClass {
      * <code>uint64 cool_down_time = 14;</code>
      * @return The coolDownTime.
      */
->>>>>>> origin/6.5.0
     long getCoolDownTime();
   }
   /**
@@ -149,9 +142,6 @@ public final class WidgetCoolDownDataOuterClass {
 
     public static final int ID_FIELD_NUMBER = 3;
     private int id_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -160,7 +150,6 @@ public final class WidgetCoolDownDataOuterClass {
      * <code>uint32 id = 3;</code>
      * @return The id.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getId() {
       return id_;
@@ -168,9 +157,6 @@ public final class WidgetCoolDownDataOuterClass {
 
     public static final int IS_SUCCESS_FIELD_NUMBER = 10;
     private boolean isSuccess_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -179,7 +165,6 @@ public final class WidgetCoolDownDataOuterClass {
      * <code>bool is_success = 10;</code>
      * @return The isSuccess.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsSuccess() {
       return isSuccess_;
@@ -187,9 +172,6 @@ public final class WidgetCoolDownDataOuterClass {
 
     public static final int COOL_DOWN_TIME_FIELD_NUMBER = 14;
     private long coolDownTime_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -198,7 +180,6 @@ public final class WidgetCoolDownDataOuterClass {
      * <code>uint64 cool_down_time = 14;</code>
      * @return The coolDownTime.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public long getCoolDownTime() {
       return coolDownTime_;
@@ -543,9 +524,6 @@ public final class WidgetCoolDownDataOuterClass {
       }
 
       private int id_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -554,14 +532,10 @@ public final class WidgetCoolDownDataOuterClass {
        * <code>uint32 id = 3;</code>
        * @return The id.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getId() {
         return id_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -571,16 +545,12 @@ public final class WidgetCoolDownDataOuterClass {
        * @param value The id to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setId(int value) {
-
+        
         id_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -589,18 +559,14 @@ public final class WidgetCoolDownDataOuterClass {
        * <code>uint32 id = 3;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearId() {
-
+        
         id_ = 0;
         onChanged();
         return this;
       }
 
       private boolean isSuccess_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -609,14 +575,10 @@ public final class WidgetCoolDownDataOuterClass {
        * <code>bool is_success = 10;</code>
        * @return The isSuccess.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsSuccess() {
         return isSuccess_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -626,16 +588,12 @@ public final class WidgetCoolDownDataOuterClass {
        * @param value The isSuccess to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setIsSuccess(boolean value) {
-
+        
         isSuccess_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -644,18 +602,14 @@ public final class WidgetCoolDownDataOuterClass {
        * <code>bool is_success = 10;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearIsSuccess() {
-
+        
         isSuccess_ = false;
         onChanged();
         return this;
       }
 
       private long coolDownTime_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -664,14 +618,10 @@ public final class WidgetCoolDownDataOuterClass {
        * <code>uint64 cool_down_time = 14;</code>
        * @return The coolDownTime.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public long getCoolDownTime() {
         return coolDownTime_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -681,16 +631,12 @@ public final class WidgetCoolDownDataOuterClass {
        * @param value The coolDownTime to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setCoolDownTime(long value) {
-
+        
         coolDownTime_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -699,9 +645,8 @@ public final class WidgetCoolDownDataOuterClass {
        * <code>uint64 cool_down_time = 14;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearCoolDownTime() {
-
+        
         coolDownTime_ = 0L;
         onChanged();
         return this;
@@ -717,6 +662,7 @@ public final class WidgetCoolDownDataOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:WidgetCoolDownData)
     }
@@ -760,7 +706,7 @@ public final class WidgetCoolDownDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WidgetCoolDownData_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WidgetCoolDownData_fieldAccessorTable;
 

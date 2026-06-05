@@ -21,7 +21,7 @@ public final class SummerTimeV2DetailInfoOuterClass {
     /**
      * <code>repeated .JLPBEBBDELI LOMPNALOPMA = 8;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.JLPBEBBDELIOuterClass.JLPBEBBDELI>
+    java.util.List<emu.grasscutter.net.proto.JLPBEBBDELIOuterClass.JLPBEBBDELI> 
         getLOMPNALOPMAList();
     /**
      * <code>repeated .JLPBEBBDELI LOMPNALOPMA = 8;</code>
@@ -34,7 +34,7 @@ public final class SummerTimeV2DetailInfoOuterClass {
     /**
      * <code>repeated .JLPBEBBDELI LOMPNALOPMA = 8;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.JLPBEBBDELIOuterClass.JLPBEBBDELIOrBuilder>
+    java.util.List<? extends emu.grasscutter.net.proto.JLPBEBBDELIOuterClass.JLPBEBBDELIOrBuilder> 
         getLOMPNALOPMAOrBuilderList();
     /**
      * <code>repeated .JLPBEBBDELI LOMPNALOPMA = 8;</code>
@@ -45,7 +45,7 @@ public final class SummerTimeV2DetailInfoOuterClass {
     /**
      * <code>repeated .GGHDBIIKADH PLIGFHGDGIN = 16;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.GGHDBIIKADHOuterClass.GGHDBIIKADH>
+    java.util.List<emu.grasscutter.net.proto.GGHDBIIKADHOuterClass.GGHDBIIKADH> 
         getPLIGFHGDGINList();
     /**
      * <code>repeated .GGHDBIIKADH PLIGFHGDGIN = 16;</code>
@@ -58,7 +58,7 @@ public final class SummerTimeV2DetailInfoOuterClass {
     /**
      * <code>repeated .GGHDBIIKADH PLIGFHGDGIN = 16;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.GGHDBIIKADHOuterClass.GGHDBIIKADHOrBuilder>
+    java.util.List<? extends emu.grasscutter.net.proto.GGHDBIIKADHOuterClass.GGHDBIIKADHOrBuilder> 
         getPLIGFHGDGINOrBuilderList();
     /**
      * <code>repeated .GGHDBIIKADH PLIGFHGDGIN = 16;</code>
@@ -78,8 +78,6 @@ public final class SummerTimeV2DetailInfoOuterClass {
      */
     int getCGHLCNODEPG();
 
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -88,7 +86,6 @@ public final class SummerTimeV2DetailInfoOuterClass {
      * <code>bool is_content_closed = 6;</code>
      * @return The isContentClosed.
      */
->>>>>>> origin/6.5.0
     boolean getIsContentClosed();
   }
   /**
@@ -223,7 +220,7 @@ public final class SummerTimeV2DetailInfoOuterClass {
      * <code>repeated .JLPBEBBDELI LOMPNALOPMA = 8;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.JLPBEBBDELIOuterClass.JLPBEBBDELIOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.JLPBEBBDELIOuterClass.JLPBEBBDELIOrBuilder> 
         getLOMPNALOPMAOrBuilderList() {
       return lOMPNALOPMA_;
     }
@@ -263,7 +260,7 @@ public final class SummerTimeV2DetailInfoOuterClass {
      * <code>repeated .GGHDBIIKADH PLIGFHGDGIN = 16;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.GGHDBIIKADHOuterClass.GGHDBIIKADHOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.GGHDBIIKADHOuterClass.GGHDBIIKADHOrBuilder> 
         getPLIGFHGDGINOrBuilderList() {
       return pLIGFHGDGIN_;
     }
@@ -314,9 +311,6 @@ public final class SummerTimeV2DetailInfoOuterClass {
 
     public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 6;
     private boolean isContentClosed_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -325,7 +319,6 @@ public final class SummerTimeV2DetailInfoOuterClass {
      * <code>bool is_content_closed = 6;</code>
      * @return The isContentClosed.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsContentClosed() {
       return isContentClosed_;
@@ -707,7 +700,7 @@ public final class SummerTimeV2DetailInfoOuterClass {
               lOMPNALOPMABuilder_ = null;
               lOMPNALOPMA_ = other.lOMPNALOPMA_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              lOMPNALOPMABuilder_ =
+              lOMPNALOPMABuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getLOMPNALOPMAFieldBuilder() : null;
             } else {
@@ -733,7 +726,7 @@ public final class SummerTimeV2DetailInfoOuterClass {
               pLIGFHGDGINBuilder_ = null;
               pLIGFHGDGIN_ = other.pLIGFHGDGIN_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              pLIGFHGDGINBuilder_ =
+              pLIGFHGDGINBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getPLIGFHGDGINFieldBuilder() : null;
             } else {
@@ -975,7 +968,7 @@ public final class SummerTimeV2DetailInfoOuterClass {
       /**
        * <code>repeated .JLPBEBBDELI LOMPNALOPMA = 8;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.JLPBEBBDELIOuterClass.JLPBEBBDELIOrBuilder>
+      public java.util.List<? extends emu.grasscutter.net.proto.JLPBEBBDELIOuterClass.JLPBEBBDELIOrBuilder> 
            getLOMPNALOPMAOrBuilderList() {
         if (lOMPNALOPMABuilder_ != null) {
           return lOMPNALOPMABuilder_.getMessageOrBuilderList();
@@ -1001,12 +994,12 @@ public final class SummerTimeV2DetailInfoOuterClass {
       /**
        * <code>repeated .JLPBEBBDELI LOMPNALOPMA = 8;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.JLPBEBBDELIOuterClass.JLPBEBBDELI.Builder>
+      public java.util.List<emu.grasscutter.net.proto.JLPBEBBDELIOuterClass.JLPBEBBDELI.Builder> 
            getLOMPNALOPMABuilderList() {
         return getLOMPNALOPMAFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.JLPBEBBDELIOuterClass.JLPBEBBDELI, emu.grasscutter.net.proto.JLPBEBBDELIOuterClass.JLPBEBBDELI.Builder, emu.grasscutter.net.proto.JLPBEBBDELIOuterClass.JLPBEBBDELIOrBuilder>
+          emu.grasscutter.net.proto.JLPBEBBDELIOuterClass.JLPBEBBDELI, emu.grasscutter.net.proto.JLPBEBBDELIOuterClass.JLPBEBBDELI.Builder, emu.grasscutter.net.proto.JLPBEBBDELIOuterClass.JLPBEBBDELIOrBuilder> 
           getLOMPNALOPMAFieldBuilder() {
         if (lOMPNALOPMABuilder_ == null) {
           lOMPNALOPMABuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1215,7 +1208,7 @@ public final class SummerTimeV2DetailInfoOuterClass {
       /**
        * <code>repeated .GGHDBIIKADH PLIGFHGDGIN = 16;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.GGHDBIIKADHOuterClass.GGHDBIIKADHOrBuilder>
+      public java.util.List<? extends emu.grasscutter.net.proto.GGHDBIIKADHOuterClass.GGHDBIIKADHOrBuilder> 
            getPLIGFHGDGINOrBuilderList() {
         if (pLIGFHGDGINBuilder_ != null) {
           return pLIGFHGDGINBuilder_.getMessageOrBuilderList();
@@ -1241,12 +1234,12 @@ public final class SummerTimeV2DetailInfoOuterClass {
       /**
        * <code>repeated .GGHDBIIKADH PLIGFHGDGIN = 16;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.GGHDBIIKADHOuterClass.GGHDBIIKADH.Builder>
+      public java.util.List<emu.grasscutter.net.proto.GGHDBIIKADHOuterClass.GGHDBIIKADH.Builder> 
            getPLIGFHGDGINBuilderList() {
         return getPLIGFHGDGINFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.GGHDBIIKADHOuterClass.GGHDBIIKADH, emu.grasscutter.net.proto.GGHDBIIKADHOuterClass.GGHDBIIKADH.Builder, emu.grasscutter.net.proto.GGHDBIIKADHOuterClass.GGHDBIIKADHOrBuilder>
+          emu.grasscutter.net.proto.GGHDBIIKADHOuterClass.GGHDBIIKADH, emu.grasscutter.net.proto.GGHDBIIKADHOuterClass.GGHDBIIKADH.Builder, emu.grasscutter.net.proto.GGHDBIIKADHOuterClass.GGHDBIIKADHOrBuilder> 
           getPLIGFHGDGINFieldBuilder() {
         if (pLIGFHGDGINBuilder_ == null) {
           pLIGFHGDGINBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1275,7 +1268,7 @@ public final class SummerTimeV2DetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCKDIALOEBIP(int value) {
-
+        
         cKDIALOEBIP_ = value;
         onChanged();
         return this;
@@ -1285,7 +1278,7 @@ public final class SummerTimeV2DetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCKDIALOEBIP() {
-
+        
         cKDIALOEBIP_ = 0;
         onChanged();
         return this;
@@ -1306,7 +1299,7 @@ public final class SummerTimeV2DetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCGHLCNODEPG(int value) {
-
+        
         cGHLCNODEPG_ = value;
         onChanged();
         return this;
@@ -1316,16 +1309,13 @@ public final class SummerTimeV2DetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCGHLCNODEPG() {
-
+        
         cGHLCNODEPG_ = 0;
         onChanged();
         return this;
       }
 
       private boolean isContentClosed_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1334,14 +1324,10 @@ public final class SummerTimeV2DetailInfoOuterClass {
        * <code>bool is_content_closed = 6;</code>
        * @return The isContentClosed.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsContentClosed() {
         return isContentClosed_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1351,16 +1337,12 @@ public final class SummerTimeV2DetailInfoOuterClass {
        * @param value The isContentClosed to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setIsContentClosed(boolean value) {
-
+        
         isContentClosed_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1369,9 +1351,8 @@ public final class SummerTimeV2DetailInfoOuterClass {
        * <code>bool is_content_closed = 6;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearIsContentClosed() {
-
+        
         isContentClosed_ = false;
         onChanged();
         return this;
@@ -1387,6 +1368,7 @@ public final class SummerTimeV2DetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:SummerTimeV2DetailInfo)
     }
@@ -1430,7 +1412,7 @@ public final class SummerTimeV2DetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SummerTimeV2DetailInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SummerTimeV2DetailInfo_fieldAccessorTable;
 

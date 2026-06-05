@@ -21,7 +21,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     /**
      * <code>repeated .FNEFDOMCAJN CEMAGGFILCH = 17;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.FNEFDOMCAJNOuterClass.FNEFDOMCAJN>
+    java.util.List<emu.grasscutter.net.proto.FNEFDOMCAJNOuterClass.FNEFDOMCAJN> 
         getCEMAGGFILCHList();
     /**
      * <code>repeated .FNEFDOMCAJN CEMAGGFILCH = 17;</code>
@@ -34,7 +34,7 @@ public final class BreakoutPhysicalObjectOuterClass {
     /**
      * <code>repeated .FNEFDOMCAJN CEMAGGFILCH = 17;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.FNEFDOMCAJNOuterClass.FNEFDOMCAJNOrBuilder>
+    java.util.List<? extends emu.grasscutter.net.proto.FNEFDOMCAJNOuterClass.FNEFDOMCAJNOrBuilder> 
         getCEMAGGFILCHOrBuilderList();
     /**
      * <code>repeated .FNEFDOMCAJN CEMAGGFILCH = 17;</code>
@@ -59,62 +59,6 @@ public final class BreakoutPhysicalObjectOuterClass {
      */
     int getOGHHLMCDKAH(int index);
 
-<<<<<<< HEAD
-    boolean hasMoveDir();
-
-    emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2 getMoveDir();
-
-    emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2OrBuilder getMoveDirOrBuilder();
-
-    boolean hasPos();
-
-    emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2 getPos();
-
-    emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2OrBuilder getPosOrBuilder();
-
-    java.util.List<emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifier>
-        getModifierListList();
-
-    emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifier getModifierList(int index);
-
-    int getModifierListCount();
-
-    java.util.List<? extends emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifierOrBuilder>
-        getModifierListOrBuilderList();
-
-    emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifierOrBuilder getModifierListOrBuilder(
-        int index);
-
-    java.util.List<emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfo>
-        getInfoListList();
-
-    emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfo getInfoList(int index);
-
-    int getInfoListCount();
-
-    java.util.List<? extends emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfoOrBuilder>
-        getInfoListOrBuilderList();
-
-    emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfoOrBuilder getInfoListOrBuilder(
-        int index);
-
-    int getLastHitPeerId();
-
-    int getElementReactionBuff();
-
-    int getSpeed();
-
-    int getSpeedIncreaseCount();
-
-    boolean getIsActive();
-
-    int getOffset();
-
-    int getState();
-
-    int getInitPeerId();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -345,7 +289,6 @@ public final class BreakoutPhysicalObjectOuterClass {
      * <code>uint32 element_type = 9;</code>
      * @return The elementType.
      */
->>>>>>> origin/6.5.0
     int getElementType();
 
     /**
@@ -354,10 +297,6 @@ public final class BreakoutPhysicalObjectOuterClass {
      */
     int getDIPHFEKDDBN();
 
-<<<<<<< HEAD
-    int getId();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -376,7 +315,6 @@ public final class BreakoutPhysicalObjectOuterClass {
      * <code>uint32 index = 2;</code>
      * @return The index.
      */
->>>>>>> origin/6.5.0
     int getIndex();
   }
   /**
@@ -620,7 +558,7 @@ public final class BreakoutPhysicalObjectOuterClass {
      * <code>repeated .FNEFDOMCAJN CEMAGGFILCH = 17;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.FNEFDOMCAJNOuterClass.FNEFDOMCAJNOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.FNEFDOMCAJNOuterClass.FNEFDOMCAJNOrBuilder> 
         getCEMAGGFILCHOrBuilderList() {
       return cEMAGGFILCH_;
     }
@@ -677,9 +615,6 @@ public final class BreakoutPhysicalObjectOuterClass {
 
     public static final int MOVE_DIR_FIELD_NUMBER = 5;
     private emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2 moveDir_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -688,14 +623,10 @@ public final class BreakoutPhysicalObjectOuterClass {
      * <code>.BreakoutVector2 move_dir = 5;</code>
      * @return Whether the moveDir field is set.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasMoveDir() {
       return moveDir_ != null;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -704,14 +635,10 @@ public final class BreakoutPhysicalObjectOuterClass {
      * <code>.BreakoutVector2 move_dir = 5;</code>
      * @return The moveDir.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2 getMoveDir() {
       return moveDir_ == null ? emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2.getDefaultInstance() : moveDir_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -719,7 +646,6 @@ public final class BreakoutPhysicalObjectOuterClass {
      *
      * <code>.BreakoutVector2 move_dir = 5;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2OrBuilder getMoveDirOrBuilder() {
       return getMoveDir();
@@ -727,9 +653,6 @@ public final class BreakoutPhysicalObjectOuterClass {
 
     public static final int POS_FIELD_NUMBER = 4;
     private emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2 pos_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -738,14 +661,10 @@ public final class BreakoutPhysicalObjectOuterClass {
      * <code>.BreakoutVector2 pos = 4;</code>
      * @return Whether the pos field is set.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasPos() {
       return pos_ != null;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -754,14 +673,10 @@ public final class BreakoutPhysicalObjectOuterClass {
      * <code>.BreakoutVector2 pos = 4;</code>
      * @return The pos.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2 getPos() {
       return pos_ == null ? emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2.getDefaultInstance() : pos_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -769,7 +684,6 @@ public final class BreakoutPhysicalObjectOuterClass {
      *
      * <code>.BreakoutVector2 pos = 4;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2OrBuilder getPosOrBuilder() {
       return getPos();
@@ -777,9 +691,6 @@ public final class BreakoutPhysicalObjectOuterClass {
 
     public static final int MODIFIER_LIST_FIELD_NUMBER = 11;
     private java.util.List<emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifier> modifierList_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -787,14 +698,10 @@ public final class BreakoutPhysicalObjectOuterClass {
      *
      * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifier> getModifierListList() {
       return modifierList_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -802,15 +709,11 @@ public final class BreakoutPhysicalObjectOuterClass {
      *
      * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifierOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifierOrBuilder> 
         getModifierListOrBuilderList() {
       return modifierList_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -818,14 +721,10 @@ public final class BreakoutPhysicalObjectOuterClass {
      *
      * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getModifierListCount() {
       return modifierList_.size();
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -833,14 +732,10 @@ public final class BreakoutPhysicalObjectOuterClass {
      *
      * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifier getModifierList(int index) {
       return modifierList_.get(index);
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -848,7 +743,6 @@ public final class BreakoutPhysicalObjectOuterClass {
      *
      * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifierOrBuilder getModifierListOrBuilder(
         int index) {
@@ -857,9 +751,6 @@ public final class BreakoutPhysicalObjectOuterClass {
 
     public static final int INFO_LIST_FIELD_NUMBER = 13;
     private java.util.List<emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfo> infoList_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -867,14 +758,10 @@ public final class BreakoutPhysicalObjectOuterClass {
      *
      * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfo> getInfoListList() {
       return infoList_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -882,15 +769,11 @@ public final class BreakoutPhysicalObjectOuterClass {
      *
      * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfoOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfoOrBuilder> 
         getInfoListOrBuilderList() {
       return infoList_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -898,14 +781,10 @@ public final class BreakoutPhysicalObjectOuterClass {
      *
      * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getInfoListCount() {
       return infoList_.size();
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -913,14 +792,10 @@ public final class BreakoutPhysicalObjectOuterClass {
      *
      * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfo getInfoList(int index) {
       return infoList_.get(index);
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -928,7 +803,6 @@ public final class BreakoutPhysicalObjectOuterClass {
      *
      * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfoOrBuilder getInfoListOrBuilder(
         int index) {
@@ -937,9 +811,6 @@ public final class BreakoutPhysicalObjectOuterClass {
 
     public static final int LAST_HIT_PEER_ID_FIELD_NUMBER = 14;
     private int lastHitPeerId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -948,7 +819,6 @@ public final class BreakoutPhysicalObjectOuterClass {
      * <code>uint32 last_hit_peer_id = 14;</code>
      * @return The lastHitPeerId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getLastHitPeerId() {
       return lastHitPeerId_;
@@ -956,9 +826,6 @@ public final class BreakoutPhysicalObjectOuterClass {
 
     public static final int ELEMENT_REACTION_BUFF_FIELD_NUMBER = 10;
     private int elementReactionBuff_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -967,7 +834,6 @@ public final class BreakoutPhysicalObjectOuterClass {
      * <code>uint32 element_reaction_buff = 10;</code>
      * @return The elementReactionBuff.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getElementReactionBuff() {
       return elementReactionBuff_;
@@ -975,9 +841,6 @@ public final class BreakoutPhysicalObjectOuterClass {
 
     public static final int SPEED_FIELD_NUMBER = 6;
     private int speed_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -986,7 +849,6 @@ public final class BreakoutPhysicalObjectOuterClass {
      * <code>int32 speed = 6;</code>
      * @return The speed.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getSpeed() {
       return speed_;
@@ -994,9 +856,6 @@ public final class BreakoutPhysicalObjectOuterClass {
 
     public static final int SPEED_INCREASE_COUNT_FIELD_NUMBER = 15;
     private int speedIncreaseCount_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1005,7 +864,6 @@ public final class BreakoutPhysicalObjectOuterClass {
      * <code>uint32 speed_increase_count = 15;</code>
      * @return The speedIncreaseCount.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getSpeedIncreaseCount() {
       return speedIncreaseCount_;
@@ -1013,9 +871,6 @@ public final class BreakoutPhysicalObjectOuterClass {
 
     public static final int IS_ACTIVE_FIELD_NUMBER = 3;
     private boolean isActive_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -1024,7 +879,6 @@ public final class BreakoutPhysicalObjectOuterClass {
      * <code>bool is_active = 3;</code>
      * @return The isActive.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsActive() {
       return isActive_;
@@ -1032,9 +886,6 @@ public final class BreakoutPhysicalObjectOuterClass {
 
     public static final int OFFSET_FIELD_NUMBER = 16;
     private int offset_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -1043,7 +894,6 @@ public final class BreakoutPhysicalObjectOuterClass {
      * <code>int32 offset = 16;</code>
      * @return The offset.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getOffset() {
       return offset_;
@@ -1051,9 +901,6 @@ public final class BreakoutPhysicalObjectOuterClass {
 
     public static final int STATE_FIELD_NUMBER = 8;
     private int state_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -1062,7 +909,6 @@ public final class BreakoutPhysicalObjectOuterClass {
      * <code>uint32 state = 8;</code>
      * @return The state.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getState() {
       return state_;
@@ -1070,9 +916,6 @@ public final class BreakoutPhysicalObjectOuterClass {
 
     public static final int INIT_PEER_ID_FIELD_NUMBER = 7;
     private int initPeerId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1081,7 +924,6 @@ public final class BreakoutPhysicalObjectOuterClass {
      * <code>uint32 init_peer_id = 7;</code>
      * @return The initPeerId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getInitPeerId() {
       return initPeerId_;
@@ -1089,9 +931,6 @@ public final class BreakoutPhysicalObjectOuterClass {
 
     public static final int ELEMENT_TYPE_FIELD_NUMBER = 9;
     private int elementType_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -1100,7 +939,6 @@ public final class BreakoutPhysicalObjectOuterClass {
      * <code>uint32 element_type = 9;</code>
      * @return The elementType.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getElementType() {
       return elementType_;
@@ -1119,9 +957,6 @@ public final class BreakoutPhysicalObjectOuterClass {
 
     public static final int ID_FIELD_NUMBER = 1;
     private int id_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -1130,7 +965,6 @@ public final class BreakoutPhysicalObjectOuterClass {
      * <code>uint32 id = 1;</code>
      * @return The id.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getId() {
       return id_;
@@ -1138,9 +972,6 @@ public final class BreakoutPhysicalObjectOuterClass {
 
     public static final int INDEX_FIELD_NUMBER = 2;
     private int index_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -1149,7 +980,6 @@ public final class BreakoutPhysicalObjectOuterClass {
      * <code>uint32 index = 2;</code>
      * @return The index.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getIndex() {
       return index_;
@@ -1775,7 +1605,7 @@ public final class BreakoutPhysicalObjectOuterClass {
               cEMAGGFILCHBuilder_ = null;
               cEMAGGFILCH_ = other.cEMAGGFILCH_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              cEMAGGFILCHBuilder_ =
+              cEMAGGFILCHBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getCEMAGGFILCHFieldBuilder() : null;
             } else {
@@ -1817,7 +1647,7 @@ public final class BreakoutPhysicalObjectOuterClass {
               modifierListBuilder_ = null;
               modifierList_ = other.modifierList_;
               bitField0_ = (bitField0_ & ~0x00000004);
-              modifierListBuilder_ =
+              modifierListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getModifierListFieldBuilder() : null;
             } else {
@@ -1843,7 +1673,7 @@ public final class BreakoutPhysicalObjectOuterClass {
               infoListBuilder_ = null;
               infoList_ = other.infoList_;
               bitField0_ = (bitField0_ & ~0x00000008);
-              infoListBuilder_ =
+              infoListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getInfoListFieldBuilder() : null;
             } else {
@@ -2112,7 +1942,7 @@ public final class BreakoutPhysicalObjectOuterClass {
       /**
        * <code>repeated .FNEFDOMCAJN CEMAGGFILCH = 17;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.FNEFDOMCAJNOuterClass.FNEFDOMCAJNOrBuilder>
+      public java.util.List<? extends emu.grasscutter.net.proto.FNEFDOMCAJNOuterClass.FNEFDOMCAJNOrBuilder> 
            getCEMAGGFILCHOrBuilderList() {
         if (cEMAGGFILCHBuilder_ != null) {
           return cEMAGGFILCHBuilder_.getMessageOrBuilderList();
@@ -2138,12 +1968,12 @@ public final class BreakoutPhysicalObjectOuterClass {
       /**
        * <code>repeated .FNEFDOMCAJN CEMAGGFILCH = 17;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.FNEFDOMCAJNOuterClass.FNEFDOMCAJN.Builder>
+      public java.util.List<emu.grasscutter.net.proto.FNEFDOMCAJNOuterClass.FNEFDOMCAJN.Builder> 
            getCEMAGGFILCHBuilderList() {
         return getCEMAGGFILCHFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.FNEFDOMCAJNOuterClass.FNEFDOMCAJN, emu.grasscutter.net.proto.FNEFDOMCAJNOuterClass.FNEFDOMCAJN.Builder, emu.grasscutter.net.proto.FNEFDOMCAJNOuterClass.FNEFDOMCAJNOrBuilder>
+          emu.grasscutter.net.proto.FNEFDOMCAJNOuterClass.FNEFDOMCAJN, emu.grasscutter.net.proto.FNEFDOMCAJNOuterClass.FNEFDOMCAJN.Builder, emu.grasscutter.net.proto.FNEFDOMCAJNOuterClass.FNEFDOMCAJNOrBuilder> 
           getCEMAGGFILCHFieldBuilder() {
         if (cEMAGGFILCHBuilder_ == null) {
           cEMAGGFILCHBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -2239,13 +2069,6 @@ public final class BreakoutPhysicalObjectOuterClass {
       private emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2 moveDir_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2, emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2.Builder, emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2OrBuilder> moveDirBuilder_;
-<<<<<<< HEAD
-
-      public boolean hasMoveDir() {
-        return moveDirBuilder_ != null || moveDir_ != null;
-      }
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2265,7 +2088,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        * <code>.BreakoutVector2 move_dir = 5;</code>
        * @return The moveDir.
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2 getMoveDir() {
         if (moveDirBuilder_ == null) {
           return moveDir_ == null ? emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2.getDefaultInstance() : moveDir_;
@@ -2273,9 +2095,6 @@ public final class BreakoutPhysicalObjectOuterClass {
           return moveDirBuilder_.getMessage();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2283,7 +2102,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>.BreakoutVector2 move_dir = 5;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setMoveDir(emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2 value) {
         if (moveDirBuilder_ == null) {
           if (value == null) {
@@ -2297,9 +2115,6 @@ public final class BreakoutPhysicalObjectOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2307,7 +2122,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>.BreakoutVector2 move_dir = 5;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setMoveDir(
           emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2.Builder builderForValue) {
         if (moveDirBuilder_ == null) {
@@ -2319,9 +2133,6 @@ public final class BreakoutPhysicalObjectOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2329,7 +2140,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>.BreakoutVector2 move_dir = 5;</code>
        */
->>>>>>> origin/6.5.0
       public Builder mergeMoveDir(emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2 value) {
         if (moveDirBuilder_ == null) {
           if (moveDir_ != null) {
@@ -2345,9 +2155,6 @@ public final class BreakoutPhysicalObjectOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2355,7 +2162,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>.BreakoutVector2 move_dir = 5;</code>
        */
->>>>>>> origin/6.5.0
       public Builder clearMoveDir() {
         if (moveDirBuilder_ == null) {
           moveDir_ = null;
@@ -2367,9 +2173,6 @@ public final class BreakoutPhysicalObjectOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2377,15 +2180,11 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>.BreakoutVector2 move_dir = 5;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2.Builder getMoveDirBuilder() {
-
+        
         onChanged();
         return getMoveDirFieldBuilder().getBuilder();
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2393,7 +2192,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>.BreakoutVector2 move_dir = 5;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2OrBuilder getMoveDirOrBuilder() {
         if (moveDirBuilder_ != null) {
           return moveDirBuilder_.getMessageOrBuilder();
@@ -2402,9 +2200,6 @@ public final class BreakoutPhysicalObjectOuterClass {
               emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2.getDefaultInstance() : moveDir_;
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2412,9 +2207,8 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>.BreakoutVector2 move_dir = 5;</code>
        */
->>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2, emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2.Builder, emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2OrBuilder>
+          emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2, emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2.Builder, emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2OrBuilder> 
           getMoveDirFieldBuilder() {
         if (moveDirBuilder_ == null) {
           moveDirBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2430,13 +2224,6 @@ public final class BreakoutPhysicalObjectOuterClass {
       private emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2 pos_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2, emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2.Builder, emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2OrBuilder> posBuilder_;
-<<<<<<< HEAD
-
-      public boolean hasPos() {
-        return posBuilder_ != null || pos_ != null;
-      }
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2456,7 +2243,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        * <code>.BreakoutVector2 pos = 4;</code>
        * @return The pos.
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2 getPos() {
         if (posBuilder_ == null) {
           return pos_ == null ? emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2.getDefaultInstance() : pos_;
@@ -2464,9 +2250,6 @@ public final class BreakoutPhysicalObjectOuterClass {
           return posBuilder_.getMessage();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2474,7 +2257,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>.BreakoutVector2 pos = 4;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setPos(emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2 value) {
         if (posBuilder_ == null) {
           if (value == null) {
@@ -2488,9 +2270,6 @@ public final class BreakoutPhysicalObjectOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2498,7 +2277,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>.BreakoutVector2 pos = 4;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setPos(
           emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2.Builder builderForValue) {
         if (posBuilder_ == null) {
@@ -2510,9 +2288,6 @@ public final class BreakoutPhysicalObjectOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2520,7 +2295,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>.BreakoutVector2 pos = 4;</code>
        */
->>>>>>> origin/6.5.0
       public Builder mergePos(emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2 value) {
         if (posBuilder_ == null) {
           if (pos_ != null) {
@@ -2536,9 +2310,6 @@ public final class BreakoutPhysicalObjectOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2546,7 +2317,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>.BreakoutVector2 pos = 4;</code>
        */
->>>>>>> origin/6.5.0
       public Builder clearPos() {
         if (posBuilder_ == null) {
           pos_ = null;
@@ -2558,9 +2328,6 @@ public final class BreakoutPhysicalObjectOuterClass {
 
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2568,15 +2335,11 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>.BreakoutVector2 pos = 4;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2.Builder getPosBuilder() {
-
+        
         onChanged();
         return getPosFieldBuilder().getBuilder();
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2584,7 +2347,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>.BreakoutVector2 pos = 4;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2OrBuilder getPosOrBuilder() {
         if (posBuilder_ != null) {
           return posBuilder_.getMessageOrBuilder();
@@ -2593,9 +2355,6 @@ public final class BreakoutPhysicalObjectOuterClass {
               emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2.getDefaultInstance() : pos_;
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2603,9 +2362,8 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>.BreakoutVector2 pos = 4;</code>
        */
->>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2, emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2.Builder, emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2OrBuilder>
+          emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2, emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2.Builder, emu.grasscutter.net.proto.BreakoutVector2OuterClass.BreakoutVector2OrBuilder> 
           getPosFieldBuilder() {
         if (posBuilder_ == null) {
           posBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2630,8 +2388,6 @@ public final class BreakoutPhysicalObjectOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifier, emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifier.Builder, emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifierOrBuilder> modifierListBuilder_;
 
-<<<<<<< HEAD
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2639,7 +2395,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
        */
->>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifier> getModifierListList() {
         if (modifierListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(modifierList_);
@@ -2647,9 +2402,6 @@ public final class BreakoutPhysicalObjectOuterClass {
           return modifierListBuilder_.getMessageList();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2657,7 +2409,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
        */
->>>>>>> origin/6.5.0
       public int getModifierListCount() {
         if (modifierListBuilder_ == null) {
           return modifierList_.size();
@@ -2665,9 +2416,6 @@ public final class BreakoutPhysicalObjectOuterClass {
           return modifierListBuilder_.getCount();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2675,7 +2423,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifier getModifierList(int index) {
         if (modifierListBuilder_ == null) {
           return modifierList_.get(index);
@@ -2683,9 +2430,6 @@ public final class BreakoutPhysicalObjectOuterClass {
           return modifierListBuilder_.getMessage(index);
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2693,7 +2437,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setModifierList(
           int index, emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifier value) {
         if (modifierListBuilder_ == null) {
@@ -2708,9 +2451,6 @@ public final class BreakoutPhysicalObjectOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2718,7 +2458,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setModifierList(
           int index, emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifier.Builder builderForValue) {
         if (modifierListBuilder_ == null) {
@@ -2730,9 +2469,6 @@ public final class BreakoutPhysicalObjectOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2740,7 +2476,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addModifierList(emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifier value) {
         if (modifierListBuilder_ == null) {
           if (value == null) {
@@ -2754,9 +2489,6 @@ public final class BreakoutPhysicalObjectOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2764,7 +2496,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addModifierList(
           int index, emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifier value) {
         if (modifierListBuilder_ == null) {
@@ -2779,9 +2510,6 @@ public final class BreakoutPhysicalObjectOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2789,7 +2517,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addModifierList(
           emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifier.Builder builderForValue) {
         if (modifierListBuilder_ == null) {
@@ -2801,9 +2528,6 @@ public final class BreakoutPhysicalObjectOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2811,7 +2535,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addModifierList(
           int index, emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifier.Builder builderForValue) {
         if (modifierListBuilder_ == null) {
@@ -2823,9 +2546,6 @@ public final class BreakoutPhysicalObjectOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2833,7 +2553,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addAllModifierList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifier> values) {
         if (modifierListBuilder_ == null) {
@@ -2846,9 +2565,6 @@ public final class BreakoutPhysicalObjectOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2856,7 +2572,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
        */
->>>>>>> origin/6.5.0
       public Builder clearModifierList() {
         if (modifierListBuilder_ == null) {
           modifierList_ = java.util.Collections.emptyList();
@@ -2867,9 +2582,6 @@ public final class BreakoutPhysicalObjectOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2877,7 +2589,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
        */
->>>>>>> origin/6.5.0
       public Builder removeModifierList(int index) {
         if (modifierListBuilder_ == null) {
           ensureModifierListIsMutable();
@@ -2888,9 +2599,6 @@ public final class BreakoutPhysicalObjectOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2898,14 +2606,10 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifier.Builder getModifierListBuilder(
           int index) {
         return getModifierListFieldBuilder().getBuilder(index);
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2913,7 +2617,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifierOrBuilder getModifierListOrBuilder(
           int index) {
         if (modifierListBuilder_ == null) {
@@ -2921,10 +2624,6 @@ public final class BreakoutPhysicalObjectOuterClass {
           return modifierListBuilder_.getMessageOrBuilder(index);
         }
       }
-<<<<<<< HEAD
-
-      public java.util.List<? extends emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifierOrBuilder>
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2933,7 +2632,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifierOrBuilder> 
->>>>>>> origin/6.5.0
            getModifierListOrBuilderList() {
         if (modifierListBuilder_ != null) {
           return modifierListBuilder_.getMessageOrBuilderList();
@@ -2941,9 +2639,6 @@ public final class BreakoutPhysicalObjectOuterClass {
           return java.util.Collections.unmodifiableList(modifierList_);
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2951,14 +2646,10 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifier.Builder addModifierListBuilder() {
         return getModifierListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifier.getDefaultInstance());
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2966,16 +2657,11 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifier.Builder addModifierListBuilder(
           int index) {
         return getModifierListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifier.getDefaultInstance());
       }
-<<<<<<< HEAD
-
-      public java.util.List<emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifier.Builder>
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2984,12 +2670,11 @@ public final class BreakoutPhysicalObjectOuterClass {
        * <code>repeated .BreakoutPhysicalObjectModifier modifier_list = 11;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifier.Builder> 
->>>>>>> origin/6.5.0
            getModifierListBuilderList() {
         return getModifierListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifier, emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifier.Builder, emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifierOrBuilder>
+          emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifier, emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifier.Builder, emu.grasscutter.net.proto.BreakoutPhysicalObjectModifierOuterClass.BreakoutPhysicalObjectModifierOrBuilder> 
           getModifierListFieldBuilder() {
         if (modifierListBuilder_ == null) {
           modifierListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -3015,8 +2700,6 @@ public final class BreakoutPhysicalObjectOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfo, emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfo.Builder, emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfoOrBuilder> infoListBuilder_;
 
-<<<<<<< HEAD
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3024,7 +2707,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
        */
->>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfo> getInfoListList() {
         if (infoListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(infoList_);
@@ -3032,9 +2714,6 @@ public final class BreakoutPhysicalObjectOuterClass {
           return infoListBuilder_.getMessageList();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3042,7 +2721,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
        */
->>>>>>> origin/6.5.0
       public int getInfoListCount() {
         if (infoListBuilder_ == null) {
           return infoList_.size();
@@ -3050,9 +2728,6 @@ public final class BreakoutPhysicalObjectOuterClass {
           return infoListBuilder_.getCount();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3060,7 +2735,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfo getInfoList(int index) {
         if (infoListBuilder_ == null) {
           return infoList_.get(index);
@@ -3068,9 +2742,6 @@ public final class BreakoutPhysicalObjectOuterClass {
           return infoListBuilder_.getMessage(index);
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3078,7 +2749,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setInfoList(
           int index, emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfo value) {
         if (infoListBuilder_ == null) {
@@ -3093,9 +2763,6 @@ public final class BreakoutPhysicalObjectOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3103,7 +2770,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setInfoList(
           int index, emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfo.Builder builderForValue) {
         if (infoListBuilder_ == null) {
@@ -3115,9 +2781,6 @@ public final class BreakoutPhysicalObjectOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3125,7 +2788,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addInfoList(emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfo value) {
         if (infoListBuilder_ == null) {
           if (value == null) {
@@ -3139,9 +2801,6 @@ public final class BreakoutPhysicalObjectOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3149,7 +2808,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addInfoList(
           int index, emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfo value) {
         if (infoListBuilder_ == null) {
@@ -3164,9 +2822,6 @@ public final class BreakoutPhysicalObjectOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3174,7 +2829,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addInfoList(
           emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfo.Builder builderForValue) {
         if (infoListBuilder_ == null) {
@@ -3186,9 +2840,6 @@ public final class BreakoutPhysicalObjectOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3196,7 +2847,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addInfoList(
           int index, emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfo.Builder builderForValue) {
         if (infoListBuilder_ == null) {
@@ -3208,9 +2858,6 @@ public final class BreakoutPhysicalObjectOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3218,7 +2865,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addAllInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfo> values) {
         if (infoListBuilder_ == null) {
@@ -3231,9 +2877,6 @@ public final class BreakoutPhysicalObjectOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3241,7 +2884,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
        */
->>>>>>> origin/6.5.0
       public Builder clearInfoList() {
         if (infoListBuilder_ == null) {
           infoList_ = java.util.Collections.emptyList();
@@ -3252,9 +2894,6 @@ public final class BreakoutPhysicalObjectOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3262,7 +2901,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
        */
->>>>>>> origin/6.5.0
       public Builder removeInfoList(int index) {
         if (infoListBuilder_ == null) {
           ensureInfoListIsMutable();
@@ -3273,9 +2911,6 @@ public final class BreakoutPhysicalObjectOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3283,14 +2918,10 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfo.Builder getInfoListBuilder(
           int index) {
         return getInfoListFieldBuilder().getBuilder(index);
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3298,7 +2929,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfoOrBuilder getInfoListOrBuilder(
           int index) {
         if (infoListBuilder_ == null) {
@@ -3306,10 +2936,6 @@ public final class BreakoutPhysicalObjectOuterClass {
           return infoListBuilder_.getMessageOrBuilder(index);
         }
       }
-<<<<<<< HEAD
-
-      public java.util.List<? extends emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfoOrBuilder>
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3318,7 +2944,6 @@ public final class BreakoutPhysicalObjectOuterClass {
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfoOrBuilder> 
->>>>>>> origin/6.5.0
            getInfoListOrBuilderList() {
         if (infoListBuilder_ != null) {
           return infoListBuilder_.getMessageOrBuilderList();
@@ -3326,9 +2951,6 @@ public final class BreakoutPhysicalObjectOuterClass {
           return java.util.Collections.unmodifiableList(infoList_);
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3336,14 +2958,10 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfo.Builder addInfoListBuilder() {
         return getInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfo.getDefaultInstance());
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3351,16 +2969,11 @@ public final class BreakoutPhysicalObjectOuterClass {
        *
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfo.Builder addInfoListBuilder(
           int index) {
         return getInfoListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfo.getDefaultInstance());
       }
-<<<<<<< HEAD
-
-      public java.util.List<emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfo.Builder>
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3369,12 +2982,11 @@ public final class BreakoutPhysicalObjectOuterClass {
        * <code>repeated .BreakoutBrickInfo info_list = 13;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfo.Builder> 
->>>>>>> origin/6.5.0
            getInfoListBuilderList() {
         return getInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfo, emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfo.Builder, emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfoOrBuilder>
+          emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfo, emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfo.Builder, emu.grasscutter.net.proto.BreakoutBrickInfoOuterClass.BreakoutBrickInfoOrBuilder> 
           getInfoListFieldBuilder() {
         if (infoListBuilder_ == null) {
           infoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -3389,9 +3001,6 @@ public final class BreakoutPhysicalObjectOuterClass {
       }
 
       private int lastHitPeerId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3400,14 +3009,10 @@ public final class BreakoutPhysicalObjectOuterClass {
        * <code>uint32 last_hit_peer_id = 14;</code>
        * @return The lastHitPeerId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getLastHitPeerId() {
         return lastHitPeerId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3417,16 +3022,12 @@ public final class BreakoutPhysicalObjectOuterClass {
        * @param value The lastHitPeerId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setLastHitPeerId(int value) {
-
+        
         lastHitPeerId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3435,18 +3036,14 @@ public final class BreakoutPhysicalObjectOuterClass {
        * <code>uint32 last_hit_peer_id = 14;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearLastHitPeerId() {
-
+        
         lastHitPeerId_ = 0;
         onChanged();
         return this;
       }
 
       private int elementReactionBuff_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3455,14 +3052,10 @@ public final class BreakoutPhysicalObjectOuterClass {
        * <code>uint32 element_reaction_buff = 10;</code>
        * @return The elementReactionBuff.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getElementReactionBuff() {
         return elementReactionBuff_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3472,16 +3065,12 @@ public final class BreakoutPhysicalObjectOuterClass {
        * @param value The elementReactionBuff to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setElementReactionBuff(int value) {
-
+        
         elementReactionBuff_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3490,18 +3079,14 @@ public final class BreakoutPhysicalObjectOuterClass {
        * <code>uint32 element_reaction_buff = 10;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearElementReactionBuff() {
-
+        
         elementReactionBuff_ = 0;
         onChanged();
         return this;
       }
 
       private int speed_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3510,14 +3095,10 @@ public final class BreakoutPhysicalObjectOuterClass {
        * <code>int32 speed = 6;</code>
        * @return The speed.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getSpeed() {
         return speed_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3527,16 +3108,12 @@ public final class BreakoutPhysicalObjectOuterClass {
        * @param value The speed to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setSpeed(int value) {
-
+        
         speed_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3545,18 +3122,14 @@ public final class BreakoutPhysicalObjectOuterClass {
        * <code>int32 speed = 6;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearSpeed() {
-
+        
         speed_ = 0;
         onChanged();
         return this;
       }
 
       private int speedIncreaseCount_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3565,14 +3138,10 @@ public final class BreakoutPhysicalObjectOuterClass {
        * <code>uint32 speed_increase_count = 15;</code>
        * @return The speedIncreaseCount.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getSpeedIncreaseCount() {
         return speedIncreaseCount_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3582,16 +3151,12 @@ public final class BreakoutPhysicalObjectOuterClass {
        * @param value The speedIncreaseCount to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setSpeedIncreaseCount(int value) {
-
+        
         speedIncreaseCount_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3600,18 +3165,14 @@ public final class BreakoutPhysicalObjectOuterClass {
        * <code>uint32 speed_increase_count = 15;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearSpeedIncreaseCount() {
-
+        
         speedIncreaseCount_ = 0;
         onChanged();
         return this;
       }
 
       private boolean isActive_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3620,14 +3181,10 @@ public final class BreakoutPhysicalObjectOuterClass {
        * <code>bool is_active = 3;</code>
        * @return The isActive.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsActive() {
         return isActive_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3637,16 +3194,12 @@ public final class BreakoutPhysicalObjectOuterClass {
        * @param value The isActive to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setIsActive(boolean value) {
-
+        
         isActive_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3655,18 +3208,14 @@ public final class BreakoutPhysicalObjectOuterClass {
        * <code>bool is_active = 3;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearIsActive() {
-
+        
         isActive_ = false;
         onChanged();
         return this;
       }
 
       private int offset_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3675,14 +3224,10 @@ public final class BreakoutPhysicalObjectOuterClass {
        * <code>int32 offset = 16;</code>
        * @return The offset.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getOffset() {
         return offset_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3692,16 +3237,12 @@ public final class BreakoutPhysicalObjectOuterClass {
        * @param value The offset to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setOffset(int value) {
-
+        
         offset_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3710,18 +3251,14 @@ public final class BreakoutPhysicalObjectOuterClass {
        * <code>int32 offset = 16;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearOffset() {
-
+        
         offset_ = 0;
         onChanged();
         return this;
       }
 
       private int state_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3730,14 +3267,10 @@ public final class BreakoutPhysicalObjectOuterClass {
        * <code>uint32 state = 8;</code>
        * @return The state.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getState() {
         return state_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3747,16 +3280,12 @@ public final class BreakoutPhysicalObjectOuterClass {
        * @param value The state to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setState(int value) {
-
+        
         state_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3765,18 +3294,14 @@ public final class BreakoutPhysicalObjectOuterClass {
        * <code>uint32 state = 8;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearState() {
-
+        
         state_ = 0;
         onChanged();
         return this;
       }
 
       private int initPeerId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3785,14 +3310,10 @@ public final class BreakoutPhysicalObjectOuterClass {
        * <code>uint32 init_peer_id = 7;</code>
        * @return The initPeerId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getInitPeerId() {
         return initPeerId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3802,16 +3323,12 @@ public final class BreakoutPhysicalObjectOuterClass {
        * @param value The initPeerId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setInitPeerId(int value) {
-
+        
         initPeerId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3820,18 +3337,14 @@ public final class BreakoutPhysicalObjectOuterClass {
        * <code>uint32 init_peer_id = 7;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearInitPeerId() {
-
+        
         initPeerId_ = 0;
         onChanged();
         return this;
       }
 
       private int elementType_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3840,14 +3353,10 @@ public final class BreakoutPhysicalObjectOuterClass {
        * <code>uint32 element_type = 9;</code>
        * @return The elementType.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getElementType() {
         return elementType_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3857,16 +3366,12 @@ public final class BreakoutPhysicalObjectOuterClass {
        * @param value The elementType to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setElementType(int value) {
-
+        
         elementType_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3875,9 +3380,8 @@ public final class BreakoutPhysicalObjectOuterClass {
        * <code>uint32 element_type = 9;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearElementType() {
-
+        
         elementType_ = 0;
         onChanged();
         return this;
@@ -3898,7 +3402,7 @@ public final class BreakoutPhysicalObjectOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDIPHFEKDDBN(int value) {
-
+        
         dIPHFEKDDBN_ = value;
         onChanged();
         return this;
@@ -3908,16 +3412,13 @@ public final class BreakoutPhysicalObjectOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDIPHFEKDDBN() {
-
+        
         dIPHFEKDDBN_ = 0;
         onChanged();
         return this;
       }
 
       private int id_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3926,14 +3427,10 @@ public final class BreakoutPhysicalObjectOuterClass {
        * <code>uint32 id = 1;</code>
        * @return The id.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getId() {
         return id_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3943,16 +3440,12 @@ public final class BreakoutPhysicalObjectOuterClass {
        * @param value The id to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setId(int value) {
-
+        
         id_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3961,18 +3454,14 @@ public final class BreakoutPhysicalObjectOuterClass {
        * <code>uint32 id = 1;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearId() {
-
+        
         id_ = 0;
         onChanged();
         return this;
       }
 
       private int index_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3981,14 +3470,10 @@ public final class BreakoutPhysicalObjectOuterClass {
        * <code>uint32 index = 2;</code>
        * @return The index.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getIndex() {
         return index_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3998,16 +3483,12 @@ public final class BreakoutPhysicalObjectOuterClass {
        * @param value The index to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setIndex(int value) {
-
+        
         index_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -4016,9 +3497,8 @@ public final class BreakoutPhysicalObjectOuterClass {
        * <code>uint32 index = 2;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearIndex() {
-
+        
         index_ = 0;
         onChanged();
         return this;
@@ -4034,6 +3514,7 @@ public final class BreakoutPhysicalObjectOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:BreakoutPhysicalObject)
     }
@@ -4077,7 +3558,7 @@ public final class BreakoutPhysicalObjectOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_BreakoutPhysicalObject_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_BreakoutPhysicalObject_fieldAccessorTable;
 

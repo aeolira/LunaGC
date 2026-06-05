@@ -2,7 +2,6 @@ package emu.grasscutter.game.entity;
 
 import java.util.List;
 
-import emu.grasscutter.Grasscutter;
 import emu.grasscutter.data.GameData;
 import emu.grasscutter.data.binout.config.ConfigEntityGadget;
 import emu.grasscutter.data.binout.config.fields.ConfigAbilityData;
@@ -10,7 +9,6 @@ import emu.grasscutter.data.excels.GadgetData;
 import emu.grasscutter.game.player.Player;
 import emu.grasscutter.game.props.PlayerProperty;
 import emu.grasscutter.game.world.*;
-import emu.grasscutter.server.packet.send.PacketPlayerEnterSceneInfoNotify;
 import emu.grasscutter.net.proto.AbilitySyncStateInfoOuterClass.AbilitySyncStateInfo;
 import emu.grasscutter.net.proto.AnimatorParameterValueInfoPairOuterClass.AnimatorParameterValueInfoPair;
 
@@ -45,7 +43,7 @@ public class EntityClientGadget extends EntityBaseGadget {
 
     @Getter private long guid;
     @Getter private int targetEntityId;
-    @Getter private int gadgetState;
+    @Getter private int gadgetState;  // For the uint32 gadget_state
     @Getter private int gadgetType;
     @Getter private int nameId;
     @Getter private float floatVal;
@@ -57,7 +55,7 @@ public class EntityClientGadget extends EntityBaseGadget {
     @Getter private boolean isPeerIdFromPlayer;
     @Getter private int originalOwnerEntityId;
     @Getter private final GadgetData gadgetData;
-    @Getter private ConfigEntityGadget configGadget;
+    private ConfigEntityGadget configGadget;
 
     public EntityClientGadget(Scene scene, Player player, EvtCreateGadgetNotify notify) {
         super(
@@ -77,16 +75,14 @@ public class EntityClientGadget extends EntityBaseGadget {
         this.asyncLoad = notify.getIsAsyncLoad();
 
         this.gadgetData = GameData.getGadgetDataMap().get(gadgetId);
-        String jsonName = (gadgetData != null) ? gadgetData.getJsonName() : null;
-        if (jsonName != null) {
-            this.configGadget = GameData.getGadgetConfigData().get(jsonName);
+        if (gadgetData != null && gadgetData.getJsonName() != null) {
+            this.configGadget = GameData.getGadgetConfigData().get(gadgetData.getJsonName());
         }
 
         GameEntity ownerEntity = scene.getEntityById(this.ownerEntityId);
-        String ownerTypeBeforeResolve = ownerEntity != null ? ownerEntity.getClass().getSimpleName() : "null";
         ownerEntity = findOwnerEntity(ownerEntity);
         if (ownerEntity == null) {
-            ownerEntity = scene.getEntityById(16777225);
+            ownerEntity = ownerEntity.getScene().getEntityById(16777225);
         }
         if (ownerEntity instanceof EntityClientGadget ownerGadget) {
             this.originalOwnerEntityId = ownerGadget.getOriginalOwnerEntityId();
@@ -102,14 +98,17 @@ public class EntityClientGadget extends EntityBaseGadget {
 
         GameEntity nextOwner = ownerGadget.getScene().getEntityById(ownerGadget.getOwnerEntityId());
 
+        // Check if the next owner is another gadget
         if (nextOwner instanceof EntityClientGadget) {
             return findOwnerEntity((EntityClientGadget) nextOwner);
         }
 
+        // Return the final owner entity once a non-gadget entity is reached
         return nextOwner;
         }
         return owner;
     }
+
 
     @Override
     public void initAbilities() {
@@ -127,7 +126,7 @@ public class EntityClientGadget extends EntityBaseGadget {
 
     @Override
     public void onDeath(int killerId) {
-        super.onDeath(killerId);
+        super.onDeath(killerId); // Invoke super class's onDeath() method.
     }
 
     @Override
@@ -137,15 +136,9 @@ public class EntityClientGadget extends EntityBaseGadget {
 
     @Override
     public SceneEntityInfo toProto() {
-        AbilitySyncStateInfo.Builder abilityInfo = AbilitySyncStateInfo.newBuilder();
-        GameEntity ownerEntity = getScene().getEntityById(this.originalOwnerEntityId);
-        if (ownerEntity instanceof EntityAvatar avatarOwner) {
-            PacketPlayerEnterSceneInfoNotify.buildAvatarAbilityVars(avatarOwner, abilityInfo);
-        }
-
         EntityAuthorityInfo authority =
                 EntityAuthorityInfo.newBuilder()
-                        .setAbilityInfo(abilityInfo)
+                        .setAbilityInfo(AbilitySyncStateInfo.newBuilder())
                         .setRendererChangedInfo(EntityRendererChangedInfo.newBuilder())
                         .setAiInfo(
                                 SceneEntityAiInfo.newBuilder().setIsAiOpen(true))
@@ -165,8 +158,6 @@ public class EntityClientGadget extends EntityBaseGadget {
                         .setEntityClientData(EntityClientData.newBuilder())
                         .setEntityAuthorityInfo(authority)
                         .setLifeState(1);
-
-        this.injectIntMotionInfo(entityInfo);
 
         PropPair pair =
                 PropPair.newBuilder()
@@ -188,13 +179,15 @@ public class EntityClientGadget extends EntityBaseGadget {
                         .setTargetEntityId(this.getTargetEntityId())
                         .setAsyncLoad(this.isAsyncLoad())
                         .setIsPeerIdFromPlayer(this.isPeerIdFromPlayer())
+                        .setTargetEntityIdList(this.getTargetEntityIdList(), this.targetEntityIdList)
+                        .setTargetLockPointIndexList(this.getTargetLockPointIndexList(), this.targetLockPointIndexList)
                         .build();
 
         SceneGadgetInfo.Builder gadgetInfo =
                 SceneGadgetInfo.newBuilder()
                         .setGadgetId(this.getGadgetId())
                         .setOwnerEntityId(this.getOwnerEntityId())
-                        .setBornType(this.bornType != null ? this.bornType : GadgetBornType.GadgetBornType_GADGET_BORN_PLAYER)
+                        .setBornType(this.getBornType())
                         .setGadgetState(this.getGadgetState())
 
                         .setIsEnableInteract(true)

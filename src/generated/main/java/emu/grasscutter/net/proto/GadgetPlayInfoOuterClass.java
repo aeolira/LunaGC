@@ -18,22 +18,6 @@ public final class GadgetPlayInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:GadgetPlayInfo)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    java.util.List<java.lang.Integer> getProgressStageListList();
-
-    int getProgressStageListCount();
-
-    int getProgressStageList(int index);
-
-    int getDuration();
-
-    int getStartTime();
-
-    int getPlayType();
-
-    int getStartCd();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -111,7 +95,6 @@ public final class GadgetPlayInfoOuterClass {
      * <code>uint32 progress = 6;</code>
      * @return The progress.
      */
->>>>>>> origin/6.5.0
     int getProgress();
   }
   /**
@@ -244,9 +227,6 @@ public final class GadgetPlayInfoOuterClass {
 
     public static final int PROGRESS_STAGE_LIST_FIELD_NUMBER = 3;
     private com.google.protobuf.Internal.IntList progressStageList_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -255,19 +235,11 @@ public final class GadgetPlayInfoOuterClass {
      * <code>repeated uint32 progress_stage_list = 3;</code>
      * @return A list containing the progressStageList.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getProgressStageListList() {
       return progressStageList_;
     }
-<<<<<<< HEAD
-
-    public int getProgressStageListCount() {
-      return progressStageList_.size();
-    }
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -288,7 +260,6 @@ public final class GadgetPlayInfoOuterClass {
      * @param index The index of the element to return.
      * @return The progressStageList at the given index.
      */
->>>>>>> origin/6.5.0
     public int getProgressStageList(int index) {
       return progressStageList_.getInt(index);
     }
@@ -296,9 +267,6 @@ public final class GadgetPlayInfoOuterClass {
 
     public static final int DURATION_FIELD_NUMBER = 2;
     private int duration_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -307,7 +275,6 @@ public final class GadgetPlayInfoOuterClass {
      * <code>uint32 duration = 2;</code>
      * @return The duration.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getDuration() {
       return duration_;
@@ -315,9 +282,6 @@ public final class GadgetPlayInfoOuterClass {
 
     public static final int START_TIME_FIELD_NUMBER = 5;
     private int startTime_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -326,7 +290,6 @@ public final class GadgetPlayInfoOuterClass {
      * <code>uint32 start_time = 5;</code>
      * @return The startTime.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getStartTime() {
       return startTime_;
@@ -334,9 +297,6 @@ public final class GadgetPlayInfoOuterClass {
 
     public static final int PLAY_TYPE_FIELD_NUMBER = 1;
     private int playType_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -345,7 +305,6 @@ public final class GadgetPlayInfoOuterClass {
      * <code>uint32 play_type = 1;</code>
      * @return The playType.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getPlayType() {
       return playType_;
@@ -353,9 +312,6 @@ public final class GadgetPlayInfoOuterClass {
 
     public static final int START_CD_FIELD_NUMBER = 4;
     private int startCd_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -364,7 +320,6 @@ public final class GadgetPlayInfoOuterClass {
      * <code>uint32 start_cd = 4;</code>
      * @return The startCd.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getStartCd() {
       return startCd_;
@@ -372,9 +327,6 @@ public final class GadgetPlayInfoOuterClass {
 
     public static final int PROGRESS_FIELD_NUMBER = 6;
     private int progress_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -383,7 +335,6 @@ public final class GadgetPlayInfoOuterClass {
      * <code>uint32 progress = 6;</code>
      * @return The progress.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getProgress() {
       return progress_;
@@ -813,9 +764,6 @@ public final class GadgetPlayInfoOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -824,23 +772,11 @@ public final class GadgetPlayInfoOuterClass {
        * <code>repeated uint32 progress_stage_list = 3;</code>
        * @return A list containing the progressStageList.
        */
->>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getProgressStageListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(progressStageList_) : progressStageList_;
       }
-<<<<<<< HEAD
-
-      public int getProgressStageListCount() {
-        return progressStageList_.size();
-      }
-
-      public int getProgressStageList(int index) {
-        return progressStageList_.getInt(index);
-      }
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -874,7 +810,6 @@ public final class GadgetPlayInfoOuterClass {
        * @param value The progressStageList to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setProgressStageList(
           int index, int value) {
         ensureProgressStageListIsMutable();
@@ -882,9 +817,6 @@ public final class GadgetPlayInfoOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -894,16 +826,12 @@ public final class GadgetPlayInfoOuterClass {
        * @param value The progressStageList to add.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder addProgressStageList(int value) {
         ensureProgressStageListIsMutable();
         progressStageList_.addInt(value);
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -913,7 +841,6 @@ public final class GadgetPlayInfoOuterClass {
        * @param values The progressStageList to add.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder addAllProgressStageList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureProgressStageListIsMutable();
@@ -922,9 +849,6 @@ public final class GadgetPlayInfoOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -933,7 +857,6 @@ public final class GadgetPlayInfoOuterClass {
        * <code>repeated uint32 progress_stage_list = 3;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearProgressStageList() {
         progressStageList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -942,9 +865,6 @@ public final class GadgetPlayInfoOuterClass {
       }
 
       private int duration_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -953,14 +873,10 @@ public final class GadgetPlayInfoOuterClass {
        * <code>uint32 duration = 2;</code>
        * @return The duration.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getDuration() {
         return duration_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -970,16 +886,12 @@ public final class GadgetPlayInfoOuterClass {
        * @param value The duration to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setDuration(int value) {
-
+        
         duration_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -988,18 +900,14 @@ public final class GadgetPlayInfoOuterClass {
        * <code>uint32 duration = 2;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearDuration() {
-
+        
         duration_ = 0;
         onChanged();
         return this;
       }
 
       private int startTime_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1008,14 +916,10 @@ public final class GadgetPlayInfoOuterClass {
        * <code>uint32 start_time = 5;</code>
        * @return The startTime.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getStartTime() {
         return startTime_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1025,16 +929,12 @@ public final class GadgetPlayInfoOuterClass {
        * @param value The startTime to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setStartTime(int value) {
-
+        
         startTime_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1043,18 +943,14 @@ public final class GadgetPlayInfoOuterClass {
        * <code>uint32 start_time = 5;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearStartTime() {
-
+        
         startTime_ = 0;
         onChanged();
         return this;
       }
 
       private int playType_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1063,14 +959,10 @@ public final class GadgetPlayInfoOuterClass {
        * <code>uint32 play_type = 1;</code>
        * @return The playType.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getPlayType() {
         return playType_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1080,16 +972,12 @@ public final class GadgetPlayInfoOuterClass {
        * @param value The playType to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setPlayType(int value) {
-
+        
         playType_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1098,18 +986,14 @@ public final class GadgetPlayInfoOuterClass {
        * <code>uint32 play_type = 1;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearPlayType() {
-
+        
         playType_ = 0;
         onChanged();
         return this;
       }
 
       private int startCd_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1118,14 +1002,10 @@ public final class GadgetPlayInfoOuterClass {
        * <code>uint32 start_cd = 4;</code>
        * @return The startCd.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getStartCd() {
         return startCd_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1135,16 +1015,12 @@ public final class GadgetPlayInfoOuterClass {
        * @param value The startCd to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setStartCd(int value) {
-
+        
         startCd_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1153,18 +1029,14 @@ public final class GadgetPlayInfoOuterClass {
        * <code>uint32 start_cd = 4;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearStartCd() {
-
+        
         startCd_ = 0;
         onChanged();
         return this;
       }
 
       private int progress_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1173,14 +1045,10 @@ public final class GadgetPlayInfoOuterClass {
        * <code>uint32 progress = 6;</code>
        * @return The progress.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getProgress() {
         return progress_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1190,16 +1058,12 @@ public final class GadgetPlayInfoOuterClass {
        * @param value The progress to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setProgress(int value) {
-
+        
         progress_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1208,9 +1072,8 @@ public final class GadgetPlayInfoOuterClass {
        * <code>uint32 progress = 6;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearProgress() {
-
+        
         progress_ = 0;
         onChanged();
         return this;
@@ -1226,6 +1089,7 @@ public final class GadgetPlayInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:GadgetPlayInfo)
     }
@@ -1269,7 +1133,7 @@ public final class GadgetPlayInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GadgetPlayInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GadgetPlayInfo_fieldAccessorTable;
 

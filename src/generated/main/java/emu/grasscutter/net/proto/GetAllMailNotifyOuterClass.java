@@ -18,8 +18,6 @@ public final class GetAllMailNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:GetAllMailNotify)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0    
@@ -28,7 +26,6 @@ public final class GetAllMailNotifyOuterClass {
      * <code>bool is_collected = 8;</code>
      * @return The isCollected.
      */
->>>>>>> origin/6.5.0
     boolean getIsCollected();
   }
   /**
@@ -115,9 +112,6 @@ public final class GetAllMailNotifyOuterClass {
 
     public static final int IS_COLLECTED_FIELD_NUMBER = 8;
     private boolean isCollected_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0    
@@ -126,7 +120,6 @@ public final class GetAllMailNotifyOuterClass {
      * <code>bool is_collected = 8;</code>
      * @return The isCollected.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsCollected() {
       return isCollected_;
@@ -436,9 +429,6 @@ public final class GetAllMailNotifyOuterClass {
       }
 
       private boolean isCollected_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0    
@@ -447,14 +437,10 @@ public final class GetAllMailNotifyOuterClass {
        * <code>bool is_collected = 8;</code>
        * @return The isCollected.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsCollected() {
         return isCollected_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0    
@@ -464,16 +450,12 @@ public final class GetAllMailNotifyOuterClass {
        * @param value The isCollected to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setIsCollected(boolean value) {
-
+        
         isCollected_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0    
@@ -482,9 +464,8 @@ public final class GetAllMailNotifyOuterClass {
        * <code>bool is_collected = 8;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearIsCollected() {
-
+        
         isCollected_ = false;
         onChanged();
         return this;
@@ -500,6 +481,7 @@ public final class GetAllMailNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:GetAllMailNotify)
     }
@@ -543,7 +525,7 @@ public final class GetAllMailNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetAllMailNotify_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetAllMailNotify_fieldAccessorTable;
 

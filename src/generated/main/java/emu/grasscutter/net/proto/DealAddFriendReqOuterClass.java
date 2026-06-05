@@ -18,12 +18,6 @@ public final class DealAddFriendReqOuterClass {
       // @@protoc_insertion_point(interface_extends:DealAddFriendReq)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    int getDealAddFriendResultValue();
-
-    emu.grasscutter.net.proto.DealAddFriendResultTypeOuterClass.DealAddFriendResultType getDealAddFriendResult();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -51,7 +45,6 @@ public final class DealAddFriendReqOuterClass {
      * <code>uint32 target_uid = 4;</code>
      * @return The targetUid.
      */
->>>>>>> origin/6.5.0
     int getTargetUid();
   }
   /**
@@ -104,15 +97,15 @@ public final class DealAddFriendReqOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
-              int rawValue = input.readEnum();
+            case 32: {
 
-              dealAddFriendResult_ = rawValue;
+              targetUid_ = input.readUInt32();
               break;
             }
             case 112: {
+              int rawValue = input.readEnum();
 
-              targetUid_ = input.readUInt32();
+              dealAddFriendResult_ = rawValue;
               break;
             }
             default: {
@@ -147,15 +140,8 @@ public final class DealAddFriendReqOuterClass {
               emu.grasscutter.net.proto.DealAddFriendReqOuterClass.DealAddFriendReq.class, emu.grasscutter.net.proto.DealAddFriendReqOuterClass.DealAddFriendReq.Builder.class);
     }
 
-    public static final int DEAL_ADD_FRIEND_RESULT_FIELD_NUMBER = 6;
+    public static final int DEAL_ADD_FRIEND_RESULT_FIELD_NUMBER = 14;
     private int dealAddFriendResult_;
-<<<<<<< HEAD
-
-    @java.lang.Override public int getDealAddFriendResultValue() {
-      return dealAddFriendResult_;
-    }
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -175,18 +161,14 @@ public final class DealAddFriendReqOuterClass {
      * <code>.DealAddFriendResultType deal_add_friend_result = 14;</code>
      * @return The dealAddFriendResult.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override public emu.grasscutter.net.proto.DealAddFriendResultTypeOuterClass.DealAddFriendResultType getDealAddFriendResult() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.DealAddFriendResultTypeOuterClass.DealAddFriendResultType result = emu.grasscutter.net.proto.DealAddFriendResultTypeOuterClass.DealAddFriendResultType.valueOf(dealAddFriendResult_);
       return result == null ? emu.grasscutter.net.proto.DealAddFriendResultTypeOuterClass.DealAddFriendResultType.UNRECOGNIZED : result;
     }
 
-    public static final int TARGET_UID_FIELD_NUMBER = 14;
+    public static final int TARGET_UID_FIELD_NUMBER = 4;
     private int targetUid_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -195,7 +177,6 @@ public final class DealAddFriendReqOuterClass {
      * <code>uint32 target_uid = 4;</code>
      * @return The targetUid.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getTargetUid() {
       return targetUid_;
@@ -216,10 +197,10 @@ public final class DealAddFriendReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (targetUid_ != 0) {
-        output.writeUInt32(14, targetUid_);
+        output.writeUInt32(4, targetUid_);
       }
       if (dealAddFriendResult_ != emu.grasscutter.net.proto.DealAddFriendResultTypeOuterClass.DealAddFriendResultType.DealAddFriendResultType_DEAL_ADD_FRIEND_REJECT.getNumber()) {
-        output.writeEnum(6, dealAddFriendResult_);
+        output.writeEnum(14, dealAddFriendResult_);
       }
       unknownFields.writeTo(output);
     }
@@ -232,11 +213,11 @@ public final class DealAddFriendReqOuterClass {
       size = 0;
       if (targetUid_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, targetUid_);
+          .computeUInt32Size(4, targetUid_);
       }
       if (dealAddFriendResult_ != emu.grasscutter.net.proto.DealAddFriendResultTypeOuterClass.DealAddFriendResultType.DealAddFriendResultType_DEAL_ADD_FRIEND_REJECT.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(6, dealAddFriendResult_);
+          .computeEnumSize(14, dealAddFriendResult_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -524,13 +505,6 @@ public final class DealAddFriendReqOuterClass {
       }
 
       private int dealAddFriendResult_ = 0;
-<<<<<<< HEAD
-
-      @java.lang.Override public int getDealAddFriendResultValue() {
-        return dealAddFriendResult_;
-      }
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -551,16 +525,12 @@ public final class DealAddFriendReqOuterClass {
        * @param value The enum numeric value on the wire for dealAddFriendResult to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setDealAddFriendResultValue(int value) {
-
+        
         dealAddFriendResult_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -569,16 +539,12 @@ public final class DealAddFriendReqOuterClass {
        * <code>.DealAddFriendResultType deal_add_friend_result = 14;</code>
        * @return The dealAddFriendResult.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.DealAddFriendResultTypeOuterClass.DealAddFriendResultType getDealAddFriendResult() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.DealAddFriendResultTypeOuterClass.DealAddFriendResultType result = emu.grasscutter.net.proto.DealAddFriendResultTypeOuterClass.DealAddFriendResultType.valueOf(dealAddFriendResult_);
         return result == null ? emu.grasscutter.net.proto.DealAddFriendResultTypeOuterClass.DealAddFriendResultType.UNRECOGNIZED : result;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -588,19 +554,15 @@ public final class DealAddFriendReqOuterClass {
        * @param value The dealAddFriendResult to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setDealAddFriendResult(emu.grasscutter.net.proto.DealAddFriendResultTypeOuterClass.DealAddFriendResultType value) {
         if (value == null) {
           throw new NullPointerException();
         }
-
+        
         dealAddFriendResult_ = value.getNumber();
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -609,18 +571,14 @@ public final class DealAddFriendReqOuterClass {
        * <code>.DealAddFriendResultType deal_add_friend_result = 14;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearDealAddFriendResult() {
-
+        
         dealAddFriendResult_ = 0;
         onChanged();
         return this;
       }
 
       private int targetUid_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -629,14 +587,10 @@ public final class DealAddFriendReqOuterClass {
        * <code>uint32 target_uid = 4;</code>
        * @return The targetUid.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getTargetUid() {
         return targetUid_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -646,16 +600,12 @@ public final class DealAddFriendReqOuterClass {
        * @param value The targetUid to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setTargetUid(int value) {
-
+        
         targetUid_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -664,9 +614,8 @@ public final class DealAddFriendReqOuterClass {
        * <code>uint32 target_uid = 4;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearTargetUid() {
-
+        
         targetUid_ = 0;
         onChanged();
         return this;
@@ -682,6 +631,7 @@ public final class DealAddFriendReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:DealAddFriendReq)
     }
@@ -725,7 +675,7 @@ public final class DealAddFriendReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_DealAddFriendReq_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_DealAddFriendReq_fieldAccessorTable;
 

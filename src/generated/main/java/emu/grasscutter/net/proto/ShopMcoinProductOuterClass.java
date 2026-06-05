@@ -54,8 +54,6 @@ public final class ShopMcoinProductOuterClass {
      */
     boolean getLJHCFCNMEFF();
 
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -64,7 +62,6 @@ public final class ShopMcoinProductOuterClass {
      * <code>uint32 bought_num = 6;</code>
      * @return The boughtNum.
      */
->>>>>>> origin/6.5.0
     int getBoughtNum();
 
     /**
@@ -207,7 +204,7 @@ public final class ShopMcoinProductOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         iDMEPGKNPNM_ = s;
@@ -223,7 +220,7 @@ public final class ShopMcoinProductOuterClass {
         getIDMEPGKNPNMBytes() {
       java.lang.Object ref = iDMEPGKNPNM_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         iDMEPGKNPNM_ = b;
@@ -245,7 +242,7 @@ public final class ShopMcoinProductOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs =
+        com.google.protobuf.ByteString bs = 
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         nAFPACJOABI_ = s;
@@ -261,7 +258,7 @@ public final class ShopMcoinProductOuterClass {
         getNAFPACJOABIBytes() {
       java.lang.Object ref = nAFPACJOABI_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b =
+        com.google.protobuf.ByteString b = 
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         nAFPACJOABI_ = b;
@@ -295,9 +292,6 @@ public final class ShopMcoinProductOuterClass {
 
     public static final int BOUGHT_NUM_FIELD_NUMBER = 6;
     private int boughtNum_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -306,7 +300,6 @@ public final class ShopMcoinProductOuterClass {
      * <code>uint32 bought_num = 6;</code>
      * @return The boughtNum.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getBoughtNum() {
       return boughtNum_;
@@ -764,7 +757,7 @@ public final class ShopMcoinProductOuterClass {
           getIDMEPGKNPNMBytes() {
         java.lang.Object ref = iDMEPGKNPNM_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           iDMEPGKNPNM_ = b;
@@ -783,7 +776,7 @@ public final class ShopMcoinProductOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         iDMEPGKNPNM_ = value;
         onChanged();
         return this;
@@ -793,7 +786,7 @@ public final class ShopMcoinProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIDMEPGKNPNM() {
-
+        
         iDMEPGKNPNM_ = getDefaultInstance().getIDMEPGKNPNM();
         onChanged();
         return this;
@@ -809,7 +802,7 @@ public final class ShopMcoinProductOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+        
         iDMEPGKNPNM_ = value;
         onChanged();
         return this;
@@ -840,7 +833,7 @@ public final class ShopMcoinProductOuterClass {
           getNAFPACJOABIBytes() {
         java.lang.Object ref = nAFPACJOABI_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b =
+          com.google.protobuf.ByteString b = 
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           nAFPACJOABI_ = b;
@@ -859,7 +852,7 @@ public final class ShopMcoinProductOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-
+  
         nAFPACJOABI_ = value;
         onChanged();
         return this;
@@ -869,7 +862,7 @@ public final class ShopMcoinProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNAFPACJOABI() {
-
+        
         nAFPACJOABI_ = getDefaultInstance().getNAFPACJOABI();
         onChanged();
         return this;
@@ -885,7 +878,7 @@ public final class ShopMcoinProductOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-
+        
         nAFPACJOABI_ = value;
         onChanged();
         return this;
@@ -906,7 +899,7 @@ public final class ShopMcoinProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOELBCALLHGE(int value) {
-
+        
         oELBCALLHGE_ = value;
         onChanged();
         return this;
@@ -916,7 +909,7 @@ public final class ShopMcoinProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOELBCALLHGE() {
-
+        
         oELBCALLHGE_ = 0;
         onChanged();
         return this;
@@ -937,7 +930,7 @@ public final class ShopMcoinProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLJHCFCNMEFF(boolean value) {
-
+        
         lJHCFCNMEFF_ = value;
         onChanged();
         return this;
@@ -947,16 +940,13 @@ public final class ShopMcoinProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLJHCFCNMEFF() {
-
+        
         lJHCFCNMEFF_ = false;
         onChanged();
         return this;
       }
 
       private int boughtNum_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -965,14 +955,10 @@ public final class ShopMcoinProductOuterClass {
        * <code>uint32 bought_num = 6;</code>
        * @return The boughtNum.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getBoughtNum() {
         return boughtNum_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -982,16 +968,12 @@ public final class ShopMcoinProductOuterClass {
        * @param value The boughtNum to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setBoughtNum(int value) {
-
+        
         boughtNum_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -1000,9 +982,8 @@ public final class ShopMcoinProductOuterClass {
        * <code>uint32 bought_num = 6;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearBoughtNum() {
-
+        
         boughtNum_ = 0;
         onChanged();
         return this;
@@ -1023,7 +1004,7 @@ public final class ShopMcoinProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIPOJPAFAEPM(int value) {
-
+        
         iPOJPAFAEPM_ = value;
         onChanged();
         return this;
@@ -1033,7 +1014,7 @@ public final class ShopMcoinProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIPOJPAFAEPM() {
-
+        
         iPOJPAFAEPM_ = 0;
         onChanged();
         return this;
@@ -1054,7 +1035,7 @@ public final class ShopMcoinProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOLMNNBOLLJP(int value) {
-
+        
         oLMNNBOLLJP_ = value;
         onChanged();
         return this;
@@ -1064,7 +1045,7 @@ public final class ShopMcoinProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOLMNNBOLLJP() {
-
+        
         oLMNNBOLLJP_ = 0;
         onChanged();
         return this;
@@ -1080,6 +1061,7 @@ public final class ShopMcoinProductOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:ShopMcoinProduct)
     }
@@ -1123,7 +1105,7 @@ public final class ShopMcoinProductOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ShopMcoinProduct_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ShopMcoinProduct_fieldAccessorTable;
 

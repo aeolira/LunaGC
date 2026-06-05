@@ -176,7 +176,7 @@ public final class ChannellerSlabLoopDungeonResultInfoOuterClass {
       return dungeonIndex_;
     }
 
-    public static final int IS_SUCCESS_FIELD_NUMBER = 6;
+    public static final int IS_SUCCESS_FIELD_NUMBER = 10;
     private boolean isSuccess_;
     /**
      * <code>bool is_success = 10;</code>
@@ -187,7 +187,7 @@ public final class ChannellerSlabLoopDungeonResultInfoOuterClass {
       return isSuccess_;
     }
 
-    public static final int IS_IN_TIME_LIMIT_FIELD_NUMBER = 4;
+    public static final int IS_IN_TIME_LIMIT_FIELD_NUMBER = 7;
     private boolean isInTimeLimit_;
     /**
      * <code>bool is_in_time_limit = 7;</code>
@@ -230,10 +230,10 @@ public final class ChannellerSlabLoopDungeonResultInfoOuterClass {
         output.writeUInt32(4, challengeMaxScore_);
       }
       if (isInTimeLimit_ != false) {
-        output.writeBool(4, isInTimeLimit_);
+        output.writeBool(7, isInTimeLimit_);
       }
       if (isSuccess_ != false) {
-        output.writeBool(6, isSuccess_);
+        output.writeBool(10, isSuccess_);
       }
       if (dungeonIndex_ != 0) {
         output.writeUInt32(11, dungeonIndex_);
@@ -257,11 +257,11 @@ public final class ChannellerSlabLoopDungeonResultInfoOuterClass {
       }
       if (isInTimeLimit_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(4, isInTimeLimit_);
+          .computeBoolSize(7, isInTimeLimit_);
       }
       if (isSuccess_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(6, isSuccess_);
+          .computeBoolSize(10, isSuccess_);
       }
       if (dungeonIndex_ != 0) {
         size += com.google.protobuf.CodedOutputStream

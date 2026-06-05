@@ -18,10 +18,6 @@ public final class ActivityInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:ActivityInfo)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    int getActivityCoinMapCount();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -37,7 +33,6 @@ public final class ActivityInfoOuterClass {
      *
      * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
      */
->>>>>>> origin/6.5.0
     boolean containsActivityCoinMap(
         int key);
     /**
@@ -46,11 +41,6 @@ public final class ActivityInfoOuterClass {
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getActivityCoinMap();
-<<<<<<< HEAD
-
-    java.util.Map<java.lang.Integer, java.lang.Integer>
-    getActivityCoinMapMap();
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -67,13 +57,10 @@ public final class ActivityInfoOuterClass {
      *
      * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
      */
->>>>>>> origin/6.5.0
 
     int getActivityCoinMapOrDefault(
         int key,
         int defaultValue);
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -81,23 +68,10 @@ public final class ActivityInfoOuterClass {
      *
      * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
      */
->>>>>>> origin/6.5.0
 
     int getActivityCoinMapOrThrow(
         int key);
 
-<<<<<<< HEAD
-    java.util.List<emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo>
-        getWatcherInfoListList();
-
-    emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo getWatcherInfoList(int index);
-
-    int getWatcherInfoListCount();
-
-    java.util.List<? extends emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfoOrBuilder>
-        getWatcherInfoListOrBuilderList();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0         
@@ -139,7 +113,6 @@ public final class ActivityInfoOuterClass {
      *
      * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
      */
->>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfoOrBuilder getWatcherInfoListOrBuilder(
         int index);
 
@@ -177,23 +150,6 @@ public final class ActivityInfoOuterClass {
      */
     int getNINFIOLKLCJ(int index);
 
-<<<<<<< HEAD
-    java.util.List<emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData>
-        getActivityPushTipsDataListList();
-
-    emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData getActivityPushTipsDataList(int index);
-
-    int getActivityPushTipsDataListCount();
-
-    java.util.List<? extends emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsDataOrBuilder>
-        getActivityPushTipsDataListOrBuilderList();
-
-    emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsDataOrBuilder getActivityPushTipsDataListOrBuilder(
-        int index);
-
-    int getWishGiftNumMapCount();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0         
@@ -253,7 +209,6 @@ public final class ActivityInfoOuterClass {
      *
      * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
      */
->>>>>>> origin/6.5.0
     boolean containsWishGiftNumMap(
         int key);
     /**
@@ -262,11 +217,6 @@ public final class ActivityInfoOuterClass {
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getWishGiftNumMap();
-<<<<<<< HEAD
-
-    java.util.Map<java.lang.Integer, java.lang.Integer>
-    getWishGiftNumMapMap();
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -283,13 +233,10 @@ public final class ActivityInfoOuterClass {
      *
      * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
      */
->>>>>>> origin/6.5.0
 
     int getWishGiftNumMapOrDefault(
         int key,
         int defaultValue);
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -297,7 +244,6 @@ public final class ActivityInfoOuterClass {
      *
      * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
      */
->>>>>>> origin/6.5.0
 
     int getWishGiftNumMapOrThrow(
         int key);
@@ -334,12 +280,6 @@ public final class ActivityInfoOuterClass {
      */
     int getFLDFIFJDGDB(int index);
 
-<<<<<<< HEAD
-    java.util.List<java.lang.Integer> getMeetCondListList();
-
-    int getMeetCondListCount();
-
-=======
     /**
      * <pre>
      *6.5.5  
@@ -367,7 +307,6 @@ public final class ActivityInfoOuterClass {
      * @param index The index of the element to return.
      * @return The meetCondList at the given index.
      */
->>>>>>> origin/6.5.0
     int getMeetCondList(int index);
 
     /**
@@ -405,8 +344,6 @@ public final class ActivityInfoOuterClass {
      */
     long getGJLKEBPOEEA(int index);
 
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0         
@@ -415,7 +352,6 @@ public final class ActivityInfoOuterClass {
      * <code>uint32 cur_score = 1217;</code>
      * @return The curScore.
      */
->>>>>>> origin/6.5.0
     int getCurScore();
 
     /**
@@ -424,8 +360,6 @@ public final class ActivityInfoOuterClass {
      */
     int getLEOKOPDKDBE();
 
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -434,7 +368,6 @@ public final class ActivityInfoOuterClass {
      * <code>uint32 activity_id = 4;</code>
      * @return The activityId.
      */
->>>>>>> origin/6.5.0
     int getActivityId();
 
     /**
@@ -443,14 +376,6 @@ public final class ActivityInfoOuterClass {
      */
     long getLFPOBIAKJJN();
 
-<<<<<<< HEAD
-    int getFirstDayStartTime();
-
-    int getScheduleId();
-
-    int getEndTime();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0  
@@ -489,7 +414,6 @@ public final class ActivityInfoOuterClass {
      * <code>uint32 begin_time = 2;</code>
      * @return The beginTime.
      */
->>>>>>> origin/6.5.0
     int getBeginTime();
 
     /**
@@ -504,8 +428,6 @@ public final class ActivityInfoOuterClass {
      */
     int getLNIECLNEDCG();
 
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -514,7 +436,6 @@ public final class ActivityInfoOuterClass {
      * <code>bool is_finished = 11;</code>
      * @return The isFinished.
      */
->>>>>>> origin/6.5.0
     boolean getIsFinished();
 
     /**
@@ -535,8 +456,6 @@ public final class ActivityInfoOuterClass {
      */
     boolean getDAGKEOCNIKO();
 
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0  
@@ -545,7 +464,6 @@ public final class ActivityInfoOuterClass {
      * <code>uint32 activity_type = 13;</code>
      * @return The activityType.
      */
->>>>>>> origin/6.5.0
     int getActivityType();
 
     /**
@@ -560,18 +478,6 @@ public final class ActivityInfoOuterClass {
      */
     boolean getAHPPKGFBJDK();
 
-<<<<<<< HEAD
-    boolean hasMusicGameInfo();
-
-    emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo getMusicGameInfo();
-
-    emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfoOrBuilder getMusicGameInfoOrBuilder();
-
-    boolean hasBubbleDramaDetailInfo();
-
-    emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo getBubbleDramaDetailInfo();
-
-=======
     /**
      * <pre>
      * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
@@ -708,7 +614,6 @@ public final class ActivityInfoOuterClass {
      *
      * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
      */
->>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfoOrBuilder getBubbleDramaDetailInfoOrBuilder();
 
     public emu.grasscutter.net.proto.ActivityInfoOuterClass.ActivityInfo.DetailCase getDetailCase();
@@ -1160,7 +1065,7 @@ public final class ActivityInfoOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.ActivityInfoOuterClass.internal_static_ActivityInfo_ActivityCoinMapEntry_descriptor,
+                  emu.grasscutter.net.proto.ActivityInfoOuterClass.internal_static_ActivityInfo_ActivityCoinMapEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -1180,8 +1085,6 @@ public final class ActivityInfoOuterClass {
     public int getActivityCoinMapCount() {
       return internalGetActivityCoinMap().getMap().size();
     }
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -1189,12 +1092,11 @@ public final class ActivityInfoOuterClass {
      *
      * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
      */
->>>>>>> origin/6.5.0
 
     @java.lang.Override
     public boolean containsActivityCoinMap(
         int key) {
-
+      
       return internalGetActivityCoinMap().getMap().containsKey(key);
     }
     /**
@@ -1205,9 +1107,6 @@ public final class ActivityInfoOuterClass {
     public java.util.Map<java.lang.Integer, java.lang.Integer> getActivityCoinMap() {
       return getActivityCoinMapMap();
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -1215,15 +1114,11 @@ public final class ActivityInfoOuterClass {
      *
      * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
 
     public java.util.Map<java.lang.Integer, java.lang.Integer> getActivityCoinMapMap() {
       return internalGetActivityCoinMap().getMap();
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -1231,20 +1126,16 @@ public final class ActivityInfoOuterClass {
      *
      * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
 
     public int getActivityCoinMapOrDefault(
         int key,
         int defaultValue) {
-
+      
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetActivityCoinMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -1252,12 +1143,11 @@ public final class ActivityInfoOuterClass {
      *
      * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
 
     public int getActivityCoinMapOrThrow(
         int key) {
-
+      
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetActivityCoinMap().getMap();
       if (!map.containsKey(key)) {
@@ -1268,9 +1158,6 @@ public final class ActivityInfoOuterClass {
 
     public static final int WATCHER_INFO_LIST_FIELD_NUMBER = 3;
     private java.util.List<emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo> watcherInfoList_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0         
@@ -1278,14 +1165,10 @@ public final class ActivityInfoOuterClass {
      *
      * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo> getWatcherInfoListList() {
       return watcherInfoList_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0         
@@ -1293,15 +1176,11 @@ public final class ActivityInfoOuterClass {
      *
      * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfoOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfoOrBuilder> 
         getWatcherInfoListOrBuilderList() {
       return watcherInfoList_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0         
@@ -1309,14 +1188,10 @@ public final class ActivityInfoOuterClass {
      *
      * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getWatcherInfoListCount() {
       return watcherInfoList_.size();
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0         
@@ -1324,14 +1199,10 @@ public final class ActivityInfoOuterClass {
      *
      * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo getWatcherInfoList(int index) {
       return watcherInfoList_.get(index);
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0         
@@ -1339,7 +1210,6 @@ public final class ActivityInfoOuterClass {
      *
      * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfoOrBuilder getWatcherInfoListOrBuilder(
         int index) {
@@ -1404,9 +1274,6 @@ public final class ActivityInfoOuterClass {
 
     public static final int ACTIVITY_PUSH_TIPS_DATA_LIST_FIELD_NUMBER = 1234;
     private java.util.List<emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData> activityPushTipsDataList_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0         
@@ -1414,14 +1281,10 @@ public final class ActivityInfoOuterClass {
      *
      * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData> getActivityPushTipsDataListList() {
       return activityPushTipsDataList_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0         
@@ -1429,15 +1292,11 @@ public final class ActivityInfoOuterClass {
      *
      * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsDataOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsDataOrBuilder> 
         getActivityPushTipsDataListOrBuilderList() {
       return activityPushTipsDataList_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0         
@@ -1445,14 +1304,10 @@ public final class ActivityInfoOuterClass {
      *
      * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getActivityPushTipsDataListCount() {
       return activityPushTipsDataList_.size();
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0         
@@ -1460,14 +1315,10 @@ public final class ActivityInfoOuterClass {
      *
      * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData getActivityPushTipsDataList(int index) {
       return activityPushTipsDataList_.get(index);
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0         
@@ -1475,7 +1326,6 @@ public final class ActivityInfoOuterClass {
      *
      * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsDataOrBuilder getActivityPushTipsDataListOrBuilder(
         int index) {
@@ -1488,7 +1338,7 @@ public final class ActivityInfoOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.ActivityInfoOuterClass.internal_static_ActivityInfo_WishGiftNumMapEntry_descriptor,
+                  emu.grasscutter.net.proto.ActivityInfoOuterClass.internal_static_ActivityInfo_WishGiftNumMapEntry_descriptor, 
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -1508,8 +1358,6 @@ public final class ActivityInfoOuterClass {
     public int getWishGiftNumMapCount() {
       return internalGetWishGiftNumMap().getMap().size();
     }
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -1517,12 +1365,11 @@ public final class ActivityInfoOuterClass {
      *
      * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
      */
->>>>>>> origin/6.5.0
 
     @java.lang.Override
     public boolean containsWishGiftNumMap(
         int key) {
-
+      
       return internalGetWishGiftNumMap().getMap().containsKey(key);
     }
     /**
@@ -1533,9 +1380,6 @@ public final class ActivityInfoOuterClass {
     public java.util.Map<java.lang.Integer, java.lang.Integer> getWishGiftNumMap() {
       return getWishGiftNumMapMap();
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -1543,15 +1387,11 @@ public final class ActivityInfoOuterClass {
      *
      * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
 
     public java.util.Map<java.lang.Integer, java.lang.Integer> getWishGiftNumMapMap() {
       return internalGetWishGiftNumMap().getMap();
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -1559,20 +1399,16 @@ public final class ActivityInfoOuterClass {
      *
      * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
 
     public int getWishGiftNumMapOrDefault(
         int key,
         int defaultValue) {
-
+      
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetWishGiftNumMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -1580,12 +1416,11 @@ public final class ActivityInfoOuterClass {
      *
      * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
 
     public int getWishGiftNumMapOrThrow(
         int key) {
-
+      
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetWishGiftNumMap().getMap();
       if (!map.containsKey(key)) {
@@ -1650,9 +1485,6 @@ public final class ActivityInfoOuterClass {
 
     public static final int MEET_COND_LIST_FIELD_NUMBER = 6;
     private com.google.protobuf.Internal.IntList meetCondList_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5  
@@ -1661,19 +1493,11 @@ public final class ActivityInfoOuterClass {
      * <code>repeated uint32 meet_cond_list = 6;</code>
      * @return A list containing the meetCondList.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getMeetCondListList() {
       return meetCondList_;
     }
-<<<<<<< HEAD
-
-    public int getMeetCondListCount() {
-      return meetCondList_.size();
-    }
-
-=======
     /**
      * <pre>
      *6.5.5  
@@ -1694,7 +1518,6 @@ public final class ActivityInfoOuterClass {
      * @param index The index of the element to return.
      * @return The meetCondList at the given index.
      */
->>>>>>> origin/6.5.0
     public int getMeetCondList(int index) {
       return meetCondList_.getInt(index);
     }
@@ -1748,9 +1571,6 @@ public final class ActivityInfoOuterClass {
 
     public static final int CUR_SCORE_FIELD_NUMBER = 1217;
     private int curScore_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0         
@@ -1759,7 +1579,6 @@ public final class ActivityInfoOuterClass {
      * <code>uint32 cur_score = 1217;</code>
      * @return The curScore.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCurScore() {
       return curScore_;
@@ -1776,11 +1595,8 @@ public final class ActivityInfoOuterClass {
       return lEOKOPDKDBE_;
     }
 
-    public static final int ACTIVITY_ID_FIELD_NUMBER = 5;
+    public static final int ACTIVITY_ID_FIELD_NUMBER = 4;
     private int activityId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1789,7 +1605,6 @@ public final class ActivityInfoOuterClass {
      * <code>uint32 activity_id = 4;</code>
      * @return The activityId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getActivityId() {
       return activityId_;
@@ -1808,9 +1623,6 @@ public final class ActivityInfoOuterClass {
 
     public static final int FIRST_DAY_START_TIME_FIELD_NUMBER = 795;
     private int firstDayStartTime_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0  
@@ -1819,17 +1631,13 @@ public final class ActivityInfoOuterClass {
      * <code>uint32 first_day_start_time = 795;</code>
      * @return The firstDayStartTime.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getFirstDayStartTime() {
       return firstDayStartTime_;
     }
 
-    public static final int SCHEDULE_ID_FIELD_NUMBER = 9;
+    public static final int SCHEDULE_ID_FIELD_NUMBER = 1;
     private int scheduleId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -1838,17 +1646,13 @@ public final class ActivityInfoOuterClass {
      * <code>uint32 schedule_id = 1;</code>
      * @return The scheduleId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getScheduleId() {
       return scheduleId_;
     }
 
-    public static final int END_TIME_FIELD_NUMBER = 2;
+    public static final int END_TIME_FIELD_NUMBER = 5;
     private int endTime_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -1857,17 +1661,13 @@ public final class ActivityInfoOuterClass {
      * <code>uint32 end_time = 5;</code>
      * @return The endTime.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getEndTime() {
       return endTime_;
     }
 
-    public static final int BEGIN_TIME_FIELD_NUMBER = 14;
+    public static final int BEGIN_TIME_FIELD_NUMBER = 2;
     private int beginTime_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -1876,7 +1676,6 @@ public final class ActivityInfoOuterClass {
      * <code>uint32 begin_time = 2;</code>
      * @return The beginTime.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getBeginTime() {
       return beginTime_;
@@ -1904,11 +1703,8 @@ public final class ActivityInfoOuterClass {
       return lNIECLNEDCG_;
     }
 
-    public static final int IS_FINISHED_FIELD_NUMBER = 3;
+    public static final int IS_FINISHED_FIELD_NUMBER = 11;
     private boolean isFinished_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -1917,7 +1713,6 @@ public final class ActivityInfoOuterClass {
      * <code>bool is_finished = 11;</code>
      * @return The isFinished.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsFinished() {
       return isFinished_;
@@ -1958,9 +1753,6 @@ public final class ActivityInfoOuterClass {
 
     public static final int ACTIVITY_TYPE_FIELD_NUMBER = 13;
     private int activityType_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0  
@@ -1969,7 +1761,6 @@ public final class ActivityInfoOuterClass {
      * <code>uint32 activity_type = 13;</code>
      * @return The activityType.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getActivityType() {
       return activityType_;
@@ -1998,9 +1789,6 @@ public final class ActivityInfoOuterClass {
     }
 
     public static final int MUSIC_GAME_INFO_FIELD_NUMBER = 1472;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
@@ -2037,14 +1825,10 @@ public final class ActivityInfoOuterClass {
      * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
      * @return Whether the musicGameInfo field is set.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasMusicGameInfo() {
       return detailCase_ == 1472;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
@@ -2081,7 +1865,6 @@ public final class ActivityInfoOuterClass {
      * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
      * @return The musicGameInfo.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo getMusicGameInfo() {
       if (detailCase_ == 1472) {
@@ -2089,9 +1872,6 @@ public final class ActivityInfoOuterClass {
       }
       return emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.getDefaultInstance();
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
@@ -2127,7 +1907,6 @@ public final class ActivityInfoOuterClass {
      *
      * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfoOrBuilder getMusicGameInfoOrBuilder() {
       if (detailCase_ == 1472) {
@@ -2137,9 +1916,6 @@ public final class ActivityInfoOuterClass {
     }
 
     public static final int BUBBLE_DRAMA_DETAIL_INFO_FIELD_NUMBER = 1117;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0
@@ -2148,14 +1924,10 @@ public final class ActivityInfoOuterClass {
      * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
      * @return Whether the bubbleDramaDetailInfo field is set.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasBubbleDramaDetailInfo() {
       return detailCase_ == 1117;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0
@@ -2164,7 +1936,6 @@ public final class ActivityInfoOuterClass {
      * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
      * @return The bubbleDramaDetailInfo.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo getBubbleDramaDetailInfo() {
       if (detailCase_ == 1117) {
@@ -2172,9 +1943,6 @@ public final class ActivityInfoOuterClass {
       }
       return emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo.getDefaultInstance();
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0
@@ -2182,7 +1950,6 @@ public final class ActivityInfoOuterClass {
      *
      * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfoOrBuilder getBubbleDramaDetailInfoOrBuilder() {
       if (detailCase_ == 1117) {
@@ -2207,19 +1974,19 @@ public final class ActivityInfoOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (scheduleId_ != 0) {
-        output.writeUInt32(9, scheduleId_);
+        output.writeUInt32(1, scheduleId_);
       }
       if (beginTime_ != 0) {
-        output.writeUInt32(14, beginTime_);
+        output.writeUInt32(2, beginTime_);
       }
       for (int i = 0; i < watcherInfoList_.size(); i++) {
         output.writeMessage(3, watcherInfoList_.get(i));
       }
       if (activityId_ != 0) {
-        output.writeUInt32(5, activityId_);
+        output.writeUInt32(4, activityId_);
       }
       if (endTime_ != 0) {
-        output.writeUInt32(2, endTime_);
+        output.writeUInt32(5, endTime_);
       }
       if (getMeetCondListList().size() > 0) {
         output.writeUInt32NoTag(50);
@@ -2229,7 +1996,7 @@ public final class ActivityInfoOuterClass {
         output.writeUInt32NoTag(meetCondList_.getInt(i));
       }
       if (isFinished_ != false) {
-        output.writeBool(3, isFinished_);
+        output.writeBool(11, isFinished_);
       }
       if (activityType_ != 0) {
         output.writeUInt32(13, activityType_);
@@ -2330,11 +2097,11 @@ public final class ActivityInfoOuterClass {
       size = 0;
       if (scheduleId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, scheduleId_);
+          .computeUInt32Size(1, scheduleId_);
       }
       if (beginTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, beginTime_);
+          .computeUInt32Size(2, beginTime_);
       }
       for (int i = 0; i < watcherInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -2342,11 +2109,11 @@ public final class ActivityInfoOuterClass {
       }
       if (activityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, activityId_);
+          .computeUInt32Size(4, activityId_);
       }
       if (endTime_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, endTime_);
+          .computeUInt32Size(5, endTime_);
       }
       {
         int dataSize = 0;
@@ -2364,7 +2131,7 @@ public final class ActivityInfoOuterClass {
       }
       if (isFinished_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, isFinished_);
+          .computeBoolSize(11, isFinished_);
       }
       if (activityType_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -3106,7 +2873,7 @@ public final class ActivityInfoOuterClass {
               watcherInfoListBuilder_ = null;
               watcherInfoList_ = other.watcherInfoList_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              watcherInfoListBuilder_ =
+              watcherInfoListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getWatcherInfoListFieldBuilder() : null;
             } else {
@@ -3152,7 +2919,7 @@ public final class ActivityInfoOuterClass {
               activityPushTipsDataListBuilder_ = null;
               activityPushTipsDataList_ = other.activityPushTipsDataList_;
               bitField0_ = (bitField0_ & ~0x00000010);
-              activityPushTipsDataListBuilder_ =
+              activityPushTipsDataListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getActivityPushTipsDataListFieldBuilder() : null;
             } else {
@@ -3330,8 +3097,6 @@ public final class ActivityInfoOuterClass {
       public int getActivityCoinMapCount() {
         return internalGetActivityCoinMap().getMap().size();
       }
-<<<<<<< HEAD
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -3339,12 +3104,11 @@ public final class ActivityInfoOuterClass {
        *
        * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
        */
->>>>>>> origin/6.5.0
 
       @java.lang.Override
       public boolean containsActivityCoinMap(
           int key) {
-
+        
         return internalGetActivityCoinMap().getMap().containsKey(key);
       }
       /**
@@ -3355,9 +3119,6 @@ public final class ActivityInfoOuterClass {
       public java.util.Map<java.lang.Integer, java.lang.Integer> getActivityCoinMap() {
         return getActivityCoinMapMap();
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -3365,15 +3126,11 @@ public final class ActivityInfoOuterClass {
        *
        * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
 
       public java.util.Map<java.lang.Integer, java.lang.Integer> getActivityCoinMapMap() {
         return internalGetActivityCoinMap().getMap();
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -3381,20 +3138,16 @@ public final class ActivityInfoOuterClass {
        *
        * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
 
       public int getActivityCoinMapOrDefault(
           int key,
           int defaultValue) {
-
+        
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetActivityCoinMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -3402,12 +3155,11 @@ public final class ActivityInfoOuterClass {
        *
        * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
 
       public int getActivityCoinMapOrThrow(
           int key) {
-
+        
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetActivityCoinMap().getMap();
         if (!map.containsKey(key)) {
@@ -3421,8 +3173,6 @@ public final class ActivityInfoOuterClass {
             .clear();
         return this;
       }
-<<<<<<< HEAD
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -3430,11 +3180,10 @@ public final class ActivityInfoOuterClass {
        *
        * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
        */
->>>>>>> origin/6.5.0
 
       public Builder removeActivityCoinMap(
           int key) {
-
+        
         internalGetMutableActivityCoinMap().getMutableMap()
             .remove(key);
         return this;
@@ -3447,9 +3196,6 @@ public final class ActivityInfoOuterClass {
       getMutableActivityCoinMap() {
         return internalGetMutableActivityCoinMap().getMutableMap();
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -3457,17 +3203,15 @@ public final class ActivityInfoOuterClass {
        *
        * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
        */
->>>>>>> origin/6.5.0
       public Builder putActivityCoinMap(
           int key,
           int value) {
-
+        
+        
         internalGetMutableActivityCoinMap().getMutableMap()
             .put(key, value);
         return this;
       }
-<<<<<<< HEAD
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -3475,7 +3219,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>map&lt;uint32, uint32&gt; activity_coin_map = 1254;</code>
        */
->>>>>>> origin/6.5.0
 
       public Builder putAllActivityCoinMap(
           java.util.Map<java.lang.Integer, java.lang.Integer> values) {
@@ -3496,8 +3239,6 @@ public final class ActivityInfoOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo, emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.Builder, emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfoOrBuilder> watcherInfoListBuilder_;
 
-<<<<<<< HEAD
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -3505,7 +3246,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
        */
->>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo> getWatcherInfoListList() {
         if (watcherInfoListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(watcherInfoList_);
@@ -3513,9 +3253,6 @@ public final class ActivityInfoOuterClass {
           return watcherInfoListBuilder_.getMessageList();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -3523,7 +3260,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
        */
->>>>>>> origin/6.5.0
       public int getWatcherInfoListCount() {
         if (watcherInfoListBuilder_ == null) {
           return watcherInfoList_.size();
@@ -3531,9 +3267,6 @@ public final class ActivityInfoOuterClass {
           return watcherInfoListBuilder_.getCount();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -3541,7 +3274,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo getWatcherInfoList(int index) {
         if (watcherInfoListBuilder_ == null) {
           return watcherInfoList_.get(index);
@@ -3549,9 +3281,6 @@ public final class ActivityInfoOuterClass {
           return watcherInfoListBuilder_.getMessage(index);
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -3559,7 +3288,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setWatcherInfoList(
           int index, emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo value) {
         if (watcherInfoListBuilder_ == null) {
@@ -3574,9 +3302,6 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -3584,7 +3309,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setWatcherInfoList(
           int index, emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.Builder builderForValue) {
         if (watcherInfoListBuilder_ == null) {
@@ -3596,9 +3320,6 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -3606,7 +3327,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addWatcherInfoList(emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo value) {
         if (watcherInfoListBuilder_ == null) {
           if (value == null) {
@@ -3620,9 +3340,6 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -3630,7 +3347,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addWatcherInfoList(
           int index, emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo value) {
         if (watcherInfoListBuilder_ == null) {
@@ -3645,9 +3361,6 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -3655,7 +3368,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addWatcherInfoList(
           emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.Builder builderForValue) {
         if (watcherInfoListBuilder_ == null) {
@@ -3667,9 +3379,6 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -3677,7 +3386,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addWatcherInfoList(
           int index, emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.Builder builderForValue) {
         if (watcherInfoListBuilder_ == null) {
@@ -3689,9 +3397,6 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -3699,7 +3404,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addAllWatcherInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo> values) {
         if (watcherInfoListBuilder_ == null) {
@@ -3712,9 +3416,6 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -3722,7 +3423,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
        */
->>>>>>> origin/6.5.0
       public Builder clearWatcherInfoList() {
         if (watcherInfoListBuilder_ == null) {
           watcherInfoList_ = java.util.Collections.emptyList();
@@ -3733,9 +3433,6 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -3743,7 +3440,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
        */
->>>>>>> origin/6.5.0
       public Builder removeWatcherInfoList(int index) {
         if (watcherInfoListBuilder_ == null) {
           ensureWatcherInfoListIsMutable();
@@ -3754,9 +3450,6 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -3764,14 +3457,10 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.Builder getWatcherInfoListBuilder(
           int index) {
         return getWatcherInfoListFieldBuilder().getBuilder(index);
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -3779,7 +3468,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfoOrBuilder getWatcherInfoListOrBuilder(
           int index) {
         if (watcherInfoListBuilder_ == null) {
@@ -3787,10 +3475,6 @@ public final class ActivityInfoOuterClass {
           return watcherInfoListBuilder_.getMessageOrBuilder(index);
         }
       }
-<<<<<<< HEAD
-
-      public java.util.List<? extends emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfoOrBuilder>
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -3799,7 +3483,6 @@ public final class ActivityInfoOuterClass {
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfoOrBuilder> 
->>>>>>> origin/6.5.0
            getWatcherInfoListOrBuilderList() {
         if (watcherInfoListBuilder_ != null) {
           return watcherInfoListBuilder_.getMessageOrBuilderList();
@@ -3807,9 +3490,6 @@ public final class ActivityInfoOuterClass {
           return java.util.Collections.unmodifiableList(watcherInfoList_);
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -3817,14 +3497,10 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.Builder addWatcherInfoListBuilder() {
         return getWatcherInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.getDefaultInstance());
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -3832,16 +3508,11 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.Builder addWatcherInfoListBuilder(
           int index) {
         return getWatcherInfoListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.getDefaultInstance());
       }
-<<<<<<< HEAD
-
-      public java.util.List<emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.Builder>
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -3850,12 +3521,11 @@ public final class ActivityInfoOuterClass {
        * <code>repeated .ActivityWatcherInfo watcher_info_list = 3;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.Builder> 
->>>>>>> origin/6.5.0
            getWatcherInfoListBuilderList() {
         return getWatcherInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo, emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.Builder, emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfoOrBuilder>
+          emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo, emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfo.Builder, emu.grasscutter.net.proto.ActivityWatcherInfoOuterClass.ActivityWatcherInfoOrBuilder> 
           getWatcherInfoListFieldBuilder() {
         if (watcherInfoListBuilder_ == null) {
           watcherInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -4039,8 +3709,6 @@ public final class ActivityInfoOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData, emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData.Builder, emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsDataOrBuilder> activityPushTipsDataListBuilder_;
 
-<<<<<<< HEAD
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -4048,7 +3716,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
        */
->>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData> getActivityPushTipsDataListList() {
         if (activityPushTipsDataListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(activityPushTipsDataList_);
@@ -4056,9 +3723,6 @@ public final class ActivityInfoOuterClass {
           return activityPushTipsDataListBuilder_.getMessageList();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -4066,7 +3730,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
        */
->>>>>>> origin/6.5.0
       public int getActivityPushTipsDataListCount() {
         if (activityPushTipsDataListBuilder_ == null) {
           return activityPushTipsDataList_.size();
@@ -4074,9 +3737,6 @@ public final class ActivityInfoOuterClass {
           return activityPushTipsDataListBuilder_.getCount();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -4084,7 +3744,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData getActivityPushTipsDataList(int index) {
         if (activityPushTipsDataListBuilder_ == null) {
           return activityPushTipsDataList_.get(index);
@@ -4092,9 +3751,6 @@ public final class ActivityInfoOuterClass {
           return activityPushTipsDataListBuilder_.getMessage(index);
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -4102,7 +3758,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setActivityPushTipsDataList(
           int index, emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData value) {
         if (activityPushTipsDataListBuilder_ == null) {
@@ -4117,9 +3772,6 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -4127,7 +3779,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setActivityPushTipsDataList(
           int index, emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData.Builder builderForValue) {
         if (activityPushTipsDataListBuilder_ == null) {
@@ -4139,9 +3790,6 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -4149,7 +3797,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addActivityPushTipsDataList(emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData value) {
         if (activityPushTipsDataListBuilder_ == null) {
           if (value == null) {
@@ -4163,9 +3810,6 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -4173,7 +3817,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addActivityPushTipsDataList(
           int index, emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData value) {
         if (activityPushTipsDataListBuilder_ == null) {
@@ -4188,9 +3831,6 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -4198,7 +3838,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addActivityPushTipsDataList(
           emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData.Builder builderForValue) {
         if (activityPushTipsDataListBuilder_ == null) {
@@ -4210,9 +3849,6 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -4220,7 +3856,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addActivityPushTipsDataList(
           int index, emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData.Builder builderForValue) {
         if (activityPushTipsDataListBuilder_ == null) {
@@ -4232,9 +3867,6 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -4242,7 +3874,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addAllActivityPushTipsDataList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData> values) {
         if (activityPushTipsDataListBuilder_ == null) {
@@ -4255,9 +3886,6 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -4265,7 +3893,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
        */
->>>>>>> origin/6.5.0
       public Builder clearActivityPushTipsDataList() {
         if (activityPushTipsDataListBuilder_ == null) {
           activityPushTipsDataList_ = java.util.Collections.emptyList();
@@ -4276,9 +3903,6 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -4286,7 +3910,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
        */
->>>>>>> origin/6.5.0
       public Builder removeActivityPushTipsDataList(int index) {
         if (activityPushTipsDataListBuilder_ == null) {
           ensureActivityPushTipsDataListIsMutable();
@@ -4297,9 +3920,6 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -4307,14 +3927,10 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData.Builder getActivityPushTipsDataListBuilder(
           int index) {
         return getActivityPushTipsDataListFieldBuilder().getBuilder(index);
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -4322,7 +3938,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsDataOrBuilder getActivityPushTipsDataListOrBuilder(
           int index) {
         if (activityPushTipsDataListBuilder_ == null) {
@@ -4330,10 +3945,6 @@ public final class ActivityInfoOuterClass {
           return activityPushTipsDataListBuilder_.getMessageOrBuilder(index);
         }
       }
-<<<<<<< HEAD
-
-      public java.util.List<? extends emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsDataOrBuilder>
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -4342,7 +3953,6 @@ public final class ActivityInfoOuterClass {
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsDataOrBuilder> 
->>>>>>> origin/6.5.0
            getActivityPushTipsDataListOrBuilderList() {
         if (activityPushTipsDataListBuilder_ != null) {
           return activityPushTipsDataListBuilder_.getMessageOrBuilderList();
@@ -4350,9 +3960,6 @@ public final class ActivityInfoOuterClass {
           return java.util.Collections.unmodifiableList(activityPushTipsDataList_);
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -4360,14 +3967,10 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData.Builder addActivityPushTipsDataListBuilder() {
         return getActivityPushTipsDataListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData.getDefaultInstance());
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -4375,16 +3978,11 @@ public final class ActivityInfoOuterClass {
        *
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData.Builder addActivityPushTipsDataListBuilder(
           int index) {
         return getActivityPushTipsDataListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData.getDefaultInstance());
       }
-<<<<<<< HEAD
-
-      public java.util.List<emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData.Builder>
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -4393,12 +3991,11 @@ public final class ActivityInfoOuterClass {
        * <code>repeated .ActivityPushTipsData activity_push_tips_data_list = 1234;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData.Builder> 
->>>>>>> origin/6.5.0
            getActivityPushTipsDataListBuilderList() {
         return getActivityPushTipsDataListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData, emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData.Builder, emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsDataOrBuilder>
+          emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData, emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsData.Builder, emu.grasscutter.net.proto.ActivityPushTipsDataOuterClass.ActivityPushTipsDataOrBuilder> 
           getActivityPushTipsDataListFieldBuilder() {
         if (activityPushTipsDataListBuilder_ == null) {
           activityPushTipsDataListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -4438,8 +4035,6 @@ public final class ActivityInfoOuterClass {
       public int getWishGiftNumMapCount() {
         return internalGetWishGiftNumMap().getMap().size();
       }
-<<<<<<< HEAD
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -4447,12 +4042,11 @@ public final class ActivityInfoOuterClass {
        *
        * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
        */
->>>>>>> origin/6.5.0
 
       @java.lang.Override
       public boolean containsWishGiftNumMap(
           int key) {
-
+        
         return internalGetWishGiftNumMap().getMap().containsKey(key);
       }
       /**
@@ -4463,9 +4057,6 @@ public final class ActivityInfoOuterClass {
       public java.util.Map<java.lang.Integer, java.lang.Integer> getWishGiftNumMap() {
         return getWishGiftNumMapMap();
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -4473,15 +4064,11 @@ public final class ActivityInfoOuterClass {
        *
        * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
 
       public java.util.Map<java.lang.Integer, java.lang.Integer> getWishGiftNumMapMap() {
         return internalGetWishGiftNumMap().getMap();
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -4489,20 +4076,16 @@ public final class ActivityInfoOuterClass {
        *
        * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
 
       public int getWishGiftNumMapOrDefault(
           int key,
           int defaultValue) {
-
+        
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetWishGiftNumMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -4510,12 +4093,11 @@ public final class ActivityInfoOuterClass {
        *
        * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
 
       public int getWishGiftNumMapOrThrow(
           int key) {
-
+        
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetWishGiftNumMap().getMap();
         if (!map.containsKey(key)) {
@@ -4529,8 +4111,6 @@ public final class ActivityInfoOuterClass {
             .clear();
         return this;
       }
-<<<<<<< HEAD
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -4538,11 +4118,10 @@ public final class ActivityInfoOuterClass {
        *
        * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
        */
->>>>>>> origin/6.5.0
 
       public Builder removeWishGiftNumMap(
           int key) {
-
+        
         internalGetMutableWishGiftNumMap().getMutableMap()
             .remove(key);
         return this;
@@ -4555,9 +4134,6 @@ public final class ActivityInfoOuterClass {
       getMutableWishGiftNumMap() {
         return internalGetMutableWishGiftNumMap().getMutableMap();
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -4565,17 +4141,15 @@ public final class ActivityInfoOuterClass {
        *
        * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
        */
->>>>>>> origin/6.5.0
       public Builder putWishGiftNumMap(
           int key,
           int value) {
-
+        
+        
         internalGetMutableWishGiftNumMap().getMutableMap()
             .put(key, value);
         return this;
       }
-<<<<<<< HEAD
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -4583,7 +4157,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>map&lt;uint32, uint32&gt; wish_gift_num_map = 584;</code>
        */
->>>>>>> origin/6.5.0
 
       public Builder putAllWishGiftNumMap(
           java.util.Map<java.lang.Integer, java.lang.Integer> values) {
@@ -4679,7 +4252,7 @@ public final class ActivityInfoOuterClass {
        * <code>.BubbleDramaPlayInfo bubble_drama_play_info = 919;</code>
        */
       public emu.grasscutter.net.proto.BubbleDramaPlayInfoOuterClass.BubbleDramaPlayInfo.Builder getBubbleDramaPlayInfoBuilder() {
-
+        
         onChanged();
         return getBubbleDramaPlayInfoFieldBuilder().getBuilder();
       }
@@ -4698,7 +4271,7 @@ public final class ActivityInfoOuterClass {
        * <code>.BubbleDramaPlayInfo bubble_drama_play_info = 919;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BubbleDramaPlayInfoOuterClass.BubbleDramaPlayInfo, emu.grasscutter.net.proto.BubbleDramaPlayInfoOuterClass.BubbleDramaPlayInfo.Builder, emu.grasscutter.net.proto.BubbleDramaPlayInfoOuterClass.BubbleDramaPlayInfoOrBuilder>
+          emu.grasscutter.net.proto.BubbleDramaPlayInfoOuterClass.BubbleDramaPlayInfo, emu.grasscutter.net.proto.BubbleDramaPlayInfoOuterClass.BubbleDramaPlayInfo.Builder, emu.grasscutter.net.proto.BubbleDramaPlayInfoOuterClass.BubbleDramaPlayInfoOrBuilder> 
           getBubbleDramaPlayInfoFieldBuilder() {
         if (bubbleDramaPlayInfoBuilder_ == null) {
           bubbleDramaPlayInfoBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -4797,9 +4370,6 @@ public final class ActivityInfoOuterClass {
           bitField0_ |= 0x00000080;
          }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5  
@@ -4808,23 +4378,11 @@ public final class ActivityInfoOuterClass {
        * <code>repeated uint32 meet_cond_list = 6;</code>
        * @return A list containing the meetCondList.
        */
->>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getMeetCondListList() {
         return ((bitField0_ & 0x00000080) != 0) ?
                  java.util.Collections.unmodifiableList(meetCondList_) : meetCondList_;
       }
-<<<<<<< HEAD
-
-      public int getMeetCondListCount() {
-        return meetCondList_.size();
-      }
-
-      public int getMeetCondList(int index) {
-        return meetCondList_.getInt(index);
-      }
-
-=======
       /**
        * <pre>
        *6.5.5  
@@ -4858,7 +4416,6 @@ public final class ActivityInfoOuterClass {
        * @param value The meetCondList to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setMeetCondList(
           int index, int value) {
         ensureMeetCondListIsMutable();
@@ -4866,9 +4423,6 @@ public final class ActivityInfoOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5  
@@ -4878,16 +4432,12 @@ public final class ActivityInfoOuterClass {
        * @param value The meetCondList to add.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder addMeetCondList(int value) {
         ensureMeetCondListIsMutable();
         meetCondList_.addInt(value);
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5  
@@ -4897,7 +4447,6 @@ public final class ActivityInfoOuterClass {
        * @param values The meetCondList to add.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder addAllMeetCondList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureMeetCondListIsMutable();
@@ -4906,9 +4455,6 @@ public final class ActivityInfoOuterClass {
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5  
@@ -4917,7 +4463,6 @@ public final class ActivityInfoOuterClass {
        * <code>repeated uint32 meet_cond_list = 6;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearMeetCondList() {
         meetCondList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000080);
@@ -5047,9 +4592,6 @@ public final class ActivityInfoOuterClass {
       }
 
       private int curScore_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -5058,14 +4600,10 @@ public final class ActivityInfoOuterClass {
        * <code>uint32 cur_score = 1217;</code>
        * @return The curScore.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCurScore() {
         return curScore_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -5075,16 +4613,12 @@ public final class ActivityInfoOuterClass {
        * @param value The curScore to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setCurScore(int value) {
-
+        
         curScore_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -5093,9 +4627,8 @@ public final class ActivityInfoOuterClass {
        * <code>uint32 cur_score = 1217;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearCurScore() {
-
+        
         curScore_ = 0;
         onChanged();
         return this;
@@ -5116,7 +4649,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLEOKOPDKDBE(int value) {
-
+        
         lEOKOPDKDBE_ = value;
         onChanged();
         return this;
@@ -5126,16 +4659,13 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLEOKOPDKDBE() {
-
+        
         lEOKOPDKDBE_ = 0;
         onChanged();
         return this;
       }
 
       private int activityId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5144,14 +4674,10 @@ public final class ActivityInfoOuterClass {
        * <code>uint32 activity_id = 4;</code>
        * @return The activityId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getActivityId() {
         return activityId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5161,16 +4687,12 @@ public final class ActivityInfoOuterClass {
        * @param value The activityId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setActivityId(int value) {
-
+        
         activityId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5179,9 +4701,8 @@ public final class ActivityInfoOuterClass {
        * <code>uint32 activity_id = 4;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearActivityId() {
-
+        
         activityId_ = 0;
         onChanged();
         return this;
@@ -5202,7 +4723,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLFPOBIAKJJN(long value) {
-
+        
         lFPOBIAKJJN_ = value;
         onChanged();
         return this;
@@ -5212,16 +4733,13 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLFPOBIAKJJN() {
-
+        
         lFPOBIAKJJN_ = 0L;
         onChanged();
         return this;
       }
 
       private int firstDayStartTime_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0  
@@ -5230,14 +4748,10 @@ public final class ActivityInfoOuterClass {
        * <code>uint32 first_day_start_time = 795;</code>
        * @return The firstDayStartTime.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getFirstDayStartTime() {
         return firstDayStartTime_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0  
@@ -5247,16 +4761,12 @@ public final class ActivityInfoOuterClass {
        * @param value The firstDayStartTime to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setFirstDayStartTime(int value) {
-
+        
         firstDayStartTime_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0  
@@ -5265,18 +4775,14 @@ public final class ActivityInfoOuterClass {
        * <code>uint32 first_day_start_time = 795;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearFirstDayStartTime() {
-
+        
         firstDayStartTime_ = 0;
         onChanged();
         return this;
       }
 
       private int scheduleId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -5285,14 +4791,10 @@ public final class ActivityInfoOuterClass {
        * <code>uint32 schedule_id = 1;</code>
        * @return The scheduleId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getScheduleId() {
         return scheduleId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -5302,16 +4804,12 @@ public final class ActivityInfoOuterClass {
        * @param value The scheduleId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setScheduleId(int value) {
-
+        
         scheduleId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -5320,18 +4818,14 @@ public final class ActivityInfoOuterClass {
        * <code>uint32 schedule_id = 1;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearScheduleId() {
-
+        
         scheduleId_ = 0;
         onChanged();
         return this;
       }
 
       private int endTime_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -5340,14 +4834,10 @@ public final class ActivityInfoOuterClass {
        * <code>uint32 end_time = 5;</code>
        * @return The endTime.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getEndTime() {
         return endTime_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -5357,16 +4847,12 @@ public final class ActivityInfoOuterClass {
        * @param value The endTime to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setEndTime(int value) {
-
+        
         endTime_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -5375,18 +4861,14 @@ public final class ActivityInfoOuterClass {
        * <code>uint32 end_time = 5;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearEndTime() {
-
+        
         endTime_ = 0;
         onChanged();
         return this;
       }
 
       private int beginTime_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -5395,14 +4877,10 @@ public final class ActivityInfoOuterClass {
        * <code>uint32 begin_time = 2;</code>
        * @return The beginTime.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getBeginTime() {
         return beginTime_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -5412,16 +4890,12 @@ public final class ActivityInfoOuterClass {
        * @param value The beginTime to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setBeginTime(int value) {
-
+        
         beginTime_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -5430,9 +4904,8 @@ public final class ActivityInfoOuterClass {
        * <code>uint32 begin_time = 2;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearBeginTime() {
-
+        
         beginTime_ = 0;
         onChanged();
         return this;
@@ -5453,7 +4926,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGDNPPNHLCOA(int value) {
-
+        
         gDNPPNHLCOA_ = value;
         onChanged();
         return this;
@@ -5463,7 +4936,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGDNPPNHLCOA() {
-
+        
         gDNPPNHLCOA_ = 0;
         onChanged();
         return this;
@@ -5484,7 +4957,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setLNIECLNEDCG(int value) {
-
+        
         lNIECLNEDCG_ = value;
         onChanged();
         return this;
@@ -5494,16 +4967,13 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearLNIECLNEDCG() {
-
+        
         lNIECLNEDCG_ = 0;
         onChanged();
         return this;
       }
 
       private boolean isFinished_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -5512,14 +4982,10 @@ public final class ActivityInfoOuterClass {
        * <code>bool is_finished = 11;</code>
        * @return The isFinished.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsFinished() {
         return isFinished_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -5529,16 +4995,12 @@ public final class ActivityInfoOuterClass {
        * @param value The isFinished to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setIsFinished(boolean value) {
-
+        
         isFinished_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -5547,9 +5009,8 @@ public final class ActivityInfoOuterClass {
        * <code>bool is_finished = 11;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearIsFinished() {
-
+        
         isFinished_ = false;
         onChanged();
         return this;
@@ -5570,7 +5031,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setKGMLHFFEFOI(boolean value) {
-
+        
         kGMLHFFEFOI_ = value;
         onChanged();
         return this;
@@ -5580,7 +5041,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearKGMLHFFEFOI() {
-
+        
         kGMLHFFEFOI_ = false;
         onChanged();
         return this;
@@ -5601,7 +5062,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDKKAEBHHLFM(boolean value) {
-
+        
         dKKAEBHHLFM_ = value;
         onChanged();
         return this;
@@ -5611,7 +5072,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDKKAEBHHLFM() {
-
+        
         dKKAEBHHLFM_ = false;
         onChanged();
         return this;
@@ -5632,7 +5093,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDAGKEOCNIKO(boolean value) {
-
+        
         dAGKEOCNIKO_ = value;
         onChanged();
         return this;
@@ -5642,16 +5103,13 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDAGKEOCNIKO() {
-
+        
         dAGKEOCNIKO_ = false;
         onChanged();
         return this;
       }
 
       private int activityType_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0  
@@ -5660,14 +5118,10 @@ public final class ActivityInfoOuterClass {
        * <code>uint32 activity_type = 13;</code>
        * @return The activityType.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getActivityType() {
         return activityType_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0  
@@ -5677,16 +5131,12 @@ public final class ActivityInfoOuterClass {
        * @param value The activityType to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setActivityType(int value) {
-
+        
         activityType_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0  
@@ -5695,9 +5145,8 @@ public final class ActivityInfoOuterClass {
        * <code>uint32 activity_type = 13;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearActivityType() {
-
+        
         activityType_ = 0;
         onChanged();
         return this;
@@ -5718,7 +5167,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFOOCOANFLEL(boolean value) {
-
+        
         fOOCOANFLEL_ = value;
         onChanged();
         return this;
@@ -5728,7 +5177,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFOOCOANFLEL() {
-
+        
         fOOCOANFLEL_ = false;
         onChanged();
         return this;
@@ -5749,7 +5198,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAHPPKGFBJDK(boolean value) {
-
+        
         aHPPKGFBJDK_ = value;
         onChanged();
         return this;
@@ -5759,7 +5208,7 @@ public final class ActivityInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAHPPKGFBJDK() {
-
+        
         aHPPKGFBJDK_ = false;
         onChanged();
         return this;
@@ -5767,9 +5216,6 @@ public final class ActivityInfoOuterClass {
 
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo, emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.Builder, emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfoOrBuilder> musicGameInfoBuilder_;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
@@ -5806,14 +5252,10 @@ public final class ActivityInfoOuterClass {
        * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
        * @return Whether the musicGameInfo field is set.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean hasMusicGameInfo() {
         return detailCase_ == 1472;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
@@ -5850,7 +5292,6 @@ public final class ActivityInfoOuterClass {
        * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
        * @return The musicGameInfo.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo getMusicGameInfo() {
         if (musicGameInfoBuilder_ == null) {
@@ -5865,9 +5306,6 @@ public final class ActivityInfoOuterClass {
           return emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.getDefaultInstance();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
@@ -5903,7 +5341,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setMusicGameInfo(emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo value) {
         if (musicGameInfoBuilder_ == null) {
           if (value == null) {
@@ -5917,9 +5354,6 @@ public final class ActivityInfoOuterClass {
         detailCase_ = 1472;
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
@@ -5955,7 +5389,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setMusicGameInfo(
           emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.Builder builderForValue) {
         if (musicGameInfoBuilder_ == null) {
@@ -5967,9 +5400,6 @@ public final class ActivityInfoOuterClass {
         detailCase_ = 1472;
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
@@ -6005,7 +5435,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
        */
->>>>>>> origin/6.5.0
       public Builder mergeMusicGameInfo(emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo value) {
         if (musicGameInfoBuilder_ == null) {
           if (detailCase_ == 1472 &&
@@ -6025,9 +5454,6 @@ public final class ActivityInfoOuterClass {
         detailCase_ = 1472;
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
@@ -6063,7 +5489,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
        */
->>>>>>> origin/6.5.0
       public Builder clearMusicGameInfo() {
         if (musicGameInfoBuilder_ == null) {
           if (detailCase_ == 1472) {
@@ -6080,13 +5505,6 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-      public emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.Builder getMusicGameInfoBuilder() {
-        return getMusicGameInfoFieldBuilder().getBuilder();
-      }
-
-=======
       /**
        * <pre>
        * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
@@ -6160,7 +5578,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfoOrBuilder getMusicGameInfoOrBuilder() {
         if ((detailCase_ == 1472) && (musicGameInfoBuilder_ != null)) {
@@ -6172,9 +5589,6 @@ public final class ActivityInfoOuterClass {
           return emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.getDefaultInstance();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        * SeaLampActivityDetailInfo sam_lamp_info = 14; //6.5.5 //6.4.0 //6.5.0          
@@ -6210,9 +5624,8 @@ public final class ActivityInfoOuterClass {
        *
        * <code>.MusicGameActivityDetailInfo music_game_info = 1472;</code>
        */
->>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo, emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.Builder, emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfoOrBuilder>
+          emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo, emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfo.Builder, emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.MusicGameActivityDetailInfoOrBuilder> 
           getMusicGameInfoFieldBuilder() {
         if (musicGameInfoBuilder_ == null) {
           if (!(detailCase_ == 1472)) {
@@ -6232,9 +5645,6 @@ public final class ActivityInfoOuterClass {
 
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo, emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo.Builder, emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfoOrBuilder> bubbleDramaDetailInfoBuilder_;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0
@@ -6243,14 +5653,10 @@ public final class ActivityInfoOuterClass {
        * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
        * @return Whether the bubbleDramaDetailInfo field is set.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean hasBubbleDramaDetailInfo() {
         return detailCase_ == 1117;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0
@@ -6259,7 +5665,6 @@ public final class ActivityInfoOuterClass {
        * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
        * @return The bubbleDramaDetailInfo.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo getBubbleDramaDetailInfo() {
         if (bubbleDramaDetailInfoBuilder_ == null) {
@@ -6274,9 +5679,6 @@ public final class ActivityInfoOuterClass {
           return emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo.getDefaultInstance();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0
@@ -6284,7 +5686,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setBubbleDramaDetailInfo(emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo value) {
         if (bubbleDramaDetailInfoBuilder_ == null) {
           if (value == null) {
@@ -6298,9 +5699,6 @@ public final class ActivityInfoOuterClass {
         detailCase_ = 1117;
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0
@@ -6308,7 +5706,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setBubbleDramaDetailInfo(
           emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo.Builder builderForValue) {
         if (bubbleDramaDetailInfoBuilder_ == null) {
@@ -6320,9 +5717,6 @@ public final class ActivityInfoOuterClass {
         detailCase_ = 1117;
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0
@@ -6330,7 +5724,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
        */
->>>>>>> origin/6.5.0
       public Builder mergeBubbleDramaDetailInfo(emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo value) {
         if (bubbleDramaDetailInfoBuilder_ == null) {
           if (detailCase_ == 1117 &&
@@ -6350,9 +5743,6 @@ public final class ActivityInfoOuterClass {
         detailCase_ = 1117;
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0
@@ -6360,7 +5750,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
        */
->>>>>>> origin/6.5.0
       public Builder clearBubbleDramaDetailInfo() {
         if (bubbleDramaDetailInfoBuilder_ == null) {
           if (detailCase_ == 1117) {
@@ -6377,13 +5766,6 @@ public final class ActivityInfoOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-      public emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo.Builder getBubbleDramaDetailInfoBuilder() {
-        return getBubbleDramaDetailInfoFieldBuilder().getBuilder();
-      }
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0
@@ -6401,7 +5783,6 @@ public final class ActivityInfoOuterClass {
        *
        * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfoOrBuilder getBubbleDramaDetailInfoOrBuilder() {
         if ((detailCase_ == 1117) && (bubbleDramaDetailInfoBuilder_ != null)) {
@@ -6413,9 +5794,6 @@ public final class ActivityInfoOuterClass {
           return emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo.getDefaultInstance();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0
@@ -6423,9 +5801,8 @@ public final class ActivityInfoOuterClass {
        *
        * <code>.BubbleDramaDetailInfo bubble_drama_detail_info = 1117;</code>
        */
->>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo, emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo.Builder, emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfoOrBuilder>
+          emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo, emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfo.Builder, emu.grasscutter.net.proto.BubbleDramaDetailInfoOuterClass.BubbleDramaDetailInfoOrBuilder> 
           getBubbleDramaDetailInfoFieldBuilder() {
         if (bubbleDramaDetailInfoBuilder_ == null) {
           if (!(detailCase_ == 1117)) {
@@ -6453,6 +5830,7 @@ public final class ActivityInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:ActivityInfo)
     }
@@ -6496,17 +5874,17 @@ public final class ActivityInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ActivityInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ActivityInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ActivityInfo_ActivityCoinMapEntry_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ActivityInfo_ActivityCoinMapEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ActivityInfo_WishGiftNumMapEntry_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ActivityInfo_WishGiftNumMapEntry_fieldAccessorTable;
 

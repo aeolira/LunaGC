@@ -18,10 +18,6 @@ public final class VectorPlaneOuterClass {
       // @@protoc_insertion_point(interface_extends:VectorPlane)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    float getY();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0  
@@ -40,7 +36,6 @@ public final class VectorPlaneOuterClass {
      * <code>float x = 1;</code>
      * @return The x.
      */
->>>>>>> origin/6.5.0
     float getX();
   }
   /**
@@ -132,9 +127,6 @@ public final class VectorPlaneOuterClass {
 
     public static final int Y_FIELD_NUMBER = 2;
     private float y_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0  
@@ -143,7 +135,6 @@ public final class VectorPlaneOuterClass {
      * <code>float y = 2;</code>
      * @return The y.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public float getY() {
       return y_;
@@ -151,9 +142,6 @@ public final class VectorPlaneOuterClass {
 
     public static final int X_FIELD_NUMBER = 1;
     private float x_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0  
@@ -162,7 +150,6 @@ public final class VectorPlaneOuterClass {
      * <code>float x = 1;</code>
      * @return The x.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public float getX() {
       return x_;
@@ -492,9 +479,6 @@ public final class VectorPlaneOuterClass {
       }
 
       private float y_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0  
@@ -503,14 +487,10 @@ public final class VectorPlaneOuterClass {
        * <code>float y = 2;</code>
        * @return The y.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public float getY() {
         return y_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0  
@@ -520,16 +500,12 @@ public final class VectorPlaneOuterClass {
        * @param value The y to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setY(float value) {
-
+        
         y_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0  
@@ -538,18 +514,14 @@ public final class VectorPlaneOuterClass {
        * <code>float y = 2;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearY() {
-
+        
         y_ = 0F;
         onChanged();
         return this;
       }
 
       private float x_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0  
@@ -558,14 +530,10 @@ public final class VectorPlaneOuterClass {
        * <code>float x = 1;</code>
        * @return The x.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public float getX() {
         return x_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0  
@@ -575,16 +543,12 @@ public final class VectorPlaneOuterClass {
        * @param value The x to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setX(float value) {
-
+        
         x_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0  
@@ -593,9 +557,8 @@ public final class VectorPlaneOuterClass {
        * <code>float x = 1;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearX() {
-
+        
         x_ = 0F;
         onChanged();
         return this;
@@ -611,6 +574,7 @@ public final class VectorPlaneOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:VectorPlane)
     }
@@ -654,7 +618,7 @@ public final class VectorPlaneOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_VectorPlane_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_VectorPlane_fieldAccessorTable;
 

@@ -35,10 +35,6 @@ public final class FoundationInfoOuterClass {
      */
     int getECNOPBCOGEG(int index);
 
-<<<<<<< HEAD
-    int getStatusValue();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -56,7 +52,6 @@ public final class FoundationInfoOuterClass {
      * <code>.BCFKCAMNCFF status = 1;</code>
      * @return The status.
      */
->>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.BCFKCAMNCFF getStatus();
 
     /**
@@ -221,13 +216,6 @@ public final class FoundationInfoOuterClass {
 
     public static final int STATUS_FIELD_NUMBER = 1;
     private int status_;
-<<<<<<< HEAD
-
-    @java.lang.Override public int getStatusValue() {
-      return status_;
-    }
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -247,7 +235,6 @@ public final class FoundationInfoOuterClass {
      * <code>.BCFKCAMNCFF status = 1;</code>
      * @return The status.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override public emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.BCFKCAMNCFF getStatus() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.BCFKCAMNCFF result = emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.BCFKCAMNCFF.valueOf(status_);
@@ -738,13 +725,6 @@ public final class FoundationInfoOuterClass {
       }
 
       private int status_ = 0;
-<<<<<<< HEAD
-
-      @java.lang.Override public int getStatusValue() {
-        return status_;
-      }
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -765,16 +745,12 @@ public final class FoundationInfoOuterClass {
        * @param value The enum numeric value on the wire for status to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setStatusValue(int value) {
-
+        
         status_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -783,16 +759,12 @@ public final class FoundationInfoOuterClass {
        * <code>.BCFKCAMNCFF status = 1;</code>
        * @return The status.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.BCFKCAMNCFF getStatus() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.BCFKCAMNCFF result = emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.BCFKCAMNCFF.valueOf(status_);
         return result == null ? emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.BCFKCAMNCFF.UNRECOGNIZED : result;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -802,19 +774,15 @@ public final class FoundationInfoOuterClass {
        * @param value The status to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setStatus(emu.grasscutter.net.proto.BCFKCAMNCFFOuterClass.BCFKCAMNCFF value) {
         if (value == null) {
           throw new NullPointerException();
         }
-
+        
         status_ = value.getNumber();
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -823,9 +791,8 @@ public final class FoundationInfoOuterClass {
        * <code>.BCFKCAMNCFF status = 1;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearStatus() {
-
+        
         status_ = 0;
         onChanged();
         return this;
@@ -846,7 +813,7 @@ public final class FoundationInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBFODAONLOGD(int value) {
-
+        
         bFODAONLOGD_ = value;
         onChanged();
         return this;
@@ -856,7 +823,7 @@ public final class FoundationInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBFODAONLOGD() {
-
+        
         bFODAONLOGD_ = 0;
         onChanged();
         return this;
@@ -877,7 +844,7 @@ public final class FoundationInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setJKIAINBEAFM(int value) {
-
+        
         jKIAINBEAFM_ = value;
         onChanged();
         return this;
@@ -887,7 +854,7 @@ public final class FoundationInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearJKIAINBEAFM() {
-
+        
         jKIAINBEAFM_ = 0;
         onChanged();
         return this;
@@ -903,6 +870,7 @@ public final class FoundationInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:FoundationInfo)
     }
@@ -946,7 +914,7 @@ public final class FoundationInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FoundationInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FoundationInfo_fieldAccessorTable;
 

@@ -53,7 +53,7 @@ public final class WinterCampActivityDetailInfoOuterClass {
     /**
      * <code>repeated .CGDCBNLKKHB KCJNLPCOAFO = 7;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.CGDCBNLKKHBOuterClass.CGDCBNLKKHB>
+    java.util.List<emu.grasscutter.net.proto.CGDCBNLKKHBOuterClass.CGDCBNLKKHB> 
         getKCJNLPCOAFOList();
     /**
      * <code>repeated .CGDCBNLKKHB KCJNLPCOAFO = 7;</code>
@@ -66,7 +66,7 @@ public final class WinterCampActivityDetailInfoOuterClass {
     /**
      * <code>repeated .CGDCBNLKKHB KCJNLPCOAFO = 7;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.CGDCBNLKKHBOuterClass.CGDCBNLKKHBOrBuilder>
+    java.util.List<? extends emu.grasscutter.net.proto.CGDCBNLKKHBOuterClass.CGDCBNLKKHBOrBuilder> 
         getKCJNLPCOAFOOrBuilderList();
     /**
      * <code>repeated .CGDCBNLKKHB KCJNLPCOAFO = 7;</code>
@@ -92,7 +92,7 @@ public final class WinterCampActivityDetailInfoOuterClass {
     /**
      * <code>repeated .ItemParam DAPDBJHKIDO = 13;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>
+    java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> 
         getDAPDBJHKIDOList();
     /**
      * <code>repeated .ItemParam DAPDBJHKIDO = 13;</code>
@@ -105,7 +105,7 @@ public final class WinterCampActivityDetailInfoOuterClass {
     /**
      * <code>repeated .ItemParam DAPDBJHKIDO = 13;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
+    java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
         getDAPDBJHKIDOOrBuilderList();
     /**
      * <code>repeated .ItemParam DAPDBJHKIDO = 13;</code>
@@ -147,8 +147,6 @@ public final class WinterCampActivityDetailInfoOuterClass {
      */
     int getHMPGMBPMBOM(int index);
 
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -157,7 +155,6 @@ public final class WinterCampActivityDetailInfoOuterClass {
      * <code>bool is_content_closed = 6;</code>
      * @return The isContentClosed.
      */
->>>>>>> origin/6.5.0
     boolean getIsContentClosed();
   }
   /**
@@ -437,7 +434,7 @@ public final class WinterCampActivityDetailInfoOuterClass {
      * <code>repeated .CGDCBNLKKHB KCJNLPCOAFO = 7;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.CGDCBNLKKHBOuterClass.CGDCBNLKKHBOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.CGDCBNLKKHBOuterClass.CGDCBNLKKHBOrBuilder> 
         getKCJNLPCOAFOOrBuilderList() {
       return kCJNLPCOAFO_;
     }
@@ -503,7 +500,7 @@ public final class WinterCampActivityDetailInfoOuterClass {
      * <code>repeated .ItemParam DAPDBJHKIDO = 13;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
         getDAPDBJHKIDOOrBuilderList() {
       return dAPDBJHKIDO_;
     }
@@ -586,11 +583,8 @@ public final class WinterCampActivityDetailInfoOuterClass {
     }
     private int hMPGMBPMBOMMemoizedSerializedSize = -1;
 
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 3;
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 6;
     private boolean isContentClosed_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -599,7 +593,6 @@ public final class WinterCampActivityDetailInfoOuterClass {
      * <code>bool is_content_closed = 6;</code>
      * @return The isContentClosed.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsContentClosed() {
       return isContentClosed_;
@@ -631,7 +624,7 @@ public final class WinterCampActivityDetailInfoOuterClass {
         output.writeMessage(5, getBHLHDNBFPLP());
       }
       if (isContentClosed_ != false) {
-        output.writeBool(3, isContentClosed_);
+        output.writeBool(6, isContentClosed_);
       }
       for (int i = 0; i < kCJNLPCOAFO_.size(); i++) {
         output.writeMessage(7, kCJNLPCOAFO_.get(i));
@@ -685,7 +678,7 @@ public final class WinterCampActivityDetailInfoOuterClass {
       }
       if (isContentClosed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(3, isContentClosed_);
+          .computeBoolSize(6, isContentClosed_);
       }
       for (int i = 0; i < kCJNLPCOAFO_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -1123,7 +1116,7 @@ public final class WinterCampActivityDetailInfoOuterClass {
               kCJNLPCOAFOBuilder_ = null;
               kCJNLPCOAFO_ = other.kCJNLPCOAFO_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              kCJNLPCOAFOBuilder_ =
+              kCJNLPCOAFOBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getKCJNLPCOAFOFieldBuilder() : null;
             } else {
@@ -1152,7 +1145,7 @@ public final class WinterCampActivityDetailInfoOuterClass {
               dAPDBJHKIDOBuilder_ = null;
               dAPDBJHKIDO_ = other.dAPDBJHKIDO_;
               bitField0_ = (bitField0_ & ~0x00000004);
-              dAPDBJHKIDOBuilder_ =
+              dAPDBJHKIDOBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getDAPDBJHKIDOFieldBuilder() : null;
             } else {
@@ -1379,7 +1372,7 @@ public final class WinterCampActivityDetailInfoOuterClass {
        * <code>.DEIIKHENDBH BHLHDNBFPLP = 5;</code>
        */
       public emu.grasscutter.net.proto.DEIIKHENDBHOuterClass.DEIIKHENDBH.Builder getBHLHDNBFPLPBuilder() {
-
+        
         onChanged();
         return getBHLHDNBFPLPFieldBuilder().getBuilder();
       }
@@ -1398,7 +1391,7 @@ public final class WinterCampActivityDetailInfoOuterClass {
        * <code>.DEIIKHENDBH BHLHDNBFPLP = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.DEIIKHENDBHOuterClass.DEIIKHENDBH, emu.grasscutter.net.proto.DEIIKHENDBHOuterClass.DEIIKHENDBH.Builder, emu.grasscutter.net.proto.DEIIKHENDBHOuterClass.DEIIKHENDBHOrBuilder>
+          emu.grasscutter.net.proto.DEIIKHENDBHOuterClass.DEIIKHENDBH, emu.grasscutter.net.proto.DEIIKHENDBHOuterClass.DEIIKHENDBH.Builder, emu.grasscutter.net.proto.DEIIKHENDBHOuterClass.DEIIKHENDBHOrBuilder> 
           getBHLHDNBFPLPFieldBuilder() {
         if (bHLHDNBFPLPBuilder_ == null) {
           bHLHDNBFPLPBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1606,7 +1599,7 @@ public final class WinterCampActivityDetailInfoOuterClass {
       /**
        * <code>repeated .CGDCBNLKKHB KCJNLPCOAFO = 7;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.CGDCBNLKKHBOuterClass.CGDCBNLKKHBOrBuilder>
+      public java.util.List<? extends emu.grasscutter.net.proto.CGDCBNLKKHBOuterClass.CGDCBNLKKHBOrBuilder> 
            getKCJNLPCOAFOOrBuilderList() {
         if (kCJNLPCOAFOBuilder_ != null) {
           return kCJNLPCOAFOBuilder_.getMessageOrBuilderList();
@@ -1632,12 +1625,12 @@ public final class WinterCampActivityDetailInfoOuterClass {
       /**
        * <code>repeated .CGDCBNLKKHB KCJNLPCOAFO = 7;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.CGDCBNLKKHBOuterClass.CGDCBNLKKHB.Builder>
+      public java.util.List<emu.grasscutter.net.proto.CGDCBNLKKHBOuterClass.CGDCBNLKKHB.Builder> 
            getKCJNLPCOAFOBuilderList() {
         return getKCJNLPCOAFOFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.CGDCBNLKKHBOuterClass.CGDCBNLKKHB, emu.grasscutter.net.proto.CGDCBNLKKHBOuterClass.CGDCBNLKKHB.Builder, emu.grasscutter.net.proto.CGDCBNLKKHBOuterClass.CGDCBNLKKHBOrBuilder>
+          emu.grasscutter.net.proto.CGDCBNLKKHBOuterClass.CGDCBNLKKHB, emu.grasscutter.net.proto.CGDCBNLKKHBOuterClass.CGDCBNLKKHB.Builder, emu.grasscutter.net.proto.CGDCBNLKKHBOuterClass.CGDCBNLKKHBOrBuilder> 
           getKCJNLPCOAFOFieldBuilder() {
         if (kCJNLPCOAFOBuilder_ == null) {
           kCJNLPCOAFOBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1738,7 +1731,7 @@ public final class WinterCampActivityDetailInfoOuterClass {
        * <code>.DEIIKHENDBH DGAEKJNDFIJ = 8;</code>
        */
       public emu.grasscutter.net.proto.DEIIKHENDBHOuterClass.DEIIKHENDBH.Builder getDGAEKJNDFIJBuilder() {
-
+        
         onChanged();
         return getDGAEKJNDFIJFieldBuilder().getBuilder();
       }
@@ -1757,7 +1750,7 @@ public final class WinterCampActivityDetailInfoOuterClass {
        * <code>.DEIIKHENDBH DGAEKJNDFIJ = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.DEIIKHENDBHOuterClass.DEIIKHENDBH, emu.grasscutter.net.proto.DEIIKHENDBHOuterClass.DEIIKHENDBH.Builder, emu.grasscutter.net.proto.DEIIKHENDBHOuterClass.DEIIKHENDBHOrBuilder>
+          emu.grasscutter.net.proto.DEIIKHENDBHOuterClass.DEIIKHENDBH, emu.grasscutter.net.proto.DEIIKHENDBHOuterClass.DEIIKHENDBH.Builder, emu.grasscutter.net.proto.DEIIKHENDBHOuterClass.DEIIKHENDBHOrBuilder> 
           getDGAEKJNDFIJFieldBuilder() {
         if (dGAEKJNDFIJBuilder_ == null) {
           dGAEKJNDFIJBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1965,7 +1958,7 @@ public final class WinterCampActivityDetailInfoOuterClass {
       /**
        * <code>repeated .ItemParam DAPDBJHKIDO = 13;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
+      public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
            getDAPDBJHKIDOOrBuilderList() {
         if (dAPDBJHKIDOBuilder_ != null) {
           return dAPDBJHKIDOBuilder_.getMessageOrBuilderList();
@@ -1991,12 +1984,12 @@ public final class WinterCampActivityDetailInfoOuterClass {
       /**
        * <code>repeated .ItemParam DAPDBJHKIDO = 13;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder>
+      public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder> 
            getDAPDBJHKIDOBuilderList() {
         return getDAPDBJHKIDOFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
+          emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
           getDAPDBJHKIDOFieldBuilder() {
         if (dAPDBJHKIDOBuilder_ == null) {
           dAPDBJHKIDOBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -2169,9 +2162,6 @@ public final class WinterCampActivityDetailInfoOuterClass {
       }
 
       private boolean isContentClosed_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -2180,14 +2170,10 @@ public final class WinterCampActivityDetailInfoOuterClass {
        * <code>bool is_content_closed = 6;</code>
        * @return The isContentClosed.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsContentClosed() {
         return isContentClosed_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -2197,16 +2183,12 @@ public final class WinterCampActivityDetailInfoOuterClass {
        * @param value The isContentClosed to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setIsContentClosed(boolean value) {
-
+        
         isContentClosed_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -2215,9 +2197,8 @@ public final class WinterCampActivityDetailInfoOuterClass {
        * <code>bool is_content_closed = 6;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearIsContentClosed() {
-
+        
         isContentClosed_ = false;
         onChanged();
         return this;
@@ -2233,6 +2214,7 @@ public final class WinterCampActivityDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:WinterCampActivityDetailInfo)
     }
@@ -2276,7 +2258,7 @@ public final class WinterCampActivityDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WinterCampActivityDetailInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WinterCampActivityDetailInfo_fieldAccessorTable;
 

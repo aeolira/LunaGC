@@ -18,14 +18,6 @@ public final class NpcTalkRspOuterClass {
       // @@protoc_insertion_point(interface_extends:NpcTalkRsp)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    int getRetcode();
-
-    int getCurTalkId();
-
-    int getNpcEntityId();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -64,7 +56,6 @@ public final class NpcTalkRspOuterClass {
      * <code>uint32 entity_id = 2;</code>
      * @return The entityId.
      */
->>>>>>> origin/6.5.0
     int getEntityId();
   }
   /**
@@ -170,9 +161,6 @@ public final class NpcTalkRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 4;
     private int retcode_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -181,7 +169,6 @@ public final class NpcTalkRspOuterClass {
      * <code>int32 retcode = 4;</code>
      * @return The retcode.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -189,9 +176,6 @@ public final class NpcTalkRspOuterClass {
 
     public static final int CUR_TALK_ID_FIELD_NUMBER = 8;
     private int curTalkId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -200,7 +184,6 @@ public final class NpcTalkRspOuterClass {
      * <code>uint32 cur_talk_id = 8;</code>
      * @return The curTalkId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCurTalkId() {
       return curTalkId_;
@@ -208,9 +191,6 @@ public final class NpcTalkRspOuterClass {
 
     public static final int NPC_ENTITY_ID_FIELD_NUMBER = 3;
     private int npcEntityId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -219,7 +199,6 @@ public final class NpcTalkRspOuterClass {
      * <code>uint32 npc_entity_id = 3;</code>
      * @return The npcEntityId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getNpcEntityId() {
       return npcEntityId_;
@@ -227,9 +206,6 @@ public final class NpcTalkRspOuterClass {
 
     public static final int ENTITY_ID_FIELD_NUMBER = 2;
     private int entityId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -238,7 +214,6 @@ public final class NpcTalkRspOuterClass {
      * <code>uint32 entity_id = 2;</code>
      * @return The entityId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getEntityId() {
       return entityId_;
@@ -602,9 +577,6 @@ public final class NpcTalkRspOuterClass {
       }
 
       private int retcode_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -613,14 +585,10 @@ public final class NpcTalkRspOuterClass {
        * <code>int32 retcode = 4;</code>
        * @return The retcode.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -630,16 +598,12 @@ public final class NpcTalkRspOuterClass {
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
-
+        
         retcode_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -648,18 +612,14 @@ public final class NpcTalkRspOuterClass {
        * <code>int32 retcode = 4;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearRetcode() {
-
+        
         retcode_ = 0;
         onChanged();
         return this;
       }
 
       private int curTalkId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -668,14 +628,10 @@ public final class NpcTalkRspOuterClass {
        * <code>uint32 cur_talk_id = 8;</code>
        * @return The curTalkId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCurTalkId() {
         return curTalkId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -685,16 +641,12 @@ public final class NpcTalkRspOuterClass {
        * @param value The curTalkId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setCurTalkId(int value) {
-
+        
         curTalkId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -703,18 +655,14 @@ public final class NpcTalkRspOuterClass {
        * <code>uint32 cur_talk_id = 8;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearCurTalkId() {
-
+        
         curTalkId_ = 0;
         onChanged();
         return this;
       }
 
       private int npcEntityId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -723,14 +671,10 @@ public final class NpcTalkRspOuterClass {
        * <code>uint32 npc_entity_id = 3;</code>
        * @return The npcEntityId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getNpcEntityId() {
         return npcEntityId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -740,16 +684,12 @@ public final class NpcTalkRspOuterClass {
        * @param value The npcEntityId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setNpcEntityId(int value) {
-
+        
         npcEntityId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -758,18 +698,14 @@ public final class NpcTalkRspOuterClass {
        * <code>uint32 npc_entity_id = 3;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearNpcEntityId() {
-
+        
         npcEntityId_ = 0;
         onChanged();
         return this;
       }
 
       private int entityId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -778,14 +714,10 @@ public final class NpcTalkRspOuterClass {
        * <code>uint32 entity_id = 2;</code>
        * @return The entityId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getEntityId() {
         return entityId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -795,16 +727,12 @@ public final class NpcTalkRspOuterClass {
        * @param value The entityId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setEntityId(int value) {
-
+        
         entityId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -813,9 +741,8 @@ public final class NpcTalkRspOuterClass {
        * <code>uint32 entity_id = 2;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearEntityId() {
-
+        
         entityId_ = 0;
         onChanged();
         return this;
@@ -831,6 +758,7 @@ public final class NpcTalkRspOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:NpcTalkRsp)
     }
@@ -874,7 +802,7 @@ public final class NpcTalkRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_NpcTalkRsp_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_NpcTalkRsp_fieldAccessorTable;
 

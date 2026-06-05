@@ -21,7 +21,7 @@ public final class PhotoActivityDetailInfoOuterClass {
     /**
      * <code>repeated .NCMCKALPEEE ABOMJJKGODK = 12;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.NCMCKALPEEEOuterClass.NCMCKALPEEE>
+    java.util.List<emu.grasscutter.net.proto.NCMCKALPEEEOuterClass.NCMCKALPEEE> 
         getABOMJJKGODKList();
     /**
      * <code>repeated .NCMCKALPEEE ABOMJJKGODK = 12;</code>
@@ -34,7 +34,7 @@ public final class PhotoActivityDetailInfoOuterClass {
     /**
      * <code>repeated .NCMCKALPEEE ABOMJJKGODK = 12;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.NCMCKALPEEEOuterClass.NCMCKALPEEEOrBuilder>
+    java.util.List<? extends emu.grasscutter.net.proto.NCMCKALPEEEOuterClass.NCMCKALPEEEOrBuilder> 
         getABOMJJKGODKOrBuilderList();
     /**
      * <code>repeated .NCMCKALPEEE ABOMJJKGODK = 12;</code>
@@ -42,8 +42,6 @@ public final class PhotoActivityDetailInfoOuterClass {
     emu.grasscutter.net.proto.NCMCKALPEEEOuterClass.NCMCKALPEEEOrBuilder getABOMJJKGODKOrBuilder(
         int index);
 
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -52,7 +50,6 @@ public final class PhotoActivityDetailInfoOuterClass {
      * <code>bool is_content_closed = 4;</code>
      * @return The isContentClosed.
      */
->>>>>>> origin/6.5.0
     boolean getIsContentClosed();
   }
   /**
@@ -164,7 +161,7 @@ public final class PhotoActivityDetailInfoOuterClass {
      * <code>repeated .NCMCKALPEEE ABOMJJKGODK = 12;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.NCMCKALPEEEOuterClass.NCMCKALPEEEOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.NCMCKALPEEEOuterClass.NCMCKALPEEEOrBuilder> 
         getABOMJJKGODKOrBuilderList() {
       return aBOMJJKGODK_;
     }
@@ -191,11 +188,8 @@ public final class PhotoActivityDetailInfoOuterClass {
       return aBOMJJKGODK_.get(index);
     }
 
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 2;
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 4;
     private boolean isContentClosed_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -204,7 +198,6 @@ public final class PhotoActivityDetailInfoOuterClass {
      * <code>bool is_content_closed = 4;</code>
      * @return The isContentClosed.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsContentClosed() {
       return isContentClosed_;
@@ -225,7 +218,7 @@ public final class PhotoActivityDetailInfoOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isContentClosed_ != false) {
-        output.writeBool(2, isContentClosed_);
+        output.writeBool(4, isContentClosed_);
       }
       for (int i = 0; i < aBOMJJKGODK_.size(); i++) {
         output.writeMessage(12, aBOMJJKGODK_.get(i));
@@ -241,7 +234,7 @@ public final class PhotoActivityDetailInfoOuterClass {
       size = 0;
       if (isContentClosed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(2, isContentClosed_);
+          .computeBoolSize(4, isContentClosed_);
       }
       for (int i = 0; i < aBOMJJKGODK_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
@@ -529,7 +522,7 @@ public final class PhotoActivityDetailInfoOuterClass {
               aBOMJJKGODKBuilder_ = null;
               aBOMJJKGODK_ = other.aBOMJJKGODK_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              aBOMJJKGODKBuilder_ =
+              aBOMJJKGODKBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getABOMJJKGODKFieldBuilder() : null;
             } else {
@@ -765,7 +758,7 @@ public final class PhotoActivityDetailInfoOuterClass {
       /**
        * <code>repeated .NCMCKALPEEE ABOMJJKGODK = 12;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.NCMCKALPEEEOuterClass.NCMCKALPEEEOrBuilder>
+      public java.util.List<? extends emu.grasscutter.net.proto.NCMCKALPEEEOuterClass.NCMCKALPEEEOrBuilder> 
            getABOMJJKGODKOrBuilderList() {
         if (aBOMJJKGODKBuilder_ != null) {
           return aBOMJJKGODKBuilder_.getMessageOrBuilderList();
@@ -791,12 +784,12 @@ public final class PhotoActivityDetailInfoOuterClass {
       /**
        * <code>repeated .NCMCKALPEEE ABOMJJKGODK = 12;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.NCMCKALPEEEOuterClass.NCMCKALPEEE.Builder>
+      public java.util.List<emu.grasscutter.net.proto.NCMCKALPEEEOuterClass.NCMCKALPEEE.Builder> 
            getABOMJJKGODKBuilderList() {
         return getABOMJJKGODKFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.NCMCKALPEEEOuterClass.NCMCKALPEEE, emu.grasscutter.net.proto.NCMCKALPEEEOuterClass.NCMCKALPEEE.Builder, emu.grasscutter.net.proto.NCMCKALPEEEOuterClass.NCMCKALPEEEOrBuilder>
+          emu.grasscutter.net.proto.NCMCKALPEEEOuterClass.NCMCKALPEEE, emu.grasscutter.net.proto.NCMCKALPEEEOuterClass.NCMCKALPEEE.Builder, emu.grasscutter.net.proto.NCMCKALPEEEOuterClass.NCMCKALPEEEOrBuilder> 
           getABOMJJKGODKFieldBuilder() {
         if (aBOMJJKGODKBuilder_ == null) {
           aBOMJJKGODKBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -811,9 +804,6 @@ public final class PhotoActivityDetailInfoOuterClass {
       }
 
       private boolean isContentClosed_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -822,14 +812,10 @@ public final class PhotoActivityDetailInfoOuterClass {
        * <code>bool is_content_closed = 4;</code>
        * @return The isContentClosed.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsContentClosed() {
         return isContentClosed_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -839,16 +825,12 @@ public final class PhotoActivityDetailInfoOuterClass {
        * @param value The isContentClosed to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setIsContentClosed(boolean value) {
-
+        
         isContentClosed_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -857,9 +839,8 @@ public final class PhotoActivityDetailInfoOuterClass {
        * <code>bool is_content_closed = 4;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearIsContentClosed() {
-
+        
         isContentClosed_ = false;
         onChanged();
         return this;
@@ -875,6 +856,7 @@ public final class PhotoActivityDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:PhotoActivityDetailInfo)
     }
@@ -918,7 +900,7 @@ public final class PhotoActivityDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PhotoActivityDetailInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PhotoActivityDetailInfo_fieldAccessorTable;
 

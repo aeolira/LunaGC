@@ -18,18 +18,6 @@ public final class AnchorPointDataNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:AnchorPointDataNotify)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    java.util.List<emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData>
-        getAnchorPointListList();
-
-    emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData getAnchorPointList(int index);
-
-    int getAnchorPointListCount();
-
-    java.util.List<? extends emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointDataOrBuilder>
-        getAnchorPointListOrBuilderList();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -71,7 +59,6 @@ public final class AnchorPointDataNotifyOuterClass {
      *
      * <code>repeated .AnchorPointData anchor_point_list = 7;</code>
      */
->>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointDataOrBuilder getAnchorPointListOrBuilder(
         int index);
 
@@ -183,9 +170,6 @@ public final class AnchorPointDataNotifyOuterClass {
 
     public static final int ANCHOR_POINT_LIST_FIELD_NUMBER = 7;
     private java.util.List<emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData> anchorPointList_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -193,14 +177,10 @@ public final class AnchorPointDataNotifyOuterClass {
      *
      * <code>repeated .AnchorPointData anchor_point_list = 7;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData> getAnchorPointListList() {
       return anchorPointList_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -208,15 +188,11 @@ public final class AnchorPointDataNotifyOuterClass {
      *
      * <code>repeated .AnchorPointData anchor_point_list = 7;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointDataOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointDataOrBuilder> 
         getAnchorPointListOrBuilderList() {
       return anchorPointList_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -224,14 +200,10 @@ public final class AnchorPointDataNotifyOuterClass {
      *
      * <code>repeated .AnchorPointData anchor_point_list = 7;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getAnchorPointListCount() {
       return anchorPointList_.size();
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -239,14 +211,10 @@ public final class AnchorPointDataNotifyOuterClass {
      *
      * <code>repeated .AnchorPointData anchor_point_list = 7;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData getAnchorPointList(int index) {
       return anchorPointList_.get(index);
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -254,7 +222,6 @@ public final class AnchorPointDataNotifyOuterClass {
      *
      * <code>repeated .AnchorPointData anchor_point_list = 7;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointDataOrBuilder getAnchorPointListOrBuilder(
         int index) {
@@ -594,7 +561,7 @@ public final class AnchorPointDataNotifyOuterClass {
               anchorPointListBuilder_ = null;
               anchorPointList_ = other.anchorPointList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              anchorPointListBuilder_ =
+              anchorPointListBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getAnchorPointListFieldBuilder() : null;
             } else {
@@ -647,8 +614,6 @@ public final class AnchorPointDataNotifyOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData, emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData.Builder, emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointDataOrBuilder> anchorPointListBuilder_;
 
-<<<<<<< HEAD
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -656,7 +621,6 @@ public final class AnchorPointDataNotifyOuterClass {
        *
        * <code>repeated .AnchorPointData anchor_point_list = 7;</code>
        */
->>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData> getAnchorPointListList() {
         if (anchorPointListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(anchorPointList_);
@@ -664,9 +628,6 @@ public final class AnchorPointDataNotifyOuterClass {
           return anchorPointListBuilder_.getMessageList();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -674,7 +635,6 @@ public final class AnchorPointDataNotifyOuterClass {
        *
        * <code>repeated .AnchorPointData anchor_point_list = 7;</code>
        */
->>>>>>> origin/6.5.0
       public int getAnchorPointListCount() {
         if (anchorPointListBuilder_ == null) {
           return anchorPointList_.size();
@@ -682,9 +642,6 @@ public final class AnchorPointDataNotifyOuterClass {
           return anchorPointListBuilder_.getCount();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -692,7 +649,6 @@ public final class AnchorPointDataNotifyOuterClass {
        *
        * <code>repeated .AnchorPointData anchor_point_list = 7;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData getAnchorPointList(int index) {
         if (anchorPointListBuilder_ == null) {
           return anchorPointList_.get(index);
@@ -700,9 +656,6 @@ public final class AnchorPointDataNotifyOuterClass {
           return anchorPointListBuilder_.getMessage(index);
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -710,7 +663,6 @@ public final class AnchorPointDataNotifyOuterClass {
        *
        * <code>repeated .AnchorPointData anchor_point_list = 7;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setAnchorPointList(
           int index, emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData value) {
         if (anchorPointListBuilder_ == null) {
@@ -725,9 +677,6 @@ public final class AnchorPointDataNotifyOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -735,7 +684,6 @@ public final class AnchorPointDataNotifyOuterClass {
        *
        * <code>repeated .AnchorPointData anchor_point_list = 7;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setAnchorPointList(
           int index, emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData.Builder builderForValue) {
         if (anchorPointListBuilder_ == null) {
@@ -747,9 +695,6 @@ public final class AnchorPointDataNotifyOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -757,7 +702,6 @@ public final class AnchorPointDataNotifyOuterClass {
        *
        * <code>repeated .AnchorPointData anchor_point_list = 7;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addAnchorPointList(emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData value) {
         if (anchorPointListBuilder_ == null) {
           if (value == null) {
@@ -771,9 +715,6 @@ public final class AnchorPointDataNotifyOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -781,7 +722,6 @@ public final class AnchorPointDataNotifyOuterClass {
        *
        * <code>repeated .AnchorPointData anchor_point_list = 7;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addAnchorPointList(
           int index, emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData value) {
         if (anchorPointListBuilder_ == null) {
@@ -796,9 +736,6 @@ public final class AnchorPointDataNotifyOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -806,7 +743,6 @@ public final class AnchorPointDataNotifyOuterClass {
        *
        * <code>repeated .AnchorPointData anchor_point_list = 7;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addAnchorPointList(
           emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData.Builder builderForValue) {
         if (anchorPointListBuilder_ == null) {
@@ -818,9 +754,6 @@ public final class AnchorPointDataNotifyOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -828,7 +761,6 @@ public final class AnchorPointDataNotifyOuterClass {
        *
        * <code>repeated .AnchorPointData anchor_point_list = 7;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addAnchorPointList(
           int index, emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData.Builder builderForValue) {
         if (anchorPointListBuilder_ == null) {
@@ -840,9 +772,6 @@ public final class AnchorPointDataNotifyOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -850,7 +779,6 @@ public final class AnchorPointDataNotifyOuterClass {
        *
        * <code>repeated .AnchorPointData anchor_point_list = 7;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addAllAnchorPointList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData> values) {
         if (anchorPointListBuilder_ == null) {
@@ -863,9 +791,6 @@ public final class AnchorPointDataNotifyOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -873,7 +798,6 @@ public final class AnchorPointDataNotifyOuterClass {
        *
        * <code>repeated .AnchorPointData anchor_point_list = 7;</code>
        */
->>>>>>> origin/6.5.0
       public Builder clearAnchorPointList() {
         if (anchorPointListBuilder_ == null) {
           anchorPointList_ = java.util.Collections.emptyList();
@@ -884,9 +808,6 @@ public final class AnchorPointDataNotifyOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -894,7 +815,6 @@ public final class AnchorPointDataNotifyOuterClass {
        *
        * <code>repeated .AnchorPointData anchor_point_list = 7;</code>
        */
->>>>>>> origin/6.5.0
       public Builder removeAnchorPointList(int index) {
         if (anchorPointListBuilder_ == null) {
           ensureAnchorPointListIsMutable();
@@ -905,9 +825,6 @@ public final class AnchorPointDataNotifyOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -915,14 +832,10 @@ public final class AnchorPointDataNotifyOuterClass {
        *
        * <code>repeated .AnchorPointData anchor_point_list = 7;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData.Builder getAnchorPointListBuilder(
           int index) {
         return getAnchorPointListFieldBuilder().getBuilder(index);
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -930,7 +843,6 @@ public final class AnchorPointDataNotifyOuterClass {
        *
        * <code>repeated .AnchorPointData anchor_point_list = 7;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointDataOrBuilder getAnchorPointListOrBuilder(
           int index) {
         if (anchorPointListBuilder_ == null) {
@@ -938,10 +850,6 @@ public final class AnchorPointDataNotifyOuterClass {
           return anchorPointListBuilder_.getMessageOrBuilder(index);
         }
       }
-<<<<<<< HEAD
-
-      public java.util.List<? extends emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointDataOrBuilder>
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -950,7 +858,6 @@ public final class AnchorPointDataNotifyOuterClass {
        * <code>repeated .AnchorPointData anchor_point_list = 7;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointDataOrBuilder> 
->>>>>>> origin/6.5.0
            getAnchorPointListOrBuilderList() {
         if (anchorPointListBuilder_ != null) {
           return anchorPointListBuilder_.getMessageOrBuilderList();
@@ -958,9 +865,6 @@ public final class AnchorPointDataNotifyOuterClass {
           return java.util.Collections.unmodifiableList(anchorPointList_);
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -968,14 +872,10 @@ public final class AnchorPointDataNotifyOuterClass {
        *
        * <code>repeated .AnchorPointData anchor_point_list = 7;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData.Builder addAnchorPointListBuilder() {
         return getAnchorPointListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData.getDefaultInstance());
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -983,16 +883,11 @@ public final class AnchorPointDataNotifyOuterClass {
        *
        * <code>repeated .AnchorPointData anchor_point_list = 7;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData.Builder addAnchorPointListBuilder(
           int index) {
         return getAnchorPointListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData.getDefaultInstance());
       }
-<<<<<<< HEAD
-
-      public java.util.List<emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData.Builder>
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1001,12 +896,11 @@ public final class AnchorPointDataNotifyOuterClass {
        * <code>repeated .AnchorPointData anchor_point_list = 7;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData.Builder> 
->>>>>>> origin/6.5.0
            getAnchorPointListBuilderList() {
         return getAnchorPointListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData, emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData.Builder, emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointDataOrBuilder>
+          emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData, emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointData.Builder, emu.grasscutter.net.proto.AnchorPointDataOuterClass.AnchorPointDataOrBuilder> 
           getAnchorPointListFieldBuilder() {
         if (anchorPointListBuilder_ == null) {
           anchorPointListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1035,7 +929,7 @@ public final class AnchorPointDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setNextUsableTime(int value) {
-
+        
         nextUsableTime_ = value;
         onChanged();
         return this;
@@ -1045,7 +939,7 @@ public final class AnchorPointDataNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNextUsableTime() {
-
+        
         nextUsableTime_ = 0;
         onChanged();
         return this;
@@ -1061,6 +955,7 @@ public final class AnchorPointDataNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:AnchorPointDataNotify)
     }
@@ -1104,7 +999,7 @@ public final class AnchorPointDataNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AnchorPointDataNotify_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AnchorPointDataNotify_fieldAccessorTable;
 

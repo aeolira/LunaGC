@@ -18,14 +18,6 @@ public final class MathQuaternionOuterClass {
       // @@protoc_insertion_point(interface_extends:MathQuaternion)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    float getX();
-
-    float getY();
-
-    float getZ();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -64,7 +56,6 @@ public final class MathQuaternionOuterClass {
      * <code>float w = 4;</code>
      * @return The w.
      */
->>>>>>> origin/6.5.0
     float getW();
   }
   /**
@@ -166,9 +157,6 @@ public final class MathQuaternionOuterClass {
 
     public static final int X_FIELD_NUMBER = 1;
     private float x_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -177,7 +165,6 @@ public final class MathQuaternionOuterClass {
      * <code>float x = 1;</code>
      * @return The x.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public float getX() {
       return x_;
@@ -185,9 +172,6 @@ public final class MathQuaternionOuterClass {
 
     public static final int Y_FIELD_NUMBER = 2;
     private float y_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -196,7 +180,6 @@ public final class MathQuaternionOuterClass {
      * <code>float y = 2;</code>
      * @return The y.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public float getY() {
       return y_;
@@ -204,9 +187,6 @@ public final class MathQuaternionOuterClass {
 
     public static final int Z_FIELD_NUMBER = 3;
     private float z_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -215,7 +195,6 @@ public final class MathQuaternionOuterClass {
      * <code>float z = 3;</code>
      * @return The z.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public float getZ() {
       return z_;
@@ -223,9 +202,6 @@ public final class MathQuaternionOuterClass {
 
     public static final int W_FIELD_NUMBER = 4;
     private float w_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -234,7 +210,6 @@ public final class MathQuaternionOuterClass {
      * <code>float w = 4;</code>
      * @return The w.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public float getW() {
       return w_;
@@ -602,9 +577,6 @@ public final class MathQuaternionOuterClass {
       }
 
       private float x_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -613,14 +585,10 @@ public final class MathQuaternionOuterClass {
        * <code>float x = 1;</code>
        * @return The x.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public float getX() {
         return x_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -630,16 +598,12 @@ public final class MathQuaternionOuterClass {
        * @param value The x to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setX(float value) {
-
+        
         x_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -648,18 +612,14 @@ public final class MathQuaternionOuterClass {
        * <code>float x = 1;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearX() {
-
+        
         x_ = 0F;
         onChanged();
         return this;
       }
 
       private float y_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -668,14 +628,10 @@ public final class MathQuaternionOuterClass {
        * <code>float y = 2;</code>
        * @return The y.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public float getY() {
         return y_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -685,16 +641,12 @@ public final class MathQuaternionOuterClass {
        * @param value The y to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setY(float value) {
-
+        
         y_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -703,18 +655,14 @@ public final class MathQuaternionOuterClass {
        * <code>float y = 2;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearY() {
-
+        
         y_ = 0F;
         onChanged();
         return this;
       }
 
       private float z_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -723,14 +671,10 @@ public final class MathQuaternionOuterClass {
        * <code>float z = 3;</code>
        * @return The z.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public float getZ() {
         return z_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -740,16 +684,12 @@ public final class MathQuaternionOuterClass {
        * @param value The z to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setZ(float value) {
-
+        
         z_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -758,18 +698,14 @@ public final class MathQuaternionOuterClass {
        * <code>float z = 3;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearZ() {
-
+        
         z_ = 0F;
         onChanged();
         return this;
       }
 
       private float w_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -778,14 +714,10 @@ public final class MathQuaternionOuterClass {
        * <code>float w = 4;</code>
        * @return The w.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public float getW() {
         return w_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -795,16 +727,12 @@ public final class MathQuaternionOuterClass {
        * @param value The w to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setW(float value) {
-
+        
         w_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -813,9 +741,8 @@ public final class MathQuaternionOuterClass {
        * <code>float w = 4;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearW() {
-
+        
         w_ = 0F;
         onChanged();
         return this;
@@ -831,6 +758,7 @@ public final class MathQuaternionOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:MathQuaternion)
     }
@@ -874,7 +802,7 @@ public final class MathQuaternionOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MathQuaternion_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MathQuaternion_fieldAccessorTable;
 

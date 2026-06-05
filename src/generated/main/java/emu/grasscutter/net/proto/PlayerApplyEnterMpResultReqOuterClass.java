@@ -18,10 +18,6 @@ public final class PlayerApplyEnterMpResultReqOuterClass {
       // @@protoc_insertion_point(interface_extends:PlayerApplyEnterMpResultReq)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    boolean getIsAgreed();
-
-=======
     /**
      * <pre>
      *6.5.5     
@@ -40,7 +36,6 @@ public final class PlayerApplyEnterMpResultReqOuterClass {
      * <code>uint32 apply_uid = 10;</code>
      * @return The applyUid.
      */
->>>>>>> origin/6.5.0
     int getApplyUid();
   }
   /**
@@ -132,9 +127,6 @@ public final class PlayerApplyEnterMpResultReqOuterClass {
 
     public static final int IS_AGREED_FIELD_NUMBER = 8;
     private boolean isAgreed_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5     
@@ -143,7 +135,6 @@ public final class PlayerApplyEnterMpResultReqOuterClass {
      * <code>bool is_agreed = 8;</code>
      * @return The isAgreed.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsAgreed() {
       return isAgreed_;
@@ -151,9 +142,6 @@ public final class PlayerApplyEnterMpResultReqOuterClass {
 
     public static final int APPLY_UID_FIELD_NUMBER = 10;
     private int applyUid_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5     
@@ -162,7 +150,6 @@ public final class PlayerApplyEnterMpResultReqOuterClass {
      * <code>uint32 apply_uid = 10;</code>
      * @return The applyUid.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getApplyUid() {
       return applyUid_;
@@ -489,9 +476,6 @@ public final class PlayerApplyEnterMpResultReqOuterClass {
       }
 
       private boolean isAgreed_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5     
@@ -500,14 +484,10 @@ public final class PlayerApplyEnterMpResultReqOuterClass {
        * <code>bool is_agreed = 8;</code>
        * @return The isAgreed.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsAgreed() {
         return isAgreed_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5     
@@ -517,16 +497,12 @@ public final class PlayerApplyEnterMpResultReqOuterClass {
        * @param value The isAgreed to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setIsAgreed(boolean value) {
-
+        
         isAgreed_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5     
@@ -535,18 +511,14 @@ public final class PlayerApplyEnterMpResultReqOuterClass {
        * <code>bool is_agreed = 8;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearIsAgreed() {
-
+        
         isAgreed_ = false;
         onChanged();
         return this;
       }
 
       private int applyUid_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5     
@@ -555,14 +527,10 @@ public final class PlayerApplyEnterMpResultReqOuterClass {
        * <code>uint32 apply_uid = 10;</code>
        * @return The applyUid.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getApplyUid() {
         return applyUid_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5     
@@ -572,16 +540,12 @@ public final class PlayerApplyEnterMpResultReqOuterClass {
        * @param value The applyUid to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setApplyUid(int value) {
-
+        
         applyUid_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5     
@@ -590,9 +554,8 @@ public final class PlayerApplyEnterMpResultReqOuterClass {
        * <code>uint32 apply_uid = 10;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearApplyUid() {
-
+        
         applyUid_ = 0;
         onChanged();
         return this;
@@ -608,6 +571,7 @@ public final class PlayerApplyEnterMpResultReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:PlayerApplyEnterMpResultReq)
     }
@@ -651,7 +615,7 @@ public final class PlayerApplyEnterMpResultReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerApplyEnterMpResultReq_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerApplyEnterMpResultReq_fieldAccessorTable;
 

@@ -18,14 +18,6 @@ public final class DropItemRspOuterClass {
       // @@protoc_insertion_point(interface_extends:DropItemRsp)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    int getRetcode();
-
-    int getStoreTypeValue();
-
-    emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType getStoreType();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0   
@@ -63,7 +55,6 @@ public final class DropItemRspOuterClass {
      * <code>uint64 guid = 2;</code>
      * @return The guid.
      */
->>>>>>> origin/6.5.0
     long getGuid();
   }
   /**
@@ -164,11 +155,8 @@ public final class DropItemRspOuterClass {
               emu.grasscutter.net.proto.DropItemRspOuterClass.DropItemRsp.class, emu.grasscutter.net.proto.DropItemRspOuterClass.DropItemRsp.Builder.class);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 8;
+    public static final int RETCODE_FIELD_NUMBER = 6;
     private int retcode_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0   
@@ -177,21 +165,13 @@ public final class DropItemRspOuterClass {
      * <code>int32 retcode = 6;</code>
      * @return The retcode.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
     }
 
-    public static final int STORE_TYPE_FIELD_NUMBER = 11;
+    public static final int STORE_TYPE_FIELD_NUMBER = 10;
     private int storeType_;
-<<<<<<< HEAD
-
-    @java.lang.Override public int getStoreTypeValue() {
-      return storeType_;
-    }
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0   
@@ -211,18 +191,14 @@ public final class DropItemRspOuterClass {
      * <code>.StoreType store_type = 10;</code>
      * @return The storeType.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override public emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType getStoreType() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType result = emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType.valueOf(storeType_);
       return result == null ? emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType.UNRECOGNIZED : result;
     }
 
-    public static final int GUID_FIELD_NUMBER = 4;
+    public static final int GUID_FIELD_NUMBER = 2;
     private long guid_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0   
@@ -231,7 +207,6 @@ public final class DropItemRspOuterClass {
      * <code>uint64 guid = 2;</code>
      * @return The guid.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public long getGuid() {
       return guid_;
@@ -252,13 +227,13 @@ public final class DropItemRspOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (guid_ != 0L) {
-        output.writeUInt64(4, guid_);
+        output.writeUInt64(2, guid_);
       }
       if (retcode_ != 0) {
-        output.writeInt32(8, retcode_);
+        output.writeInt32(6, retcode_);
       }
       if (storeType_ != emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType.StoreType_STORE_NONE.getNumber()) {
-        output.writeEnum(11, storeType_);
+        output.writeEnum(10, storeType_);
       }
       unknownFields.writeTo(output);
     }
@@ -271,15 +246,15 @@ public final class DropItemRspOuterClass {
       size = 0;
       if (guid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt64Size(4, guid_);
+          .computeUInt64Size(2, guid_);
       }
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(8, retcode_);
+          .computeInt32Size(6, retcode_);
       }
       if (storeType_ != emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType.StoreType_STORE_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(11, storeType_);
+          .computeEnumSize(10, storeType_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -578,9 +553,6 @@ public final class DropItemRspOuterClass {
       }
 
       private int retcode_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0   
@@ -589,14 +561,10 @@ public final class DropItemRspOuterClass {
        * <code>int32 retcode = 6;</code>
        * @return The retcode.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0   
@@ -606,16 +574,12 @@ public final class DropItemRspOuterClass {
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
-
+        
         retcode_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0   
@@ -624,22 +588,14 @@ public final class DropItemRspOuterClass {
        * <code>int32 retcode = 6;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearRetcode() {
-
+        
         retcode_ = 0;
         onChanged();
         return this;
       }
 
       private int storeType_ = 0;
-<<<<<<< HEAD
-
-      @java.lang.Override public int getStoreTypeValue() {
-        return storeType_;
-      }
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0   
@@ -660,16 +616,12 @@ public final class DropItemRspOuterClass {
        * @param value The enum numeric value on the wire for storeType to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setStoreTypeValue(int value) {
-
+        
         storeType_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0   
@@ -678,16 +630,12 @@ public final class DropItemRspOuterClass {
        * <code>.StoreType store_type = 10;</code>
        * @return The storeType.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType getStoreType() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType result = emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType.valueOf(storeType_);
         return result == null ? emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType.UNRECOGNIZED : result;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0   
@@ -697,19 +645,15 @@ public final class DropItemRspOuterClass {
        * @param value The storeType to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setStoreType(emu.grasscutter.net.proto.StoreTypeOuterClass.StoreType value) {
         if (value == null) {
           throw new NullPointerException();
         }
-
+        
         storeType_ = value.getNumber();
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0   
@@ -718,18 +662,14 @@ public final class DropItemRspOuterClass {
        * <code>.StoreType store_type = 10;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearStoreType() {
-
+        
         storeType_ = 0;
         onChanged();
         return this;
       }
 
       private long guid_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0   
@@ -738,14 +678,10 @@ public final class DropItemRspOuterClass {
        * <code>uint64 guid = 2;</code>
        * @return The guid.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public long getGuid() {
         return guid_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0   
@@ -755,16 +691,12 @@ public final class DropItemRspOuterClass {
        * @param value The guid to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setGuid(long value) {
-
+        
         guid_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0   
@@ -773,9 +705,8 @@ public final class DropItemRspOuterClass {
        * <code>uint64 guid = 2;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearGuid() {
-
+        
         guid_ = 0L;
         onChanged();
         return this;
@@ -791,6 +722,7 @@ public final class DropItemRspOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:DropItemRsp)
     }
@@ -834,7 +766,7 @@ public final class DropItemRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_DropItemRsp_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_DropItemRsp_fieldAccessorTable;
 

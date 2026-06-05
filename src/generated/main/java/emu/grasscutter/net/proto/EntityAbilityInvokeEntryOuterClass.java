@@ -18,21 +18,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
       // @@protoc_insertion_point(interface_extends:EntityAbilityInvokeEntry)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-    java.util.List<emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry>
-        getInvokesList();
-
-    emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry getInvokes(int index);
-
-    int getInvokesCount();
-
-    java.util.List<? extends emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntryOrBuilder>
-        getInvokesOrBuilderList();
-
-    emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntryOrBuilder getInvokesOrBuilder(
-        int index);
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -85,7 +70,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
      * <code>uint32 entity_id = 14;</code>
      * @return The entityId.
      */
->>>>>>> origin/6.5.0
     int getEntityId();
   }
   /**
@@ -135,7 +119,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
             case 0:
               done = true;
               break;
-            case 18: {
+            case 98: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 invokes_ = new java.util.ArrayList<emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry>();
                 mutable_bitField0_ |= 0x00000001;
@@ -144,7 +128,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry.parser(), extensionRegistry));
               break;
             }
-            case 72: {
+            case 112: {
 
               entityId_ = input.readUInt32();
               break;
@@ -184,11 +168,8 @@ public final class EntityAbilityInvokeEntryOuterClass {
               emu.grasscutter.net.proto.EntityAbilityInvokeEntryOuterClass.EntityAbilityInvokeEntry.class, emu.grasscutter.net.proto.EntityAbilityInvokeEntryOuterClass.EntityAbilityInvokeEntry.Builder.class);
     }
 
-    public static final int INVOKES_FIELD_NUMBER = 2;
+    public static final int INVOKES_FIELD_NUMBER = 12;
     private java.util.List<emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry> invokes_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -196,14 +177,10 @@ public final class EntityAbilityInvokeEntryOuterClass {
      *
      * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry> getInvokesList() {
       return invokes_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -211,15 +188,11 @@ public final class EntityAbilityInvokeEntryOuterClass {
      *
      * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntryOrBuilder>
+    public java.util.List<? extends emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntryOrBuilder> 
         getInvokesOrBuilderList() {
       return invokes_;
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -227,14 +200,10 @@ public final class EntityAbilityInvokeEntryOuterClass {
      *
      * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getInvokesCount() {
       return invokes_.size();
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -242,14 +211,10 @@ public final class EntityAbilityInvokeEntryOuterClass {
      *
      * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry getInvokes(int index) {
       return invokes_.get(index);
     }
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -257,18 +222,14 @@ public final class EntityAbilityInvokeEntryOuterClass {
      *
      * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntryOrBuilder getInvokesOrBuilder(
         int index) {
       return invokes_.get(index);
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 9;
+    public static final int ENTITY_ID_FIELD_NUMBER = 14;
     private int entityId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -277,7 +238,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
      * <code>uint32 entity_id = 14;</code>
      * @return The entityId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getEntityId() {
       return entityId_;
@@ -298,10 +258,10 @@ public final class EntityAbilityInvokeEntryOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       for (int i = 0; i < invokes_.size(); i++) {
-        output.writeMessage(2, invokes_.get(i));
+        output.writeMessage(12, invokes_.get(i));
       }
       if (entityId_ != 0) {
-        output.writeUInt32(9, entityId_);
+        output.writeUInt32(14, entityId_);
       }
       unknownFields.writeTo(output);
     }
@@ -314,11 +274,11 @@ public final class EntityAbilityInvokeEntryOuterClass {
       size = 0;
       for (int i = 0; i < invokes_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(2, invokes_.get(i));
+          .computeMessageSize(12, invokes_.get(i));
       }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(9, entityId_);
+          .computeUInt32Size(14, entityId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -601,7 +561,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
               invokesBuilder_ = null;
               invokes_ = other.invokes_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              invokesBuilder_ =
+              invokesBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getInvokesFieldBuilder() : null;
             } else {
@@ -654,8 +614,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry, emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry.Builder, emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntryOrBuilder> invokesBuilder_;
 
-<<<<<<< HEAD
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -663,7 +621,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
        */
->>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry> getInvokesList() {
         if (invokesBuilder_ == null) {
           return java.util.Collections.unmodifiableList(invokes_);
@@ -671,9 +628,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
           return invokesBuilder_.getMessageList();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -681,7 +635,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
        */
->>>>>>> origin/6.5.0
       public int getInvokesCount() {
         if (invokesBuilder_ == null) {
           return invokes_.size();
@@ -689,9 +642,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
           return invokesBuilder_.getCount();
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -699,7 +649,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry getInvokes(int index) {
         if (invokesBuilder_ == null) {
           return invokes_.get(index);
@@ -707,9 +656,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
           return invokesBuilder_.getMessage(index);
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -717,7 +663,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setInvokes(
           int index, emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry value) {
         if (invokesBuilder_ == null) {
@@ -732,9 +677,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -742,7 +684,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
        */
->>>>>>> origin/6.5.0
       public Builder setInvokes(
           int index, emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry.Builder builderForValue) {
         if (invokesBuilder_ == null) {
@@ -754,9 +695,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -764,7 +702,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addInvokes(emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry value) {
         if (invokesBuilder_ == null) {
           if (value == null) {
@@ -778,9 +715,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -788,7 +722,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addInvokes(
           int index, emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry value) {
         if (invokesBuilder_ == null) {
@@ -803,9 +736,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -813,7 +743,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addInvokes(
           emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry.Builder builderForValue) {
         if (invokesBuilder_ == null) {
@@ -825,9 +754,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -835,7 +761,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addInvokes(
           int index, emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry.Builder builderForValue) {
         if (invokesBuilder_ == null) {
@@ -847,9 +772,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -857,7 +779,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
        */
->>>>>>> origin/6.5.0
       public Builder addAllInvokes(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry> values) {
         if (invokesBuilder_ == null) {
@@ -870,9 +791,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -880,7 +798,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
        */
->>>>>>> origin/6.5.0
       public Builder clearInvokes() {
         if (invokesBuilder_ == null) {
           invokes_ = java.util.Collections.emptyList();
@@ -891,9 +808,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -901,7 +815,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
        */
->>>>>>> origin/6.5.0
       public Builder removeInvokes(int index) {
         if (invokesBuilder_ == null) {
           ensureInvokesIsMutable();
@@ -912,9 +825,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
         }
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -922,14 +832,10 @@ public final class EntityAbilityInvokeEntryOuterClass {
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry.Builder getInvokesBuilder(
           int index) {
         return getInvokesFieldBuilder().getBuilder(index);
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -937,7 +843,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntryOrBuilder getInvokesOrBuilder(
           int index) {
         if (invokesBuilder_ == null) {
@@ -945,10 +850,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
           return invokesBuilder_.getMessageOrBuilder(index);
         }
       }
-<<<<<<< HEAD
-
-      public java.util.List<? extends emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntryOrBuilder>
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -957,7 +858,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntryOrBuilder> 
->>>>>>> origin/6.5.0
            getInvokesOrBuilderList() {
         if (invokesBuilder_ != null) {
           return invokesBuilder_.getMessageOrBuilderList();
@@ -965,9 +865,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
           return java.util.Collections.unmodifiableList(invokes_);
         }
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -975,14 +872,10 @@ public final class EntityAbilityInvokeEntryOuterClass {
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry.Builder addInvokesBuilder() {
         return getInvokesFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry.getDefaultInstance());
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -990,16 +883,11 @@ public final class EntityAbilityInvokeEntryOuterClass {
        *
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
        */
->>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry.Builder addInvokesBuilder(
           int index) {
         return getInvokesFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry.getDefaultInstance());
       }
-<<<<<<< HEAD
-
-      public java.util.List<emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry.Builder>
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1008,12 +896,11 @@ public final class EntityAbilityInvokeEntryOuterClass {
        * <code>repeated .AbilityInvokeEntry invokes = 12;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry.Builder> 
->>>>>>> origin/6.5.0
            getInvokesBuilderList() {
         return getInvokesFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry, emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry.Builder, emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntryOrBuilder>
+          emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry, emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntry.Builder, emu.grasscutter.net.proto.AbilityInvokeEntryOuterClass.AbilityInvokeEntryOrBuilder> 
           getInvokesFieldBuilder() {
         if (invokesBuilder_ == null) {
           invokesBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1028,9 +915,6 @@ public final class EntityAbilityInvokeEntryOuterClass {
       }
 
       private int entityId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1039,14 +923,10 @@ public final class EntityAbilityInvokeEntryOuterClass {
        * <code>uint32 entity_id = 14;</code>
        * @return The entityId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getEntityId() {
         return entityId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1056,16 +936,12 @@ public final class EntityAbilityInvokeEntryOuterClass {
        * @param value The entityId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setEntityId(int value) {
-
+        
         entityId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1074,9 +950,8 @@ public final class EntityAbilityInvokeEntryOuterClass {
        * <code>uint32 entity_id = 14;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearEntityId() {
-
+        
         entityId_ = 0;
         onChanged();
         return this;
@@ -1092,6 +967,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:EntityAbilityInvokeEntry)
     }
@@ -1135,7 +1011,7 @@ public final class EntityAbilityInvokeEntryOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EntityAbilityInvokeEntry_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EntityAbilityInvokeEntry_fieldAccessorTable;
 

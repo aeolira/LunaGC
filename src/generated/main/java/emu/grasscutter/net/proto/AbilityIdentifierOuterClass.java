@@ -18,8 +18,6 @@ public final class AbilityIdentifierOuterClass {
       // @@protoc_insertion_point(interface_extends:AbilityIdentifier)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -28,7 +26,6 @@ public final class AbilityIdentifierOuterClass {
      * <code>uint32 instanced_modifier_id = 12;</code>
      * @return The instancedModifierId.
      */
->>>>>>> origin/6.5.0
     int getInstancedModifierId();
 
     /**
@@ -37,10 +34,6 @@ public final class AbilityIdentifierOuterClass {
      */
     int getOBCMIANDPDK();
 
-<<<<<<< HEAD
-    int getInstancedAbilityId();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -59,7 +52,6 @@ public final class AbilityIdentifierOuterClass {
      * <code>int32 local_id = 4;</code>
      * @return The localId.
      */
->>>>>>> origin/6.5.0
     int getLocalId();
 
     /**
@@ -113,27 +105,27 @@ public final class AbilityIdentifierOuterClass {
             case 0:
               done = true;
               break;
-            case 16: {
+            case 8: {
 
               instancedAbilityId_ = input.readUInt32();
               break;
             }
             case 32: {
 
-              instancedModifierId_ = input.readUInt32();
-              break;
-            }
-            case 56: {
-
               localId_ = input.readInt32();
               break;
             }
-            case 64: {
+            case 88: {
 
               isServerbuffModifier_ = input.readBool();
               break;
             }
-            case 112: {
+            case 96: {
+
+              instancedModifierId_ = input.readUInt32();
+              break;
+            }
+            case 128: {
 
               oBCMIANDPDK_ = input.readUInt32();
               break;
@@ -170,11 +162,8 @@ public final class AbilityIdentifierOuterClass {
               emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifier.class, emu.grasscutter.net.proto.AbilityIdentifierOuterClass.AbilityIdentifier.Builder.class);
     }
 
-    public static final int INSTANCED_MODIFIER_ID_FIELD_NUMBER = 4;
+    public static final int INSTANCED_MODIFIER_ID_FIELD_NUMBER = 12;
     private int instancedModifierId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -183,13 +172,12 @@ public final class AbilityIdentifierOuterClass {
      * <code>uint32 instanced_modifier_id = 12;</code>
      * @return The instancedModifierId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getInstancedModifierId() {
       return instancedModifierId_;
     }
 
-    public static final int OBCMIANDPDK_FIELD_NUMBER = 14;
+    public static final int OBCMIANDPDK_FIELD_NUMBER = 16;
     private int oBCMIANDPDK_;
     /**
      * <code>uint32 OBCMIANDPDK = 16;</code>
@@ -200,11 +188,8 @@ public final class AbilityIdentifierOuterClass {
       return oBCMIANDPDK_;
     }
 
-    public static final int INSTANCED_ABILITY_ID_FIELD_NUMBER = 2;
+    public static final int INSTANCED_ABILITY_ID_FIELD_NUMBER = 1;
     private int instancedAbilityId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -213,17 +198,13 @@ public final class AbilityIdentifierOuterClass {
      * <code>uint32 instanced_ability_id = 1;</code>
      * @return The instancedAbilityId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getInstancedAbilityId() {
       return instancedAbilityId_;
     }
 
-    public static final int LOCAL_ID_FIELD_NUMBER = 7;
+    public static final int LOCAL_ID_FIELD_NUMBER = 4;
     private int localId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -232,13 +213,12 @@ public final class AbilityIdentifierOuterClass {
      * <code>int32 local_id = 4;</code>
      * @return The localId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getLocalId() {
       return localId_;
     }
 
-    public static final int IS_SERVERBUFF_MODIFIER_FIELD_NUMBER = 8;
+    public static final int IS_SERVERBUFF_MODIFIER_FIELD_NUMBER = 11;
     private boolean isServerbuffModifier_;
     /**
      * <code>bool is_serverbuff_modifier = 11;</code>
@@ -264,19 +244,19 @@ public final class AbilityIdentifierOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (instancedAbilityId_ != 0) {
-        output.writeUInt32(2, instancedAbilityId_);
-      }
-      if (instancedModifierId_ != 0) {
-        output.writeUInt32(4, instancedModifierId_);
+        output.writeUInt32(1, instancedAbilityId_);
       }
       if (localId_ != 0) {
-        output.writeInt32(7, localId_);
+        output.writeInt32(4, localId_);
       }
       if (isServerbuffModifier_ != false) {
-        output.writeBool(8, isServerbuffModifier_);
+        output.writeBool(11, isServerbuffModifier_);
+      }
+      if (instancedModifierId_ != 0) {
+        output.writeUInt32(12, instancedModifierId_);
       }
       if (oBCMIANDPDK_ != 0) {
-        output.writeUInt32(14, oBCMIANDPDK_);
+        output.writeUInt32(16, oBCMIANDPDK_);
       }
       unknownFields.writeTo(output);
     }
@@ -289,23 +269,23 @@ public final class AbilityIdentifierOuterClass {
       size = 0;
       if (instancedAbilityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(2, instancedAbilityId_);
-      }
-      if (instancedModifierId_ != 0) {
-        size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, instancedModifierId_);
+          .computeUInt32Size(1, instancedAbilityId_);
       }
       if (localId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(7, localId_);
+          .computeInt32Size(4, localId_);
       }
       if (isServerbuffModifier_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(8, isServerbuffModifier_);
+          .computeBoolSize(11, isServerbuffModifier_);
+      }
+      if (instancedModifierId_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeUInt32Size(12, instancedModifierId_);
       }
       if (oBCMIANDPDK_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(14, oBCMIANDPDK_);
+          .computeUInt32Size(16, oBCMIANDPDK_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -621,9 +601,6 @@ public final class AbilityIdentifierOuterClass {
       }
 
       private int instancedModifierId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -632,14 +609,10 @@ public final class AbilityIdentifierOuterClass {
        * <code>uint32 instanced_modifier_id = 12;</code>
        * @return The instancedModifierId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getInstancedModifierId() {
         return instancedModifierId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -649,16 +622,12 @@ public final class AbilityIdentifierOuterClass {
        * @param value The instancedModifierId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setInstancedModifierId(int value) {
-
+        
         instancedModifierId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -667,9 +636,8 @@ public final class AbilityIdentifierOuterClass {
        * <code>uint32 instanced_modifier_id = 12;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearInstancedModifierId() {
-
+        
         instancedModifierId_ = 0;
         onChanged();
         return this;
@@ -690,7 +658,7 @@ public final class AbilityIdentifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOBCMIANDPDK(int value) {
-
+        
         oBCMIANDPDK_ = value;
         onChanged();
         return this;
@@ -700,16 +668,13 @@ public final class AbilityIdentifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOBCMIANDPDK() {
-
+        
         oBCMIANDPDK_ = 0;
         onChanged();
         return this;
       }
 
       private int instancedAbilityId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -718,14 +683,10 @@ public final class AbilityIdentifierOuterClass {
        * <code>uint32 instanced_ability_id = 1;</code>
        * @return The instancedAbilityId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getInstancedAbilityId() {
         return instancedAbilityId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -735,16 +696,12 @@ public final class AbilityIdentifierOuterClass {
        * @param value The instancedAbilityId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setInstancedAbilityId(int value) {
-
+        
         instancedAbilityId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -753,18 +710,14 @@ public final class AbilityIdentifierOuterClass {
        * <code>uint32 instanced_ability_id = 1;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearInstancedAbilityId() {
-
+        
         instancedAbilityId_ = 0;
         onChanged();
         return this;
       }
 
       private int localId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -773,14 +726,10 @@ public final class AbilityIdentifierOuterClass {
        * <code>int32 local_id = 4;</code>
        * @return The localId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getLocalId() {
         return localId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -790,16 +739,12 @@ public final class AbilityIdentifierOuterClass {
        * @param value The localId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setLocalId(int value) {
-
+        
         localId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -808,9 +753,8 @@ public final class AbilityIdentifierOuterClass {
        * <code>int32 local_id = 4;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearLocalId() {
-
+        
         localId_ = 0;
         onChanged();
         return this;
@@ -831,7 +775,7 @@ public final class AbilityIdentifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsServerbuffModifier(boolean value) {
-
+        
         isServerbuffModifier_ = value;
         onChanged();
         return this;
@@ -841,7 +785,7 @@ public final class AbilityIdentifierOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsServerbuffModifier() {
-
+        
         isServerbuffModifier_ = false;
         onChanged();
         return this;
@@ -857,6 +801,7 @@ public final class AbilityIdentifierOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:AbilityIdentifier)
     }
@@ -900,7 +845,7 @@ public final class AbilityIdentifierOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AbilityIdentifier_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AbilityIdentifier_fieldAccessorTable;
 

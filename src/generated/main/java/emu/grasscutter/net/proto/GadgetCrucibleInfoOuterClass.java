@@ -18,8 +18,6 @@ public final class GadgetCrucibleInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:GadgetCrucibleInfo)
       com.google.protobuf.MessageOrBuilder {
 
-<<<<<<< HEAD
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -28,7 +26,6 @@ public final class GadgetCrucibleInfoOuterClass {
      * <code>uint32 mp_play_id = 1;</code>
      * @return The mpPlayId.
      */
->>>>>>> origin/6.5.0
     int getMpPlayId();
 
     /**
@@ -126,9 +123,6 @@ public final class GadgetCrucibleInfoOuterClass {
 
     public static final int MP_PLAY_ID_FIELD_NUMBER = 1;
     private int mpPlayId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -137,7 +131,6 @@ public final class GadgetCrucibleInfoOuterClass {
      * <code>uint32 mp_play_id = 1;</code>
      * @return The mpPlayId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getMpPlayId() {
       return mpPlayId_;
@@ -474,9 +467,6 @@ public final class GadgetCrucibleInfoOuterClass {
       }
 
       private int mpPlayId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -485,14 +475,10 @@ public final class GadgetCrucibleInfoOuterClass {
        * <code>uint32 mp_play_id = 1;</code>
        * @return The mpPlayId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getMpPlayId() {
         return mpPlayId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -502,16 +488,12 @@ public final class GadgetCrucibleInfoOuterClass {
        * @param value The mpPlayId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setMpPlayId(int value) {
-
+        
         mpPlayId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -520,9 +502,8 @@ public final class GadgetCrucibleInfoOuterClass {
        * <code>uint32 mp_play_id = 1;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearMpPlayId() {
-
+        
         mpPlayId_ = 0;
         onChanged();
         return this;
@@ -543,7 +524,7 @@ public final class GadgetCrucibleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setNONAJCIEICM(int value) {
-
+        
         nONAJCIEICM_ = value;
         onChanged();
         return this;
@@ -553,7 +534,7 @@ public final class GadgetCrucibleInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNONAJCIEICM() {
-
+        
         nONAJCIEICM_ = 0;
         onChanged();
         return this;
@@ -569,6 +550,7 @@ public final class GadgetCrucibleInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:GadgetCrucibleInfo)
     }
@@ -612,7 +594,7 @@ public final class GadgetCrucibleInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GadgetCrucibleInfo_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GadgetCrucibleInfo_fieldAccessorTable;
 

@@ -24,10 +24,6 @@ public final class SelectWorktopOptionReqOuterClass {
      */
     int getHEBNJOABFOO();
 
-<<<<<<< HEAD
-    int getOptionId();
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -46,7 +42,6 @@ public final class SelectWorktopOptionReqOuterClass {
      * <code>uint32 gadget_entity_id = 15;</code>
      * @return The gadgetEntityId.
      */
->>>>>>> origin/6.5.0
     int getGadgetEntityId();
   }
   /**
@@ -98,19 +93,19 @@ public final class SelectWorktopOptionReqOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
+            case 32: {
+
+              optionId_ = input.readUInt32();
+              break;
+            }
+            case 40: {
 
               hEBNJOABFOO_ = input.readUInt32();
               break;
             }
-            case 88: {
+            case 120: {
 
               gadgetEntityId_ = input.readUInt32();
-              break;
-            }
-            case 96: {
-
-              optionId_ = input.readUInt32();
               break;
             }
             default: {
@@ -145,7 +140,7 @@ public final class SelectWorktopOptionReqOuterClass {
               emu.grasscutter.net.proto.SelectWorktopOptionReqOuterClass.SelectWorktopOptionReq.class, emu.grasscutter.net.proto.SelectWorktopOptionReqOuterClass.SelectWorktopOptionReq.Builder.class);
     }
 
-    public static final int HEBNJOABFOO_FIELD_NUMBER = 7;
+    public static final int HEBNJOABFOO_FIELD_NUMBER = 5;
     private int hEBNJOABFOO_;
     /**
      * <code>uint32 HEBNJOABFOO = 5;</code>
@@ -156,11 +151,8 @@ public final class SelectWorktopOptionReqOuterClass {
       return hEBNJOABFOO_;
     }
 
-    public static final int OPTION_ID_FIELD_NUMBER = 12;
+    public static final int OPTION_ID_FIELD_NUMBER = 4;
     private int optionId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -169,17 +161,13 @@ public final class SelectWorktopOptionReqOuterClass {
      * <code>uint32 option_id = 4;</code>
      * @return The optionId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getOptionId() {
       return optionId_;
     }
 
-    public static final int GADGET_ENTITY_ID_FIELD_NUMBER = 11;
+    public static final int GADGET_ENTITY_ID_FIELD_NUMBER = 15;
     private int gadgetEntityId_;
-<<<<<<< HEAD
-
-=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -188,7 +176,6 @@ public final class SelectWorktopOptionReqOuterClass {
      * <code>uint32 gadget_entity_id = 15;</code>
      * @return The gadgetEntityId.
      */
->>>>>>> origin/6.5.0
     @java.lang.Override
     public int getGadgetEntityId() {
       return gadgetEntityId_;
@@ -209,13 +196,13 @@ public final class SelectWorktopOptionReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (optionId_ != 0) {
-        output.writeUInt32(12, optionId_);
+        output.writeUInt32(4, optionId_);
       }
       if (hEBNJOABFOO_ != 0) {
-        output.writeUInt32(7, hEBNJOABFOO_);
+        output.writeUInt32(5, hEBNJOABFOO_);
       }
       if (gadgetEntityId_ != 0) {
-        output.writeUInt32(11, gadgetEntityId_);
+        output.writeUInt32(15, gadgetEntityId_);
       }
       unknownFields.writeTo(output);
     }
@@ -228,15 +215,15 @@ public final class SelectWorktopOptionReqOuterClass {
       size = 0;
       if (optionId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, optionId_);
+          .computeUInt32Size(4, optionId_);
       }
       if (hEBNJOABFOO_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, hEBNJOABFOO_);
+          .computeUInt32Size(5, hEBNJOABFOO_);
       }
       if (gadgetEntityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, gadgetEntityId_);
+          .computeUInt32Size(15, gadgetEntityId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -549,7 +536,7 @@ public final class SelectWorktopOptionReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setHEBNJOABFOO(int value) {
-
+        
         hEBNJOABFOO_ = value;
         onChanged();
         return this;
@@ -559,16 +546,13 @@ public final class SelectWorktopOptionReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHEBNJOABFOO() {
-
+        
         hEBNJOABFOO_ = 0;
         onChanged();
         return this;
       }
 
       private int optionId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -577,14 +561,10 @@ public final class SelectWorktopOptionReqOuterClass {
        * <code>uint32 option_id = 4;</code>
        * @return The optionId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getOptionId() {
         return optionId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -594,16 +574,12 @@ public final class SelectWorktopOptionReqOuterClass {
        * @param value The optionId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setOptionId(int value) {
-
+        
         optionId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -612,18 +588,14 @@ public final class SelectWorktopOptionReqOuterClass {
        * <code>uint32 option_id = 4;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearOptionId() {
-
+        
         optionId_ = 0;
         onChanged();
         return this;
       }
 
       private int gadgetEntityId_ ;
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -632,14 +604,10 @@ public final class SelectWorktopOptionReqOuterClass {
        * <code>uint32 gadget_entity_id = 15;</code>
        * @return The gadgetEntityId.
        */
->>>>>>> origin/6.5.0
       @java.lang.Override
       public int getGadgetEntityId() {
         return gadgetEntityId_;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -649,16 +617,12 @@ public final class SelectWorktopOptionReqOuterClass {
        * @param value The gadgetEntityId to set.
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder setGadgetEntityId(int value) {
-
+        
         gadgetEntityId_ = value;
         onChanged();
         return this;
       }
-<<<<<<< HEAD
-
-=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -667,9 +631,8 @@ public final class SelectWorktopOptionReqOuterClass {
        * <code>uint32 gadget_entity_id = 15;</code>
        * @return This builder for chaining.
        */
->>>>>>> origin/6.5.0
       public Builder clearGadgetEntityId() {
-
+        
         gadgetEntityId_ = 0;
         onChanged();
         return this;
@@ -685,6 +648,7 @@ public final class SelectWorktopOptionReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
+
 
       // @@protoc_insertion_point(builder_scope:SelectWorktopOptionReq)
     }
@@ -728,7 +692,7 @@ public final class SelectWorktopOptionReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SelectWorktopOptionReq_descriptor;
-  private static final
+  private static final 
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SelectWorktopOptionReq_fieldAccessorTable;
 
