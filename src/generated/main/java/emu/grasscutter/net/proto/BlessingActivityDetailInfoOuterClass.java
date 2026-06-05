@@ -58,6 +58,8 @@ public final class BlessingActivityDetailInfoOuterClass {
      */
     int getEGBKCDHJCCL();
 
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -66,6 +68,7 @@ public final class BlessingActivityDetailInfoOuterClass {
      * <code>uint32 content_close_time = 15;</code>
      * @return The contentCloseTime.
      */
+>>>>>>> origin/6.5.0
     int getContentCloseTime();
 
     /**
@@ -74,6 +77,8 @@ public final class BlessingActivityDetailInfoOuterClass {
      */
     int getMAKGFHFHLME();
 
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -82,6 +87,7 @@ public final class BlessingActivityDetailInfoOuterClass {
      * <code>uint32 next_refresh_time = 11;</code>
      * @return The nextRefreshTime.
      */
+>>>>>>> origin/6.5.0
     int getNextRefreshTime();
 
     /**
@@ -90,6 +96,8 @@ public final class BlessingActivityDetailInfoOuterClass {
      */
     int getPPBCHANJKNF();
 
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -98,6 +106,7 @@ public final class BlessingActivityDetailInfoOuterClass {
      * <code>bool is_content_closed = 1;</code>
      * @return The isContentClosed.
      */
+>>>>>>> origin/6.5.0
     boolean getIsContentClosed();
 
     /**
@@ -250,7 +259,7 @@ public final class BlessingActivityDetailInfoOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.BlessingActivityDetailInfoOuterClass.internal_static_BlessingActivityDetailInfo_FHPCJDBDAPCEntry_descriptor, 
+                  emu.grasscutter.net.proto.BlessingActivityDetailInfoOuterClass.internal_static_BlessingActivityDetailInfo_FHPCJDBDAPCEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -277,7 +286,7 @@ public final class BlessingActivityDetailInfoOuterClass {
     @java.lang.Override
     public boolean containsFHPCJDBDAPC(
         int key) {
-      
+
       return internalGetFHPCJDBDAPC().getMap().containsKey(key);
     }
     /**
@@ -304,7 +313,7 @@ public final class BlessingActivityDetailInfoOuterClass {
     public int getFHPCJDBDAPCOrDefault(
         int key,
         int defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetFHPCJDBDAPC().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -316,7 +325,7 @@ public final class BlessingActivityDetailInfoOuterClass {
 
     public int getFHPCJDBDAPCOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetFHPCJDBDAPC().getMap();
       if (!map.containsKey(key)) {
@@ -338,6 +347,9 @@ public final class BlessingActivityDetailInfoOuterClass {
 
     public static final int CONTENT_CLOSE_TIME_FIELD_NUMBER = 15;
     private int contentCloseTime_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -346,6 +358,7 @@ public final class BlessingActivityDetailInfoOuterClass {
      * <code>uint32 content_close_time = 15;</code>
      * @return The contentCloseTime.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getContentCloseTime() {
       return contentCloseTime_;
@@ -364,6 +377,9 @@ public final class BlessingActivityDetailInfoOuterClass {
 
     public static final int NEXT_REFRESH_TIME_FIELD_NUMBER = 11;
     private int nextRefreshTime_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -372,6 +388,7 @@ public final class BlessingActivityDetailInfoOuterClass {
      * <code>uint32 next_refresh_time = 11;</code>
      * @return The nextRefreshTime.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getNextRefreshTime() {
       return nextRefreshTime_;
@@ -390,6 +407,9 @@ public final class BlessingActivityDetailInfoOuterClass {
 
     public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 1;
     private boolean isContentClosed_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -398,6 +418,7 @@ public final class BlessingActivityDetailInfoOuterClass {
      * <code>bool is_content_closed = 1;</code>
      * @return The isContentClosed.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsContentClosed() {
       return isContentClosed_;
@@ -904,7 +925,7 @@ public final class BlessingActivityDetailInfoOuterClass {
       @java.lang.Override
       public boolean containsFHPCJDBDAPC(
           int key) {
-        
+
         return internalGetFHPCJDBDAPC().getMap().containsKey(key);
       }
       /**
@@ -931,7 +952,7 @@ public final class BlessingActivityDetailInfoOuterClass {
       public int getFHPCJDBDAPCOrDefault(
           int key,
           int defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetFHPCJDBDAPC().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -943,7 +964,7 @@ public final class BlessingActivityDetailInfoOuterClass {
 
       public int getFHPCJDBDAPCOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetFHPCJDBDAPC().getMap();
         if (!map.containsKey(key)) {
@@ -963,7 +984,7 @@ public final class BlessingActivityDetailInfoOuterClass {
 
       public Builder removeFHPCJDBDAPC(
           int key) {
-        
+
         internalGetMutableFHPCJDBDAPC().getMutableMap()
             .remove(key);
         return this;
@@ -982,8 +1003,7 @@ public final class BlessingActivityDetailInfoOuterClass {
       public Builder putFHPCJDBDAPC(
           int key,
           int value) {
-        
-        
+
         internalGetMutableFHPCJDBDAPC().getMutableMap()
             .put(key, value);
         return this;
@@ -1014,7 +1034,7 @@ public final class BlessingActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEGBKCDHJCCL(int value) {
-        
+
         eGBKCDHJCCL_ = value;
         onChanged();
         return this;
@@ -1024,13 +1044,16 @@ public final class BlessingActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEGBKCDHJCCL() {
-        
+
         eGBKCDHJCCL_ = 0;
         onChanged();
         return this;
       }
 
       private int contentCloseTime_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1039,10 +1062,14 @@ public final class BlessingActivityDetailInfoOuterClass {
        * <code>uint32 content_close_time = 15;</code>
        * @return The contentCloseTime.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getContentCloseTime() {
         return contentCloseTime_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1052,12 +1079,16 @@ public final class BlessingActivityDetailInfoOuterClass {
        * @param value The contentCloseTime to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setContentCloseTime(int value) {
-        
+
         contentCloseTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1066,8 +1097,9 @@ public final class BlessingActivityDetailInfoOuterClass {
        * <code>uint32 content_close_time = 15;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearContentCloseTime() {
-        
+
         contentCloseTime_ = 0;
         onChanged();
         return this;
@@ -1088,7 +1120,7 @@ public final class BlessingActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMAKGFHFHLME(int value) {
-        
+
         mAKGFHFHLME_ = value;
         onChanged();
         return this;
@@ -1098,13 +1130,16 @@ public final class BlessingActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMAKGFHFHLME() {
-        
+
         mAKGFHFHLME_ = 0;
         onChanged();
         return this;
       }
 
       private int nextRefreshTime_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1113,10 +1148,14 @@ public final class BlessingActivityDetailInfoOuterClass {
        * <code>uint32 next_refresh_time = 11;</code>
        * @return The nextRefreshTime.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getNextRefreshTime() {
         return nextRefreshTime_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1126,12 +1165,16 @@ public final class BlessingActivityDetailInfoOuterClass {
        * @param value The nextRefreshTime to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setNextRefreshTime(int value) {
-        
+
         nextRefreshTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1140,8 +1183,9 @@ public final class BlessingActivityDetailInfoOuterClass {
        * <code>uint32 next_refresh_time = 11;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearNextRefreshTime() {
-        
+
         nextRefreshTime_ = 0;
         onChanged();
         return this;
@@ -1162,7 +1206,7 @@ public final class BlessingActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setPPBCHANJKNF(int value) {
-        
+
         pPBCHANJKNF_ = value;
         onChanged();
         return this;
@@ -1172,13 +1216,16 @@ public final class BlessingActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearPPBCHANJKNF() {
-        
+
         pPBCHANJKNF_ = 0;
         onChanged();
         return this;
       }
 
       private boolean isContentClosed_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1187,10 +1234,14 @@ public final class BlessingActivityDetailInfoOuterClass {
        * <code>bool is_content_closed = 1;</code>
        * @return The isContentClosed.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsContentClosed() {
         return isContentClosed_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1200,12 +1251,16 @@ public final class BlessingActivityDetailInfoOuterClass {
        * @param value The isContentClosed to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setIsContentClosed(boolean value) {
-        
+
         isContentClosed_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1214,8 +1269,9 @@ public final class BlessingActivityDetailInfoOuterClass {
        * <code>bool is_content_closed = 1;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearIsContentClosed() {
-        
+
         isContentClosed_ = false;
         onChanged();
         return this;
@@ -1236,7 +1292,7 @@ public final class BlessingActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDHEGCNBIKIO(boolean value) {
-        
+
         dHEGCNBIKIO_ = value;
         onChanged();
         return this;
@@ -1246,7 +1302,7 @@ public final class BlessingActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDHEGCNBIKIO() {
-        
+
         dHEGCNBIKIO_ = false;
         onChanged();
         return this;
@@ -1262,7 +1318,6 @@ public final class BlessingActivityDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:BlessingActivityDetailInfo)
     }
@@ -1306,12 +1361,12 @@ public final class BlessingActivityDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_BlessingActivityDetailInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_BlessingActivityDetailInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_BlessingActivityDetailInfo_FHPCJDBDAPCEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_BlessingActivityDetailInfo_FHPCJDBDAPCEntry_fieldAccessorTable;
 

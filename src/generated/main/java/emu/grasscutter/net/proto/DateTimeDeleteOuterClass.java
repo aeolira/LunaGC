@@ -18,6 +18,8 @@ public final class DateTimeDeleteOuterClass {
       // @@protoc_insertion_point(interface_extends:DateTimeDelete)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -26,6 +28,7 @@ public final class DateTimeDeleteOuterClass {
      * <code>uint32 delete_time = 1;</code>
      * @return The deleteTime.
      */
+>>>>>>> origin/6.5.0
     int getDeleteTime();
   }
   /**
@@ -112,6 +115,9 @@ public final class DateTimeDeleteOuterClass {
 
     public static final int DELETE_TIME_FIELD_NUMBER = 1;
     private int deleteTime_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -120,6 +126,7 @@ public final class DateTimeDeleteOuterClass {
      * <code>uint32 delete_time = 1;</code>
      * @return The deleteTime.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getDeleteTime() {
       return deleteTime_;
@@ -428,6 +435,9 @@ public final class DateTimeDeleteOuterClass {
       }
 
       private int deleteTime_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -436,10 +446,14 @@ public final class DateTimeDeleteOuterClass {
        * <code>uint32 delete_time = 1;</code>
        * @return The deleteTime.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getDeleteTime() {
         return deleteTime_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -449,12 +463,16 @@ public final class DateTimeDeleteOuterClass {
        * @param value The deleteTime to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setDeleteTime(int value) {
-        
+
         deleteTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -463,8 +481,9 @@ public final class DateTimeDeleteOuterClass {
        * <code>uint32 delete_time = 1;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearDeleteTime() {
-        
+
         deleteTime_ = 0;
         onChanged();
         return this;
@@ -480,7 +499,6 @@ public final class DateTimeDeleteOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:DateTimeDelete)
     }
@@ -524,7 +542,7 @@ public final class DateTimeDeleteOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_DateTimeDelete_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_DateTimeDelete_fieldAccessorTable;
 

@@ -41,6 +41,8 @@ public final class WeaponAwakenReqOuterClass {
      */
     int getAffixLevel();
 
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -49,6 +51,7 @@ public final class WeaponAwakenReqOuterClass {
      * <code>uint64 target_weapon_guid = 6;</code>
      * @return The targetWeaponGuid.
      */
+>>>>>>> origin/6.5.0
     long getTargetWeaponGuid();
   }
   /**
@@ -102,17 +105,17 @@ public final class WeaponAwakenReqOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
-
-              affixLevel_ = input.readUInt32();
-              break;
-            }
             case 48: {
 
               targetWeaponGuid_ = input.readUInt64();
               break;
             }
-            case 40992: {
+            case 72: {
+
+              affixLevel_ = input.readUInt32();
+              break;
+            }
+            case 104: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 itemGuid_ = newLongList();
                 mutable_bitField0_ |= 0x00000001;
@@ -120,7 +123,7 @@ public final class WeaponAwakenReqOuterClass {
               itemGuid_.addLong(input.readUInt64());
               break;
             }
-            case 40994: {
+            case 106: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -168,7 +171,7 @@ public final class WeaponAwakenReqOuterClass {
               emu.grasscutter.net.proto.WeaponAwakenReqOuterClass.WeaponAwakenReq.class, emu.grasscutter.net.proto.WeaponAwakenReqOuterClass.WeaponAwakenReq.Builder.class);
     }
 
-    public static final int ITEM_GUID_FIELD_NUMBER = 5124;
+    public static final int ITEM_GUID_FIELD_NUMBER = 13;
     private com.google.protobuf.Internal.LongList itemGuid_;
     /**
      * <code>repeated uint64 item_guid = 5124;</code>
@@ -209,6 +212,9 @@ public final class WeaponAwakenReqOuterClass {
 
     public static final int TARGET_WEAPON_GUID_FIELD_NUMBER = 6;
     private long targetWeaponGuid_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -217,6 +223,7 @@ public final class WeaponAwakenReqOuterClass {
      * <code>uint64 target_weapon_guid = 6;</code>
      * @return The targetWeaponGuid.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public long getTargetWeaponGuid() {
       return targetWeaponGuid_;
@@ -238,13 +245,13 @@ public final class WeaponAwakenReqOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (affixLevel_ != 0) {
-        output.writeUInt32(5, affixLevel_);
+        output.writeUInt32(9, affixLevel_);
       }
       if (targetWeaponGuid_ != 0L) {
         output.writeUInt64(6, targetWeaponGuid_);
       }
       if (getItemGuidList().size() > 0) {
-        output.writeUInt32NoTag(40994);
+        output.writeUInt32NoTag(106);
         output.writeUInt32NoTag(itemGuidMemoizedSerializedSize);
       }
       for (int i = 0; i < itemGuid_.size(); i++) {
@@ -261,7 +268,7 @@ public final class WeaponAwakenReqOuterClass {
       size = 0;
       if (affixLevel_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, affixLevel_);
+          .computeUInt32Size(9, affixLevel_);
       }
       if (targetWeaponGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
@@ -275,7 +282,7 @@ public final class WeaponAwakenReqOuterClass {
         }
         size += dataSize;
         if (!getItemGuidList().isEmpty()) {
-          size += 3;
+          size += 1;
           size += com.google.protobuf.CodedOutputStream
               .computeInt32SizeNoTag(dataSize);
         }
@@ -687,7 +694,7 @@ public final class WeaponAwakenReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAffixLevel(int value) {
-        
+
         affixLevel_ = value;
         onChanged();
         return this;
@@ -697,13 +704,16 @@ public final class WeaponAwakenReqOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAffixLevel() {
-        
+
         affixLevel_ = 0;
         onChanged();
         return this;
       }
 
       private long targetWeaponGuid_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -712,10 +722,14 @@ public final class WeaponAwakenReqOuterClass {
        * <code>uint64 target_weapon_guid = 6;</code>
        * @return The targetWeaponGuid.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public long getTargetWeaponGuid() {
         return targetWeaponGuid_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -725,12 +739,16 @@ public final class WeaponAwakenReqOuterClass {
        * @param value The targetWeaponGuid to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setTargetWeaponGuid(long value) {
-        
+
         targetWeaponGuid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -739,8 +757,9 @@ public final class WeaponAwakenReqOuterClass {
        * <code>uint64 target_weapon_guid = 6;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearTargetWeaponGuid() {
-        
+
         targetWeaponGuid_ = 0L;
         onChanged();
         return this;
@@ -756,7 +775,6 @@ public final class WeaponAwakenReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:WeaponAwakenReq)
     }
@@ -800,7 +818,7 @@ public final class WeaponAwakenReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WeaponAwakenReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WeaponAwakenReq_fieldAccessorTable;
 

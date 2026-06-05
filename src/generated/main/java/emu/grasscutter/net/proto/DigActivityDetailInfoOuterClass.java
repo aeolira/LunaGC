@@ -21,7 +21,7 @@ public final class DigActivityDetailInfoOuterClass {
     /**
      * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ> 
+    java.util.List<emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ>
         getKCCLFGDINGJList();
     /**
      * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
@@ -34,7 +34,7 @@ public final class DigActivityDetailInfoOuterClass {
     /**
      * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJOrBuilder>
         getKCCLFGDINGJOrBuilderList();
     /**
      * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
@@ -59,6 +59,8 @@ public final class DigActivityDetailInfoOuterClass {
      */
     int getPJFEPCNECFN(int index);
 
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -67,6 +69,7 @@ public final class DigActivityDetailInfoOuterClass {
      * <code>uint32 stage_id = 7;</code>
      * @return The stageId.
      */
+>>>>>>> origin/6.5.0
     int getStageId();
   }
   /**
@@ -203,7 +206,7 @@ public final class DigActivityDetailInfoOuterClass {
      * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJOrBuilder>
         getKCCLFGDINGJOrBuilderList() {
       return kCCLFGDINGJ_;
     }
@@ -260,6 +263,9 @@ public final class DigActivityDetailInfoOuterClass {
 
     public static final int STAGE_ID_FIELD_NUMBER = 7;
     private int stageId_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -268,6 +274,7 @@ public final class DigActivityDetailInfoOuterClass {
      * <code>uint32 stage_id = 7;</code>
      * @return The stageId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getStageId() {
       return stageId_;
@@ -626,7 +633,7 @@ public final class DigActivityDetailInfoOuterClass {
               kCCLFGDINGJBuilder_ = null;
               kCCLFGDINGJ_ = other.kCCLFGDINGJ_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              kCCLFGDINGJBuilder_ = 
+              kCCLFGDINGJBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getKCCLFGDINGJFieldBuilder() : null;
             } else {
@@ -872,7 +879,7 @@ public final class DigActivityDetailInfoOuterClass {
       /**
        * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJOrBuilder>
            getKCCLFGDINGJOrBuilderList() {
         if (kCCLFGDINGJBuilder_ != null) {
           return kCCLFGDINGJBuilder_.getMessageOrBuilderList();
@@ -898,12 +905,12 @@ public final class DigActivityDetailInfoOuterClass {
       /**
        * <code>repeated .JICJCGHDCHJ KCCLFGDINGJ = 13;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ.Builder>
            getKCCLFGDINGJBuilderList() {
         return getKCCLFGDINGJFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ, emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ.Builder, emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJOrBuilder> 
+          emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ, emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJ.Builder, emu.grasscutter.net.proto.JICJCGHDCHJOuterClass.JICJCGHDCHJOrBuilder>
           getKCCLFGDINGJFieldBuilder() {
         if (kCCLFGDINGJBuilder_ == null) {
           kCCLFGDINGJBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -997,6 +1004,9 @@ public final class DigActivityDetailInfoOuterClass {
       }
 
       private int stageId_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1005,10 +1015,14 @@ public final class DigActivityDetailInfoOuterClass {
        * <code>uint32 stage_id = 7;</code>
        * @return The stageId.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getStageId() {
         return stageId_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1018,12 +1032,16 @@ public final class DigActivityDetailInfoOuterClass {
        * @param value The stageId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setStageId(int value) {
-        
+
         stageId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1032,8 +1050,9 @@ public final class DigActivityDetailInfoOuterClass {
        * <code>uint32 stage_id = 7;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearStageId() {
-        
+
         stageId_ = 0;
         onChanged();
         return this;
@@ -1049,7 +1068,6 @@ public final class DigActivityDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:DigActivityDetailInfo)
     }
@@ -1093,7 +1111,7 @@ public final class DigActivityDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_DigActivityDetailInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_DigActivityDetailInfo_fieldAccessorTable;
 

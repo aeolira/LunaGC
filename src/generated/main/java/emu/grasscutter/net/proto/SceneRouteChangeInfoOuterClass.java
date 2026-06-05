@@ -18,6 +18,25 @@ public final class SceneRouteChangeInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:SceneRouteChangeInfo)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    java.util.List<emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo>
+        getPointListList();
+
+    emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo getPointList(int index);
+
+    int getPointListCount();
+
+    java.util.List<? extends emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfoOrBuilder>
+        getPointListOrBuilderList();
+
+    emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfoOrBuilder getPointListOrBuilder(
+        int index);
+
+    int getRouteId();
+
+    boolean getIsForward();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -90,6 +109,7 @@ public final class SceneRouteChangeInfoOuterClass {
      * <code>uint32 type = 13;</code>
      * @return The type.
      */
+>>>>>>> origin/6.5.0
     int getType();
   }
   /**
@@ -200,6 +220,9 @@ public final class SceneRouteChangeInfoOuterClass {
 
     public static final int POINT_LIST_FIELD_NUMBER = 1;
     private java.util.List<emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo> pointList_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -207,10 +230,14 @@ public final class SceneRouteChangeInfoOuterClass {
      *
      * <code>repeated .RoutePointChangeInfo point_list = 1;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo> getPointListList() {
       return pointList_;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -218,11 +245,15 @@ public final class SceneRouteChangeInfoOuterClass {
      *
      * <code>repeated .RoutePointChangeInfo point_list = 1;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfoOrBuilder>
         getPointListOrBuilderList() {
       return pointList_;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -230,10 +261,14 @@ public final class SceneRouteChangeInfoOuterClass {
      *
      * <code>repeated .RoutePointChangeInfo point_list = 1;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getPointListCount() {
       return pointList_.size();
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -241,10 +276,14 @@ public final class SceneRouteChangeInfoOuterClass {
      *
      * <code>repeated .RoutePointChangeInfo point_list = 1;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo getPointList(int index) {
       return pointList_.get(index);
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -252,6 +291,7 @@ public final class SceneRouteChangeInfoOuterClass {
      *
      * <code>repeated .RoutePointChangeInfo point_list = 1;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfoOrBuilder getPointListOrBuilder(
         int index) {
@@ -260,6 +300,9 @@ public final class SceneRouteChangeInfoOuterClass {
 
     public static final int ROUTE_ID_FIELD_NUMBER = 6;
     private int routeId_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -268,6 +311,7 @@ public final class SceneRouteChangeInfoOuterClass {
      * <code>uint32 route_id = 6;</code>
      * @return The routeId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRouteId() {
       return routeId_;
@@ -275,6 +319,9 @@ public final class SceneRouteChangeInfoOuterClass {
 
     public static final int IS_FORWARD_FIELD_NUMBER = 9;
     private boolean isForward_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -283,6 +330,7 @@ public final class SceneRouteChangeInfoOuterClass {
      * <code>bool is_forward = 9;</code>
      * @return The isForward.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsForward() {
       return isForward_;
@@ -290,6 +338,9 @@ public final class SceneRouteChangeInfoOuterClass {
 
     public static final int TYPE_FIELD_NUMBER = 13;
     private int type_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -298,6 +349,7 @@ public final class SceneRouteChangeInfoOuterClass {
      * <code>uint32 type = 13;</code>
      * @return The type.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getType() {
       return type_;
@@ -650,7 +702,7 @@ public final class SceneRouteChangeInfoOuterClass {
               pointListBuilder_ = null;
               pointList_ = other.pointList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              pointListBuilder_ = 
+              pointListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getPointListFieldBuilder() : null;
             } else {
@@ -709,6 +761,8 @@ public final class SceneRouteChangeInfoOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo, emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo.Builder, emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfoOrBuilder> pointListBuilder_;
 
+<<<<<<< HEAD
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -716,6 +770,7 @@ public final class SceneRouteChangeInfoOuterClass {
        *
        * <code>repeated .RoutePointChangeInfo point_list = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo> getPointListList() {
         if (pointListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(pointList_);
@@ -723,6 +778,9 @@ public final class SceneRouteChangeInfoOuterClass {
           return pointListBuilder_.getMessageList();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -730,6 +788,7 @@ public final class SceneRouteChangeInfoOuterClass {
        *
        * <code>repeated .RoutePointChangeInfo point_list = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public int getPointListCount() {
         if (pointListBuilder_ == null) {
           return pointList_.size();
@@ -737,6 +796,9 @@ public final class SceneRouteChangeInfoOuterClass {
           return pointListBuilder_.getCount();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -744,6 +806,7 @@ public final class SceneRouteChangeInfoOuterClass {
        *
        * <code>repeated .RoutePointChangeInfo point_list = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo getPointList(int index) {
         if (pointListBuilder_ == null) {
           return pointList_.get(index);
@@ -751,6 +814,9 @@ public final class SceneRouteChangeInfoOuterClass {
           return pointListBuilder_.getMessage(index);
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -758,6 +824,7 @@ public final class SceneRouteChangeInfoOuterClass {
        *
        * <code>repeated .RoutePointChangeInfo point_list = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setPointList(
           int index, emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo value) {
         if (pointListBuilder_ == null) {
@@ -772,6 +839,9 @@ public final class SceneRouteChangeInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -779,6 +849,7 @@ public final class SceneRouteChangeInfoOuterClass {
        *
        * <code>repeated .RoutePointChangeInfo point_list = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setPointList(
           int index, emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo.Builder builderForValue) {
         if (pointListBuilder_ == null) {
@@ -790,6 +861,9 @@ public final class SceneRouteChangeInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -797,6 +871,7 @@ public final class SceneRouteChangeInfoOuterClass {
        *
        * <code>repeated .RoutePointChangeInfo point_list = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addPointList(emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo value) {
         if (pointListBuilder_ == null) {
           if (value == null) {
@@ -810,6 +885,9 @@ public final class SceneRouteChangeInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -817,6 +895,7 @@ public final class SceneRouteChangeInfoOuterClass {
        *
        * <code>repeated .RoutePointChangeInfo point_list = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addPointList(
           int index, emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo value) {
         if (pointListBuilder_ == null) {
@@ -831,6 +910,9 @@ public final class SceneRouteChangeInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -838,6 +920,7 @@ public final class SceneRouteChangeInfoOuterClass {
        *
        * <code>repeated .RoutePointChangeInfo point_list = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addPointList(
           emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo.Builder builderForValue) {
         if (pointListBuilder_ == null) {
@@ -849,6 +932,9 @@ public final class SceneRouteChangeInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -856,6 +942,7 @@ public final class SceneRouteChangeInfoOuterClass {
        *
        * <code>repeated .RoutePointChangeInfo point_list = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addPointList(
           int index, emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo.Builder builderForValue) {
         if (pointListBuilder_ == null) {
@@ -867,6 +954,9 @@ public final class SceneRouteChangeInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -874,6 +964,7 @@ public final class SceneRouteChangeInfoOuterClass {
        *
        * <code>repeated .RoutePointChangeInfo point_list = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addAllPointList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo> values) {
         if (pointListBuilder_ == null) {
@@ -886,6 +977,9 @@ public final class SceneRouteChangeInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -893,6 +987,7 @@ public final class SceneRouteChangeInfoOuterClass {
        *
        * <code>repeated .RoutePointChangeInfo point_list = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder clearPointList() {
         if (pointListBuilder_ == null) {
           pointList_ = java.util.Collections.emptyList();
@@ -903,6 +998,9 @@ public final class SceneRouteChangeInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -910,6 +1008,7 @@ public final class SceneRouteChangeInfoOuterClass {
        *
        * <code>repeated .RoutePointChangeInfo point_list = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder removePointList(int index) {
         if (pointListBuilder_ == null) {
           ensurePointListIsMutable();
@@ -920,6 +1019,9 @@ public final class SceneRouteChangeInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -927,10 +1029,14 @@ public final class SceneRouteChangeInfoOuterClass {
        *
        * <code>repeated .RoutePointChangeInfo point_list = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo.Builder getPointListBuilder(
           int index) {
         return getPointListFieldBuilder().getBuilder(index);
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -938,6 +1044,7 @@ public final class SceneRouteChangeInfoOuterClass {
        *
        * <code>repeated .RoutePointChangeInfo point_list = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfoOrBuilder getPointListOrBuilder(
           int index) {
         if (pointListBuilder_ == null) {
@@ -945,6 +1052,10 @@ public final class SceneRouteChangeInfoOuterClass {
           return pointListBuilder_.getMessageOrBuilder(index);
         }
       }
+<<<<<<< HEAD
+
+      public java.util.List<? extends emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfoOrBuilder>
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -953,6 +1064,7 @@ public final class SceneRouteChangeInfoOuterClass {
        * <code>repeated .RoutePointChangeInfo point_list = 1;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfoOrBuilder> 
+>>>>>>> origin/6.5.0
            getPointListOrBuilderList() {
         if (pointListBuilder_ != null) {
           return pointListBuilder_.getMessageOrBuilderList();
@@ -960,6 +1072,9 @@ public final class SceneRouteChangeInfoOuterClass {
           return java.util.Collections.unmodifiableList(pointList_);
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -967,10 +1082,14 @@ public final class SceneRouteChangeInfoOuterClass {
        *
        * <code>repeated .RoutePointChangeInfo point_list = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo.Builder addPointListBuilder() {
         return getPointListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo.getDefaultInstance());
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -978,11 +1097,16 @@ public final class SceneRouteChangeInfoOuterClass {
        *
        * <code>repeated .RoutePointChangeInfo point_list = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo.Builder addPointListBuilder(
           int index) {
         return getPointListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo.getDefaultInstance());
       }
+<<<<<<< HEAD
+
+      public java.util.List<emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo.Builder>
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -991,11 +1115,12 @@ public final class SceneRouteChangeInfoOuterClass {
        * <code>repeated .RoutePointChangeInfo point_list = 1;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo.Builder> 
+>>>>>>> origin/6.5.0
            getPointListBuilderList() {
         return getPointListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo, emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo.Builder, emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfoOrBuilder> 
+          emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo, emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfo.Builder, emu.grasscutter.net.proto.RoutePointChangeInfoOuterClass.RoutePointChangeInfoOrBuilder>
           getPointListFieldBuilder() {
         if (pointListBuilder_ == null) {
           pointListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1010,6 +1135,9 @@ public final class SceneRouteChangeInfoOuterClass {
       }
 
       private int routeId_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1018,10 +1146,14 @@ public final class SceneRouteChangeInfoOuterClass {
        * <code>uint32 route_id = 6;</code>
        * @return The routeId.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRouteId() {
         return routeId_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1031,12 +1163,16 @@ public final class SceneRouteChangeInfoOuterClass {
        * @param value The routeId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setRouteId(int value) {
-        
+
         routeId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1045,14 +1181,18 @@ public final class SceneRouteChangeInfoOuterClass {
        * <code>uint32 route_id = 6;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearRouteId() {
-        
+
         routeId_ = 0;
         onChanged();
         return this;
       }
 
       private boolean isForward_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1061,10 +1201,14 @@ public final class SceneRouteChangeInfoOuterClass {
        * <code>bool is_forward = 9;</code>
        * @return The isForward.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsForward() {
         return isForward_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1074,12 +1218,16 @@ public final class SceneRouteChangeInfoOuterClass {
        * @param value The isForward to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setIsForward(boolean value) {
-        
+
         isForward_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1088,14 +1236,18 @@ public final class SceneRouteChangeInfoOuterClass {
        * <code>bool is_forward = 9;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearIsForward() {
-        
+
         isForward_ = false;
         onChanged();
         return this;
       }
 
       private int type_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1104,10 +1256,14 @@ public final class SceneRouteChangeInfoOuterClass {
        * <code>uint32 type = 13;</code>
        * @return The type.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getType() {
         return type_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1117,12 +1273,16 @@ public final class SceneRouteChangeInfoOuterClass {
        * @param value The type to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setType(int value) {
-        
+
         type_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1131,8 +1291,9 @@ public final class SceneRouteChangeInfoOuterClass {
        * <code>uint32 type = 13;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearType() {
-        
+
         type_ = 0;
         onChanged();
         return this;
@@ -1148,7 +1309,6 @@ public final class SceneRouteChangeInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:SceneRouteChangeInfo)
     }
@@ -1192,7 +1352,7 @@ public final class SceneRouteChangeInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SceneRouteChangeInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SceneRouteChangeInfo_fieldAccessorTable;
 

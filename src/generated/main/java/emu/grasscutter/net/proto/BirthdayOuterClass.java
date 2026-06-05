@@ -18,6 +18,10 @@ public final class BirthdayOuterClass {
       // @@protoc_insertion_point(interface_extends:Birthday)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    int getDay();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -36,6 +40,7 @@ public final class BirthdayOuterClass {
      * <code>uint32 month = 1;</code>
      * @return The month.
      */
+>>>>>>> origin/6.5.0
     int getMonth();
   }
   /**
@@ -127,6 +132,9 @@ public final class BirthdayOuterClass {
 
     public static final int DAY_FIELD_NUMBER = 2;
     private int day_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -135,6 +143,7 @@ public final class BirthdayOuterClass {
      * <code>uint32 day = 2;</code>
      * @return The day.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getDay() {
       return day_;
@@ -142,6 +151,9 @@ public final class BirthdayOuterClass {
 
     public static final int MONTH_FIELD_NUMBER = 1;
     private int month_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -150,6 +162,7 @@ public final class BirthdayOuterClass {
      * <code>uint32 month = 1;</code>
      * @return The month.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getMonth() {
       return month_;
@@ -475,6 +488,9 @@ public final class BirthdayOuterClass {
       }
 
       private int day_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -483,10 +499,14 @@ public final class BirthdayOuterClass {
        * <code>uint32 day = 2;</code>
        * @return The day.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getDay() {
         return day_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -496,12 +516,16 @@ public final class BirthdayOuterClass {
        * @param value The day to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setDay(int value) {
-        
+
         day_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -510,14 +534,18 @@ public final class BirthdayOuterClass {
        * <code>uint32 day = 2;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearDay() {
-        
+
         day_ = 0;
         onChanged();
         return this;
       }
 
       private int month_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -526,10 +554,14 @@ public final class BirthdayOuterClass {
        * <code>uint32 month = 1;</code>
        * @return The month.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getMonth() {
         return month_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -539,12 +571,16 @@ public final class BirthdayOuterClass {
        * @param value The month to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setMonth(int value) {
-        
+
         month_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -553,8 +589,9 @@ public final class BirthdayOuterClass {
        * <code>uint32 month = 1;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearMonth() {
-        
+
         month_ = 0;
         onChanged();
         return this;
@@ -570,7 +607,6 @@ public final class BirthdayOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:Birthday)
     }
@@ -614,7 +650,7 @@ public final class BirthdayOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Birthday_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Birthday_fieldAccessorTable;
 

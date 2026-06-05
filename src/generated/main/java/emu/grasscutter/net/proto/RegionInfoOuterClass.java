@@ -18,6 +18,10 @@ public final class RegionInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:RegionInfo)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    java.lang.String getPrivacyPolicyUrl();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -35,6 +39,7 @@ public final class RegionInfoOuterClass {
      * <code>string privacy_policy_url = 33;</code>
      * @return The bytes for privacyPolicyUrl.
      */
+>>>>>>> origin/6.5.0
     com.google.protobuf.ByteString
         getPrivacyPolicyUrlBytes();
 
@@ -50,6 +55,133 @@ public final class RegionInfoOuterClass {
     com.google.protobuf.ByteString
         getGateserverIpv6IpBytes();
 
+<<<<<<< HEAD
+    java.lang.String getCdkeyUrl();
+
+    com.google.protobuf.ByteString
+        getCdkeyUrlBytes();
+
+    boolean hasResVersionConfig();
+
+    emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig getResVersionConfig();
+
+    emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfigOrBuilder getResVersionConfigOrBuilder();
+
+    java.lang.String getPayCallbackUrl();
+
+    com.google.protobuf.ByteString
+        getPayCallbackUrlBytes();
+
+    java.lang.String getAreaType();
+
+    com.google.protobuf.ByteString
+        getAreaTypeBytes();
+
+    java.lang.String getClientSilenceVersionSuffix();
+
+    com.google.protobuf.ByteString
+        getClientSilenceVersionSuffixBytes();
+
+    java.lang.String getDataUrlBak();
+
+    com.google.protobuf.ByteString
+        getDataUrlBakBytes();
+
+    java.lang.String getGameBiz();
+
+    com.google.protobuf.ByteString
+        getGameBizBytes();
+
+    java.lang.String getClientSilenceDataMd5();
+
+    com.google.protobuf.ByteString
+        getClientSilenceDataMd5Bytes();
+
+    java.lang.String getNextResourceUrl();
+
+    com.google.protobuf.ByteString
+        getNextResourceUrlBytes();
+
+    java.lang.String getResourceUrlBak();
+
+    com.google.protobuf.ByteString
+        getResourceUrlBakBytes();
+
+    java.lang.String getAccountBindUrl();
+
+    com.google.protobuf.ByteString
+        getAccountBindUrlBytes();
+
+    java.lang.String getResourceUrl();
+
+    com.google.protobuf.ByteString
+        getResourceUrlBytes();
+
+    java.lang.String getHandbookUrl();
+
+    com.google.protobuf.ByteString
+        getHandbookUrlBytes();
+
+    java.lang.String getClientDataMd5();
+
+    com.google.protobuf.ByteString
+        getClientDataMd5Bytes();
+
+    boolean hasNextResVersionConfig();
+
+    emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig getNextResVersionConfig();
+
+    emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfigOrBuilder getNextResVersionConfigOrBuilder();
+
+    java.lang.String getFeedbackUrl();
+
+    com.google.protobuf.ByteString
+        getFeedbackUrlBytes();
+
+    java.lang.String getDataUrl();
+
+    com.google.protobuf.ByteString
+        getDataUrlBytes();
+
+    java.lang.String getBulletinUrl();
+
+    com.google.protobuf.ByteString
+        getBulletinUrlBytes();
+
+    java.lang.String getOfficialCommunityUrl();
+
+    com.google.protobuf.ByteString
+        getOfficialCommunityUrlBytes();
+
+    java.lang.String getUserCenterUrl();
+
+    com.google.protobuf.ByteString
+        getUserCenterUrlBytes();
+
+    java.lang.String getGateserverDomainName();
+
+    com.google.protobuf.ByteString
+        getGateserverDomainNameBytes();
+
+    java.lang.String getClientVersionSuffix();
+
+    com.google.protobuf.ByteString
+        getClientVersionSuffixBytes();
+
+    com.google.protobuf.ByteString getSecretKey();
+
+    java.lang.String getGateserverIp();
+
+    com.google.protobuf.ByteString
+        getGateserverIpBytes();
+
+    int getClientSilenceDataVersion();
+
+    int getGateserverPort();
+
+    boolean getUseGateserverDomainName();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -572,6 +704,7 @@ public final class RegionInfoOuterClass {
      * <code>uint32 client_data_version = 14;</code>
      * @return The clientDataVersion.
      */
+>>>>>>> origin/6.5.0
     int getClientDataVersion();
   }
   /**
@@ -866,6 +999,9 @@ public final class RegionInfoOuterClass {
 
     public static final int PRIVACY_POLICY_URL_FIELD_NUMBER = 33;
     private volatile java.lang.Object privacyPolicyUrl_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -874,19 +1010,23 @@ public final class RegionInfoOuterClass {
      * <code>string privacy_policy_url = 33;</code>
      * @return The privacyPolicyUrl.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getPrivacyPolicyUrl() {
       java.lang.Object ref = privacyPolicyUrl_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         privacyPolicyUrl_ = s;
         return s;
       }
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -895,12 +1035,13 @@ public final class RegionInfoOuterClass {
      * <code>string privacy_policy_url = 33;</code>
      * @return The bytes for privacyPolicyUrl.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getPrivacyPolicyUrlBytes() {
       java.lang.Object ref = privacyPolicyUrl_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         privacyPolicyUrl_ = b;
@@ -922,7 +1063,7 @@ public final class RegionInfoOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         gateserverIpv6Ip_ = s;
@@ -938,7 +1079,7 @@ public final class RegionInfoOuterClass {
         getGateserverIpv6IpBytes() {
       java.lang.Object ref = gateserverIpv6Ip_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         gateserverIpv6Ip_ = b;
@@ -950,6 +1091,9 @@ public final class RegionInfoOuterClass {
 
     public static final int CDKEY_URL_FIELD_NUMBER = 32;
     private volatile java.lang.Object cdkeyUrl_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -958,19 +1102,23 @@ public final class RegionInfoOuterClass {
      * <code>string cdkey_url = 32;</code>
      * @return The cdkeyUrl.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getCdkeyUrl() {
       java.lang.Object ref = cdkeyUrl_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         cdkeyUrl_ = s;
         return s;
       }
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -979,12 +1127,13 @@ public final class RegionInfoOuterClass {
      * <code>string cdkey_url = 32;</code>
      * @return The bytes for cdkeyUrl.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getCdkeyUrlBytes() {
       java.lang.Object ref = cdkeyUrl_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         cdkeyUrl_ = b;
@@ -996,6 +1145,9 @@ public final class RegionInfoOuterClass {
 
     public static final int RES_VERSION_CONFIG_FIELD_NUMBER = 22;
     private emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig resVersionConfig_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -1004,10 +1156,14 @@ public final class RegionInfoOuterClass {
      * <code>.ResVersionConfig res_version_config = 22;</code>
      * @return Whether the resVersionConfig field is set.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasResVersionConfig() {
       return resVersionConfig_ != null;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -1016,10 +1172,14 @@ public final class RegionInfoOuterClass {
      * <code>.ResVersionConfig res_version_config = 22;</code>
      * @return The resVersionConfig.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig getResVersionConfig() {
       return resVersionConfig_ == null ? emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.getDefaultInstance() : resVersionConfig_;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -1027,6 +1187,7 @@ public final class RegionInfoOuterClass {
      *
      * <code>.ResVersionConfig res_version_config = 22;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfigOrBuilder getResVersionConfigOrBuilder() {
       return getResVersionConfig();
@@ -1034,6 +1195,9 @@ public final class RegionInfoOuterClass {
 
     public static final int PAY_CALLBACK_URL_FIELD_NUMBER = 3;
     private volatile java.lang.Object payCallbackUrl_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1042,19 +1206,23 @@ public final class RegionInfoOuterClass {
      * <code>string pay_callback_url = 3;</code>
      * @return The payCallbackUrl.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getPayCallbackUrl() {
       java.lang.Object ref = payCallbackUrl_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         payCallbackUrl_ = s;
         return s;
       }
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1063,12 +1231,13 @@ public final class RegionInfoOuterClass {
      * <code>string pay_callback_url = 3;</code>
      * @return The bytes for payCallbackUrl.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getPayCallbackUrlBytes() {
       java.lang.Object ref = payCallbackUrl_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         payCallbackUrl_ = b;
@@ -1080,6 +1249,9 @@ public final class RegionInfoOuterClass {
 
     public static final int AREA_TYPE_FIELD_NUMBER = 7;
     private volatile java.lang.Object areaType_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -1088,19 +1260,23 @@ public final class RegionInfoOuterClass {
      * <code>string area_type = 7;</code>
      * @return The areaType.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getAreaType() {
       java.lang.Object ref = areaType_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         areaType_ = s;
         return s;
       }
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -1109,12 +1285,13 @@ public final class RegionInfoOuterClass {
      * <code>string area_type = 7;</code>
      * @return The bytes for areaType.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getAreaTypeBytes() {
       java.lang.Object ref = areaType_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         areaType_ = b;
@@ -1126,6 +1303,9 @@ public final class RegionInfoOuterClass {
 
     public static final int CLIENT_SILENCE_VERSION_SUFFIX_FIELD_NUMBER = 27;
     private volatile java.lang.Object clientSilenceVersionSuffix_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1134,19 +1314,23 @@ public final class RegionInfoOuterClass {
      * <code>string client_silence_version_suffix = 27;</code>
      * @return The clientSilenceVersionSuffix.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getClientSilenceVersionSuffix() {
       java.lang.Object ref = clientSilenceVersionSuffix_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         clientSilenceVersionSuffix_ = s;
         return s;
       }
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1155,12 +1339,13 @@ public final class RegionInfoOuterClass {
      * <code>string client_silence_version_suffix = 27;</code>
      * @return The bytes for clientSilenceVersionSuffix.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getClientSilenceVersionSuffixBytes() {
       java.lang.Object ref = clientSilenceVersionSuffix_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         clientSilenceVersionSuffix_ = b;
@@ -1172,6 +1357,9 @@ public final class RegionInfoOuterClass {
 
     public static final int DATA_URL_BAK_FIELD_NUMBER = 13;
     private volatile java.lang.Object dataUrlBak_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1180,19 +1368,23 @@ public final class RegionInfoOuterClass {
      * <code>string data_url_bak = 13;</code>
      * @return The dataUrlBak.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getDataUrlBak() {
       java.lang.Object ref = dataUrlBak_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         dataUrlBak_ = s;
         return s;
       }
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1201,12 +1393,13 @@ public final class RegionInfoOuterClass {
      * <code>string data_url_bak = 13;</code>
      * @return The bytes for dataUrlBak.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getDataUrlBakBytes() {
       java.lang.Object ref = dataUrlBak_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         dataUrlBak_ = b;
@@ -1218,6 +1411,9 @@ public final class RegionInfoOuterClass {
 
     public static final int GAME_BIZ_FIELD_NUMBER = 36;
     private volatile java.lang.Object gameBiz_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1226,19 +1422,23 @@ public final class RegionInfoOuterClass {
      * <code>string game_biz = 36;</code>
      * @return The gameBiz.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getGameBiz() {
       java.lang.Object ref = gameBiz_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         gameBiz_ = s;
         return s;
       }
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1247,12 +1447,13 @@ public final class RegionInfoOuterClass {
      * <code>string game_biz = 36;</code>
      * @return The bytes for gameBiz.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getGameBizBytes() {
       java.lang.Object ref = gameBiz_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         gameBiz_ = b;
@@ -1264,6 +1465,9 @@ public final class RegionInfoOuterClass {
 
     public static final int CLIENT_SILENCE_DATA_MD5_FIELD_NUMBER = 20;
     private volatile java.lang.Object clientSilenceDataMd5_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1272,19 +1476,23 @@ public final class RegionInfoOuterClass {
      * <code>string client_silence_data_md5 = 20;</code>
      * @return The clientSilenceDataMd5.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getClientSilenceDataMd5() {
       java.lang.Object ref = clientSilenceDataMd5_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         clientSilenceDataMd5_ = s;
         return s;
       }
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1293,12 +1501,13 @@ public final class RegionInfoOuterClass {
      * <code>string client_silence_data_md5 = 20;</code>
      * @return The bytes for clientSilenceDataMd5.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getClientSilenceDataMd5Bytes() {
       java.lang.Object ref = clientSilenceDataMd5_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         clientSilenceDataMd5_ = b;
@@ -1310,6 +1519,9 @@ public final class RegionInfoOuterClass {
 
     public static final int NEXT_RESOURCE_URL_FIELD_NUMBER = 34;
     private volatile java.lang.Object nextResourceUrl_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -1318,19 +1530,23 @@ public final class RegionInfoOuterClass {
      * <code>string next_resource_url = 34;</code>
      * @return The nextResourceUrl.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getNextResourceUrl() {
       java.lang.Object ref = nextResourceUrl_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         nextResourceUrl_ = s;
         return s;
       }
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -1339,12 +1555,13 @@ public final class RegionInfoOuterClass {
      * <code>string next_resource_url = 34;</code>
      * @return The bytes for nextResourceUrl.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getNextResourceUrlBytes() {
       java.lang.Object ref = nextResourceUrl_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         nextResourceUrl_ = b;
@@ -1356,6 +1573,9 @@ public final class RegionInfoOuterClass {
 
     public static final int RESOURCE_URL_BAK_FIELD_NUMBER = 12;
     private volatile java.lang.Object resourceUrlBak_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1364,19 +1584,23 @@ public final class RegionInfoOuterClass {
      * <code>string resource_url_bak = 12;</code>
      * @return The resourceUrlBak.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getResourceUrlBak() {
       java.lang.Object ref = resourceUrlBak_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         resourceUrlBak_ = s;
         return s;
       }
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1385,12 +1609,13 @@ public final class RegionInfoOuterClass {
      * <code>string resource_url_bak = 12;</code>
      * @return The bytes for resourceUrlBak.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getResourceUrlBakBytes() {
       java.lang.Object ref = resourceUrlBak_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         resourceUrlBak_ = b;
@@ -1402,6 +1627,9 @@ public final class RegionInfoOuterClass {
 
     public static final int ACCOUNT_BIND_URL_FIELD_NUMBER = 31;
     private volatile java.lang.Object accountBindUrl_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1410,19 +1638,23 @@ public final class RegionInfoOuterClass {
      * <code>string account_bind_url = 31;</code>
      * @return The accountBindUrl.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getAccountBindUrl() {
       java.lang.Object ref = accountBindUrl_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         accountBindUrl_ = s;
         return s;
       }
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1431,12 +1663,13 @@ public final class RegionInfoOuterClass {
      * <code>string account_bind_url = 31;</code>
      * @return The bytes for accountBindUrl.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getAccountBindUrlBytes() {
       java.lang.Object ref = accountBindUrl_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         accountBindUrl_ = b;
@@ -1448,6 +1681,9 @@ public final class RegionInfoOuterClass {
 
     public static final int RESOURCE_URL_FIELD_NUMBER = 8;
     private volatile java.lang.Object resourceUrl_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1456,19 +1692,23 @@ public final class RegionInfoOuterClass {
      * <code>string resource_url = 8;</code>
      * @return The resourceUrl.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getResourceUrl() {
       java.lang.Object ref = resourceUrl_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         resourceUrl_ = s;
         return s;
       }
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1477,12 +1717,13 @@ public final class RegionInfoOuterClass {
      * <code>string resource_url = 8;</code>
      * @return The bytes for resourceUrl.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getResourceUrlBytes() {
       java.lang.Object ref = resourceUrl_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         resourceUrl_ = b;
@@ -1494,6 +1735,9 @@ public final class RegionInfoOuterClass {
 
     public static final int HANDBOOK_URL_FIELD_NUMBER = 16;
     private volatile java.lang.Object handbookUrl_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1502,19 +1746,23 @@ public final class RegionInfoOuterClass {
      * <code>string handbook_url = 16;</code>
      * @return The handbookUrl.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getHandbookUrl() {
       java.lang.Object ref = handbookUrl_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         handbookUrl_ = s;
         return s;
       }
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1523,12 +1771,13 @@ public final class RegionInfoOuterClass {
      * <code>string handbook_url = 16;</code>
      * @return The bytes for handbookUrl.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getHandbookUrlBytes() {
       java.lang.Object ref = handbookUrl_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         handbookUrl_ = b;
@@ -1540,6 +1789,9 @@ public final class RegionInfoOuterClass {
 
     public static final int CLIENT_DATA_MD5_FIELD_NUMBER = 19;
     private volatile java.lang.Object clientDataMd5_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1548,19 +1800,23 @@ public final class RegionInfoOuterClass {
      * <code>string client_data_md5 = 19;</code>
      * @return The clientDataMd5.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getClientDataMd5() {
       java.lang.Object ref = clientDataMd5_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         clientDataMd5_ = s;
         return s;
       }
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1569,12 +1825,13 @@ public final class RegionInfoOuterClass {
      * <code>string client_data_md5 = 19;</code>
      * @return The bytes for clientDataMd5.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getClientDataMd5Bytes() {
       java.lang.Object ref = clientDataMd5_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         clientDataMd5_ = b;
@@ -1586,6 +1843,9 @@ public final class RegionInfoOuterClass {
 
     public static final int NEXT_RES_VERSION_CONFIG_FIELD_NUMBER = 35;
     private emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig nextResVersionConfig_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -1594,10 +1854,14 @@ public final class RegionInfoOuterClass {
      * <code>.ResVersionConfig next_res_version_config = 35;</code>
      * @return Whether the nextResVersionConfig field is set.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasNextResVersionConfig() {
       return nextResVersionConfig_ != null;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -1606,10 +1870,14 @@ public final class RegionInfoOuterClass {
      * <code>.ResVersionConfig next_res_version_config = 35;</code>
      * @return The nextResVersionConfig.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig getNextResVersionConfig() {
       return nextResVersionConfig_ == null ? emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.getDefaultInstance() : nextResVersionConfig_;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -1617,6 +1885,7 @@ public final class RegionInfoOuterClass {
      *
      * <code>.ResVersionConfig next_res_version_config = 35;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfigOrBuilder getNextResVersionConfigOrBuilder() {
       return getNextResVersionConfig();
@@ -1624,6 +1893,9 @@ public final class RegionInfoOuterClass {
 
     public static final int FEEDBACK_URL_FIELD_NUMBER = 10;
     private volatile java.lang.Object feedbackUrl_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1632,19 +1904,23 @@ public final class RegionInfoOuterClass {
      * <code>string feedback_url = 10;</code>
      * @return The feedbackUrl.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getFeedbackUrl() {
       java.lang.Object ref = feedbackUrl_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         feedbackUrl_ = s;
         return s;
       }
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1653,12 +1929,13 @@ public final class RegionInfoOuterClass {
      * <code>string feedback_url = 10;</code>
      * @return The bytes for feedbackUrl.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getFeedbackUrlBytes() {
       java.lang.Object ref = feedbackUrl_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         feedbackUrl_ = b;
@@ -1670,6 +1947,9 @@ public final class RegionInfoOuterClass {
 
     public static final int DATA_URL_FIELD_NUMBER = 9;
     private volatile java.lang.Object dataUrl_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1678,19 +1958,23 @@ public final class RegionInfoOuterClass {
      * <code>string data_url = 9;</code>
      * @return The dataUrl.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getDataUrl() {
       java.lang.Object ref = dataUrl_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         dataUrl_ = s;
         return s;
       }
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1699,12 +1983,13 @@ public final class RegionInfoOuterClass {
      * <code>string data_url = 9;</code>
      * @return The bytes for dataUrl.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getDataUrlBytes() {
       java.lang.Object ref = dataUrl_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         dataUrl_ = b;
@@ -1716,6 +2001,9 @@ public final class RegionInfoOuterClass {
 
     public static final int BULLETIN_URL_FIELD_NUMBER = 11;
     private volatile java.lang.Object bulletinUrl_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1724,19 +2012,23 @@ public final class RegionInfoOuterClass {
      * <code>string bulletin_url = 11;</code>
      * @return The bulletinUrl.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getBulletinUrl() {
       java.lang.Object ref = bulletinUrl_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         bulletinUrl_ = s;
         return s;
       }
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1745,12 +2037,13 @@ public final class RegionInfoOuterClass {
      * <code>string bulletin_url = 11;</code>
      * @return The bytes for bulletinUrl.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getBulletinUrlBytes() {
       java.lang.Object ref = bulletinUrl_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         bulletinUrl_ = b;
@@ -1762,6 +2055,9 @@ public final class RegionInfoOuterClass {
 
     public static final int OFFICIAL_COMMUNITY_URL_FIELD_NUMBER = 24;
     private volatile java.lang.Object officialCommunityUrl_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1770,19 +2066,23 @@ public final class RegionInfoOuterClass {
      * <code>string official_community_url = 24;</code>
      * @return The officialCommunityUrl.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getOfficialCommunityUrl() {
       java.lang.Object ref = officialCommunityUrl_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         officialCommunityUrl_ = s;
         return s;
       }
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1791,12 +2091,13 @@ public final class RegionInfoOuterClass {
      * <code>string official_community_url = 24;</code>
      * @return The bytes for officialCommunityUrl.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getOfficialCommunityUrlBytes() {
       java.lang.Object ref = officialCommunityUrl_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         officialCommunityUrl_ = b;
@@ -1808,6 +2109,9 @@ public final class RegionInfoOuterClass {
 
     public static final int USER_CENTER_URL_FIELD_NUMBER = 30;
     private volatile java.lang.Object userCenterUrl_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1816,19 +2120,23 @@ public final class RegionInfoOuterClass {
      * <code>string user_center_url = 30;</code>
      * @return The userCenterUrl.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getUserCenterUrl() {
       java.lang.Object ref = userCenterUrl_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         userCenterUrl_ = s;
         return s;
       }
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1837,12 +2145,13 @@ public final class RegionInfoOuterClass {
      * <code>string user_center_url = 30;</code>
      * @return The bytes for userCenterUrl.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getUserCenterUrlBytes() {
       java.lang.Object ref = userCenterUrl_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         userCenterUrl_ = b;
@@ -1854,6 +2163,9 @@ public final class RegionInfoOuterClass {
 
     public static final int GATESERVER_DOMAIN_NAME_FIELD_NUMBER = 29;
     private volatile java.lang.Object gateserverDomainName_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1862,19 +2174,23 @@ public final class RegionInfoOuterClass {
      * <code>string gateserver_domain_name = 29;</code>
      * @return The gateserverDomainName.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getGateserverDomainName() {
       java.lang.Object ref = gateserverDomainName_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         gateserverDomainName_ = s;
         return s;
       }
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1883,12 +2199,13 @@ public final class RegionInfoOuterClass {
      * <code>string gateserver_domain_name = 29;</code>
      * @return The bytes for gateserverDomainName.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getGateserverDomainNameBytes() {
       java.lang.Object ref = gateserverDomainName_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         gateserverDomainName_ = b;
@@ -1900,6 +2217,9 @@ public final class RegionInfoOuterClass {
 
     public static final int CLIENT_VERSION_SUFFIX_FIELD_NUMBER = 26;
     private volatile java.lang.Object clientVersionSuffix_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1908,19 +2228,23 @@ public final class RegionInfoOuterClass {
      * <code>string client_version_suffix = 26;</code>
      * @return The clientVersionSuffix.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getClientVersionSuffix() {
       java.lang.Object ref = clientVersionSuffix_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         clientVersionSuffix_ = s;
         return s;
       }
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1929,12 +2253,13 @@ public final class RegionInfoOuterClass {
      * <code>string client_version_suffix = 26;</code>
      * @return The bytes for clientVersionSuffix.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getClientVersionSuffixBytes() {
       java.lang.Object ref = clientVersionSuffix_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         clientVersionSuffix_ = b;
@@ -1946,6 +2271,9 @@ public final class RegionInfoOuterClass {
 
     public static final int SECRET_KEY_FIELD_NUMBER = 23;
     private com.google.protobuf.ByteString secretKey_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -1954,6 +2282,7 @@ public final class RegionInfoOuterClass {
      * <code>bytes secret_key = 23;</code>
      * @return The secretKey.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString getSecretKey() {
       return secretKey_;
@@ -1961,6 +2290,9 @@ public final class RegionInfoOuterClass {
 
     public static final int GATESERVER_IP_FIELD_NUMBER = 1;
     private volatile java.lang.Object gateserverIp_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1969,19 +2301,23 @@ public final class RegionInfoOuterClass {
      * <code>string gateserver_ip = 1;</code>
      * @return The gateserverIp.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getGateserverIp() {
       java.lang.Object ref = gateserverIp_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         gateserverIp_ = s;
         return s;
       }
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -1990,12 +2326,13 @@ public final class RegionInfoOuterClass {
      * <code>string gateserver_ip = 1;</code>
      * @return The bytes for gateserverIp.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getGateserverIpBytes() {
       java.lang.Object ref = gateserverIp_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         gateserverIp_ = b;
@@ -2007,6 +2344,9 @@ public final class RegionInfoOuterClass {
 
     public static final int CLIENT_SILENCE_DATA_VERSION_FIELD_NUMBER = 18;
     private int clientSilenceDataVersion_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -2015,6 +2355,7 @@ public final class RegionInfoOuterClass {
      * <code>uint32 client_silence_data_version = 18;</code>
      * @return The clientSilenceDataVersion.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getClientSilenceDataVersion() {
       return clientSilenceDataVersion_;
@@ -2022,6 +2363,9 @@ public final class RegionInfoOuterClass {
 
     public static final int GATESERVER_PORT_FIELD_NUMBER = 2;
     private int gateserverPort_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -2030,6 +2374,7 @@ public final class RegionInfoOuterClass {
      * <code>uint32 gateserver_port = 2;</code>
      * @return The gateserverPort.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getGateserverPort() {
       return gateserverPort_;
@@ -2037,6 +2382,9 @@ public final class RegionInfoOuterClass {
 
     public static final int USE_GATESERVER_DOMAIN_NAME_FIELD_NUMBER = 28;
     private boolean useGateserverDomainName_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -2045,6 +2393,7 @@ public final class RegionInfoOuterClass {
      * <code>bool use_gateserver_domain_name = 28;</code>
      * @return The useGateserverDomainName.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getUseGateserverDomainName() {
       return useGateserverDomainName_;
@@ -2052,6 +2401,9 @@ public final class RegionInfoOuterClass {
 
     public static final int CLIENT_DATA_VERSION_FIELD_NUMBER = 14;
     private int clientDataVersion_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -2060,6 +2412,7 @@ public final class RegionInfoOuterClass {
      * <code>uint32 client_data_version = 14;</code>
      * @return The clientDataVersion.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getClientDataVersion() {
       return clientDataVersion_;
@@ -2888,6 +3241,9 @@ public final class RegionInfoOuterClass {
       }
 
       private java.lang.Object privacyPolicyUrl_ = "";
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -2896,6 +3252,7 @@ public final class RegionInfoOuterClass {
        * <code>string privacy_policy_url = 33;</code>
        * @return The privacyPolicyUrl.
        */
+>>>>>>> origin/6.5.0
       public java.lang.String getPrivacyPolicyUrl() {
         java.lang.Object ref = privacyPolicyUrl_;
         if (!(ref instanceof java.lang.String)) {
@@ -2908,6 +3265,9 @@ public final class RegionInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -2916,11 +3276,12 @@ public final class RegionInfoOuterClass {
        * <code>string privacy_policy_url = 33;</code>
        * @return The bytes for privacyPolicyUrl.
        */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getPrivacyPolicyUrlBytes() {
         java.lang.Object ref = privacyPolicyUrl_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           privacyPolicyUrl_ = b;
@@ -2929,6 +3290,9 @@ public final class RegionInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -2938,16 +3302,20 @@ public final class RegionInfoOuterClass {
        * @param value The privacyPolicyUrl to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setPrivacyPolicyUrl(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         privacyPolicyUrl_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -2956,12 +3324,16 @@ public final class RegionInfoOuterClass {
        * <code>string privacy_policy_url = 33;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearPrivacyPolicyUrl() {
-        
+
         privacyPolicyUrl_ = getDefaultInstance().getPrivacyPolicyUrl();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -2971,13 +3343,14 @@ public final class RegionInfoOuterClass {
        * @param value The bytes for privacyPolicyUrl to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setPrivacyPolicyUrlBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         privacyPolicyUrl_ = value;
         onChanged();
         return this;
@@ -3008,7 +3381,7 @@ public final class RegionInfoOuterClass {
           getGateserverIpv6IpBytes() {
         java.lang.Object ref = gateserverIpv6Ip_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           gateserverIpv6Ip_ = b;
@@ -3027,7 +3400,7 @@ public final class RegionInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         gateserverIpv6Ip_ = value;
         onChanged();
         return this;
@@ -3037,7 +3410,7 @@ public final class RegionInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGateserverIpv6Ip() {
-        
+
         gateserverIpv6Ip_ = getDefaultInstance().getGateserverIpv6Ip();
         onChanged();
         return this;
@@ -3053,13 +3426,16 @@ public final class RegionInfoOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         gateserverIpv6Ip_ = value;
         onChanged();
         return this;
       }
 
       private java.lang.Object cdkeyUrl_ = "";
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3068,6 +3444,7 @@ public final class RegionInfoOuterClass {
        * <code>string cdkey_url = 32;</code>
        * @return The cdkeyUrl.
        */
+>>>>>>> origin/6.5.0
       public java.lang.String getCdkeyUrl() {
         java.lang.Object ref = cdkeyUrl_;
         if (!(ref instanceof java.lang.String)) {
@@ -3080,6 +3457,9 @@ public final class RegionInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3088,11 +3468,12 @@ public final class RegionInfoOuterClass {
        * <code>string cdkey_url = 32;</code>
        * @return The bytes for cdkeyUrl.
        */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getCdkeyUrlBytes() {
         java.lang.Object ref = cdkeyUrl_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           cdkeyUrl_ = b;
@@ -3101,6 +3482,9 @@ public final class RegionInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3110,16 +3494,20 @@ public final class RegionInfoOuterClass {
        * @param value The cdkeyUrl to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setCdkeyUrl(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         cdkeyUrl_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3128,12 +3516,16 @@ public final class RegionInfoOuterClass {
        * <code>string cdkey_url = 32;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearCdkeyUrl() {
-        
+
         cdkeyUrl_ = getDefaultInstance().getCdkeyUrl();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3143,13 +3535,14 @@ public final class RegionInfoOuterClass {
        * @param value The bytes for cdkeyUrl to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setCdkeyUrlBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         cdkeyUrl_ = value;
         onChanged();
         return this;
@@ -3158,6 +3551,13 @@ public final class RegionInfoOuterClass {
       private emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig resVersionConfig_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig, emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.Builder, emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfigOrBuilder> resVersionConfigBuilder_;
+<<<<<<< HEAD
+
+      public boolean hasResVersionConfig() {
+        return resVersionConfigBuilder_ != null || resVersionConfig_ != null;
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3177,6 +3577,7 @@ public final class RegionInfoOuterClass {
        * <code>.ResVersionConfig res_version_config = 22;</code>
        * @return The resVersionConfig.
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig getResVersionConfig() {
         if (resVersionConfigBuilder_ == null) {
           return resVersionConfig_ == null ? emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.getDefaultInstance() : resVersionConfig_;
@@ -3184,6 +3585,9 @@ public final class RegionInfoOuterClass {
           return resVersionConfigBuilder_.getMessage();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3191,6 +3595,7 @@ public final class RegionInfoOuterClass {
        *
        * <code>.ResVersionConfig res_version_config = 22;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setResVersionConfig(emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig value) {
         if (resVersionConfigBuilder_ == null) {
           if (value == null) {
@@ -3204,6 +3609,9 @@ public final class RegionInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3211,6 +3619,7 @@ public final class RegionInfoOuterClass {
        *
        * <code>.ResVersionConfig res_version_config = 22;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setResVersionConfig(
           emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.Builder builderForValue) {
         if (resVersionConfigBuilder_ == null) {
@@ -3222,6 +3631,9 @@ public final class RegionInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3229,6 +3641,7 @@ public final class RegionInfoOuterClass {
        *
        * <code>.ResVersionConfig res_version_config = 22;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder mergeResVersionConfig(emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig value) {
         if (resVersionConfigBuilder_ == null) {
           if (resVersionConfig_ != null) {
@@ -3244,6 +3657,9 @@ public final class RegionInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3251,6 +3667,7 @@ public final class RegionInfoOuterClass {
        *
        * <code>.ResVersionConfig res_version_config = 22;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder clearResVersionConfig() {
         if (resVersionConfigBuilder_ == null) {
           resVersionConfig_ = null;
@@ -3262,6 +3679,9 @@ public final class RegionInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3269,11 +3689,15 @@ public final class RegionInfoOuterClass {
        *
        * <code>.ResVersionConfig res_version_config = 22;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.Builder getResVersionConfigBuilder() {
-        
+
         onChanged();
         return getResVersionConfigFieldBuilder().getBuilder();
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3281,6 +3705,7 @@ public final class RegionInfoOuterClass {
        *
        * <code>.ResVersionConfig res_version_config = 22;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfigOrBuilder getResVersionConfigOrBuilder() {
         if (resVersionConfigBuilder_ != null) {
           return resVersionConfigBuilder_.getMessageOrBuilder();
@@ -3289,6 +3714,9 @@ public final class RegionInfoOuterClass {
               emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.getDefaultInstance() : resVersionConfig_;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3296,8 +3724,9 @@ public final class RegionInfoOuterClass {
        *
        * <code>.ResVersionConfig res_version_config = 22;</code>
        */
+>>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig, emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.Builder, emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfigOrBuilder> 
+          emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig, emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.Builder, emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfigOrBuilder>
           getResVersionConfigFieldBuilder() {
         if (resVersionConfigBuilder_ == null) {
           resVersionConfigBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -3311,6 +3740,9 @@ public final class RegionInfoOuterClass {
       }
 
       private java.lang.Object payCallbackUrl_ = "";
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3319,6 +3751,7 @@ public final class RegionInfoOuterClass {
        * <code>string pay_callback_url = 3;</code>
        * @return The payCallbackUrl.
        */
+>>>>>>> origin/6.5.0
       public java.lang.String getPayCallbackUrl() {
         java.lang.Object ref = payCallbackUrl_;
         if (!(ref instanceof java.lang.String)) {
@@ -3331,6 +3764,9 @@ public final class RegionInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3339,11 +3775,12 @@ public final class RegionInfoOuterClass {
        * <code>string pay_callback_url = 3;</code>
        * @return The bytes for payCallbackUrl.
        */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getPayCallbackUrlBytes() {
         java.lang.Object ref = payCallbackUrl_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           payCallbackUrl_ = b;
@@ -3352,6 +3789,9 @@ public final class RegionInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3361,16 +3801,20 @@ public final class RegionInfoOuterClass {
        * @param value The payCallbackUrl to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setPayCallbackUrl(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         payCallbackUrl_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3379,12 +3823,16 @@ public final class RegionInfoOuterClass {
        * <code>string pay_callback_url = 3;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearPayCallbackUrl() {
-        
+
         payCallbackUrl_ = getDefaultInstance().getPayCallbackUrl();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3394,19 +3842,23 @@ public final class RegionInfoOuterClass {
        * @param value The bytes for payCallbackUrl to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setPayCallbackUrlBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         payCallbackUrl_ = value;
         onChanged();
         return this;
       }
 
       private java.lang.Object areaType_ = "";
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3415,6 +3867,7 @@ public final class RegionInfoOuterClass {
        * <code>string area_type = 7;</code>
        * @return The areaType.
        */
+>>>>>>> origin/6.5.0
       public java.lang.String getAreaType() {
         java.lang.Object ref = areaType_;
         if (!(ref instanceof java.lang.String)) {
@@ -3427,6 +3880,9 @@ public final class RegionInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3435,11 +3891,12 @@ public final class RegionInfoOuterClass {
        * <code>string area_type = 7;</code>
        * @return The bytes for areaType.
        */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getAreaTypeBytes() {
         java.lang.Object ref = areaType_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           areaType_ = b;
@@ -3448,6 +3905,9 @@ public final class RegionInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3457,16 +3917,20 @@ public final class RegionInfoOuterClass {
        * @param value The areaType to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setAreaType(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         areaType_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3475,12 +3939,16 @@ public final class RegionInfoOuterClass {
        * <code>string area_type = 7;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearAreaType() {
-        
+
         areaType_ = getDefaultInstance().getAreaType();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3490,19 +3958,23 @@ public final class RegionInfoOuterClass {
        * @param value The bytes for areaType to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setAreaTypeBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         areaType_ = value;
         onChanged();
         return this;
       }
 
       private java.lang.Object clientSilenceVersionSuffix_ = "";
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3511,6 +3983,7 @@ public final class RegionInfoOuterClass {
        * <code>string client_silence_version_suffix = 27;</code>
        * @return The clientSilenceVersionSuffix.
        */
+>>>>>>> origin/6.5.0
       public java.lang.String getClientSilenceVersionSuffix() {
         java.lang.Object ref = clientSilenceVersionSuffix_;
         if (!(ref instanceof java.lang.String)) {
@@ -3523,6 +3996,9 @@ public final class RegionInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3531,11 +4007,12 @@ public final class RegionInfoOuterClass {
        * <code>string client_silence_version_suffix = 27;</code>
        * @return The bytes for clientSilenceVersionSuffix.
        */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getClientSilenceVersionSuffixBytes() {
         java.lang.Object ref = clientSilenceVersionSuffix_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           clientSilenceVersionSuffix_ = b;
@@ -3544,6 +4021,9 @@ public final class RegionInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3553,16 +4033,20 @@ public final class RegionInfoOuterClass {
        * @param value The clientSilenceVersionSuffix to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setClientSilenceVersionSuffix(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         clientSilenceVersionSuffix_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3571,12 +4055,16 @@ public final class RegionInfoOuterClass {
        * <code>string client_silence_version_suffix = 27;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearClientSilenceVersionSuffix() {
-        
+
         clientSilenceVersionSuffix_ = getDefaultInstance().getClientSilenceVersionSuffix();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3586,19 +4074,23 @@ public final class RegionInfoOuterClass {
        * @param value The bytes for clientSilenceVersionSuffix to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setClientSilenceVersionSuffixBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         clientSilenceVersionSuffix_ = value;
         onChanged();
         return this;
       }
 
       private java.lang.Object dataUrlBak_ = "";
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3607,6 +4099,7 @@ public final class RegionInfoOuterClass {
        * <code>string data_url_bak = 13;</code>
        * @return The dataUrlBak.
        */
+>>>>>>> origin/6.5.0
       public java.lang.String getDataUrlBak() {
         java.lang.Object ref = dataUrlBak_;
         if (!(ref instanceof java.lang.String)) {
@@ -3619,6 +4112,9 @@ public final class RegionInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3627,11 +4123,12 @@ public final class RegionInfoOuterClass {
        * <code>string data_url_bak = 13;</code>
        * @return The bytes for dataUrlBak.
        */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getDataUrlBakBytes() {
         java.lang.Object ref = dataUrlBak_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           dataUrlBak_ = b;
@@ -3640,6 +4137,9 @@ public final class RegionInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3649,16 +4149,20 @@ public final class RegionInfoOuterClass {
        * @param value The dataUrlBak to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setDataUrlBak(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         dataUrlBak_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3667,12 +4171,16 @@ public final class RegionInfoOuterClass {
        * <code>string data_url_bak = 13;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearDataUrlBak() {
-        
+
         dataUrlBak_ = getDefaultInstance().getDataUrlBak();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3682,19 +4190,23 @@ public final class RegionInfoOuterClass {
        * @param value The bytes for dataUrlBak to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setDataUrlBakBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         dataUrlBak_ = value;
         onChanged();
         return this;
       }
 
       private java.lang.Object gameBiz_ = "";
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3703,6 +4215,7 @@ public final class RegionInfoOuterClass {
        * <code>string game_biz = 36;</code>
        * @return The gameBiz.
        */
+>>>>>>> origin/6.5.0
       public java.lang.String getGameBiz() {
         java.lang.Object ref = gameBiz_;
         if (!(ref instanceof java.lang.String)) {
@@ -3715,6 +4228,9 @@ public final class RegionInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3723,11 +4239,12 @@ public final class RegionInfoOuterClass {
        * <code>string game_biz = 36;</code>
        * @return The bytes for gameBiz.
        */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getGameBizBytes() {
         java.lang.Object ref = gameBiz_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           gameBiz_ = b;
@@ -3736,6 +4253,9 @@ public final class RegionInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3745,16 +4265,20 @@ public final class RegionInfoOuterClass {
        * @param value The gameBiz to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setGameBiz(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         gameBiz_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3763,12 +4287,16 @@ public final class RegionInfoOuterClass {
        * <code>string game_biz = 36;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearGameBiz() {
-        
+
         gameBiz_ = getDefaultInstance().getGameBiz();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3778,19 +4306,23 @@ public final class RegionInfoOuterClass {
        * @param value The bytes for gameBiz to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setGameBizBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         gameBiz_ = value;
         onChanged();
         return this;
       }
 
       private java.lang.Object clientSilenceDataMd5_ = "";
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3799,6 +4331,7 @@ public final class RegionInfoOuterClass {
        * <code>string client_silence_data_md5 = 20;</code>
        * @return The clientSilenceDataMd5.
        */
+>>>>>>> origin/6.5.0
       public java.lang.String getClientSilenceDataMd5() {
         java.lang.Object ref = clientSilenceDataMd5_;
         if (!(ref instanceof java.lang.String)) {
@@ -3811,6 +4344,9 @@ public final class RegionInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3819,11 +4355,12 @@ public final class RegionInfoOuterClass {
        * <code>string client_silence_data_md5 = 20;</code>
        * @return The bytes for clientSilenceDataMd5.
        */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getClientSilenceDataMd5Bytes() {
         java.lang.Object ref = clientSilenceDataMd5_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           clientSilenceDataMd5_ = b;
@@ -3832,6 +4369,9 @@ public final class RegionInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3841,16 +4381,20 @@ public final class RegionInfoOuterClass {
        * @param value The clientSilenceDataMd5 to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setClientSilenceDataMd5(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         clientSilenceDataMd5_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3859,12 +4403,16 @@ public final class RegionInfoOuterClass {
        * <code>string client_silence_data_md5 = 20;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearClientSilenceDataMd5() {
-        
+
         clientSilenceDataMd5_ = getDefaultInstance().getClientSilenceDataMd5();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3874,19 +4422,23 @@ public final class RegionInfoOuterClass {
        * @param value The bytes for clientSilenceDataMd5 to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setClientSilenceDataMd5Bytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         clientSilenceDataMd5_ = value;
         onChanged();
         return this;
       }
 
       private java.lang.Object nextResourceUrl_ = "";
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3895,6 +4447,7 @@ public final class RegionInfoOuterClass {
        * <code>string next_resource_url = 34;</code>
        * @return The nextResourceUrl.
        */
+>>>>>>> origin/6.5.0
       public java.lang.String getNextResourceUrl() {
         java.lang.Object ref = nextResourceUrl_;
         if (!(ref instanceof java.lang.String)) {
@@ -3907,6 +4460,9 @@ public final class RegionInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3915,11 +4471,12 @@ public final class RegionInfoOuterClass {
        * <code>string next_resource_url = 34;</code>
        * @return The bytes for nextResourceUrl.
        */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getNextResourceUrlBytes() {
         java.lang.Object ref = nextResourceUrl_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           nextResourceUrl_ = b;
@@ -3928,6 +4485,9 @@ public final class RegionInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3937,16 +4497,20 @@ public final class RegionInfoOuterClass {
        * @param value The nextResourceUrl to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setNextResourceUrl(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         nextResourceUrl_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3955,12 +4519,16 @@ public final class RegionInfoOuterClass {
        * <code>string next_resource_url = 34;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearNextResourceUrl() {
-        
+
         nextResourceUrl_ = getDefaultInstance().getNextResourceUrl();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -3970,19 +4538,23 @@ public final class RegionInfoOuterClass {
        * @param value The bytes for nextResourceUrl to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setNextResourceUrlBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         nextResourceUrl_ = value;
         onChanged();
         return this;
       }
 
       private java.lang.Object resourceUrlBak_ = "";
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -3991,6 +4563,7 @@ public final class RegionInfoOuterClass {
        * <code>string resource_url_bak = 12;</code>
        * @return The resourceUrlBak.
        */
+>>>>>>> origin/6.5.0
       public java.lang.String getResourceUrlBak() {
         java.lang.Object ref = resourceUrlBak_;
         if (!(ref instanceof java.lang.String)) {
@@ -4003,6 +4576,9 @@ public final class RegionInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4011,11 +4587,12 @@ public final class RegionInfoOuterClass {
        * <code>string resource_url_bak = 12;</code>
        * @return The bytes for resourceUrlBak.
        */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getResourceUrlBakBytes() {
         java.lang.Object ref = resourceUrlBak_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           resourceUrlBak_ = b;
@@ -4024,6 +4601,9 @@ public final class RegionInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4033,16 +4613,20 @@ public final class RegionInfoOuterClass {
        * @param value The resourceUrlBak to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setResourceUrlBak(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         resourceUrlBak_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4051,12 +4635,16 @@ public final class RegionInfoOuterClass {
        * <code>string resource_url_bak = 12;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearResourceUrlBak() {
-        
+
         resourceUrlBak_ = getDefaultInstance().getResourceUrlBak();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4066,19 +4654,23 @@ public final class RegionInfoOuterClass {
        * @param value The bytes for resourceUrlBak to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setResourceUrlBakBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         resourceUrlBak_ = value;
         onChanged();
         return this;
       }
 
       private java.lang.Object accountBindUrl_ = "";
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4087,6 +4679,7 @@ public final class RegionInfoOuterClass {
        * <code>string account_bind_url = 31;</code>
        * @return The accountBindUrl.
        */
+>>>>>>> origin/6.5.0
       public java.lang.String getAccountBindUrl() {
         java.lang.Object ref = accountBindUrl_;
         if (!(ref instanceof java.lang.String)) {
@@ -4099,6 +4692,9 @@ public final class RegionInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4107,11 +4703,12 @@ public final class RegionInfoOuterClass {
        * <code>string account_bind_url = 31;</code>
        * @return The bytes for accountBindUrl.
        */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getAccountBindUrlBytes() {
         java.lang.Object ref = accountBindUrl_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           accountBindUrl_ = b;
@@ -4120,6 +4717,9 @@ public final class RegionInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4129,16 +4729,20 @@ public final class RegionInfoOuterClass {
        * @param value The accountBindUrl to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setAccountBindUrl(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         accountBindUrl_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4147,12 +4751,16 @@ public final class RegionInfoOuterClass {
        * <code>string account_bind_url = 31;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearAccountBindUrl() {
-        
+
         accountBindUrl_ = getDefaultInstance().getAccountBindUrl();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4162,19 +4770,23 @@ public final class RegionInfoOuterClass {
        * @param value The bytes for accountBindUrl to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setAccountBindUrlBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         accountBindUrl_ = value;
         onChanged();
         return this;
       }
 
       private java.lang.Object resourceUrl_ = "";
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4183,6 +4795,7 @@ public final class RegionInfoOuterClass {
        * <code>string resource_url = 8;</code>
        * @return The resourceUrl.
        */
+>>>>>>> origin/6.5.0
       public java.lang.String getResourceUrl() {
         java.lang.Object ref = resourceUrl_;
         if (!(ref instanceof java.lang.String)) {
@@ -4195,6 +4808,9 @@ public final class RegionInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4203,11 +4819,12 @@ public final class RegionInfoOuterClass {
        * <code>string resource_url = 8;</code>
        * @return The bytes for resourceUrl.
        */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getResourceUrlBytes() {
         java.lang.Object ref = resourceUrl_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           resourceUrl_ = b;
@@ -4216,6 +4833,9 @@ public final class RegionInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4225,16 +4845,20 @@ public final class RegionInfoOuterClass {
        * @param value The resourceUrl to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setResourceUrl(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         resourceUrl_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4243,12 +4867,16 @@ public final class RegionInfoOuterClass {
        * <code>string resource_url = 8;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearResourceUrl() {
-        
+
         resourceUrl_ = getDefaultInstance().getResourceUrl();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4258,19 +4886,23 @@ public final class RegionInfoOuterClass {
        * @param value The bytes for resourceUrl to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setResourceUrlBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         resourceUrl_ = value;
         onChanged();
         return this;
       }
 
       private java.lang.Object handbookUrl_ = "";
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4279,6 +4911,7 @@ public final class RegionInfoOuterClass {
        * <code>string handbook_url = 16;</code>
        * @return The handbookUrl.
        */
+>>>>>>> origin/6.5.0
       public java.lang.String getHandbookUrl() {
         java.lang.Object ref = handbookUrl_;
         if (!(ref instanceof java.lang.String)) {
@@ -4291,6 +4924,9 @@ public final class RegionInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4299,11 +4935,12 @@ public final class RegionInfoOuterClass {
        * <code>string handbook_url = 16;</code>
        * @return The bytes for handbookUrl.
        */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getHandbookUrlBytes() {
         java.lang.Object ref = handbookUrl_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           handbookUrl_ = b;
@@ -4312,6 +4949,9 @@ public final class RegionInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4321,16 +4961,20 @@ public final class RegionInfoOuterClass {
        * @param value The handbookUrl to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setHandbookUrl(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         handbookUrl_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4339,12 +4983,16 @@ public final class RegionInfoOuterClass {
        * <code>string handbook_url = 16;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearHandbookUrl() {
-        
+
         handbookUrl_ = getDefaultInstance().getHandbookUrl();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4354,19 +5002,23 @@ public final class RegionInfoOuterClass {
        * @param value The bytes for handbookUrl to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setHandbookUrlBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         handbookUrl_ = value;
         onChanged();
         return this;
       }
 
       private java.lang.Object clientDataMd5_ = "";
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4375,6 +5027,7 @@ public final class RegionInfoOuterClass {
        * <code>string client_data_md5 = 19;</code>
        * @return The clientDataMd5.
        */
+>>>>>>> origin/6.5.0
       public java.lang.String getClientDataMd5() {
         java.lang.Object ref = clientDataMd5_;
         if (!(ref instanceof java.lang.String)) {
@@ -4387,6 +5040,9 @@ public final class RegionInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4395,11 +5051,12 @@ public final class RegionInfoOuterClass {
        * <code>string client_data_md5 = 19;</code>
        * @return The bytes for clientDataMd5.
        */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getClientDataMd5Bytes() {
         java.lang.Object ref = clientDataMd5_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           clientDataMd5_ = b;
@@ -4408,6 +5065,9 @@ public final class RegionInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4417,16 +5077,20 @@ public final class RegionInfoOuterClass {
        * @param value The clientDataMd5 to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setClientDataMd5(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         clientDataMd5_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4435,12 +5099,16 @@ public final class RegionInfoOuterClass {
        * <code>string client_data_md5 = 19;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearClientDataMd5() {
-        
+
         clientDataMd5_ = getDefaultInstance().getClientDataMd5();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4450,13 +5118,14 @@ public final class RegionInfoOuterClass {
        * @param value The bytes for clientDataMd5 to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setClientDataMd5Bytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         clientDataMd5_ = value;
         onChanged();
         return this;
@@ -4465,6 +5134,13 @@ public final class RegionInfoOuterClass {
       private emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig nextResVersionConfig_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig, emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.Builder, emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfigOrBuilder> nextResVersionConfigBuilder_;
+<<<<<<< HEAD
+
+      public boolean hasNextResVersionConfig() {
+        return nextResVersionConfigBuilder_ != null || nextResVersionConfig_ != null;
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -4484,6 +5160,7 @@ public final class RegionInfoOuterClass {
        * <code>.ResVersionConfig next_res_version_config = 35;</code>
        * @return The nextResVersionConfig.
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig getNextResVersionConfig() {
         if (nextResVersionConfigBuilder_ == null) {
           return nextResVersionConfig_ == null ? emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.getDefaultInstance() : nextResVersionConfig_;
@@ -4491,6 +5168,9 @@ public final class RegionInfoOuterClass {
           return nextResVersionConfigBuilder_.getMessage();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -4498,6 +5178,7 @@ public final class RegionInfoOuterClass {
        *
        * <code>.ResVersionConfig next_res_version_config = 35;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setNextResVersionConfig(emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig value) {
         if (nextResVersionConfigBuilder_ == null) {
           if (value == null) {
@@ -4511,6 +5192,9 @@ public final class RegionInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -4518,6 +5202,7 @@ public final class RegionInfoOuterClass {
        *
        * <code>.ResVersionConfig next_res_version_config = 35;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setNextResVersionConfig(
           emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.Builder builderForValue) {
         if (nextResVersionConfigBuilder_ == null) {
@@ -4529,6 +5214,9 @@ public final class RegionInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -4536,6 +5224,7 @@ public final class RegionInfoOuterClass {
        *
        * <code>.ResVersionConfig next_res_version_config = 35;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder mergeNextResVersionConfig(emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig value) {
         if (nextResVersionConfigBuilder_ == null) {
           if (nextResVersionConfig_ != null) {
@@ -4551,6 +5240,9 @@ public final class RegionInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -4558,6 +5250,7 @@ public final class RegionInfoOuterClass {
        *
        * <code>.ResVersionConfig next_res_version_config = 35;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder clearNextResVersionConfig() {
         if (nextResVersionConfigBuilder_ == null) {
           nextResVersionConfig_ = null;
@@ -4569,6 +5262,9 @@ public final class RegionInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -4576,11 +5272,15 @@ public final class RegionInfoOuterClass {
        *
        * <code>.ResVersionConfig next_res_version_config = 35;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.Builder getNextResVersionConfigBuilder() {
-        
+
         onChanged();
         return getNextResVersionConfigFieldBuilder().getBuilder();
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -4588,6 +5288,7 @@ public final class RegionInfoOuterClass {
        *
        * <code>.ResVersionConfig next_res_version_config = 35;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfigOrBuilder getNextResVersionConfigOrBuilder() {
         if (nextResVersionConfigBuilder_ != null) {
           return nextResVersionConfigBuilder_.getMessageOrBuilder();
@@ -4596,6 +5297,9 @@ public final class RegionInfoOuterClass {
               emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.getDefaultInstance() : nextResVersionConfig_;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -4603,8 +5307,9 @@ public final class RegionInfoOuterClass {
        *
        * <code>.ResVersionConfig next_res_version_config = 35;</code>
        */
+>>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig, emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.Builder, emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfigOrBuilder> 
+          emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig, emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfig.Builder, emu.grasscutter.net.proto.ResVersionConfigOuterClass.ResVersionConfigOrBuilder>
           getNextResVersionConfigFieldBuilder() {
         if (nextResVersionConfigBuilder_ == null) {
           nextResVersionConfigBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -4618,6 +5323,9 @@ public final class RegionInfoOuterClass {
       }
 
       private java.lang.Object feedbackUrl_ = "";
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4626,6 +5334,7 @@ public final class RegionInfoOuterClass {
        * <code>string feedback_url = 10;</code>
        * @return The feedbackUrl.
        */
+>>>>>>> origin/6.5.0
       public java.lang.String getFeedbackUrl() {
         java.lang.Object ref = feedbackUrl_;
         if (!(ref instanceof java.lang.String)) {
@@ -4638,6 +5347,9 @@ public final class RegionInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4646,11 +5358,12 @@ public final class RegionInfoOuterClass {
        * <code>string feedback_url = 10;</code>
        * @return The bytes for feedbackUrl.
        */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getFeedbackUrlBytes() {
         java.lang.Object ref = feedbackUrl_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           feedbackUrl_ = b;
@@ -4659,6 +5372,9 @@ public final class RegionInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4668,16 +5384,20 @@ public final class RegionInfoOuterClass {
        * @param value The feedbackUrl to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setFeedbackUrl(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         feedbackUrl_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4686,12 +5406,16 @@ public final class RegionInfoOuterClass {
        * <code>string feedback_url = 10;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearFeedbackUrl() {
-        
+
         feedbackUrl_ = getDefaultInstance().getFeedbackUrl();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4701,19 +5425,23 @@ public final class RegionInfoOuterClass {
        * @param value The bytes for feedbackUrl to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setFeedbackUrlBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         feedbackUrl_ = value;
         onChanged();
         return this;
       }
 
       private java.lang.Object dataUrl_ = "";
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4722,6 +5450,7 @@ public final class RegionInfoOuterClass {
        * <code>string data_url = 9;</code>
        * @return The dataUrl.
        */
+>>>>>>> origin/6.5.0
       public java.lang.String getDataUrl() {
         java.lang.Object ref = dataUrl_;
         if (!(ref instanceof java.lang.String)) {
@@ -4734,6 +5463,9 @@ public final class RegionInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4742,11 +5474,12 @@ public final class RegionInfoOuterClass {
        * <code>string data_url = 9;</code>
        * @return The bytes for dataUrl.
        */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getDataUrlBytes() {
         java.lang.Object ref = dataUrl_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           dataUrl_ = b;
@@ -4755,6 +5488,9 @@ public final class RegionInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4764,16 +5500,20 @@ public final class RegionInfoOuterClass {
        * @param value The dataUrl to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setDataUrl(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         dataUrl_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4782,12 +5522,16 @@ public final class RegionInfoOuterClass {
        * <code>string data_url = 9;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearDataUrl() {
-        
+
         dataUrl_ = getDefaultInstance().getDataUrl();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4797,19 +5541,23 @@ public final class RegionInfoOuterClass {
        * @param value The bytes for dataUrl to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setDataUrlBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         dataUrl_ = value;
         onChanged();
         return this;
       }
 
       private java.lang.Object bulletinUrl_ = "";
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4818,6 +5566,7 @@ public final class RegionInfoOuterClass {
        * <code>string bulletin_url = 11;</code>
        * @return The bulletinUrl.
        */
+>>>>>>> origin/6.5.0
       public java.lang.String getBulletinUrl() {
         java.lang.Object ref = bulletinUrl_;
         if (!(ref instanceof java.lang.String)) {
@@ -4830,6 +5579,9 @@ public final class RegionInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4838,11 +5590,12 @@ public final class RegionInfoOuterClass {
        * <code>string bulletin_url = 11;</code>
        * @return The bytes for bulletinUrl.
        */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getBulletinUrlBytes() {
         java.lang.Object ref = bulletinUrl_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           bulletinUrl_ = b;
@@ -4851,6 +5604,9 @@ public final class RegionInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4860,16 +5616,20 @@ public final class RegionInfoOuterClass {
        * @param value The bulletinUrl to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setBulletinUrl(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         bulletinUrl_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4878,12 +5638,16 @@ public final class RegionInfoOuterClass {
        * <code>string bulletin_url = 11;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearBulletinUrl() {
-        
+
         bulletinUrl_ = getDefaultInstance().getBulletinUrl();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4893,19 +5657,23 @@ public final class RegionInfoOuterClass {
        * @param value The bytes for bulletinUrl to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setBulletinUrlBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         bulletinUrl_ = value;
         onChanged();
         return this;
       }
 
       private java.lang.Object officialCommunityUrl_ = "";
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4914,6 +5682,7 @@ public final class RegionInfoOuterClass {
        * <code>string official_community_url = 24;</code>
        * @return The officialCommunityUrl.
        */
+>>>>>>> origin/6.5.0
       public java.lang.String getOfficialCommunityUrl() {
         java.lang.Object ref = officialCommunityUrl_;
         if (!(ref instanceof java.lang.String)) {
@@ -4926,6 +5695,9 @@ public final class RegionInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4934,11 +5706,12 @@ public final class RegionInfoOuterClass {
        * <code>string official_community_url = 24;</code>
        * @return The bytes for officialCommunityUrl.
        */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getOfficialCommunityUrlBytes() {
         java.lang.Object ref = officialCommunityUrl_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           officialCommunityUrl_ = b;
@@ -4947,6 +5720,9 @@ public final class RegionInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4956,16 +5732,20 @@ public final class RegionInfoOuterClass {
        * @param value The officialCommunityUrl to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setOfficialCommunityUrl(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         officialCommunityUrl_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4974,12 +5754,16 @@ public final class RegionInfoOuterClass {
        * <code>string official_community_url = 24;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearOfficialCommunityUrl() {
-        
+
         officialCommunityUrl_ = getDefaultInstance().getOfficialCommunityUrl();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -4989,19 +5773,23 @@ public final class RegionInfoOuterClass {
        * @param value The bytes for officialCommunityUrl to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setOfficialCommunityUrlBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         officialCommunityUrl_ = value;
         onChanged();
         return this;
       }
 
       private java.lang.Object userCenterUrl_ = "";
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5010,6 +5798,7 @@ public final class RegionInfoOuterClass {
        * <code>string user_center_url = 30;</code>
        * @return The userCenterUrl.
        */
+>>>>>>> origin/6.5.0
       public java.lang.String getUserCenterUrl() {
         java.lang.Object ref = userCenterUrl_;
         if (!(ref instanceof java.lang.String)) {
@@ -5022,6 +5811,9 @@ public final class RegionInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5030,11 +5822,12 @@ public final class RegionInfoOuterClass {
        * <code>string user_center_url = 30;</code>
        * @return The bytes for userCenterUrl.
        */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getUserCenterUrlBytes() {
         java.lang.Object ref = userCenterUrl_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           userCenterUrl_ = b;
@@ -5043,6 +5836,9 @@ public final class RegionInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5052,16 +5848,20 @@ public final class RegionInfoOuterClass {
        * @param value The userCenterUrl to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setUserCenterUrl(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         userCenterUrl_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5070,12 +5870,16 @@ public final class RegionInfoOuterClass {
        * <code>string user_center_url = 30;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearUserCenterUrl() {
-        
+
         userCenterUrl_ = getDefaultInstance().getUserCenterUrl();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5085,19 +5889,23 @@ public final class RegionInfoOuterClass {
        * @param value The bytes for userCenterUrl to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setUserCenterUrlBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         userCenterUrl_ = value;
         onChanged();
         return this;
       }
 
       private java.lang.Object gateserverDomainName_ = "";
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5106,6 +5914,7 @@ public final class RegionInfoOuterClass {
        * <code>string gateserver_domain_name = 29;</code>
        * @return The gateserverDomainName.
        */
+>>>>>>> origin/6.5.0
       public java.lang.String getGateserverDomainName() {
         java.lang.Object ref = gateserverDomainName_;
         if (!(ref instanceof java.lang.String)) {
@@ -5118,6 +5927,9 @@ public final class RegionInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5126,11 +5938,12 @@ public final class RegionInfoOuterClass {
        * <code>string gateserver_domain_name = 29;</code>
        * @return The bytes for gateserverDomainName.
        */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getGateserverDomainNameBytes() {
         java.lang.Object ref = gateserverDomainName_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           gateserverDomainName_ = b;
@@ -5139,6 +5952,9 @@ public final class RegionInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5148,16 +5964,20 @@ public final class RegionInfoOuterClass {
        * @param value The gateserverDomainName to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setGateserverDomainName(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         gateserverDomainName_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5166,12 +5986,16 @@ public final class RegionInfoOuterClass {
        * <code>string gateserver_domain_name = 29;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearGateserverDomainName() {
-        
+
         gateserverDomainName_ = getDefaultInstance().getGateserverDomainName();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5181,19 +6005,23 @@ public final class RegionInfoOuterClass {
        * @param value The bytes for gateserverDomainName to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setGateserverDomainNameBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         gateserverDomainName_ = value;
         onChanged();
         return this;
       }
 
       private java.lang.Object clientVersionSuffix_ = "";
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5202,6 +6030,7 @@ public final class RegionInfoOuterClass {
        * <code>string client_version_suffix = 26;</code>
        * @return The clientVersionSuffix.
        */
+>>>>>>> origin/6.5.0
       public java.lang.String getClientVersionSuffix() {
         java.lang.Object ref = clientVersionSuffix_;
         if (!(ref instanceof java.lang.String)) {
@@ -5214,6 +6043,9 @@ public final class RegionInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5222,11 +6054,12 @@ public final class RegionInfoOuterClass {
        * <code>string client_version_suffix = 26;</code>
        * @return The bytes for clientVersionSuffix.
        */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getClientVersionSuffixBytes() {
         java.lang.Object ref = clientVersionSuffix_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           clientVersionSuffix_ = b;
@@ -5235,6 +6068,9 @@ public final class RegionInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5244,16 +6080,20 @@ public final class RegionInfoOuterClass {
        * @param value The clientVersionSuffix to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setClientVersionSuffix(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         clientVersionSuffix_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5262,12 +6102,16 @@ public final class RegionInfoOuterClass {
        * <code>string client_version_suffix = 26;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearClientVersionSuffix() {
-        
+
         clientVersionSuffix_ = getDefaultInstance().getClientVersionSuffix();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5277,19 +6121,23 @@ public final class RegionInfoOuterClass {
        * @param value The bytes for clientVersionSuffix to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setClientVersionSuffixBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         clientVersionSuffix_ = value;
         onChanged();
         return this;
       }
 
       private com.google.protobuf.ByteString secretKey_ = com.google.protobuf.ByteString.EMPTY;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -5298,10 +6146,14 @@ public final class RegionInfoOuterClass {
        * <code>bytes secret_key = 23;</code>
        * @return The secretKey.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public com.google.protobuf.ByteString getSecretKey() {
         return secretKey_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -5311,15 +6163,19 @@ public final class RegionInfoOuterClass {
        * @param value The secretKey to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setSecretKey(com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         secretKey_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -5328,14 +6184,18 @@ public final class RegionInfoOuterClass {
        * <code>bytes secret_key = 23;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearSecretKey() {
-        
+
         secretKey_ = getDefaultInstance().getSecretKey();
         onChanged();
         return this;
       }
 
       private java.lang.Object gateserverIp_ = "";
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5344,6 +6204,7 @@ public final class RegionInfoOuterClass {
        * <code>string gateserver_ip = 1;</code>
        * @return The gateserverIp.
        */
+>>>>>>> origin/6.5.0
       public java.lang.String getGateserverIp() {
         java.lang.Object ref = gateserverIp_;
         if (!(ref instanceof java.lang.String)) {
@@ -5356,6 +6217,9 @@ public final class RegionInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5364,11 +6228,12 @@ public final class RegionInfoOuterClass {
        * <code>string gateserver_ip = 1;</code>
        * @return The bytes for gateserverIp.
        */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getGateserverIpBytes() {
         java.lang.Object ref = gateserverIp_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           gateserverIp_ = b;
@@ -5377,6 +6242,9 @@ public final class RegionInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5386,16 +6254,20 @@ public final class RegionInfoOuterClass {
        * @param value The gateserverIp to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setGateserverIp(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         gateserverIp_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5404,12 +6276,16 @@ public final class RegionInfoOuterClass {
        * <code>string gateserver_ip = 1;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearGateserverIp() {
-        
+
         gateserverIp_ = getDefaultInstance().getGateserverIp();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5419,19 +6295,23 @@ public final class RegionInfoOuterClass {
        * @param value The bytes for gateserverIp to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setGateserverIpBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         gateserverIp_ = value;
         onChanged();
         return this;
       }
 
       private int clientSilenceDataVersion_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5440,10 +6320,14 @@ public final class RegionInfoOuterClass {
        * <code>uint32 client_silence_data_version = 18;</code>
        * @return The clientSilenceDataVersion.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getClientSilenceDataVersion() {
         return clientSilenceDataVersion_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5453,12 +6337,16 @@ public final class RegionInfoOuterClass {
        * @param value The clientSilenceDataVersion to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setClientSilenceDataVersion(int value) {
-        
+
         clientSilenceDataVersion_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5467,14 +6355,18 @@ public final class RegionInfoOuterClass {
        * <code>uint32 client_silence_data_version = 18;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearClientSilenceDataVersion() {
-        
+
         clientSilenceDataVersion_ = 0;
         onChanged();
         return this;
       }
 
       private int gateserverPort_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5483,10 +6375,14 @@ public final class RegionInfoOuterClass {
        * <code>uint32 gateserver_port = 2;</code>
        * @return The gateserverPort.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getGateserverPort() {
         return gateserverPort_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5496,12 +6392,16 @@ public final class RegionInfoOuterClass {
        * @param value The gateserverPort to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setGateserverPort(int value) {
-        
+
         gateserverPort_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5510,14 +6410,18 @@ public final class RegionInfoOuterClass {
        * <code>uint32 gateserver_port = 2;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearGateserverPort() {
-        
+
         gateserverPort_ = 0;
         onChanged();
         return this;
       }
 
       private boolean useGateserverDomainName_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -5526,10 +6430,14 @@ public final class RegionInfoOuterClass {
        * <code>bool use_gateserver_domain_name = 28;</code>
        * @return The useGateserverDomainName.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getUseGateserverDomainName() {
         return useGateserverDomainName_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -5539,12 +6447,16 @@ public final class RegionInfoOuterClass {
        * @param value The useGateserverDomainName to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setUseGateserverDomainName(boolean value) {
-        
+
         useGateserverDomainName_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -5553,14 +6465,18 @@ public final class RegionInfoOuterClass {
        * <code>bool use_gateserver_domain_name = 28;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearUseGateserverDomainName() {
-        
+
         useGateserverDomainName_ = false;
         onChanged();
         return this;
       }
 
       private int clientDataVersion_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5569,10 +6485,14 @@ public final class RegionInfoOuterClass {
        * <code>uint32 client_data_version = 14;</code>
        * @return The clientDataVersion.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getClientDataVersion() {
         return clientDataVersion_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5582,12 +6502,16 @@ public final class RegionInfoOuterClass {
        * @param value The clientDataVersion to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setClientDataVersion(int value) {
-        
+
         clientDataVersion_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -5596,8 +6520,9 @@ public final class RegionInfoOuterClass {
        * <code>uint32 client_data_version = 14;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearClientDataVersion() {
-        
+
         clientDataVersion_ = 0;
         onChanged();
         return this;
@@ -5613,7 +6538,6 @@ public final class RegionInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:RegionInfo)
     }
@@ -5657,7 +6581,7 @@ public final class RegionInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_RegionInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_RegionInfo_fieldAccessorTable;
 

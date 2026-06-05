@@ -18,6 +18,12 @@ public final class AbilityMetaAddAbilityOuterClass {
       // @@protoc_insertion_point(interface_extends:AbilityMetaAddAbility)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    boolean hasAbility();
+
+    emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbility getAbility();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -43,6 +49,7 @@ public final class AbilityMetaAddAbilityOuterClass {
      *
      * <code>.AbilityAppliedAbility ability = 12;</code>
      */
+>>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbilityOrBuilder getAbilityOrBuilder();
   }
   /**
@@ -90,7 +97,7 @@ public final class AbilityMetaAddAbilityOuterClass {
             case 0:
               done = true;
               break;
-            case 98: {
+            case 66: {
               emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbility.Builder subBuilder = null;
               if (ability_ != null) {
                 subBuilder = ability_.toBuilder();
@@ -135,8 +142,11 @@ public final class AbilityMetaAddAbilityOuterClass {
               emu.grasscutter.net.proto.AbilityMetaAddAbilityOuterClass.AbilityMetaAddAbility.class, emu.grasscutter.net.proto.AbilityMetaAddAbilityOuterClass.AbilityMetaAddAbility.Builder.class);
     }
 
-    public static final int ABILITY_FIELD_NUMBER = 12;
+    public static final int ABILITY_FIELD_NUMBER = 8;
     private emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbility ability_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -145,10 +155,14 @@ public final class AbilityMetaAddAbilityOuterClass {
      * <code>.AbilityAppliedAbility ability = 12;</code>
      * @return Whether the ability field is set.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasAbility() {
       return ability_ != null;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -157,10 +171,14 @@ public final class AbilityMetaAddAbilityOuterClass {
      * <code>.AbilityAppliedAbility ability = 12;</code>
      * @return The ability.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbility getAbility() {
       return ability_ == null ? emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbility.getDefaultInstance() : ability_;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -168,6 +186,7 @@ public final class AbilityMetaAddAbilityOuterClass {
      *
      * <code>.AbilityAppliedAbility ability = 12;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbilityOrBuilder getAbilityOrBuilder() {
       return getAbility();
@@ -188,7 +207,7 @@ public final class AbilityMetaAddAbilityOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (ability_ != null) {
-        output.writeMessage(12, getAbility());
+        output.writeMessage(8, getAbility());
       }
       unknownFields.writeTo(output);
     }
@@ -201,7 +220,7 @@ public final class AbilityMetaAddAbilityOuterClass {
       size = 0;
       if (ability_ != null) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(12, getAbility());
+          .computeMessageSize(8, getAbility());
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -491,6 +510,13 @@ public final class AbilityMetaAddAbilityOuterClass {
       private emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbility ability_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbility, emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbility.Builder, emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbilityOrBuilder> abilityBuilder_;
+<<<<<<< HEAD
+
+      public boolean hasAbility() {
+        return abilityBuilder_ != null || ability_ != null;
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -510,6 +536,7 @@ public final class AbilityMetaAddAbilityOuterClass {
        * <code>.AbilityAppliedAbility ability = 12;</code>
        * @return The ability.
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbility getAbility() {
         if (abilityBuilder_ == null) {
           return ability_ == null ? emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbility.getDefaultInstance() : ability_;
@@ -517,6 +544,9 @@ public final class AbilityMetaAddAbilityOuterClass {
           return abilityBuilder_.getMessage();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -524,6 +554,7 @@ public final class AbilityMetaAddAbilityOuterClass {
        *
        * <code>.AbilityAppliedAbility ability = 12;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setAbility(emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbility value) {
         if (abilityBuilder_ == null) {
           if (value == null) {
@@ -537,6 +568,9 @@ public final class AbilityMetaAddAbilityOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -544,6 +578,7 @@ public final class AbilityMetaAddAbilityOuterClass {
        *
        * <code>.AbilityAppliedAbility ability = 12;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setAbility(
           emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbility.Builder builderForValue) {
         if (abilityBuilder_ == null) {
@@ -555,6 +590,9 @@ public final class AbilityMetaAddAbilityOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -562,6 +600,7 @@ public final class AbilityMetaAddAbilityOuterClass {
        *
        * <code>.AbilityAppliedAbility ability = 12;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder mergeAbility(emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbility value) {
         if (abilityBuilder_ == null) {
           if (ability_ != null) {
@@ -577,6 +616,9 @@ public final class AbilityMetaAddAbilityOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -584,6 +626,7 @@ public final class AbilityMetaAddAbilityOuterClass {
        *
        * <code>.AbilityAppliedAbility ability = 12;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder clearAbility() {
         if (abilityBuilder_ == null) {
           ability_ = null;
@@ -595,6 +638,9 @@ public final class AbilityMetaAddAbilityOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -602,11 +648,15 @@ public final class AbilityMetaAddAbilityOuterClass {
        *
        * <code>.AbilityAppliedAbility ability = 12;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbility.Builder getAbilityBuilder() {
-        
+
         onChanged();
         return getAbilityFieldBuilder().getBuilder();
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -614,6 +664,7 @@ public final class AbilityMetaAddAbilityOuterClass {
        *
        * <code>.AbilityAppliedAbility ability = 12;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbilityOrBuilder getAbilityOrBuilder() {
         if (abilityBuilder_ != null) {
           return abilityBuilder_.getMessageOrBuilder();
@@ -622,6 +673,9 @@ public final class AbilityMetaAddAbilityOuterClass {
               emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbility.getDefaultInstance() : ability_;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -629,8 +683,9 @@ public final class AbilityMetaAddAbilityOuterClass {
        *
        * <code>.AbilityAppliedAbility ability = 12;</code>
        */
+>>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbility, emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbility.Builder, emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbilityOrBuilder> 
+          emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbility, emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbility.Builder, emu.grasscutter.net.proto.AbilityAppliedAbilityOuterClass.AbilityAppliedAbilityOrBuilder>
           getAbilityFieldBuilder() {
         if (abilityBuilder_ == null) {
           abilityBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -653,7 +708,6 @@ public final class AbilityMetaAddAbilityOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:AbilityMetaAddAbility)
     }
@@ -697,7 +751,7 @@ public final class AbilityMetaAddAbilityOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AbilityMetaAddAbility_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AbilityMetaAddAbility_fieldAccessorTable;
 

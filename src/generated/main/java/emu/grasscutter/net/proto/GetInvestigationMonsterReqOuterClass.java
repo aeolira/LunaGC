@@ -18,6 +18,14 @@ public final class GetInvestigationMonsterReqOuterClass {
       // @@protoc_insertion_point(interface_extends:GetInvestigationMonsterReq)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    java.util.List<java.lang.Integer> getCityIdListList();
+
+    int getCityIdListCount();
+
+    int getCityIdList(int index);
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -55,6 +63,7 @@ public final class GetInvestigationMonsterReqOuterClass {
      * <code>bool is_for_mark = 5;</code>
      * @return The isForMark.
      */
+>>>>>>> origin/6.5.0
     boolean getIsForMark();
   }
   /**
@@ -108,12 +117,12 @@ public final class GetInvestigationMonsterReqOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
+            case 112: {
 
               isForMark_ = input.readBool();
               break;
             }
-            case 72: {
+            case 88: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 cityIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -121,7 +130,7 @@ public final class GetInvestigationMonsterReqOuterClass {
               cityIdList_.addInt(input.readUInt32());
               break;
             }
-            case 74: {
+            case 90: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -169,8 +178,11 @@ public final class GetInvestigationMonsterReqOuterClass {
               emu.grasscutter.net.proto.GetInvestigationMonsterReqOuterClass.GetInvestigationMonsterReq.class, emu.grasscutter.net.proto.GetInvestigationMonsterReqOuterClass.GetInvestigationMonsterReq.Builder.class);
     }
 
-    public static final int CITY_ID_LIST_FIELD_NUMBER = 9;
+    public static final int CITY_ID_LIST_FIELD_NUMBER = 11;
     private com.google.protobuf.Internal.IntList cityIdList_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -179,11 +191,19 @@ public final class GetInvestigationMonsterReqOuterClass {
      * <code>repeated uint32 city_id_list = 9;</code>
      * @return A list containing the cityIdList.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getCityIdListList() {
       return cityIdList_;
     }
+<<<<<<< HEAD
+
+    public int getCityIdListCount() {
+      return cityIdList_.size();
+    }
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -204,13 +224,17 @@ public final class GetInvestigationMonsterReqOuterClass {
      * @param index The index of the element to return.
      * @return The cityIdList at the given index.
      */
+>>>>>>> origin/6.5.0
     public int getCityIdList(int index) {
       return cityIdList_.getInt(index);
     }
     private int cityIdListMemoizedSerializedSize = -1;
 
-    public static final int IS_FOR_MARK_FIELD_NUMBER = 5;
+    public static final int IS_FOR_MARK_FIELD_NUMBER = 14;
     private boolean isForMark_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -219,6 +243,7 @@ public final class GetInvestigationMonsterReqOuterClass {
      * <code>bool is_for_mark = 5;</code>
      * @return The isForMark.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsForMark() {
       return isForMark_;
@@ -240,10 +265,10 @@ public final class GetInvestigationMonsterReqOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (isForMark_ != false) {
-        output.writeBool(5, isForMark_);
+        output.writeBool(14, isForMark_);
       }
       if (getCityIdListList().size() > 0) {
-        output.writeUInt32NoTag(74);
+        output.writeUInt32NoTag(90);
         output.writeUInt32NoTag(cityIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < cityIdList_.size(); i++) {
@@ -260,7 +285,7 @@ public final class GetInvestigationMonsterReqOuterClass {
       size = 0;
       if (isForMark_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(5, isForMark_);
+          .computeBoolSize(14, isForMark_);
       }
       {
         int dataSize = 0;
@@ -585,6 +610,9 @@ public final class GetInvestigationMonsterReqOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -593,11 +621,23 @@ public final class GetInvestigationMonsterReqOuterClass {
        * <code>repeated uint32 city_id_list = 9;</code>
        * @return A list containing the cityIdList.
        */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getCityIdListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(cityIdList_) : cityIdList_;
       }
+<<<<<<< HEAD
+
+      public int getCityIdListCount() {
+        return cityIdList_.size();
+      }
+
+      public int getCityIdList(int index) {
+        return cityIdList_.getInt(index);
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -631,6 +671,7 @@ public final class GetInvestigationMonsterReqOuterClass {
        * @param value The cityIdList to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setCityIdList(
           int index, int value) {
         ensureCityIdListIsMutable();
@@ -638,6 +679,9 @@ public final class GetInvestigationMonsterReqOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -647,12 +691,16 @@ public final class GetInvestigationMonsterReqOuterClass {
        * @param value The cityIdList to add.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder addCityIdList(int value) {
         ensureCityIdListIsMutable();
         cityIdList_.addInt(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -662,6 +710,7 @@ public final class GetInvestigationMonsterReqOuterClass {
        * @param values The cityIdList to add.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder addAllCityIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureCityIdListIsMutable();
@@ -670,6 +719,9 @@ public final class GetInvestigationMonsterReqOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -678,6 +730,7 @@ public final class GetInvestigationMonsterReqOuterClass {
        * <code>repeated uint32 city_id_list = 9;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearCityIdList() {
         cityIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -686,6 +739,9 @@ public final class GetInvestigationMonsterReqOuterClass {
       }
 
       private boolean isForMark_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -694,10 +750,14 @@ public final class GetInvestigationMonsterReqOuterClass {
        * <code>bool is_for_mark = 5;</code>
        * @return The isForMark.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsForMark() {
         return isForMark_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -707,12 +767,16 @@ public final class GetInvestigationMonsterReqOuterClass {
        * @param value The isForMark to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setIsForMark(boolean value) {
-        
+
         isForMark_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -721,8 +785,9 @@ public final class GetInvestigationMonsterReqOuterClass {
        * <code>bool is_for_mark = 5;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearIsForMark() {
-        
+
         isForMark_ = false;
         onChanged();
         return this;
@@ -738,7 +803,6 @@ public final class GetInvestigationMonsterReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:GetInvestigationMonsterReq)
     }
@@ -782,7 +846,7 @@ public final class GetInvestigationMonsterReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetInvestigationMonsterReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetInvestigationMonsterReq_fieldAccessorTable;
 

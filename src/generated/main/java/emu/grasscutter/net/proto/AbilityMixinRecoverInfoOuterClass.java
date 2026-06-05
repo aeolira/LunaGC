@@ -33,6 +33,33 @@ public final class AbilityMixinRecoverInfoOuterClass {
      */
     emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJOrBuilder getKIEOPLPEBCIOrBuilder();
 
+<<<<<<< HEAD
+    java.util.List<emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo>
+        getMassivePropListList();
+
+    emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo getMassivePropList(int index);
+
+    int getMassivePropListCount();
+
+    java.util.List<? extends emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfoOrBuilder>
+        getMassivePropListOrBuilderList();
+
+    emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfoOrBuilder getMassivePropListOrBuilder(
+        int index);
+
+    boolean hasBreakoutSnapShot();
+
+    emu.grasscutter.net.proto.BreakoutSnapShotOuterClass.BreakoutSnapShot getBreakoutSnapShot();
+
+    emu.grasscutter.net.proto.BreakoutSnapShotOuterClass.BreakoutSnapShotOrBuilder getBreakoutSnapShotOrBuilder();
+
+    java.util.List<java.lang.Integer> getDataListList();
+
+    int getDataListCount();
+
+    int getDataList(int index);
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -141,6 +168,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
      * <code>uint32 local_id = 3;</code>
      * @return The localId.
      */
+>>>>>>> origin/6.5.0
     int getLocalId();
 
     /**
@@ -149,6 +177,14 @@ public final class AbilityMixinRecoverInfoOuterClass {
      */
     boolean getIsServerbuffModifier();
 
+<<<<<<< HEAD
+    boolean hasInstancedAbilityId();
+
+    int getInstancedAbilityId();
+
+    boolean hasInstancedModifierId();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -185,6 +221,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
      * <code>uint32 instanced_modifier_id = 2;</code>
      * @return The instancedModifierId.
      */
+>>>>>>> origin/6.5.0
     int getInstancedModifierId();
 
     public emu.grasscutter.net.proto.AbilityMixinRecoverInfoOuterClass.AbilityMixinRecoverInfo.SourceCase getSourceCase();
@@ -420,6 +457,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
 
     public static final int MASSIVE_PROP_LIST_FIELD_NUMBER = 6;
     private java.util.List<emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo> massivePropList_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -427,10 +467,14 @@ public final class AbilityMixinRecoverInfoOuterClass {
      *
      * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo> getMassivePropListList() {
       return massivePropList_;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -438,11 +482,15 @@ public final class AbilityMixinRecoverInfoOuterClass {
      *
      * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfoOrBuilder>
         getMassivePropListOrBuilderList() {
       return massivePropList_;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -450,10 +498,14 @@ public final class AbilityMixinRecoverInfoOuterClass {
      *
      * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getMassivePropListCount() {
       return massivePropList_.size();
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -461,10 +513,14 @@ public final class AbilityMixinRecoverInfoOuterClass {
      *
      * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo getMassivePropList(int index) {
       return massivePropList_.get(index);
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -472,6 +528,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
      *
      * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfoOrBuilder getMassivePropListOrBuilder(
         int index) {
@@ -480,6 +537,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
 
     public static final int BREAKOUT_SNAP_SHOT_FIELD_NUMBER = 7;
     private emu.grasscutter.net.proto.BreakoutSnapShotOuterClass.BreakoutSnapShot breakoutSnapShot_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -488,10 +548,14 @@ public final class AbilityMixinRecoverInfoOuterClass {
      * <code>.BreakoutSnapShot breakout_snap_shot = 7;</code>
      * @return Whether the breakoutSnapShot field is set.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasBreakoutSnapShot() {
       return breakoutSnapShot_ != null;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -500,10 +564,14 @@ public final class AbilityMixinRecoverInfoOuterClass {
      * <code>.BreakoutSnapShot breakout_snap_shot = 7;</code>
      * @return The breakoutSnapShot.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.BreakoutSnapShotOuterClass.BreakoutSnapShot getBreakoutSnapShot() {
       return breakoutSnapShot_ == null ? emu.grasscutter.net.proto.BreakoutSnapShotOuterClass.BreakoutSnapShot.getDefaultInstance() : breakoutSnapShot_;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -511,6 +579,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
      *
      * <code>.BreakoutSnapShot breakout_snap_shot = 7;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.BreakoutSnapShotOuterClass.BreakoutSnapShotOrBuilder getBreakoutSnapShotOrBuilder() {
       return getBreakoutSnapShot();
@@ -518,6 +587,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
 
     public static final int DATA_LIST_FIELD_NUMBER = 4;
     private com.google.protobuf.Internal.IntList dataList_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -526,11 +598,19 @@ public final class AbilityMixinRecoverInfoOuterClass {
      * <code>repeated uint32 data_list = 4;</code>
      * @return A list containing the dataList.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getDataListList() {
       return dataList_;
     }
+<<<<<<< HEAD
+
+    public int getDataListCount() {
+      return dataList_.size();
+    }
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -551,6 +631,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
      * @param index The index of the element to return.
      * @return The dataList at the given index.
      */
+>>>>>>> origin/6.5.0
     public int getDataList(int index) {
       return dataList_.getInt(index);
     }
@@ -558,6 +639,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
 
     public static final int LOCAL_ID_FIELD_NUMBER = 3;
     private int localId_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -566,6 +650,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
      * <code>uint32 local_id = 3;</code>
      * @return The localId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getLocalId() {
       return localId_;
@@ -583,6 +668,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
     }
 
     public static final int INSTANCED_ABILITY_ID_FIELD_NUMBER = 1;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -591,10 +679,14 @@ public final class AbilityMixinRecoverInfoOuterClass {
      * <code>uint32 instanced_ability_id = 1;</code>
      * @return Whether the instancedAbilityId field is set.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasInstancedAbilityId() {
       return sourceCase_ == 1;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -603,6 +695,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
      * <code>uint32 instanced_ability_id = 1;</code>
      * @return The instancedAbilityId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getInstancedAbilityId() {
       if (sourceCase_ == 1) {
@@ -612,6 +705,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
     }
 
     public static final int INSTANCED_MODIFIER_ID_FIELD_NUMBER = 2;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -620,10 +716,14 @@ public final class AbilityMixinRecoverInfoOuterClass {
      * <code>uint32 instanced_modifier_id = 2;</code>
      * @return Whether the instancedModifierId field is set.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasInstancedModifierId() {
       return sourceCase_ == 2;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -632,6 +732,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
      * <code>uint32 instanced_modifier_id = 2;</code>
      * @return The instancedModifierId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getInstancedModifierId() {
       if (sourceCase_ == 2) {
@@ -1117,7 +1218,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
               massivePropListBuilder_ = null;
               massivePropList_ = other.massivePropList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              massivePropListBuilder_ = 
+              massivePropListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getMassivePropListFieldBuilder() : null;
             } else {
@@ -1289,7 +1390,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        * <code>.MHEPPFLCCIJ KIEOPLPEBCI = 8;</code>
        */
       public emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJ.Builder getKIEOPLPEBCIBuilder() {
-        
+
         onChanged();
         return getKIEOPLPEBCIFieldBuilder().getBuilder();
       }
@@ -1308,7 +1409,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        * <code>.MHEPPFLCCIJ KIEOPLPEBCI = 8;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJ, emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJ.Builder, emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJOrBuilder> 
+          emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJ, emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJ.Builder, emu.grasscutter.net.proto.MHEPPFLCCIJOuterClass.MHEPPFLCCIJOrBuilder>
           getKIEOPLPEBCIFieldBuilder() {
         if (kIEOPLPEBCIBuilder_ == null) {
           kIEOPLPEBCIBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1333,6 +1434,8 @@ public final class AbilityMixinRecoverInfoOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo, emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo.Builder, emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfoOrBuilder> massivePropListBuilder_;
 
+<<<<<<< HEAD
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1340,6 +1443,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
        */
+>>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo> getMassivePropListList() {
         if (massivePropListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(massivePropList_);
@@ -1347,6 +1451,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
           return massivePropListBuilder_.getMessageList();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1354,6 +1461,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
        */
+>>>>>>> origin/6.5.0
       public int getMassivePropListCount() {
         if (massivePropListBuilder_ == null) {
           return massivePropList_.size();
@@ -1361,6 +1469,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
           return massivePropListBuilder_.getCount();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1368,6 +1479,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo getMassivePropList(int index) {
         if (massivePropListBuilder_ == null) {
           return massivePropList_.get(index);
@@ -1375,6 +1487,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
           return massivePropListBuilder_.getMessage(index);
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1382,6 +1497,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setMassivePropList(
           int index, emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo value) {
         if (massivePropListBuilder_ == null) {
@@ -1396,6 +1512,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1403,6 +1522,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setMassivePropList(
           int index, emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo.Builder builderForValue) {
         if (massivePropListBuilder_ == null) {
@@ -1414,6 +1534,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1421,6 +1544,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addMassivePropList(emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo value) {
         if (massivePropListBuilder_ == null) {
           if (value == null) {
@@ -1434,6 +1558,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1441,6 +1568,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addMassivePropList(
           int index, emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo value) {
         if (massivePropListBuilder_ == null) {
@@ -1455,6 +1583,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1462,6 +1593,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addMassivePropList(
           emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo.Builder builderForValue) {
         if (massivePropListBuilder_ == null) {
@@ -1473,6 +1605,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1480,6 +1615,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addMassivePropList(
           int index, emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo.Builder builderForValue) {
         if (massivePropListBuilder_ == null) {
@@ -1491,6 +1627,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1498,6 +1637,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addAllMassivePropList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo> values) {
         if (massivePropListBuilder_ == null) {
@@ -1510,6 +1650,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1517,6 +1660,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder clearMassivePropList() {
         if (massivePropListBuilder_ == null) {
           massivePropList_ = java.util.Collections.emptyList();
@@ -1527,6 +1671,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1534,6 +1681,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder removeMassivePropList(int index) {
         if (massivePropListBuilder_ == null) {
           ensureMassivePropListIsMutable();
@@ -1544,6 +1692,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1551,10 +1702,14 @@ public final class AbilityMixinRecoverInfoOuterClass {
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo.Builder getMassivePropListBuilder(
           int index) {
         return getMassivePropListFieldBuilder().getBuilder(index);
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1562,6 +1717,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfoOrBuilder getMassivePropListOrBuilder(
           int index) {
         if (massivePropListBuilder_ == null) {
@@ -1569,6 +1725,10 @@ public final class AbilityMixinRecoverInfoOuterClass {
           return massivePropListBuilder_.getMessageOrBuilder(index);
         }
       }
+<<<<<<< HEAD
+
+      public java.util.List<? extends emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfoOrBuilder>
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1577,6 +1737,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfoOrBuilder> 
+>>>>>>> origin/6.5.0
            getMassivePropListOrBuilderList() {
         if (massivePropListBuilder_ != null) {
           return massivePropListBuilder_.getMessageOrBuilderList();
@@ -1584,6 +1745,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
           return java.util.Collections.unmodifiableList(massivePropList_);
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1591,10 +1755,14 @@ public final class AbilityMixinRecoverInfoOuterClass {
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo.Builder addMassivePropListBuilder() {
         return getMassivePropListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo.getDefaultInstance());
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1602,11 +1770,16 @@ public final class AbilityMixinRecoverInfoOuterClass {
        *
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo.Builder addMassivePropListBuilder(
           int index) {
         return getMassivePropListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo.getDefaultInstance());
       }
+<<<<<<< HEAD
+
+      public java.util.List<emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo.Builder>
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1615,11 +1788,12 @@ public final class AbilityMixinRecoverInfoOuterClass {
        * <code>repeated .MassivePropSyncInfo massive_prop_list = 6;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo.Builder> 
+>>>>>>> origin/6.5.0
            getMassivePropListBuilderList() {
         return getMassivePropListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo, emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo.Builder, emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfoOrBuilder> 
+          emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo, emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfo.Builder, emu.grasscutter.net.proto.MassivePropSyncInfoOuterClass.MassivePropSyncInfoOrBuilder>
           getMassivePropListFieldBuilder() {
         if (massivePropListBuilder_ == null) {
           massivePropListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1636,6 +1810,13 @@ public final class AbilityMixinRecoverInfoOuterClass {
       private emu.grasscutter.net.proto.BreakoutSnapShotOuterClass.BreakoutSnapShot breakoutSnapShot_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.BreakoutSnapShotOuterClass.BreakoutSnapShot, emu.grasscutter.net.proto.BreakoutSnapShotOuterClass.BreakoutSnapShot.Builder, emu.grasscutter.net.proto.BreakoutSnapShotOuterClass.BreakoutSnapShotOrBuilder> breakoutSnapShotBuilder_;
+<<<<<<< HEAD
+
+      public boolean hasBreakoutSnapShot() {
+        return breakoutSnapShotBuilder_ != null || breakoutSnapShot_ != null;
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1655,6 +1836,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        * <code>.BreakoutSnapShot breakout_snap_shot = 7;</code>
        * @return The breakoutSnapShot.
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BreakoutSnapShotOuterClass.BreakoutSnapShot getBreakoutSnapShot() {
         if (breakoutSnapShotBuilder_ == null) {
           return breakoutSnapShot_ == null ? emu.grasscutter.net.proto.BreakoutSnapShotOuterClass.BreakoutSnapShot.getDefaultInstance() : breakoutSnapShot_;
@@ -1662,6 +1844,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
           return breakoutSnapShotBuilder_.getMessage();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1669,6 +1854,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        *
        * <code>.BreakoutSnapShot breakout_snap_shot = 7;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setBreakoutSnapShot(emu.grasscutter.net.proto.BreakoutSnapShotOuterClass.BreakoutSnapShot value) {
         if (breakoutSnapShotBuilder_ == null) {
           if (value == null) {
@@ -1682,6 +1868,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1689,6 +1878,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        *
        * <code>.BreakoutSnapShot breakout_snap_shot = 7;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setBreakoutSnapShot(
           emu.grasscutter.net.proto.BreakoutSnapShotOuterClass.BreakoutSnapShot.Builder builderForValue) {
         if (breakoutSnapShotBuilder_ == null) {
@@ -1700,6 +1890,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1707,6 +1900,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        *
        * <code>.BreakoutSnapShot breakout_snap_shot = 7;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder mergeBreakoutSnapShot(emu.grasscutter.net.proto.BreakoutSnapShotOuterClass.BreakoutSnapShot value) {
         if (breakoutSnapShotBuilder_ == null) {
           if (breakoutSnapShot_ != null) {
@@ -1722,6 +1916,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1729,6 +1926,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        *
        * <code>.BreakoutSnapShot breakout_snap_shot = 7;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder clearBreakoutSnapShot() {
         if (breakoutSnapShotBuilder_ == null) {
           breakoutSnapShot_ = null;
@@ -1740,6 +1938,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1747,11 +1948,15 @@ public final class AbilityMixinRecoverInfoOuterClass {
        *
        * <code>.BreakoutSnapShot breakout_snap_shot = 7;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BreakoutSnapShotOuterClass.BreakoutSnapShot.Builder getBreakoutSnapShotBuilder() {
-        
+
         onChanged();
         return getBreakoutSnapShotFieldBuilder().getBuilder();
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1759,6 +1964,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        *
        * <code>.BreakoutSnapShot breakout_snap_shot = 7;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.BreakoutSnapShotOuterClass.BreakoutSnapShotOrBuilder getBreakoutSnapShotOrBuilder() {
         if (breakoutSnapShotBuilder_ != null) {
           return breakoutSnapShotBuilder_.getMessageOrBuilder();
@@ -1767,6 +1973,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
               emu.grasscutter.net.proto.BreakoutSnapShotOuterClass.BreakoutSnapShot.getDefaultInstance() : breakoutSnapShot_;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1774,8 +1983,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
        *
        * <code>.BreakoutSnapShot breakout_snap_shot = 7;</code>
        */
+>>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BreakoutSnapShotOuterClass.BreakoutSnapShot, emu.grasscutter.net.proto.BreakoutSnapShotOuterClass.BreakoutSnapShot.Builder, emu.grasscutter.net.proto.BreakoutSnapShotOuterClass.BreakoutSnapShotOrBuilder> 
+          emu.grasscutter.net.proto.BreakoutSnapShotOuterClass.BreakoutSnapShot, emu.grasscutter.net.proto.BreakoutSnapShotOuterClass.BreakoutSnapShot.Builder, emu.grasscutter.net.proto.BreakoutSnapShotOuterClass.BreakoutSnapShotOrBuilder>
           getBreakoutSnapShotFieldBuilder() {
         if (breakoutSnapShotBuilder_ == null) {
           breakoutSnapShotBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1795,6 +2005,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
           bitField0_ |= 0x00000002;
          }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1803,11 +2016,23 @@ public final class AbilityMixinRecoverInfoOuterClass {
        * <code>repeated uint32 data_list = 4;</code>
        * @return A list containing the dataList.
        */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getDataListList() {
         return ((bitField0_ & 0x00000002) != 0) ?
                  java.util.Collections.unmodifiableList(dataList_) : dataList_;
       }
+<<<<<<< HEAD
+
+      public int getDataListCount() {
+        return dataList_.size();
+      }
+
+      public int getDataList(int index) {
+        return dataList_.getInt(index);
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1841,6 +2066,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        * @param value The dataList to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setDataList(
           int index, int value) {
         ensureDataListIsMutable();
@@ -1848,6 +2074,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1857,12 +2086,16 @@ public final class AbilityMixinRecoverInfoOuterClass {
        * @param value The dataList to add.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder addDataList(int value) {
         ensureDataListIsMutable();
         dataList_.addInt(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1872,6 +2105,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        * @param values The dataList to add.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder addAllDataList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureDataListIsMutable();
@@ -1880,6 +2114,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1888,6 +2125,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        * <code>repeated uint32 data_list = 4;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearDataList() {
         dataList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
@@ -1896,6 +2134,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
       }
 
       private int localId_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1904,10 +2145,14 @@ public final class AbilityMixinRecoverInfoOuterClass {
        * <code>uint32 local_id = 3;</code>
        * @return The localId.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getLocalId() {
         return localId_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1917,12 +2162,16 @@ public final class AbilityMixinRecoverInfoOuterClass {
        * @param value The localId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setLocalId(int value) {
-        
+
         localId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1931,8 +2180,9 @@ public final class AbilityMixinRecoverInfoOuterClass {
        * <code>uint32 local_id = 3;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearLocalId() {
-        
+
         localId_ = 0;
         onChanged();
         return this;
@@ -1953,7 +2203,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIsServerbuffModifier(boolean value) {
-        
+
         isServerbuffModifier_ = value;
         onChanged();
         return this;
@@ -1963,12 +2213,18 @@ public final class AbilityMixinRecoverInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIsServerbuffModifier() {
-        
+
         isServerbuffModifier_ = false;
         onChanged();
         return this;
       }
 
+<<<<<<< HEAD
+      public boolean hasInstancedAbilityId() {
+        return sourceCase_ == 1;
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1988,12 +2244,16 @@ public final class AbilityMixinRecoverInfoOuterClass {
        * <code>uint32 instanced_ability_id = 1;</code>
        * @return The instancedAbilityId.
        */
+>>>>>>> origin/6.5.0
       public int getInstancedAbilityId() {
         if (sourceCase_ == 1) {
           return (java.lang.Integer) source_;
         }
         return 0;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -2003,12 +2263,16 @@ public final class AbilityMixinRecoverInfoOuterClass {
        * @param value The instancedAbilityId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setInstancedAbilityId(int value) {
         sourceCase_ = 1;
         source_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -2017,6 +2281,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        * <code>uint32 instanced_ability_id = 1;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearInstancedAbilityId() {
         if (sourceCase_ == 1) {
           sourceCase_ = 0;
@@ -2026,6 +2291,12 @@ public final class AbilityMixinRecoverInfoOuterClass {
         return this;
       }
 
+<<<<<<< HEAD
+      public boolean hasInstancedModifierId() {
+        return sourceCase_ == 2;
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -2045,12 +2316,16 @@ public final class AbilityMixinRecoverInfoOuterClass {
        * <code>uint32 instanced_modifier_id = 2;</code>
        * @return The instancedModifierId.
        */
+>>>>>>> origin/6.5.0
       public int getInstancedModifierId() {
         if (sourceCase_ == 2) {
           return (java.lang.Integer) source_;
         }
         return 0;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -2060,12 +2335,16 @@ public final class AbilityMixinRecoverInfoOuterClass {
        * @param value The instancedModifierId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setInstancedModifierId(int value) {
         sourceCase_ = 2;
         source_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -2074,6 +2353,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
        * <code>uint32 instanced_modifier_id = 2;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearInstancedModifierId() {
         if (sourceCase_ == 2) {
           sourceCase_ = 0;
@@ -2093,7 +2373,6 @@ public final class AbilityMixinRecoverInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:AbilityMixinRecoverInfo)
     }
@@ -2137,7 +2416,7 @@ public final class AbilityMixinRecoverInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AbilityMixinRecoverInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AbilityMixinRecoverInfo_fieldAccessorTable;
 

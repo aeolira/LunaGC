@@ -18,6 +18,10 @@ public final class AvatarFetterDataNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:AvatarFetterDataNotify)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    int getFetterInfoMapCount();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -33,6 +37,7 @@ public final class AvatarFetterDataNotifyOuterClass {
      *
      * <code>map&lt;uint64, .AvatarFetterInfo&gt; fetter_info_map = 1;</code>
      */
+>>>>>>> origin/6.5.0
     boolean containsFetterInfoMap(
         long key);
     /**
@@ -41,6 +46,11 @@ public final class AvatarFetterDataNotifyOuterClass {
     @java.lang.Deprecated
     java.util.Map<java.lang.Long, emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo>
     getFetterInfoMap();
+<<<<<<< HEAD
+
+    java.util.Map<java.lang.Long, emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo>
+    getFetterInfoMapMap();
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -57,10 +67,13 @@ public final class AvatarFetterDataNotifyOuterClass {
      *
      * <code>map&lt;uint64, .AvatarFetterInfo&gt; fetter_info_map = 1;</code>
      */
+>>>>>>> origin/6.5.0
 
     emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo getFetterInfoMapOrDefault(
         long key,
         emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo defaultValue);
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -68,6 +81,7 @@ public final class AvatarFetterDataNotifyOuterClass {
      *
      * <code>map&lt;uint64, .AvatarFetterInfo&gt; fetter_info_map = 1;</code>
      */
+>>>>>>> origin/6.5.0
 
     emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo getFetterInfoMapOrThrow(
         long key);
@@ -122,7 +136,7 @@ public final class AvatarFetterDataNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 10: {
+            case 122: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 fetterInfoMap_ = com.google.protobuf.MapField.newMapField(
                     FetterInfoMapDefaultEntryHolder.defaultEntry);
@@ -179,13 +193,13 @@ public final class AvatarFetterDataNotifyOuterClass {
               emu.grasscutter.net.proto.AvatarFetterDataNotifyOuterClass.AvatarFetterDataNotify.class, emu.grasscutter.net.proto.AvatarFetterDataNotifyOuterClass.AvatarFetterDataNotify.Builder.class);
     }
 
-    public static final int FETTER_INFO_MAP_FIELD_NUMBER = 1;
+    public static final int FETTER_INFO_MAP_FIELD_NUMBER = 15;
     private static final class FetterInfoMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Long, emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Long, emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo>newDefaultInstance(
-                  emu.grasscutter.net.proto.AvatarFetterDataNotifyOuterClass.internal_static_AvatarFetterDataNotify_FetterInfoMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.AvatarFetterDataNotifyOuterClass.internal_static_AvatarFetterDataNotify_FetterInfoMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT64,
                   0L,
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
@@ -205,6 +219,8 @@ public final class AvatarFetterDataNotifyOuterClass {
     public int getFetterInfoMapCount() {
       return internalGetFetterInfoMap().getMap().size();
     }
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -212,11 +228,12 @@ public final class AvatarFetterDataNotifyOuterClass {
      *
      * <code>map&lt;uint64, .AvatarFetterInfo&gt; fetter_info_map = 1;</code>
      */
+>>>>>>> origin/6.5.0
 
     @java.lang.Override
     public boolean containsFetterInfoMap(
         long key) {
-      
+
       return internalGetFetterInfoMap().getMap().containsKey(key);
     }
     /**
@@ -227,6 +244,9 @@ public final class AvatarFetterDataNotifyOuterClass {
     public java.util.Map<java.lang.Long, emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo> getFetterInfoMap() {
       return getFetterInfoMapMap();
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -234,11 +254,15 @@ public final class AvatarFetterDataNotifyOuterClass {
      *
      * <code>map&lt;uint64, .AvatarFetterInfo&gt; fetter_info_map = 1;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public java.util.Map<java.lang.Long, emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo> getFetterInfoMapMap() {
       return internalGetFetterInfoMap().getMap();
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -246,16 +270,20 @@ public final class AvatarFetterDataNotifyOuterClass {
      *
      * <code>map&lt;uint64, .AvatarFetterInfo&gt; fetter_info_map = 1;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo getFetterInfoMapOrDefault(
         long key,
         emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo defaultValue) {
-      
+
       java.util.Map<java.lang.Long, emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo> map =
           internalGetFetterInfoMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -263,11 +291,12 @@ public final class AvatarFetterDataNotifyOuterClass {
      *
      * <code>map&lt;uint64, .AvatarFetterInfo&gt; fetter_info_map = 1;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo getFetterInfoMapOrThrow(
         long key) {
-      
+
       java.util.Map<java.lang.Long, emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo> map =
           internalGetFetterInfoMap().getMap();
       if (!map.containsKey(key)) {
@@ -295,7 +324,7 @@ public final class AvatarFetterDataNotifyOuterClass {
           output,
           internalGetFetterInfoMap(),
           FetterInfoMapDefaultEntryHolder.defaultEntry,
-          1);
+          15);
       unknownFields.writeTo(output);
     }
 
@@ -313,7 +342,7 @@ public final class AvatarFetterDataNotifyOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
-            .computeMessageSize(1, fetterInfoMap__);
+            .computeMessageSize(15, fetterInfoMap__);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -462,7 +491,7 @@ public final class AvatarFetterDataNotifyOuterClass {
       protected com.google.protobuf.MapField internalGetMapField(
           int number) {
         switch (number) {
-          case 1:
+          case 15:
             return internalGetFetterInfoMap();
           default:
             throw new RuntimeException(
@@ -473,7 +502,7 @@ public final class AvatarFetterDataNotifyOuterClass {
       protected com.google.protobuf.MapField internalGetMutableMapField(
           int number) {
         switch (number) {
-          case 1:
+          case 15:
             return internalGetMutableFetterInfoMap();
           default:
             throw new RuntimeException(
@@ -642,6 +671,8 @@ public final class AvatarFetterDataNotifyOuterClass {
       public int getFetterInfoMapCount() {
         return internalGetFetterInfoMap().getMap().size();
       }
+<<<<<<< HEAD
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -649,11 +680,12 @@ public final class AvatarFetterDataNotifyOuterClass {
        *
        * <code>map&lt;uint64, .AvatarFetterInfo&gt; fetter_info_map = 1;</code>
        */
+>>>>>>> origin/6.5.0
 
       @java.lang.Override
       public boolean containsFetterInfoMap(
           long key) {
-        
+
         return internalGetFetterInfoMap().getMap().containsKey(key);
       }
       /**
@@ -664,6 +696,9 @@ public final class AvatarFetterDataNotifyOuterClass {
       public java.util.Map<java.lang.Long, emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo> getFetterInfoMap() {
         return getFetterInfoMapMap();
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -671,11 +706,15 @@ public final class AvatarFetterDataNotifyOuterClass {
        *
        * <code>map&lt;uint64, .AvatarFetterInfo&gt; fetter_info_map = 1;</code>
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public java.util.Map<java.lang.Long, emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo> getFetterInfoMapMap() {
         return internalGetFetterInfoMap().getMap();
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -683,16 +722,20 @@ public final class AvatarFetterDataNotifyOuterClass {
        *
        * <code>map&lt;uint64, .AvatarFetterInfo&gt; fetter_info_map = 1;</code>
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo getFetterInfoMapOrDefault(
           long key,
           emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo defaultValue) {
-        
+
         java.util.Map<java.lang.Long, emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo> map =
             internalGetFetterInfoMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -700,11 +743,12 @@ public final class AvatarFetterDataNotifyOuterClass {
        *
        * <code>map&lt;uint64, .AvatarFetterInfo&gt; fetter_info_map = 1;</code>
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo getFetterInfoMapOrThrow(
           long key) {
-        
+
         java.util.Map<java.lang.Long, emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo> map =
             internalGetFetterInfoMap().getMap();
         if (!map.containsKey(key)) {
@@ -718,6 +762,8 @@ public final class AvatarFetterDataNotifyOuterClass {
             .clear();
         return this;
       }
+<<<<<<< HEAD
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -725,10 +771,11 @@ public final class AvatarFetterDataNotifyOuterClass {
        *
        * <code>map&lt;uint64, .AvatarFetterInfo&gt; fetter_info_map = 1;</code>
        */
+>>>>>>> origin/6.5.0
 
       public Builder removeFetterInfoMap(
           long key) {
-        
+
         internalGetMutableFetterInfoMap().getMutableMap()
             .remove(key);
         return this;
@@ -741,6 +788,9 @@ public final class AvatarFetterDataNotifyOuterClass {
       getMutableFetterInfoMap() {
         return internalGetMutableFetterInfoMap().getMutableMap();
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -748,15 +798,18 @@ public final class AvatarFetterDataNotifyOuterClass {
        *
        * <code>map&lt;uint64, .AvatarFetterInfo&gt; fetter_info_map = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder putFetterInfoMap(
           long key,
           emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo value) {
-        
+
         if (value == null) { throw new java.lang.NullPointerException(); }
         internalGetMutableFetterInfoMap().getMutableMap()
             .put(key, value);
         return this;
       }
+<<<<<<< HEAD
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -764,6 +817,7 @@ public final class AvatarFetterDataNotifyOuterClass {
        *
        * <code>map&lt;uint64, .AvatarFetterInfo&gt; fetter_info_map = 1;</code>
        */
+>>>>>>> origin/6.5.0
 
       public Builder putAllFetterInfoMap(
           java.util.Map<java.lang.Long, emu.grasscutter.net.proto.AvatarFetterInfoOuterClass.AvatarFetterInfo> values) {
@@ -782,7 +836,6 @@ public final class AvatarFetterDataNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:AvatarFetterDataNotify)
     }
@@ -826,12 +879,12 @@ public final class AvatarFetterDataNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarFetterDataNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarFetterDataNotify_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarFetterDataNotify_FetterInfoMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarFetterDataNotify_FetterInfoMapEntry_fieldAccessorTable;
 

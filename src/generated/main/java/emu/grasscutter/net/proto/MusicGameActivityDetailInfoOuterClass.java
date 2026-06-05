@@ -18,6 +18,10 @@ public final class MusicGameActivityDetailInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:MusicGameActivityDetailInfo)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    int getMusicGameRecordMapCount();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -33,6 +37,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
      *
      * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
      */
+>>>>>>> origin/6.5.0
     boolean containsMusicGameRecordMap(
         int key);
     /**
@@ -41,6 +46,11 @@ public final class MusicGameActivityDetailInfoOuterClass {
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord>
     getMusicGameRecordMap();
+<<<<<<< HEAD
+
+    java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord>
+    getMusicGameRecordMapMap();
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -57,10 +67,13 @@ public final class MusicGameActivityDetailInfoOuterClass {
      *
      * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
      */
+>>>>>>> origin/6.5.0
 
     emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord getMusicGameRecordMapOrDefault(
         int key,
         emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord defaultValue);
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -68,6 +81,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
      *
      * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
      */
+>>>>>>> origin/6.5.0
 
     emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord getMusicGameRecordMapOrThrow(
         int key);
@@ -75,7 +89,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
     /**
      * <code>repeated .UgcMusicBriefInfo BEILJDGLAKC = 1;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo> 
+    java.util.List<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo>
         getBEILJDGLAKCList();
     /**
      * <code>repeated .UgcMusicBriefInfo BEILJDGLAKC = 1;</code>
@@ -88,7 +102,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
     /**
      * <code>repeated .UgcMusicBriefInfo BEILJDGLAKC = 1;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder>
         getBEILJDGLAKCOrBuilderList();
     /**
      * <code>repeated .UgcMusicBriefInfo BEILJDGLAKC = 1;</code>
@@ -99,7 +113,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
     /**
      * <code>repeated .UgcMusicBriefInfo KKPNLOJOOLN = 15;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo> 
+    java.util.List<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo>
         getKKPNLOJOOLNList();
     /**
      * <code>repeated .UgcMusicBriefInfo KKPNLOJOOLN = 15;</code>
@@ -112,7 +126,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
     /**
      * <code>repeated .UgcMusicBriefInfo KKPNLOJOOLN = 15;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder>
         getKKPNLOJOOLNOrBuilderList();
     /**
      * <code>repeated .UgcMusicBriefInfo KKPNLOJOOLN = 15;</code>
@@ -255,7 +269,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
           java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord>newDefaultInstance(
-                  emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.internal_static_MusicGameActivityDetailInfo_MusicGameRecordMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.MusicGameActivityDetailInfoOuterClass.internal_static_MusicGameActivityDetailInfo_MusicGameRecordMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
@@ -275,6 +289,8 @@ public final class MusicGameActivityDetailInfoOuterClass {
     public int getMusicGameRecordMapCount() {
       return internalGetMusicGameRecordMap().getMap().size();
     }
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -282,11 +298,12 @@ public final class MusicGameActivityDetailInfoOuterClass {
      *
      * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
      */
+>>>>>>> origin/6.5.0
 
     @java.lang.Override
     public boolean containsMusicGameRecordMap(
         int key) {
-      
+
       return internalGetMusicGameRecordMap().getMap().containsKey(key);
     }
     /**
@@ -297,6 +314,9 @@ public final class MusicGameActivityDetailInfoOuterClass {
     public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord> getMusicGameRecordMap() {
       return getMusicGameRecordMapMap();
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -304,11 +324,15 @@ public final class MusicGameActivityDetailInfoOuterClass {
      *
      * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord> getMusicGameRecordMapMap() {
       return internalGetMusicGameRecordMap().getMap();
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -316,16 +340,20 @@ public final class MusicGameActivityDetailInfoOuterClass {
      *
      * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord getMusicGameRecordMapOrDefault(
         int key,
         emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord> map =
           internalGetMusicGameRecordMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -333,11 +361,12 @@ public final class MusicGameActivityDetailInfoOuterClass {
      *
      * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord getMusicGameRecordMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord> map =
           internalGetMusicGameRecordMap().getMap();
       if (!map.containsKey(key)) {
@@ -359,7 +388,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
      * <code>repeated .UgcMusicBriefInfo BEILJDGLAKC = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder>
         getBEILJDGLAKCOrBuilderList() {
       return bEILJDGLAKC_;
     }
@@ -399,7 +428,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
      * <code>repeated .UgcMusicBriefInfo KKPNLOJOOLN = 15;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder>
         getKKPNLOJOOLNOrBuilderList() {
       return kKPNLOJOOLN_;
     }
@@ -808,7 +837,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
               bEILJDGLAKCBuilder_ = null;
               bEILJDGLAKC_ = other.bEILJDGLAKC_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              bEILJDGLAKCBuilder_ = 
+              bEILJDGLAKCBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getBEILJDGLAKCFieldBuilder() : null;
             } else {
@@ -834,7 +863,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
               kKPNLOJOOLNBuilder_ = null;
               kKPNLOJOOLN_ = other.kKPNLOJOOLN_;
               bitField0_ = (bitField0_ & ~0x00000004);
-              kKPNLOJOOLNBuilder_ = 
+              kKPNLOJOOLNBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getKKPNLOJOOLNFieldBuilder() : null;
             } else {
@@ -898,6 +927,8 @@ public final class MusicGameActivityDetailInfoOuterClass {
       public int getMusicGameRecordMapCount() {
         return internalGetMusicGameRecordMap().getMap().size();
       }
+<<<<<<< HEAD
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -905,11 +936,12 @@ public final class MusicGameActivityDetailInfoOuterClass {
        *
        * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
        */
+>>>>>>> origin/6.5.0
 
       @java.lang.Override
       public boolean containsMusicGameRecordMap(
           int key) {
-        
+
         return internalGetMusicGameRecordMap().getMap().containsKey(key);
       }
       /**
@@ -920,6 +952,9 @@ public final class MusicGameActivityDetailInfoOuterClass {
       public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord> getMusicGameRecordMap() {
         return getMusicGameRecordMapMap();
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -927,11 +962,15 @@ public final class MusicGameActivityDetailInfoOuterClass {
        *
        * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord> getMusicGameRecordMapMap() {
         return internalGetMusicGameRecordMap().getMap();
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -939,16 +978,20 @@ public final class MusicGameActivityDetailInfoOuterClass {
        *
        * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord getMusicGameRecordMapOrDefault(
           int key,
           emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord> map =
             internalGetMusicGameRecordMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -956,11 +999,12 @@ public final class MusicGameActivityDetailInfoOuterClass {
        *
        * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord getMusicGameRecordMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord> map =
             internalGetMusicGameRecordMap().getMap();
         if (!map.containsKey(key)) {
@@ -974,6 +1018,8 @@ public final class MusicGameActivityDetailInfoOuterClass {
             .clear();
         return this;
       }
+<<<<<<< HEAD
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -981,10 +1027,11 @@ public final class MusicGameActivityDetailInfoOuterClass {
        *
        * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
        */
+>>>>>>> origin/6.5.0
 
       public Builder removeMusicGameRecordMap(
           int key) {
-        
+
         internalGetMutableMusicGameRecordMap().getMutableMap()
             .remove(key);
         return this;
@@ -997,6 +1044,9 @@ public final class MusicGameActivityDetailInfoOuterClass {
       getMutableMusicGameRecordMap() {
         return internalGetMutableMusicGameRecordMap().getMutableMap();
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1004,15 +1054,18 @@ public final class MusicGameActivityDetailInfoOuterClass {
        *
        * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder putMusicGameRecordMap(
           int key,
           emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord value) {
-        
+
         if (value == null) { throw new java.lang.NullPointerException(); }
         internalGetMutableMusicGameRecordMap().getMutableMap()
             .put(key, value);
         return this;
       }
+<<<<<<< HEAD
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1020,6 +1073,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
        *
        * <code>map&lt;uint32, .MusicGameRecord&gt; music_game_record_map = 11;</code>
        */
+>>>>>>> origin/6.5.0
 
       public Builder putAllMusicGameRecordMap(
           java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.MusicGameRecordOuterClass.MusicGameRecord> values) {
@@ -1223,7 +1277,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
       /**
        * <code>repeated .UgcMusicBriefInfo BEILJDGLAKC = 1;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder>
            getBEILJDGLAKCOrBuilderList() {
         if (bEILJDGLAKCBuilder_ != null) {
           return bEILJDGLAKCBuilder_.getMessageOrBuilderList();
@@ -1249,12 +1303,12 @@ public final class MusicGameActivityDetailInfoOuterClass {
       /**
        * <code>repeated .UgcMusicBriefInfo BEILJDGLAKC = 1;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder>
            getBEILJDGLAKCBuilderList() {
         return getBEILJDGLAKCFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder> 
+          emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder>
           getBEILJDGLAKCFieldBuilder() {
         if (bEILJDGLAKCBuilder_ == null) {
           bEILJDGLAKCBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1463,7 +1517,7 @@ public final class MusicGameActivityDetailInfoOuterClass {
       /**
        * <code>repeated .UgcMusicBriefInfo KKPNLOJOOLN = 15;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder>
            getKKPNLOJOOLNOrBuilderList() {
         if (kKPNLOJOOLNBuilder_ != null) {
           return kKPNLOJOOLNBuilder_.getMessageOrBuilderList();
@@ -1489,12 +1543,12 @@ public final class MusicGameActivityDetailInfoOuterClass {
       /**
        * <code>repeated .UgcMusicBriefInfo KKPNLOJOOLN = 15;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder>
            getKKPNLOJOOLNBuilderList() {
         return getKKPNLOJOOLNFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder> 
+          emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfo.Builder, emu.grasscutter.net.proto.UgcMusicBriefInfoOuterClass.UgcMusicBriefInfoOrBuilder>
           getKKPNLOJOOLNFieldBuilder() {
         if (kKPNLOJOOLNBuilder_ == null) {
           kKPNLOJOOLNBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1518,7 +1572,6 @@ public final class MusicGameActivityDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:MusicGameActivityDetailInfo)
     }
@@ -1562,12 +1615,12 @@ public final class MusicGameActivityDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MusicGameActivityDetailInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MusicGameActivityDetailInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_MusicGameActivityDetailInfo_MusicGameRecordMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_MusicGameActivityDetailInfo_MusicGameRecordMapEntry_fieldAccessorTable;
 

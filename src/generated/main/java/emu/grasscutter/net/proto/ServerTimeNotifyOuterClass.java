@@ -18,6 +18,8 @@ public final class ServerTimeNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:ServerTimeNotify)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -26,6 +28,7 @@ public final class ServerTimeNotifyOuterClass {
      * <code>uint64 server_time = 1;</code>
      * @return The serverTime.
      */
+>>>>>>> origin/6.5.0
     long getServerTime();
   }
   /**
@@ -116,6 +119,9 @@ public final class ServerTimeNotifyOuterClass {
 
     public static final int SERVER_TIME_FIELD_NUMBER = 1;
     private long serverTime_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -124,6 +130,7 @@ public final class ServerTimeNotifyOuterClass {
      * <code>uint64 server_time = 1;</code>
      * @return The serverTime.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public long getServerTime() {
       return serverTime_;
@@ -437,6 +444,9 @@ public final class ServerTimeNotifyOuterClass {
       }
 
       private long serverTime_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -445,10 +455,14 @@ public final class ServerTimeNotifyOuterClass {
        * <code>uint64 server_time = 1;</code>
        * @return The serverTime.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public long getServerTime() {
         return serverTime_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -458,12 +472,16 @@ public final class ServerTimeNotifyOuterClass {
        * @param value The serverTime to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setServerTime(long value) {
-        
+
         serverTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -472,8 +490,9 @@ public final class ServerTimeNotifyOuterClass {
        * <code>uint64 server_time = 1;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearServerTime() {
-        
+
         serverTime_ = 0L;
         onChanged();
         return this;
@@ -489,7 +508,6 @@ public final class ServerTimeNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:ServerTimeNotify)
     }
@@ -533,7 +551,7 @@ public final class ServerTimeNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ServerTimeNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ServerTimeNotify_fieldAccessorTable;
 

@@ -18,6 +18,12 @@ public final class NpcTalkReqOuterClass {
       // @@protoc_insertion_point(interface_extends:NpcTalkReq)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    int getEntityId();
+
+    int getTalkId();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -46,6 +52,7 @@ public final class NpcTalkReqOuterClass {
      * <code>uint32 npc_entity_id = 4;</code>
      * @return The npcEntityId.
      */
+>>>>>>> origin/6.5.0
     int getNpcEntityId();
   }
   /**
@@ -97,19 +104,19 @@ public final class NpcTalkReqOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
-
-              talkId_ = input.readUInt32();
-              break;
-            }
-            case 32: {
+            case 16: {
 
               npcEntityId_ = input.readUInt32();
               break;
             }
-            case 120: {
+            case 88: {
 
               entityId_ = input.readUInt32();
+              break;
+            }
+            case 112: {
+
+              talkId_ = input.readUInt32();
               break;
             }
             default: {
@@ -144,8 +151,11 @@ public final class NpcTalkReqOuterClass {
               emu.grasscutter.net.proto.NpcTalkReqOuterClass.NpcTalkReq.class, emu.grasscutter.net.proto.NpcTalkReqOuterClass.NpcTalkReq.Builder.class);
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 15;
+    public static final int ENTITY_ID_FIELD_NUMBER = 11;
     private int entityId_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -154,13 +164,17 @@ public final class NpcTalkReqOuterClass {
      * <code>uint32 entity_id = 15;</code>
      * @return The entityId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getEntityId() {
       return entityId_;
     }
 
-    public static final int TALK_ID_FIELD_NUMBER = 1;
+    public static final int TALK_ID_FIELD_NUMBER = 14;
     private int talkId_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -169,13 +183,17 @@ public final class NpcTalkReqOuterClass {
      * <code>uint32 talk_id = 1;</code>
      * @return The talkId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getTalkId() {
       return talkId_;
     }
 
-    public static final int NPC_ENTITY_ID_FIELD_NUMBER = 4;
+    public static final int NPC_ENTITY_ID_FIELD_NUMBER = 2;
     private int npcEntityId_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -184,6 +202,7 @@ public final class NpcTalkReqOuterClass {
      * <code>uint32 npc_entity_id = 4;</code>
      * @return The npcEntityId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getNpcEntityId() {
       return npcEntityId_;
@@ -204,13 +223,13 @@ public final class NpcTalkReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (talkId_ != 0) {
-        output.writeUInt32(1, talkId_);
+        output.writeUInt32(14, talkId_);
       }
       if (npcEntityId_ != 0) {
-        output.writeUInt32(4, npcEntityId_);
+        output.writeUInt32(2, npcEntityId_);
       }
       if (entityId_ != 0) {
-        output.writeUInt32(15, entityId_);
+        output.writeUInt32(11, entityId_);
       }
       unknownFields.writeTo(output);
     }
@@ -223,15 +242,15 @@ public final class NpcTalkReqOuterClass {
       size = 0;
       if (talkId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(1, talkId_);
+          .computeUInt32Size(14, talkId_);
       }
       if (npcEntityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, npcEntityId_);
+          .computeUInt32Size(2, npcEntityId_);
       }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, entityId_);
+          .computeUInt32Size(11, entityId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -530,6 +549,9 @@ public final class NpcTalkReqOuterClass {
       }
 
       private int entityId_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -538,10 +560,14 @@ public final class NpcTalkReqOuterClass {
        * <code>uint32 entity_id = 15;</code>
        * @return The entityId.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getEntityId() {
         return entityId_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -551,12 +577,16 @@ public final class NpcTalkReqOuterClass {
        * @param value The entityId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -565,14 +595,18 @@ public final class NpcTalkReqOuterClass {
        * <code>uint32 entity_id = 15;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
       }
 
       private int talkId_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -581,10 +615,14 @@ public final class NpcTalkReqOuterClass {
        * <code>uint32 talk_id = 1;</code>
        * @return The talkId.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getTalkId() {
         return talkId_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -594,12 +632,16 @@ public final class NpcTalkReqOuterClass {
        * @param value The talkId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setTalkId(int value) {
-        
+
         talkId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -608,14 +650,18 @@ public final class NpcTalkReqOuterClass {
        * <code>uint32 talk_id = 1;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearTalkId() {
-        
+
         talkId_ = 0;
         onChanged();
         return this;
       }
 
       private int npcEntityId_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -624,10 +670,14 @@ public final class NpcTalkReqOuterClass {
        * <code>uint32 npc_entity_id = 4;</code>
        * @return The npcEntityId.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getNpcEntityId() {
         return npcEntityId_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -637,12 +687,16 @@ public final class NpcTalkReqOuterClass {
        * @param value The npcEntityId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setNpcEntityId(int value) {
-        
+
         npcEntityId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -651,8 +705,9 @@ public final class NpcTalkReqOuterClass {
        * <code>uint32 npc_entity_id = 4;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearNpcEntityId() {
-        
+
         npcEntityId_ = 0;
         onChanged();
         return this;
@@ -668,7 +723,6 @@ public final class NpcTalkReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:NpcTalkReq)
     }
@@ -712,7 +766,7 @@ public final class NpcTalkReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_NpcTalkReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_NpcTalkReq_fieldAccessorTable;
 

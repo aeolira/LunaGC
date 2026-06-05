@@ -18,6 +18,12 @@ public final class PlayerApplyEnterMpRspOuterClass {
       // @@protoc_insertion_point(interface_extends:PlayerApplyEnterMpRsp)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    int getRetcode();
+
+    int getTargetUid();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -46,6 +52,7 @@ public final class PlayerApplyEnterMpRspOuterClass {
      * <code>uint32 param = 11;</code>
      * @return The param.
      */
+>>>>>>> origin/6.5.0
     int getParam();
   }
   /**
@@ -146,6 +153,9 @@ public final class PlayerApplyEnterMpRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 13;
     private int retcode_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -154,6 +164,7 @@ public final class PlayerApplyEnterMpRspOuterClass {
      * <code>int32 retcode = 13;</code>
      * @return The retcode.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -161,6 +172,9 @@ public final class PlayerApplyEnterMpRspOuterClass {
 
     public static final int TARGET_UID_FIELD_NUMBER = 6;
     private int targetUid_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -169,6 +183,7 @@ public final class PlayerApplyEnterMpRspOuterClass {
      * <code>uint32 target_uid = 6;</code>
      * @return The targetUid.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getTargetUid() {
       return targetUid_;
@@ -176,6 +191,9 @@ public final class PlayerApplyEnterMpRspOuterClass {
 
     public static final int PARAM_FIELD_NUMBER = 11;
     private int param_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -184,6 +202,7 @@ public final class PlayerApplyEnterMpRspOuterClass {
      * <code>uint32 param = 11;</code>
      * @return The param.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getParam() {
       return param_;
@@ -530,6 +549,9 @@ public final class PlayerApplyEnterMpRspOuterClass {
       }
 
       private int retcode_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -538,10 +560,14 @@ public final class PlayerApplyEnterMpRspOuterClass {
        * <code>int32 retcode = 13;</code>
        * @return The retcode.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -551,12 +577,16 @@ public final class PlayerApplyEnterMpRspOuterClass {
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -565,14 +595,18 @@ public final class PlayerApplyEnterMpRspOuterClass {
        * <code>int32 retcode = 13;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
       }
 
       private int targetUid_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -581,10 +615,14 @@ public final class PlayerApplyEnterMpRspOuterClass {
        * <code>uint32 target_uid = 6;</code>
        * @return The targetUid.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getTargetUid() {
         return targetUid_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -594,12 +632,16 @@ public final class PlayerApplyEnterMpRspOuterClass {
        * @param value The targetUid to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setTargetUid(int value) {
-        
+
         targetUid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -608,14 +650,18 @@ public final class PlayerApplyEnterMpRspOuterClass {
        * <code>uint32 target_uid = 6;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearTargetUid() {
-        
+
         targetUid_ = 0;
         onChanged();
         return this;
       }
 
       private int param_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -624,10 +670,14 @@ public final class PlayerApplyEnterMpRspOuterClass {
        * <code>uint32 param = 11;</code>
        * @return The param.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getParam() {
         return param_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -637,12 +687,16 @@ public final class PlayerApplyEnterMpRspOuterClass {
        * @param value The param to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setParam(int value) {
-        
+
         param_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -651,8 +705,9 @@ public final class PlayerApplyEnterMpRspOuterClass {
        * <code>uint32 param = 11;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearParam() {
-        
+
         param_ = 0;
         onChanged();
         return this;
@@ -668,7 +723,6 @@ public final class PlayerApplyEnterMpRspOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:PlayerApplyEnterMpRsp)
     }
@@ -712,7 +766,7 @@ public final class PlayerApplyEnterMpRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerApplyEnterMpRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerApplyEnterMpRsp_fieldAccessorTable;
 

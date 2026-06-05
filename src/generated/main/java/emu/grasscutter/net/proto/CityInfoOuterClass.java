@@ -18,6 +18,12 @@ public final class CityInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:CityInfo)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    int getLevel();
+
+    int getCityId();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -46,6 +52,7 @@ public final class CityInfoOuterClass {
      * <code>uint32 crystal_num = 15;</code>
      * @return The crystalNum.
      */
+>>>>>>> origin/6.5.0
     int getCrystalNum();
   }
   /**
@@ -142,6 +149,9 @@ public final class CityInfoOuterClass {
 
     public static final int LEVEL_FIELD_NUMBER = 10;
     private int level_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -150,6 +160,7 @@ public final class CityInfoOuterClass {
      * <code>uint32 level = 10;</code>
      * @return The level.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getLevel() {
       return level_;
@@ -157,6 +168,9 @@ public final class CityInfoOuterClass {
 
     public static final int CITY_ID_FIELD_NUMBER = 6;
     private int cityId_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -165,6 +179,7 @@ public final class CityInfoOuterClass {
      * <code>uint32 city_id = 6;</code>
      * @return The cityId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCityId() {
       return cityId_;
@@ -172,6 +187,9 @@ public final class CityInfoOuterClass {
 
     public static final int CRYSTAL_NUM_FIELD_NUMBER = 15;
     private int crystalNum_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -180,6 +198,7 @@ public final class CityInfoOuterClass {
      * <code>uint32 crystal_num = 15;</code>
      * @return The crystalNum.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCrystalNum() {
       return crystalNum_;
@@ -522,6 +541,9 @@ public final class CityInfoOuterClass {
       }
 
       private int level_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -530,10 +552,14 @@ public final class CityInfoOuterClass {
        * <code>uint32 level = 10;</code>
        * @return The level.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getLevel() {
         return level_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -543,12 +569,16 @@ public final class CityInfoOuterClass {
        * @param value The level to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setLevel(int value) {
-        
+
         level_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -557,14 +587,18 @@ public final class CityInfoOuterClass {
        * <code>uint32 level = 10;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearLevel() {
-        
+
         level_ = 0;
         onChanged();
         return this;
       }
 
       private int cityId_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -573,10 +607,14 @@ public final class CityInfoOuterClass {
        * <code>uint32 city_id = 6;</code>
        * @return The cityId.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCityId() {
         return cityId_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -586,12 +624,16 @@ public final class CityInfoOuterClass {
        * @param value The cityId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setCityId(int value) {
-        
+
         cityId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -600,14 +642,18 @@ public final class CityInfoOuterClass {
        * <code>uint32 city_id = 6;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearCityId() {
-        
+
         cityId_ = 0;
         onChanged();
         return this;
       }
 
       private int crystalNum_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -616,10 +662,14 @@ public final class CityInfoOuterClass {
        * <code>uint32 crystal_num = 15;</code>
        * @return The crystalNum.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCrystalNum() {
         return crystalNum_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -629,12 +679,16 @@ public final class CityInfoOuterClass {
        * @param value The crystalNum to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setCrystalNum(int value) {
-        
+
         crystalNum_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -643,8 +697,9 @@ public final class CityInfoOuterClass {
        * <code>uint32 crystal_num = 15;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearCrystalNum() {
-        
+
         crystalNum_ = 0;
         onChanged();
         return this;
@@ -660,7 +715,6 @@ public final class CityInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:CityInfo)
     }
@@ -704,7 +758,7 @@ public final class CityInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CityInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CityInfo_fieldAccessorTable;
 

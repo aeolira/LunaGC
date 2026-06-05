@@ -18,6 +18,12 @@ public final class AddWindBulletNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:AddWindBulletNotify)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    boolean hasSeedPos();
+
+    emu.grasscutter.net.proto.VectorOuterClass.Vector getSeedPos();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -43,6 +49,7 @@ public final class AddWindBulletNotifyOuterClass {
      *
      * <code>.Vector seed_pos = 10;</code>
      */
+>>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getSeedPosOrBuilder();
 
     /**
@@ -159,6 +166,9 @@ public final class AddWindBulletNotifyOuterClass {
 
     public static final int SEED_POS_FIELD_NUMBER = 10;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector seedPos_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -167,10 +177,14 @@ public final class AddWindBulletNotifyOuterClass {
      * <code>.Vector seed_pos = 10;</code>
      * @return Whether the seedPos field is set.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasSeedPos() {
       return seedPos_ != null;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -179,10 +193,14 @@ public final class AddWindBulletNotifyOuterClass {
      * <code>.Vector seed_pos = 10;</code>
      * @return The seedPos.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.Vector getSeedPos() {
       return seedPos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : seedPos_;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -190,6 +208,7 @@ public final class AddWindBulletNotifyOuterClass {
      *
      * <code>.Vector seed_pos = 10;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getSeedPosOrBuilder() {
       return getSeedPos();
@@ -569,6 +588,13 @@ public final class AddWindBulletNotifyOuterClass {
       private emu.grasscutter.net.proto.VectorOuterClass.Vector seedPos_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> seedPosBuilder_;
+<<<<<<< HEAD
+
+      public boolean hasSeedPos() {
+        return seedPosBuilder_ != null || seedPos_ != null;
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -588,6 +614,7 @@ public final class AddWindBulletNotifyOuterClass {
        * <code>.Vector seed_pos = 10;</code>
        * @return The seedPos.
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.VectorOuterClass.Vector getSeedPos() {
         if (seedPosBuilder_ == null) {
           return seedPos_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : seedPos_;
@@ -595,6 +622,9 @@ public final class AddWindBulletNotifyOuterClass {
           return seedPosBuilder_.getMessage();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -602,6 +632,7 @@ public final class AddWindBulletNotifyOuterClass {
        *
        * <code>.Vector seed_pos = 10;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setSeedPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (seedPosBuilder_ == null) {
           if (value == null) {
@@ -615,6 +646,9 @@ public final class AddWindBulletNotifyOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -622,6 +656,7 @@ public final class AddWindBulletNotifyOuterClass {
        *
        * <code>.Vector seed_pos = 10;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setSeedPos(
           emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
         if (seedPosBuilder_ == null) {
@@ -633,6 +668,9 @@ public final class AddWindBulletNotifyOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -640,6 +678,7 @@ public final class AddWindBulletNotifyOuterClass {
        *
        * <code>.Vector seed_pos = 10;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder mergeSeedPos(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (seedPosBuilder_ == null) {
           if (seedPos_ != null) {
@@ -655,6 +694,9 @@ public final class AddWindBulletNotifyOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -662,6 +704,7 @@ public final class AddWindBulletNotifyOuterClass {
        *
        * <code>.Vector seed_pos = 10;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder clearSeedPos() {
         if (seedPosBuilder_ == null) {
           seedPos_ = null;
@@ -673,6 +716,9 @@ public final class AddWindBulletNotifyOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -680,11 +726,15 @@ public final class AddWindBulletNotifyOuterClass {
        *
        * <code>.Vector seed_pos = 10;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getSeedPosBuilder() {
-        
+
         onChanged();
         return getSeedPosFieldBuilder().getBuilder();
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -692,6 +742,7 @@ public final class AddWindBulletNotifyOuterClass {
        *
        * <code>.Vector seed_pos = 10;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getSeedPosOrBuilder() {
         if (seedPosBuilder_ != null) {
           return seedPosBuilder_.getMessageOrBuilder();
@@ -700,6 +751,9 @@ public final class AddWindBulletNotifyOuterClass {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : seedPos_;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -707,8 +761,9 @@ public final class AddWindBulletNotifyOuterClass {
        *
        * <code>.Vector seed_pos = 10;</code>
        */
+>>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getSeedPosFieldBuilder() {
         if (seedPosBuilder_ == null) {
           seedPosBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -736,7 +791,7 @@ public final class AddWindBulletNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEGJKBDLBGIK(int value) {
-        
+
         eGJKBDLBGIK_ = value;
         onChanged();
         return this;
@@ -746,7 +801,7 @@ public final class AddWindBulletNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEGJKBDLBGIK() {
-        
+
         eGJKBDLBGIK_ = 0;
         onChanged();
         return this;
@@ -767,7 +822,7 @@ public final class AddWindBulletNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAJBPDBIMHIP(int value) {
-        
+
         aJBPDBIMHIP_ = value;
         onChanged();
         return this;
@@ -777,7 +832,7 @@ public final class AddWindBulletNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAJBPDBIMHIP() {
-        
+
         aJBPDBIMHIP_ = 0;
         onChanged();
         return this;
@@ -793,7 +848,6 @@ public final class AddWindBulletNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:AddWindBulletNotify)
     }
@@ -837,7 +891,7 @@ public final class AddWindBulletNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AddWindBulletNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AddWindBulletNotify_fieldAccessorTable;
 

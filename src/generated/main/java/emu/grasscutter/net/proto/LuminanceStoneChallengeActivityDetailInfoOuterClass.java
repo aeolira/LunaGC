@@ -30,6 +30,8 @@ public final class LuminanceStoneChallengeActivityDetailInfoOuterClass {
      */
     boolean getJEAAOBMJBFF();
 
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -38,6 +40,7 @@ public final class LuminanceStoneChallengeActivityDetailInfoOuterClass {
      * <code>bool is_content_closed = 9;</code>
      * @return The isContentClosed.
      */
+>>>>>>> origin/6.5.0
     boolean getIsContentClosed();
 
     /**
@@ -167,6 +170,9 @@ public final class LuminanceStoneChallengeActivityDetailInfoOuterClass {
 
     public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 9;
     private boolean isContentClosed_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -175,6 +181,7 @@ public final class LuminanceStoneChallengeActivityDetailInfoOuterClass {
      * <code>bool is_content_closed = 9;</code>
      * @return The isContentClosed.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsContentClosed() {
       return isContentClosed_;
@@ -561,7 +568,7 @@ public final class LuminanceStoneChallengeActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOMEBOHLACPH(int value) {
-        
+
         oMEBOHLACPH_ = value;
         onChanged();
         return this;
@@ -571,7 +578,7 @@ public final class LuminanceStoneChallengeActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOMEBOHLACPH() {
-        
+
         oMEBOHLACPH_ = 0;
         onChanged();
         return this;
@@ -592,7 +599,7 @@ public final class LuminanceStoneChallengeActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setJEAAOBMJBFF(boolean value) {
-        
+
         jEAAOBMJBFF_ = value;
         onChanged();
         return this;
@@ -602,13 +609,16 @@ public final class LuminanceStoneChallengeActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearJEAAOBMJBFF() {
-        
+
         jEAAOBMJBFF_ = false;
         onChanged();
         return this;
       }
 
       private boolean isContentClosed_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -617,10 +627,14 @@ public final class LuminanceStoneChallengeActivityDetailInfoOuterClass {
        * <code>bool is_content_closed = 9;</code>
        * @return The isContentClosed.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsContentClosed() {
         return isContentClosed_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -630,12 +644,16 @@ public final class LuminanceStoneChallengeActivityDetailInfoOuterClass {
        * @param value The isContentClosed to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setIsContentClosed(boolean value) {
-        
+
         isContentClosed_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -644,8 +662,9 @@ public final class LuminanceStoneChallengeActivityDetailInfoOuterClass {
        * <code>bool is_content_closed = 9;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearIsContentClosed() {
-        
+
         isContentClosed_ = false;
         onChanged();
         return this;
@@ -666,7 +685,7 @@ public final class LuminanceStoneChallengeActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setNCMAJBKNJCA(int value) {
-        
+
         nCMAJBKNJCA_ = value;
         onChanged();
         return this;
@@ -676,7 +695,7 @@ public final class LuminanceStoneChallengeActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNCMAJBKNJCA() {
-        
+
         nCMAJBKNJCA_ = 0;
         onChanged();
         return this;
@@ -692,7 +711,6 @@ public final class LuminanceStoneChallengeActivityDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:LuminanceStoneChallengeActivityDetailInfo)
     }
@@ -736,7 +754,7 @@ public final class LuminanceStoneChallengeActivityDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_LuminanceStoneChallengeActivityDetailInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_LuminanceStoneChallengeActivityDetailInfo_fieldAccessorTable;
 

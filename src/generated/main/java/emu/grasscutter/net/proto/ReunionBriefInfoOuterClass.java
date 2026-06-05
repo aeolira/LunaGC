@@ -80,6 +80,10 @@ public final class ReunionBriefInfoOuterClass {
      */
     emu.grasscutter.net.proto.CAHBFLMLDMHOuterClass.CAHBFLMLDMHOrBuilder getOMPMBGFABENOrBuilder();
 
+<<<<<<< HEAD
+    java.lang.String getVersion();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -97,6 +101,7 @@ public final class ReunionBriefInfoOuterClass {
      * <code>string version = 4;</code>
      * @return The bytes for version.
      */
+>>>>>>> origin/6.5.0
     com.google.protobuf.ByteString
         getVersionBytes();
 
@@ -132,6 +137,12 @@ public final class ReunionBriefInfoOuterClass {
      */
     emu.grasscutter.net.proto.BMGBEHFPFDFOuterClass.BMGBEHFPFDFOrBuilder getBFDOPIBBLIIOrBuilder();
 
+<<<<<<< HEAD
+    int getStartTime();
+
+    int getFinishTime();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -160,6 +171,7 @@ public final class ReunionBriefInfoOuterClass {
      * <code>uint32 mission_id = 11;</code>
      * @return The missionId.
      */
+>>>>>>> origin/6.5.0
     int getMissionId();
 
     /**
@@ -174,6 +186,8 @@ public final class ReunionBriefInfoOuterClass {
      */
     int getAEKADMBGKBI();
 
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0 
@@ -182,6 +196,7 @@ public final class ReunionBriefInfoOuterClass {
      * <code>uint32 first_day_start_time = 15;</code>
      * @return The firstDayStartTime.
      */
+>>>>>>> origin/6.5.0
     int getFirstDayStartTime();
 
     /**
@@ -540,8 +555,11 @@ public final class ReunionBriefInfoOuterClass {
       return getOMPMBGFABEN();
     }
 
-    public static final int VERSION_FIELD_NUMBER = 4;
+    public static final int VERSION_FIELD_NUMBER = 11;
     private volatile java.lang.Object version_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -550,19 +568,23 @@ public final class ReunionBriefInfoOuterClass {
      * <code>string version = 4;</code>
      * @return The version.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.lang.String getVersion() {
       java.lang.Object ref = version_;
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         version_ = s;
         return s;
       }
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -571,12 +593,13 @@ public final class ReunionBriefInfoOuterClass {
      * <code>string version = 4;</code>
      * @return The bytes for version.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public com.google.protobuf.ByteString
         getVersionBytes() {
       java.lang.Object ref = version_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         version_ = b;
@@ -642,6 +665,9 @@ public final class ReunionBriefInfoOuterClass {
 
     public static final int START_TIME_FIELD_NUMBER = 6;
     private int startTime_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -650,6 +676,7 @@ public final class ReunionBriefInfoOuterClass {
      * <code>uint32 start_time = 6;</code>
      * @return The startTime.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getStartTime() {
       return startTime_;
@@ -657,6 +684,9 @@ public final class ReunionBriefInfoOuterClass {
 
     public static final int FINISH_TIME_FIELD_NUMBER = 14;
     private int finishTime_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -665,13 +695,17 @@ public final class ReunionBriefInfoOuterClass {
      * <code>uint32 finish_time = 14;</code>
      * @return The finishTime.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getFinishTime() {
       return finishTime_;
     }
 
-    public static final int MISSION_ID_FIELD_NUMBER = 11;
+    public static final int MISSION_ID_FIELD_NUMBER = 13;
     private int missionId_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -680,6 +714,7 @@ public final class ReunionBriefInfoOuterClass {
      * <code>uint32 mission_id = 11;</code>
      * @return The missionId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getMissionId() {
       return missionId_;
@@ -709,6 +744,9 @@ public final class ReunionBriefInfoOuterClass {
 
     public static final int FIRST_DAY_START_TIME_FIELD_NUMBER = 15;
     private int firstDayStartTime_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0 
@@ -717,6 +755,7 @@ public final class ReunionBriefInfoOuterClass {
      * <code>uint32 first_day_start_time = 15;</code>
      * @return The firstDayStartTime.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getFirstDayStartTime() {
       return firstDayStartTime_;
@@ -786,7 +825,7 @@ public final class ReunionBriefInfoOuterClass {
         output.writeMessage(9, getBFDOPIBBLII());
       }
       if (missionId_ != 0) {
-        output.writeUInt32(11, missionId_);
+        output.writeUInt32(13, missionId_);
       }
       if (iKKILCGOJJD_ != false) {
         output.writeBool(12, iKKILCGOJJD_);
@@ -836,7 +875,7 @@ public final class ReunionBriefInfoOuterClass {
 
       size = 0;
       if (!com.google.protobuf.GeneratedMessageV3.isStringEmpty(version_)) {
-        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(4, version_);
+        size += com.google.protobuf.GeneratedMessageV3.computeStringSize(11, version_);
       }
       if (dCFLMEMCBFI_ != 0) {
         size += com.google.protobuf.CodedOutputStream
@@ -856,7 +895,7 @@ public final class ReunionBriefInfoOuterClass {
       }
       if (missionId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, missionId_);
+          .computeUInt32Size(13, missionId_);
       }
       if (iKKILCGOJJD_ != false) {
         size += com.google.protobuf.CodedOutputStream
@@ -1510,7 +1549,7 @@ public final class ReunionBriefInfoOuterClass {
        * <code>.ADGPIOIDKEN OAEJHHNMLJA = 13;</code>
        */
       public emu.grasscutter.net.proto.ADGPIOIDKENOuterClass.ADGPIOIDKEN.Builder getOAEJHHNMLJABuilder() {
-        
+
         onChanged();
         return getOAEJHHNMLJAFieldBuilder().getBuilder();
       }
@@ -1529,7 +1568,7 @@ public final class ReunionBriefInfoOuterClass {
        * <code>.ADGPIOIDKEN OAEJHHNMLJA = 13;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.ADGPIOIDKENOuterClass.ADGPIOIDKEN, emu.grasscutter.net.proto.ADGPIOIDKENOuterClass.ADGPIOIDKEN.Builder, emu.grasscutter.net.proto.ADGPIOIDKENOuterClass.ADGPIOIDKENOrBuilder> 
+          emu.grasscutter.net.proto.ADGPIOIDKENOuterClass.ADGPIOIDKEN, emu.grasscutter.net.proto.ADGPIOIDKENOuterClass.ADGPIOIDKEN.Builder, emu.grasscutter.net.proto.ADGPIOIDKENOuterClass.ADGPIOIDKENOrBuilder>
           getOAEJHHNMLJAFieldBuilder() {
         if (oAEJHHNMLJABuilder_ == null) {
           oAEJHHNMLJABuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1708,7 +1747,7 @@ public final class ReunionBriefInfoOuterClass {
        * <code>.DHJCMCDPLIB FKDMHOHFHEL = 1063;</code>
        */
       public emu.grasscutter.net.proto.DHJCMCDPLIBOuterClass.DHJCMCDPLIB.Builder getFKDMHOHFHELBuilder() {
-        
+
         onChanged();
         return getFKDMHOHFHELFieldBuilder().getBuilder();
       }
@@ -1727,7 +1766,7 @@ public final class ReunionBriefInfoOuterClass {
        * <code>.DHJCMCDPLIB FKDMHOHFHEL = 1063;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.DHJCMCDPLIBOuterClass.DHJCMCDPLIB, emu.grasscutter.net.proto.DHJCMCDPLIBOuterClass.DHJCMCDPLIB.Builder, emu.grasscutter.net.proto.DHJCMCDPLIBOuterClass.DHJCMCDPLIBOrBuilder> 
+          emu.grasscutter.net.proto.DHJCMCDPLIBOuterClass.DHJCMCDPLIB, emu.grasscutter.net.proto.DHJCMCDPLIBOuterClass.DHJCMCDPLIB.Builder, emu.grasscutter.net.proto.DHJCMCDPLIBOuterClass.DHJCMCDPLIBOrBuilder>
           getFKDMHOHFHELFieldBuilder() {
         if (fKDMHOHFHELBuilder_ == null) {
           fKDMHOHFHELBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1827,7 +1866,7 @@ public final class ReunionBriefInfoOuterClass {
        * <code>.CAHBFLMLDMH OMPMBGFABEN = 520;</code>
        */
       public emu.grasscutter.net.proto.CAHBFLMLDMHOuterClass.CAHBFLMLDMH.Builder getOMPMBGFABENBuilder() {
-        
+
         onChanged();
         return getOMPMBGFABENFieldBuilder().getBuilder();
       }
@@ -1846,7 +1885,7 @@ public final class ReunionBriefInfoOuterClass {
        * <code>.CAHBFLMLDMH OMPMBGFABEN = 520;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.CAHBFLMLDMHOuterClass.CAHBFLMLDMH, emu.grasscutter.net.proto.CAHBFLMLDMHOuterClass.CAHBFLMLDMH.Builder, emu.grasscutter.net.proto.CAHBFLMLDMHOuterClass.CAHBFLMLDMHOrBuilder> 
+          emu.grasscutter.net.proto.CAHBFLMLDMHOuterClass.CAHBFLMLDMH, emu.grasscutter.net.proto.CAHBFLMLDMHOuterClass.CAHBFLMLDMH.Builder, emu.grasscutter.net.proto.CAHBFLMLDMHOuterClass.CAHBFLMLDMHOrBuilder>
           getOMPMBGFABENFieldBuilder() {
         if (oMPMBGFABENBuilder_ == null) {
           oMPMBGFABENBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1860,6 +1899,9 @@ public final class ReunionBriefInfoOuterClass {
       }
 
       private java.lang.Object version_ = "";
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1868,6 +1910,7 @@ public final class ReunionBriefInfoOuterClass {
        * <code>string version = 4;</code>
        * @return The version.
        */
+>>>>>>> origin/6.5.0
       public java.lang.String getVersion() {
         java.lang.Object ref = version_;
         if (!(ref instanceof java.lang.String)) {
@@ -1880,6 +1923,9 @@ public final class ReunionBriefInfoOuterClass {
           return (java.lang.String) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1888,11 +1934,12 @@ public final class ReunionBriefInfoOuterClass {
        * <code>string version = 4;</code>
        * @return The bytes for version.
        */
+>>>>>>> origin/6.5.0
       public com.google.protobuf.ByteString
           getVersionBytes() {
         java.lang.Object ref = version_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           version_ = b;
@@ -1901,6 +1948,9 @@ public final class ReunionBriefInfoOuterClass {
           return (com.google.protobuf.ByteString) ref;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1910,16 +1960,20 @@ public final class ReunionBriefInfoOuterClass {
        * @param value The version to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setVersion(
           java.lang.String value) {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         version_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1928,12 +1982,16 @@ public final class ReunionBriefInfoOuterClass {
        * <code>string version = 4;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearVersion() {
-        
+
         version_ = getDefaultInstance().getVersion();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1943,13 +2001,14 @@ public final class ReunionBriefInfoOuterClass {
        * @param value The bytes for version to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setVersionBytes(
           com.google.protobuf.ByteString value) {
         if (value == null) {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         version_ = value;
         onChanged();
         return this;
@@ -2121,7 +2180,7 @@ public final class ReunionBriefInfoOuterClass {
        * <code>.BMGBEHFPFDF BFDOPIBBLII = 9;</code>
        */
       public emu.grasscutter.net.proto.BMGBEHFPFDFOuterClass.BMGBEHFPFDF.Builder getBFDOPIBBLIIBuilder() {
-        
+
         onChanged();
         return getBFDOPIBBLIIFieldBuilder().getBuilder();
       }
@@ -2140,7 +2199,7 @@ public final class ReunionBriefInfoOuterClass {
        * <code>.BMGBEHFPFDF BFDOPIBBLII = 9;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.BMGBEHFPFDFOuterClass.BMGBEHFPFDF, emu.grasscutter.net.proto.BMGBEHFPFDFOuterClass.BMGBEHFPFDF.Builder, emu.grasscutter.net.proto.BMGBEHFPFDFOuterClass.BMGBEHFPFDFOrBuilder> 
+          emu.grasscutter.net.proto.BMGBEHFPFDFOuterClass.BMGBEHFPFDF, emu.grasscutter.net.proto.BMGBEHFPFDFOuterClass.BMGBEHFPFDF.Builder, emu.grasscutter.net.proto.BMGBEHFPFDFOuterClass.BMGBEHFPFDFOrBuilder>
           getBFDOPIBBLIIFieldBuilder() {
         if (bFDOPIBBLIIBuilder_ == null) {
           bFDOPIBBLIIBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -2154,6 +2213,9 @@ public final class ReunionBriefInfoOuterClass {
       }
 
       private int startTime_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -2162,10 +2224,14 @@ public final class ReunionBriefInfoOuterClass {
        * <code>uint32 start_time = 6;</code>
        * @return The startTime.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getStartTime() {
         return startTime_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -2175,12 +2241,16 @@ public final class ReunionBriefInfoOuterClass {
        * @param value The startTime to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setStartTime(int value) {
-        
+
         startTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -2189,14 +2259,18 @@ public final class ReunionBriefInfoOuterClass {
        * <code>uint32 start_time = 6;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearStartTime() {
-        
+
         startTime_ = 0;
         onChanged();
         return this;
       }
 
       private int finishTime_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -2205,10 +2279,14 @@ public final class ReunionBriefInfoOuterClass {
        * <code>uint32 finish_time = 14;</code>
        * @return The finishTime.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getFinishTime() {
         return finishTime_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -2218,12 +2296,16 @@ public final class ReunionBriefInfoOuterClass {
        * @param value The finishTime to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setFinishTime(int value) {
-        
+
         finishTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -2232,14 +2314,18 @@ public final class ReunionBriefInfoOuterClass {
        * <code>uint32 finish_time = 14;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearFinishTime() {
-        
+
         finishTime_ = 0;
         onChanged();
         return this;
       }
 
       private int missionId_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -2248,10 +2334,14 @@ public final class ReunionBriefInfoOuterClass {
        * <code>uint32 mission_id = 11;</code>
        * @return The missionId.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getMissionId() {
         return missionId_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -2261,12 +2351,16 @@ public final class ReunionBriefInfoOuterClass {
        * @param value The missionId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setMissionId(int value) {
-        
+
         missionId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -2275,8 +2369,9 @@ public final class ReunionBriefInfoOuterClass {
        * <code>uint32 mission_id = 11;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearMissionId() {
-        
+
         missionId_ = 0;
         onChanged();
         return this;
@@ -2297,7 +2392,7 @@ public final class ReunionBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setFGJAEAJGGMI(int value) {
-        
+
         fGJAEAJGGMI_ = value;
         onChanged();
         return this;
@@ -2307,7 +2402,7 @@ public final class ReunionBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearFGJAEAJGGMI() {
-        
+
         fGJAEAJGGMI_ = 0;
         onChanged();
         return this;
@@ -2328,7 +2423,7 @@ public final class ReunionBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAEKADMBGKBI(int value) {
-        
+
         aEKADMBGKBI_ = value;
         onChanged();
         return this;
@@ -2338,13 +2433,16 @@ public final class ReunionBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAEKADMBGKBI() {
-        
+
         aEKADMBGKBI_ = 0;
         onChanged();
         return this;
       }
 
       private int firstDayStartTime_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0 
@@ -2353,10 +2451,14 @@ public final class ReunionBriefInfoOuterClass {
        * <code>uint32 first_day_start_time = 15;</code>
        * @return The firstDayStartTime.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getFirstDayStartTime() {
         return firstDayStartTime_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0 
@@ -2366,12 +2468,16 @@ public final class ReunionBriefInfoOuterClass {
        * @param value The firstDayStartTime to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setFirstDayStartTime(int value) {
-        
+
         firstDayStartTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0 
@@ -2380,8 +2486,9 @@ public final class ReunionBriefInfoOuterClass {
        * <code>uint32 first_day_start_time = 15;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearFirstDayStartTime() {
-        
+
         firstDayStartTime_ = 0;
         onChanged();
         return this;
@@ -2402,7 +2509,7 @@ public final class ReunionBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIKKILCGOJJD(boolean value) {
-        
+
         iKKILCGOJJD_ = value;
         onChanged();
         return this;
@@ -2412,7 +2519,7 @@ public final class ReunionBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIKKILCGOJJD() {
-        
+
         iKKILCGOJJD_ = false;
         onChanged();
         return this;
@@ -2433,7 +2540,7 @@ public final class ReunionBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setJCMAMEJKFJP(boolean value) {
-        
+
         jCMAMEJKFJP_ = value;
         onChanged();
         return this;
@@ -2443,7 +2550,7 @@ public final class ReunionBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearJCMAMEJKFJP() {
-        
+
         jCMAMEJKFJP_ = false;
         onChanged();
         return this;
@@ -2464,7 +2571,7 @@ public final class ReunionBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDCFLMEMCBFI(int value) {
-        
+
         dCFLMEMCBFI_ = value;
         onChanged();
         return this;
@@ -2474,7 +2581,7 @@ public final class ReunionBriefInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDCFLMEMCBFI() {
-        
+
         dCFLMEMCBFI_ = 0;
         onChanged();
         return this;
@@ -2490,7 +2597,6 @@ public final class ReunionBriefInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:ReunionBriefInfo)
     }
@@ -2534,7 +2640,7 @@ public final class ReunionBriefInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ReunionBriefInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ReunionBriefInfo_fieldAccessorTable;
 

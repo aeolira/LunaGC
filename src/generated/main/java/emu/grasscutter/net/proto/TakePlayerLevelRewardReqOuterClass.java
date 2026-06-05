@@ -18,6 +18,8 @@ public final class TakePlayerLevelRewardReqOuterClass {
       // @@protoc_insertion_point(interface_extends:TakePlayerLevelRewardReq)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5     
@@ -26,6 +28,7 @@ public final class TakePlayerLevelRewardReqOuterClass {
      * <code>uint32 level = 13;</code>
      * @return The level.
      */
+>>>>>>> origin/6.5.0
     int getLevel();
   }
   /**
@@ -116,6 +119,9 @@ public final class TakePlayerLevelRewardReqOuterClass {
 
     public static final int LEVEL_FIELD_NUMBER = 13;
     private int level_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5     
@@ -124,6 +130,7 @@ public final class TakePlayerLevelRewardReqOuterClass {
      * <code>uint32 level = 13;</code>
      * @return The level.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getLevel() {
       return level_;
@@ -436,6 +443,9 @@ public final class TakePlayerLevelRewardReqOuterClass {
       }
 
       private int level_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -444,10 +454,14 @@ public final class TakePlayerLevelRewardReqOuterClass {
        * <code>uint32 level = 13;</code>
        * @return The level.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getLevel() {
         return level_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -457,12 +471,16 @@ public final class TakePlayerLevelRewardReqOuterClass {
        * @param value The level to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setLevel(int value) {
-        
+
         level_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -471,8 +489,9 @@ public final class TakePlayerLevelRewardReqOuterClass {
        * <code>uint32 level = 13;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearLevel() {
-        
+
         level_ = 0;
         onChanged();
         return this;
@@ -488,7 +507,6 @@ public final class TakePlayerLevelRewardReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:TakePlayerLevelRewardReq)
     }
@@ -532,7 +550,7 @@ public final class TakePlayerLevelRewardReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_TakePlayerLevelRewardReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_TakePlayerLevelRewardReq_fieldAccessorTable;
 

@@ -18,6 +18,25 @@ public final class SetWidgetSlotRspOuterClass {
       // @@protoc_insertion_point(interface_extends:SetWidgetSlotRsp)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    java.util.List<emu.grasscutter.net.proto.WidgetSlotTagOuterClass.WidgetSlotTag> getTagListList();
+
+    int getTagListCount();
+
+    emu.grasscutter.net.proto.WidgetSlotTagOuterClass.WidgetSlotTag getTagList(int index);
+
+    java.util.List<java.lang.Integer>
+    getTagListValueList();
+
+    int getTagListValue(int index);
+
+    int getRetcode();
+
+    int getOpValue();
+
+    emu.grasscutter.net.proto.WidgetSlotOpOuterClass.WidgetSlotOp getOp();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -104,6 +123,7 @@ public final class SetWidgetSlotRspOuterClass {
      * <code>uint32 material_id = 14;</code>
      * @return The materialId.
      */
+>>>>>>> origin/6.5.0
     int getMaterialId();
   }
   /**
@@ -244,6 +264,9 @@ public final class SetWidgetSlotRspOuterClass {
                 return result == null ? emu.grasscutter.net.proto.WidgetSlotTagOuterClass.WidgetSlotTag.UNRECOGNIZED : result;
               }
             };
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -252,11 +275,15 @@ public final class SetWidgetSlotRspOuterClass {
      * <code>repeated .WidgetSlotTag tag_list = 12;</code>
      * @return A list containing the tagList.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.WidgetSlotTagOuterClass.WidgetSlotTag> getTagListList() {
       return new com.google.protobuf.Internal.ListAdapter<
           java.lang.Integer, emu.grasscutter.net.proto.WidgetSlotTagOuterClass.WidgetSlotTag>(tagList_, tagList_converter_);
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -265,10 +292,14 @@ public final class SetWidgetSlotRspOuterClass {
      * <code>repeated .WidgetSlotTag tag_list = 12;</code>
      * @return The count of tagList.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getTagListCount() {
       return tagList_.size();
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -278,10 +309,14 @@ public final class SetWidgetSlotRspOuterClass {
      * @param index The index of the element to return.
      * @return The tagList at the given index.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.WidgetSlotTagOuterClass.WidgetSlotTag getTagList(int index) {
       return tagList_converter_.convert(tagList_.get(index));
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -290,11 +325,15 @@ public final class SetWidgetSlotRspOuterClass {
      * <code>repeated .WidgetSlotTag tag_list = 12;</code>
      * @return A list containing the enum numeric values on the wire for tagList.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
     getTagListValueList() {
       return tagList_;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -304,6 +343,7 @@ public final class SetWidgetSlotRspOuterClass {
      * @param index The index of the value to return.
      * @return The enum numeric value on the wire of tagList at the given index.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getTagListValue(int index) {
       return tagList_.get(index);
@@ -312,6 +352,9 @@ public final class SetWidgetSlotRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 13;
     private int retcode_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -320,6 +363,7 @@ public final class SetWidgetSlotRspOuterClass {
      * <code>int32 retcode = 13;</code>
      * @return The retcode.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -327,6 +371,13 @@ public final class SetWidgetSlotRspOuterClass {
 
     public static final int OP_FIELD_NUMBER = 8;
     private int op_;
+<<<<<<< HEAD
+
+    @java.lang.Override public int getOpValue() {
+      return op_;
+    }
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -346,6 +397,7 @@ public final class SetWidgetSlotRspOuterClass {
      * <code>.WidgetSlotOp op = 8;</code>
      * @return The op.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override public emu.grasscutter.net.proto.WidgetSlotOpOuterClass.WidgetSlotOp getOp() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.WidgetSlotOpOuterClass.WidgetSlotOp result = emu.grasscutter.net.proto.WidgetSlotOpOuterClass.WidgetSlotOp.valueOf(op_);
@@ -354,6 +406,9 @@ public final class SetWidgetSlotRspOuterClass {
 
     public static final int MATERIAL_ID_FIELD_NUMBER = 14;
     private int materialId_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -362,6 +417,7 @@ public final class SetWidgetSlotRspOuterClass {
      * <code>uint32 material_id = 14;</code>
      * @return The materialId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getMaterialId() {
       return materialId_;
@@ -758,6 +814,9 @@ public final class SetWidgetSlotRspOuterClass {
           bitField0_ |= 0x00000001;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -766,10 +825,22 @@ public final class SetWidgetSlotRspOuterClass {
        * <code>repeated .WidgetSlotTag tag_list = 12;</code>
        * @return A list containing the tagList.
        */
+>>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.WidgetSlotTagOuterClass.WidgetSlotTag> getTagListList() {
         return new com.google.protobuf.Internal.ListAdapter<
             java.lang.Integer, emu.grasscutter.net.proto.WidgetSlotTagOuterClass.WidgetSlotTag>(tagList_, tagList_converter_);
       }
+<<<<<<< HEAD
+
+      public int getTagListCount() {
+        return tagList_.size();
+      }
+
+      public emu.grasscutter.net.proto.WidgetSlotTagOuterClass.WidgetSlotTag getTagList(int index) {
+        return tagList_converter_.convert(tagList_.get(index));
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -803,6 +874,7 @@ public final class SetWidgetSlotRspOuterClass {
        * @param value The tagList to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setTagList(
           int index, emu.grasscutter.net.proto.WidgetSlotTagOuterClass.WidgetSlotTag value) {
         if (value == null) {
@@ -813,6 +885,9 @@ public final class SetWidgetSlotRspOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -822,6 +897,7 @@ public final class SetWidgetSlotRspOuterClass {
        * @param value The tagList to add.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder addTagList(emu.grasscutter.net.proto.WidgetSlotTagOuterClass.WidgetSlotTag value) {
         if (value == null) {
           throw new NullPointerException();
@@ -831,6 +907,9 @@ public final class SetWidgetSlotRspOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -840,6 +919,7 @@ public final class SetWidgetSlotRspOuterClass {
        * @param values The tagList to add.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder addAllTagList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.WidgetSlotTagOuterClass.WidgetSlotTag> values) {
         ensureTagListIsMutable();
@@ -849,6 +929,9 @@ public final class SetWidgetSlotRspOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -857,12 +940,16 @@ public final class SetWidgetSlotRspOuterClass {
        * <code>repeated .WidgetSlotTag tag_list = 12;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearTagList() {
         tagList_ = java.util.Collections.emptyList();
         bitField0_ = (bitField0_ & ~0x00000001);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -871,10 +958,18 @@ public final class SetWidgetSlotRspOuterClass {
        * <code>repeated .WidgetSlotTag tag_list = 12;</code>
        * @return A list containing the enum numeric values on the wire for tagList.
        */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
       getTagListValueList() {
         return java.util.Collections.unmodifiableList(tagList_);
       }
+<<<<<<< HEAD
+
+      public int getTagListValue(int index) {
+        return tagList_.get(index);
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -897,6 +992,7 @@ public final class SetWidgetSlotRspOuterClass {
        * @return The enum numeric value on the wire of tagList at the given index.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setTagListValue(
           int index, int value) {
         ensureTagListIsMutable();
@@ -904,6 +1000,9 @@ public final class SetWidgetSlotRspOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -913,12 +1012,16 @@ public final class SetWidgetSlotRspOuterClass {
        * @param value The enum numeric value on the wire for tagList to add.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder addTagListValue(int value) {
         ensureTagListIsMutable();
         tagList_.add(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -928,6 +1031,7 @@ public final class SetWidgetSlotRspOuterClass {
        * @param values The enum numeric values on the wire for tagList to add.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder addAllTagListValue(
           java.lang.Iterable<java.lang.Integer> values) {
         ensureTagListIsMutable();
@@ -939,6 +1043,9 @@ public final class SetWidgetSlotRspOuterClass {
       }
 
       private int retcode_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -947,10 +1054,14 @@ public final class SetWidgetSlotRspOuterClass {
        * <code>int32 retcode = 13;</code>
        * @return The retcode.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -960,12 +1071,16 @@ public final class SetWidgetSlotRspOuterClass {
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -974,14 +1089,22 @@ public final class SetWidgetSlotRspOuterClass {
        * <code>int32 retcode = 13;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
       }
 
       private int op_ = 0;
+<<<<<<< HEAD
+
+      @java.lang.Override public int getOpValue() {
+        return op_;
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1002,12 +1125,16 @@ public final class SetWidgetSlotRspOuterClass {
        * @param value The enum numeric value on the wire for op to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setOpValue(int value) {
-        
+
         op_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1016,12 +1143,16 @@ public final class SetWidgetSlotRspOuterClass {
        * <code>.WidgetSlotOp op = 8;</code>
        * @return The op.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.WidgetSlotOpOuterClass.WidgetSlotOp getOp() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.WidgetSlotOpOuterClass.WidgetSlotOp result = emu.grasscutter.net.proto.WidgetSlotOpOuterClass.WidgetSlotOp.valueOf(op_);
         return result == null ? emu.grasscutter.net.proto.WidgetSlotOpOuterClass.WidgetSlotOp.UNRECOGNIZED : result;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1031,15 +1162,19 @@ public final class SetWidgetSlotRspOuterClass {
        * @param value The op to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setOp(emu.grasscutter.net.proto.WidgetSlotOpOuterClass.WidgetSlotOp value) {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         op_ = value.getNumber();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1048,14 +1183,18 @@ public final class SetWidgetSlotRspOuterClass {
        * <code>.WidgetSlotOp op = 8;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearOp() {
-        
+
         op_ = 0;
         onChanged();
         return this;
       }
 
       private int materialId_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1064,10 +1203,14 @@ public final class SetWidgetSlotRspOuterClass {
        * <code>uint32 material_id = 14;</code>
        * @return The materialId.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getMaterialId() {
         return materialId_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1077,12 +1220,16 @@ public final class SetWidgetSlotRspOuterClass {
        * @param value The materialId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setMaterialId(int value) {
-        
+
         materialId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1091,8 +1238,9 @@ public final class SetWidgetSlotRspOuterClass {
        * <code>uint32 material_id = 14;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearMaterialId() {
-        
+
         materialId_ = 0;
         onChanged();
         return this;
@@ -1108,7 +1256,6 @@ public final class SetWidgetSlotRspOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:SetWidgetSlotRsp)
     }
@@ -1152,7 +1299,7 @@ public final class SetWidgetSlotRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SetWidgetSlotRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SetWidgetSlotRsp_fieldAccessorTable;
 

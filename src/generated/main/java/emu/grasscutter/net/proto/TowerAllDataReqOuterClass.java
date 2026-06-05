@@ -18,6 +18,8 @@ public final class TowerAllDataReqOuterClass {
       // @@protoc_insertion_point(interface_extends:TowerAllDataReq)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0     
@@ -26,6 +28,7 @@ public final class TowerAllDataReqOuterClass {
      * <code>bool is_interact = 15;</code>
      * @return The isInteract.
      */
+>>>>>>> origin/6.5.0
     boolean getIsInteract();
   }
   /**
@@ -116,6 +119,9 @@ public final class TowerAllDataReqOuterClass {
 
     public static final int IS_INTERACT_FIELD_NUMBER = 15;
     private boolean isInteract_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0     
@@ -124,6 +130,7 @@ public final class TowerAllDataReqOuterClass {
      * <code>bool is_interact = 15;</code>
      * @return The isInteract.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsInteract() {
       return isInteract_;
@@ -437,6 +444,9 @@ public final class TowerAllDataReqOuterClass {
       }
 
       private boolean isInteract_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -445,10 +455,14 @@ public final class TowerAllDataReqOuterClass {
        * <code>bool is_interact = 15;</code>
        * @return The isInteract.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsInteract() {
         return isInteract_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -458,12 +472,16 @@ public final class TowerAllDataReqOuterClass {
        * @param value The isInteract to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setIsInteract(boolean value) {
-        
+
         isInteract_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -472,8 +490,9 @@ public final class TowerAllDataReqOuterClass {
        * <code>bool is_interact = 15;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearIsInteract() {
-        
+
         isInteract_ = false;
         onChanged();
         return this;
@@ -489,7 +508,6 @@ public final class TowerAllDataReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:TowerAllDataReq)
     }
@@ -533,7 +551,7 @@ public final class TowerAllDataReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_TowerAllDataReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_TowerAllDataReq_fieldAccessorTable;
 

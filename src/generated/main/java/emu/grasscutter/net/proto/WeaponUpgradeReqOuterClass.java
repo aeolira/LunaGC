@@ -18,6 +18,27 @@ public final class WeaponUpgradeReqOuterClass {
       // @@protoc_insertion_point(interface_extends:WeaponUpgradeReq)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    java.util.List<java.lang.Long> getFoodWeaponGuidListList();
+
+    int getFoodWeaponGuidListCount();
+
+    long getFoodWeaponGuidList(int index);
+
+    java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam>
+        getItemParamListList();
+
+    emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getItemParamList(int index);
+
+    int getItemParamListCount();
+
+    java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
+        getItemParamListOrBuilderList();
+
+    emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getItemParamListOrBuilder(
+        int index);
+
+=======
     /**
      * <pre>
      *6.5.5     
@@ -99,6 +120,7 @@ public final class WeaponUpgradeReqOuterClass {
      * <code>uint64 target_weapon_guid = 12;</code>
      * @return The targetWeaponGuid.
      */
+>>>>>>> origin/6.5.0
     long getTargetWeaponGuid();
   }
   /**
@@ -228,6 +250,9 @@ public final class WeaponUpgradeReqOuterClass {
 
     public static final int FOOD_WEAPON_GUID_LIST_FIELD_NUMBER = 4;
     private com.google.protobuf.Internal.LongList foodWeaponGuidList_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5     
@@ -236,11 +261,19 @@ public final class WeaponUpgradeReqOuterClass {
      * <code>repeated uint64 food_weapon_guid_list = 4;</code>
      * @return A list containing the foodWeaponGuidList.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Long>
         getFoodWeaponGuidListList() {
       return foodWeaponGuidList_;
     }
+<<<<<<< HEAD
+
+    public int getFoodWeaponGuidListCount() {
+      return foodWeaponGuidList_.size();
+    }
+
+=======
     /**
      * <pre>
      *6.5.5     
@@ -261,6 +294,7 @@ public final class WeaponUpgradeReqOuterClass {
      * @param index The index of the element to return.
      * @return The foodWeaponGuidList at the given index.
      */
+>>>>>>> origin/6.5.0
     public long getFoodWeaponGuidList(int index) {
       return foodWeaponGuidList_.getLong(index);
     }
@@ -268,6 +302,9 @@ public final class WeaponUpgradeReqOuterClass {
 
     public static final int ITEM_PARAM_LIST_FIELD_NUMBER = 9;
     private java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> itemParamList_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5     
@@ -275,10 +312,14 @@ public final class WeaponUpgradeReqOuterClass {
      *
      * <code>repeated .ItemParam item_param_list = 9;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> getItemParamListList() {
       return itemParamList_;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5     
@@ -286,11 +327,15 @@ public final class WeaponUpgradeReqOuterClass {
      *
      * <code>repeated .ItemParam item_param_list = 9;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
         getItemParamListOrBuilderList() {
       return itemParamList_;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5     
@@ -298,10 +343,14 @@ public final class WeaponUpgradeReqOuterClass {
      *
      * <code>repeated .ItemParam item_param_list = 9;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getItemParamListCount() {
       return itemParamList_.size();
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5     
@@ -309,10 +358,14 @@ public final class WeaponUpgradeReqOuterClass {
      *
      * <code>repeated .ItemParam item_param_list = 9;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getItemParamList(int index) {
       return itemParamList_.get(index);
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5     
@@ -320,6 +373,7 @@ public final class WeaponUpgradeReqOuterClass {
      *
      * <code>repeated .ItemParam item_param_list = 9;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getItemParamListOrBuilder(
         int index) {
@@ -328,6 +382,9 @@ public final class WeaponUpgradeReqOuterClass {
 
     public static final int TARGET_WEAPON_GUID_FIELD_NUMBER = 12;
     private long targetWeaponGuid_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5     
@@ -336,6 +393,7 @@ public final class WeaponUpgradeReqOuterClass {
      * <code>uint64 target_weapon_guid = 12;</code>
      * @return The targetWeaponGuid.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public long getTargetWeaponGuid() {
       return targetWeaponGuid_;
@@ -709,7 +767,7 @@ public final class WeaponUpgradeReqOuterClass {
               itemParamListBuilder_ = null;
               itemParamList_ = other.itemParamList_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              itemParamListBuilder_ = 
+              itemParamListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getItemParamListFieldBuilder() : null;
             } else {
@@ -757,6 +815,9 @@ public final class WeaponUpgradeReqOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -765,11 +826,23 @@ public final class WeaponUpgradeReqOuterClass {
        * <code>repeated uint64 food_weapon_guid_list = 4;</code>
        * @return A list containing the foodWeaponGuidList.
        */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Long>
           getFoodWeaponGuidListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(foodWeaponGuidList_) : foodWeaponGuidList_;
       }
+<<<<<<< HEAD
+
+      public int getFoodWeaponGuidListCount() {
+        return foodWeaponGuidList_.size();
+      }
+
+      public long getFoodWeaponGuidList(int index) {
+        return foodWeaponGuidList_.getLong(index);
+      }
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -803,6 +876,7 @@ public final class WeaponUpgradeReqOuterClass {
        * @param value The foodWeaponGuidList to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setFoodWeaponGuidList(
           int index, long value) {
         ensureFoodWeaponGuidListIsMutable();
@@ -810,6 +884,9 @@ public final class WeaponUpgradeReqOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -819,12 +896,16 @@ public final class WeaponUpgradeReqOuterClass {
        * @param value The foodWeaponGuidList to add.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder addFoodWeaponGuidList(long value) {
         ensureFoodWeaponGuidListIsMutable();
         foodWeaponGuidList_.addLong(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -834,6 +915,7 @@ public final class WeaponUpgradeReqOuterClass {
        * @param values The foodWeaponGuidList to add.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder addAllFoodWeaponGuidList(
           java.lang.Iterable<? extends java.lang.Long> values) {
         ensureFoodWeaponGuidListIsMutable();
@@ -842,6 +924,9 @@ public final class WeaponUpgradeReqOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -850,6 +935,7 @@ public final class WeaponUpgradeReqOuterClass {
        * <code>repeated uint64 food_weapon_guid_list = 4;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearFoodWeaponGuidList() {
         foodWeaponGuidList_ = emptyLongList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -869,6 +955,8 @@ public final class WeaponUpgradeReqOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> itemParamListBuilder_;
 
+<<<<<<< HEAD
+=======
       /**
        * <pre>
        *6.5.5     
@@ -876,6 +964,7 @@ public final class WeaponUpgradeReqOuterClass {
        *
        * <code>repeated .ItemParam item_param_list = 9;</code>
        */
+>>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> getItemParamListList() {
         if (itemParamListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(itemParamList_);
@@ -883,6 +972,9 @@ public final class WeaponUpgradeReqOuterClass {
           return itemParamListBuilder_.getMessageList();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -890,6 +982,7 @@ public final class WeaponUpgradeReqOuterClass {
        *
        * <code>repeated .ItemParam item_param_list = 9;</code>
        */
+>>>>>>> origin/6.5.0
       public int getItemParamListCount() {
         if (itemParamListBuilder_ == null) {
           return itemParamList_.size();
@@ -897,6 +990,9 @@ public final class WeaponUpgradeReqOuterClass {
           return itemParamListBuilder_.getCount();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -904,6 +1000,7 @@ public final class WeaponUpgradeReqOuterClass {
        *
        * <code>repeated .ItemParam item_param_list = 9;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam getItemParamList(int index) {
         if (itemParamListBuilder_ == null) {
           return itemParamList_.get(index);
@@ -911,6 +1008,9 @@ public final class WeaponUpgradeReqOuterClass {
           return itemParamListBuilder_.getMessage(index);
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -918,6 +1018,7 @@ public final class WeaponUpgradeReqOuterClass {
        *
        * <code>repeated .ItemParam item_param_list = 9;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setItemParamList(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
         if (itemParamListBuilder_ == null) {
@@ -932,6 +1033,9 @@ public final class WeaponUpgradeReqOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -939,6 +1043,7 @@ public final class WeaponUpgradeReqOuterClass {
        *
        * <code>repeated .ItemParam item_param_list = 9;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setItemParamList(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
         if (itemParamListBuilder_ == null) {
@@ -950,6 +1055,9 @@ public final class WeaponUpgradeReqOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -957,6 +1065,7 @@ public final class WeaponUpgradeReqOuterClass {
        *
        * <code>repeated .ItemParam item_param_list = 9;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addItemParamList(emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
         if (itemParamListBuilder_ == null) {
           if (value == null) {
@@ -970,6 +1079,9 @@ public final class WeaponUpgradeReqOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -977,6 +1089,7 @@ public final class WeaponUpgradeReqOuterClass {
        *
        * <code>repeated .ItemParam item_param_list = 9;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addItemParamList(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam value) {
         if (itemParamListBuilder_ == null) {
@@ -991,6 +1104,9 @@ public final class WeaponUpgradeReqOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -998,6 +1114,7 @@ public final class WeaponUpgradeReqOuterClass {
        *
        * <code>repeated .ItemParam item_param_list = 9;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addItemParamList(
           emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
         if (itemParamListBuilder_ == null) {
@@ -1009,6 +1126,9 @@ public final class WeaponUpgradeReqOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1016,6 +1136,7 @@ public final class WeaponUpgradeReqOuterClass {
        *
        * <code>repeated .ItemParam item_param_list = 9;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addItemParamList(
           int index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder builderForValue) {
         if (itemParamListBuilder_ == null) {
@@ -1027,6 +1148,9 @@ public final class WeaponUpgradeReqOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1034,6 +1158,7 @@ public final class WeaponUpgradeReqOuterClass {
        *
        * <code>repeated .ItemParam item_param_list = 9;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addAllItemParamList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam> values) {
         if (itemParamListBuilder_ == null) {
@@ -1046,6 +1171,9 @@ public final class WeaponUpgradeReqOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1053,6 +1181,7 @@ public final class WeaponUpgradeReqOuterClass {
        *
        * <code>repeated .ItemParam item_param_list = 9;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder clearItemParamList() {
         if (itemParamListBuilder_ == null) {
           itemParamList_ = java.util.Collections.emptyList();
@@ -1063,6 +1192,9 @@ public final class WeaponUpgradeReqOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1070,6 +1202,7 @@ public final class WeaponUpgradeReqOuterClass {
        *
        * <code>repeated .ItemParam item_param_list = 9;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder removeItemParamList(int index) {
         if (itemParamListBuilder_ == null) {
           ensureItemParamListIsMutable();
@@ -1080,6 +1213,9 @@ public final class WeaponUpgradeReqOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1087,10 +1223,14 @@ public final class WeaponUpgradeReqOuterClass {
        *
        * <code>repeated .ItemParam item_param_list = 9;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder getItemParamListBuilder(
           int index) {
         return getItemParamListFieldBuilder().getBuilder(index);
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1098,6 +1238,7 @@ public final class WeaponUpgradeReqOuterClass {
        *
        * <code>repeated .ItemParam item_param_list = 9;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder getItemParamListOrBuilder(
           int index) {
         if (itemParamListBuilder_ == null) {
@@ -1105,6 +1246,10 @@ public final class WeaponUpgradeReqOuterClass {
           return itemParamListBuilder_.getMessageOrBuilder(index);
         }
       }
+<<<<<<< HEAD
+
+      public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1113,6 +1258,7 @@ public final class WeaponUpgradeReqOuterClass {
        * <code>repeated .ItemParam item_param_list = 9;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+>>>>>>> origin/6.5.0
            getItemParamListOrBuilderList() {
         if (itemParamListBuilder_ != null) {
           return itemParamListBuilder_.getMessageOrBuilderList();
@@ -1120,6 +1266,9 @@ public final class WeaponUpgradeReqOuterClass {
           return java.util.Collections.unmodifiableList(itemParamList_);
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1127,10 +1276,14 @@ public final class WeaponUpgradeReqOuterClass {
        *
        * <code>repeated .ItemParam item_param_list = 9;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder addItemParamListBuilder() {
         return getItemParamListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.getDefaultInstance());
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1138,11 +1291,16 @@ public final class WeaponUpgradeReqOuterClass {
        *
        * <code>repeated .ItemParam item_param_list = 9;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder addItemParamListBuilder(
           int index) {
         return getItemParamListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.getDefaultInstance());
       }
+<<<<<<< HEAD
+
+      public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder>
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1151,11 +1309,12 @@ public final class WeaponUpgradeReqOuterClass {
        * <code>repeated .ItemParam item_param_list = 9;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder> 
+>>>>>>> origin/6.5.0
            getItemParamListBuilderList() {
         return getItemParamListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder> 
+          emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParam.Builder, emu.grasscutter.net.proto.ItemParamOuterClass.ItemParamOrBuilder>
           getItemParamListFieldBuilder() {
         if (itemParamListBuilder_ == null) {
           itemParamListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1170,6 +1329,9 @@ public final class WeaponUpgradeReqOuterClass {
       }
 
       private long targetWeaponGuid_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1178,10 +1340,14 @@ public final class WeaponUpgradeReqOuterClass {
        * <code>uint64 target_weapon_guid = 12;</code>
        * @return The targetWeaponGuid.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public long getTargetWeaponGuid() {
         return targetWeaponGuid_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1191,12 +1357,16 @@ public final class WeaponUpgradeReqOuterClass {
        * @param value The targetWeaponGuid to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setTargetWeaponGuid(long value) {
-        
+
         targetWeaponGuid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1205,8 +1375,9 @@ public final class WeaponUpgradeReqOuterClass {
        * <code>uint64 target_weapon_guid = 12;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearTargetWeaponGuid() {
-        
+
         targetWeaponGuid_ = 0L;
         onChanged();
         return this;
@@ -1222,7 +1393,6 @@ public final class WeaponUpgradeReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:WeaponUpgradeReq)
     }
@@ -1266,7 +1436,7 @@ public final class WeaponUpgradeReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WeaponUpgradeReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WeaponUpgradeReq_fieldAccessorTable;
 

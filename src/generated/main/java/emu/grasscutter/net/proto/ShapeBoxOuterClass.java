@@ -33,6 +33,12 @@ public final class ShapeBoxOuterClass {
      */
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getFIFFOHFGFLFOrBuilder();
 
+<<<<<<< HEAD
+    boolean hasExtents();
+
+    emu.grasscutter.net.proto.VectorOuterClass.Vector getExtents();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -58,6 +64,7 @@ public final class ShapeBoxOuterClass {
      *
      * <code>.Vector extents = 5;</code>
      */
+>>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getExtentsOrBuilder();
 
     /**
@@ -75,6 +82,12 @@ public final class ShapeBoxOuterClass {
      */
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getLPBLCAPDBPEOrBuilder();
 
+<<<<<<< HEAD
+    boolean hasCenter();
+
+    emu.grasscutter.net.proto.VectorOuterClass.Vector getCenter();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -100,6 +113,7 @@ public final class ShapeBoxOuterClass {
      *
      * <code>.Vector center = 1;</code>
      */
+>>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getCenterOrBuilder();
 
     /**
@@ -287,6 +301,9 @@ public final class ShapeBoxOuterClass {
 
     public static final int EXTENTS_FIELD_NUMBER = 5;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector extents_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -295,10 +312,14 @@ public final class ShapeBoxOuterClass {
      * <code>.Vector extents = 5;</code>
      * @return Whether the extents field is set.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasExtents() {
       return extents_ != null;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -307,10 +328,14 @@ public final class ShapeBoxOuterClass {
      * <code>.Vector extents = 5;</code>
      * @return The extents.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.Vector getExtents() {
       return extents_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : extents_;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -318,6 +343,7 @@ public final class ShapeBoxOuterClass {
      *
      * <code>.Vector extents = 5;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getExtentsOrBuilder() {
       return getExtents();
@@ -351,6 +377,9 @@ public final class ShapeBoxOuterClass {
 
     public static final int CENTER_FIELD_NUMBER = 1;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector center_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -359,10 +388,14 @@ public final class ShapeBoxOuterClass {
      * <code>.Vector center = 1;</code>
      * @return Whether the center field is set.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasCenter() {
       return center_ != null;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -371,10 +404,14 @@ public final class ShapeBoxOuterClass {
      * <code>.Vector center = 1;</code>
      * @return The center.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.Vector getCenter() {
       return center_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : center_;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -382,6 +419,7 @@ public final class ShapeBoxOuterClass {
      *
      * <code>.Vector center = 1;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getCenterOrBuilder() {
       return getCenter();
@@ -935,7 +973,7 @@ public final class ShapeBoxOuterClass {
        * <code>.Vector FIFFOHFGFLF = 2;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getFIFFOHFGFLFBuilder() {
-        
+
         onChanged();
         return getFIFFOHFGFLFFieldBuilder().getBuilder();
       }
@@ -954,7 +992,7 @@ public final class ShapeBoxOuterClass {
        * <code>.Vector FIFFOHFGFLF = 2;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getFIFFOHFGFLFFieldBuilder() {
         if (fIFFOHFGFLFBuilder_ == null) {
           fIFFOHFGFLFBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -970,6 +1008,13 @@ public final class ShapeBoxOuterClass {
       private emu.grasscutter.net.proto.VectorOuterClass.Vector extents_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> extentsBuilder_;
+<<<<<<< HEAD
+
+      public boolean hasExtents() {
+        return extentsBuilder_ != null || extents_ != null;
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -989,6 +1034,7 @@ public final class ShapeBoxOuterClass {
        * <code>.Vector extents = 5;</code>
        * @return The extents.
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.VectorOuterClass.Vector getExtents() {
         if (extentsBuilder_ == null) {
           return extents_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : extents_;
@@ -996,6 +1042,9 @@ public final class ShapeBoxOuterClass {
           return extentsBuilder_.getMessage();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1003,6 +1052,7 @@ public final class ShapeBoxOuterClass {
        *
        * <code>.Vector extents = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setExtents(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (extentsBuilder_ == null) {
           if (value == null) {
@@ -1016,6 +1066,9 @@ public final class ShapeBoxOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1023,6 +1076,7 @@ public final class ShapeBoxOuterClass {
        *
        * <code>.Vector extents = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setExtents(
           emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
         if (extentsBuilder_ == null) {
@@ -1034,6 +1088,9 @@ public final class ShapeBoxOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1041,6 +1098,7 @@ public final class ShapeBoxOuterClass {
        *
        * <code>.Vector extents = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder mergeExtents(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (extentsBuilder_ == null) {
           if (extents_ != null) {
@@ -1056,6 +1114,9 @@ public final class ShapeBoxOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1063,6 +1124,7 @@ public final class ShapeBoxOuterClass {
        *
        * <code>.Vector extents = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder clearExtents() {
         if (extentsBuilder_ == null) {
           extents_ = null;
@@ -1074,6 +1136,9 @@ public final class ShapeBoxOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1081,11 +1146,15 @@ public final class ShapeBoxOuterClass {
        *
        * <code>.Vector extents = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getExtentsBuilder() {
-        
+
         onChanged();
         return getExtentsFieldBuilder().getBuilder();
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1093,6 +1162,7 @@ public final class ShapeBoxOuterClass {
        *
        * <code>.Vector extents = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getExtentsOrBuilder() {
         if (extentsBuilder_ != null) {
           return extentsBuilder_.getMessageOrBuilder();
@@ -1101,6 +1171,9 @@ public final class ShapeBoxOuterClass {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : extents_;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1108,8 +1181,9 @@ public final class ShapeBoxOuterClass {
        *
        * <code>.Vector extents = 5;</code>
        */
+>>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getExtentsFieldBuilder() {
         if (extentsBuilder_ == null) {
           extentsBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1209,7 +1283,7 @@ public final class ShapeBoxOuterClass {
        * <code>.Vector LPBLCAPDBPE = 3;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getLPBLCAPDBPEBuilder() {
-        
+
         onChanged();
         return getLPBLCAPDBPEFieldBuilder().getBuilder();
       }
@@ -1228,7 +1302,7 @@ public final class ShapeBoxOuterClass {
        * <code>.Vector LPBLCAPDBPE = 3;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getLPBLCAPDBPEFieldBuilder() {
         if (lPBLCAPDBPEBuilder_ == null) {
           lPBLCAPDBPEBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1244,6 +1318,13 @@ public final class ShapeBoxOuterClass {
       private emu.grasscutter.net.proto.VectorOuterClass.Vector center_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> centerBuilder_;
+<<<<<<< HEAD
+
+      public boolean hasCenter() {
+        return centerBuilder_ != null || center_ != null;
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1263,6 +1344,7 @@ public final class ShapeBoxOuterClass {
        * <code>.Vector center = 1;</code>
        * @return The center.
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.VectorOuterClass.Vector getCenter() {
         if (centerBuilder_ == null) {
           return center_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : center_;
@@ -1270,6 +1352,9 @@ public final class ShapeBoxOuterClass {
           return centerBuilder_.getMessage();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1277,6 +1362,7 @@ public final class ShapeBoxOuterClass {
        *
        * <code>.Vector center = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setCenter(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (centerBuilder_ == null) {
           if (value == null) {
@@ -1290,6 +1376,9 @@ public final class ShapeBoxOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1297,6 +1386,7 @@ public final class ShapeBoxOuterClass {
        *
        * <code>.Vector center = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setCenter(
           emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
         if (centerBuilder_ == null) {
@@ -1308,6 +1398,9 @@ public final class ShapeBoxOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1315,6 +1408,7 @@ public final class ShapeBoxOuterClass {
        *
        * <code>.Vector center = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder mergeCenter(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (centerBuilder_ == null) {
           if (center_ != null) {
@@ -1330,6 +1424,9 @@ public final class ShapeBoxOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1337,6 +1434,7 @@ public final class ShapeBoxOuterClass {
        *
        * <code>.Vector center = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder clearCenter() {
         if (centerBuilder_ == null) {
           center_ = null;
@@ -1348,6 +1446,9 @@ public final class ShapeBoxOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1355,11 +1456,15 @@ public final class ShapeBoxOuterClass {
        *
        * <code>.Vector center = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getCenterBuilder() {
-        
+
         onChanged();
         return getCenterFieldBuilder().getBuilder();
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1367,6 +1472,7 @@ public final class ShapeBoxOuterClass {
        *
        * <code>.Vector center = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getCenterOrBuilder() {
         if (centerBuilder_ != null) {
           return centerBuilder_.getMessageOrBuilder();
@@ -1375,6 +1481,9 @@ public final class ShapeBoxOuterClass {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : center_;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1382,8 +1491,9 @@ public final class ShapeBoxOuterClass {
        *
        * <code>.Vector center = 1;</code>
        */
+>>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getCenterFieldBuilder() {
         if (centerBuilder_ == null) {
           centerBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1483,7 +1593,7 @@ public final class ShapeBoxOuterClass {
        * <code>.Vector JNDBLNKMPCK = 4;</code>
        */
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getJNDBLNKMPCKBuilder() {
-        
+
         onChanged();
         return getJNDBLNKMPCKFieldBuilder().getBuilder();
       }
@@ -1502,7 +1612,7 @@ public final class ShapeBoxOuterClass {
        * <code>.Vector JNDBLNKMPCK = 4;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getJNDBLNKMPCKFieldBuilder() {
         if (jNDBLNKMPCKBuilder_ == null) {
           jNDBLNKMPCKBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1525,7 +1635,6 @@ public final class ShapeBoxOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:ShapeBox)
     }
@@ -1569,7 +1678,7 @@ public final class ShapeBoxOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ShapeBox_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ShapeBox_fieldAccessorTable;
 

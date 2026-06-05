@@ -18,6 +18,18 @@ public final class PropValueOuterClass {
       // @@protoc_insertion_point(interface_extends:PropValue)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    int getType();
+
+    long getVal();
+
+    boolean hasIval();
+
+    long getIval();
+
+    boolean hasFval();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -74,6 +86,7 @@ public final class PropValueOuterClass {
      * <code>float fval = 3;</code>
      * @return The fval.
      */
+>>>>>>> origin/6.5.0
     float getFval();
 
     public emu.grasscutter.net.proto.PropValueOuterClass.PropValue.ValueCase getValueCase();
@@ -218,6 +231,9 @@ public final class PropValueOuterClass {
 
     public static final int TYPE_FIELD_NUMBER = 1;
     private int type_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -226,6 +242,7 @@ public final class PropValueOuterClass {
      * <code>uint32 type = 1;</code>
      * @return The type.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getType() {
       return type_;
@@ -233,6 +250,9 @@ public final class PropValueOuterClass {
 
     public static final int VAL_FIELD_NUMBER = 4;
     private long val_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -241,12 +261,16 @@ public final class PropValueOuterClass {
      * <code>int64 val = 4;</code>
      * @return The val.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public long getVal() {
       return val_;
     }
 
     public static final int IVAL_FIELD_NUMBER = 2;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -255,10 +279,14 @@ public final class PropValueOuterClass {
      * <code>int64 ival = 2;</code>
      * @return Whether the ival field is set.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasIval() {
       return valueCase_ == 2;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -267,6 +295,7 @@ public final class PropValueOuterClass {
      * <code>int64 ival = 2;</code>
      * @return The ival.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public long getIval() {
       if (valueCase_ == 2) {
@@ -276,6 +305,9 @@ public final class PropValueOuterClass {
     }
 
     public static final int FVAL_FIELD_NUMBER = 3;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -284,10 +316,14 @@ public final class PropValueOuterClass {
      * <code>float fval = 3;</code>
      * @return Whether the fval field is set.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasFval() {
       return valueCase_ == 3;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -296,6 +332,7 @@ public final class PropValueOuterClass {
      * <code>float fval = 3;</code>
      * @return The fval.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public float getFval() {
       if (valueCase_ == 3) {
@@ -706,8 +743,10 @@ public final class PropValueOuterClass {
         return this;
       }
 
-
       private int type_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -716,10 +755,14 @@ public final class PropValueOuterClass {
        * <code>uint32 type = 1;</code>
        * @return The type.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getType() {
         return type_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -729,12 +772,16 @@ public final class PropValueOuterClass {
        * @param value The type to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setType(int value) {
-        
+
         type_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -743,14 +790,18 @@ public final class PropValueOuterClass {
        * <code>uint32 type = 1;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearType() {
-        
+
         type_ = 0;
         onChanged();
         return this;
       }
 
       private long val_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -759,10 +810,14 @@ public final class PropValueOuterClass {
        * <code>int64 val = 4;</code>
        * @return The val.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public long getVal() {
         return val_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -772,12 +827,16 @@ public final class PropValueOuterClass {
        * @param value The val to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setVal(long value) {
-        
+
         val_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -786,13 +845,20 @@ public final class PropValueOuterClass {
        * <code>int64 val = 4;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearVal() {
-        
+
         val_ = 0L;
         onChanged();
         return this;
       }
 
+<<<<<<< HEAD
+      public boolean hasIval() {
+        return valueCase_ == 2;
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -812,12 +878,16 @@ public final class PropValueOuterClass {
        * <code>int64 ival = 2;</code>
        * @return The ival.
        */
+>>>>>>> origin/6.5.0
       public long getIval() {
         if (valueCase_ == 2) {
           return (java.lang.Long) value_;
         }
         return 0L;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -827,12 +897,16 @@ public final class PropValueOuterClass {
        * @param value The ival to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setIval(long value) {
         valueCase_ = 2;
         value_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -841,6 +915,7 @@ public final class PropValueOuterClass {
        * <code>int64 ival = 2;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearIval() {
         if (valueCase_ == 2) {
           valueCase_ = 0;
@@ -850,6 +925,12 @@ public final class PropValueOuterClass {
         return this;
       }
 
+<<<<<<< HEAD
+      public boolean hasFval() {
+        return valueCase_ == 3;
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -869,12 +950,16 @@ public final class PropValueOuterClass {
        * <code>float fval = 3;</code>
        * @return The fval.
        */
+>>>>>>> origin/6.5.0
       public float getFval() {
         if (valueCase_ == 3) {
           return (java.lang.Float) value_;
         }
         return 0F;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -884,12 +969,16 @@ public final class PropValueOuterClass {
        * @param value The fval to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setFval(float value) {
         valueCase_ = 3;
         value_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -898,6 +987,7 @@ public final class PropValueOuterClass {
        * <code>float fval = 3;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearFval() {
         if (valueCase_ == 3) {
           valueCase_ = 0;
@@ -917,7 +1007,6 @@ public final class PropValueOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:PropValue)
     }
@@ -961,7 +1050,7 @@ public final class PropValueOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PropValue_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PropValue_fieldAccessorTable;
 

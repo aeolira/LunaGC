@@ -18,6 +18,12 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
       // @@protoc_insertion_point(interface_extends:UpdatePlayerShowAvatarListReq)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    java.util.List<java.lang.Integer> getShowAvatarIdListList();
+
+    int getShowAvatarIdListCount();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -45,18 +51,13 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
      * @param index The index of the element to return.
      * @return The showAvatarIdList at the given index.
      */
+>>>>>>> origin/6.5.0
     int getShowAvatarIdList(int index);
 
-    /**
-     * <pre>
-     *6.4.0 //6.5.0      
-     * </pre>
-     *
-     * <code>bool is_show_constellation_num = 6;</code>
-     * @return The isShowConstellationNum.
-     */
     boolean getIsShowConstellationNum();
 
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -65,6 +66,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
      * <code>bool is_show_avatar = 4;</code>
      * @return The isShowAvatar.
      */
+>>>>>>> origin/6.5.0
     boolean getIsShowAvatar();
   }
   /**
@@ -186,6 +188,9 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
 
     public static final int SHOW_AVATAR_ID_LIST_FIELD_NUMBER = 1;
     private com.google.protobuf.Internal.IntList showAvatarIdList_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -194,11 +199,19 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
      * <code>repeated uint32 show_avatar_id_list = 1;</code>
      * @return A list containing the showAvatarIdList.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getShowAvatarIdListList() {
       return showAvatarIdList_;
     }
+<<<<<<< HEAD
+
+    public int getShowAvatarIdListCount() {
+      return showAvatarIdList_.size();
+    }
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -219,6 +232,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
      * @param index The index of the element to return.
      * @return The showAvatarIdList at the given index.
      */
+>>>>>>> origin/6.5.0
     public int getShowAvatarIdList(int index) {
       return showAvatarIdList_.getInt(index);
     }
@@ -226,14 +240,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
 
     public static final int IS_SHOW_CONSTELLATION_NUM_FIELD_NUMBER = 6;
     private boolean isShowConstellationNum_;
-    /**
-     * <pre>
-     *6.4.0 //6.5.0      
-     * </pre>
-     *
-     * <code>bool is_show_constellation_num = 6;</code>
-     * @return The isShowConstellationNum.
-     */
+
     @java.lang.Override
     public boolean getIsShowConstellationNum() {
       return isShowConstellationNum_;
@@ -241,6 +248,9 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
 
     public static final int IS_SHOW_AVATAR_FIELD_NUMBER = 4;
     private boolean isShowAvatar_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -249,6 +259,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
      * <code>bool is_show_avatar = 4;</code>
      * @return The isShowAvatar.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsShowAvatar() {
       return isShowAvatar_;
@@ -633,6 +644,9 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -641,11 +655,23 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
        * <code>repeated uint32 show_avatar_id_list = 1;</code>
        * @return A list containing the showAvatarIdList.
        */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getShowAvatarIdListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(showAvatarIdList_) : showAvatarIdList_;
       }
+<<<<<<< HEAD
+
+      public int getShowAvatarIdListCount() {
+        return showAvatarIdList_.size();
+      }
+
+      public int getShowAvatarIdList(int index) {
+        return showAvatarIdList_.getInt(index);
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -679,6 +705,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
        * @param value The showAvatarIdList to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setShowAvatarIdList(
           int index, int value) {
         ensureShowAvatarIdListIsMutable();
@@ -686,6 +713,9 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -695,12 +725,16 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
        * @param value The showAvatarIdList to add.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder addShowAvatarIdList(int value) {
         ensureShowAvatarIdListIsMutable();
         showAvatarIdList_.addInt(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -710,6 +744,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
        * @param values The showAvatarIdList to add.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder addAllShowAvatarIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureShowAvatarIdListIsMutable();
@@ -718,6 +753,9 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -726,6 +764,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
        * <code>repeated uint32 show_avatar_id_list = 1;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearShowAvatarIdList() {
         showAvatarIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -734,49 +773,30 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
       }
 
       private boolean isShowConstellationNum_ ;
-      /**
-       * <pre>
-       *6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>bool is_show_constellation_num = 6;</code>
-       * @return The isShowConstellationNum.
-       */
+
       @java.lang.Override
       public boolean getIsShowConstellationNum() {
         return isShowConstellationNum_;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>bool is_show_constellation_num = 6;</code>
-       * @param value The isShowConstellationNum to set.
-       * @return This builder for chaining.
-       */
+
       public Builder setIsShowConstellationNum(boolean value) {
-        
+
         isShowConstellationNum_ = value;
         onChanged();
         return this;
       }
-      /**
-       * <pre>
-       *6.4.0 //6.5.0      
-       * </pre>
-       *
-       * <code>bool is_show_constellation_num = 6;</code>
-       * @return This builder for chaining.
-       */
+
       public Builder clearIsShowConstellationNum() {
-        
+
         isShowConstellationNum_ = false;
         onChanged();
         return this;
       }
 
       private boolean isShowAvatar_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -785,10 +805,14 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
        * <code>bool is_show_avatar = 4;</code>
        * @return The isShowAvatar.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsShowAvatar() {
         return isShowAvatar_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -798,12 +822,16 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
        * @param value The isShowAvatar to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setIsShowAvatar(boolean value) {
-        
+
         isShowAvatar_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -812,8 +840,9 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
        * <code>bool is_show_avatar = 4;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearIsShowAvatar() {
-        
+
         isShowAvatar_ = false;
         onChanged();
         return this;
@@ -829,7 +858,6 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:UpdatePlayerShowAvatarListReq)
     }
@@ -873,7 +901,7 @@ public final class UpdatePlayerShowAvatarListReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_UpdatePlayerShowAvatarListReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_UpdatePlayerShowAvatarListReq_fieldAccessorTable;
 

@@ -18,6 +18,14 @@ public final class CodexDataUpdateNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:CodexDataUpdateNotify)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    int getWeaponMaxPromoteLevel();
+
+    int getId();
+
+    int getTypeValue();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -55,6 +63,7 @@ public final class CodexDataUpdateNotifyOuterClass {
      * <code>.CodexType type = 14;</code>
      * @return The type.
      */
+>>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.CodexTypeOuterClass.CodexType getType();
   }
   /**
@@ -107,18 +116,18 @@ public final class CodexDataUpdateNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 56: {
+            case 8: {
 
               id_ = input.readUInt32();
               break;
             }
-            case 112: {
+            case 96: {
               int rawValue = input.readEnum();
 
               type_ = rawValue;
               break;
             }
-            case 120: {
+            case 32: {
 
               weaponMaxPromoteLevel_ = input.readUInt32();
               break;
@@ -155,8 +164,11 @@ public final class CodexDataUpdateNotifyOuterClass {
               emu.grasscutter.net.proto.CodexDataUpdateNotifyOuterClass.CodexDataUpdateNotify.class, emu.grasscutter.net.proto.CodexDataUpdateNotifyOuterClass.CodexDataUpdateNotify.Builder.class);
     }
 
-    public static final int WEAPON_MAX_PROMOTE_LEVEL_FIELD_NUMBER = 15;
+    public static final int WEAPON_MAX_PROMOTE_LEVEL_FIELD_NUMBER = 4;
     private int weaponMaxPromoteLevel_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -165,13 +177,17 @@ public final class CodexDataUpdateNotifyOuterClass {
      * <code>uint32 weapon_max_promote_level = 15;</code>
      * @return The weaponMaxPromoteLevel.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getWeaponMaxPromoteLevel() {
       return weaponMaxPromoteLevel_;
     }
 
-    public static final int ID_FIELD_NUMBER = 7;
+    public static final int ID_FIELD_NUMBER = 1;
     private int id_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -180,13 +196,21 @@ public final class CodexDataUpdateNotifyOuterClass {
      * <code>uint32 id = 7;</code>
      * @return The id.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getId() {
       return id_;
     }
 
-    public static final int TYPE_FIELD_NUMBER = 14;
+    public static final int TYPE_FIELD_NUMBER = 12;
     private int type_;
+<<<<<<< HEAD
+
+    @java.lang.Override public int getTypeValue() {
+      return type_;
+    }
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -206,6 +230,7 @@ public final class CodexDataUpdateNotifyOuterClass {
      * <code>.CodexType type = 14;</code>
      * @return The type.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override public emu.grasscutter.net.proto.CodexTypeOuterClass.CodexType getType() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.CodexTypeOuterClass.CodexType result = emu.grasscutter.net.proto.CodexTypeOuterClass.CodexType.valueOf(type_);
@@ -227,13 +252,13 @@ public final class CodexDataUpdateNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (id_ != 0) {
-        output.writeUInt32(7, id_);
+        output.writeUInt32(1, id_);
       }
       if (type_ != emu.grasscutter.net.proto.CodexTypeOuterClass.CodexType.CodexType_CODEX_NONE.getNumber()) {
-        output.writeEnum(14, type_);
+        output.writeEnum(12, type_);
       }
       if (weaponMaxPromoteLevel_ != 0) {
-        output.writeUInt32(15, weaponMaxPromoteLevel_);
+        output.writeUInt32(4, weaponMaxPromoteLevel_);
       }
       unknownFields.writeTo(output);
     }
@@ -246,15 +271,15 @@ public final class CodexDataUpdateNotifyOuterClass {
       size = 0;
       if (id_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(7, id_);
+          .computeUInt32Size(1, id_);
       }
       if (type_ != emu.grasscutter.net.proto.CodexTypeOuterClass.CodexType.CodexType_CODEX_NONE.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(14, type_);
+          .computeEnumSize(12, type_);
       }
       if (weaponMaxPromoteLevel_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, weaponMaxPromoteLevel_);
+          .computeUInt32Size(4, weaponMaxPromoteLevel_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -552,6 +577,9 @@ public final class CodexDataUpdateNotifyOuterClass {
       }
 
       private int weaponMaxPromoteLevel_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -560,10 +588,14 @@ public final class CodexDataUpdateNotifyOuterClass {
        * <code>uint32 weapon_max_promote_level = 15;</code>
        * @return The weaponMaxPromoteLevel.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getWeaponMaxPromoteLevel() {
         return weaponMaxPromoteLevel_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -573,12 +605,16 @@ public final class CodexDataUpdateNotifyOuterClass {
        * @param value The weaponMaxPromoteLevel to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setWeaponMaxPromoteLevel(int value) {
-        
+
         weaponMaxPromoteLevel_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -587,14 +623,18 @@ public final class CodexDataUpdateNotifyOuterClass {
        * <code>uint32 weapon_max_promote_level = 15;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearWeaponMaxPromoteLevel() {
-        
+
         weaponMaxPromoteLevel_ = 0;
         onChanged();
         return this;
       }
 
       private int id_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -603,10 +643,14 @@ public final class CodexDataUpdateNotifyOuterClass {
        * <code>uint32 id = 7;</code>
        * @return The id.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getId() {
         return id_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -616,12 +660,16 @@ public final class CodexDataUpdateNotifyOuterClass {
        * @param value The id to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setId(int value) {
-        
+
         id_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -630,14 +678,22 @@ public final class CodexDataUpdateNotifyOuterClass {
        * <code>uint32 id = 7;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearId() {
-        
+
         id_ = 0;
         onChanged();
         return this;
       }
 
       private int type_ = 0;
+<<<<<<< HEAD
+
+      @java.lang.Override public int getTypeValue() {
+        return type_;
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -658,12 +714,16 @@ public final class CodexDataUpdateNotifyOuterClass {
        * @param value The enum numeric value on the wire for type to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setTypeValue(int value) {
-        
+
         type_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -672,12 +732,16 @@ public final class CodexDataUpdateNotifyOuterClass {
        * <code>.CodexType type = 14;</code>
        * @return The type.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.CodexTypeOuterClass.CodexType getType() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.CodexTypeOuterClass.CodexType result = emu.grasscutter.net.proto.CodexTypeOuterClass.CodexType.valueOf(type_);
         return result == null ? emu.grasscutter.net.proto.CodexTypeOuterClass.CodexType.UNRECOGNIZED : result;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -687,15 +751,19 @@ public final class CodexDataUpdateNotifyOuterClass {
        * @param value The type to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setType(emu.grasscutter.net.proto.CodexTypeOuterClass.CodexType value) {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         type_ = value.getNumber();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -704,8 +772,9 @@ public final class CodexDataUpdateNotifyOuterClass {
        * <code>.CodexType type = 14;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearType() {
-        
+
         type_ = 0;
         onChanged();
         return this;
@@ -721,7 +790,6 @@ public final class CodexDataUpdateNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:CodexDataUpdateNotify)
     }
@@ -765,7 +833,7 @@ public final class CodexDataUpdateNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CodexDataUpdateNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CodexDataUpdateNotify_fieldAccessorTable;
 

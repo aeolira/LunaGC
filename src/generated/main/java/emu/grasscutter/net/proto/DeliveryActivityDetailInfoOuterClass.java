@@ -41,6 +41,8 @@ public final class DeliveryActivityDetailInfoOuterClass {
      */
     int getBMLIGIIELDE();
 
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -49,6 +51,7 @@ public final class DeliveryActivityDetailInfoOuterClass {
      * <code>bool is_taken_reward = 2;</code>
      * @return The isTakenReward.
      */
+>>>>>>> origin/6.5.0
     boolean getIsTakenReward();
   }
   /**
@@ -205,6 +208,9 @@ public final class DeliveryActivityDetailInfoOuterClass {
 
     public static final int IS_TAKEN_REWARD_FIELD_NUMBER = 2;
     private boolean isTakenReward_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -213,6 +219,7 @@ public final class DeliveryActivityDetailInfoOuterClass {
      * <code>bool is_taken_reward = 2;</code>
      * @return The isTakenReward.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsTakenReward() {
       return isTakenReward_;
@@ -679,7 +686,7 @@ public final class DeliveryActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBMLIGIIELDE(int value) {
-        
+
         bMLIGIIELDE_ = value;
         onChanged();
         return this;
@@ -689,13 +696,16 @@ public final class DeliveryActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBMLIGIIELDE() {
-        
+
         bMLIGIIELDE_ = 0;
         onChanged();
         return this;
       }
 
       private boolean isTakenReward_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -704,10 +714,14 @@ public final class DeliveryActivityDetailInfoOuterClass {
        * <code>bool is_taken_reward = 2;</code>
        * @return The isTakenReward.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsTakenReward() {
         return isTakenReward_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -717,12 +731,16 @@ public final class DeliveryActivityDetailInfoOuterClass {
        * @param value The isTakenReward to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setIsTakenReward(boolean value) {
-        
+
         isTakenReward_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -731,8 +749,9 @@ public final class DeliveryActivityDetailInfoOuterClass {
        * <code>bool is_taken_reward = 2;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearIsTakenReward() {
-        
+
         isTakenReward_ = false;
         onChanged();
         return this;
@@ -748,7 +767,6 @@ public final class DeliveryActivityDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:DeliveryActivityDetailInfo)
     }
@@ -792,7 +810,7 @@ public final class DeliveryActivityDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_DeliveryActivityDetailInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_DeliveryActivityDetailInfo_fieldAccessorTable;
 

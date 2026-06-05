@@ -18,6 +18,8 @@ public final class ExitTransPointRegionNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:ExitTransPointRegionNotify)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5     
@@ -26,6 +28,7 @@ public final class ExitTransPointRegionNotifyOuterClass {
      * <code>uint32 point_id = 7;</code>
      * @return The pointId.
      */
+>>>>>>> origin/6.5.0
     int getPointId();
 
     /**
@@ -131,6 +134,9 @@ public final class ExitTransPointRegionNotifyOuterClass {
 
     public static final int POINT_ID_FIELD_NUMBER = 7;
     private int pointId_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5     
@@ -139,6 +145,7 @@ public final class ExitTransPointRegionNotifyOuterClass {
      * <code>uint32 point_id = 7;</code>
      * @return The pointId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getPointId() {
       return pointId_;
@@ -483,6 +490,9 @@ public final class ExitTransPointRegionNotifyOuterClass {
       }
 
       private int pointId_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -491,10 +501,14 @@ public final class ExitTransPointRegionNotifyOuterClass {
        * <code>uint32 point_id = 7;</code>
        * @return The pointId.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getPointId() {
         return pointId_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -504,12 +518,16 @@ public final class ExitTransPointRegionNotifyOuterClass {
        * @param value The pointId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setPointId(int value) {
-        
+
         pointId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -518,8 +536,9 @@ public final class ExitTransPointRegionNotifyOuterClass {
        * <code>uint32 point_id = 7;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearPointId() {
-        
+
         pointId_ = 0;
         onChanged();
         return this;
@@ -548,7 +567,7 @@ public final class ExitTransPointRegionNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder setSceneId(int value) {
-        
+
         sceneId_ = value;
         onChanged();
         return this;
@@ -562,7 +581,7 @@ public final class ExitTransPointRegionNotifyOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearSceneId() {
-        
+
         sceneId_ = 0;
         onChanged();
         return this;
@@ -578,7 +597,6 @@ public final class ExitTransPointRegionNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:ExitTransPointRegionNotify)
     }
@@ -622,7 +640,7 @@ public final class ExitTransPointRegionNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ExitTransPointRegionNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ExitTransPointRegionNotify_fieldAccessorTable;
 

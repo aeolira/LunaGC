@@ -28,6 +28,18 @@ public final class GetPlayerBlacklistRspOuterClass {
      */
     int getRetcode();
 
+<<<<<<< HEAD
+    java.util.List<emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief>
+        getBlacklistList();
+
+    emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief getBlacklist(int index);
+
+    int getBlacklistCount();
+
+    java.util.List<? extends emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBriefOrBuilder>
+        getBlacklistOrBuilderList();
+
+=======
     /**
      * <pre>
      *6.5.5     
@@ -69,6 +81,7 @@ public final class GetPlayerBlacklistRspOuterClass {
      *
      * <code>repeated .FriendBrief blacklist = 5;</code>
      */
+>>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBriefOrBuilder getBlacklistOrBuilder(
         int index);
   }
@@ -119,7 +132,16 @@ public final class GetPlayerBlacklistRspOuterClass {
             case 0:
               done = true;
               break;
+<<<<<<< HEAD
+            case 80: {
+
+              retcode_ = input.readInt32();
+              break;
+            }
+            case 98: {
+=======
             case 42: {
+>>>>>>> origin/6.5.0
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 blacklist_ = new java.util.ArrayList<emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief>();
                 mutable_bitField0_ |= 0x00000001;
@@ -168,7 +190,11 @@ public final class GetPlayerBlacklistRspOuterClass {
               emu.grasscutter.net.proto.GetPlayerBlacklistRspOuterClass.GetPlayerBlacklistRsp.class, emu.grasscutter.net.proto.GetPlayerBlacklistRspOuterClass.GetPlayerBlacklistRsp.Builder.class);
     }
 
+<<<<<<< HEAD
+    public static final int RETCODE_FIELD_NUMBER = 10;
+=======
     public static final int RETCODE_FIELD_NUMBER = 12;
+>>>>>>> origin/6.5.0
     private int retcode_;
     /**
      * <pre>
@@ -183,6 +209,11 @@ public final class GetPlayerBlacklistRspOuterClass {
       return retcode_;
     }
 
+<<<<<<< HEAD
+    public static final int BLACKLIST_FIELD_NUMBER = 12;
+    private java.util.List<emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief> blacklist_;
+
+=======
     public static final int BLACKLIST_FIELD_NUMBER = 5;
     private java.util.List<emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief> blacklist_;
     /**
@@ -192,10 +223,14 @@ public final class GetPlayerBlacklistRspOuterClass {
      *
      * <code>repeated .FriendBrief blacklist = 5;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief> getBlacklistList() {
       return blacklist_;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5     
@@ -203,11 +238,15 @@ public final class GetPlayerBlacklistRspOuterClass {
      *
      * <code>repeated .FriendBrief blacklist = 5;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBriefOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBriefOrBuilder>
         getBlacklistOrBuilderList() {
       return blacklist_;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5     
@@ -215,10 +254,14 @@ public final class GetPlayerBlacklistRspOuterClass {
      *
      * <code>repeated .FriendBrief blacklist = 5;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getBlacklistCount() {
       return blacklist_.size();
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5     
@@ -226,10 +269,14 @@ public final class GetPlayerBlacklistRspOuterClass {
      *
      * <code>repeated .FriendBrief blacklist = 5;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief getBlacklist(int index) {
       return blacklist_.get(index);
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5     
@@ -237,6 +284,7 @@ public final class GetPlayerBlacklistRspOuterClass {
      *
      * <code>repeated .FriendBrief blacklist = 5;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBriefOrBuilder getBlacklistOrBuilder(
         int index) {
@@ -257,11 +305,19 @@ public final class GetPlayerBlacklistRspOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+<<<<<<< HEAD
+      if (retcode_ != 0) {
+        output.writeInt32(10, retcode_);
+      }
+      for (int i = 0; i < blacklist_.size(); i++) {
+        output.writeMessage(12, blacklist_.get(i));
+=======
       for (int i = 0; i < blacklist_.size(); i++) {
         output.writeMessage(5, blacklist_.get(i));
       }
       if (retcode_ != 0) {
         output.writeInt32(12, retcode_);
+>>>>>>> origin/6.5.0
       }
       unknownFields.writeTo(output);
     }
@@ -272,6 +328,15 @@ public final class GetPlayerBlacklistRspOuterClass {
       if (size != -1) return size;
 
       size = 0;
+<<<<<<< HEAD
+      if (retcode_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt32Size(10, retcode_);
+      }
+      for (int i = 0; i < blacklist_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(12, blacklist_.get(i));
+=======
       for (int i = 0; i < blacklist_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(5, blacklist_.get(i));
@@ -279,6 +344,7 @@ public final class GetPlayerBlacklistRspOuterClass {
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt32Size(12, retcode_);
+>>>>>>> origin/6.5.0
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -564,7 +630,7 @@ public final class GetPlayerBlacklistRspOuterClass {
               blacklistBuilder_ = null;
               blacklist_ = other.blacklist_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              blacklistBuilder_ = 
+              blacklistBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getBlacklistFieldBuilder() : null;
             } else {
@@ -625,7 +691,7 @@ public final class GetPlayerBlacklistRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
@@ -639,7 +705,7 @@ public final class GetPlayerBlacklistRspOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -657,6 +723,8 @@ public final class GetPlayerBlacklistRspOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief, emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief.Builder, emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBriefOrBuilder> blacklistBuilder_;
 
+<<<<<<< HEAD
+=======
       /**
        * <pre>
        *6.5.5     
@@ -664,6 +732,7 @@ public final class GetPlayerBlacklistRspOuterClass {
        *
        * <code>repeated .FriendBrief blacklist = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief> getBlacklistList() {
         if (blacklistBuilder_ == null) {
           return java.util.Collections.unmodifiableList(blacklist_);
@@ -671,6 +740,9 @@ public final class GetPlayerBlacklistRspOuterClass {
           return blacklistBuilder_.getMessageList();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -678,6 +750,7 @@ public final class GetPlayerBlacklistRspOuterClass {
        *
        * <code>repeated .FriendBrief blacklist = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public int getBlacklistCount() {
         if (blacklistBuilder_ == null) {
           return blacklist_.size();
@@ -685,6 +758,9 @@ public final class GetPlayerBlacklistRspOuterClass {
           return blacklistBuilder_.getCount();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -692,6 +768,7 @@ public final class GetPlayerBlacklistRspOuterClass {
        *
        * <code>repeated .FriendBrief blacklist = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief getBlacklist(int index) {
         if (blacklistBuilder_ == null) {
           return blacklist_.get(index);
@@ -699,6 +776,9 @@ public final class GetPlayerBlacklistRspOuterClass {
           return blacklistBuilder_.getMessage(index);
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -706,6 +786,7 @@ public final class GetPlayerBlacklistRspOuterClass {
        *
        * <code>repeated .FriendBrief blacklist = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setBlacklist(
           int index, emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief value) {
         if (blacklistBuilder_ == null) {
@@ -720,6 +801,9 @@ public final class GetPlayerBlacklistRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -727,6 +811,7 @@ public final class GetPlayerBlacklistRspOuterClass {
        *
        * <code>repeated .FriendBrief blacklist = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setBlacklist(
           int index, emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief.Builder builderForValue) {
         if (blacklistBuilder_ == null) {
@@ -738,6 +823,9 @@ public final class GetPlayerBlacklistRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -745,6 +833,7 @@ public final class GetPlayerBlacklistRspOuterClass {
        *
        * <code>repeated .FriendBrief blacklist = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addBlacklist(emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief value) {
         if (blacklistBuilder_ == null) {
           if (value == null) {
@@ -758,6 +847,9 @@ public final class GetPlayerBlacklistRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -765,6 +857,7 @@ public final class GetPlayerBlacklistRspOuterClass {
        *
        * <code>repeated .FriendBrief blacklist = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addBlacklist(
           int index, emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief value) {
         if (blacklistBuilder_ == null) {
@@ -779,6 +872,9 @@ public final class GetPlayerBlacklistRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -786,6 +882,7 @@ public final class GetPlayerBlacklistRspOuterClass {
        *
        * <code>repeated .FriendBrief blacklist = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addBlacklist(
           emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief.Builder builderForValue) {
         if (blacklistBuilder_ == null) {
@@ -797,6 +894,9 @@ public final class GetPlayerBlacklistRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -804,6 +904,7 @@ public final class GetPlayerBlacklistRspOuterClass {
        *
        * <code>repeated .FriendBrief blacklist = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addBlacklist(
           int index, emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief.Builder builderForValue) {
         if (blacklistBuilder_ == null) {
@@ -815,6 +916,9 @@ public final class GetPlayerBlacklistRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -822,6 +926,7 @@ public final class GetPlayerBlacklistRspOuterClass {
        *
        * <code>repeated .FriendBrief blacklist = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addAllBlacklist(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief> values) {
         if (blacklistBuilder_ == null) {
@@ -834,6 +939,9 @@ public final class GetPlayerBlacklistRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -841,6 +949,7 @@ public final class GetPlayerBlacklistRspOuterClass {
        *
        * <code>repeated .FriendBrief blacklist = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder clearBlacklist() {
         if (blacklistBuilder_ == null) {
           blacklist_ = java.util.Collections.emptyList();
@@ -851,6 +960,9 @@ public final class GetPlayerBlacklistRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -858,6 +970,7 @@ public final class GetPlayerBlacklistRspOuterClass {
        *
        * <code>repeated .FriendBrief blacklist = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder removeBlacklist(int index) {
         if (blacklistBuilder_ == null) {
           ensureBlacklistIsMutable();
@@ -868,6 +981,9 @@ public final class GetPlayerBlacklistRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -875,10 +991,14 @@ public final class GetPlayerBlacklistRspOuterClass {
        *
        * <code>repeated .FriendBrief blacklist = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief.Builder getBlacklistBuilder(
           int index) {
         return getBlacklistFieldBuilder().getBuilder(index);
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -886,6 +1006,7 @@ public final class GetPlayerBlacklistRspOuterClass {
        *
        * <code>repeated .FriendBrief blacklist = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBriefOrBuilder getBlacklistOrBuilder(
           int index) {
         if (blacklistBuilder_ == null) {
@@ -893,6 +1014,10 @@ public final class GetPlayerBlacklistRspOuterClass {
           return blacklistBuilder_.getMessageOrBuilder(index);
         }
       }
+<<<<<<< HEAD
+
+      public java.util.List<? extends emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBriefOrBuilder>
+=======
       /**
        * <pre>
        *6.5.5     
@@ -901,6 +1026,7 @@ public final class GetPlayerBlacklistRspOuterClass {
        * <code>repeated .FriendBrief blacklist = 5;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBriefOrBuilder> 
+>>>>>>> origin/6.5.0
            getBlacklistOrBuilderList() {
         if (blacklistBuilder_ != null) {
           return blacklistBuilder_.getMessageOrBuilderList();
@@ -908,6 +1034,9 @@ public final class GetPlayerBlacklistRspOuterClass {
           return java.util.Collections.unmodifiableList(blacklist_);
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -915,10 +1044,14 @@ public final class GetPlayerBlacklistRspOuterClass {
        *
        * <code>repeated .FriendBrief blacklist = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief.Builder addBlacklistBuilder() {
         return getBlacklistFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief.getDefaultInstance());
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -926,11 +1059,16 @@ public final class GetPlayerBlacklistRspOuterClass {
        *
        * <code>repeated .FriendBrief blacklist = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief.Builder addBlacklistBuilder(
           int index) {
         return getBlacklistFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief.getDefaultInstance());
       }
+<<<<<<< HEAD
+
+      public java.util.List<emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief.Builder>
+=======
       /**
        * <pre>
        *6.5.5     
@@ -939,11 +1077,12 @@ public final class GetPlayerBlacklistRspOuterClass {
        * <code>repeated .FriendBrief blacklist = 5;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief.Builder> 
+>>>>>>> origin/6.5.0
            getBlacklistBuilderList() {
         return getBlacklistFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief, emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief.Builder, emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBriefOrBuilder> 
+          emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief, emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBrief.Builder, emu.grasscutter.net.proto.FriendBriefOuterClass.FriendBriefOrBuilder>
           getBlacklistFieldBuilder() {
         if (blacklistBuilder_ == null) {
           blacklistBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -967,7 +1106,6 @@ public final class GetPlayerBlacklistRspOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:GetPlayerBlacklistRsp)
     }
@@ -1011,7 +1149,7 @@ public final class GetPlayerBlacklistRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetPlayerBlacklistRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetPlayerBlacklistRsp_fieldAccessorTable;
 

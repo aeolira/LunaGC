@@ -18,6 +18,12 @@ public final class GetActivityInfoReqOuterClass {
       // @@protoc_insertion_point(interface_extends:GetActivityInfoReq)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    java.util.List<java.lang.Integer> getActivityIdListList();
+
+    int getActivityIdListCount();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0   
@@ -45,6 +51,7 @@ public final class GetActivityInfoReqOuterClass {
      * @param index The index of the element to return.
      * @return The activityIdList at the given index.
      */
+>>>>>>> origin/6.5.0
     int getActivityIdList(int index);
   }
   /**
@@ -156,6 +163,9 @@ public final class GetActivityInfoReqOuterClass {
 
     public static final int ACTIVITY_ID_LIST_FIELD_NUMBER = 11;
     private com.google.protobuf.Internal.IntList activityIdList_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0   
@@ -164,11 +174,19 @@ public final class GetActivityInfoReqOuterClass {
      * <code>repeated uint32 activity_id_list = 11;</code>
      * @return A list containing the activityIdList.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getActivityIdListList() {
       return activityIdList_;
     }
+<<<<<<< HEAD
+
+    public int getActivityIdListCount() {
+      return activityIdList_.size();
+    }
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0   
@@ -189,6 +207,7 @@ public final class GetActivityInfoReqOuterClass {
      * @param index The index of the element to return.
      * @return The activityIdList at the given index.
      */
+>>>>>>> origin/6.5.0
     public int getActivityIdList(int index) {
       return activityIdList_.getInt(index);
     }
@@ -537,6 +556,9 @@ public final class GetActivityInfoReqOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0   
@@ -545,11 +567,23 @@ public final class GetActivityInfoReqOuterClass {
        * <code>repeated uint32 activity_id_list = 11;</code>
        * @return A list containing the activityIdList.
        */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getActivityIdListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(activityIdList_) : activityIdList_;
       }
+<<<<<<< HEAD
+
+      public int getActivityIdListCount() {
+        return activityIdList_.size();
+      }
+
+      public int getActivityIdList(int index) {
+        return activityIdList_.getInt(index);
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0   
@@ -583,6 +617,7 @@ public final class GetActivityInfoReqOuterClass {
        * @param value The activityIdList to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setActivityIdList(
           int index, int value) {
         ensureActivityIdListIsMutable();
@@ -590,6 +625,9 @@ public final class GetActivityInfoReqOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0   
@@ -599,12 +637,16 @@ public final class GetActivityInfoReqOuterClass {
        * @param value The activityIdList to add.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder addActivityIdList(int value) {
         ensureActivityIdListIsMutable();
         activityIdList_.addInt(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0   
@@ -614,6 +656,7 @@ public final class GetActivityInfoReqOuterClass {
        * @param values The activityIdList to add.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder addAllActivityIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureActivityIdListIsMutable();
@@ -622,6 +665,9 @@ public final class GetActivityInfoReqOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0   
@@ -630,6 +676,7 @@ public final class GetActivityInfoReqOuterClass {
        * <code>repeated uint32 activity_id_list = 11;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearActivityIdList() {
         activityIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -647,7 +694,6 @@ public final class GetActivityInfoReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:GetActivityInfoReq)
     }
@@ -691,7 +737,7 @@ public final class GetActivityInfoReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetActivityInfoReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetActivityInfoReq_fieldAccessorTable;
 

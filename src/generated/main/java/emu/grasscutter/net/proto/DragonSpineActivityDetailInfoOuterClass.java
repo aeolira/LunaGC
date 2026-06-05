@@ -21,7 +21,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
     /**
      * <code>repeated .GFKOHEPPBBN AEPAJCHDHED = 9;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.GFKOHEPPBBNOuterClass.GFKOHEPPBBN> 
+    java.util.List<emu.grasscutter.net.proto.GFKOHEPPBBNOuterClass.GFKOHEPPBBN>
         getAEPAJCHDHEDList();
     /**
      * <code>repeated .GFKOHEPPBBN AEPAJCHDHED = 9;</code>
@@ -34,7 +34,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
     /**
      * <code>repeated .GFKOHEPPBBN AEPAJCHDHED = 9;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.GFKOHEPPBBNOuterClass.GFKOHEPPBBNOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.GFKOHEPPBBNOuterClass.GFKOHEPPBBNOrBuilder>
         getAEPAJCHDHEDOrBuilderList();
     /**
      * <code>repeated .GFKOHEPPBBN AEPAJCHDHED = 9;</code>
@@ -42,6 +42,8 @@ public final class DragonSpineActivityDetailInfoOuterClass {
     emu.grasscutter.net.proto.GFKOHEPPBBNOuterClass.GFKOHEPPBBNOrBuilder getAEPAJCHDHEDOrBuilder(
         int index);
 
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -50,6 +52,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
      * <code>bool is_content_closed = 8;</code>
      * @return The isContentClosed.
      */
+>>>>>>> origin/6.5.0
     boolean getIsContentClosed();
 
     /**
@@ -205,7 +208,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
      * <code>repeated .GFKOHEPPBBN AEPAJCHDHED = 9;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.GFKOHEPPBBNOuterClass.GFKOHEPPBBNOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.GFKOHEPPBBNOuterClass.GFKOHEPPBBNOrBuilder>
         getAEPAJCHDHEDOrBuilderList() {
       return aEPAJCHDHED_;
     }
@@ -234,6 +237,9 @@ public final class DragonSpineActivityDetailInfoOuterClass {
 
     public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 8;
     private boolean isContentClosed_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -242,6 +248,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
      * <code>bool is_content_closed = 8;</code>
      * @return The isContentClosed.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsContentClosed() {
       return isContentClosed_;
@@ -666,7 +673,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
               aEPAJCHDHEDBuilder_ = null;
               aEPAJCHDHED_ = other.aEPAJCHDHED_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              aEPAJCHDHEDBuilder_ = 
+              aEPAJCHDHEDBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getAEPAJCHDHEDFieldBuilder() : null;
             } else {
@@ -914,7 +921,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
       /**
        * <code>repeated .GFKOHEPPBBN AEPAJCHDHED = 9;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.GFKOHEPPBBNOuterClass.GFKOHEPPBBNOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.GFKOHEPPBBNOuterClass.GFKOHEPPBBNOrBuilder>
            getAEPAJCHDHEDOrBuilderList() {
         if (aEPAJCHDHEDBuilder_ != null) {
           return aEPAJCHDHEDBuilder_.getMessageOrBuilderList();
@@ -940,12 +947,12 @@ public final class DragonSpineActivityDetailInfoOuterClass {
       /**
        * <code>repeated .GFKOHEPPBBN AEPAJCHDHED = 9;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.GFKOHEPPBBNOuterClass.GFKOHEPPBBN.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.GFKOHEPPBBNOuterClass.GFKOHEPPBBN.Builder>
            getAEPAJCHDHEDBuilderList() {
         return getAEPAJCHDHEDFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.GFKOHEPPBBNOuterClass.GFKOHEPPBBN, emu.grasscutter.net.proto.GFKOHEPPBBNOuterClass.GFKOHEPPBBN.Builder, emu.grasscutter.net.proto.GFKOHEPPBBNOuterClass.GFKOHEPPBBNOrBuilder> 
+          emu.grasscutter.net.proto.GFKOHEPPBBNOuterClass.GFKOHEPPBBN, emu.grasscutter.net.proto.GFKOHEPPBBNOuterClass.GFKOHEPPBBN.Builder, emu.grasscutter.net.proto.GFKOHEPPBBNOuterClass.GFKOHEPPBBNOrBuilder>
           getAEPAJCHDHEDFieldBuilder() {
         if (aEPAJCHDHEDBuilder_ == null) {
           aEPAJCHDHEDBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -960,6 +967,9 @@ public final class DragonSpineActivityDetailInfoOuterClass {
       }
 
       private boolean isContentClosed_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -968,10 +978,14 @@ public final class DragonSpineActivityDetailInfoOuterClass {
        * <code>bool is_content_closed = 8;</code>
        * @return The isContentClosed.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsContentClosed() {
         return isContentClosed_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -981,12 +995,16 @@ public final class DragonSpineActivityDetailInfoOuterClass {
        * @param value The isContentClosed to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setIsContentClosed(boolean value) {
-        
+
         isContentClosed_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -995,8 +1013,9 @@ public final class DragonSpineActivityDetailInfoOuterClass {
        * <code>bool is_content_closed = 8;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearIsContentClosed() {
-        
+
         isContentClosed_ = false;
         onChanged();
         return this;
@@ -1017,7 +1036,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDNODGCMPOAN(int value) {
-        
+
         dNODGCMPOAN_ = value;
         onChanged();
         return this;
@@ -1027,7 +1046,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDNODGCMPOAN() {
-        
+
         dNODGCMPOAN_ = 0;
         onChanged();
         return this;
@@ -1048,7 +1067,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOCMNHFBGFBG(int value) {
-        
+
         oCMNHFBGFBG_ = value;
         onChanged();
         return this;
@@ -1058,7 +1077,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOCMNHFBGFBG() {
-        
+
         oCMNHFBGFBG_ = 0;
         onChanged();
         return this;
@@ -1079,7 +1098,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMPBNAFAJHOD(int value) {
-        
+
         mPBNAFAJHOD_ = value;
         onChanged();
         return this;
@@ -1089,7 +1108,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMPBNAFAJHOD() {
-        
+
         mPBNAFAJHOD_ = 0;
         onChanged();
         return this;
@@ -1110,7 +1129,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMDHGPIPFBOJ(int value) {
-        
+
         mDHGPIPFBOJ_ = value;
         onChanged();
         return this;
@@ -1120,7 +1139,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMDHGPIPFBOJ() {
-        
+
         mDHGPIPFBOJ_ = 0;
         onChanged();
         return this;
@@ -1136,7 +1155,6 @@ public final class DragonSpineActivityDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:DragonSpineActivityDetailInfo)
     }
@@ -1180,7 +1198,7 @@ public final class DragonSpineActivityDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_DragonSpineActivityDetailInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_DragonSpineActivityDetailInfo_fieldAccessorTable;
 

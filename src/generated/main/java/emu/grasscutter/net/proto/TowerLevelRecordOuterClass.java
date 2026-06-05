@@ -35,6 +35,8 @@ public final class TowerLevelRecordOuterClass {
      */
     int getPEJCBHFHGOO(int index);
 
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -43,6 +45,7 @@ public final class TowerLevelRecordOuterClass {
      * <code>uint32 level_id = 10;</code>
      * @return The levelId.
      */
+>>>>>>> origin/6.5.0
     int getLevelId();
   }
   /**
@@ -181,8 +184,11 @@ public final class TowerLevelRecordOuterClass {
     }
     private int pEJCBHFHGOOMemoizedSerializedSize = -1;
 
-    public static final int LEVEL_ID_FIELD_NUMBER = 10;
+    public static final int LEVEL_ID_FIELD_NUMBER = 1;
     private int levelId_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -191,6 +197,7 @@ public final class TowerLevelRecordOuterClass {
      * <code>uint32 level_id = 10;</code>
      * @return The levelId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getLevelId() {
       return levelId_;
@@ -219,7 +226,7 @@ public final class TowerLevelRecordOuterClass {
         output.writeUInt32NoTag(pEJCBHFHGOO_.getInt(i));
       }
       if (levelId_ != 0) {
-        output.writeUInt32(10, levelId_);
+        output.writeUInt32(1, levelId_);
       }
       unknownFields.writeTo(output);
     }
@@ -246,7 +253,7 @@ public final class TowerLevelRecordOuterClass {
       }
       if (levelId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(10, levelId_);
+          .computeUInt32Size(1, levelId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -625,6 +632,9 @@ public final class TowerLevelRecordOuterClass {
       }
 
       private int levelId_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -633,10 +643,14 @@ public final class TowerLevelRecordOuterClass {
        * <code>uint32 level_id = 10;</code>
        * @return The levelId.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getLevelId() {
         return levelId_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -646,12 +660,16 @@ public final class TowerLevelRecordOuterClass {
        * @param value The levelId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setLevelId(int value) {
-        
+
         levelId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -660,8 +678,9 @@ public final class TowerLevelRecordOuterClass {
        * <code>uint32 level_id = 10;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearLevelId() {
-        
+
         levelId_ = 0;
         onChanged();
         return this;
@@ -677,7 +696,6 @@ public final class TowerLevelRecordOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:TowerLevelRecord)
     }
@@ -721,7 +739,7 @@ public final class TowerLevelRecordOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_TowerLevelRecord_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_TowerLevelRecord_fieldAccessorTable;
 

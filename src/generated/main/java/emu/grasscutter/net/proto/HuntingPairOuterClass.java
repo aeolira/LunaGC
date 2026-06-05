@@ -18,6 +18,8 @@ public final class HuntingPairOuterClass {
       // @@protoc_insertion_point(interface_extends:HuntingPair)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0   
@@ -26,6 +28,7 @@ public final class HuntingPairOuterClass {
      * <code>uint32 monster_config_id = 15;</code>
      * @return The monsterConfigId.
      */
+>>>>>>> origin/6.5.0
     int getMonsterConfigId();
 
     /**
@@ -121,8 +124,11 @@ public final class HuntingPairOuterClass {
               emu.grasscutter.net.proto.HuntingPairOuterClass.HuntingPair.class, emu.grasscutter.net.proto.HuntingPairOuterClass.HuntingPair.Builder.class);
     }
 
-    public static final int MONSTER_CONFIG_ID_FIELD_NUMBER = 15;
+    public static final int MONSTER_CONFIG_ID_FIELD_NUMBER = 6;
     private int monsterConfigId_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0   
@@ -131,6 +137,7 @@ public final class HuntingPairOuterClass {
      * <code>uint32 monster_config_id = 15;</code>
      * @return The monsterConfigId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getMonsterConfigId() {
       return monsterConfigId_;
@@ -165,7 +172,7 @@ public final class HuntingPairOuterClass {
         output.writeUInt32(10, aPNHIONPPGB_);
       }
       if (monsterConfigId_ != 0) {
-        output.writeUInt32(15, monsterConfigId_);
+        output.writeUInt32(6, monsterConfigId_);
       }
       unknownFields.writeTo(output);
     }
@@ -182,7 +189,7 @@ public final class HuntingPairOuterClass {
       }
       if (monsterConfigId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(15, monsterConfigId_);
+          .computeUInt32Size(6, monsterConfigId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -467,6 +474,9 @@ public final class HuntingPairOuterClass {
       }
 
       private int monsterConfigId_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0   
@@ -475,10 +485,14 @@ public final class HuntingPairOuterClass {
        * <code>uint32 monster_config_id = 15;</code>
        * @return The monsterConfigId.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getMonsterConfigId() {
         return monsterConfigId_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0   
@@ -488,12 +502,16 @@ public final class HuntingPairOuterClass {
        * @param value The monsterConfigId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setMonsterConfigId(int value) {
-        
+
         monsterConfigId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0   
@@ -502,8 +520,9 @@ public final class HuntingPairOuterClass {
        * <code>uint32 monster_config_id = 15;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearMonsterConfigId() {
-        
+
         monsterConfigId_ = 0;
         onChanged();
         return this;
@@ -524,7 +543,7 @@ public final class HuntingPairOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAPNHIONPPGB(int value) {
-        
+
         aPNHIONPPGB_ = value;
         onChanged();
         return this;
@@ -534,7 +553,7 @@ public final class HuntingPairOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAPNHIONPPGB() {
-        
+
         aPNHIONPPGB_ = 0;
         onChanged();
         return this;
@@ -550,7 +569,6 @@ public final class HuntingPairOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:HuntingPair)
     }
@@ -594,7 +612,7 @@ public final class HuntingPairOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_HuntingPair_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_HuntingPair_fieldAccessorTable;
 

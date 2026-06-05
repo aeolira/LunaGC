@@ -18,6 +18,8 @@ public final class RoguelikeGadgetInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:RoguelikeGadgetInfo)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -26,6 +28,7 @@ public final class RoguelikeGadgetInfoOuterClass {
      * <code>uint32 cell_id = 4;</code>
      * @return The cellId.
      */
+>>>>>>> origin/6.5.0
     int getCellId();
 
     /**
@@ -145,6 +148,9 @@ public final class RoguelikeGadgetInfoOuterClass {
 
     public static final int CELL_ID_FIELD_NUMBER = 4;
     private int cellId_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -153,6 +159,7 @@ public final class RoguelikeGadgetInfoOuterClass {
      * <code>uint32 cell_id = 4;</code>
      * @return The cellId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCellId() {
       return cellId_;
@@ -545,6 +552,9 @@ public final class RoguelikeGadgetInfoOuterClass {
       }
 
       private int cellId_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -553,10 +563,14 @@ public final class RoguelikeGadgetInfoOuterClass {
        * <code>uint32 cell_id = 4;</code>
        * @return The cellId.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCellId() {
         return cellId_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -566,12 +580,16 @@ public final class RoguelikeGadgetInfoOuterClass {
        * @param value The cellId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setCellId(int value) {
-        
+
         cellId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -580,8 +598,9 @@ public final class RoguelikeGadgetInfoOuterClass {
        * <code>uint32 cell_id = 4;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearCellId() {
-        
+
         cellId_ = 0;
         onChanged();
         return this;
@@ -602,7 +621,7 @@ public final class RoguelikeGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setGPLFEMAHFEI(int value) {
-        
+
         gPLFEMAHFEI_ = value;
         onChanged();
         return this;
@@ -612,7 +631,7 @@ public final class RoguelikeGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearGPLFEMAHFEI() {
-        
+
         gPLFEMAHFEI_ = 0;
         onChanged();
         return this;
@@ -633,7 +652,7 @@ public final class RoguelikeGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEEEOIJHJIJJ(int value) {
-        
+
         eEEOIJHJIJJ_ = value;
         onChanged();
         return this;
@@ -643,7 +662,7 @@ public final class RoguelikeGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEEEOIJHJIJJ() {
-        
+
         eEEOIJHJIJJ_ = 0;
         onChanged();
         return this;
@@ -664,7 +683,7 @@ public final class RoguelikeGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setJNHLCOFNKKH(int value) {
-        
+
         jNHLCOFNKKH_ = value;
         onChanged();
         return this;
@@ -674,7 +693,7 @@ public final class RoguelikeGadgetInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearJNHLCOFNKKH() {
-        
+
         jNHLCOFNKKH_ = 0;
         onChanged();
         return this;
@@ -690,7 +709,6 @@ public final class RoguelikeGadgetInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:RoguelikeGadgetInfo)
     }
@@ -734,7 +752,7 @@ public final class RoguelikeGadgetInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_RoguelikeGadgetInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_RoguelikeGadgetInfo_fieldAccessorTable;
 

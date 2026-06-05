@@ -18,6 +18,8 @@ public final class PersonalSceneJumpReqOuterClass {
       // @@protoc_insertion_point(interface_extends:PersonalSceneJumpReq)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0     
@@ -26,6 +28,7 @@ public final class PersonalSceneJumpReqOuterClass {
      * <code>uint32 point_id = 10;</code>
      * @return The pointId.
      */
+>>>>>>> origin/6.5.0
     int getPointId();
   }
   /**
@@ -116,6 +119,9 @@ public final class PersonalSceneJumpReqOuterClass {
 
     public static final int POINT_ID_FIELD_NUMBER = 10;
     private int pointId_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0     
@@ -124,6 +130,7 @@ public final class PersonalSceneJumpReqOuterClass {
      * <code>uint32 point_id = 10;</code>
      * @return The pointId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getPointId() {
       return pointId_;
@@ -436,6 +443,9 @@ public final class PersonalSceneJumpReqOuterClass {
       }
 
       private int pointId_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -444,10 +454,14 @@ public final class PersonalSceneJumpReqOuterClass {
        * <code>uint32 point_id = 10;</code>
        * @return The pointId.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getPointId() {
         return pointId_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -457,12 +471,16 @@ public final class PersonalSceneJumpReqOuterClass {
        * @param value The pointId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setPointId(int value) {
-        
+
         pointId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -471,8 +489,9 @@ public final class PersonalSceneJumpReqOuterClass {
        * <code>uint32 point_id = 10;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearPointId() {
-        
+
         pointId_ = 0;
         onChanged();
         return this;
@@ -488,7 +507,6 @@ public final class PersonalSceneJumpReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:PersonalSceneJumpReq)
     }
@@ -532,7 +550,7 @@ public final class PersonalSceneJumpReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PersonalSceneJumpReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PersonalSceneJumpReq_fieldAccessorTable;
 

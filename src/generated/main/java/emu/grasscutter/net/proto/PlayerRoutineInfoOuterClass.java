@@ -18,6 +18,10 @@ public final class PlayerRoutineInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:PlayerRoutineInfo)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    int getRoutineType();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -36,6 +40,7 @@ public final class PlayerRoutineInfoOuterClass {
      * <code>uint32 finished_num = 1;</code>
      * @return The finishedNum.
      */
+>>>>>>> origin/6.5.0
     int getFinishedNum();
   }
   /**
@@ -127,6 +132,9 @@ public final class PlayerRoutineInfoOuterClass {
 
     public static final int ROUTINE_TYPE_FIELD_NUMBER = 4;
     private int routineType_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -135,6 +143,7 @@ public final class PlayerRoutineInfoOuterClass {
      * <code>uint32 routine_type = 4;</code>
      * @return The routineType.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRoutineType() {
       return routineType_;
@@ -142,6 +151,9 @@ public final class PlayerRoutineInfoOuterClass {
 
     public static final int FINISHED_NUM_FIELD_NUMBER = 1;
     private int finishedNum_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -150,6 +162,7 @@ public final class PlayerRoutineInfoOuterClass {
      * <code>uint32 finished_num = 1;</code>
      * @return The finishedNum.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getFinishedNum() {
       return finishedNum_;
@@ -475,6 +488,9 @@ public final class PlayerRoutineInfoOuterClass {
       }
 
       private int routineType_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -483,10 +499,14 @@ public final class PlayerRoutineInfoOuterClass {
        * <code>uint32 routine_type = 4;</code>
        * @return The routineType.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRoutineType() {
         return routineType_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -496,12 +516,16 @@ public final class PlayerRoutineInfoOuterClass {
        * @param value The routineType to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setRoutineType(int value) {
-        
+
         routineType_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -510,14 +534,18 @@ public final class PlayerRoutineInfoOuterClass {
        * <code>uint32 routine_type = 4;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearRoutineType() {
-        
+
         routineType_ = 0;
         onChanged();
         return this;
       }
 
       private int finishedNum_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -526,10 +554,14 @@ public final class PlayerRoutineInfoOuterClass {
        * <code>uint32 finished_num = 1;</code>
        * @return The finishedNum.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getFinishedNum() {
         return finishedNum_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -539,12 +571,16 @@ public final class PlayerRoutineInfoOuterClass {
        * @param value The finishedNum to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setFinishedNum(int value) {
-        
+
         finishedNum_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -553,8 +589,9 @@ public final class PlayerRoutineInfoOuterClass {
        * <code>uint32 finished_num = 1;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearFinishedNum() {
-        
+
         finishedNum_ = 0;
         onChanged();
         return this;
@@ -570,7 +607,6 @@ public final class PlayerRoutineInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:PlayerRoutineInfo)
     }
@@ -614,7 +650,7 @@ public final class PlayerRoutineInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerRoutineInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerRoutineInfo_fieldAccessorTable;
 

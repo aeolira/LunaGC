@@ -18,6 +18,24 @@ public final class RoutePointOuterClass {
       // @@protoc_insertion_point(interface_extends:RoutePoint)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    boolean hasAction();
+
+    emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP getAction();
+
+    emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFPOrBuilder getActionOrBuilder();
+
+    boolean hasPosition();
+
+    emu.grasscutter.net.proto.VectorOuterClass.Vector getPosition();
+
+    emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPositionOrBuilder();
+
+    int getPointTypeValue();
+
+    emu.grasscutter.net.proto.OBHJADAPFGNOuterClass.OBHJADAPFGN getPointType();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -99,6 +117,7 @@ public final class RoutePointOuterClass {
      * <code>float arrive_range = 2;</code>
      * @return The arriveRange.
      */
+>>>>>>> origin/6.5.0
     float getArriveRange();
 
     /**
@@ -113,6 +132,32 @@ public final class RoutePointOuterClass {
      */
     boolean getCAAOCADPLNE();
 
+<<<<<<< HEAD
+    boolean hasVelocity();
+
+    float getVelocity();
+
+    boolean hasTime();
+
+    float getTime();
+
+    boolean hasRotation();
+
+    emu.grasscutter.net.proto.VectorOuterClass.Vector getRotation();
+
+    emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRotationOrBuilder();
+
+    boolean hasRotationSpeed();
+
+    emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion getRotationSpeed();
+
+    emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternionOrBuilder getRotationSpeedOrBuilder();
+
+    boolean hasAxisSpeed();
+
+    emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion getAxisSpeed();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -230,6 +275,7 @@ public final class RoutePointOuterClass {
      *
      * <code>.MathQuaternion axis_speed = 23;</code>
      */
+>>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternionOrBuilder getAxisSpeedOrBuilder();
 
     public emu.grasscutter.net.proto.RoutePointOuterClass.RoutePoint.MoveParamsCase getMoveParamsCase();
@@ -499,6 +545,9 @@ public final class RoutePointOuterClass {
 
     public static final int ACTION_FIELD_NUMBER = 25;
     private emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP action_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -507,10 +556,14 @@ public final class RoutePointOuterClass {
      * <code>.MHDOKEBFCFP action = 25;</code>
      * @return Whether the action field is set.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasAction() {
       return action_ != null;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -519,10 +572,14 @@ public final class RoutePointOuterClass {
      * <code>.MHDOKEBFCFP action = 25;</code>
      * @return The action.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP getAction() {
       return action_ == null ? emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP.getDefaultInstance() : action_;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -530,6 +587,7 @@ public final class RoutePointOuterClass {
      *
      * <code>.MHDOKEBFCFP action = 25;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFPOrBuilder getActionOrBuilder() {
       return getAction();
@@ -537,6 +595,9 @@ public final class RoutePointOuterClass {
 
     public static final int POSITION_FIELD_NUMBER = 1;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector position_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -545,10 +606,14 @@ public final class RoutePointOuterClass {
      * <code>.Vector position = 1;</code>
      * @return Whether the position field is set.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasPosition() {
       return position_ != null;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -557,10 +622,14 @@ public final class RoutePointOuterClass {
      * <code>.Vector position = 1;</code>
      * @return The position.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.Vector getPosition() {
       return position_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : position_;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -568,6 +637,7 @@ public final class RoutePointOuterClass {
      *
      * <code>.Vector position = 1;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPositionOrBuilder() {
       return getPosition();
@@ -575,6 +645,13 @@ public final class RoutePointOuterClass {
 
     public static final int POINT_TYPE_FIELD_NUMBER = 24;
     private int pointType_;
+<<<<<<< HEAD
+
+    @java.lang.Override public int getPointTypeValue() {
+      return pointType_;
+    }
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -594,6 +671,7 @@ public final class RoutePointOuterClass {
      * <code>.OBHJADAPFGN point_type = 24;</code>
      * @return The pointType.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override public emu.grasscutter.net.proto.OBHJADAPFGNOuterClass.OBHJADAPFGN getPointType() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.OBHJADAPFGNOuterClass.OBHJADAPFGN result = emu.grasscutter.net.proto.OBHJADAPFGNOuterClass.OBHJADAPFGN.valueOf(pointType_);
@@ -602,6 +680,9 @@ public final class RoutePointOuterClass {
 
     public static final int ARRIVE_RANGE_FIELD_NUMBER = 2;
     private float arriveRange_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -610,6 +691,7 @@ public final class RoutePointOuterClass {
      * <code>float arrive_range = 2;</code>
      * @return The arriveRange.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public float getArriveRange() {
       return arriveRange_;
@@ -638,6 +720,9 @@ public final class RoutePointOuterClass {
     }
 
     public static final int VELOCITY_FIELD_NUMBER = 11;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -646,10 +731,14 @@ public final class RoutePointOuterClass {
      * <code>float velocity = 11;</code>
      * @return Whether the velocity field is set.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasVelocity() {
       return moveParamsCase_ == 11;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -658,6 +747,7 @@ public final class RoutePointOuterClass {
      * <code>float velocity = 11;</code>
      * @return The velocity.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public float getVelocity() {
       if (moveParamsCase_ == 11) {
@@ -667,6 +757,9 @@ public final class RoutePointOuterClass {
     }
 
     public static final int TIME_FIELD_NUMBER = 12;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -675,10 +768,14 @@ public final class RoutePointOuterClass {
      * <code>float time = 12;</code>
      * @return Whether the time field is set.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasTime() {
       return moveParamsCase_ == 12;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -687,6 +784,7 @@ public final class RoutePointOuterClass {
      * <code>float time = 12;</code>
      * @return The time.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public float getTime() {
       if (moveParamsCase_ == 12) {
@@ -696,6 +794,9 @@ public final class RoutePointOuterClass {
     }
 
     public static final int ROTATION_FIELD_NUMBER = 21;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -704,10 +805,14 @@ public final class RoutePointOuterClass {
      * <code>.Vector rotation = 21;</code>
      * @return Whether the rotation field is set.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasRotation() {
       return rotateParamsCase_ == 21;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -716,6 +821,7 @@ public final class RoutePointOuterClass {
      * <code>.Vector rotation = 21;</code>
      * @return The rotation.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.Vector getRotation() {
       if (rotateParamsCase_ == 21) {
@@ -723,6 +829,9 @@ public final class RoutePointOuterClass {
       }
       return emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance();
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -730,6 +839,7 @@ public final class RoutePointOuterClass {
      *
      * <code>.Vector rotation = 21;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRotationOrBuilder() {
       if (rotateParamsCase_ == 21) {
@@ -739,6 +849,9 @@ public final class RoutePointOuterClass {
     }
 
     public static final int ROTATION_SPEED_FIELD_NUMBER = 22;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -747,10 +860,14 @@ public final class RoutePointOuterClass {
      * <code>.MathQuaternion rotation_speed = 22;</code>
      * @return Whether the rotationSpeed field is set.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasRotationSpeed() {
       return rotateParamsCase_ == 22;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -759,6 +876,7 @@ public final class RoutePointOuterClass {
      * <code>.MathQuaternion rotation_speed = 22;</code>
      * @return The rotationSpeed.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion getRotationSpeed() {
       if (rotateParamsCase_ == 22) {
@@ -766,6 +884,9 @@ public final class RoutePointOuterClass {
       }
       return emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.getDefaultInstance();
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -773,6 +894,7 @@ public final class RoutePointOuterClass {
      *
      * <code>.MathQuaternion rotation_speed = 22;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternionOrBuilder getRotationSpeedOrBuilder() {
       if (rotateParamsCase_ == 22) {
@@ -782,6 +904,9 @@ public final class RoutePointOuterClass {
     }
 
     public static final int AXIS_SPEED_FIELD_NUMBER = 23;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -790,10 +915,14 @@ public final class RoutePointOuterClass {
      * <code>.MathQuaternion axis_speed = 23;</code>
      * @return Whether the axisSpeed field is set.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasAxisSpeed() {
       return rotateParamsCase_ == 23;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -802,6 +931,7 @@ public final class RoutePointOuterClass {
      * <code>.MathQuaternion axis_speed = 23;</code>
      * @return The axisSpeed.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion getAxisSpeed() {
       if (rotateParamsCase_ == 23) {
@@ -809,6 +939,9 @@ public final class RoutePointOuterClass {
       }
       return emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.getDefaultInstance();
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -816,6 +949,7 @@ public final class RoutePointOuterClass {
      *
      * <code>.MathQuaternion axis_speed = 23;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternionOrBuilder getAxisSpeedOrBuilder() {
       if (rotateParamsCase_ == 23) {
@@ -1433,10 +1567,16 @@ public final class RoutePointOuterClass {
         return this;
       }
 
-
       private emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP action_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP, emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP.Builder, emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFPOrBuilder> actionBuilder_;
+<<<<<<< HEAD
+
+      public boolean hasAction() {
+        return actionBuilder_ != null || action_ != null;
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1456,6 +1596,7 @@ public final class RoutePointOuterClass {
        * <code>.MHDOKEBFCFP action = 25;</code>
        * @return The action.
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP getAction() {
         if (actionBuilder_ == null) {
           return action_ == null ? emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP.getDefaultInstance() : action_;
@@ -1463,6 +1604,9 @@ public final class RoutePointOuterClass {
           return actionBuilder_.getMessage();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1470,6 +1614,7 @@ public final class RoutePointOuterClass {
        *
        * <code>.MHDOKEBFCFP action = 25;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setAction(emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP value) {
         if (actionBuilder_ == null) {
           if (value == null) {
@@ -1483,6 +1628,9 @@ public final class RoutePointOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1490,6 +1638,7 @@ public final class RoutePointOuterClass {
        *
        * <code>.MHDOKEBFCFP action = 25;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setAction(
           emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP.Builder builderForValue) {
         if (actionBuilder_ == null) {
@@ -1501,6 +1650,9 @@ public final class RoutePointOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1508,6 +1660,7 @@ public final class RoutePointOuterClass {
        *
        * <code>.MHDOKEBFCFP action = 25;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder mergeAction(emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP value) {
         if (actionBuilder_ == null) {
           if (action_ != null) {
@@ -1523,6 +1676,9 @@ public final class RoutePointOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1530,6 +1686,7 @@ public final class RoutePointOuterClass {
        *
        * <code>.MHDOKEBFCFP action = 25;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder clearAction() {
         if (actionBuilder_ == null) {
           action_ = null;
@@ -1541,6 +1698,9 @@ public final class RoutePointOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1548,11 +1708,15 @@ public final class RoutePointOuterClass {
        *
        * <code>.MHDOKEBFCFP action = 25;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP.Builder getActionBuilder() {
-        
+
         onChanged();
         return getActionFieldBuilder().getBuilder();
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1560,6 +1724,7 @@ public final class RoutePointOuterClass {
        *
        * <code>.MHDOKEBFCFP action = 25;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFPOrBuilder getActionOrBuilder() {
         if (actionBuilder_ != null) {
           return actionBuilder_.getMessageOrBuilder();
@@ -1568,6 +1733,9 @@ public final class RoutePointOuterClass {
               emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP.getDefaultInstance() : action_;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1575,8 +1743,9 @@ public final class RoutePointOuterClass {
        *
        * <code>.MHDOKEBFCFP action = 25;</code>
        */
+>>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP, emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP.Builder, emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFPOrBuilder> 
+          emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP, emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFP.Builder, emu.grasscutter.net.proto.MHDOKEBFCFPOuterClass.MHDOKEBFCFPOrBuilder>
           getActionFieldBuilder() {
         if (actionBuilder_ == null) {
           actionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1592,6 +1761,13 @@ public final class RoutePointOuterClass {
       private emu.grasscutter.net.proto.VectorOuterClass.Vector position_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> positionBuilder_;
+<<<<<<< HEAD
+
+      public boolean hasPosition() {
+        return positionBuilder_ != null || position_ != null;
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1611,6 +1787,7 @@ public final class RoutePointOuterClass {
        * <code>.Vector position = 1;</code>
        * @return The position.
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.VectorOuterClass.Vector getPosition() {
         if (positionBuilder_ == null) {
           return position_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : position_;
@@ -1618,6 +1795,9 @@ public final class RoutePointOuterClass {
           return positionBuilder_.getMessage();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1625,6 +1805,7 @@ public final class RoutePointOuterClass {
        *
        * <code>.Vector position = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setPosition(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (positionBuilder_ == null) {
           if (value == null) {
@@ -1638,6 +1819,9 @@ public final class RoutePointOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1645,6 +1829,7 @@ public final class RoutePointOuterClass {
        *
        * <code>.Vector position = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setPosition(
           emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
         if (positionBuilder_ == null) {
@@ -1656,6 +1841,9 @@ public final class RoutePointOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1663,6 +1851,7 @@ public final class RoutePointOuterClass {
        *
        * <code>.Vector position = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder mergePosition(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (positionBuilder_ == null) {
           if (position_ != null) {
@@ -1678,6 +1867,9 @@ public final class RoutePointOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1685,6 +1877,7 @@ public final class RoutePointOuterClass {
        *
        * <code>.Vector position = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder clearPosition() {
         if (positionBuilder_ == null) {
           position_ = null;
@@ -1696,6 +1889,9 @@ public final class RoutePointOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1703,11 +1899,15 @@ public final class RoutePointOuterClass {
        *
        * <code>.Vector position = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getPositionBuilder() {
-        
+
         onChanged();
         return getPositionFieldBuilder().getBuilder();
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1715,6 +1915,7 @@ public final class RoutePointOuterClass {
        *
        * <code>.Vector position = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getPositionOrBuilder() {
         if (positionBuilder_ != null) {
           return positionBuilder_.getMessageOrBuilder();
@@ -1723,6 +1924,9 @@ public final class RoutePointOuterClass {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : position_;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1730,8 +1934,9 @@ public final class RoutePointOuterClass {
        *
        * <code>.Vector position = 1;</code>
        */
+>>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getPositionFieldBuilder() {
         if (positionBuilder_ == null) {
           positionBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -1745,6 +1950,13 @@ public final class RoutePointOuterClass {
       }
 
       private int pointType_ = 0;
+<<<<<<< HEAD
+
+      @java.lang.Override public int getPointTypeValue() {
+        return pointType_;
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1765,12 +1977,16 @@ public final class RoutePointOuterClass {
        * @param value The enum numeric value on the wire for pointType to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setPointTypeValue(int value) {
-        
+
         pointType_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1779,12 +1995,16 @@ public final class RoutePointOuterClass {
        * <code>.OBHJADAPFGN point_type = 24;</code>
        * @return The pointType.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.OBHJADAPFGNOuterClass.OBHJADAPFGN getPointType() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.OBHJADAPFGNOuterClass.OBHJADAPFGN result = emu.grasscutter.net.proto.OBHJADAPFGNOuterClass.OBHJADAPFGN.valueOf(pointType_);
         return result == null ? emu.grasscutter.net.proto.OBHJADAPFGNOuterClass.OBHJADAPFGN.UNRECOGNIZED : result;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1794,15 +2014,19 @@ public final class RoutePointOuterClass {
        * @param value The pointType to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setPointType(emu.grasscutter.net.proto.OBHJADAPFGNOuterClass.OBHJADAPFGN value) {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         pointType_ = value.getNumber();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1811,14 +2035,18 @@ public final class RoutePointOuterClass {
        * <code>.OBHJADAPFGN point_type = 24;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearPointType() {
-        
+
         pointType_ = 0;
         onChanged();
         return this;
       }
 
       private float arriveRange_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1827,10 +2055,14 @@ public final class RoutePointOuterClass {
        * <code>float arrive_range = 2;</code>
        * @return The arriveRange.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public float getArriveRange() {
         return arriveRange_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1840,12 +2072,16 @@ public final class RoutePointOuterClass {
        * @param value The arriveRange to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setArriveRange(float value) {
-        
+
         arriveRange_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1854,8 +2090,9 @@ public final class RoutePointOuterClass {
        * <code>float arrive_range = 2;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearArriveRange() {
-        
+
         arriveRange_ = 0F;
         onChanged();
         return this;
@@ -1876,7 +2113,7 @@ public final class RoutePointOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCPNIEMMJCKJ(boolean value) {
-        
+
         cPNIEMMJCKJ_ = value;
         onChanged();
         return this;
@@ -1886,7 +2123,7 @@ public final class RoutePointOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCPNIEMMJCKJ() {
-        
+
         cPNIEMMJCKJ_ = false;
         onChanged();
         return this;
@@ -1907,7 +2144,7 @@ public final class RoutePointOuterClass {
        * @return This builder for chaining.
        */
       public Builder setCAAOCADPLNE(boolean value) {
-        
+
         cAAOCADPLNE_ = value;
         onChanged();
         return this;
@@ -1917,12 +2154,18 @@ public final class RoutePointOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearCAAOCADPLNE() {
-        
+
         cAAOCADPLNE_ = false;
         onChanged();
         return this;
       }
 
+<<<<<<< HEAD
+      public boolean hasVelocity() {
+        return moveParamsCase_ == 11;
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1942,12 +2185,16 @@ public final class RoutePointOuterClass {
        * <code>float velocity = 11;</code>
        * @return The velocity.
        */
+>>>>>>> origin/6.5.0
       public float getVelocity() {
         if (moveParamsCase_ == 11) {
           return (java.lang.Float) moveParams_;
         }
         return 0F;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1957,12 +2204,16 @@ public final class RoutePointOuterClass {
        * @param value The velocity to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setVelocity(float value) {
         moveParamsCase_ = 11;
         moveParams_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1971,6 +2222,7 @@ public final class RoutePointOuterClass {
        * <code>float velocity = 11;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearVelocity() {
         if (moveParamsCase_ == 11) {
           moveParamsCase_ = 0;
@@ -1980,6 +2232,12 @@ public final class RoutePointOuterClass {
         return this;
       }
 
+<<<<<<< HEAD
+      public boolean hasTime() {
+        return moveParamsCase_ == 12;
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1999,12 +2257,16 @@ public final class RoutePointOuterClass {
        * <code>float time = 12;</code>
        * @return The time.
        */
+>>>>>>> origin/6.5.0
       public float getTime() {
         if (moveParamsCase_ == 12) {
           return (java.lang.Float) moveParams_;
         }
         return 0F;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2014,12 +2276,16 @@ public final class RoutePointOuterClass {
        * @param value The time to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setTime(float value) {
         moveParamsCase_ = 12;
         moveParams_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2028,6 +2294,7 @@ public final class RoutePointOuterClass {
        * <code>float time = 12;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearTime() {
         if (moveParamsCase_ == 12) {
           moveParamsCase_ = 0;
@@ -2039,6 +2306,9 @@ public final class RoutePointOuterClass {
 
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> rotationBuilder_;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2047,10 +2317,14 @@ public final class RoutePointOuterClass {
        * <code>.Vector rotation = 21;</code>
        * @return Whether the rotation field is set.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean hasRotation() {
         return rotateParamsCase_ == 21;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2059,6 +2333,7 @@ public final class RoutePointOuterClass {
        * <code>.Vector rotation = 21;</code>
        * @return The rotation.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.VectorOuterClass.Vector getRotation() {
         if (rotationBuilder_ == null) {
@@ -2073,6 +2348,9 @@ public final class RoutePointOuterClass {
           return emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2080,6 +2358,7 @@ public final class RoutePointOuterClass {
        *
        * <code>.Vector rotation = 21;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setRotation(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (rotationBuilder_ == null) {
           if (value == null) {
@@ -2093,6 +2372,9 @@ public final class RoutePointOuterClass {
         rotateParamsCase_ = 21;
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2100,6 +2382,7 @@ public final class RoutePointOuterClass {
        *
        * <code>.Vector rotation = 21;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setRotation(
           emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
         if (rotationBuilder_ == null) {
@@ -2111,6 +2394,9 @@ public final class RoutePointOuterClass {
         rotateParamsCase_ = 21;
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2118,6 +2404,7 @@ public final class RoutePointOuterClass {
        *
        * <code>.Vector rotation = 21;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder mergeRotation(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (rotationBuilder_ == null) {
           if (rotateParamsCase_ == 21 &&
@@ -2137,6 +2424,9 @@ public final class RoutePointOuterClass {
         rotateParamsCase_ = 21;
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2144,6 +2434,7 @@ public final class RoutePointOuterClass {
        *
        * <code>.Vector rotation = 21;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder clearRotation() {
         if (rotationBuilder_ == null) {
           if (rotateParamsCase_ == 21) {
@@ -2160,6 +2451,13 @@ public final class RoutePointOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+      public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getRotationBuilder() {
+        return getRotationFieldBuilder().getBuilder();
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2177,6 +2475,7 @@ public final class RoutePointOuterClass {
        *
        * <code>.Vector rotation = 21;</code>
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getRotationOrBuilder() {
         if ((rotateParamsCase_ == 21) && (rotationBuilder_ != null)) {
@@ -2188,6 +2487,9 @@ public final class RoutePointOuterClass {
           return emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2195,8 +2497,9 @@ public final class RoutePointOuterClass {
        *
        * <code>.Vector rotation = 21;</code>
        */
+>>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getRotationFieldBuilder() {
         if (rotationBuilder_ == null) {
           if (!(rotateParamsCase_ == 21)) {
@@ -2216,6 +2519,9 @@ public final class RoutePointOuterClass {
 
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.Builder, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternionOrBuilder> rotationSpeedBuilder_;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2224,10 +2530,14 @@ public final class RoutePointOuterClass {
        * <code>.MathQuaternion rotation_speed = 22;</code>
        * @return Whether the rotationSpeed field is set.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean hasRotationSpeed() {
         return rotateParamsCase_ == 22;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2236,6 +2546,7 @@ public final class RoutePointOuterClass {
        * <code>.MathQuaternion rotation_speed = 22;</code>
        * @return The rotationSpeed.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion getRotationSpeed() {
         if (rotationSpeedBuilder_ == null) {
@@ -2250,6 +2561,9 @@ public final class RoutePointOuterClass {
           return emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.getDefaultInstance();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2257,6 +2571,7 @@ public final class RoutePointOuterClass {
        *
        * <code>.MathQuaternion rotation_speed = 22;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setRotationSpeed(emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion value) {
         if (rotationSpeedBuilder_ == null) {
           if (value == null) {
@@ -2270,6 +2585,9 @@ public final class RoutePointOuterClass {
         rotateParamsCase_ = 22;
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2277,6 +2595,7 @@ public final class RoutePointOuterClass {
        *
        * <code>.MathQuaternion rotation_speed = 22;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setRotationSpeed(
           emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.Builder builderForValue) {
         if (rotationSpeedBuilder_ == null) {
@@ -2288,6 +2607,9 @@ public final class RoutePointOuterClass {
         rotateParamsCase_ = 22;
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2295,6 +2617,7 @@ public final class RoutePointOuterClass {
        *
        * <code>.MathQuaternion rotation_speed = 22;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder mergeRotationSpeed(emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion value) {
         if (rotationSpeedBuilder_ == null) {
           if (rotateParamsCase_ == 22 &&
@@ -2314,6 +2637,9 @@ public final class RoutePointOuterClass {
         rotateParamsCase_ = 22;
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2321,6 +2647,7 @@ public final class RoutePointOuterClass {
        *
        * <code>.MathQuaternion rotation_speed = 22;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder clearRotationSpeed() {
         if (rotationSpeedBuilder_ == null) {
           if (rotateParamsCase_ == 22) {
@@ -2337,6 +2664,13 @@ public final class RoutePointOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+      public emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.Builder getRotationSpeedBuilder() {
+        return getRotationSpeedFieldBuilder().getBuilder();
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2354,6 +2688,7 @@ public final class RoutePointOuterClass {
        *
        * <code>.MathQuaternion rotation_speed = 22;</code>
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternionOrBuilder getRotationSpeedOrBuilder() {
         if ((rotateParamsCase_ == 22) && (rotationSpeedBuilder_ != null)) {
@@ -2365,6 +2700,9 @@ public final class RoutePointOuterClass {
           return emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.getDefaultInstance();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2372,8 +2710,9 @@ public final class RoutePointOuterClass {
        *
        * <code>.MathQuaternion rotation_speed = 22;</code>
        */
+>>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.Builder, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternionOrBuilder> 
+          emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.Builder, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternionOrBuilder>
           getRotationSpeedFieldBuilder() {
         if (rotationSpeedBuilder_ == null) {
           if (!(rotateParamsCase_ == 22)) {
@@ -2393,6 +2732,9 @@ public final class RoutePointOuterClass {
 
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.Builder, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternionOrBuilder> axisSpeedBuilder_;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2401,10 +2743,14 @@ public final class RoutePointOuterClass {
        * <code>.MathQuaternion axis_speed = 23;</code>
        * @return Whether the axisSpeed field is set.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean hasAxisSpeed() {
         return rotateParamsCase_ == 23;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2413,6 +2759,7 @@ public final class RoutePointOuterClass {
        * <code>.MathQuaternion axis_speed = 23;</code>
        * @return The axisSpeed.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion getAxisSpeed() {
         if (axisSpeedBuilder_ == null) {
@@ -2427,6 +2774,9 @@ public final class RoutePointOuterClass {
           return emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.getDefaultInstance();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2434,6 +2784,7 @@ public final class RoutePointOuterClass {
        *
        * <code>.MathQuaternion axis_speed = 23;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setAxisSpeed(emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion value) {
         if (axisSpeedBuilder_ == null) {
           if (value == null) {
@@ -2447,6 +2798,9 @@ public final class RoutePointOuterClass {
         rotateParamsCase_ = 23;
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2454,6 +2808,7 @@ public final class RoutePointOuterClass {
        *
        * <code>.MathQuaternion axis_speed = 23;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setAxisSpeed(
           emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.Builder builderForValue) {
         if (axisSpeedBuilder_ == null) {
@@ -2465,6 +2820,9 @@ public final class RoutePointOuterClass {
         rotateParamsCase_ = 23;
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2472,6 +2830,7 @@ public final class RoutePointOuterClass {
        *
        * <code>.MathQuaternion axis_speed = 23;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder mergeAxisSpeed(emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion value) {
         if (axisSpeedBuilder_ == null) {
           if (rotateParamsCase_ == 23 &&
@@ -2491,6 +2850,9 @@ public final class RoutePointOuterClass {
         rotateParamsCase_ = 23;
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2498,6 +2860,7 @@ public final class RoutePointOuterClass {
        *
        * <code>.MathQuaternion axis_speed = 23;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder clearAxisSpeed() {
         if (axisSpeedBuilder_ == null) {
           if (rotateParamsCase_ == 23) {
@@ -2514,6 +2877,13 @@ public final class RoutePointOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+      public emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.Builder getAxisSpeedBuilder() {
+        return getAxisSpeedFieldBuilder().getBuilder();
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2531,6 +2901,7 @@ public final class RoutePointOuterClass {
        *
        * <code>.MathQuaternion axis_speed = 23;</code>
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternionOrBuilder getAxisSpeedOrBuilder() {
         if ((rotateParamsCase_ == 23) && (axisSpeedBuilder_ != null)) {
@@ -2542,6 +2913,9 @@ public final class RoutePointOuterClass {
           return emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.getDefaultInstance();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2549,8 +2923,9 @@ public final class RoutePointOuterClass {
        *
        * <code>.MathQuaternion axis_speed = 23;</code>
        */
+>>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.Builder, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternionOrBuilder> 
+          emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternion.Builder, emu.grasscutter.net.proto.MathQuaternionOuterClass.MathQuaternionOrBuilder>
           getAxisSpeedFieldBuilder() {
         if (axisSpeedBuilder_ == null) {
           if (!(rotateParamsCase_ == 23)) {
@@ -2578,7 +2953,6 @@ public final class RoutePointOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:RoutePoint)
     }
@@ -2622,7 +2996,7 @@ public final class RoutePointOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_RoutePoint_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_RoutePoint_fieldAccessorTable;
 

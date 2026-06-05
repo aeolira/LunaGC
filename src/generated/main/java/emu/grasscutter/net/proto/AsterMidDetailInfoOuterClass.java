@@ -18,6 +18,25 @@ public final class AsterMidDetailInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:AsterMidDetailInfo)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    java.util.List<emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfo>
+        getCampListList();
+
+    emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfo getCampList(int index);
+
+    int getCampListCount();
+
+    java.util.List<? extends emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfoOrBuilder>
+        getCampListOrBuilderList();
+
+    emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfoOrBuilder getCampListOrBuilder(
+        int index);
+
+    int getCollectCount();
+
+    int getBeginTime();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -90,6 +109,7 @@ public final class AsterMidDetailInfoOuterClass {
      * <code>bool is_open = 7;</code>
      * @return The isOpen.
      */
+>>>>>>> origin/6.5.0
     boolean getIsOpen();
   }
   /**
@@ -200,6 +220,9 @@ public final class AsterMidDetailInfoOuterClass {
 
     public static final int CAMP_LIST_FIELD_NUMBER = 5;
     private java.util.List<emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfo> campList_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -207,10 +230,14 @@ public final class AsterMidDetailInfoOuterClass {
      *
      * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfo> getCampListList() {
       return campList_;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -218,11 +245,15 @@ public final class AsterMidDetailInfoOuterClass {
      *
      * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfoOrBuilder>
         getCampListOrBuilderList() {
       return campList_;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -230,10 +261,14 @@ public final class AsterMidDetailInfoOuterClass {
      *
      * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCampListCount() {
       return campList_.size();
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -241,10 +276,14 @@ public final class AsterMidDetailInfoOuterClass {
      *
      * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfo getCampList(int index) {
       return campList_.get(index);
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -252,6 +291,7 @@ public final class AsterMidDetailInfoOuterClass {
      *
      * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfoOrBuilder getCampListOrBuilder(
         int index) {
@@ -260,6 +300,9 @@ public final class AsterMidDetailInfoOuterClass {
 
     public static final int COLLECT_COUNT_FIELD_NUMBER = 15;
     private int collectCount_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -268,6 +311,7 @@ public final class AsterMidDetailInfoOuterClass {
      * <code>uint32 collect_count = 15;</code>
      * @return The collectCount.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCollectCount() {
       return collectCount_;
@@ -275,6 +319,9 @@ public final class AsterMidDetailInfoOuterClass {
 
     public static final int BEGIN_TIME_FIELD_NUMBER = 12;
     private int beginTime_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -283,6 +330,7 @@ public final class AsterMidDetailInfoOuterClass {
      * <code>uint32 begin_time = 12;</code>
      * @return The beginTime.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getBeginTime() {
       return beginTime_;
@@ -290,6 +338,9 @@ public final class AsterMidDetailInfoOuterClass {
 
     public static final int IS_OPEN_FIELD_NUMBER = 7;
     private boolean isOpen_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -298,6 +349,7 @@ public final class AsterMidDetailInfoOuterClass {
      * <code>bool is_open = 7;</code>
      * @return The isOpen.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsOpen() {
       return isOpen_;
@@ -650,7 +702,7 @@ public final class AsterMidDetailInfoOuterClass {
               campListBuilder_ = null;
               campList_ = other.campList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              campListBuilder_ = 
+              campListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getCampListFieldBuilder() : null;
             } else {
@@ -709,6 +761,8 @@ public final class AsterMidDetailInfoOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfo, emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfo.Builder, emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfoOrBuilder> campListBuilder_;
 
+<<<<<<< HEAD
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -716,6 +770,7 @@ public final class AsterMidDetailInfoOuterClass {
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfo> getCampListList() {
         if (campListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(campList_);
@@ -723,6 +778,9 @@ public final class AsterMidDetailInfoOuterClass {
           return campListBuilder_.getMessageList();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -730,6 +788,7 @@ public final class AsterMidDetailInfoOuterClass {
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public int getCampListCount() {
         if (campListBuilder_ == null) {
           return campList_.size();
@@ -737,6 +796,9 @@ public final class AsterMidDetailInfoOuterClass {
           return campListBuilder_.getCount();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -744,6 +806,7 @@ public final class AsterMidDetailInfoOuterClass {
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfo getCampList(int index) {
         if (campListBuilder_ == null) {
           return campList_.get(index);
@@ -751,6 +814,9 @@ public final class AsterMidDetailInfoOuterClass {
           return campListBuilder_.getMessage(index);
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -758,6 +824,7 @@ public final class AsterMidDetailInfoOuterClass {
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setCampList(
           int index, emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfo value) {
         if (campListBuilder_ == null) {
@@ -772,6 +839,9 @@ public final class AsterMidDetailInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -779,6 +849,7 @@ public final class AsterMidDetailInfoOuterClass {
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setCampList(
           int index, emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfo.Builder builderForValue) {
         if (campListBuilder_ == null) {
@@ -790,6 +861,9 @@ public final class AsterMidDetailInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -797,6 +871,7 @@ public final class AsterMidDetailInfoOuterClass {
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addCampList(emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfo value) {
         if (campListBuilder_ == null) {
           if (value == null) {
@@ -810,6 +885,9 @@ public final class AsterMidDetailInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -817,6 +895,7 @@ public final class AsterMidDetailInfoOuterClass {
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addCampList(
           int index, emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfo value) {
         if (campListBuilder_ == null) {
@@ -831,6 +910,9 @@ public final class AsterMidDetailInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -838,6 +920,7 @@ public final class AsterMidDetailInfoOuterClass {
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addCampList(
           emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfo.Builder builderForValue) {
         if (campListBuilder_ == null) {
@@ -849,6 +932,9 @@ public final class AsterMidDetailInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -856,6 +942,7 @@ public final class AsterMidDetailInfoOuterClass {
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addCampList(
           int index, emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfo.Builder builderForValue) {
         if (campListBuilder_ == null) {
@@ -867,6 +954,9 @@ public final class AsterMidDetailInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -874,6 +964,7 @@ public final class AsterMidDetailInfoOuterClass {
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addAllCampList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfo> values) {
         if (campListBuilder_ == null) {
@@ -886,6 +977,9 @@ public final class AsterMidDetailInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -893,6 +987,7 @@ public final class AsterMidDetailInfoOuterClass {
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder clearCampList() {
         if (campListBuilder_ == null) {
           campList_ = java.util.Collections.emptyList();
@@ -903,6 +998,9 @@ public final class AsterMidDetailInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -910,6 +1008,7 @@ public final class AsterMidDetailInfoOuterClass {
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder removeCampList(int index) {
         if (campListBuilder_ == null) {
           ensureCampListIsMutable();
@@ -920,6 +1019,9 @@ public final class AsterMidDetailInfoOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -927,10 +1029,14 @@ public final class AsterMidDetailInfoOuterClass {
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfo.Builder getCampListBuilder(
           int index) {
         return getCampListFieldBuilder().getBuilder(index);
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -938,6 +1044,7 @@ public final class AsterMidDetailInfoOuterClass {
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfoOrBuilder getCampListOrBuilder(
           int index) {
         if (campListBuilder_ == null) {
@@ -945,6 +1052,10 @@ public final class AsterMidDetailInfoOuterClass {
           return campListBuilder_.getMessageOrBuilder(index);
         }
       }
+<<<<<<< HEAD
+
+      public java.util.List<? extends emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfoOrBuilder>
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -953,6 +1064,7 @@ public final class AsterMidDetailInfoOuterClass {
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfoOrBuilder> 
+>>>>>>> origin/6.5.0
            getCampListOrBuilderList() {
         if (campListBuilder_ != null) {
           return campListBuilder_.getMessageOrBuilderList();
@@ -960,6 +1072,9 @@ public final class AsterMidDetailInfoOuterClass {
           return java.util.Collections.unmodifiableList(campList_);
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -967,10 +1082,14 @@ public final class AsterMidDetailInfoOuterClass {
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfo.Builder addCampListBuilder() {
         return getCampListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfo.getDefaultInstance());
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -978,11 +1097,16 @@ public final class AsterMidDetailInfoOuterClass {
        *
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfo.Builder addCampListBuilder(
           int index) {
         return getCampListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfo.getDefaultInstance());
       }
+<<<<<<< HEAD
+
+      public java.util.List<emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfo.Builder>
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -991,11 +1115,12 @@ public final class AsterMidDetailInfoOuterClass {
        * <code>repeated .AsterMidCampInfo camp_list = 5;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfo.Builder> 
+>>>>>>> origin/6.5.0
            getCampListBuilderList() {
         return getCampListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfo, emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfo.Builder, emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfoOrBuilder> 
+          emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfo, emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfo.Builder, emu.grasscutter.net.proto.AsterMidCampInfoOuterClass.AsterMidCampInfoOrBuilder>
           getCampListFieldBuilder() {
         if (campListBuilder_ == null) {
           campListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1010,6 +1135,9 @@ public final class AsterMidDetailInfoOuterClass {
       }
 
       private int collectCount_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1018,10 +1146,14 @@ public final class AsterMidDetailInfoOuterClass {
        * <code>uint32 collect_count = 15;</code>
        * @return The collectCount.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCollectCount() {
         return collectCount_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1031,12 +1163,16 @@ public final class AsterMidDetailInfoOuterClass {
        * @param value The collectCount to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setCollectCount(int value) {
-        
+
         collectCount_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1045,14 +1181,18 @@ public final class AsterMidDetailInfoOuterClass {
        * <code>uint32 collect_count = 15;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearCollectCount() {
-        
+
         collectCount_ = 0;
         onChanged();
         return this;
       }
 
       private int beginTime_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1061,10 +1201,14 @@ public final class AsterMidDetailInfoOuterClass {
        * <code>uint32 begin_time = 12;</code>
        * @return The beginTime.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getBeginTime() {
         return beginTime_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1074,12 +1218,16 @@ public final class AsterMidDetailInfoOuterClass {
        * @param value The beginTime to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setBeginTime(int value) {
-        
+
         beginTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1088,14 +1236,18 @@ public final class AsterMidDetailInfoOuterClass {
        * <code>uint32 begin_time = 12;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearBeginTime() {
-        
+
         beginTime_ = 0;
         onChanged();
         return this;
       }
 
       private boolean isOpen_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1104,10 +1256,14 @@ public final class AsterMidDetailInfoOuterClass {
        * <code>bool is_open = 7;</code>
        * @return The isOpen.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsOpen() {
         return isOpen_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1117,12 +1273,16 @@ public final class AsterMidDetailInfoOuterClass {
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setIsOpen(boolean value) {
-        
+
         isOpen_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1131,8 +1291,9 @@ public final class AsterMidDetailInfoOuterClass {
        * <code>bool is_open = 7;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearIsOpen() {
-        
+
         isOpen_ = false;
         onChanged();
         return this;
@@ -1148,7 +1309,6 @@ public final class AsterMidDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:AsterMidDetailInfo)
     }
@@ -1192,7 +1352,7 @@ public final class AsterMidDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AsterMidDetailInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AsterMidDetailInfo_fieldAccessorTable;
 

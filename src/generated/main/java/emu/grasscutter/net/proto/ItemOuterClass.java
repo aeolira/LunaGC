@@ -18,6 +18,28 @@ public final class ItemOuterClass {
       // @@protoc_insertion_point(interface_extends:Item)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    int getItemId();
+
+    long getGuid();
+
+    boolean hasMaterial();
+
+    emu.grasscutter.net.proto.MaterialOuterClass.Material getMaterial();
+
+    emu.grasscutter.net.proto.MaterialOuterClass.MaterialOrBuilder getMaterialOrBuilder();
+
+    boolean hasEquip();
+
+    emu.grasscutter.net.proto.EquipOuterClass.Equip getEquip();
+
+    emu.grasscutter.net.proto.EquipOuterClass.EquipOrBuilder getEquipOrBuilder();
+
+    boolean hasFurniture();
+
+    emu.grasscutter.net.proto.FurnitureOuterClass.Furniture getFurniture();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -117,6 +139,7 @@ public final class ItemOuterClass {
      *
      * <code>.Furniture furniture = 7;</code>
      */
+>>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.FurnitureOuterClass.FurnitureOrBuilder getFurnitureOrBuilder();
 
     public emu.grasscutter.net.proto.ItemOuterClass.Item.DetailCase getDetailCase();
@@ -295,6 +318,9 @@ public final class ItemOuterClass {
 
     public static final int ITEM_ID_FIELD_NUMBER = 1;
     private int itemId_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -303,6 +329,7 @@ public final class ItemOuterClass {
      * <code>uint32 item_id = 1;</code>
      * @return The itemId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getItemId() {
       return itemId_;
@@ -310,6 +337,9 @@ public final class ItemOuterClass {
 
     public static final int GUID_FIELD_NUMBER = 2;
     private long guid_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -318,12 +348,16 @@ public final class ItemOuterClass {
      * <code>uint64 guid = 2;</code>
      * @return The guid.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public long getGuid() {
       return guid_;
     }
 
     public static final int MATERIAL_FIELD_NUMBER = 5;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -332,10 +366,14 @@ public final class ItemOuterClass {
      * <code>.Material material = 5;</code>
      * @return Whether the material field is set.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasMaterial() {
       return detailCase_ == 5;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -344,6 +382,7 @@ public final class ItemOuterClass {
      * <code>.Material material = 5;</code>
      * @return The material.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.MaterialOuterClass.Material getMaterial() {
       if (detailCase_ == 5) {
@@ -351,6 +390,9 @@ public final class ItemOuterClass {
       }
       return emu.grasscutter.net.proto.MaterialOuterClass.Material.getDefaultInstance();
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -358,6 +400,7 @@ public final class ItemOuterClass {
      *
      * <code>.Material material = 5;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.MaterialOuterClass.MaterialOrBuilder getMaterialOrBuilder() {
       if (detailCase_ == 5) {
@@ -367,6 +410,9 @@ public final class ItemOuterClass {
     }
 
     public static final int EQUIP_FIELD_NUMBER = 6;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -375,10 +421,14 @@ public final class ItemOuterClass {
      * <code>.Equip equip = 6;</code>
      * @return Whether the equip field is set.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasEquip() {
       return detailCase_ == 6;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -387,6 +437,7 @@ public final class ItemOuterClass {
      * <code>.Equip equip = 6;</code>
      * @return The equip.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.EquipOuterClass.Equip getEquip() {
       if (detailCase_ == 6) {
@@ -394,6 +445,9 @@ public final class ItemOuterClass {
       }
       return emu.grasscutter.net.proto.EquipOuterClass.Equip.getDefaultInstance();
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -401,6 +455,7 @@ public final class ItemOuterClass {
      *
      * <code>.Equip equip = 6;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.EquipOuterClass.EquipOrBuilder getEquipOrBuilder() {
       if (detailCase_ == 6) {
@@ -410,6 +465,9 @@ public final class ItemOuterClass {
     }
 
     public static final int FURNITURE_FIELD_NUMBER = 7;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -418,10 +476,14 @@ public final class ItemOuterClass {
      * <code>.Furniture furniture = 7;</code>
      * @return Whether the furniture field is set.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasFurniture() {
       return detailCase_ == 7;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -430,6 +492,7 @@ public final class ItemOuterClass {
      * <code>.Furniture furniture = 7;</code>
      * @return The furniture.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.FurnitureOuterClass.Furniture getFurniture() {
       if (detailCase_ == 7) {
@@ -437,6 +500,9 @@ public final class ItemOuterClass {
       }
       return emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.getDefaultInstance();
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -444,6 +510,7 @@ public final class ItemOuterClass {
      *
      * <code>.Furniture furniture = 7;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.FurnitureOuterClass.FurnitureOrBuilder getFurnitureOrBuilder() {
       if (detailCase_ == 7) {
@@ -881,8 +948,10 @@ public final class ItemOuterClass {
         return this;
       }
 
-
       private int itemId_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -891,10 +960,14 @@ public final class ItemOuterClass {
        * <code>uint32 item_id = 1;</code>
        * @return The itemId.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getItemId() {
         return itemId_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -904,12 +977,16 @@ public final class ItemOuterClass {
        * @param value The itemId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setItemId(int value) {
-        
+
         itemId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -918,14 +995,18 @@ public final class ItemOuterClass {
        * <code>uint32 item_id = 1;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearItemId() {
-        
+
         itemId_ = 0;
         onChanged();
         return this;
       }
 
       private long guid_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -934,10 +1015,14 @@ public final class ItemOuterClass {
        * <code>uint64 guid = 2;</code>
        * @return The guid.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public long getGuid() {
         return guid_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -947,12 +1032,16 @@ public final class ItemOuterClass {
        * @param value The guid to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setGuid(long value) {
-        
+
         guid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -961,8 +1050,9 @@ public final class ItemOuterClass {
        * <code>uint64 guid = 2;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearGuid() {
-        
+
         guid_ = 0L;
         onChanged();
         return this;
@@ -970,6 +1060,9 @@ public final class ItemOuterClass {
 
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.MaterialOuterClass.Material, emu.grasscutter.net.proto.MaterialOuterClass.Material.Builder, emu.grasscutter.net.proto.MaterialOuterClass.MaterialOrBuilder> materialBuilder_;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -978,10 +1071,14 @@ public final class ItemOuterClass {
        * <code>.Material material = 5;</code>
        * @return Whether the material field is set.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean hasMaterial() {
         return detailCase_ == 5;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -990,6 +1087,7 @@ public final class ItemOuterClass {
        * <code>.Material material = 5;</code>
        * @return The material.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.MaterialOuterClass.Material getMaterial() {
         if (materialBuilder_ == null) {
@@ -1004,6 +1102,9 @@ public final class ItemOuterClass {
           return emu.grasscutter.net.proto.MaterialOuterClass.Material.getDefaultInstance();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1011,6 +1112,7 @@ public final class ItemOuterClass {
        *
        * <code>.Material material = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setMaterial(emu.grasscutter.net.proto.MaterialOuterClass.Material value) {
         if (materialBuilder_ == null) {
           if (value == null) {
@@ -1024,6 +1126,9 @@ public final class ItemOuterClass {
         detailCase_ = 5;
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1031,6 +1136,7 @@ public final class ItemOuterClass {
        *
        * <code>.Material material = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setMaterial(
           emu.grasscutter.net.proto.MaterialOuterClass.Material.Builder builderForValue) {
         if (materialBuilder_ == null) {
@@ -1042,6 +1148,9 @@ public final class ItemOuterClass {
         detailCase_ = 5;
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1049,6 +1158,7 @@ public final class ItemOuterClass {
        *
        * <code>.Material material = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder mergeMaterial(emu.grasscutter.net.proto.MaterialOuterClass.Material value) {
         if (materialBuilder_ == null) {
           if (detailCase_ == 5 &&
@@ -1068,6 +1178,9 @@ public final class ItemOuterClass {
         detailCase_ = 5;
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1075,6 +1188,7 @@ public final class ItemOuterClass {
        *
        * <code>.Material material = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder clearMaterial() {
         if (materialBuilder_ == null) {
           if (detailCase_ == 5) {
@@ -1091,6 +1205,13 @@ public final class ItemOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+      public emu.grasscutter.net.proto.MaterialOuterClass.Material.Builder getMaterialBuilder() {
+        return getMaterialFieldBuilder().getBuilder();
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1108,6 +1229,7 @@ public final class ItemOuterClass {
        *
        * <code>.Material material = 5;</code>
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.MaterialOuterClass.MaterialOrBuilder getMaterialOrBuilder() {
         if ((detailCase_ == 5) && (materialBuilder_ != null)) {
@@ -1119,6 +1241,9 @@ public final class ItemOuterClass {
           return emu.grasscutter.net.proto.MaterialOuterClass.Material.getDefaultInstance();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1126,8 +1251,9 @@ public final class ItemOuterClass {
        *
        * <code>.Material material = 5;</code>
        */
+>>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.MaterialOuterClass.Material, emu.grasscutter.net.proto.MaterialOuterClass.Material.Builder, emu.grasscutter.net.proto.MaterialOuterClass.MaterialOrBuilder> 
+          emu.grasscutter.net.proto.MaterialOuterClass.Material, emu.grasscutter.net.proto.MaterialOuterClass.Material.Builder, emu.grasscutter.net.proto.MaterialOuterClass.MaterialOrBuilder>
           getMaterialFieldBuilder() {
         if (materialBuilder_ == null) {
           if (!(detailCase_ == 5)) {
@@ -1147,6 +1273,9 @@ public final class ItemOuterClass {
 
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.EquipOuterClass.Equip, emu.grasscutter.net.proto.EquipOuterClass.Equip.Builder, emu.grasscutter.net.proto.EquipOuterClass.EquipOrBuilder> equipBuilder_;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1155,10 +1284,14 @@ public final class ItemOuterClass {
        * <code>.Equip equip = 6;</code>
        * @return Whether the equip field is set.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean hasEquip() {
         return detailCase_ == 6;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1167,6 +1300,7 @@ public final class ItemOuterClass {
        * <code>.Equip equip = 6;</code>
        * @return The equip.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.EquipOuterClass.Equip getEquip() {
         if (equipBuilder_ == null) {
@@ -1181,6 +1315,9 @@ public final class ItemOuterClass {
           return emu.grasscutter.net.proto.EquipOuterClass.Equip.getDefaultInstance();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1188,6 +1325,7 @@ public final class ItemOuterClass {
        *
        * <code>.Equip equip = 6;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setEquip(emu.grasscutter.net.proto.EquipOuterClass.Equip value) {
         if (equipBuilder_ == null) {
           if (value == null) {
@@ -1201,6 +1339,9 @@ public final class ItemOuterClass {
         detailCase_ = 6;
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1208,6 +1349,7 @@ public final class ItemOuterClass {
        *
        * <code>.Equip equip = 6;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setEquip(
           emu.grasscutter.net.proto.EquipOuterClass.Equip.Builder builderForValue) {
         if (equipBuilder_ == null) {
@@ -1219,6 +1361,9 @@ public final class ItemOuterClass {
         detailCase_ = 6;
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1226,6 +1371,7 @@ public final class ItemOuterClass {
        *
        * <code>.Equip equip = 6;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder mergeEquip(emu.grasscutter.net.proto.EquipOuterClass.Equip value) {
         if (equipBuilder_ == null) {
           if (detailCase_ == 6 &&
@@ -1245,6 +1391,9 @@ public final class ItemOuterClass {
         detailCase_ = 6;
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1252,6 +1401,7 @@ public final class ItemOuterClass {
        *
        * <code>.Equip equip = 6;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder clearEquip() {
         if (equipBuilder_ == null) {
           if (detailCase_ == 6) {
@@ -1268,6 +1418,13 @@ public final class ItemOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+      public emu.grasscutter.net.proto.EquipOuterClass.Equip.Builder getEquipBuilder() {
+        return getEquipFieldBuilder().getBuilder();
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1285,6 +1442,7 @@ public final class ItemOuterClass {
        *
        * <code>.Equip equip = 6;</code>
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.EquipOuterClass.EquipOrBuilder getEquipOrBuilder() {
         if ((detailCase_ == 6) && (equipBuilder_ != null)) {
@@ -1296,6 +1454,9 @@ public final class ItemOuterClass {
           return emu.grasscutter.net.proto.EquipOuterClass.Equip.getDefaultInstance();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1303,8 +1464,9 @@ public final class ItemOuterClass {
        *
        * <code>.Equip equip = 6;</code>
        */
+>>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.EquipOuterClass.Equip, emu.grasscutter.net.proto.EquipOuterClass.Equip.Builder, emu.grasscutter.net.proto.EquipOuterClass.EquipOrBuilder> 
+          emu.grasscutter.net.proto.EquipOuterClass.Equip, emu.grasscutter.net.proto.EquipOuterClass.Equip.Builder, emu.grasscutter.net.proto.EquipOuterClass.EquipOrBuilder>
           getEquipFieldBuilder() {
         if (equipBuilder_ == null) {
           if (!(detailCase_ == 6)) {
@@ -1324,6 +1486,9 @@ public final class ItemOuterClass {
 
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.FurnitureOuterClass.Furniture, emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.Builder, emu.grasscutter.net.proto.FurnitureOuterClass.FurnitureOrBuilder> furnitureBuilder_;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1332,10 +1497,14 @@ public final class ItemOuterClass {
        * <code>.Furniture furniture = 7;</code>
        * @return Whether the furniture field is set.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean hasFurniture() {
         return detailCase_ == 7;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1344,6 +1513,7 @@ public final class ItemOuterClass {
        * <code>.Furniture furniture = 7;</code>
        * @return The furniture.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.FurnitureOuterClass.Furniture getFurniture() {
         if (furnitureBuilder_ == null) {
@@ -1358,6 +1528,9 @@ public final class ItemOuterClass {
           return emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.getDefaultInstance();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1365,6 +1538,7 @@ public final class ItemOuterClass {
        *
        * <code>.Furniture furniture = 7;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setFurniture(emu.grasscutter.net.proto.FurnitureOuterClass.Furniture value) {
         if (furnitureBuilder_ == null) {
           if (value == null) {
@@ -1378,6 +1552,9 @@ public final class ItemOuterClass {
         detailCase_ = 7;
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1385,6 +1562,7 @@ public final class ItemOuterClass {
        *
        * <code>.Furniture furniture = 7;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setFurniture(
           emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.Builder builderForValue) {
         if (furnitureBuilder_ == null) {
@@ -1396,6 +1574,9 @@ public final class ItemOuterClass {
         detailCase_ = 7;
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1403,6 +1584,7 @@ public final class ItemOuterClass {
        *
        * <code>.Furniture furniture = 7;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder mergeFurniture(emu.grasscutter.net.proto.FurnitureOuterClass.Furniture value) {
         if (furnitureBuilder_ == null) {
           if (detailCase_ == 7 &&
@@ -1422,6 +1604,9 @@ public final class ItemOuterClass {
         detailCase_ = 7;
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1429,6 +1614,7 @@ public final class ItemOuterClass {
        *
        * <code>.Furniture furniture = 7;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder clearFurniture() {
         if (furnitureBuilder_ == null) {
           if (detailCase_ == 7) {
@@ -1445,6 +1631,13 @@ public final class ItemOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+      public emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.Builder getFurnitureBuilder() {
+        return getFurnitureFieldBuilder().getBuilder();
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1462,6 +1655,7 @@ public final class ItemOuterClass {
        *
        * <code>.Furniture furniture = 7;</code>
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.FurnitureOuterClass.FurnitureOrBuilder getFurnitureOrBuilder() {
         if ((detailCase_ == 7) && (furnitureBuilder_ != null)) {
@@ -1473,6 +1667,9 @@ public final class ItemOuterClass {
           return emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.getDefaultInstance();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1480,8 +1677,9 @@ public final class ItemOuterClass {
        *
        * <code>.Furniture furniture = 7;</code>
        */
+>>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.FurnitureOuterClass.Furniture, emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.Builder, emu.grasscutter.net.proto.FurnitureOuterClass.FurnitureOrBuilder> 
+          emu.grasscutter.net.proto.FurnitureOuterClass.Furniture, emu.grasscutter.net.proto.FurnitureOuterClass.Furniture.Builder, emu.grasscutter.net.proto.FurnitureOuterClass.FurnitureOrBuilder>
           getFurnitureFieldBuilder() {
         if (furnitureBuilder_ == null) {
           if (!(detailCase_ == 7)) {
@@ -1509,7 +1707,6 @@ public final class ItemOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:Item)
     }
@@ -1553,7 +1750,7 @@ public final class ItemOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Item_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Item_fieldAccessorTable;
 

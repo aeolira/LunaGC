@@ -52,6 +52,10 @@ public final class GachaStageDataOuterClass {
     int getGNCJBONIKBFOrThrow(
         int key);
 
+<<<<<<< HEAD
+    int getStageId();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -70,6 +74,7 @@ public final class GachaStageDataOuterClass {
      * <code>bool is_open = 9;</code>
      * @return The isOpen.
      */
+>>>>>>> origin/6.5.0
     boolean getIsOpen();
   }
   /**
@@ -191,7 +196,7 @@ public final class GachaStageDataOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.GachaStageDataOuterClass.internal_static_GachaStageData_GNCJBONIKBFEntry_descriptor, 
+                  emu.grasscutter.net.proto.GachaStageDataOuterClass.internal_static_GachaStageData_GNCJBONIKBFEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -218,7 +223,7 @@ public final class GachaStageDataOuterClass {
     @java.lang.Override
     public boolean containsGNCJBONIKBF(
         int key) {
-      
+
       return internalGetGNCJBONIKBF().getMap().containsKey(key);
     }
     /**
@@ -245,7 +250,7 @@ public final class GachaStageDataOuterClass {
     public int getGNCJBONIKBFOrDefault(
         int key,
         int defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetGNCJBONIKBF().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -257,7 +262,7 @@ public final class GachaStageDataOuterClass {
 
     public int getGNCJBONIKBFOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetGNCJBONIKBF().getMap();
       if (!map.containsKey(key)) {
@@ -268,6 +273,9 @@ public final class GachaStageDataOuterClass {
 
     public static final int STAGE_ID_FIELD_NUMBER = 1;
     private int stageId_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -276,6 +284,7 @@ public final class GachaStageDataOuterClass {
      * <code>uint32 stage_id = 1;</code>
      * @return The stageId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getStageId() {
       return stageId_;
@@ -283,6 +292,9 @@ public final class GachaStageDataOuterClass {
 
     public static final int IS_OPEN_FIELD_NUMBER = 9;
     private boolean isOpen_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -291,6 +303,7 @@ public final class GachaStageDataOuterClass {
      * <code>bool is_open = 9;</code>
      * @return The isOpen.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsOpen() {
       return isOpen_;
@@ -700,7 +713,7 @@ public final class GachaStageDataOuterClass {
       @java.lang.Override
       public boolean containsGNCJBONIKBF(
           int key) {
-        
+
         return internalGetGNCJBONIKBF().getMap().containsKey(key);
       }
       /**
@@ -727,7 +740,7 @@ public final class GachaStageDataOuterClass {
       public int getGNCJBONIKBFOrDefault(
           int key,
           int defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetGNCJBONIKBF().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -739,7 +752,7 @@ public final class GachaStageDataOuterClass {
 
       public int getGNCJBONIKBFOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetGNCJBONIKBF().getMap();
         if (!map.containsKey(key)) {
@@ -759,7 +772,7 @@ public final class GachaStageDataOuterClass {
 
       public Builder removeGNCJBONIKBF(
           int key) {
-        
+
         internalGetMutableGNCJBONIKBF().getMutableMap()
             .remove(key);
         return this;
@@ -778,8 +791,7 @@ public final class GachaStageDataOuterClass {
       public Builder putGNCJBONIKBF(
           int key,
           int value) {
-        
-        
+
         internalGetMutableGNCJBONIKBF().getMutableMap()
             .put(key, value);
         return this;
@@ -796,6 +808,9 @@ public final class GachaStageDataOuterClass {
       }
 
       private int stageId_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -804,10 +819,14 @@ public final class GachaStageDataOuterClass {
        * <code>uint32 stage_id = 1;</code>
        * @return The stageId.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getStageId() {
         return stageId_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -817,12 +836,16 @@ public final class GachaStageDataOuterClass {
        * @param value The stageId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setStageId(int value) {
-        
+
         stageId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -831,14 +854,18 @@ public final class GachaStageDataOuterClass {
        * <code>uint32 stage_id = 1;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearStageId() {
-        
+
         stageId_ = 0;
         onChanged();
         return this;
       }
 
       private boolean isOpen_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -847,10 +874,14 @@ public final class GachaStageDataOuterClass {
        * <code>bool is_open = 9;</code>
        * @return The isOpen.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsOpen() {
         return isOpen_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -860,12 +891,16 @@ public final class GachaStageDataOuterClass {
        * @param value The isOpen to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setIsOpen(boolean value) {
-        
+
         isOpen_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -874,8 +909,9 @@ public final class GachaStageDataOuterClass {
        * <code>bool is_open = 9;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearIsOpen() {
-        
+
         isOpen_ = false;
         onChanged();
         return this;
@@ -891,7 +927,6 @@ public final class GachaStageDataOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:GachaStageData)
     }
@@ -935,12 +970,12 @@ public final class GachaStageDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GachaStageData_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GachaStageData_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GachaStageData_GNCJBONIKBFEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GachaStageData_GNCJBONIKBFEntry_fieldAccessorTable;
 

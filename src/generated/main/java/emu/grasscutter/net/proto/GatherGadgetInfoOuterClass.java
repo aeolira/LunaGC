@@ -18,6 +18,10 @@ public final class GatherGadgetInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:GatherGadgetInfo)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    int getItemId();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -36,6 +40,7 @@ public final class GatherGadgetInfoOuterClass {
      * <code>bool is_forbid_guest = 2;</code>
      * @return The isForbidGuest.
      */
+>>>>>>> origin/6.5.0
     boolean getIsForbidGuest();
   }
   /**
@@ -127,6 +132,9 @@ public final class GatherGadgetInfoOuterClass {
 
     public static final int ITEM_ID_FIELD_NUMBER = 1;
     private int itemId_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -135,6 +143,7 @@ public final class GatherGadgetInfoOuterClass {
      * <code>uint32 item_id = 1;</code>
      * @return The itemId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getItemId() {
       return itemId_;
@@ -142,6 +151,9 @@ public final class GatherGadgetInfoOuterClass {
 
     public static final int IS_FORBID_GUEST_FIELD_NUMBER = 2;
     private boolean isForbidGuest_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -150,6 +162,7 @@ public final class GatherGadgetInfoOuterClass {
      * <code>bool is_forbid_guest = 2;</code>
      * @return The isForbidGuest.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsForbidGuest() {
       return isForbidGuest_;
@@ -476,6 +489,9 @@ public final class GatherGadgetInfoOuterClass {
       }
 
       private int itemId_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -484,10 +500,14 @@ public final class GatherGadgetInfoOuterClass {
        * <code>uint32 item_id = 1;</code>
        * @return The itemId.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getItemId() {
         return itemId_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -497,12 +517,16 @@ public final class GatherGadgetInfoOuterClass {
        * @param value The itemId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setItemId(int value) {
-        
+
         itemId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -511,14 +535,18 @@ public final class GatherGadgetInfoOuterClass {
        * <code>uint32 item_id = 1;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearItemId() {
-        
+
         itemId_ = 0;
         onChanged();
         return this;
       }
 
       private boolean isForbidGuest_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -527,10 +555,14 @@ public final class GatherGadgetInfoOuterClass {
        * <code>bool is_forbid_guest = 2;</code>
        * @return The isForbidGuest.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsForbidGuest() {
         return isForbidGuest_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -540,12 +572,16 @@ public final class GatherGadgetInfoOuterClass {
        * @param value The isForbidGuest to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setIsForbidGuest(boolean value) {
-        
+
         isForbidGuest_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -554,8 +590,9 @@ public final class GatherGadgetInfoOuterClass {
        * <code>bool is_forbid_guest = 2;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearIsForbidGuest() {
-        
+
         isForbidGuest_ = false;
         onChanged();
         return this;
@@ -571,7 +608,6 @@ public final class GatherGadgetInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:GatherGadgetInfo)
     }
@@ -615,7 +651,7 @@ public final class GatherGadgetInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GatherGadgetInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GatherGadgetInfo_fieldAccessorTable;
 

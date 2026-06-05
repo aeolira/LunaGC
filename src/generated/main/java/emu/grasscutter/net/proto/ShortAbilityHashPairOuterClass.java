@@ -18,6 +18,10 @@ public final class ShortAbilityHashPairOuterClass {
       // @@protoc_insertion_point(interface_extends:ShortAbilityHashPair)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    int getAbilityNameHash();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -36,6 +40,7 @@ public final class ShortAbilityHashPairOuterClass {
      * <code>sfixed32 ability_config_hash = 6;</code>
      * @return The abilityConfigHash.
      */
+>>>>>>> origin/6.5.0
     int getAbilityConfigHash();
   }
   /**
@@ -127,6 +132,9 @@ public final class ShortAbilityHashPairOuterClass {
 
     public static final int ABILITY_NAME_HASH_FIELD_NUMBER = 3;
     private int abilityNameHash_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -135,6 +143,7 @@ public final class ShortAbilityHashPairOuterClass {
      * <code>sfixed32 ability_name_hash = 3;</code>
      * @return The abilityNameHash.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getAbilityNameHash() {
       return abilityNameHash_;
@@ -142,6 +151,9 @@ public final class ShortAbilityHashPairOuterClass {
 
     public static final int ABILITY_CONFIG_HASH_FIELD_NUMBER = 6;
     private int abilityConfigHash_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -150,6 +162,7 @@ public final class ShortAbilityHashPairOuterClass {
      * <code>sfixed32 ability_config_hash = 6;</code>
      * @return The abilityConfigHash.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getAbilityConfigHash() {
       return abilityConfigHash_;
@@ -475,6 +488,9 @@ public final class ShortAbilityHashPairOuterClass {
       }
 
       private int abilityNameHash_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -483,10 +499,14 @@ public final class ShortAbilityHashPairOuterClass {
        * <code>sfixed32 ability_name_hash = 3;</code>
        * @return The abilityNameHash.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getAbilityNameHash() {
         return abilityNameHash_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -496,12 +516,16 @@ public final class ShortAbilityHashPairOuterClass {
        * @param value The abilityNameHash to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setAbilityNameHash(int value) {
-        
+
         abilityNameHash_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -510,14 +534,18 @@ public final class ShortAbilityHashPairOuterClass {
        * <code>sfixed32 ability_name_hash = 3;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearAbilityNameHash() {
-        
+
         abilityNameHash_ = 0;
         onChanged();
         return this;
       }
 
       private int abilityConfigHash_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -526,10 +554,14 @@ public final class ShortAbilityHashPairOuterClass {
        * <code>sfixed32 ability_config_hash = 6;</code>
        * @return The abilityConfigHash.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getAbilityConfigHash() {
         return abilityConfigHash_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -539,12 +571,16 @@ public final class ShortAbilityHashPairOuterClass {
        * @param value The abilityConfigHash to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setAbilityConfigHash(int value) {
-        
+
         abilityConfigHash_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -553,8 +589,9 @@ public final class ShortAbilityHashPairOuterClass {
        * <code>sfixed32 ability_config_hash = 6;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearAbilityConfigHash() {
-        
+
         abilityConfigHash_ = 0;
         onChanged();
         return this;
@@ -570,7 +607,6 @@ public final class ShortAbilityHashPairOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:ShortAbilityHashPair)
     }
@@ -614,7 +650,7 @@ public final class ShortAbilityHashPairOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ShortAbilityHashPair_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ShortAbilityHashPair_fieldAccessorTable;
 

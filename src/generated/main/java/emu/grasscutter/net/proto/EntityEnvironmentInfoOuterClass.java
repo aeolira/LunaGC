@@ -18,6 +18,10 @@ public final class EntityEnvironmentInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:EntityEnvironmentInfo)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    int getJsonClimateType();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -36,6 +40,7 @@ public final class EntityEnvironmentInfoOuterClass {
      * <code>uint32 climate_area_id = 2;</code>
      * @return The climateAreaId.
      */
+>>>>>>> origin/6.5.0
     int getClimateAreaId();
   }
   /**
@@ -127,6 +132,9 @@ public final class EntityEnvironmentInfoOuterClass {
 
     public static final int JSON_CLIMATE_TYPE_FIELD_NUMBER = 1;
     private int jsonClimateType_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -135,6 +143,7 @@ public final class EntityEnvironmentInfoOuterClass {
      * <code>uint32 json_climate_type = 1;</code>
      * @return The jsonClimateType.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getJsonClimateType() {
       return jsonClimateType_;
@@ -142,6 +151,9 @@ public final class EntityEnvironmentInfoOuterClass {
 
     public static final int CLIMATE_AREA_ID_FIELD_NUMBER = 2;
     private int climateAreaId_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -150,6 +162,7 @@ public final class EntityEnvironmentInfoOuterClass {
      * <code>uint32 climate_area_id = 2;</code>
      * @return The climateAreaId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getClimateAreaId() {
       return climateAreaId_;
@@ -475,6 +488,9 @@ public final class EntityEnvironmentInfoOuterClass {
       }
 
       private int jsonClimateType_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -483,10 +499,14 @@ public final class EntityEnvironmentInfoOuterClass {
        * <code>uint32 json_climate_type = 1;</code>
        * @return The jsonClimateType.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getJsonClimateType() {
         return jsonClimateType_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -496,12 +516,16 @@ public final class EntityEnvironmentInfoOuterClass {
        * @param value The jsonClimateType to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setJsonClimateType(int value) {
-        
+
         jsonClimateType_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -510,14 +534,18 @@ public final class EntityEnvironmentInfoOuterClass {
        * <code>uint32 json_climate_type = 1;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearJsonClimateType() {
-        
+
         jsonClimateType_ = 0;
         onChanged();
         return this;
       }
 
       private int climateAreaId_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -526,10 +554,14 @@ public final class EntityEnvironmentInfoOuterClass {
        * <code>uint32 climate_area_id = 2;</code>
        * @return The climateAreaId.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getClimateAreaId() {
         return climateAreaId_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -539,12 +571,16 @@ public final class EntityEnvironmentInfoOuterClass {
        * @param value The climateAreaId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setClimateAreaId(int value) {
-        
+
         climateAreaId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -553,8 +589,9 @@ public final class EntityEnvironmentInfoOuterClass {
        * <code>uint32 climate_area_id = 2;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearClimateAreaId() {
-        
+
         climateAreaId_ = 0;
         onChanged();
         return this;
@@ -570,7 +607,6 @@ public final class EntityEnvironmentInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:EntityEnvironmentInfo)
     }
@@ -614,7 +650,7 @@ public final class EntityEnvironmentInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EntityEnvironmentInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EntityEnvironmentInfo_fieldAccessorTable;
 

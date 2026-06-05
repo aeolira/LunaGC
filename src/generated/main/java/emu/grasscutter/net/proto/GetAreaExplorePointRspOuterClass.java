@@ -18,6 +18,20 @@ public final class GetAreaExplorePointRspOuterClass {
       // @@protoc_insertion_point(interface_extends:GetAreaExplorePointRsp)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    java.util.List<java.lang.Integer> getExplorePointListList();
+
+    int getExplorePointListCount();
+
+    int getExplorePointList(int index);
+
+    java.util.List<java.lang.Integer> getAreaIdListList();
+
+    int getAreaIdListCount();
+
+    int getAreaIdList(int index);
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0    
@@ -84,6 +98,7 @@ public final class GetAreaExplorePointRspOuterClass {
      * <code>int32 retcode = 6;</code>
      * @return The retcode.
      */
+>>>>>>> origin/6.5.0
     int getRetcode();
   }
   /**
@@ -138,12 +153,12 @@ public final class GetAreaExplorePointRspOuterClass {
             case 0:
               done = true;
               break;
-            case 48: {
+            case 56: {
 
               retcode_ = input.readInt32();
               break;
             }
-            case 56: {
+            case 88: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 areaIdList_ = newIntList();
                 mutable_bitField0_ |= 0x00000002;
@@ -151,7 +166,7 @@ public final class GetAreaExplorePointRspOuterClass {
               areaIdList_.addInt(input.readUInt32());
               break;
             }
-            case 58: {
+            case 90: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000002) != 0) && input.getBytesUntilLimit() > 0) {
@@ -164,7 +179,7 @@ public final class GetAreaExplorePointRspOuterClass {
               input.popLimit(limit);
               break;
             }
-            case 88: {
+            case 120: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 explorePointList_ = newIntList();
                 mutable_bitField0_ |= 0x00000001;
@@ -172,7 +187,7 @@ public final class GetAreaExplorePointRspOuterClass {
               explorePointList_.addInt(input.readUInt32());
               break;
             }
-            case 90: {
+            case 122: {
               int length = input.readRawVarint32();
               int limit = input.pushLimit(length);
               if (!((mutable_bitField0_ & 0x00000001) != 0) && input.getBytesUntilLimit() > 0) {
@@ -223,8 +238,11 @@ public final class GetAreaExplorePointRspOuterClass {
               emu.grasscutter.net.proto.GetAreaExplorePointRspOuterClass.GetAreaExplorePointRsp.class, emu.grasscutter.net.proto.GetAreaExplorePointRspOuterClass.GetAreaExplorePointRsp.Builder.class);
     }
 
-    public static final int EXPLORE_POINT_LIST_FIELD_NUMBER = 11;
+    public static final int EXPLORE_POINT_LIST_FIELD_NUMBER = 15;
     private com.google.protobuf.Internal.IntList explorePointList_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0    
@@ -233,11 +251,19 @@ public final class GetAreaExplorePointRspOuterClass {
      * <code>repeated uint32 explore_point_list = 11;</code>
      * @return A list containing the explorePointList.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getExplorePointListList() {
       return explorePointList_;
     }
+<<<<<<< HEAD
+
+    public int getExplorePointListCount() {
+      return explorePointList_.size();
+    }
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0    
@@ -258,13 +284,17 @@ public final class GetAreaExplorePointRspOuterClass {
      * @param index The index of the element to return.
      * @return The explorePointList at the given index.
      */
+>>>>>>> origin/6.5.0
     public int getExplorePointList(int index) {
       return explorePointList_.getInt(index);
     }
     private int explorePointListMemoizedSerializedSize = -1;
 
-    public static final int AREA_ID_LIST_FIELD_NUMBER = 7;
+    public static final int AREA_ID_LIST_FIELD_NUMBER = 11;
     private com.google.protobuf.Internal.IntList areaIdList_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0    
@@ -273,11 +303,19 @@ public final class GetAreaExplorePointRspOuterClass {
      * <code>repeated uint32 area_id_list = 7;</code>
      * @return A list containing the areaIdList.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getAreaIdListList() {
       return areaIdList_;
     }
+<<<<<<< HEAD
+
+    public int getAreaIdListCount() {
+      return areaIdList_.size();
+    }
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0    
@@ -298,13 +336,17 @@ public final class GetAreaExplorePointRspOuterClass {
      * @param index The index of the element to return.
      * @return The areaIdList at the given index.
      */
+>>>>>>> origin/6.5.0
     public int getAreaIdList(int index) {
       return areaIdList_.getInt(index);
     }
     private int areaIdListMemoizedSerializedSize = -1;
 
-    public static final int RETCODE_FIELD_NUMBER = 6;
+    public static final int RETCODE_FIELD_NUMBER = 7;
     private int retcode_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0    
@@ -313,6 +355,7 @@ public final class GetAreaExplorePointRspOuterClass {
      * <code>int32 retcode = 6;</code>
      * @return The retcode.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -334,17 +377,17 @@ public final class GetAreaExplorePointRspOuterClass {
                         throws java.io.IOException {
       getSerializedSize();
       if (retcode_ != 0) {
-        output.writeInt32(6, retcode_);
+        output.writeInt32(7, retcode_);
       }
       if (getAreaIdListList().size() > 0) {
-        output.writeUInt32NoTag(58);
+        output.writeUInt32NoTag(90);
         output.writeUInt32NoTag(areaIdListMemoizedSerializedSize);
       }
       for (int i = 0; i < areaIdList_.size(); i++) {
         output.writeUInt32NoTag(areaIdList_.getInt(i));
       }
       if (getExplorePointListList().size() > 0) {
-        output.writeUInt32NoTag(90);
+        output.writeUInt32NoTag(122);
         output.writeUInt32NoTag(explorePointListMemoizedSerializedSize);
       }
       for (int i = 0; i < explorePointList_.size(); i++) {
@@ -361,7 +404,7 @@ public final class GetAreaExplorePointRspOuterClass {
       size = 0;
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeInt32Size(6, retcode_);
+          .computeInt32Size(7, retcode_);
       }
       {
         int dataSize = 0;
@@ -722,6 +765,9 @@ public final class GetAreaExplorePointRspOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0    
@@ -730,11 +776,23 @@ public final class GetAreaExplorePointRspOuterClass {
        * <code>repeated uint32 explore_point_list = 11;</code>
        * @return A list containing the explorePointList.
        */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getExplorePointListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(explorePointList_) : explorePointList_;
       }
+<<<<<<< HEAD
+
+      public int getExplorePointListCount() {
+        return explorePointList_.size();
+      }
+
+      public int getExplorePointList(int index) {
+        return explorePointList_.getInt(index);
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0    
@@ -768,6 +826,7 @@ public final class GetAreaExplorePointRspOuterClass {
        * @param value The explorePointList to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setExplorePointList(
           int index, int value) {
         ensureExplorePointListIsMutable();
@@ -775,6 +834,9 @@ public final class GetAreaExplorePointRspOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0    
@@ -784,12 +846,16 @@ public final class GetAreaExplorePointRspOuterClass {
        * @param value The explorePointList to add.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder addExplorePointList(int value) {
         ensureExplorePointListIsMutable();
         explorePointList_.addInt(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0    
@@ -799,6 +865,7 @@ public final class GetAreaExplorePointRspOuterClass {
        * @param values The explorePointList to add.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder addAllExplorePointList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureExplorePointListIsMutable();
@@ -807,6 +874,9 @@ public final class GetAreaExplorePointRspOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0    
@@ -815,6 +885,7 @@ public final class GetAreaExplorePointRspOuterClass {
        * <code>repeated uint32 explore_point_list = 11;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearExplorePointList() {
         explorePointList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -829,6 +900,9 @@ public final class GetAreaExplorePointRspOuterClass {
           bitField0_ |= 0x00000002;
          }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0    
@@ -837,11 +911,23 @@ public final class GetAreaExplorePointRspOuterClass {
        * <code>repeated uint32 area_id_list = 7;</code>
        * @return A list containing the areaIdList.
        */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getAreaIdListList() {
         return ((bitField0_ & 0x00000002) != 0) ?
                  java.util.Collections.unmodifiableList(areaIdList_) : areaIdList_;
       }
+<<<<<<< HEAD
+
+      public int getAreaIdListCount() {
+        return areaIdList_.size();
+      }
+
+      public int getAreaIdList(int index) {
+        return areaIdList_.getInt(index);
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0    
@@ -875,6 +961,7 @@ public final class GetAreaExplorePointRspOuterClass {
        * @param value The areaIdList to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setAreaIdList(
           int index, int value) {
         ensureAreaIdListIsMutable();
@@ -882,6 +969,9 @@ public final class GetAreaExplorePointRspOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0    
@@ -891,12 +981,16 @@ public final class GetAreaExplorePointRspOuterClass {
        * @param value The areaIdList to add.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder addAreaIdList(int value) {
         ensureAreaIdListIsMutable();
         areaIdList_.addInt(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0    
@@ -906,6 +1000,7 @@ public final class GetAreaExplorePointRspOuterClass {
        * @param values The areaIdList to add.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder addAllAreaIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureAreaIdListIsMutable();
@@ -914,6 +1009,9 @@ public final class GetAreaExplorePointRspOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0    
@@ -922,6 +1020,7 @@ public final class GetAreaExplorePointRspOuterClass {
        * <code>repeated uint32 area_id_list = 7;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearAreaIdList() {
         areaIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
@@ -930,6 +1029,9 @@ public final class GetAreaExplorePointRspOuterClass {
       }
 
       private int retcode_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0    
@@ -938,10 +1040,14 @@ public final class GetAreaExplorePointRspOuterClass {
        * <code>int32 retcode = 6;</code>
        * @return The retcode.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0    
@@ -951,12 +1057,16 @@ public final class GetAreaExplorePointRspOuterClass {
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0    
@@ -965,8 +1075,9 @@ public final class GetAreaExplorePointRspOuterClass {
        * <code>int32 retcode = 6;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
@@ -982,7 +1093,6 @@ public final class GetAreaExplorePointRspOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:GetAreaExplorePointRsp)
     }
@@ -1026,7 +1136,7 @@ public final class GetAreaExplorePointRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_GetAreaExplorePointRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_GetAreaExplorePointRsp_fieldAccessorTable;
 

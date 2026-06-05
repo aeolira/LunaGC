@@ -18,6 +18,12 @@ public final class SkyCrystalDetectorDataUpdateNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:SkyCrystalDetectorDataUpdateNotify)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    boolean hasSkyCrystalDetectorData();
+
+    emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorData getSkyCrystalDetectorData();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -43,6 +49,7 @@ public final class SkyCrystalDetectorDataUpdateNotifyOuterClass {
      *
      * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 2;</code>
      */
+>>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorDataOrBuilder getSkyCrystalDetectorDataOrBuilder();
   }
   /**
@@ -139,8 +146,11 @@ public final class SkyCrystalDetectorDataUpdateNotifyOuterClass {
               emu.grasscutter.net.proto.SkyCrystalDetectorDataUpdateNotifyOuterClass.SkyCrystalDetectorDataUpdateNotify.class, emu.grasscutter.net.proto.SkyCrystalDetectorDataUpdateNotifyOuterClass.SkyCrystalDetectorDataUpdateNotify.Builder.class);
     }
 
-    public static final int SKY_CRYSTAL_DETECTOR_DATA_FIELD_NUMBER = 2;
+    public static final int SKY_CRYSTAL_DETECTOR_DATA_FIELD_NUMBER = 9;
     private emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorData skyCrystalDetectorData_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -149,10 +159,14 @@ public final class SkyCrystalDetectorDataUpdateNotifyOuterClass {
      * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 2;</code>
      * @return Whether the skyCrystalDetectorData field is set.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasSkyCrystalDetectorData() {
       return skyCrystalDetectorData_ != null;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -161,10 +175,14 @@ public final class SkyCrystalDetectorDataUpdateNotifyOuterClass {
      * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 2;</code>
      * @return The skyCrystalDetectorData.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorData getSkyCrystalDetectorData() {
       return skyCrystalDetectorData_ == null ? emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorData.getDefaultInstance() : skyCrystalDetectorData_;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -172,6 +190,7 @@ public final class SkyCrystalDetectorDataUpdateNotifyOuterClass {
      *
      * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 2;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorDataOrBuilder getSkyCrystalDetectorDataOrBuilder() {
       return getSkyCrystalDetectorData();
@@ -499,6 +518,13 @@ public final class SkyCrystalDetectorDataUpdateNotifyOuterClass {
       private emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorData skyCrystalDetectorData_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorData, emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorData.Builder, emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorDataOrBuilder> skyCrystalDetectorDataBuilder_;
+<<<<<<< HEAD
+
+      public boolean hasSkyCrystalDetectorData() {
+        return skyCrystalDetectorDataBuilder_ != null || skyCrystalDetectorData_ != null;
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -518,6 +544,7 @@ public final class SkyCrystalDetectorDataUpdateNotifyOuterClass {
        * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 2;</code>
        * @return The skyCrystalDetectorData.
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorData getSkyCrystalDetectorData() {
         if (skyCrystalDetectorDataBuilder_ == null) {
           return skyCrystalDetectorData_ == null ? emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorData.getDefaultInstance() : skyCrystalDetectorData_;
@@ -525,6 +552,9 @@ public final class SkyCrystalDetectorDataUpdateNotifyOuterClass {
           return skyCrystalDetectorDataBuilder_.getMessage();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -532,6 +562,7 @@ public final class SkyCrystalDetectorDataUpdateNotifyOuterClass {
        *
        * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 2;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setSkyCrystalDetectorData(emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorData value) {
         if (skyCrystalDetectorDataBuilder_ == null) {
           if (value == null) {
@@ -545,6 +576,9 @@ public final class SkyCrystalDetectorDataUpdateNotifyOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -552,6 +586,7 @@ public final class SkyCrystalDetectorDataUpdateNotifyOuterClass {
        *
        * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 2;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setSkyCrystalDetectorData(
           emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorData.Builder builderForValue) {
         if (skyCrystalDetectorDataBuilder_ == null) {
@@ -563,6 +598,9 @@ public final class SkyCrystalDetectorDataUpdateNotifyOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -570,6 +608,7 @@ public final class SkyCrystalDetectorDataUpdateNotifyOuterClass {
        *
        * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 2;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder mergeSkyCrystalDetectorData(emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorData value) {
         if (skyCrystalDetectorDataBuilder_ == null) {
           if (skyCrystalDetectorData_ != null) {
@@ -585,6 +624,9 @@ public final class SkyCrystalDetectorDataUpdateNotifyOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -592,6 +634,7 @@ public final class SkyCrystalDetectorDataUpdateNotifyOuterClass {
        *
        * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 2;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder clearSkyCrystalDetectorData() {
         if (skyCrystalDetectorDataBuilder_ == null) {
           skyCrystalDetectorData_ = null;
@@ -603,6 +646,9 @@ public final class SkyCrystalDetectorDataUpdateNotifyOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -610,11 +656,15 @@ public final class SkyCrystalDetectorDataUpdateNotifyOuterClass {
        *
        * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 2;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorData.Builder getSkyCrystalDetectorDataBuilder() {
-        
+
         onChanged();
         return getSkyCrystalDetectorDataFieldBuilder().getBuilder();
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -622,6 +672,7 @@ public final class SkyCrystalDetectorDataUpdateNotifyOuterClass {
        *
        * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 2;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorDataOrBuilder getSkyCrystalDetectorDataOrBuilder() {
         if (skyCrystalDetectorDataBuilder_ != null) {
           return skyCrystalDetectorDataBuilder_.getMessageOrBuilder();
@@ -630,6 +681,9 @@ public final class SkyCrystalDetectorDataUpdateNotifyOuterClass {
               emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorData.getDefaultInstance() : skyCrystalDetectorData_;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -637,8 +691,9 @@ public final class SkyCrystalDetectorDataUpdateNotifyOuterClass {
        *
        * <code>.SkyCrystalDetectorData sky_crystal_detector_data = 2;</code>
        */
+>>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorData, emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorData.Builder, emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorDataOrBuilder> 
+          emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorData, emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorData.Builder, emu.grasscutter.net.proto.SkyCrystalDetectorDataOuterClass.SkyCrystalDetectorDataOrBuilder>
           getSkyCrystalDetectorDataFieldBuilder() {
         if (skyCrystalDetectorDataBuilder_ == null) {
           skyCrystalDetectorDataBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -661,7 +716,6 @@ public final class SkyCrystalDetectorDataUpdateNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:SkyCrystalDetectorDataUpdateNotify)
     }
@@ -705,7 +759,7 @@ public final class SkyCrystalDetectorDataUpdateNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SkyCrystalDetectorDataUpdateNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SkyCrystalDetectorDataUpdateNotify_fieldAccessorTable;
 

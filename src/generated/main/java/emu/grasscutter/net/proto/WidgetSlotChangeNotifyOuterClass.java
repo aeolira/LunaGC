@@ -18,6 +18,16 @@ public final class WidgetSlotChangeNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:WidgetSlotChangeNotify)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    boolean hasSlot();
+
+    emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData getSlot();
+
+    emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder getSlotOrBuilder();
+
+    int getOpValue();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -62,6 +72,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
      * <code>.WidgetSlotOp op = 5;</code>
      * @return The op.
      */
+>>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.WidgetSlotOpOuterClass.WidgetSlotOp getOp();
   }
   /**
@@ -167,6 +178,9 @@ public final class WidgetSlotChangeNotifyOuterClass {
 
     public static final int SLOT_FIELD_NUMBER = 1;
     private emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData slot_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -175,10 +189,14 @@ public final class WidgetSlotChangeNotifyOuterClass {
      * <code>.WidgetSlotData slot = 1;</code>
      * @return Whether the slot field is set.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasSlot() {
       return slot_ != null;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -187,10 +205,14 @@ public final class WidgetSlotChangeNotifyOuterClass {
      * <code>.WidgetSlotData slot = 1;</code>
      * @return The slot.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData getSlot() {
       return slot_ == null ? emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.getDefaultInstance() : slot_;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -198,6 +220,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
      *
      * <code>.WidgetSlotData slot = 1;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder getSlotOrBuilder() {
       return getSlot();
@@ -205,6 +228,13 @@ public final class WidgetSlotChangeNotifyOuterClass {
 
     public static final int OP_FIELD_NUMBER = 5;
     private int op_;
+<<<<<<< HEAD
+
+    @java.lang.Override public int getOpValue() {
+      return op_;
+    }
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -224,6 +254,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
      * <code>.WidgetSlotOp op = 5;</code>
      * @return The op.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override public emu.grasscutter.net.proto.WidgetSlotOpOuterClass.WidgetSlotOp getOp() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.WidgetSlotOpOuterClass.WidgetSlotOp result = emu.grasscutter.net.proto.WidgetSlotOpOuterClass.WidgetSlotOp.valueOf(op_);
@@ -568,6 +599,13 @@ public final class WidgetSlotChangeNotifyOuterClass {
       private emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData slot_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData, emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.Builder, emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder> slotBuilder_;
+<<<<<<< HEAD
+
+      public boolean hasSlot() {
+        return slotBuilder_ != null || slot_ != null;
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -587,6 +625,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
        * <code>.WidgetSlotData slot = 1;</code>
        * @return The slot.
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData getSlot() {
         if (slotBuilder_ == null) {
           return slot_ == null ? emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.getDefaultInstance() : slot_;
@@ -594,6 +633,9 @@ public final class WidgetSlotChangeNotifyOuterClass {
           return slotBuilder_.getMessage();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -601,6 +643,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
        *
        * <code>.WidgetSlotData slot = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setSlot(emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData value) {
         if (slotBuilder_ == null) {
           if (value == null) {
@@ -614,6 +657,9 @@ public final class WidgetSlotChangeNotifyOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -621,6 +667,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
        *
        * <code>.WidgetSlotData slot = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setSlot(
           emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.Builder builderForValue) {
         if (slotBuilder_ == null) {
@@ -632,6 +679,9 @@ public final class WidgetSlotChangeNotifyOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -639,6 +689,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
        *
        * <code>.WidgetSlotData slot = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder mergeSlot(emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData value) {
         if (slotBuilder_ == null) {
           if (slot_ != null) {
@@ -654,6 +705,9 @@ public final class WidgetSlotChangeNotifyOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -661,6 +715,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
        *
        * <code>.WidgetSlotData slot = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder clearSlot() {
         if (slotBuilder_ == null) {
           slot_ = null;
@@ -672,6 +727,9 @@ public final class WidgetSlotChangeNotifyOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -679,11 +737,15 @@ public final class WidgetSlotChangeNotifyOuterClass {
        *
        * <code>.WidgetSlotData slot = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.Builder getSlotBuilder() {
-        
+
         onChanged();
         return getSlotFieldBuilder().getBuilder();
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -691,6 +753,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
        *
        * <code>.WidgetSlotData slot = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder getSlotOrBuilder() {
         if (slotBuilder_ != null) {
           return slotBuilder_.getMessageOrBuilder();
@@ -699,6 +762,9 @@ public final class WidgetSlotChangeNotifyOuterClass {
               emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.getDefaultInstance() : slot_;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -706,8 +772,9 @@ public final class WidgetSlotChangeNotifyOuterClass {
        *
        * <code>.WidgetSlotData slot = 1;</code>
        */
+>>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData, emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.Builder, emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder> 
+          emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData, emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotData.Builder, emu.grasscutter.net.proto.WidgetSlotDataOuterClass.WidgetSlotDataOrBuilder>
           getSlotFieldBuilder() {
         if (slotBuilder_ == null) {
           slotBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -721,6 +788,13 @@ public final class WidgetSlotChangeNotifyOuterClass {
       }
 
       private int op_ = 0;
+<<<<<<< HEAD
+
+      @java.lang.Override public int getOpValue() {
+        return op_;
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -741,12 +815,16 @@ public final class WidgetSlotChangeNotifyOuterClass {
        * @param value The enum numeric value on the wire for op to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setOpValue(int value) {
-        
+
         op_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -755,12 +833,16 @@ public final class WidgetSlotChangeNotifyOuterClass {
        * <code>.WidgetSlotOp op = 5;</code>
        * @return The op.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.WidgetSlotOpOuterClass.WidgetSlotOp getOp() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.WidgetSlotOpOuterClass.WidgetSlotOp result = emu.grasscutter.net.proto.WidgetSlotOpOuterClass.WidgetSlotOp.valueOf(op_);
         return result == null ? emu.grasscutter.net.proto.WidgetSlotOpOuterClass.WidgetSlotOp.UNRECOGNIZED : result;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -770,15 +852,19 @@ public final class WidgetSlotChangeNotifyOuterClass {
        * @param value The op to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setOp(emu.grasscutter.net.proto.WidgetSlotOpOuterClass.WidgetSlotOp value) {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         op_ = value.getNumber();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -787,8 +873,9 @@ public final class WidgetSlotChangeNotifyOuterClass {
        * <code>.WidgetSlotOp op = 5;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearOp() {
-        
+
         op_ = 0;
         onChanged();
         return this;
@@ -804,7 +891,6 @@ public final class WidgetSlotChangeNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:WidgetSlotChangeNotify)
     }
@@ -848,7 +934,7 @@ public final class WidgetSlotChangeNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WidgetSlotChangeNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WidgetSlotChangeNotify_fieldAccessorTable;
 

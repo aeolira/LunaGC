@@ -64,6 +64,10 @@ public final class SalesmanActivityDetailInfoOuterClass {
      */
     int getAHEHGIPMGEJ();
 
+<<<<<<< HEAD
+    int getStatusValue();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -81,6 +85,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
      * <code>.DEMBMADKBAL status = 12;</code>
      * @return The status.
      */
+>>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.DEMBMADKBALOuterClass.DEMBMADKBAL getStatus();
 
     /**
@@ -264,7 +269,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.SalesmanActivityDetailInfoOuterClass.internal_static_SalesmanActivityDetailInfo_HCGMLDLDPHHEntry_descriptor, 
+                  emu.grasscutter.net.proto.SalesmanActivityDetailInfoOuterClass.internal_static_SalesmanActivityDetailInfo_HCGMLDLDPHHEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -291,7 +296,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
     @java.lang.Override
     public boolean containsHCGMLDLDPHH(
         int key) {
-      
+
       return internalGetHCGMLDLDPHH().getMap().containsKey(key);
     }
     /**
@@ -318,7 +323,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
     public int getHCGMLDLDPHHOrDefault(
         int key,
         int defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetHCGMLDLDPHH().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -330,7 +335,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
 
     public int getHCGMLDLDPHHOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetHCGMLDLDPHH().getMap();
       if (!map.containsKey(key)) {
@@ -363,6 +368,13 @@ public final class SalesmanActivityDetailInfoOuterClass {
 
     public static final int STATUS_FIELD_NUMBER = 12;
     private int status_;
+<<<<<<< HEAD
+
+    @java.lang.Override public int getStatusValue() {
+      return status_;
+    }
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -382,6 +394,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
      * <code>.DEMBMADKBAL status = 12;</code>
      * @return The status.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override public emu.grasscutter.net.proto.DEMBMADKBALOuterClass.DEMBMADKBAL getStatus() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.DEMBMADKBALOuterClass.DEMBMADKBAL result = emu.grasscutter.net.proto.DEMBMADKBALOuterClass.DEMBMADKBAL.valueOf(status_);
@@ -949,7 +962,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
       @java.lang.Override
       public boolean containsHCGMLDLDPHH(
           int key) {
-        
+
         return internalGetHCGMLDLDPHH().getMap().containsKey(key);
       }
       /**
@@ -976,7 +989,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
       public int getHCGMLDLDPHHOrDefault(
           int key,
           int defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetHCGMLDLDPHH().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -988,7 +1001,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
 
       public int getHCGMLDLDPHHOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetHCGMLDLDPHH().getMap();
         if (!map.containsKey(key)) {
@@ -1008,7 +1021,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
 
       public Builder removeHCGMLDLDPHH(
           int key) {
-        
+
         internalGetMutableHCGMLDLDPHH().getMutableMap()
             .remove(key);
         return this;
@@ -1027,8 +1040,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
       public Builder putHCGMLDLDPHH(
           int key,
           int value) {
-        
-        
+
         internalGetMutableHCGMLDLDPHH().getMutableMap()
             .put(key, value);
         return this;
@@ -1059,7 +1071,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBMLIGIIELDE(int value) {
-        
+
         bMLIGIIELDE_ = value;
         onChanged();
         return this;
@@ -1069,7 +1081,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBMLIGIIELDE() {
-        
+
         bMLIGIIELDE_ = 0;
         onChanged();
         return this;
@@ -1090,7 +1102,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAHEHGIPMGEJ(int value) {
-        
+
         aHEHGIPMGEJ_ = value;
         onChanged();
         return this;
@@ -1100,13 +1112,20 @@ public final class SalesmanActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAHEHGIPMGEJ() {
-        
+
         aHEHGIPMGEJ_ = 0;
         onChanged();
         return this;
       }
 
       private int status_ = 0;
+<<<<<<< HEAD
+
+      @java.lang.Override public int getStatusValue() {
+        return status_;
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1127,12 +1146,16 @@ public final class SalesmanActivityDetailInfoOuterClass {
        * @param value The enum numeric value on the wire for status to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setStatusValue(int value) {
-        
+
         status_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1141,12 +1164,16 @@ public final class SalesmanActivityDetailInfoOuterClass {
        * <code>.DEMBMADKBAL status = 12;</code>
        * @return The status.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.DEMBMADKBALOuterClass.DEMBMADKBAL getStatus() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.DEMBMADKBALOuterClass.DEMBMADKBAL result = emu.grasscutter.net.proto.DEMBMADKBALOuterClass.DEMBMADKBAL.valueOf(status_);
         return result == null ? emu.grasscutter.net.proto.DEMBMADKBALOuterClass.DEMBMADKBAL.UNRECOGNIZED : result;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1156,15 +1183,19 @@ public final class SalesmanActivityDetailInfoOuterClass {
        * @param value The status to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setStatus(emu.grasscutter.net.proto.DEMBMADKBALOuterClass.DEMBMADKBAL value) {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         status_ = value.getNumber();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -1173,8 +1204,9 @@ public final class SalesmanActivityDetailInfoOuterClass {
        * <code>.DEMBMADKBAL status = 12;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearStatus() {
-        
+
         status_ = 0;
         onChanged();
         return this;
@@ -1195,7 +1227,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setDOHCIFFNBDP(int value) {
-        
+
         dOHCIFFNBDP_ = value;
         onChanged();
         return this;
@@ -1205,7 +1237,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearDOHCIFFNBDP() {
-        
+
         dOHCIFFNBDP_ = 0;
         onChanged();
         return this;
@@ -1226,7 +1258,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setBEAHJMEOFHN(int value) {
-        
+
         bEAHJMEOFHN_ = value;
         onChanged();
         return this;
@@ -1236,7 +1268,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearBEAHJMEOFHN() {
-        
+
         bEAHJMEOFHN_ = 0;
         onChanged();
         return this;
@@ -1257,7 +1289,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAPCGNEIMJIH(boolean value) {
-        
+
         aPCGNEIMJIH_ = value;
         onChanged();
         return this;
@@ -1267,7 +1299,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAPCGNEIMJIH() {
-        
+
         aPCGNEIMJIH_ = false;
         onChanged();
         return this;
@@ -1288,7 +1320,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setOHFNJHMMKLK(boolean value) {
-        
+
         oHFNJHMMKLK_ = value;
         onChanged();
         return this;
@@ -1298,7 +1330,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearOHFNJHMMKLK() {
-        
+
         oHFNJHMMKLK_ = false;
         onChanged();
         return this;
@@ -1319,7 +1351,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMJICAFEKAEB(int value) {
-        
+
         mJICAFEKAEB_ = value;
         onChanged();
         return this;
@@ -1329,7 +1361,7 @@ public final class SalesmanActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMJICAFEKAEB() {
-        
+
         mJICAFEKAEB_ = 0;
         onChanged();
         return this;
@@ -1345,7 +1377,6 @@ public final class SalesmanActivityDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:SalesmanActivityDetailInfo)
     }
@@ -1389,12 +1420,12 @@ public final class SalesmanActivityDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SalesmanActivityDetailInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SalesmanActivityDetailInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SalesmanActivityDetailInfo_HCGMLDLDPHHEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SalesmanActivityDetailInfo_HCGMLDLDPHHEntry_fieldAccessorTable;
 

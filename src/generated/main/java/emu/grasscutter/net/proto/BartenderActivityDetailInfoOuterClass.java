@@ -21,7 +21,7 @@ public final class BartenderActivityDetailInfoOuterClass {
     /**
      * <code>repeated .LBPINFDFJOB FLEBDGJIKHL = 1;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.LBPINFDFJOBOuterClass.LBPINFDFJOB> 
+    java.util.List<emu.grasscutter.net.proto.LBPINFDFJOBOuterClass.LBPINFDFJOB>
         getFLEBDGJIKHLList();
     /**
      * <code>repeated .LBPINFDFJOB FLEBDGJIKHL = 1;</code>
@@ -34,7 +34,7 @@ public final class BartenderActivityDetailInfoOuterClass {
     /**
      * <code>repeated .LBPINFDFJOB FLEBDGJIKHL = 1;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.LBPINFDFJOBOuterClass.LBPINFDFJOBOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.LBPINFDFJOBOuterClass.LBPINFDFJOBOrBuilder>
         getFLEBDGJIKHLOrBuilderList();
     /**
      * <code>repeated .LBPINFDFJOB FLEBDGJIKHL = 1;</code>
@@ -45,7 +45,7 @@ public final class BartenderActivityDetailInfoOuterClass {
     /**
      * <code>repeated .HBNINDDJCIA NPGOIAOBEJF = 2;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.HBNINDDJCIAOuterClass.HBNINDDJCIA> 
+    java.util.List<emu.grasscutter.net.proto.HBNINDDJCIAOuterClass.HBNINDDJCIA>
         getNPGOIAOBEJFList();
     /**
      * <code>repeated .HBNINDDJCIA NPGOIAOBEJF = 2;</code>
@@ -58,7 +58,7 @@ public final class BartenderActivityDetailInfoOuterClass {
     /**
      * <code>repeated .HBNINDDJCIA NPGOIAOBEJF = 2;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.HBNINDDJCIAOuterClass.HBNINDDJCIAOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.HBNINDDJCIAOuterClass.HBNINDDJCIAOrBuilder>
         getNPGOIAOBEJFOrBuilderList();
     /**
      * <code>repeated .HBNINDDJCIA NPGOIAOBEJF = 2;</code>
@@ -100,6 +100,8 @@ public final class BartenderActivityDetailInfoOuterClass {
      */
     int getGAJCOIOECCO(int index);
 
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -108,6 +110,7 @@ public final class BartenderActivityDetailInfoOuterClass {
      * <code>bool is_content_closed = 11;</code>
      * @return The isContentClosed.
      */
+>>>>>>> origin/6.5.0
     boolean getIsContentClosed();
 
     /**
@@ -293,7 +296,7 @@ public final class BartenderActivityDetailInfoOuterClass {
      * <code>repeated .LBPINFDFJOB FLEBDGJIKHL = 1;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.LBPINFDFJOBOuterClass.LBPINFDFJOBOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.LBPINFDFJOBOuterClass.LBPINFDFJOBOrBuilder>
         getFLEBDGJIKHLOrBuilderList() {
       return fLEBDGJIKHL_;
     }
@@ -333,7 +336,7 @@ public final class BartenderActivityDetailInfoOuterClass {
      * <code>repeated .HBNINDDJCIA NPGOIAOBEJF = 2;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.HBNINDDJCIAOuterClass.HBNINDDJCIAOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.HBNINDDJCIAOuterClass.HBNINDDJCIAOrBuilder>
         getNPGOIAOBEJFOrBuilderList() {
       return nPGOIAOBEJF_;
     }
@@ -416,8 +419,11 @@ public final class BartenderActivityDetailInfoOuterClass {
     }
     private int gAJCOIOECCOMemoizedSerializedSize = -1;
 
-    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 11;
+    public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 1;
     private boolean isContentClosed_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -426,6 +432,7 @@ public final class BartenderActivityDetailInfoOuterClass {
      * <code>bool is_content_closed = 11;</code>
      * @return The isContentClosed.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsContentClosed() {
       return isContentClosed_;
@@ -471,7 +478,7 @@ public final class BartenderActivityDetailInfoOuterClass {
         output.writeUInt32NoTag(jIAIIBBBHDA_.getInt(i));
       }
       if (isContentClosed_ != false) {
-        output.writeBool(11, isContentClosed_);
+        output.writeBool(1, isContentClosed_);
       }
       if (getGAJCOIOECCOList().size() > 0) {
         output.writeUInt32NoTag(130);
@@ -516,7 +523,7 @@ public final class BartenderActivityDetailInfoOuterClass {
       }
       if (isContentClosed_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(11, isContentClosed_);
+          .computeBoolSize(1, isContentClosed_);
       }
       {
         int dataSize = 0;
@@ -874,7 +881,7 @@ public final class BartenderActivityDetailInfoOuterClass {
               fLEBDGJIKHLBuilder_ = null;
               fLEBDGJIKHL_ = other.fLEBDGJIKHL_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              fLEBDGJIKHLBuilder_ = 
+              fLEBDGJIKHLBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getFLEBDGJIKHLFieldBuilder() : null;
             } else {
@@ -900,7 +907,7 @@ public final class BartenderActivityDetailInfoOuterClass {
               nPGOIAOBEJFBuilder_ = null;
               nPGOIAOBEJF_ = other.nPGOIAOBEJF_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              nPGOIAOBEJFBuilder_ = 
+              nPGOIAOBEJFBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getNPGOIAOBEJFFieldBuilder() : null;
             } else {
@@ -1159,7 +1166,7 @@ public final class BartenderActivityDetailInfoOuterClass {
       /**
        * <code>repeated .LBPINFDFJOB FLEBDGJIKHL = 1;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.LBPINFDFJOBOuterClass.LBPINFDFJOBOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.LBPINFDFJOBOuterClass.LBPINFDFJOBOrBuilder>
            getFLEBDGJIKHLOrBuilderList() {
         if (fLEBDGJIKHLBuilder_ != null) {
           return fLEBDGJIKHLBuilder_.getMessageOrBuilderList();
@@ -1185,12 +1192,12 @@ public final class BartenderActivityDetailInfoOuterClass {
       /**
        * <code>repeated .LBPINFDFJOB FLEBDGJIKHL = 1;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.LBPINFDFJOBOuterClass.LBPINFDFJOB.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.LBPINFDFJOBOuterClass.LBPINFDFJOB.Builder>
            getFLEBDGJIKHLBuilderList() {
         return getFLEBDGJIKHLFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.LBPINFDFJOBOuterClass.LBPINFDFJOB, emu.grasscutter.net.proto.LBPINFDFJOBOuterClass.LBPINFDFJOB.Builder, emu.grasscutter.net.proto.LBPINFDFJOBOuterClass.LBPINFDFJOBOrBuilder> 
+          emu.grasscutter.net.proto.LBPINFDFJOBOuterClass.LBPINFDFJOB, emu.grasscutter.net.proto.LBPINFDFJOBOuterClass.LBPINFDFJOB.Builder, emu.grasscutter.net.proto.LBPINFDFJOBOuterClass.LBPINFDFJOBOrBuilder>
           getFLEBDGJIKHLFieldBuilder() {
         if (fLEBDGJIKHLBuilder_ == null) {
           fLEBDGJIKHLBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1399,7 +1406,7 @@ public final class BartenderActivityDetailInfoOuterClass {
       /**
        * <code>repeated .HBNINDDJCIA NPGOIAOBEJF = 2;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.HBNINDDJCIAOuterClass.HBNINDDJCIAOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.HBNINDDJCIAOuterClass.HBNINDDJCIAOrBuilder>
            getNPGOIAOBEJFOrBuilderList() {
         if (nPGOIAOBEJFBuilder_ != null) {
           return nPGOIAOBEJFBuilder_.getMessageOrBuilderList();
@@ -1425,12 +1432,12 @@ public final class BartenderActivityDetailInfoOuterClass {
       /**
        * <code>repeated .HBNINDDJCIA NPGOIAOBEJF = 2;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.HBNINDDJCIAOuterClass.HBNINDDJCIA.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.HBNINDDJCIAOuterClass.HBNINDDJCIA.Builder>
            getNPGOIAOBEJFBuilderList() {
         return getNPGOIAOBEJFFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.HBNINDDJCIAOuterClass.HBNINDDJCIA, emu.grasscutter.net.proto.HBNINDDJCIAOuterClass.HBNINDDJCIA.Builder, emu.grasscutter.net.proto.HBNINDDJCIAOuterClass.HBNINDDJCIAOrBuilder> 
+          emu.grasscutter.net.proto.HBNINDDJCIAOuterClass.HBNINDDJCIA, emu.grasscutter.net.proto.HBNINDDJCIAOuterClass.HBNINDDJCIA.Builder, emu.grasscutter.net.proto.HBNINDDJCIAOuterClass.HBNINDDJCIAOrBuilder>
           getNPGOIAOBEJFFieldBuilder() {
         if (nPGOIAOBEJFBuilder_ == null) {
           nPGOIAOBEJFBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1603,6 +1610,9 @@ public final class BartenderActivityDetailInfoOuterClass {
       }
 
       private boolean isContentClosed_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1611,10 +1621,14 @@ public final class BartenderActivityDetailInfoOuterClass {
        * <code>bool is_content_closed = 11;</code>
        * @return The isContentClosed.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsContentClosed() {
         return isContentClosed_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1624,12 +1638,16 @@ public final class BartenderActivityDetailInfoOuterClass {
        * @param value The isContentClosed to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setIsContentClosed(boolean value) {
-        
+
         isContentClosed_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1638,8 +1656,9 @@ public final class BartenderActivityDetailInfoOuterClass {
        * <code>bool is_content_closed = 11;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearIsContentClosed() {
-        
+
         isContentClosed_ = false;
         onChanged();
         return this;
@@ -1660,7 +1679,7 @@ public final class BartenderActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setNKBBDGFOOEP(boolean value) {
-        
+
         nKBBDGFOOEP_ = value;
         onChanged();
         return this;
@@ -1670,7 +1689,7 @@ public final class BartenderActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNKBBDGFOOEP() {
-        
+
         nKBBDGFOOEP_ = false;
         onChanged();
         return this;
@@ -1686,7 +1705,6 @@ public final class BartenderActivityDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:BartenderActivityDetailInfo)
     }
@@ -1730,7 +1748,7 @@ public final class BartenderActivityDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_BartenderActivityDetailInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_BartenderActivityDetailInfo_fieldAccessorTable;
 

@@ -18,6 +18,18 @@ public final class QuestOuterClass {
       // @@protoc_insertion_point(interface_extends:Quest)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    java.util.List<java.lang.Integer> getFinishProgressListList();
+
+    int getFinishProgressListCount();
+
+    int getFinishProgressList(int index);
+
+    java.util.List<java.lang.Integer> getFailProgressListList();
+
+    int getFailProgressListCount();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           // offset: 32
@@ -74,6 +86,7 @@ public final class QuestOuterClass {
      * @param index The index of the element to return.
      * @return The failProgressList at the given index.
      */
+>>>>>>> origin/6.5.0
     int getFailProgressList(int index);
 
     /**
@@ -87,6 +100,20 @@ public final class QuestOuterClass {
      */
     int getStartGameTime();
 
+<<<<<<< HEAD
+    int getParentQuestId();
+
+    int getQuestId();
+
+    int getQuestConfigId();
+
+    int getAcceptTime();
+
+    int getStartTime();
+
+    boolean getIsRandom();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0            // offset: 68
@@ -155,6 +182,7 @@ public final class QuestOuterClass {
      * <code>uint32 state = 2;</code>
      * @return The state.
      */
+>>>>>>> origin/6.5.0
     int getState();
   }
   /**
@@ -327,6 +355,9 @@ public final class QuestOuterClass {
 
     public static final int FINISH_PROGRESS_LIST_FIELD_NUMBER = 10;
     private com.google.protobuf.Internal.IntList finishProgressList_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           // offset: 32
@@ -335,11 +366,19 @@ public final class QuestOuterClass {
      * <code>repeated uint32 finish_progress_list = 10;</code>
      * @return A list containing the finishProgressList.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getFinishProgressListList() {
       return finishProgressList_;
     }
+<<<<<<< HEAD
+
+    public int getFinishProgressListCount() {
+      return finishProgressList_.size();
+    }
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           // offset: 32
@@ -360,6 +399,7 @@ public final class QuestOuterClass {
      * @param index The index of the element to return.
      * @return The finishProgressList at the given index.
      */
+>>>>>>> origin/6.5.0
     public int getFinishProgressList(int index) {
       return finishProgressList_.getInt(index);
     }
@@ -367,6 +407,9 @@ public final class QuestOuterClass {
 
     public static final int FAIL_PROGRESS_LIST_FIELD_NUMBER = 11;
     private com.google.protobuf.Internal.IntList failProgressList_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           // offset: 40
@@ -375,11 +418,19 @@ public final class QuestOuterClass {
      * <code>repeated uint32 fail_progress_list = 11;</code>
      * @return A list containing the failProgressList.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getFailProgressListList() {
       return failProgressList_;
     }
+<<<<<<< HEAD
+
+    public int getFailProgressListCount() {
+      return failProgressList_.size();
+    }
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           // offset: 40
@@ -400,6 +451,7 @@ public final class QuestOuterClass {
      * @param index The index of the element to return.
      * @return The failProgressList at the given index.
      */
+>>>>>>> origin/6.5.0
     public int getFailProgressList(int index) {
       return failProgressList_.getInt(index);
     }
@@ -423,6 +475,9 @@ public final class QuestOuterClass {
 
     public static final int PARENT_QUEST_ID_FIELD_NUMBER = 6;
     private int parentQuestId_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0            // offset: 68
@@ -431,6 +486,7 @@ public final class QuestOuterClass {
      * <code>uint32 parent_quest_id = 6;</code>
      * @return The parentQuestId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getParentQuestId() {
       return parentQuestId_;
@@ -438,6 +494,9 @@ public final class QuestOuterClass {
 
     public static final int QUEST_ID_FIELD_NUMBER = 1;
     private int questId_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0            // offset: 72
@@ -446,6 +505,7 @@ public final class QuestOuterClass {
      * <code>uint32 quest_id = 1;</code>
      * @return The questId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getQuestId() {
       return questId_;
@@ -453,6 +513,9 @@ public final class QuestOuterClass {
 
     public static final int QUEST_CONFIG_ID_FIELD_NUMBER = 7;
     private int questConfigId_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0            // offset: 76
@@ -461,6 +524,7 @@ public final class QuestOuterClass {
      * <code>uint32 quest_config_id = 7;</code>
      * @return The questConfigId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getQuestConfigId() {
       return questConfigId_;
@@ -468,6 +532,9 @@ public final class QuestOuterClass {
 
     public static final int ACCEPT_TIME_FIELD_NUMBER = 9;
     private int acceptTime_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           // offset: 80
@@ -476,6 +543,7 @@ public final class QuestOuterClass {
      * <code>uint32 accept_time = 9;</code>
      * @return The acceptTime.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getAcceptTime() {
       return acceptTime_;
@@ -483,6 +551,9 @@ public final class QuestOuterClass {
 
     public static final int START_TIME_FIELD_NUMBER = 4;
     private int startTime_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0            // offset: 84
@@ -491,6 +562,7 @@ public final class QuestOuterClass {
      * <code>uint32 start_time = 4;</code>
      * @return The startTime.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getStartTime() {
       return startTime_;
@@ -498,6 +570,9 @@ public final class QuestOuterClass {
 
     public static final int IS_RANDOM_FIELD_NUMBER = 5;
     private boolean isRandom_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0            // offset: 88
@@ -506,6 +581,7 @@ public final class QuestOuterClass {
      * <code>bool is_random = 5;</code>
      * @return The isRandom.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsRandom() {
       return isRandom_;
@@ -513,6 +589,9 @@ public final class QuestOuterClass {
 
     public static final int STATE_FIELD_NUMBER = 2;
     private int state_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0            // offset: 92
@@ -521,6 +600,7 @@ public final class QuestOuterClass {
      * <code>uint32 state = 2;</code>
      * @return The state.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getState() {
       return state_;
@@ -1046,6 +1126,9 @@ public final class QuestOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           // offset: 32
@@ -1054,11 +1137,23 @@ public final class QuestOuterClass {
        * <code>repeated uint32 finish_progress_list = 10;</code>
        * @return A list containing the finishProgressList.
        */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getFinishProgressListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(finishProgressList_) : finishProgressList_;
       }
+<<<<<<< HEAD
+
+      public int getFinishProgressListCount() {
+        return finishProgressList_.size();
+      }
+
+      public int getFinishProgressList(int index) {
+        return finishProgressList_.getInt(index);
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           // offset: 32
@@ -1092,6 +1187,7 @@ public final class QuestOuterClass {
        * @param value The finishProgressList to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setFinishProgressList(
           int index, int value) {
         ensureFinishProgressListIsMutable();
@@ -1099,6 +1195,9 @@ public final class QuestOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           // offset: 32
@@ -1108,12 +1207,16 @@ public final class QuestOuterClass {
        * @param value The finishProgressList to add.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder addFinishProgressList(int value) {
         ensureFinishProgressListIsMutable();
         finishProgressList_.addInt(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           // offset: 32
@@ -1123,6 +1226,7 @@ public final class QuestOuterClass {
        * @param values The finishProgressList to add.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder addAllFinishProgressList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureFinishProgressListIsMutable();
@@ -1131,6 +1235,9 @@ public final class QuestOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           // offset: 32
@@ -1139,6 +1246,7 @@ public final class QuestOuterClass {
        * <code>repeated uint32 finish_progress_list = 10;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearFinishProgressList() {
         finishProgressList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -1153,6 +1261,9 @@ public final class QuestOuterClass {
           bitField0_ |= 0x00000002;
          }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           // offset: 40
@@ -1161,11 +1272,23 @@ public final class QuestOuterClass {
        * <code>repeated uint32 fail_progress_list = 11;</code>
        * @return A list containing the failProgressList.
        */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getFailProgressListList() {
         return ((bitField0_ & 0x00000002) != 0) ?
                  java.util.Collections.unmodifiableList(failProgressList_) : failProgressList_;
       }
+<<<<<<< HEAD
+
+      public int getFailProgressListCount() {
+        return failProgressList_.size();
+      }
+
+      public int getFailProgressList(int index) {
+        return failProgressList_.getInt(index);
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           // offset: 40
@@ -1199,6 +1322,7 @@ public final class QuestOuterClass {
        * @param value The failProgressList to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setFailProgressList(
           int index, int value) {
         ensureFailProgressListIsMutable();
@@ -1206,6 +1330,9 @@ public final class QuestOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           // offset: 40
@@ -1215,12 +1342,16 @@ public final class QuestOuterClass {
        * @param value The failProgressList to add.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder addFailProgressList(int value) {
         ensureFailProgressListIsMutable();
         failProgressList_.addInt(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           // offset: 40
@@ -1230,6 +1361,7 @@ public final class QuestOuterClass {
        * @param values The failProgressList to add.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder addAllFailProgressList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureFailProgressListIsMutable();
@@ -1238,6 +1370,9 @@ public final class QuestOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           // offset: 40
@@ -1246,6 +1381,7 @@ public final class QuestOuterClass {
        * <code>repeated uint32 fail_progress_list = 11;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearFailProgressList() {
         failProgressList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
@@ -1278,7 +1414,7 @@ public final class QuestOuterClass {
        * @return This builder for chaining.
        */
       public Builder setStartGameTime(int value) {
-        
+
         startGameTime_ = value;
         onChanged();
         return this;
@@ -1293,13 +1429,16 @@ public final class QuestOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearStartGameTime() {
-        
+
         startGameTime_ = 0;
         onChanged();
         return this;
       }
 
       private int parentQuestId_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0            // offset: 68
@@ -1308,10 +1447,14 @@ public final class QuestOuterClass {
        * <code>uint32 parent_quest_id = 6;</code>
        * @return The parentQuestId.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getParentQuestId() {
         return parentQuestId_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0            // offset: 68
@@ -1321,12 +1464,16 @@ public final class QuestOuterClass {
        * @param value The parentQuestId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setParentQuestId(int value) {
-        
+
         parentQuestId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0            // offset: 68
@@ -1335,14 +1482,18 @@ public final class QuestOuterClass {
        * <code>uint32 parent_quest_id = 6;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearParentQuestId() {
-        
+
         parentQuestId_ = 0;
         onChanged();
         return this;
       }
 
       private int questId_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0            // offset: 72
@@ -1351,10 +1502,14 @@ public final class QuestOuterClass {
        * <code>uint32 quest_id = 1;</code>
        * @return The questId.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getQuestId() {
         return questId_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0            // offset: 72
@@ -1364,12 +1519,16 @@ public final class QuestOuterClass {
        * @param value The questId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setQuestId(int value) {
-        
+
         questId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0            // offset: 72
@@ -1378,14 +1537,18 @@ public final class QuestOuterClass {
        * <code>uint32 quest_id = 1;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearQuestId() {
-        
+
         questId_ = 0;
         onChanged();
         return this;
       }
 
       private int questConfigId_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0            // offset: 76
@@ -1394,10 +1557,14 @@ public final class QuestOuterClass {
        * <code>uint32 quest_config_id = 7;</code>
        * @return The questConfigId.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getQuestConfigId() {
         return questConfigId_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0            // offset: 76
@@ -1407,12 +1574,16 @@ public final class QuestOuterClass {
        * @param value The questConfigId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setQuestConfigId(int value) {
-        
+
         questConfigId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0            // offset: 76
@@ -1421,14 +1592,18 @@ public final class QuestOuterClass {
        * <code>uint32 quest_config_id = 7;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearQuestConfigId() {
-        
+
         questConfigId_ = 0;
         onChanged();
         return this;
       }
 
       private int acceptTime_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           // offset: 80
@@ -1437,10 +1612,14 @@ public final class QuestOuterClass {
        * <code>uint32 accept_time = 9;</code>
        * @return The acceptTime.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getAcceptTime() {
         return acceptTime_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           // offset: 80
@@ -1450,12 +1629,16 @@ public final class QuestOuterClass {
        * @param value The acceptTime to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setAcceptTime(int value) {
-        
+
         acceptTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           // offset: 80
@@ -1464,14 +1647,18 @@ public final class QuestOuterClass {
        * <code>uint32 accept_time = 9;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearAcceptTime() {
-        
+
         acceptTime_ = 0;
         onChanged();
         return this;
       }
 
       private int startTime_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0            // offset: 84
@@ -1480,10 +1667,14 @@ public final class QuestOuterClass {
        * <code>uint32 start_time = 4;</code>
        * @return The startTime.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getStartTime() {
         return startTime_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0            // offset: 84
@@ -1493,12 +1684,16 @@ public final class QuestOuterClass {
        * @param value The startTime to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setStartTime(int value) {
-        
+
         startTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0            // offset: 84
@@ -1507,14 +1702,18 @@ public final class QuestOuterClass {
        * <code>uint32 start_time = 4;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearStartTime() {
-        
+
         startTime_ = 0;
         onChanged();
         return this;
       }
 
       private boolean isRandom_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0            // offset: 88
@@ -1523,10 +1722,14 @@ public final class QuestOuterClass {
        * <code>bool is_random = 5;</code>
        * @return The isRandom.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsRandom() {
         return isRandom_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0            // offset: 88
@@ -1536,12 +1739,16 @@ public final class QuestOuterClass {
        * @param value The isRandom to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setIsRandom(boolean value) {
-        
+
         isRandom_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0            // offset: 88
@@ -1550,14 +1757,18 @@ public final class QuestOuterClass {
        * <code>bool is_random = 5;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearIsRandom() {
-        
+
         isRandom_ = false;
         onChanged();
         return this;
       }
 
       private int state_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0            // offset: 92
@@ -1566,10 +1777,14 @@ public final class QuestOuterClass {
        * <code>uint32 state = 2;</code>
        * @return The state.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getState() {
         return state_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0            // offset: 92
@@ -1579,12 +1794,16 @@ public final class QuestOuterClass {
        * @param value The state to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setState(int value) {
-        
+
         state_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0            // offset: 92
@@ -1593,8 +1812,9 @@ public final class QuestOuterClass {
        * <code>uint32 state = 2;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearState() {
-        
+
         state_ = 0;
         onChanged();
         return this;
@@ -1610,7 +1830,6 @@ public final class QuestOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:Quest)
     }
@@ -1654,7 +1873,7 @@ public final class QuestOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_Quest_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_Quest_fieldAccessorTable;
 

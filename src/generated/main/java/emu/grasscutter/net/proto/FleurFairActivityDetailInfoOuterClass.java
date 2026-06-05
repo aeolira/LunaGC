@@ -21,7 +21,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
     /**
      * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
      */
-    java.util.List<emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN> 
+    java.util.List<emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN>
         getAEPAJCHDHEDList();
     /**
      * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
@@ -34,7 +34,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
     /**
      * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
      */
-    java.util.List<? extends emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDNOrBuilder> 
+    java.util.List<? extends emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDNOrBuilder>
         getAEPAJCHDHEDOrBuilderList();
     /**
      * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
@@ -122,6 +122,10 @@ public final class FleurFairActivityDetailInfoOuterClass {
      */
     int getIOIIEKCBJBK();
 
+<<<<<<< HEAD
+    int getContentCloseTime();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -140,6 +144,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
      * <code>bool is_content_closed = 13;</code>
      * @return The isContentClosed.
      */
+>>>>>>> origin/6.5.0
     boolean getIsContentClosed();
 
     /**
@@ -317,7 +322,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
      * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
      */
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDNOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDNOrBuilder>
         getAEPAJCHDHEDOrBuilderList() {
       return aEPAJCHDHED_;
     }
@@ -350,7 +355,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
           java.lang.Integer, emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE>newDefaultInstance(
-                  emu.grasscutter.net.proto.FleurFairActivityDetailInfoOuterClass.internal_static_FleurFairActivityDetailInfo_GENNHGADGJBEntry_descriptor, 
+                  emu.grasscutter.net.proto.FleurFairActivityDetailInfoOuterClass.internal_static_FleurFairActivityDetailInfo_GENNHGADGJBEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
@@ -377,7 +382,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
     @java.lang.Override
     public boolean containsGENNHGADGJB(
         int key) {
-      
+
       return internalGetGENNHGADGJB().getMap().containsKey(key);
     }
     /**
@@ -404,7 +409,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
     public emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE getGENNHGADGJBOrDefault(
         int key,
         emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE> map =
           internalGetGENNHGADGJB().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -416,7 +421,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
 
     public emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE getGENNHGADGJBOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE> map =
           internalGetGENNHGADGJB().getMap();
       if (!map.containsKey(key)) {
@@ -431,7 +436,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
           java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo>newDefaultInstance(
-                  emu.grasscutter.net.proto.FleurFairActivityDetailInfoOuterClass.internal_static_FleurFairActivityDetailInfo_HMJJFAKHOKNEntry_descriptor, 
+                  emu.grasscutter.net.proto.FleurFairActivityDetailInfoOuterClass.internal_static_FleurFairActivityDetailInfo_HMJJFAKHOKNEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
@@ -458,7 +463,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
     @java.lang.Override
     public boolean containsHMJJFAKHOKN(
         int key) {
-      
+
       return internalGetHMJJFAKHOKN().getMap().containsKey(key);
     }
     /**
@@ -485,7 +490,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
     public emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo getHMJJFAKHOKNOrDefault(
         int key,
         emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo> map =
           internalGetHMJJFAKHOKN().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -497,7 +502,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
 
     public emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo getHMJJFAKHOKNOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo> map =
           internalGetHMJJFAKHOKN().getMap();
       if (!map.containsKey(key)) {
@@ -530,6 +535,9 @@ public final class FleurFairActivityDetailInfoOuterClass {
 
     public static final int CONTENT_CLOSE_TIME_FIELD_NUMBER = 8;
     private int contentCloseTime_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -538,6 +546,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
      * <code>uint32 content_close_time = 8;</code>
      * @return The contentCloseTime.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getContentCloseTime() {
       return contentCloseTime_;
@@ -545,6 +554,9 @@ public final class FleurFairActivityDetailInfoOuterClass {
 
     public static final int IS_CONTENT_CLOSED_FIELD_NUMBER = 13;
     private boolean isContentClosed_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -553,6 +565,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
      * <code>bool is_content_closed = 13;</code>
      * @return The isContentClosed.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsContentClosed() {
       return isContentClosed_;
@@ -1021,7 +1034,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
               aEPAJCHDHEDBuilder_ = null;
               aEPAJCHDHED_ = other.aEPAJCHDHED_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              aEPAJCHDHEDBuilder_ = 
+              aEPAJCHDHEDBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getAEPAJCHDHEDFieldBuilder() : null;
             } else {
@@ -1273,7 +1286,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
       /**
        * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
        */
-      public java.util.List<? extends emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDNOrBuilder> 
+      public java.util.List<? extends emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDNOrBuilder>
            getAEPAJCHDHEDOrBuilderList() {
         if (aEPAJCHDHEDBuilder_ != null) {
           return aEPAJCHDHEDBuilder_.getMessageOrBuilderList();
@@ -1299,12 +1312,12 @@ public final class FleurFairActivityDetailInfoOuterClass {
       /**
        * <code>repeated .MFCLINBGDDN AEPAJCHDHED = 5;</code>
        */
-      public java.util.List<emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN.Builder> 
+      public java.util.List<emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN.Builder>
            getAEPAJCHDHEDBuilderList() {
         return getAEPAJCHDHEDFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN, emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN.Builder, emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDNOrBuilder> 
+          emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN, emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDN.Builder, emu.grasscutter.net.proto.MFCLINBGDDNOuterClass.MFCLINBGDDNOrBuilder>
           getAEPAJCHDHEDFieldBuilder() {
         if (aEPAJCHDHEDBuilder_ == null) {
           aEPAJCHDHEDBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1351,7 +1364,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
       @java.lang.Override
       public boolean containsGENNHGADGJB(
           int key) {
-        
+
         return internalGetGENNHGADGJB().getMap().containsKey(key);
       }
       /**
@@ -1378,7 +1391,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
       public emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE getGENNHGADGJBOrDefault(
           int key,
           emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE> map =
             internalGetGENNHGADGJB().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -1390,7 +1403,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
 
       public emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE getGENNHGADGJBOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE> map =
             internalGetGENNHGADGJB().getMap();
         if (!map.containsKey(key)) {
@@ -1410,7 +1423,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
 
       public Builder removeGENNHGADGJB(
           int key) {
-        
+
         internalGetMutableGENNHGADGJB().getMutableMap()
             .remove(key);
         return this;
@@ -1429,7 +1442,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
       public Builder putGENNHGADGJB(
           int key,
           emu.grasscutter.net.proto.KKMKOOOMMPEOuterClass.KKMKOOOMMPE value) {
-        
+
         if (value == null) { throw new java.lang.NullPointerException(); }
         internalGetMutableGENNHGADGJB().getMutableMap()
             .put(key, value);
@@ -1479,7 +1492,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
       @java.lang.Override
       public boolean containsHMJJFAKHOKN(
           int key) {
-        
+
         return internalGetHMJJFAKHOKN().getMap().containsKey(key);
       }
       /**
@@ -1506,7 +1519,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
       public emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo getHMJJFAKHOKNOrDefault(
           int key,
           emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo> map =
             internalGetHMJJFAKHOKN().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -1518,7 +1531,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
 
       public emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo getHMJJFAKHOKNOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo> map =
             internalGetHMJJFAKHOKN().getMap();
         if (!map.containsKey(key)) {
@@ -1538,7 +1551,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
 
       public Builder removeHMJJFAKHOKN(
           int key) {
-        
+
         internalGetMutableHMJJFAKHOKN().getMutableMap()
             .remove(key);
         return this;
@@ -1557,7 +1570,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
       public Builder putHMJJFAKHOKN(
           int key,
           emu.grasscutter.net.proto.FleurFairMinigameInfoOuterClass.FleurFairMinigameInfo value) {
-        
+
         if (value == null) { throw new java.lang.NullPointerException(); }
         internalGetMutableHMJJFAKHOKN().getMutableMap()
             .put(key, value);
@@ -1589,7 +1602,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAFFHHPFGBKH(int value) {
-        
+
         aFFHHPFGBKH_ = value;
         onChanged();
         return this;
@@ -1599,7 +1612,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAFFHHPFGBKH() {
-        
+
         aFFHHPFGBKH_ = 0;
         onChanged();
         return this;
@@ -1620,7 +1633,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setIOIIEKCBJBK(int value) {
-        
+
         iOIIEKCBJBK_ = value;
         onChanged();
         return this;
@@ -1630,13 +1643,16 @@ public final class FleurFairActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIOIIEKCBJBK() {
-        
+
         iOIIEKCBJBK_ = 0;
         onChanged();
         return this;
       }
 
       private int contentCloseTime_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1645,10 +1661,14 @@ public final class FleurFairActivityDetailInfoOuterClass {
        * <code>uint32 content_close_time = 8;</code>
        * @return The contentCloseTime.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getContentCloseTime() {
         return contentCloseTime_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1658,12 +1678,16 @@ public final class FleurFairActivityDetailInfoOuterClass {
        * @param value The contentCloseTime to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setContentCloseTime(int value) {
-        
+
         contentCloseTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1672,14 +1696,18 @@ public final class FleurFairActivityDetailInfoOuterClass {
        * <code>uint32 content_close_time = 8;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearContentCloseTime() {
-        
+
         contentCloseTime_ = 0;
         onChanged();
         return this;
       }
 
       private boolean isContentClosed_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1688,10 +1716,14 @@ public final class FleurFairActivityDetailInfoOuterClass {
        * <code>bool is_content_closed = 13;</code>
        * @return The isContentClosed.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsContentClosed() {
         return isContentClosed_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1701,12 +1733,16 @@ public final class FleurFairActivityDetailInfoOuterClass {
        * @param value The isContentClosed to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setIsContentClosed(boolean value) {
-        
+
         isContentClosed_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -1715,8 +1751,9 @@ public final class FleurFairActivityDetailInfoOuterClass {
        * <code>bool is_content_closed = 13;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearIsContentClosed() {
-        
+
         isContentClosed_ = false;
         onChanged();
         return this;
@@ -1737,7 +1774,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setAHABJAJHHNL(boolean value) {
-        
+
         aHABJAJHHNL_ = value;
         onChanged();
         return this;
@@ -1747,7 +1784,7 @@ public final class FleurFairActivityDetailInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearAHABJAJHHNL() {
-        
+
         aHABJAJHHNL_ = false;
         onChanged();
         return this;
@@ -1763,7 +1800,6 @@ public final class FleurFairActivityDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:FleurFairActivityDetailInfo)
     }
@@ -1807,17 +1843,17 @@ public final class FleurFairActivityDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FleurFairActivityDetailInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FleurFairActivityDetailInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FleurFairActivityDetailInfo_GENNHGADGJBEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FleurFairActivityDetailInfo_GENNHGADGJBEntry_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_FleurFairActivityDetailInfo_HMJJFAKHOKNEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_FleurFairActivityDetailInfo_HMJJFAKHOKNEntry_fieldAccessorTable;
 

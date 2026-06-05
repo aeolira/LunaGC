@@ -42,6 +42,8 @@ public final class ShopConcertProductOuterClass {
     com.google.protobuf.ByteString
         getNAFPACJOABIBytes();
 
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0         
@@ -50,6 +52,7 @@ public final class ShopConcertProductOuterClass {
      * <code>uint32 begin_time = 5;</code>
      * @return The beginTime.
      */
+>>>>>>> origin/6.5.0
     int getBeginTime();
 
     /**
@@ -58,6 +61,8 @@ public final class ShopConcertProductOuterClass {
      */
     int getMJHLHJNNLPG();
 
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0         
@@ -66,6 +71,7 @@ public final class ShopConcertProductOuterClass {
      * <code>uint32 end_time = 6;</code>
      * @return The endTime.
      */
+>>>>>>> origin/6.5.0
     int getEndTime();
 
     /**
@@ -208,7 +214,7 @@ public final class ShopConcertProductOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         iDMEPGKNPNM_ = s;
@@ -224,7 +230,7 @@ public final class ShopConcertProductOuterClass {
         getIDMEPGKNPNMBytes() {
       java.lang.Object ref = iDMEPGKNPNM_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         iDMEPGKNPNM_ = b;
@@ -246,7 +252,7 @@ public final class ShopConcertProductOuterClass {
       if (ref instanceof java.lang.String) {
         return (java.lang.String) ref;
       } else {
-        com.google.protobuf.ByteString bs = 
+        com.google.protobuf.ByteString bs =
             (com.google.protobuf.ByteString) ref;
         java.lang.String s = bs.toStringUtf8();
         nAFPACJOABI_ = s;
@@ -262,7 +268,7 @@ public final class ShopConcertProductOuterClass {
         getNAFPACJOABIBytes() {
       java.lang.Object ref = nAFPACJOABI_;
       if (ref instanceof java.lang.String) {
-        com.google.protobuf.ByteString b = 
+        com.google.protobuf.ByteString b =
             com.google.protobuf.ByteString.copyFromUtf8(
                 (java.lang.String) ref);
         nAFPACJOABI_ = b;
@@ -274,6 +280,9 @@ public final class ShopConcertProductOuterClass {
 
     public static final int BEGIN_TIME_FIELD_NUMBER = 5;
     private int beginTime_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0         
@@ -282,6 +291,7 @@ public final class ShopConcertProductOuterClass {
      * <code>uint32 begin_time = 5;</code>
      * @return The beginTime.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getBeginTime() {
       return beginTime_;
@@ -300,6 +310,9 @@ public final class ShopConcertProductOuterClass {
 
     public static final int END_TIME_FIELD_NUMBER = 6;
     private int endTime_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0         
@@ -308,6 +321,7 @@ public final class ShopConcertProductOuterClass {
      * <code>uint32 end_time = 6;</code>
      * @return The endTime.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getEndTime() {
       return endTime_;
@@ -764,7 +778,7 @@ public final class ShopConcertProductOuterClass {
           getIDMEPGKNPNMBytes() {
         java.lang.Object ref = iDMEPGKNPNM_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           iDMEPGKNPNM_ = b;
@@ -783,7 +797,7 @@ public final class ShopConcertProductOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         iDMEPGKNPNM_ = value;
         onChanged();
         return this;
@@ -793,7 +807,7 @@ public final class ShopConcertProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearIDMEPGKNPNM() {
-        
+
         iDMEPGKNPNM_ = getDefaultInstance().getIDMEPGKNPNM();
         onChanged();
         return this;
@@ -809,7 +823,7 @@ public final class ShopConcertProductOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         iDMEPGKNPNM_ = value;
         onChanged();
         return this;
@@ -840,7 +854,7 @@ public final class ShopConcertProductOuterClass {
           getNAFPACJOABIBytes() {
         java.lang.Object ref = nAFPACJOABI_;
         if (ref instanceof String) {
-          com.google.protobuf.ByteString b = 
+          com.google.protobuf.ByteString b =
               com.google.protobuf.ByteString.copyFromUtf8(
                   (java.lang.String) ref);
           nAFPACJOABI_ = b;
@@ -859,7 +873,7 @@ public final class ShopConcertProductOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         nAFPACJOABI_ = value;
         onChanged();
         return this;
@@ -869,7 +883,7 @@ public final class ShopConcertProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNAFPACJOABI() {
-        
+
         nAFPACJOABI_ = getDefaultInstance().getNAFPACJOABI();
         onChanged();
         return this;
@@ -885,13 +899,16 @@ public final class ShopConcertProductOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+
         nAFPACJOABI_ = value;
         onChanged();
         return this;
       }
 
       private int beginTime_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -900,10 +917,14 @@ public final class ShopConcertProductOuterClass {
        * <code>uint32 begin_time = 5;</code>
        * @return The beginTime.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getBeginTime() {
         return beginTime_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -913,12 +934,16 @@ public final class ShopConcertProductOuterClass {
        * @param value The beginTime to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setBeginTime(int value) {
-        
+
         beginTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -927,8 +952,9 @@ public final class ShopConcertProductOuterClass {
        * <code>uint32 begin_time = 5;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearBeginTime() {
-        
+
         beginTime_ = 0;
         onChanged();
         return this;
@@ -949,7 +975,7 @@ public final class ShopConcertProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder setMJHLHJNNLPG(int value) {
-        
+
         mJHLHJNNLPG_ = value;
         onChanged();
         return this;
@@ -959,13 +985,16 @@ public final class ShopConcertProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearMJHLHJNNLPG() {
-        
+
         mJHLHJNNLPG_ = 0;
         onChanged();
         return this;
       }
 
       private int endTime_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -974,10 +1003,14 @@ public final class ShopConcertProductOuterClass {
        * <code>uint32 end_time = 6;</code>
        * @return The endTime.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getEndTime() {
         return endTime_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -987,12 +1020,16 @@ public final class ShopConcertProductOuterClass {
        * @param value The endTime to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setEndTime(int value) {
-        
+
         endTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0         
@@ -1001,8 +1038,9 @@ public final class ShopConcertProductOuterClass {
        * <code>uint32 end_time = 6;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearEndTime() {
-        
+
         endTime_ = 0;
         onChanged();
         return this;
@@ -1023,7 +1061,7 @@ public final class ShopConcertProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder setEBENHBFBKCF(int value) {
-        
+
         eBENHBFBKCF_ = value;
         onChanged();
         return this;
@@ -1033,7 +1071,7 @@ public final class ShopConcertProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearEBENHBFBKCF() {
-        
+
         eBENHBFBKCF_ = 0;
         onChanged();
         return this;
@@ -1054,7 +1092,7 @@ public final class ShopConcertProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder setNMCJHOFMNDB(int value) {
-        
+
         nMCJHOFMNDB_ = value;
         onChanged();
         return this;
@@ -1064,7 +1102,7 @@ public final class ShopConcertProductOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNMCJHOFMNDB() {
-        
+
         nMCJHOFMNDB_ = 0;
         onChanged();
         return this;
@@ -1080,7 +1118,6 @@ public final class ShopConcertProductOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:ShopConcertProduct)
     }
@@ -1124,7 +1161,7 @@ public final class ShopConcertProductOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ShopConcertProduct_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ShopConcertProduct_fieldAccessorTable;
 

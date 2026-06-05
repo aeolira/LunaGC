@@ -18,6 +18,10 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:AvatarFightPropUpdateNotify)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    int getFightPropMapCount();
+
+=======
     /**
      * <pre>
      *6.5.5       
@@ -33,6 +37,7 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
      *
      * <code>map&lt;uint32, float&gt; fight_prop_map = 13;</code>
      */
+>>>>>>> origin/6.5.0
     boolean containsFightPropMap(
         int key);
     /**
@@ -41,6 +46,11 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, java.lang.Float>
     getFightPropMap();
+<<<<<<< HEAD
+
+    java.util.Map<java.lang.Integer, java.lang.Float>
+    getFightPropMapMap();
+=======
     /**
      * <pre>
      *6.5.5       
@@ -57,10 +67,13 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
      *
      * <code>map&lt;uint32, float&gt; fight_prop_map = 13;</code>
      */
+>>>>>>> origin/6.5.0
 
     float getFightPropMapOrDefault(
         int key,
         float defaultValue);
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5       
@@ -68,10 +81,13 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
      *
      * <code>map&lt;uint32, float&gt; fight_prop_map = 13;</code>
      */
+>>>>>>> origin/6.5.0
 
     float getFightPropMapOrThrow(
         int key);
 
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5       
@@ -80,6 +96,7 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
      * <code>uint64 avatar_guid = 7;</code>
      * @return The avatarGuid.
      */
+>>>>>>> origin/6.5.0
     long getAvatarGuid();
   }
   /**
@@ -132,12 +149,20 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
             case 0:
               done = true;
               break;
+<<<<<<< HEAD
+            case 48: {
+=======
             case 56: {
+>>>>>>> origin/6.5.0
 
               avatarGuid_ = input.readUInt64();
               break;
             }
+<<<<<<< HEAD
+            case 114: {
+=======
             case 106: {
+>>>>>>> origin/6.5.0
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 fightPropMap_ = com.google.protobuf.MapField.newMapField(
                     FightPropMapDefaultEntryHolder.defaultEntry);
@@ -179,7 +204,11 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
     protected com.google.protobuf.MapField internalGetMapField(
         int number) {
       switch (number) {
+<<<<<<< HEAD
+        case 14:
+=======
         case 13:
+>>>>>>> origin/6.5.0
           return internalGetFightPropMap();
         default:
           throw new RuntimeException(
@@ -194,13 +223,17 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
               emu.grasscutter.net.proto.AvatarFightPropUpdateNotifyOuterClass.AvatarFightPropUpdateNotify.class, emu.grasscutter.net.proto.AvatarFightPropUpdateNotifyOuterClass.AvatarFightPropUpdateNotify.Builder.class);
     }
 
+<<<<<<< HEAD
+    public static final int FIGHT_PROP_MAP_FIELD_NUMBER = 14;
+=======
     public static final int FIGHT_PROP_MAP_FIELD_NUMBER = 13;
+>>>>>>> origin/6.5.0
     private static final class FightPropMapDefaultEntryHolder {
       static final com.google.protobuf.MapEntry<
           java.lang.Integer, java.lang.Float> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Float>newDefaultInstance(
-                  emu.grasscutter.net.proto.AvatarFightPropUpdateNotifyOuterClass.internal_static_AvatarFightPropUpdateNotify_FightPropMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.AvatarFightPropUpdateNotifyOuterClass.internal_static_AvatarFightPropUpdateNotify_FightPropMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.FLOAT,
@@ -220,6 +253,8 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
     public int getFightPropMapCount() {
       return internalGetFightPropMap().getMap().size();
     }
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5       
@@ -227,11 +262,12 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
      *
      * <code>map&lt;uint32, float&gt; fight_prop_map = 13;</code>
      */
+>>>>>>> origin/6.5.0
 
     @java.lang.Override
     public boolean containsFightPropMap(
         int key) {
-      
+
       return internalGetFightPropMap().getMap().containsKey(key);
     }
     /**
@@ -242,6 +278,9 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
     public java.util.Map<java.lang.Integer, java.lang.Float> getFightPropMap() {
       return getFightPropMapMap();
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5       
@@ -249,11 +288,15 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
      *
      * <code>map&lt;uint32, float&gt; fight_prop_map = 13;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public java.util.Map<java.lang.Integer, java.lang.Float> getFightPropMapMap() {
       return internalGetFightPropMap().getMap();
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5       
@@ -261,16 +304,20 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
      *
      * <code>map&lt;uint32, float&gt; fight_prop_map = 13;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public float getFightPropMapOrDefault(
         int key,
         float defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Float> map =
           internalGetFightPropMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5       
@@ -278,11 +325,12 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
      *
      * <code>map&lt;uint32, float&gt; fight_prop_map = 13;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public float getFightPropMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Float> map =
           internalGetFightPropMap().getMap();
       if (!map.containsKey(key)) {
@@ -291,6 +339,11 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
       return map.get(key);
     }
 
+<<<<<<< HEAD
+    public static final int AVATAR_GUID_FIELD_NUMBER = 6;
+    private long avatarGuid_;
+
+=======
     public static final int AVATAR_GUID_FIELD_NUMBER = 7;
     private long avatarGuid_;
     /**
@@ -301,6 +354,7 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
      * <code>uint64 avatar_guid = 7;</code>
      * @return The avatarGuid.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public long getAvatarGuid() {
       return avatarGuid_;
@@ -321,14 +375,22 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (avatarGuid_ != 0L) {
+<<<<<<< HEAD
+        output.writeUInt64(6, avatarGuid_);
+=======
         output.writeUInt64(7, avatarGuid_);
+>>>>>>> origin/6.5.0
       }
       com.google.protobuf.GeneratedMessageV3
         .serializeIntegerMapTo(
           output,
           internalGetFightPropMap(),
           FightPropMapDefaultEntryHolder.defaultEntry,
+<<<<<<< HEAD
+          14);
+=======
           13);
+>>>>>>> origin/6.5.0
       unknownFields.writeTo(output);
     }
 
@@ -340,7 +402,11 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
       size = 0;
       if (avatarGuid_ != 0L) {
         size += com.google.protobuf.CodedOutputStream
+<<<<<<< HEAD
+          .computeUInt64Size(6, avatarGuid_);
+=======
           .computeUInt64Size(7, avatarGuid_);
+>>>>>>> origin/6.5.0
       }
       for (java.util.Map.Entry<java.lang.Integer, java.lang.Float> entry
            : internalGetFightPropMap().getMap().entrySet()) {
@@ -350,7 +416,11 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
             .setValue(entry.getValue())
             .build();
         size += com.google.protobuf.CodedOutputStream
+<<<<<<< HEAD
+            .computeMessageSize(14, fightPropMap__);
+=======
             .computeMessageSize(13, fightPropMap__);
+>>>>>>> origin/6.5.0
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -504,7 +574,11 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
       protected com.google.protobuf.MapField internalGetMapField(
           int number) {
         switch (number) {
+<<<<<<< HEAD
+          case 14:
+=======
           case 13:
+>>>>>>> origin/6.5.0
             return internalGetFightPropMap();
           default:
             throw new RuntimeException(
@@ -515,7 +589,11 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
       protected com.google.protobuf.MapField internalGetMutableMapField(
           int number) {
         switch (number) {
+<<<<<<< HEAD
+          case 14:
+=======
           case 13:
+>>>>>>> origin/6.5.0
             return internalGetMutableFightPropMap();
           default:
             throw new RuntimeException(
@@ -690,6 +768,8 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
       public int getFightPropMapCount() {
         return internalGetFightPropMap().getMap().size();
       }
+<<<<<<< HEAD
+=======
       /**
        * <pre>
        *6.5.5       
@@ -697,11 +777,12 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
        *
        * <code>map&lt;uint32, float&gt; fight_prop_map = 13;</code>
        */
+>>>>>>> origin/6.5.0
 
       @java.lang.Override
       public boolean containsFightPropMap(
           int key) {
-        
+
         return internalGetFightPropMap().getMap().containsKey(key);
       }
       /**
@@ -712,6 +793,9 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
       public java.util.Map<java.lang.Integer, java.lang.Float> getFightPropMap() {
         return getFightPropMapMap();
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5       
@@ -719,11 +803,15 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
        *
        * <code>map&lt;uint32, float&gt; fight_prop_map = 13;</code>
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public java.util.Map<java.lang.Integer, java.lang.Float> getFightPropMapMap() {
         return internalGetFightPropMap().getMap();
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5       
@@ -731,16 +819,20 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
        *
        * <code>map&lt;uint32, float&gt; fight_prop_map = 13;</code>
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public float getFightPropMapOrDefault(
           int key,
           float defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Float> map =
             internalGetFightPropMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5       
@@ -748,11 +840,12 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
        *
        * <code>map&lt;uint32, float&gt; fight_prop_map = 13;</code>
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public float getFightPropMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Float> map =
             internalGetFightPropMap().getMap();
         if (!map.containsKey(key)) {
@@ -766,6 +859,8 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
             .clear();
         return this;
       }
+<<<<<<< HEAD
+=======
       /**
        * <pre>
        *6.5.5       
@@ -773,10 +868,11 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
        *
        * <code>map&lt;uint32, float&gt; fight_prop_map = 13;</code>
        */
+>>>>>>> origin/6.5.0
 
       public Builder removeFightPropMap(
           int key) {
-        
+
         internalGetMutableFightPropMap().getMutableMap()
             .remove(key);
         return this;
@@ -789,6 +885,9 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
       getMutableFightPropMap() {
         return internalGetMutableFightPropMap().getMutableMap();
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5       
@@ -796,15 +895,17 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
        *
        * <code>map&lt;uint32, float&gt; fight_prop_map = 13;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder putFightPropMap(
           int key,
           float value) {
-        
-        
+
         internalGetMutableFightPropMap().getMutableMap()
             .put(key, value);
         return this;
       }
+<<<<<<< HEAD
+=======
       /**
        * <pre>
        *6.5.5       
@@ -812,6 +913,7 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
        *
        * <code>map&lt;uint32, float&gt; fight_prop_map = 13;</code>
        */
+>>>>>>> origin/6.5.0
 
       public Builder putAllFightPropMap(
           java.util.Map<java.lang.Integer, java.lang.Float> values) {
@@ -821,6 +923,9 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
       }
 
       private long avatarGuid_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5       
@@ -829,10 +934,14 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
        * <code>uint64 avatar_guid = 7;</code>
        * @return The avatarGuid.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public long getAvatarGuid() {
         return avatarGuid_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5       
@@ -842,12 +951,16 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
        * @param value The avatarGuid to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setAvatarGuid(long value) {
-        
+
         avatarGuid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5       
@@ -856,8 +969,9 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
        * <code>uint64 avatar_guid = 7;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearAvatarGuid() {
-        
+
         avatarGuid_ = 0L;
         onChanged();
         return this;
@@ -873,7 +987,6 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:AvatarFightPropUpdateNotify)
     }
@@ -917,12 +1030,12 @@ public final class AvatarFightPropUpdateNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarFightPropUpdateNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarFightPropUpdateNotify_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AvatarFightPropUpdateNotify_FightPropMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AvatarFightPropUpdateNotify_FightPropMapEntry_fieldAccessorTable;
 

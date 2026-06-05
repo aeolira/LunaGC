@@ -67,6 +67,8 @@ public final class SummerTimeDetailInfoOuterClass {
     emu.grasscutter.net.proto.PHMDLFLKFDIOuterClass.PHMDLFLKFDI getLKKGLNEAMLJOrThrow(
         int key);
 
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -75,6 +77,7 @@ public final class SummerTimeDetailInfoOuterClass {
      * <code>uint32 content_close_time = 9;</code>
      * @return The contentCloseTime.
      */
+>>>>>>> origin/6.5.0
     int getContentCloseTime();
   }
   /**
@@ -230,7 +233,7 @@ public final class SummerTimeDetailInfoOuterClass {
           java.lang.Integer, emu.grasscutter.net.proto.PHMDLFLKFDIOuterClass.PHMDLFLKFDI> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, emu.grasscutter.net.proto.PHMDLFLKFDIOuterClass.PHMDLFLKFDI>newDefaultInstance(
-                  emu.grasscutter.net.proto.SummerTimeDetailInfoOuterClass.internal_static_SummerTimeDetailInfo_LKKGLNEAMLJEntry_descriptor, 
+                  emu.grasscutter.net.proto.SummerTimeDetailInfoOuterClass.internal_static_SummerTimeDetailInfo_LKKGLNEAMLJEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.MESSAGE,
@@ -257,7 +260,7 @@ public final class SummerTimeDetailInfoOuterClass {
     @java.lang.Override
     public boolean containsLKKGLNEAMLJ(
         int key) {
-      
+
       return internalGetLKKGLNEAMLJ().getMap().containsKey(key);
     }
     /**
@@ -284,7 +287,7 @@ public final class SummerTimeDetailInfoOuterClass {
     public emu.grasscutter.net.proto.PHMDLFLKFDIOuterClass.PHMDLFLKFDI getLKKGLNEAMLJOrDefault(
         int key,
         emu.grasscutter.net.proto.PHMDLFLKFDIOuterClass.PHMDLFLKFDI defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PHMDLFLKFDIOuterClass.PHMDLFLKFDI> map =
           internalGetLKKGLNEAMLJ().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -296,7 +299,7 @@ public final class SummerTimeDetailInfoOuterClass {
 
     public emu.grasscutter.net.proto.PHMDLFLKFDIOuterClass.PHMDLFLKFDI getLKKGLNEAMLJOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PHMDLFLKFDIOuterClass.PHMDLFLKFDI> map =
           internalGetLKKGLNEAMLJ().getMap();
       if (!map.containsKey(key)) {
@@ -307,6 +310,9 @@ public final class SummerTimeDetailInfoOuterClass {
 
     public static final int CONTENT_CLOSE_TIME_FIELD_NUMBER = 9;
     private int contentCloseTime_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -315,6 +321,7 @@ public final class SummerTimeDetailInfoOuterClass {
      * <code>uint32 content_close_time = 9;</code>
      * @return The contentCloseTime.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getContentCloseTime() {
       return contentCloseTime_;
@@ -790,7 +797,7 @@ public final class SummerTimeDetailInfoOuterClass {
        * <code>.DNGKNIPCAPP GLFNEFCNJJG = 6;</code>
        */
       public emu.grasscutter.net.proto.DNGKNIPCAPPOuterClass.DNGKNIPCAPP.Builder getGLFNEFCNJJGBuilder() {
-        
+
         onChanged();
         return getGLFNEFCNJJGFieldBuilder().getBuilder();
       }
@@ -809,7 +816,7 @@ public final class SummerTimeDetailInfoOuterClass {
        * <code>.DNGKNIPCAPP GLFNEFCNJJG = 6;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.DNGKNIPCAPPOuterClass.DNGKNIPCAPP, emu.grasscutter.net.proto.DNGKNIPCAPPOuterClass.DNGKNIPCAPP.Builder, emu.grasscutter.net.proto.DNGKNIPCAPPOuterClass.DNGKNIPCAPPOrBuilder> 
+          emu.grasscutter.net.proto.DNGKNIPCAPPOuterClass.DNGKNIPCAPP, emu.grasscutter.net.proto.DNGKNIPCAPPOuterClass.DNGKNIPCAPP.Builder, emu.grasscutter.net.proto.DNGKNIPCAPPOuterClass.DNGKNIPCAPPOrBuilder>
           getGLFNEFCNJJGFieldBuilder() {
         if (gLFNEFCNJJGBuilder_ == null) {
           gLFNEFCNJJGBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -855,7 +862,7 @@ public final class SummerTimeDetailInfoOuterClass {
       @java.lang.Override
       public boolean containsLKKGLNEAMLJ(
           int key) {
-        
+
         return internalGetLKKGLNEAMLJ().getMap().containsKey(key);
       }
       /**
@@ -882,7 +889,7 @@ public final class SummerTimeDetailInfoOuterClass {
       public emu.grasscutter.net.proto.PHMDLFLKFDIOuterClass.PHMDLFLKFDI getLKKGLNEAMLJOrDefault(
           int key,
           emu.grasscutter.net.proto.PHMDLFLKFDIOuterClass.PHMDLFLKFDI defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PHMDLFLKFDIOuterClass.PHMDLFLKFDI> map =
             internalGetLKKGLNEAMLJ().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
@@ -894,7 +901,7 @@ public final class SummerTimeDetailInfoOuterClass {
 
       public emu.grasscutter.net.proto.PHMDLFLKFDIOuterClass.PHMDLFLKFDI getLKKGLNEAMLJOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, emu.grasscutter.net.proto.PHMDLFLKFDIOuterClass.PHMDLFLKFDI> map =
             internalGetLKKGLNEAMLJ().getMap();
         if (!map.containsKey(key)) {
@@ -914,7 +921,7 @@ public final class SummerTimeDetailInfoOuterClass {
 
       public Builder removeLKKGLNEAMLJ(
           int key) {
-        
+
         internalGetMutableLKKGLNEAMLJ().getMutableMap()
             .remove(key);
         return this;
@@ -933,7 +940,7 @@ public final class SummerTimeDetailInfoOuterClass {
       public Builder putLKKGLNEAMLJ(
           int key,
           emu.grasscutter.net.proto.PHMDLFLKFDIOuterClass.PHMDLFLKFDI value) {
-        
+
         if (value == null) { throw new java.lang.NullPointerException(); }
         internalGetMutableLKKGLNEAMLJ().getMutableMap()
             .put(key, value);
@@ -951,6 +958,9 @@ public final class SummerTimeDetailInfoOuterClass {
       }
 
       private int contentCloseTime_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -959,10 +969,14 @@ public final class SummerTimeDetailInfoOuterClass {
        * <code>uint32 content_close_time = 9;</code>
        * @return The contentCloseTime.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getContentCloseTime() {
         return contentCloseTime_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -972,12 +986,16 @@ public final class SummerTimeDetailInfoOuterClass {
        * @param value The contentCloseTime to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setContentCloseTime(int value) {
-        
+
         contentCloseTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -986,8 +1004,9 @@ public final class SummerTimeDetailInfoOuterClass {
        * <code>uint32 content_close_time = 9;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearContentCloseTime() {
-        
+
         contentCloseTime_ = 0;
         onChanged();
         return this;
@@ -1003,7 +1022,6 @@ public final class SummerTimeDetailInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:SummerTimeDetailInfo)
     }
@@ -1047,12 +1065,12 @@ public final class SummerTimeDetailInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SummerTimeDetailInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SummerTimeDetailInfo_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SummerTimeDetailInfo_LKKGLNEAMLJEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SummerTimeDetailInfo_LKKGLNEAMLJEntry_fieldAccessorTable;
 

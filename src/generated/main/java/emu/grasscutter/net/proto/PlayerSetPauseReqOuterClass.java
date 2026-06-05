@@ -18,6 +18,8 @@ public final class PlayerSetPauseReqOuterClass {
       // @@protoc_insertion_point(interface_extends:PlayerSetPauseReq)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -26,6 +28,7 @@ public final class PlayerSetPauseReqOuterClass {
      * <code>bool is_paused = 5;</code>
      * @return The isPaused.
      */
+>>>>>>> origin/6.5.0
     boolean getIsPaused();
   }
   /**
@@ -77,7 +80,7 @@ public final class PlayerSetPauseReqOuterClass {
             case 0:
               done = true;
               break;
-            case 40: {
+            case 112: {
 
               isPaused_ = input.readBool();
               break;
@@ -114,8 +117,11 @@ public final class PlayerSetPauseReqOuterClass {
               emu.grasscutter.net.proto.PlayerSetPauseReqOuterClass.PlayerSetPauseReq.class, emu.grasscutter.net.proto.PlayerSetPauseReqOuterClass.PlayerSetPauseReq.Builder.class);
     }
 
-    public static final int IS_PAUSED_FIELD_NUMBER = 5;
+    public static final int IS_PAUSED_FIELD_NUMBER = 14;
     private boolean isPaused_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -124,6 +130,7 @@ public final class PlayerSetPauseReqOuterClass {
      * <code>bool is_paused = 5;</code>
      * @return The isPaused.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsPaused() {
       return isPaused_;
@@ -144,7 +151,7 @@ public final class PlayerSetPauseReqOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (isPaused_ != false) {
-        output.writeBool(5, isPaused_);
+        output.writeBool(14, isPaused_);
       }
       unknownFields.writeTo(output);
     }
@@ -157,7 +164,7 @@ public final class PlayerSetPauseReqOuterClass {
       size = 0;
       if (isPaused_ != false) {
         size += com.google.protobuf.CodedOutputStream
-          .computeBoolSize(5, isPaused_);
+          .computeBoolSize(14, isPaused_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -437,6 +444,9 @@ public final class PlayerSetPauseReqOuterClass {
       }
 
       private boolean isPaused_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -445,10 +455,14 @@ public final class PlayerSetPauseReqOuterClass {
        * <code>bool is_paused = 5;</code>
        * @return The isPaused.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsPaused() {
         return isPaused_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -458,12 +472,16 @@ public final class PlayerSetPauseReqOuterClass {
        * @param value The isPaused to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setIsPaused(boolean value) {
-        
+
         isPaused_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -472,8 +490,9 @@ public final class PlayerSetPauseReqOuterClass {
        * <code>bool is_paused = 5;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearIsPaused() {
-        
+
         isPaused_ = false;
         onChanged();
         return this;
@@ -489,7 +508,6 @@ public final class PlayerSetPauseReqOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:PlayerSetPauseReq)
     }
@@ -533,7 +551,7 @@ public final class PlayerSetPauseReqOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_PlayerSetPauseReq_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_PlayerSetPauseReq_fieldAccessorTable;
 

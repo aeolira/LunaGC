@@ -18,6 +18,10 @@ public final class ServantInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:ServantInfo)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    int getBornSlotIndex();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0      
@@ -36,6 +40,7 @@ public final class ServantInfoOuterClass {
      * <code>uint32 master_entity_id = 1;</code>
      * @return The masterEntityId.
      */
+>>>>>>> origin/6.5.0
     int getMasterEntityId();
   }
   /**
@@ -127,6 +132,9 @@ public final class ServantInfoOuterClass {
 
     public static final int BORN_SLOT_INDEX_FIELD_NUMBER = 2;
     private int bornSlotIndex_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0      
@@ -135,6 +143,7 @@ public final class ServantInfoOuterClass {
      * <code>uint32 born_slot_index = 2;</code>
      * @return The bornSlotIndex.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getBornSlotIndex() {
       return bornSlotIndex_;
@@ -142,6 +151,9 @@ public final class ServantInfoOuterClass {
 
     public static final int MASTER_ENTITY_ID_FIELD_NUMBER = 1;
     private int masterEntityId_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0      
@@ -150,6 +162,7 @@ public final class ServantInfoOuterClass {
      * <code>uint32 master_entity_id = 1;</code>
      * @return The masterEntityId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getMasterEntityId() {
       return masterEntityId_;
@@ -475,6 +488,9 @@ public final class ServantInfoOuterClass {
       }
 
       private int bornSlotIndex_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0      
@@ -483,10 +499,14 @@ public final class ServantInfoOuterClass {
        * <code>uint32 born_slot_index = 2;</code>
        * @return The bornSlotIndex.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getBornSlotIndex() {
         return bornSlotIndex_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0      
@@ -496,12 +516,16 @@ public final class ServantInfoOuterClass {
        * @param value The bornSlotIndex to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setBornSlotIndex(int value) {
-        
+
         bornSlotIndex_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0      
@@ -510,14 +534,18 @@ public final class ServantInfoOuterClass {
        * <code>uint32 born_slot_index = 2;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearBornSlotIndex() {
-        
+
         bornSlotIndex_ = 0;
         onChanged();
         return this;
       }
 
       private int masterEntityId_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0      
@@ -526,10 +554,14 @@ public final class ServantInfoOuterClass {
        * <code>uint32 master_entity_id = 1;</code>
        * @return The masterEntityId.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getMasterEntityId() {
         return masterEntityId_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0      
@@ -539,12 +571,16 @@ public final class ServantInfoOuterClass {
        * @param value The masterEntityId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setMasterEntityId(int value) {
-        
+
         masterEntityId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0      
@@ -553,8 +589,9 @@ public final class ServantInfoOuterClass {
        * <code>uint32 master_entity_id = 1;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearMasterEntityId() {
-        
+
         masterEntityId_ = 0;
         onChanged();
         return this;
@@ -570,7 +607,6 @@ public final class ServantInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:ServantInfo)
     }
@@ -614,7 +650,7 @@ public final class ServantInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ServantInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ServantInfo_fieldAccessorTable;
 

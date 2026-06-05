@@ -18,6 +18,14 @@ public final class WorldRoutineInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:WorldRoutineInfo)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    int getFinishProgress();
+
+    int getProgress();
+
+    int getRoutineId();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0    
@@ -56,6 +64,7 @@ public final class WorldRoutineInfoOuterClass {
      * <code>bool is_finished = 5;</code>
      * @return The isFinished.
      */
+>>>>>>> origin/6.5.0
     boolean getIsFinished();
   }
   /**
@@ -157,6 +166,9 @@ public final class WorldRoutineInfoOuterClass {
 
     public static final int FINISH_PROGRESS_FIELD_NUMBER = 2;
     private int finishProgress_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0    
@@ -165,6 +177,7 @@ public final class WorldRoutineInfoOuterClass {
      * <code>uint32 finish_progress = 2;</code>
      * @return The finishProgress.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getFinishProgress() {
       return finishProgress_;
@@ -172,6 +185,9 @@ public final class WorldRoutineInfoOuterClass {
 
     public static final int PROGRESS_FIELD_NUMBER = 4;
     private int progress_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -180,6 +196,7 @@ public final class WorldRoutineInfoOuterClass {
      * <code>uint32 progress = 4;</code>
      * @return The progress.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getProgress() {
       return progress_;
@@ -187,6 +204,9 @@ public final class WorldRoutineInfoOuterClass {
 
     public static final int ROUTINE_ID_FIELD_NUMBER = 9;
     private int routineId_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0    
@@ -195,6 +215,7 @@ public final class WorldRoutineInfoOuterClass {
      * <code>uint32 routine_id = 9;</code>
      * @return The routineId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRoutineId() {
       return routineId_;
@@ -202,6 +223,9 @@ public final class WorldRoutineInfoOuterClass {
 
     public static final int IS_FINISHED_FIELD_NUMBER = 5;
     private boolean isFinished_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -210,6 +234,7 @@ public final class WorldRoutineInfoOuterClass {
      * <code>bool is_finished = 5;</code>
      * @return The isFinished.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsFinished() {
       return isFinished_;
@@ -570,6 +595,9 @@ public final class WorldRoutineInfoOuterClass {
       }
 
       private int finishProgress_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0    
@@ -578,10 +606,14 @@ public final class WorldRoutineInfoOuterClass {
        * <code>uint32 finish_progress = 2;</code>
        * @return The finishProgress.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getFinishProgress() {
         return finishProgress_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0    
@@ -591,12 +623,16 @@ public final class WorldRoutineInfoOuterClass {
        * @param value The finishProgress to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setFinishProgress(int value) {
-        
+
         finishProgress_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0    
@@ -605,14 +641,18 @@ public final class WorldRoutineInfoOuterClass {
        * <code>uint32 finish_progress = 2;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearFinishProgress() {
-        
+
         finishProgress_ = 0;
         onChanged();
         return this;
       }
 
       private int progress_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -621,10 +661,14 @@ public final class WorldRoutineInfoOuterClass {
        * <code>uint32 progress = 4;</code>
        * @return The progress.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getProgress() {
         return progress_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -634,12 +678,16 @@ public final class WorldRoutineInfoOuterClass {
        * @param value The progress to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setProgress(int value) {
-        
+
         progress_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -648,14 +696,18 @@ public final class WorldRoutineInfoOuterClass {
        * <code>uint32 progress = 4;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearProgress() {
-        
+
         progress_ = 0;
         onChanged();
         return this;
       }
 
       private int routineId_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0    
@@ -664,10 +716,14 @@ public final class WorldRoutineInfoOuterClass {
        * <code>uint32 routine_id = 9;</code>
        * @return The routineId.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRoutineId() {
         return routineId_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0    
@@ -677,12 +733,16 @@ public final class WorldRoutineInfoOuterClass {
        * @param value The routineId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setRoutineId(int value) {
-        
+
         routineId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0    
@@ -691,14 +751,18 @@ public final class WorldRoutineInfoOuterClass {
        * <code>uint32 routine_id = 9;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearRoutineId() {
-        
+
         routineId_ = 0;
         onChanged();
         return this;
       }
 
       private boolean isFinished_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -707,10 +771,14 @@ public final class WorldRoutineInfoOuterClass {
        * <code>bool is_finished = 5;</code>
        * @return The isFinished.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsFinished() {
         return isFinished_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -720,12 +788,16 @@ public final class WorldRoutineInfoOuterClass {
        * @param value The isFinished to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setIsFinished(boolean value) {
-        
+
         isFinished_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -734,8 +806,9 @@ public final class WorldRoutineInfoOuterClass {
        * <code>bool is_finished = 5;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearIsFinished() {
-        
+
         isFinished_ = false;
         onChanged();
         return this;
@@ -751,7 +824,6 @@ public final class WorldRoutineInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:WorldRoutineInfo)
     }
@@ -795,7 +867,7 @@ public final class WorldRoutineInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WorldRoutineInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WorldRoutineInfo_fieldAccessorTable;
 

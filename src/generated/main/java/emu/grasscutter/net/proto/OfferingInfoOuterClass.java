@@ -18,6 +18,8 @@ public final class OfferingInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:OfferingInfo)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -26,6 +28,7 @@ public final class OfferingInfoOuterClass {
      * <code>uint32 offering_id = 1;</code>
      * @return The offeringId.
      */
+>>>>>>> origin/6.5.0
     int getOfferingId();
   }
   /**
@@ -112,6 +115,9 @@ public final class OfferingInfoOuterClass {
 
     public static final int OFFERING_ID_FIELD_NUMBER = 1;
     private int offeringId_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -120,6 +126,7 @@ public final class OfferingInfoOuterClass {
      * <code>uint32 offering_id = 1;</code>
      * @return The offeringId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getOfferingId() {
       return offeringId_;
@@ -428,6 +435,9 @@ public final class OfferingInfoOuterClass {
       }
 
       private int offeringId_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -436,10 +446,14 @@ public final class OfferingInfoOuterClass {
        * <code>uint32 offering_id = 1;</code>
        * @return The offeringId.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getOfferingId() {
         return offeringId_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -449,12 +463,16 @@ public final class OfferingInfoOuterClass {
        * @param value The offeringId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setOfferingId(int value) {
-        
+
         offeringId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -463,8 +481,9 @@ public final class OfferingInfoOuterClass {
        * <code>uint32 offering_id = 1;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearOfferingId() {
-        
+
         offeringId_ = 0;
         onChanged();
         return this;
@@ -480,7 +499,6 @@ public final class OfferingInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:OfferingInfo)
     }
@@ -524,7 +542,7 @@ public final class OfferingInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_OfferingInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_OfferingInfo_fieldAccessorTable;
 

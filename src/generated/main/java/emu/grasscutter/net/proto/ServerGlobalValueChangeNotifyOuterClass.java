@@ -18,6 +18,12 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:ServerGlobalValueChangeNotify)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    int getKeyHash();
+
+    float getValue();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -46,6 +52,7 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
      * <code>uint32 entity_id = 11;</code>
      * @return The entityId.
      */
+>>>>>>> origin/6.5.0
     int getEntityId();
   }
   /**
@@ -98,17 +105,17 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 88: {
+            case 56: {
 
               entityId_ = input.readUInt32();
               break;
             }
-            case 96: {
+            case 104: {
 
               keyHash_ = input.readUInt32();
               break;
             }
-            case 117: {
+            case 45: {
 
               value_ = input.readFloat();
               break;
@@ -145,8 +152,11 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
               emu.grasscutter.net.proto.ServerGlobalValueChangeNotifyOuterClass.ServerGlobalValueChangeNotify.class, emu.grasscutter.net.proto.ServerGlobalValueChangeNotifyOuterClass.ServerGlobalValueChangeNotify.Builder.class);
     }
 
-    public static final int KEY_HASH_FIELD_NUMBER = 12;
+    public static final int KEY_HASH_FIELD_NUMBER = 13;
     private int keyHash_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -155,13 +165,17 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
      * <code>uint32 key_hash = 12;</code>
      * @return The keyHash.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getKeyHash() {
       return keyHash_;
     }
 
-    public static final int VALUE_FIELD_NUMBER = 14;
+    public static final int VALUE_FIELD_NUMBER = 5;
     private float value_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -170,13 +184,17 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
      * <code>float value = 14;</code>
      * @return The value.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public float getValue() {
       return value_;
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 11;
+    public static final int ENTITY_ID_FIELD_NUMBER = 7;
     private int entityId_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -185,6 +203,7 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
      * <code>uint32 entity_id = 11;</code>
      * @return The entityId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getEntityId() {
       return entityId_;
@@ -205,13 +224,13 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (entityId_ != 0) {
-        output.writeUInt32(11, entityId_);
+        output.writeUInt32(7, entityId_);
       }
       if (keyHash_ != 0) {
-        output.writeUInt32(12, keyHash_);
+        output.writeUInt32(13, keyHash_);
       }
       if (value_ != 0F) {
-        output.writeFloat(14, value_);
+        output.writeFloat(5, value_);
       }
       unknownFields.writeTo(output);
     }
@@ -224,15 +243,15 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
       size = 0;
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(11, entityId_);
+          .computeUInt32Size(7, entityId_);
       }
       if (keyHash_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(12, keyHash_);
+          .computeUInt32Size(13, keyHash_);
       }
       if (value_ != 0F) {
         size += com.google.protobuf.CodedOutputStream
-          .computeFloatSize(14, value_);
+          .computeFloatSize(5, value_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -534,6 +553,9 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
       }
 
       private int keyHash_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -542,10 +564,14 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
        * <code>uint32 key_hash = 12;</code>
        * @return The keyHash.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getKeyHash() {
         return keyHash_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -555,12 +581,16 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
        * @param value The keyHash to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setKeyHash(int value) {
-        
+
         keyHash_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -569,14 +599,18 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
        * <code>uint32 key_hash = 12;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearKeyHash() {
-        
+
         keyHash_ = 0;
         onChanged();
         return this;
       }
 
       private float value_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -585,10 +619,14 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
        * <code>float value = 14;</code>
        * @return The value.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public float getValue() {
         return value_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -598,12 +636,16 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
        * @param value The value to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setValue(float value) {
-        
+
         value_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -612,14 +654,18 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
        * <code>float value = 14;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearValue() {
-        
+
         value_ = 0F;
         onChanged();
         return this;
       }
 
       private int entityId_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -628,10 +674,14 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
        * <code>uint32 entity_id = 11;</code>
        * @return The entityId.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getEntityId() {
         return entityId_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -641,12 +691,16 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
        * @param value The entityId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -655,8 +709,9 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
        * <code>uint32 entity_id = 11;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
@@ -672,7 +727,6 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:ServerGlobalValueChangeNotify)
     }
@@ -716,7 +770,7 @@ public final class ServerGlobalValueChangeNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ServerGlobalValueChangeNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ServerGlobalValueChangeNotify_fieldAccessorTable;
 

@@ -18,6 +18,12 @@ public final class CutSceneExtraParamOuterClass {
       // @@protoc_insertion_point(interface_extends:CutSceneExtraParam)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    java.util.List<java.lang.Double> getDetailParamListList();
+
+    int getDetailParamListCount();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -45,6 +51,7 @@ public final class CutSceneExtraParamOuterClass {
      * @param index The index of the element to return.
      * @return The detailParamList at the given index.
      */
+>>>>>>> origin/6.5.0
     double getDetailParamList(int index);
   }
   /**
@@ -154,8 +161,11 @@ public final class CutSceneExtraParamOuterClass {
               emu.grasscutter.net.proto.CutSceneExtraParamOuterClass.CutSceneExtraParam.class, emu.grasscutter.net.proto.CutSceneExtraParamOuterClass.CutSceneExtraParam.Builder.class);
     }
 
-    public static final int DETAIL_PARAM_LIST_FIELD_NUMBER = 10;
+    public static final int DETAIL_PARAM_LIST_FIELD_NUMBER = 6;
     private com.google.protobuf.Internal.DoubleList detailParamList_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -164,11 +174,19 @@ public final class CutSceneExtraParamOuterClass {
      * <code>repeated double detail_param_list = 10;</code>
      * @return A list containing the detailParamList.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Double>
         getDetailParamListList() {
       return detailParamList_;
     }
+<<<<<<< HEAD
+
+    public int getDetailParamListCount() {
+      return detailParamList_.size();
+    }
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -189,6 +207,7 @@ public final class CutSceneExtraParamOuterClass {
      * @param index The index of the element to return.
      * @return The detailParamList at the given index.
      */
+>>>>>>> origin/6.5.0
     public double getDetailParamList(int index) {
       return detailParamList_.getDouble(index);
     }
@@ -534,6 +553,9 @@ public final class CutSceneExtraParamOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -542,11 +564,23 @@ public final class CutSceneExtraParamOuterClass {
        * <code>repeated double detail_param_list = 10;</code>
        * @return A list containing the detailParamList.
        */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Double>
           getDetailParamListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(detailParamList_) : detailParamList_;
       }
+<<<<<<< HEAD
+
+      public int getDetailParamListCount() {
+        return detailParamList_.size();
+      }
+
+      public double getDetailParamList(int index) {
+        return detailParamList_.getDouble(index);
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -580,6 +614,7 @@ public final class CutSceneExtraParamOuterClass {
        * @param value The detailParamList to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setDetailParamList(
           int index, double value) {
         ensureDetailParamListIsMutable();
@@ -587,6 +622,9 @@ public final class CutSceneExtraParamOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -596,12 +634,16 @@ public final class CutSceneExtraParamOuterClass {
        * @param value The detailParamList to add.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder addDetailParamList(double value) {
         ensureDetailParamListIsMutable();
         detailParamList_.addDouble(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -611,6 +653,7 @@ public final class CutSceneExtraParamOuterClass {
        * @param values The detailParamList to add.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder addAllDetailParamList(
           java.lang.Iterable<? extends java.lang.Double> values) {
         ensureDetailParamListIsMutable();
@@ -619,6 +662,9 @@ public final class CutSceneExtraParamOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -627,6 +673,7 @@ public final class CutSceneExtraParamOuterClass {
        * <code>repeated double detail_param_list = 10;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearDetailParamList() {
         detailParamList_ = emptyDoubleList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -644,7 +691,6 @@ public final class CutSceneExtraParamOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:CutSceneExtraParam)
     }
@@ -688,7 +734,7 @@ public final class CutSceneExtraParamOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_CutSceneExtraParam_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_CutSceneExtraParam_fieldAccessorTable;
 

@@ -30,6 +30,10 @@ public final class BlockInfoOuterClass {
      */
     boolean getNBGFPNHGBJI();
 
+<<<<<<< HEAD
+    int getDataVersion();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -48,6 +52,7 @@ public final class BlockInfoOuterClass {
      * <code>uint32 block_id = 1;</code>
      * @return The blockId.
      */
+>>>>>>> origin/6.5.0
     int getBlockId();
   }
   /**
@@ -172,6 +177,9 @@ public final class BlockInfoOuterClass {
 
     public static final int DATA_VERSION_FIELD_NUMBER = 2;
     private int dataVersion_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -180,6 +188,7 @@ public final class BlockInfoOuterClass {
      * <code>uint32 data_version = 2;</code>
      * @return The dataVersion.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getDataVersion() {
       return dataVersion_;
@@ -187,6 +196,9 @@ public final class BlockInfoOuterClass {
 
     public static final int BLOCK_ID_FIELD_NUMBER = 1;
     private int blockId_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -195,6 +207,7 @@ public final class BlockInfoOuterClass {
      * <code>uint32 block_id = 1;</code>
      * @return The blockId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getBlockId() {
       return blockId_;
@@ -572,7 +585,7 @@ public final class BlockInfoOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+
         hPOGBMJDMIN_ = value;
         onChanged();
         return this;
@@ -582,7 +595,7 @@ public final class BlockInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearHPOGBMJDMIN() {
-        
+
         hPOGBMJDMIN_ = getDefaultInstance().getHPOGBMJDMIN();
         onChanged();
         return this;
@@ -603,7 +616,7 @@ public final class BlockInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder setNBGFPNHGBJI(boolean value) {
-        
+
         nBGFPNHGBJI_ = value;
         onChanged();
         return this;
@@ -613,13 +626,16 @@ public final class BlockInfoOuterClass {
        * @return This builder for chaining.
        */
       public Builder clearNBGFPNHGBJI() {
-        
+
         nBGFPNHGBJI_ = false;
         onChanged();
         return this;
       }
 
       private int dataVersion_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -628,10 +644,14 @@ public final class BlockInfoOuterClass {
        * <code>uint32 data_version = 2;</code>
        * @return The dataVersion.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getDataVersion() {
         return dataVersion_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -641,12 +661,16 @@ public final class BlockInfoOuterClass {
        * @param value The dataVersion to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setDataVersion(int value) {
-        
+
         dataVersion_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -655,14 +679,18 @@ public final class BlockInfoOuterClass {
        * <code>uint32 data_version = 2;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearDataVersion() {
-        
+
         dataVersion_ = 0;
         onChanged();
         return this;
       }
 
       private int blockId_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -671,10 +699,14 @@ public final class BlockInfoOuterClass {
        * <code>uint32 block_id = 1;</code>
        * @return The blockId.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getBlockId() {
         return blockId_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -684,12 +716,16 @@ public final class BlockInfoOuterClass {
        * @param value The blockId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setBlockId(int value) {
-        
+
         blockId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -698,8 +734,9 @@ public final class BlockInfoOuterClass {
        * <code>uint32 block_id = 1;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearBlockId() {
-        
+
         blockId_ = 0;
         onChanged();
         return this;
@@ -715,7 +752,6 @@ public final class BlockInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:BlockInfo)
     }
@@ -759,7 +795,7 @@ public final class BlockInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_BlockInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_BlockInfo_fieldAccessorTable;
 

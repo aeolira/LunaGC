@@ -18,6 +18,12 @@ public final class SelectWorktopOptionRspOuterClass {
       // @@protoc_insertion_point(interface_extends:SelectWorktopOptionRsp)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    int getGadgetEntityId();
+
+    int getRetcode();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -46,6 +52,7 @@ public final class SelectWorktopOptionRspOuterClass {
      * <code>uint32 option_id = 11;</code>
      * @return The optionId.
      */
+>>>>>>> origin/6.5.0
     int getOptionId();
   }
   /**
@@ -146,6 +153,9 @@ public final class SelectWorktopOptionRspOuterClass {
 
     public static final int GADGET_ENTITY_ID_FIELD_NUMBER = 12;
     private int gadgetEntityId_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -154,6 +164,7 @@ public final class SelectWorktopOptionRspOuterClass {
      * <code>uint32 gadget_entity_id = 12;</code>
      * @return The gadgetEntityId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getGadgetEntityId() {
       return gadgetEntityId_;
@@ -161,6 +172,9 @@ public final class SelectWorktopOptionRspOuterClass {
 
     public static final int RETCODE_FIELD_NUMBER = 2;
     private int retcode_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -169,6 +183,7 @@ public final class SelectWorktopOptionRspOuterClass {
      * <code>int32 retcode = 2;</code>
      * @return The retcode.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
@@ -176,6 +191,9 @@ public final class SelectWorktopOptionRspOuterClass {
 
     public static final int OPTION_ID_FIELD_NUMBER = 11;
     private int optionId_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -184,6 +202,7 @@ public final class SelectWorktopOptionRspOuterClass {
      * <code>uint32 option_id = 11;</code>
      * @return The optionId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getOptionId() {
       return optionId_;
@@ -530,6 +549,9 @@ public final class SelectWorktopOptionRspOuterClass {
       }
 
       private int gadgetEntityId_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -538,10 +560,14 @@ public final class SelectWorktopOptionRspOuterClass {
        * <code>uint32 gadget_entity_id = 12;</code>
        * @return The gadgetEntityId.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getGadgetEntityId() {
         return gadgetEntityId_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -551,12 +577,16 @@ public final class SelectWorktopOptionRspOuterClass {
        * @param value The gadgetEntityId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setGadgetEntityId(int value) {
-        
+
         gadgetEntityId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -565,14 +595,18 @@ public final class SelectWorktopOptionRspOuterClass {
        * <code>uint32 gadget_entity_id = 12;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearGadgetEntityId() {
-        
+
         gadgetEntityId_ = 0;
         onChanged();
         return this;
       }
 
       private int retcode_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -581,10 +615,14 @@ public final class SelectWorktopOptionRspOuterClass {
        * <code>int32 retcode = 2;</code>
        * @return The retcode.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -594,12 +632,16 @@ public final class SelectWorktopOptionRspOuterClass {
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -608,14 +650,18 @@ public final class SelectWorktopOptionRspOuterClass {
        * <code>int32 retcode = 2;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
       }
 
       private int optionId_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -624,10 +670,14 @@ public final class SelectWorktopOptionRspOuterClass {
        * <code>uint32 option_id = 11;</code>
        * @return The optionId.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getOptionId() {
         return optionId_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -637,12 +687,16 @@ public final class SelectWorktopOptionRspOuterClass {
        * @param value The optionId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setOptionId(int value) {
-        
+
         optionId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -651,8 +705,9 @@ public final class SelectWorktopOptionRspOuterClass {
        * <code>uint32 option_id = 11;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearOptionId() {
-        
+
         optionId_ = 0;
         onChanged();
         return this;
@@ -668,7 +723,6 @@ public final class SelectWorktopOptionRspOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:SelectWorktopOptionRsp)
     }
@@ -712,7 +766,7 @@ public final class SelectWorktopOptionRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SelectWorktopOptionRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SelectWorktopOptionRsp_fieldAccessorTable;
 

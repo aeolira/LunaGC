@@ -18,6 +18,8 @@ public final class WeatherWizardDataOuterClass {
       // @@protoc_insertion_point(interface_extends:WeatherWizardData)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0     
@@ -26,6 +28,7 @@ public final class WeatherWizardDataOuterClass {
      * <code>uint32 shield_value = 6;</code>
      * @return The shieldValue.
      */
+>>>>>>> origin/6.5.0
     int getShieldValue();
   }
   /**
@@ -112,6 +115,9 @@ public final class WeatherWizardDataOuterClass {
 
     public static final int SHIELD_VALUE_FIELD_NUMBER = 6;
     private int shieldValue_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0     
@@ -120,6 +126,7 @@ public final class WeatherWizardDataOuterClass {
      * <code>uint32 shield_value = 6;</code>
      * @return The shieldValue.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getShieldValue() {
       return shieldValue_;
@@ -428,6 +435,9 @@ public final class WeatherWizardDataOuterClass {
       }
 
       private int shieldValue_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -436,10 +446,14 @@ public final class WeatherWizardDataOuterClass {
        * <code>uint32 shield_value = 6;</code>
        * @return The shieldValue.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getShieldValue() {
         return shieldValue_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -449,12 +463,16 @@ public final class WeatherWizardDataOuterClass {
        * @param value The shieldValue to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setShieldValue(int value) {
-        
+
         shieldValue_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -463,8 +481,9 @@ public final class WeatherWizardDataOuterClass {
        * <code>uint32 shield_value = 6;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearShieldValue() {
-        
+
         shieldValue_ = 0;
         onChanged();
         return this;
@@ -480,7 +499,6 @@ public final class WeatherWizardDataOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:WeatherWizardData)
     }
@@ -524,7 +542,7 @@ public final class WeatherWizardDataOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_WeatherWizardData_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_WeatherWizardData_fieldAccessorTable;
 

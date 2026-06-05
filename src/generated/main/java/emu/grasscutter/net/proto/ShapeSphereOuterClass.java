@@ -18,6 +18,14 @@ public final class ShapeSphereOuterClass {
       // @@protoc_insertion_point(interface_extends:ShapeSphere)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    boolean hasCenter();
+
+    emu.grasscutter.net.proto.VectorOuterClass.Vector getCenter();
+
+    emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getCenterOrBuilder();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -53,6 +61,7 @@ public final class ShapeSphereOuterClass {
      * <code>float radius = 2;</code>
      * @return The radius.
      */
+>>>>>>> origin/6.5.0
     float getRadius();
   }
   /**
@@ -152,6 +161,9 @@ public final class ShapeSphereOuterClass {
 
     public static final int CENTER_FIELD_NUMBER = 1;
     private emu.grasscutter.net.proto.VectorOuterClass.Vector center_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -160,10 +172,14 @@ public final class ShapeSphereOuterClass {
      * <code>.Vector center = 1;</code>
      * @return Whether the center field is set.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean hasCenter() {
       return center_ != null;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -172,10 +188,14 @@ public final class ShapeSphereOuterClass {
      * <code>.Vector center = 1;</code>
      * @return The center.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.Vector getCenter() {
       return center_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : center_;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -183,6 +203,7 @@ public final class ShapeSphereOuterClass {
      *
      * <code>.Vector center = 1;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getCenterOrBuilder() {
       return getCenter();
@@ -190,6 +211,9 @@ public final class ShapeSphereOuterClass {
 
     public static final int RADIUS_FIELD_NUMBER = 2;
     private float radius_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0       
@@ -198,6 +222,7 @@ public final class ShapeSphereOuterClass {
      * <code>float radius = 2;</code>
      * @return The radius.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public float getRadius() {
       return radius_;
@@ -540,6 +565,13 @@ public final class ShapeSphereOuterClass {
       private emu.grasscutter.net.proto.VectorOuterClass.Vector center_;
       private com.google.protobuf.SingleFieldBuilderV3<
           emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> centerBuilder_;
+<<<<<<< HEAD
+
+      public boolean hasCenter() {
+        return centerBuilder_ != null || center_ != null;
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -559,6 +591,7 @@ public final class ShapeSphereOuterClass {
        * <code>.Vector center = 1;</code>
        * @return The center.
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.VectorOuterClass.Vector getCenter() {
         if (centerBuilder_ == null) {
           return center_ == null ? emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : center_;
@@ -566,6 +599,9 @@ public final class ShapeSphereOuterClass {
           return centerBuilder_.getMessage();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -573,6 +609,7 @@ public final class ShapeSphereOuterClass {
        *
        * <code>.Vector center = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setCenter(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (centerBuilder_ == null) {
           if (value == null) {
@@ -586,6 +623,9 @@ public final class ShapeSphereOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -593,6 +633,7 @@ public final class ShapeSphereOuterClass {
        *
        * <code>.Vector center = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setCenter(
           emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder builderForValue) {
         if (centerBuilder_ == null) {
@@ -604,6 +645,9 @@ public final class ShapeSphereOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -611,6 +655,7 @@ public final class ShapeSphereOuterClass {
        *
        * <code>.Vector center = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder mergeCenter(emu.grasscutter.net.proto.VectorOuterClass.Vector value) {
         if (centerBuilder_ == null) {
           if (center_ != null) {
@@ -626,6 +671,9 @@ public final class ShapeSphereOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -633,6 +681,7 @@ public final class ShapeSphereOuterClass {
        *
        * <code>.Vector center = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder clearCenter() {
         if (centerBuilder_ == null) {
           center_ = null;
@@ -644,6 +693,9 @@ public final class ShapeSphereOuterClass {
 
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -651,11 +703,15 @@ public final class ShapeSphereOuterClass {
        *
        * <code>.Vector center = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder getCenterBuilder() {
-        
+
         onChanged();
         return getCenterFieldBuilder().getBuilder();
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -663,6 +719,7 @@ public final class ShapeSphereOuterClass {
        *
        * <code>.Vector center = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder getCenterOrBuilder() {
         if (centerBuilder_ != null) {
           return centerBuilder_.getMessageOrBuilder();
@@ -671,6 +728,9 @@ public final class ShapeSphereOuterClass {
               emu.grasscutter.net.proto.VectorOuterClass.Vector.getDefaultInstance() : center_;
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -678,8 +738,9 @@ public final class ShapeSphereOuterClass {
        *
        * <code>.Vector center = 1;</code>
        */
+>>>>>>> origin/6.5.0
       private com.google.protobuf.SingleFieldBuilderV3<
-          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder> 
+          emu.grasscutter.net.proto.VectorOuterClass.Vector, emu.grasscutter.net.proto.VectorOuterClass.Vector.Builder, emu.grasscutter.net.proto.VectorOuterClass.VectorOrBuilder>
           getCenterFieldBuilder() {
         if (centerBuilder_ == null) {
           centerBuilder_ = new com.google.protobuf.SingleFieldBuilderV3<
@@ -693,6 +754,9 @@ public final class ShapeSphereOuterClass {
       }
 
       private float radius_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -701,10 +765,14 @@ public final class ShapeSphereOuterClass {
        * <code>float radius = 2;</code>
        * @return The radius.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public float getRadius() {
         return radius_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -714,12 +782,16 @@ public final class ShapeSphereOuterClass {
        * @param value The radius to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setRadius(float value) {
-        
+
         radius_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0       
@@ -728,8 +800,9 @@ public final class ShapeSphereOuterClass {
        * <code>float radius = 2;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearRadius() {
-        
+
         radius_ = 0F;
         onChanged();
         return this;
@@ -745,7 +818,6 @@ public final class ShapeSphereOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:ShapeSphere)
     }
@@ -789,7 +861,7 @@ public final class ShapeSphereOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ShapeSphere_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ShapeSphere_fieldAccessorTable;
 

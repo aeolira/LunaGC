@@ -18,6 +18,21 @@ public final class SyncTeamEntityNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:SyncTeamEntityNotify)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    java.util.List<emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo>
+        getTeamEntityInfoListList();
+
+    emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo getTeamEntityInfoList(int index);
+
+    int getTeamEntityInfoListCount();
+
+    java.util.List<? extends emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfoOrBuilder>
+        getTeamEntityInfoListOrBuilderList();
+
+    emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfoOrBuilder getTeamEntityInfoListOrBuilder(
+        int index);
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -70,6 +85,7 @@ public final class SyncTeamEntityNotifyOuterClass {
      * <code>uint32 scene_id = 5;</code>
      * @return The sceneId.
      */
+>>>>>>> origin/6.5.0
     int getSceneId();
   }
   /**
@@ -172,8 +188,11 @@ public final class SyncTeamEntityNotifyOuterClass {
               emu.grasscutter.net.proto.SyncTeamEntityNotifyOuterClass.SyncTeamEntityNotify.class, emu.grasscutter.net.proto.SyncTeamEntityNotifyOuterClass.SyncTeamEntityNotify.Builder.class);
     }
 
-    public static final int TEAM_ENTITY_INFO_LIST_FIELD_NUMBER = 15;
+    public static final int TEAM_ENTITY_INFO_LIST_FIELD_NUMBER = 2;
     private java.util.List<emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo> teamEntityInfoList_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -181,10 +200,14 @@ public final class SyncTeamEntityNotifyOuterClass {
      *
      * <code>repeated .TeamEntityInfo team_entity_info_list = 15;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo> getTeamEntityInfoListList() {
       return teamEntityInfoList_;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -192,11 +215,15 @@ public final class SyncTeamEntityNotifyOuterClass {
      *
      * <code>repeated .TeamEntityInfo team_entity_info_list = 15;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfoOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfoOrBuilder>
         getTeamEntityInfoListOrBuilderList() {
       return teamEntityInfoList_;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -204,10 +231,14 @@ public final class SyncTeamEntityNotifyOuterClass {
      *
      * <code>repeated .TeamEntityInfo team_entity_info_list = 15;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getTeamEntityInfoListCount() {
       return teamEntityInfoList_.size();
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -215,10 +246,14 @@ public final class SyncTeamEntityNotifyOuterClass {
      *
      * <code>repeated .TeamEntityInfo team_entity_info_list = 15;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo getTeamEntityInfoList(int index) {
       return teamEntityInfoList_.get(index);
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -226,14 +261,18 @@ public final class SyncTeamEntityNotifyOuterClass {
      *
      * <code>repeated .TeamEntityInfo team_entity_info_list = 15;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfoOrBuilder getTeamEntityInfoListOrBuilder(
         int index) {
       return teamEntityInfoList_.get(index);
     }
 
-    public static final int SCENE_ID_FIELD_NUMBER = 5;
+    public static final int SCENE_ID_FIELD_NUMBER = 11;
     private int sceneId_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -242,6 +281,7 @@ public final class SyncTeamEntityNotifyOuterClass {
      * <code>uint32 scene_id = 5;</code>
      * @return The sceneId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getSceneId() {
       return sceneId_;
@@ -262,10 +302,10 @@ public final class SyncTeamEntityNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (sceneId_ != 0) {
-        output.writeUInt32(5, sceneId_);
+        output.writeUInt32(11, sceneId_);
       }
       for (int i = 0; i < teamEntityInfoList_.size(); i++) {
-        output.writeMessage(15, teamEntityInfoList_.get(i));
+        output.writeMessage(2, teamEntityInfoList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -278,11 +318,11 @@ public final class SyncTeamEntityNotifyOuterClass {
       size = 0;
       if (sceneId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(5, sceneId_);
+          .computeUInt32Size(11, sceneId_);
       }
       for (int i = 0; i < teamEntityInfoList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
-          .computeMessageSize(15, teamEntityInfoList_.get(i));
+          .computeMessageSize(2, teamEntityInfoList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -569,7 +609,7 @@ public final class SyncTeamEntityNotifyOuterClass {
               teamEntityInfoListBuilder_ = null;
               teamEntityInfoList_ = other.teamEntityInfoList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              teamEntityInfoListBuilder_ = 
+              teamEntityInfoListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getTeamEntityInfoListFieldBuilder() : null;
             } else {
@@ -622,6 +662,8 @@ public final class SyncTeamEntityNotifyOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo, emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo.Builder, emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfoOrBuilder> teamEntityInfoListBuilder_;
 
+<<<<<<< HEAD
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -629,6 +671,7 @@ public final class SyncTeamEntityNotifyOuterClass {
        *
        * <code>repeated .TeamEntityInfo team_entity_info_list = 15;</code>
        */
+>>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo> getTeamEntityInfoListList() {
         if (teamEntityInfoListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(teamEntityInfoList_);
@@ -636,6 +679,9 @@ public final class SyncTeamEntityNotifyOuterClass {
           return teamEntityInfoListBuilder_.getMessageList();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -643,6 +689,7 @@ public final class SyncTeamEntityNotifyOuterClass {
        *
        * <code>repeated .TeamEntityInfo team_entity_info_list = 15;</code>
        */
+>>>>>>> origin/6.5.0
       public int getTeamEntityInfoListCount() {
         if (teamEntityInfoListBuilder_ == null) {
           return teamEntityInfoList_.size();
@@ -650,6 +697,9 @@ public final class SyncTeamEntityNotifyOuterClass {
           return teamEntityInfoListBuilder_.getCount();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -657,6 +707,7 @@ public final class SyncTeamEntityNotifyOuterClass {
        *
        * <code>repeated .TeamEntityInfo team_entity_info_list = 15;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo getTeamEntityInfoList(int index) {
         if (teamEntityInfoListBuilder_ == null) {
           return teamEntityInfoList_.get(index);
@@ -664,6 +715,9 @@ public final class SyncTeamEntityNotifyOuterClass {
           return teamEntityInfoListBuilder_.getMessage(index);
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -671,6 +725,7 @@ public final class SyncTeamEntityNotifyOuterClass {
        *
        * <code>repeated .TeamEntityInfo team_entity_info_list = 15;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setTeamEntityInfoList(
           int index, emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo value) {
         if (teamEntityInfoListBuilder_ == null) {
@@ -685,6 +740,9 @@ public final class SyncTeamEntityNotifyOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -692,6 +750,7 @@ public final class SyncTeamEntityNotifyOuterClass {
        *
        * <code>repeated .TeamEntityInfo team_entity_info_list = 15;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setTeamEntityInfoList(
           int index, emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo.Builder builderForValue) {
         if (teamEntityInfoListBuilder_ == null) {
@@ -703,6 +762,9 @@ public final class SyncTeamEntityNotifyOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -710,6 +772,7 @@ public final class SyncTeamEntityNotifyOuterClass {
        *
        * <code>repeated .TeamEntityInfo team_entity_info_list = 15;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addTeamEntityInfoList(emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo value) {
         if (teamEntityInfoListBuilder_ == null) {
           if (value == null) {
@@ -723,6 +786,9 @@ public final class SyncTeamEntityNotifyOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -730,6 +796,7 @@ public final class SyncTeamEntityNotifyOuterClass {
        *
        * <code>repeated .TeamEntityInfo team_entity_info_list = 15;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addTeamEntityInfoList(
           int index, emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo value) {
         if (teamEntityInfoListBuilder_ == null) {
@@ -744,6 +811,9 @@ public final class SyncTeamEntityNotifyOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -751,6 +821,7 @@ public final class SyncTeamEntityNotifyOuterClass {
        *
        * <code>repeated .TeamEntityInfo team_entity_info_list = 15;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addTeamEntityInfoList(
           emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo.Builder builderForValue) {
         if (teamEntityInfoListBuilder_ == null) {
@@ -762,6 +833,9 @@ public final class SyncTeamEntityNotifyOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -769,6 +843,7 @@ public final class SyncTeamEntityNotifyOuterClass {
        *
        * <code>repeated .TeamEntityInfo team_entity_info_list = 15;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addTeamEntityInfoList(
           int index, emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo.Builder builderForValue) {
         if (teamEntityInfoListBuilder_ == null) {
@@ -780,6 +855,9 @@ public final class SyncTeamEntityNotifyOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -787,6 +865,7 @@ public final class SyncTeamEntityNotifyOuterClass {
        *
        * <code>repeated .TeamEntityInfo team_entity_info_list = 15;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addAllTeamEntityInfoList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo> values) {
         if (teamEntityInfoListBuilder_ == null) {
@@ -799,6 +878,9 @@ public final class SyncTeamEntityNotifyOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -806,6 +888,7 @@ public final class SyncTeamEntityNotifyOuterClass {
        *
        * <code>repeated .TeamEntityInfo team_entity_info_list = 15;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder clearTeamEntityInfoList() {
         if (teamEntityInfoListBuilder_ == null) {
           teamEntityInfoList_ = java.util.Collections.emptyList();
@@ -816,6 +899,9 @@ public final class SyncTeamEntityNotifyOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -823,6 +909,7 @@ public final class SyncTeamEntityNotifyOuterClass {
        *
        * <code>repeated .TeamEntityInfo team_entity_info_list = 15;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder removeTeamEntityInfoList(int index) {
         if (teamEntityInfoListBuilder_ == null) {
           ensureTeamEntityInfoListIsMutable();
@@ -833,6 +920,9 @@ public final class SyncTeamEntityNotifyOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -840,10 +930,14 @@ public final class SyncTeamEntityNotifyOuterClass {
        *
        * <code>repeated .TeamEntityInfo team_entity_info_list = 15;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo.Builder getTeamEntityInfoListBuilder(
           int index) {
         return getTeamEntityInfoListFieldBuilder().getBuilder(index);
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -851,6 +945,7 @@ public final class SyncTeamEntityNotifyOuterClass {
        *
        * <code>repeated .TeamEntityInfo team_entity_info_list = 15;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfoOrBuilder getTeamEntityInfoListOrBuilder(
           int index) {
         if (teamEntityInfoListBuilder_ == null) {
@@ -858,6 +953,10 @@ public final class SyncTeamEntityNotifyOuterClass {
           return teamEntityInfoListBuilder_.getMessageOrBuilder(index);
         }
       }
+<<<<<<< HEAD
+
+      public java.util.List<? extends emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfoOrBuilder>
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -866,6 +965,7 @@ public final class SyncTeamEntityNotifyOuterClass {
        * <code>repeated .TeamEntityInfo team_entity_info_list = 15;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfoOrBuilder> 
+>>>>>>> origin/6.5.0
            getTeamEntityInfoListOrBuilderList() {
         if (teamEntityInfoListBuilder_ != null) {
           return teamEntityInfoListBuilder_.getMessageOrBuilderList();
@@ -873,6 +973,9 @@ public final class SyncTeamEntityNotifyOuterClass {
           return java.util.Collections.unmodifiableList(teamEntityInfoList_);
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -880,10 +983,14 @@ public final class SyncTeamEntityNotifyOuterClass {
        *
        * <code>repeated .TeamEntityInfo team_entity_info_list = 15;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo.Builder addTeamEntityInfoListBuilder() {
         return getTeamEntityInfoListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo.getDefaultInstance());
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -891,11 +998,16 @@ public final class SyncTeamEntityNotifyOuterClass {
        *
        * <code>repeated .TeamEntityInfo team_entity_info_list = 15;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo.Builder addTeamEntityInfoListBuilder(
           int index) {
         return getTeamEntityInfoListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo.getDefaultInstance());
       }
+<<<<<<< HEAD
+
+      public java.util.List<emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo.Builder>
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -904,11 +1016,12 @@ public final class SyncTeamEntityNotifyOuterClass {
        * <code>repeated .TeamEntityInfo team_entity_info_list = 15;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo.Builder> 
+>>>>>>> origin/6.5.0
            getTeamEntityInfoListBuilderList() {
         return getTeamEntityInfoListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo, emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo.Builder, emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfoOrBuilder> 
+          emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo, emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfo.Builder, emu.grasscutter.net.proto.TeamEntityInfoOuterClass.TeamEntityInfoOrBuilder>
           getTeamEntityInfoListFieldBuilder() {
         if (teamEntityInfoListBuilder_ == null) {
           teamEntityInfoListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -923,6 +1036,9 @@ public final class SyncTeamEntityNotifyOuterClass {
       }
 
       private int sceneId_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -931,10 +1047,14 @@ public final class SyncTeamEntityNotifyOuterClass {
        * <code>uint32 scene_id = 5;</code>
        * @return The sceneId.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getSceneId() {
         return sceneId_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -944,12 +1064,16 @@ public final class SyncTeamEntityNotifyOuterClass {
        * @param value The sceneId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setSceneId(int value) {
-        
+
         sceneId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -958,8 +1082,9 @@ public final class SyncTeamEntityNotifyOuterClass {
        * <code>uint32 scene_id = 5;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearSceneId() {
-        
+
         sceneId_ = 0;
         onChanged();
         return this;
@@ -975,7 +1100,6 @@ public final class SyncTeamEntityNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:SyncTeamEntityNotify)
     }
@@ -1019,7 +1143,7 @@ public final class SyncTeamEntityNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_SyncTeamEntityNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_SyncTeamEntityNotify_fieldAccessorTable;
 

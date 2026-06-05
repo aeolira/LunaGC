@@ -18,6 +18,51 @@ public final class ForgeQueueManipulateRspOuterClass {
       // @@protoc_insertion_point(interface_extends:ForgeQueueManipulateRsp)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    java.util.List<emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint>
+        getOutputItemListList();
+
+    emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint getOutputItemList(int index);
+
+    int getOutputItemListCount();
+
+    java.util.List<? extends emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder>
+        getOutputItemListOrBuilderList();
+
+    emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder getOutputItemListOrBuilder(
+        int index);
+
+    java.util.List<emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint>
+        getReturnItemListList();
+
+    emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint getReturnItemList(int index);
+
+    int getReturnItemListCount();
+
+    java.util.List<? extends emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder>
+        getReturnItemListOrBuilderList();
+
+    emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder getReturnItemListOrBuilder(
+        int index);
+
+    java.util.List<emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint>
+        getExtraOutputItemListList();
+
+    emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint getExtraOutputItemList(int index);
+
+    int getExtraOutputItemListCount();
+
+    java.util.List<? extends emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder>
+        getExtraOutputItemListOrBuilderList();
+
+    emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder getExtraOutputItemListOrBuilder(
+        int index);
+
+    int getRetcode();
+
+    int getManipulateTypeValue();
+
+=======
     /**
      * <pre>
      *6.5.5     
@@ -177,6 +222,7 @@ public final class ForgeQueueManipulateRspOuterClass {
      * <code>.ForgeQueueManipulateType manipulate_type = 9;</code>
      * @return The manipulateType.
      */
+>>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.ForgeQueueManipulateTypeOuterClass.ForgeQueueManipulateType getManipulateType();
   }
   /**
@@ -233,21 +279,28 @@ public final class ForgeQueueManipulateRspOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 32: {
 
               retcode_ = input.readInt32();
               break;
             }
+<<<<<<< HEAD
+            case 74: {
+              if (!((mutable_bitField0_ & 0x00000001) != 0)) {
+                outputItemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint>();
+                mutable_bitField0_ |= 0x00000001;
+=======
             case 18: {
               if (!((mutable_bitField0_ & 0x00000002) != 0)) {
                 returnItemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint>();
                 mutable_bitField0_ |= 0x00000002;
+>>>>>>> origin/6.5.0
               }
               returnItemList_.add(
                   input.readMessage(emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.parser(), extensionRegistry));
               break;
             }
-            case 42: {
+            case 114: {
               if (!((mutable_bitField0_ & 0x00000004) != 0)) {
                 extraOutputItemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint>();
                 mutable_bitField0_ |= 0x00000004;
@@ -256,16 +309,23 @@ public final class ForgeQueueManipulateRspOuterClass {
                   input.readMessage(emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.parser(), extensionRegistry));
               break;
             }
+<<<<<<< HEAD
+            case 10: {
+              if (!((mutable_bitField0_ & 0x00000002) != 0)) {
+                returnItemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint>();
+                mutable_bitField0_ |= 0x00000002;
+=======
             case 58: {
               if (!((mutable_bitField0_ & 0x00000001) != 0)) {
                 outputItemList_ = new java.util.ArrayList<emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint>();
                 mutable_bitField0_ |= 0x00000001;
+>>>>>>> origin/6.5.0
               }
               outputItemList_.add(
                   input.readMessage(emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.parser(), extensionRegistry));
               break;
             }
-            case 72: {
+            case 64: {
               int rawValue = input.readEnum();
 
               manipulateType_ = rawValue;
@@ -312,6 +372,11 @@ public final class ForgeQueueManipulateRspOuterClass {
               emu.grasscutter.net.proto.ForgeQueueManipulateRspOuterClass.ForgeQueueManipulateRsp.class, emu.grasscutter.net.proto.ForgeQueueManipulateRspOuterClass.ForgeQueueManipulateRsp.Builder.class);
     }
 
+<<<<<<< HEAD
+    public static final int OUTPUT_ITEM_LIST_FIELD_NUMBER = 9;
+    private java.util.List<emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint> outputItemList_;
+
+=======
     public static final int OUTPUT_ITEM_LIST_FIELD_NUMBER = 7;
     private java.util.List<emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint> outputItemList_;
     /**
@@ -321,10 +386,14 @@ public final class ForgeQueueManipulateRspOuterClass {
      *
      * <code>repeated .ItemHint output_item_list = 7;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint> getOutputItemListList() {
       return outputItemList_;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5     
@@ -332,11 +401,15 @@ public final class ForgeQueueManipulateRspOuterClass {
      *
      * <code>repeated .ItemHint output_item_list = 7;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder>
         getOutputItemListOrBuilderList() {
       return outputItemList_;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5     
@@ -344,10 +417,14 @@ public final class ForgeQueueManipulateRspOuterClass {
      *
      * <code>repeated .ItemHint output_item_list = 7;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getOutputItemListCount() {
       return outputItemList_.size();
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5     
@@ -355,10 +432,14 @@ public final class ForgeQueueManipulateRspOuterClass {
      *
      * <code>repeated .ItemHint output_item_list = 7;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint getOutputItemList(int index) {
       return outputItemList_.get(index);
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5     
@@ -366,12 +447,18 @@ public final class ForgeQueueManipulateRspOuterClass {
      *
      * <code>repeated .ItemHint output_item_list = 7;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder getOutputItemListOrBuilder(
         int index) {
       return outputItemList_.get(index);
     }
 
+<<<<<<< HEAD
+    public static final int RETURN_ITEM_LIST_FIELD_NUMBER = 1;
+    private java.util.List<emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint> returnItemList_;
+
+=======
     public static final int RETURN_ITEM_LIST_FIELD_NUMBER = 2;
     private java.util.List<emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint> returnItemList_;
     /**
@@ -381,10 +468,14 @@ public final class ForgeQueueManipulateRspOuterClass {
      *
      * <code>repeated .ItemHint return_item_list = 2;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint> getReturnItemListList() {
       return returnItemList_;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5     
@@ -392,11 +483,15 @@ public final class ForgeQueueManipulateRspOuterClass {
      *
      * <code>repeated .ItemHint return_item_list = 2;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder>
         getReturnItemListOrBuilderList() {
       return returnItemList_;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5     
@@ -404,10 +499,14 @@ public final class ForgeQueueManipulateRspOuterClass {
      *
      * <code>repeated .ItemHint return_item_list = 2;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getReturnItemListCount() {
       return returnItemList_.size();
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5     
@@ -415,10 +514,14 @@ public final class ForgeQueueManipulateRspOuterClass {
      *
      * <code>repeated .ItemHint return_item_list = 2;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint getReturnItemList(int index) {
       return returnItemList_.get(index);
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5     
@@ -426,14 +529,18 @@ public final class ForgeQueueManipulateRspOuterClass {
      *
      * <code>repeated .ItemHint return_item_list = 2;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder getReturnItemListOrBuilder(
         int index) {
       return returnItemList_.get(index);
     }
 
-    public static final int EXTRA_OUTPUT_ITEM_LIST_FIELD_NUMBER = 5;
+    public static final int EXTRA_OUTPUT_ITEM_LIST_FIELD_NUMBER = 14;
     private java.util.List<emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint> extraOutputItemList_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0     
@@ -441,10 +548,14 @@ public final class ForgeQueueManipulateRspOuterClass {
      *
      * <code>repeated .ItemHint extra_output_item_list = 5;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint> getExtraOutputItemListList() {
       return extraOutputItemList_;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0     
@@ -452,11 +563,15 @@ public final class ForgeQueueManipulateRspOuterClass {
      *
      * <code>repeated .ItemHint extra_output_item_list = 5;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
-    public java.util.List<? extends emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder> 
+    public java.util.List<? extends emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder>
         getExtraOutputItemListOrBuilderList() {
       return extraOutputItemList_;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0     
@@ -464,10 +579,14 @@ public final class ForgeQueueManipulateRspOuterClass {
      *
      * <code>repeated .ItemHint extra_output_item_list = 5;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getExtraOutputItemListCount() {
       return extraOutputItemList_.size();
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0     
@@ -475,10 +594,14 @@ public final class ForgeQueueManipulateRspOuterClass {
      *
      * <code>repeated .ItemHint extra_output_item_list = 5;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint getExtraOutputItemList(int index) {
       return extraOutputItemList_.get(index);
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0     
@@ -486,14 +609,18 @@ public final class ForgeQueueManipulateRspOuterClass {
      *
      * <code>repeated .ItemHint extra_output_item_list = 5;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder getExtraOutputItemListOrBuilder(
         int index) {
       return extraOutputItemList_.get(index);
     }
 
-    public static final int RETCODE_FIELD_NUMBER = 1;
+    public static final int RETCODE_FIELD_NUMBER = 4;
     private int retcode_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -502,13 +629,21 @@ public final class ForgeQueueManipulateRspOuterClass {
      * <code>int32 retcode = 1;</code>
      * @return The retcode.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getRetcode() {
       return retcode_;
     }
 
-    public static final int MANIPULATE_TYPE_FIELD_NUMBER = 9;
+    public static final int MANIPULATE_TYPE_FIELD_NUMBER = 8;
     private int manipulateType_;
+<<<<<<< HEAD
+
+    @java.lang.Override public int getManipulateTypeValue() {
+      return manipulateType_;
+    }
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -528,6 +663,7 @@ public final class ForgeQueueManipulateRspOuterClass {
      * <code>.ForgeQueueManipulateType manipulate_type = 9;</code>
      * @return The manipulateType.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override public emu.grasscutter.net.proto.ForgeQueueManipulateTypeOuterClass.ForgeQueueManipulateType getManipulateType() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.ForgeQueueManipulateTypeOuterClass.ForgeQueueManipulateType result = emu.grasscutter.net.proto.ForgeQueueManipulateTypeOuterClass.ForgeQueueManipulateType.valueOf(manipulateType_);
@@ -548,6 +684,13 @@ public final class ForgeQueueManipulateRspOuterClass {
     @java.lang.Override
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
+<<<<<<< HEAD
+      for (int i = 0; i < returnItemList_.size(); i++) {
+        output.writeMessage(1, returnItemList_.get(i));
+      }
+      if (retcode_ != 0) {
+        output.writeInt32(4, retcode_);
+=======
       if (retcode_ != 0) {
         output.writeInt32(1, retcode_);
       }
@@ -559,9 +702,16 @@ public final class ForgeQueueManipulateRspOuterClass {
       }
       for (int i = 0; i < outputItemList_.size(); i++) {
         output.writeMessage(7, outputItemList_.get(i));
+>>>>>>> origin/6.5.0
       }
       if (manipulateType_ != emu.grasscutter.net.proto.ForgeQueueManipulateTypeOuterClass.ForgeQueueManipulateType.ForgeQueueManipulateType_RECEIVE_OUTPUT.getNumber()) {
-        output.writeEnum(9, manipulateType_);
+        output.writeEnum(8, manipulateType_);
+      }
+      for (int i = 0; i < outputItemList_.size(); i++) {
+        output.writeMessage(9, outputItemList_.get(i));
+      }
+      for (int i = 0; i < extraOutputItemList_.size(); i++) {
+        output.writeMessage(14, extraOutputItemList_.get(i));
       }
       unknownFields.writeTo(output);
     }
@@ -572,6 +722,15 @@ public final class ForgeQueueManipulateRspOuterClass {
       if (size != -1) return size;
 
       size = 0;
+<<<<<<< HEAD
+      for (int i = 0; i < returnItemList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(1, returnItemList_.get(i));
+      }
+      if (retcode_ != 0) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeInt32Size(4, retcode_);
+=======
       if (retcode_ != 0) {
         size += com.google.protobuf.CodedOutputStream
           .computeInt32Size(1, retcode_);
@@ -587,10 +746,19 @@ public final class ForgeQueueManipulateRspOuterClass {
       for (int i = 0; i < outputItemList_.size(); i++) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(7, outputItemList_.get(i));
+>>>>>>> origin/6.5.0
       }
       if (manipulateType_ != emu.grasscutter.net.proto.ForgeQueueManipulateTypeOuterClass.ForgeQueueManipulateType.ForgeQueueManipulateType_RECEIVE_OUTPUT.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(9, manipulateType_);
+          .computeEnumSize(8, manipulateType_);
+      }
+      for (int i = 0; i < outputItemList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(9, outputItemList_.get(i));
+      }
+      for (int i = 0; i < extraOutputItemList_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(14, extraOutputItemList_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -927,7 +1095,7 @@ public final class ForgeQueueManipulateRspOuterClass {
               outputItemListBuilder_ = null;
               outputItemList_ = other.outputItemList_;
               bitField0_ = (bitField0_ & ~0x00000001);
-              outputItemListBuilder_ = 
+              outputItemListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getOutputItemListFieldBuilder() : null;
             } else {
@@ -953,7 +1121,7 @@ public final class ForgeQueueManipulateRspOuterClass {
               returnItemListBuilder_ = null;
               returnItemList_ = other.returnItemList_;
               bitField0_ = (bitField0_ & ~0x00000002);
-              returnItemListBuilder_ = 
+              returnItemListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getReturnItemListFieldBuilder() : null;
             } else {
@@ -979,7 +1147,7 @@ public final class ForgeQueueManipulateRspOuterClass {
               extraOutputItemListBuilder_ = null;
               extraOutputItemList_ = other.extraOutputItemList_;
               bitField0_ = (bitField0_ & ~0x00000004);
-              extraOutputItemListBuilder_ = 
+              extraOutputItemListBuilder_ =
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getExtraOutputItemListFieldBuilder() : null;
             } else {
@@ -1035,6 +1203,8 @@ public final class ForgeQueueManipulateRspOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder> outputItemListBuilder_;
 
+<<<<<<< HEAD
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1042,6 +1212,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint output_item_list = 7;</code>
        */
+>>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint> getOutputItemListList() {
         if (outputItemListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(outputItemList_);
@@ -1049,6 +1220,9 @@ public final class ForgeQueueManipulateRspOuterClass {
           return outputItemListBuilder_.getMessageList();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1056,6 +1230,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint output_item_list = 7;</code>
        */
+>>>>>>> origin/6.5.0
       public int getOutputItemListCount() {
         if (outputItemListBuilder_ == null) {
           return outputItemList_.size();
@@ -1063,6 +1238,9 @@ public final class ForgeQueueManipulateRspOuterClass {
           return outputItemListBuilder_.getCount();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1070,6 +1248,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint output_item_list = 7;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint getOutputItemList(int index) {
         if (outputItemListBuilder_ == null) {
           return outputItemList_.get(index);
@@ -1077,6 +1256,9 @@ public final class ForgeQueueManipulateRspOuterClass {
           return outputItemListBuilder_.getMessage(index);
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1084,6 +1266,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint output_item_list = 7;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setOutputItemList(
           int index, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint value) {
         if (outputItemListBuilder_ == null) {
@@ -1098,6 +1281,9 @@ public final class ForgeQueueManipulateRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1105,6 +1291,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint output_item_list = 7;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setOutputItemList(
           int index, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder builderForValue) {
         if (outputItemListBuilder_ == null) {
@@ -1116,6 +1303,9 @@ public final class ForgeQueueManipulateRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1123,6 +1313,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint output_item_list = 7;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addOutputItemList(emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint value) {
         if (outputItemListBuilder_ == null) {
           if (value == null) {
@@ -1136,6 +1327,9 @@ public final class ForgeQueueManipulateRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1143,6 +1337,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint output_item_list = 7;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addOutputItemList(
           int index, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint value) {
         if (outputItemListBuilder_ == null) {
@@ -1157,6 +1352,9 @@ public final class ForgeQueueManipulateRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1164,6 +1362,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint output_item_list = 7;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addOutputItemList(
           emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder builderForValue) {
         if (outputItemListBuilder_ == null) {
@@ -1175,6 +1374,9 @@ public final class ForgeQueueManipulateRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1182,6 +1384,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint output_item_list = 7;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addOutputItemList(
           int index, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder builderForValue) {
         if (outputItemListBuilder_ == null) {
@@ -1193,6 +1396,9 @@ public final class ForgeQueueManipulateRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1200,6 +1406,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint output_item_list = 7;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addAllOutputItemList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint> values) {
         if (outputItemListBuilder_ == null) {
@@ -1212,6 +1419,9 @@ public final class ForgeQueueManipulateRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1219,6 +1429,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint output_item_list = 7;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder clearOutputItemList() {
         if (outputItemListBuilder_ == null) {
           outputItemList_ = java.util.Collections.emptyList();
@@ -1229,6 +1440,9 @@ public final class ForgeQueueManipulateRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1236,6 +1450,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint output_item_list = 7;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder removeOutputItemList(int index) {
         if (outputItemListBuilder_ == null) {
           ensureOutputItemListIsMutable();
@@ -1246,6 +1461,9 @@ public final class ForgeQueueManipulateRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1253,10 +1471,14 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint output_item_list = 7;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder getOutputItemListBuilder(
           int index) {
         return getOutputItemListFieldBuilder().getBuilder(index);
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1264,6 +1486,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint output_item_list = 7;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder getOutputItemListOrBuilder(
           int index) {
         if (outputItemListBuilder_ == null) {
@@ -1271,6 +1494,10 @@ public final class ForgeQueueManipulateRspOuterClass {
           return outputItemListBuilder_.getMessageOrBuilder(index);
         }
       }
+<<<<<<< HEAD
+
+      public java.util.List<? extends emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder>
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1279,6 +1506,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        * <code>repeated .ItemHint output_item_list = 7;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder> 
+>>>>>>> origin/6.5.0
            getOutputItemListOrBuilderList() {
         if (outputItemListBuilder_ != null) {
           return outputItemListBuilder_.getMessageOrBuilderList();
@@ -1286,6 +1514,9 @@ public final class ForgeQueueManipulateRspOuterClass {
           return java.util.Collections.unmodifiableList(outputItemList_);
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1293,10 +1524,14 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint output_item_list = 7;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder addOutputItemListBuilder() {
         return getOutputItemListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.getDefaultInstance());
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1304,11 +1539,16 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint output_item_list = 7;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder addOutputItemListBuilder(
           int index) {
         return getOutputItemListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.getDefaultInstance());
       }
+<<<<<<< HEAD
+
+      public java.util.List<emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder>
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1317,11 +1557,12 @@ public final class ForgeQueueManipulateRspOuterClass {
        * <code>repeated .ItemHint output_item_list = 7;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder> 
+>>>>>>> origin/6.5.0
            getOutputItemListBuilderList() {
         return getOutputItemListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder> 
+          emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder>
           getOutputItemListFieldBuilder() {
         if (outputItemListBuilder_ == null) {
           outputItemListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1347,6 +1588,8 @@ public final class ForgeQueueManipulateRspOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder> returnItemListBuilder_;
 
+<<<<<<< HEAD
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1354,6 +1597,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint return_item_list = 2;</code>
        */
+>>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint> getReturnItemListList() {
         if (returnItemListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(returnItemList_);
@@ -1361,6 +1605,9 @@ public final class ForgeQueueManipulateRspOuterClass {
           return returnItemListBuilder_.getMessageList();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1368,6 +1615,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint return_item_list = 2;</code>
        */
+>>>>>>> origin/6.5.0
       public int getReturnItemListCount() {
         if (returnItemListBuilder_ == null) {
           return returnItemList_.size();
@@ -1375,6 +1623,9 @@ public final class ForgeQueueManipulateRspOuterClass {
           return returnItemListBuilder_.getCount();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1382,6 +1633,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint return_item_list = 2;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint getReturnItemList(int index) {
         if (returnItemListBuilder_ == null) {
           return returnItemList_.get(index);
@@ -1389,6 +1641,9 @@ public final class ForgeQueueManipulateRspOuterClass {
           return returnItemListBuilder_.getMessage(index);
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1396,6 +1651,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint return_item_list = 2;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setReturnItemList(
           int index, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint value) {
         if (returnItemListBuilder_ == null) {
@@ -1410,6 +1666,9 @@ public final class ForgeQueueManipulateRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1417,6 +1676,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint return_item_list = 2;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setReturnItemList(
           int index, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder builderForValue) {
         if (returnItemListBuilder_ == null) {
@@ -1428,6 +1688,9 @@ public final class ForgeQueueManipulateRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1435,6 +1698,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint return_item_list = 2;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addReturnItemList(emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint value) {
         if (returnItemListBuilder_ == null) {
           if (value == null) {
@@ -1448,6 +1712,9 @@ public final class ForgeQueueManipulateRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1455,6 +1722,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint return_item_list = 2;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addReturnItemList(
           int index, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint value) {
         if (returnItemListBuilder_ == null) {
@@ -1469,6 +1737,9 @@ public final class ForgeQueueManipulateRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1476,6 +1747,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint return_item_list = 2;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addReturnItemList(
           emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder builderForValue) {
         if (returnItemListBuilder_ == null) {
@@ -1487,6 +1759,9 @@ public final class ForgeQueueManipulateRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1494,6 +1769,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint return_item_list = 2;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addReturnItemList(
           int index, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder builderForValue) {
         if (returnItemListBuilder_ == null) {
@@ -1505,6 +1781,9 @@ public final class ForgeQueueManipulateRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1512,6 +1791,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint return_item_list = 2;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addAllReturnItemList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint> values) {
         if (returnItemListBuilder_ == null) {
@@ -1524,6 +1804,9 @@ public final class ForgeQueueManipulateRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1531,6 +1814,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint return_item_list = 2;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder clearReturnItemList() {
         if (returnItemListBuilder_ == null) {
           returnItemList_ = java.util.Collections.emptyList();
@@ -1541,6 +1825,9 @@ public final class ForgeQueueManipulateRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1548,6 +1835,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint return_item_list = 2;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder removeReturnItemList(int index) {
         if (returnItemListBuilder_ == null) {
           ensureReturnItemListIsMutable();
@@ -1558,6 +1846,9 @@ public final class ForgeQueueManipulateRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1565,10 +1856,14 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint return_item_list = 2;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder getReturnItemListBuilder(
           int index) {
         return getReturnItemListFieldBuilder().getBuilder(index);
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1576,6 +1871,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint return_item_list = 2;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder getReturnItemListOrBuilder(
           int index) {
         if (returnItemListBuilder_ == null) {
@@ -1583,6 +1879,10 @@ public final class ForgeQueueManipulateRspOuterClass {
           return returnItemListBuilder_.getMessageOrBuilder(index);
         }
       }
+<<<<<<< HEAD
+
+      public java.util.List<? extends emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder>
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1591,6 +1891,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        * <code>repeated .ItemHint return_item_list = 2;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder> 
+>>>>>>> origin/6.5.0
            getReturnItemListOrBuilderList() {
         if (returnItemListBuilder_ != null) {
           return returnItemListBuilder_.getMessageOrBuilderList();
@@ -1598,6 +1899,9 @@ public final class ForgeQueueManipulateRspOuterClass {
           return java.util.Collections.unmodifiableList(returnItemList_);
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1605,10 +1909,14 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint return_item_list = 2;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder addReturnItemListBuilder() {
         return getReturnItemListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.getDefaultInstance());
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1616,11 +1924,16 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint return_item_list = 2;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder addReturnItemListBuilder(
           int index) {
         return getReturnItemListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.getDefaultInstance());
       }
+<<<<<<< HEAD
+
+      public java.util.List<emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder>
+=======
       /**
        * <pre>
        *6.5.5     
@@ -1629,11 +1942,12 @@ public final class ForgeQueueManipulateRspOuterClass {
        * <code>repeated .ItemHint return_item_list = 2;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder> 
+>>>>>>> origin/6.5.0
            getReturnItemListBuilderList() {
         return getReturnItemListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder> 
+          emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder>
           getReturnItemListFieldBuilder() {
         if (returnItemListBuilder_ == null) {
           returnItemListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1659,6 +1973,8 @@ public final class ForgeQueueManipulateRspOuterClass {
       private com.google.protobuf.RepeatedFieldBuilderV3<
           emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder> extraOutputItemListBuilder_;
 
+<<<<<<< HEAD
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -1666,6 +1982,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint extra_output_item_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public java.util.List<emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint> getExtraOutputItemListList() {
         if (extraOutputItemListBuilder_ == null) {
           return java.util.Collections.unmodifiableList(extraOutputItemList_);
@@ -1673,6 +1990,9 @@ public final class ForgeQueueManipulateRspOuterClass {
           return extraOutputItemListBuilder_.getMessageList();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -1680,6 +2000,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint extra_output_item_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public int getExtraOutputItemListCount() {
         if (extraOutputItemListBuilder_ == null) {
           return extraOutputItemList_.size();
@@ -1687,6 +2008,9 @@ public final class ForgeQueueManipulateRspOuterClass {
           return extraOutputItemListBuilder_.getCount();
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -1694,6 +2018,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint extra_output_item_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint getExtraOutputItemList(int index) {
         if (extraOutputItemListBuilder_ == null) {
           return extraOutputItemList_.get(index);
@@ -1701,6 +2026,9 @@ public final class ForgeQueueManipulateRspOuterClass {
           return extraOutputItemListBuilder_.getMessage(index);
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -1708,6 +2036,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint extra_output_item_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setExtraOutputItemList(
           int index, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint value) {
         if (extraOutputItemListBuilder_ == null) {
@@ -1722,6 +2051,9 @@ public final class ForgeQueueManipulateRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -1729,6 +2061,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint extra_output_item_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder setExtraOutputItemList(
           int index, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder builderForValue) {
         if (extraOutputItemListBuilder_ == null) {
@@ -1740,6 +2073,9 @@ public final class ForgeQueueManipulateRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -1747,6 +2083,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint extra_output_item_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addExtraOutputItemList(emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint value) {
         if (extraOutputItemListBuilder_ == null) {
           if (value == null) {
@@ -1760,6 +2097,9 @@ public final class ForgeQueueManipulateRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -1767,6 +2107,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint extra_output_item_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addExtraOutputItemList(
           int index, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint value) {
         if (extraOutputItemListBuilder_ == null) {
@@ -1781,6 +2122,9 @@ public final class ForgeQueueManipulateRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -1788,6 +2132,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint extra_output_item_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addExtraOutputItemList(
           emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder builderForValue) {
         if (extraOutputItemListBuilder_ == null) {
@@ -1799,6 +2144,9 @@ public final class ForgeQueueManipulateRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -1806,6 +2154,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint extra_output_item_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addExtraOutputItemList(
           int index, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder builderForValue) {
         if (extraOutputItemListBuilder_ == null) {
@@ -1817,6 +2166,9 @@ public final class ForgeQueueManipulateRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -1824,6 +2176,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint extra_output_item_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder addAllExtraOutputItemList(
           java.lang.Iterable<? extends emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint> values) {
         if (extraOutputItemListBuilder_ == null) {
@@ -1836,6 +2189,9 @@ public final class ForgeQueueManipulateRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -1843,6 +2199,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint extra_output_item_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder clearExtraOutputItemList() {
         if (extraOutputItemListBuilder_ == null) {
           extraOutputItemList_ = java.util.Collections.emptyList();
@@ -1853,6 +2210,9 @@ public final class ForgeQueueManipulateRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -1860,6 +2220,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint extra_output_item_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder removeExtraOutputItemList(int index) {
         if (extraOutputItemListBuilder_ == null) {
           ensureExtraOutputItemListIsMutable();
@@ -1870,6 +2231,9 @@ public final class ForgeQueueManipulateRspOuterClass {
         }
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -1877,10 +2241,14 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint extra_output_item_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder getExtraOutputItemListBuilder(
           int index) {
         return getExtraOutputItemListFieldBuilder().getBuilder(index);
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -1888,6 +2256,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint extra_output_item_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder getExtraOutputItemListOrBuilder(
           int index) {
         if (extraOutputItemListBuilder_ == null) {
@@ -1895,6 +2264,10 @@ public final class ForgeQueueManipulateRspOuterClass {
           return extraOutputItemListBuilder_.getMessageOrBuilder(index);
         }
       }
+<<<<<<< HEAD
+
+      public java.util.List<? extends emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder>
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -1903,6 +2276,7 @@ public final class ForgeQueueManipulateRspOuterClass {
        * <code>repeated .ItemHint extra_output_item_list = 5;</code>
        */
       public java.util.List<? extends emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder> 
+>>>>>>> origin/6.5.0
            getExtraOutputItemListOrBuilderList() {
         if (extraOutputItemListBuilder_ != null) {
           return extraOutputItemListBuilder_.getMessageOrBuilderList();
@@ -1910,6 +2284,9 @@ public final class ForgeQueueManipulateRspOuterClass {
           return java.util.Collections.unmodifiableList(extraOutputItemList_);
         }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -1917,10 +2294,14 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint extra_output_item_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder addExtraOutputItemListBuilder() {
         return getExtraOutputItemListFieldBuilder().addBuilder(
             emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.getDefaultInstance());
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -1928,11 +2309,16 @@ public final class ForgeQueueManipulateRspOuterClass {
        *
        * <code>repeated .ItemHint extra_output_item_list = 5;</code>
        */
+>>>>>>> origin/6.5.0
       public emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder addExtraOutputItemListBuilder(
           int index) {
         return getExtraOutputItemListFieldBuilder().addBuilder(
             index, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.getDefaultInstance());
       }
+<<<<<<< HEAD
+
+      public java.util.List<emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder>
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0     
@@ -1941,11 +2327,12 @@ public final class ForgeQueueManipulateRspOuterClass {
        * <code>repeated .ItemHint extra_output_item_list = 5;</code>
        */
       public java.util.List<emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder> 
+>>>>>>> origin/6.5.0
            getExtraOutputItemListBuilderList() {
         return getExtraOutputItemListFieldBuilder().getBuilderList();
       }
       private com.google.protobuf.RepeatedFieldBuilderV3<
-          emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder> 
+          emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHint.Builder, emu.grasscutter.net.proto.ItemHintOuterClass.ItemHintOrBuilder>
           getExtraOutputItemListFieldBuilder() {
         if (extraOutputItemListBuilder_ == null) {
           extraOutputItemListBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
@@ -1960,6 +2347,9 @@ public final class ForgeQueueManipulateRspOuterClass {
       }
 
       private int retcode_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1968,10 +2358,14 @@ public final class ForgeQueueManipulateRspOuterClass {
        * <code>int32 retcode = 1;</code>
        * @return The retcode.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getRetcode() {
         return retcode_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1981,12 +2375,16 @@ public final class ForgeQueueManipulateRspOuterClass {
        * @param value The retcode to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setRetcode(int value) {
-        
+
         retcode_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -1995,14 +2393,22 @@ public final class ForgeQueueManipulateRspOuterClass {
        * <code>int32 retcode = 1;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearRetcode() {
-        
+
         retcode_ = 0;
         onChanged();
         return this;
       }
 
       private int manipulateType_ = 0;
+<<<<<<< HEAD
+
+      @java.lang.Override public int getManipulateTypeValue() {
+        return manipulateType_;
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2023,12 +2429,16 @@ public final class ForgeQueueManipulateRspOuterClass {
        * @param value The enum numeric value on the wire for manipulateType to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setManipulateTypeValue(int value) {
-        
+
         manipulateType_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2037,12 +2447,16 @@ public final class ForgeQueueManipulateRspOuterClass {
        * <code>.ForgeQueueManipulateType manipulate_type = 9;</code>
        * @return The manipulateType.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.ForgeQueueManipulateTypeOuterClass.ForgeQueueManipulateType getManipulateType() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.ForgeQueueManipulateTypeOuterClass.ForgeQueueManipulateType result = emu.grasscutter.net.proto.ForgeQueueManipulateTypeOuterClass.ForgeQueueManipulateType.valueOf(manipulateType_);
         return result == null ? emu.grasscutter.net.proto.ForgeQueueManipulateTypeOuterClass.ForgeQueueManipulateType.UNRECOGNIZED : result;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2052,15 +2466,19 @@ public final class ForgeQueueManipulateRspOuterClass {
        * @param value The manipulateType to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setManipulateType(emu.grasscutter.net.proto.ForgeQueueManipulateTypeOuterClass.ForgeQueueManipulateType value) {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         manipulateType_ = value.getNumber();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -2069,8 +2487,9 @@ public final class ForgeQueueManipulateRspOuterClass {
        * <code>.ForgeQueueManipulateType manipulate_type = 9;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearManipulateType() {
-        
+
         manipulateType_ = 0;
         onChanged();
         return this;
@@ -2086,7 +2505,6 @@ public final class ForgeQueueManipulateRspOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:ForgeQueueManipulateRsp)
     }
@@ -2130,7 +2548,7 @@ public final class ForgeQueueManipulateRspOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_ForgeQueueManipulateRsp_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_ForgeQueueManipulateRsp_fieldAccessorTable;
 

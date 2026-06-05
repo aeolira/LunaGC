@@ -18,6 +18,12 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
       // @@protoc_insertion_point(interface_extends:AddNoGachaAvatarCardTransferItem)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    boolean getIsNew();
+
+    int getCount();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -46,6 +52,7 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
      * <code>uint32 item_id = 9;</code>
      * @return The itemId.
      */
+>>>>>>> origin/6.5.0
     int getItemId();
   }
   /**
@@ -142,6 +149,9 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
 
     public static final int IS_NEW_FIELD_NUMBER = 5;
     private boolean isNew_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -150,6 +160,7 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
      * <code>bool is_new = 5;</code>
      * @return The isNew.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public boolean getIsNew() {
       return isNew_;
@@ -157,6 +168,9 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
 
     public static final int COUNT_FIELD_NUMBER = 2;
     private int count_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -165,6 +179,7 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
      * <code>uint32 count = 2;</code>
      * @return The count.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getCount() {
       return count_;
@@ -172,6 +187,9 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
 
     public static final int ITEM_ID_FIELD_NUMBER = 9;
     private int itemId_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0        
@@ -180,6 +198,7 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
      * <code>uint32 item_id = 9;</code>
      * @return The itemId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getItemId() {
       return itemId_;
@@ -523,6 +542,9 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
       }
 
       private boolean isNew_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -531,10 +553,14 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
        * <code>bool is_new = 5;</code>
        * @return The isNew.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public boolean getIsNew() {
         return isNew_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -544,12 +570,16 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
        * @param value The isNew to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setIsNew(boolean value) {
-        
+
         isNew_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -558,14 +588,18 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
        * <code>bool is_new = 5;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearIsNew() {
-        
+
         isNew_ = false;
         onChanged();
         return this;
       }
 
       private int count_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -574,10 +608,14 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
        * <code>uint32 count = 2;</code>
        * @return The count.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getCount() {
         return count_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -587,12 +625,16 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
        * @param value The count to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setCount(int value) {
-        
+
         count_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -601,14 +643,18 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
        * <code>uint32 count = 2;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearCount() {
-        
+
         count_ = 0;
         onChanged();
         return this;
       }
 
       private int itemId_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -617,10 +663,14 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
        * <code>uint32 item_id = 9;</code>
        * @return The itemId.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getItemId() {
         return itemId_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -630,12 +680,16 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
        * @param value The itemId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setItemId(int value) {
-        
+
         itemId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0        
@@ -644,8 +698,9 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
        * <code>uint32 item_id = 9;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearItemId() {
-        
+
         itemId_ = 0;
         onChanged();
         return this;
@@ -661,7 +716,6 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:AddNoGachaAvatarCardTransferItem)
     }
@@ -705,7 +759,7 @@ public final class AddNoGachaAvatarCardTransferItemOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_AddNoGachaAvatarCardTransferItem_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_AddNoGachaAvatarCardTransferItem_fieldAccessorTable;
 

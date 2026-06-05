@@ -18,6 +18,12 @@ public final class EvtDestroyGadgetNotifyOuterClass {
       // @@protoc_insertion_point(interface_extends:EvtDestroyGadgetNotify)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    int getEntityId();
+
+    int getForwardTypeValue();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -45,6 +51,7 @@ public final class EvtDestroyGadgetNotifyOuterClass {
      * <code>.ForwardType forward_type = 1;</code>
      * @return The forwardType.
      */
+>>>>>>> origin/6.5.0
     emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType getForwardType();
   }
   /**
@@ -98,13 +105,13 @@ public final class EvtDestroyGadgetNotifyOuterClass {
             case 0:
               done = true;
               break;
-            case 8: {
+            case 32: {
               int rawValue = input.readEnum();
 
               forwardType_ = rawValue;
               break;
             }
-            case 32: {
+            case 80: {
 
               entityId_ = input.readUInt32();
               break;
@@ -141,8 +148,11 @@ public final class EvtDestroyGadgetNotifyOuterClass {
               emu.grasscutter.net.proto.EvtDestroyGadgetNotifyOuterClass.EvtDestroyGadgetNotify.class, emu.grasscutter.net.proto.EvtDestroyGadgetNotifyOuterClass.EvtDestroyGadgetNotify.Builder.class);
     }
 
-    public static final int ENTITY_ID_FIELD_NUMBER = 4;
+    public static final int ENTITY_ID_FIELD_NUMBER = 10;
     private int entityId_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -151,13 +161,21 @@ public final class EvtDestroyGadgetNotifyOuterClass {
      * <code>uint32 entity_id = 4;</code>
      * @return The entityId.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getEntityId() {
       return entityId_;
     }
 
-    public static final int FORWARD_TYPE_FIELD_NUMBER = 1;
+    public static final int FORWARD_TYPE_FIELD_NUMBER = 4;
     private int forwardType_;
+<<<<<<< HEAD
+
+    @java.lang.Override public int getForwardTypeValue() {
+      return forwardType_;
+    }
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -177,6 +195,7 @@ public final class EvtDestroyGadgetNotifyOuterClass {
      * <code>.ForwardType forward_type = 1;</code>
      * @return The forwardType.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override public emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType getForwardType() {
       @SuppressWarnings("deprecation")
       emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType result = emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.valueOf(forwardType_);
@@ -198,10 +217,10 @@ public final class EvtDestroyGadgetNotifyOuterClass {
     public void writeTo(com.google.protobuf.CodedOutputStream output)
                         throws java.io.IOException {
       if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.ForwardType_FORWARD_LOCAL.getNumber()) {
-        output.writeEnum(1, forwardType_);
+        output.writeEnum(4, forwardType_);
       }
       if (entityId_ != 0) {
-        output.writeUInt32(4, entityId_);
+        output.writeUInt32(10, entityId_);
       }
       unknownFields.writeTo(output);
     }
@@ -214,11 +233,11 @@ public final class EvtDestroyGadgetNotifyOuterClass {
       size = 0;
       if (forwardType_ != emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.ForwardType_FORWARD_LOCAL.getNumber()) {
         size += com.google.protobuf.CodedOutputStream
-          .computeEnumSize(1, forwardType_);
+          .computeEnumSize(4, forwardType_);
       }
       if (entityId_ != 0) {
         size += com.google.protobuf.CodedOutputStream
-          .computeUInt32Size(4, entityId_);
+          .computeUInt32Size(10, entityId_);
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -507,6 +526,9 @@ public final class EvtDestroyGadgetNotifyOuterClass {
       }
 
       private int entityId_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -515,10 +537,14 @@ public final class EvtDestroyGadgetNotifyOuterClass {
        * <code>uint32 entity_id = 4;</code>
        * @return The entityId.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getEntityId() {
         return entityId_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -528,12 +554,16 @@ public final class EvtDestroyGadgetNotifyOuterClass {
        * @param value The entityId to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setEntityId(int value) {
-        
+
         entityId_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -542,14 +572,22 @@ public final class EvtDestroyGadgetNotifyOuterClass {
        * <code>uint32 entity_id = 4;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearEntityId() {
-        
+
         entityId_ = 0;
         onChanged();
         return this;
       }
 
       private int forwardType_ = 0;
+<<<<<<< HEAD
+
+      @java.lang.Override public int getForwardTypeValue() {
+        return forwardType_;
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -570,12 +608,16 @@ public final class EvtDestroyGadgetNotifyOuterClass {
        * @param value The enum numeric value on the wire for forwardType to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setForwardTypeValue(int value) {
-        
+
         forwardType_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -584,12 +626,16 @@ public final class EvtDestroyGadgetNotifyOuterClass {
        * <code>.ForwardType forward_type = 1;</code>
        * @return The forwardType.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType getForwardType() {
         @SuppressWarnings("deprecation")
         emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType result = emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.valueOf(forwardType_);
         return result == null ? emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType.UNRECOGNIZED : result;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -599,15 +645,19 @@ public final class EvtDestroyGadgetNotifyOuterClass {
        * @param value The forwardType to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setForwardType(emu.grasscutter.net.proto.ForwardTypeOuterClass.ForwardType value) {
         if (value == null) {
           throw new NullPointerException();
         }
-        
+
         forwardType_ = value.getNumber();
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -616,8 +666,9 @@ public final class EvtDestroyGadgetNotifyOuterClass {
        * <code>.ForwardType forward_type = 1;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearForwardType() {
-        
+
         forwardType_ = 0;
         onChanged();
         return this;
@@ -633,7 +684,6 @@ public final class EvtDestroyGadgetNotifyOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:EvtDestroyGadgetNotify)
     }
@@ -677,7 +727,7 @@ public final class EvtDestroyGadgetNotifyOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_EvtDestroyGadgetNotify_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_EvtDestroyGadgetNotify_fieldAccessorTable;
 

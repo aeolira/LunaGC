@@ -18,6 +18,20 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
       // @@protoc_insertion_point(interface_extends:BreakoutSyncConnectUidInfo)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    java.util.List<java.lang.Integer> getSkillLevelListList();
+
+    int getSkillLevelListCount();
+
+    int getSkillLevelList(int index);
+
+    java.util.List<java.lang.Integer> getSkillIdListList();
+
+    int getSkillIdListCount();
+
+    int getSkillIdList(int index);
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -84,6 +98,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
      * <code>uint32 uid = 1;</code>
      * @return The uid.
      */
+>>>>>>> origin/6.5.0
     int getUid();
   }
   /**
@@ -221,6 +236,9 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
 
     public static final int SKILL_LEVEL_LIST_FIELD_NUMBER = 3;
     private com.google.protobuf.Internal.IntList skillLevelList_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -229,11 +247,19 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
      * <code>repeated uint32 skill_level_list = 3;</code>
      * @return A list containing the skillLevelList.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getSkillLevelListList() {
       return skillLevelList_;
     }
+<<<<<<< HEAD
+
+    public int getSkillLevelListCount() {
+      return skillLevelList_.size();
+    }
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -254,6 +280,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
      * @param index The index of the element to return.
      * @return The skillLevelList at the given index.
      */
+>>>>>>> origin/6.5.0
     public int getSkillLevelList(int index) {
       return skillLevelList_.getInt(index);
     }
@@ -261,6 +288,9 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
 
     public static final int SKILL_ID_LIST_FIELD_NUMBER = 2;
     private com.google.protobuf.Internal.IntList skillIdList_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -269,11 +299,19 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
      * <code>repeated uint32 skill_id_list = 2;</code>
      * @return A list containing the skillIdList.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public java.util.List<java.lang.Integer>
         getSkillIdListList() {
       return skillIdList_;
     }
+<<<<<<< HEAD
+
+    public int getSkillIdListCount() {
+      return skillIdList_.size();
+    }
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -294,6 +332,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
      * @param index The index of the element to return.
      * @return The skillIdList at the given index.
      */
+>>>>>>> origin/6.5.0
     public int getSkillIdList(int index) {
       return skillIdList_.getInt(index);
     }
@@ -301,6 +340,9 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
 
     public static final int UID_FIELD_NUMBER = 1;
     private int uid_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0           
@@ -309,6 +351,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
      * <code>uint32 uid = 1;</code>
      * @return The uid.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getUid() {
       return uid_;
@@ -714,6 +757,9 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
           bitField0_ |= 0x00000001;
          }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -722,11 +768,23 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
        * <code>repeated uint32 skill_level_list = 3;</code>
        * @return A list containing the skillLevelList.
        */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getSkillLevelListList() {
         return ((bitField0_ & 0x00000001) != 0) ?
                  java.util.Collections.unmodifiableList(skillLevelList_) : skillLevelList_;
       }
+<<<<<<< HEAD
+
+      public int getSkillLevelListCount() {
+        return skillLevelList_.size();
+      }
+
+      public int getSkillLevelList(int index) {
+        return skillLevelList_.getInt(index);
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -760,6 +818,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
        * @param value The skillLevelList to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setSkillLevelList(
           int index, int value) {
         ensureSkillLevelListIsMutable();
@@ -767,6 +826,9 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -776,12 +838,16 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
        * @param value The skillLevelList to add.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder addSkillLevelList(int value) {
         ensureSkillLevelListIsMutable();
         skillLevelList_.addInt(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -791,6 +857,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
        * @param values The skillLevelList to add.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder addAllSkillLevelList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureSkillLevelListIsMutable();
@@ -799,6 +866,9 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -807,6 +877,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
        * <code>repeated uint32 skill_level_list = 3;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearSkillLevelList() {
         skillLevelList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000001);
@@ -821,6 +892,9 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
           bitField0_ |= 0x00000002;
          }
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -829,11 +903,23 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
        * <code>repeated uint32 skill_id_list = 2;</code>
        * @return A list containing the skillIdList.
        */
+>>>>>>> origin/6.5.0
       public java.util.List<java.lang.Integer>
           getSkillIdListList() {
         return ((bitField0_ & 0x00000002) != 0) ?
                  java.util.Collections.unmodifiableList(skillIdList_) : skillIdList_;
       }
+<<<<<<< HEAD
+
+      public int getSkillIdListCount() {
+        return skillIdList_.size();
+      }
+
+      public int getSkillIdList(int index) {
+        return skillIdList_.getInt(index);
+      }
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -867,6 +953,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
        * @param value The skillIdList to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setSkillIdList(
           int index, int value) {
         ensureSkillIdListIsMutable();
@@ -874,6 +961,9 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -883,12 +973,16 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
        * @param value The skillIdList to add.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder addSkillIdList(int value) {
         ensureSkillIdListIsMutable();
         skillIdList_.addInt(value);
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -898,6 +992,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
        * @param values The skillIdList to add.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder addAllSkillIdList(
           java.lang.Iterable<? extends java.lang.Integer> values) {
         ensureSkillIdListIsMutable();
@@ -906,6 +1001,9 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -914,6 +1012,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
        * <code>repeated uint32 skill_id_list = 2;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearSkillIdList() {
         skillIdList_ = emptyIntList();
         bitField0_ = (bitField0_ & ~0x00000002);
@@ -922,6 +1021,9 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
       }
 
       private int uid_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -930,10 +1032,14 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
        * <code>uint32 uid = 1;</code>
        * @return The uid.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getUid() {
         return uid_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -943,12 +1049,16 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
        * @param value The uid to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setUid(int value) {
-        
+
         uid_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0           
@@ -957,8 +1067,9 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
        * <code>uint32 uid = 1;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearUid() {
-        
+
         uid_ = 0;
         onChanged();
         return this;
@@ -974,7 +1085,6 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:BreakoutSyncConnectUidInfo)
     }
@@ -1018,7 +1128,7 @@ public final class BreakoutSyncConnectUidInfoOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_BreakoutSyncConnectUidInfo_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_BreakoutSyncConnectUidInfo_fieldAccessorTable;
 

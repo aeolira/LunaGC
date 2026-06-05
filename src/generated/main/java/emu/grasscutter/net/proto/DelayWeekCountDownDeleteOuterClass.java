@@ -18,6 +18,10 @@ public final class DelayWeekCountDownDeleteOuterClass {
       // @@protoc_insertion_point(interface_extends:DelayWeekCountDownDelete)
       com.google.protobuf.MessageOrBuilder {
 
+<<<<<<< HEAD
+    int getDeleteTimeNumMapCount();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -33,6 +37,7 @@ public final class DelayWeekCountDownDeleteOuterClass {
      *
      * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
      */
+>>>>>>> origin/6.5.0
     boolean containsDeleteTimeNumMap(
         int key);
     /**
@@ -41,6 +46,11 @@ public final class DelayWeekCountDownDeleteOuterClass {
     @java.lang.Deprecated
     java.util.Map<java.lang.Integer, java.lang.Integer>
     getDeleteTimeNumMap();
+<<<<<<< HEAD
+
+    java.util.Map<java.lang.Integer, java.lang.Integer>
+    getDeleteTimeNumMapMap();
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -57,10 +67,13 @@ public final class DelayWeekCountDownDeleteOuterClass {
      *
      * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
      */
+>>>>>>> origin/6.5.0
 
     int getDeleteTimeNumMapOrDefault(
         int key,
         int defaultValue);
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -68,10 +81,15 @@ public final class DelayWeekCountDownDeleteOuterClass {
      *
      * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
      */
+>>>>>>> origin/6.5.0
 
     int getDeleteTimeNumMapOrThrow(
         int key);
 
+<<<<<<< HEAD
+    int getConfigCountDownTime();
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -90,6 +108,7 @@ public final class DelayWeekCountDownDeleteOuterClass {
      * <code>uint32 config_delay_week = 2;</code>
      * @return The configDelayWeek.
      */
+>>>>>>> origin/6.5.0
     int getConfigDelayWeek();
   }
   /**
@@ -211,7 +230,7 @@ public final class DelayWeekCountDownDeleteOuterClass {
           java.lang.Integer, java.lang.Integer> defaultEntry =
               com.google.protobuf.MapEntry
               .<java.lang.Integer, java.lang.Integer>newDefaultInstance(
-                  emu.grasscutter.net.proto.DelayWeekCountDownDeleteOuterClass.internal_static_DelayWeekCountDownDelete_DeleteTimeNumMapEntry_descriptor, 
+                  emu.grasscutter.net.proto.DelayWeekCountDownDeleteOuterClass.internal_static_DelayWeekCountDownDelete_DeleteTimeNumMapEntry_descriptor,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
                   0,
                   com.google.protobuf.WireFormat.FieldType.UINT32,
@@ -231,6 +250,8 @@ public final class DelayWeekCountDownDeleteOuterClass {
     public int getDeleteTimeNumMapCount() {
       return internalGetDeleteTimeNumMap().getMap().size();
     }
+<<<<<<< HEAD
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -238,11 +259,12 @@ public final class DelayWeekCountDownDeleteOuterClass {
      *
      * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
      */
+>>>>>>> origin/6.5.0
 
     @java.lang.Override
     public boolean containsDeleteTimeNumMap(
         int key) {
-      
+
       return internalGetDeleteTimeNumMap().getMap().containsKey(key);
     }
     /**
@@ -253,6 +275,9 @@ public final class DelayWeekCountDownDeleteOuterClass {
     public java.util.Map<java.lang.Integer, java.lang.Integer> getDeleteTimeNumMap() {
       return getDeleteTimeNumMapMap();
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -260,11 +285,15 @@ public final class DelayWeekCountDownDeleteOuterClass {
      *
      * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public java.util.Map<java.lang.Integer, java.lang.Integer> getDeleteTimeNumMapMap() {
       return internalGetDeleteTimeNumMap().getMap();
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -272,16 +301,20 @@ public final class DelayWeekCountDownDeleteOuterClass {
      *
      * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public int getDeleteTimeNumMapOrDefault(
         int key,
         int defaultValue) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetDeleteTimeNumMap().getMap();
       return map.containsKey(key) ? map.get(key) : defaultValue;
     }
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -289,11 +322,12 @@ public final class DelayWeekCountDownDeleteOuterClass {
      *
      * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
 
     public int getDeleteTimeNumMapOrThrow(
         int key) {
-      
+
       java.util.Map<java.lang.Integer, java.lang.Integer> map =
           internalGetDeleteTimeNumMap().getMap();
       if (!map.containsKey(key)) {
@@ -304,6 +338,9 @@ public final class DelayWeekCountDownDeleteOuterClass {
 
     public static final int CONFIG_COUNT_DOWN_TIME_FIELD_NUMBER = 3;
     private int configCountDownTime_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -312,6 +349,7 @@ public final class DelayWeekCountDownDeleteOuterClass {
      * <code>uint32 config_count_down_time = 3;</code>
      * @return The configCountDownTime.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getConfigCountDownTime() {
       return configCountDownTime_;
@@ -319,6 +357,9 @@ public final class DelayWeekCountDownDeleteOuterClass {
 
     public static final int CONFIG_DELAY_WEEK_FIELD_NUMBER = 2;
     private int configDelayWeek_;
+<<<<<<< HEAD
+
+=======
     /**
      * <pre>
      *6.5.5 //6.4.0 //6.5.0          
@@ -327,6 +368,7 @@ public final class DelayWeekCountDownDeleteOuterClass {
      * <code>uint32 config_delay_week = 2;</code>
      * @return The configDelayWeek.
      */
+>>>>>>> origin/6.5.0
     @java.lang.Override
     public int getConfigDelayWeek() {
       return configDelayWeek_;
@@ -728,6 +770,8 @@ public final class DelayWeekCountDownDeleteOuterClass {
       public int getDeleteTimeNumMapCount() {
         return internalGetDeleteTimeNumMap().getMap().size();
       }
+<<<<<<< HEAD
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -735,11 +779,12 @@ public final class DelayWeekCountDownDeleteOuterClass {
        *
        * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
        */
+>>>>>>> origin/6.5.0
 
       @java.lang.Override
       public boolean containsDeleteTimeNumMap(
           int key) {
-        
+
         return internalGetDeleteTimeNumMap().getMap().containsKey(key);
       }
       /**
@@ -750,6 +795,9 @@ public final class DelayWeekCountDownDeleteOuterClass {
       public java.util.Map<java.lang.Integer, java.lang.Integer> getDeleteTimeNumMap() {
         return getDeleteTimeNumMapMap();
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -757,11 +805,15 @@ public final class DelayWeekCountDownDeleteOuterClass {
        *
        * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public java.util.Map<java.lang.Integer, java.lang.Integer> getDeleteTimeNumMapMap() {
         return internalGetDeleteTimeNumMap().getMap();
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -769,16 +821,20 @@ public final class DelayWeekCountDownDeleteOuterClass {
        *
        * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public int getDeleteTimeNumMapOrDefault(
           int key,
           int defaultValue) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetDeleteTimeNumMap().getMap();
         return map.containsKey(key) ? map.get(key) : defaultValue;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -786,11 +842,12 @@ public final class DelayWeekCountDownDeleteOuterClass {
        *
        * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
 
       public int getDeleteTimeNumMapOrThrow(
           int key) {
-        
+
         java.util.Map<java.lang.Integer, java.lang.Integer> map =
             internalGetDeleteTimeNumMap().getMap();
         if (!map.containsKey(key)) {
@@ -804,6 +861,8 @@ public final class DelayWeekCountDownDeleteOuterClass {
             .clear();
         return this;
       }
+<<<<<<< HEAD
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -811,10 +870,11 @@ public final class DelayWeekCountDownDeleteOuterClass {
        *
        * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
        */
+>>>>>>> origin/6.5.0
 
       public Builder removeDeleteTimeNumMap(
           int key) {
-        
+
         internalGetMutableDeleteTimeNumMap().getMutableMap()
             .remove(key);
         return this;
@@ -827,6 +887,9 @@ public final class DelayWeekCountDownDeleteOuterClass {
       getMutableDeleteTimeNumMap() {
         return internalGetMutableDeleteTimeNumMap().getMutableMap();
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -834,15 +897,17 @@ public final class DelayWeekCountDownDeleteOuterClass {
        *
        * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
        */
+>>>>>>> origin/6.5.0
       public Builder putDeleteTimeNumMap(
           int key,
           int value) {
-        
-        
+
         internalGetMutableDeleteTimeNumMap().getMutableMap()
             .put(key, value);
         return this;
       }
+<<<<<<< HEAD
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -850,6 +915,7 @@ public final class DelayWeekCountDownDeleteOuterClass {
        *
        * <code>map&lt;uint32, uint32&gt; delete_time_num_map = 1;</code>
        */
+>>>>>>> origin/6.5.0
 
       public Builder putAllDeleteTimeNumMap(
           java.util.Map<java.lang.Integer, java.lang.Integer> values) {
@@ -859,6 +925,9 @@ public final class DelayWeekCountDownDeleteOuterClass {
       }
 
       private int configCountDownTime_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -867,10 +936,14 @@ public final class DelayWeekCountDownDeleteOuterClass {
        * <code>uint32 config_count_down_time = 3;</code>
        * @return The configCountDownTime.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getConfigCountDownTime() {
         return configCountDownTime_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -880,12 +953,16 @@ public final class DelayWeekCountDownDeleteOuterClass {
        * @param value The configCountDownTime to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setConfigCountDownTime(int value) {
-        
+
         configCountDownTime_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -894,14 +971,18 @@ public final class DelayWeekCountDownDeleteOuterClass {
        * <code>uint32 config_count_down_time = 3;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearConfigCountDownTime() {
-        
+
         configCountDownTime_ = 0;
         onChanged();
         return this;
       }
 
       private int configDelayWeek_ ;
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -910,10 +991,14 @@ public final class DelayWeekCountDownDeleteOuterClass {
        * <code>uint32 config_delay_week = 2;</code>
        * @return The configDelayWeek.
        */
+>>>>>>> origin/6.5.0
       @java.lang.Override
       public int getConfigDelayWeek() {
         return configDelayWeek_;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -923,12 +1008,16 @@ public final class DelayWeekCountDownDeleteOuterClass {
        * @param value The configDelayWeek to set.
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder setConfigDelayWeek(int value) {
-        
+
         configDelayWeek_ = value;
         onChanged();
         return this;
       }
+<<<<<<< HEAD
+
+=======
       /**
        * <pre>
        *6.5.5 //6.4.0 //6.5.0          
@@ -937,8 +1026,9 @@ public final class DelayWeekCountDownDeleteOuterClass {
        * <code>uint32 config_delay_week = 2;</code>
        * @return This builder for chaining.
        */
+>>>>>>> origin/6.5.0
       public Builder clearConfigDelayWeek() {
-        
+
         configDelayWeek_ = 0;
         onChanged();
         return this;
@@ -954,7 +1044,6 @@ public final class DelayWeekCountDownDeleteOuterClass {
           final com.google.protobuf.UnknownFieldSet unknownFields) {
         return super.mergeUnknownFields(unknownFields);
       }
-
 
       // @@protoc_insertion_point(builder_scope:DelayWeekCountDownDelete)
     }
@@ -998,12 +1087,12 @@ public final class DelayWeekCountDownDeleteOuterClass {
 
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_DelayWeekCountDownDelete_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_DelayWeekCountDownDelete_fieldAccessorTable;
   private static final com.google.protobuf.Descriptors.Descriptor
     internal_static_DelayWeekCountDownDelete_DeleteTimeNumMapEntry_descriptor;
-  private static final 
+  private static final
     com.google.protobuf.GeneratedMessageV3.FieldAccessorTable
       internal_static_DelayWeekCountDownDelete_DeleteTimeNumMapEntry_fieldAccessorTable;
 
