@@ -5,7 +5,7 @@
 # This workflow will build a Java project with Gradle and cache/restore any dependencies to improve the workflow execution time
 # For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-java-with-gradle
 
-name: Java CI with Gradle
+name: LunaGC CI
 
 on:
   workflow_dispatch:
@@ -15,30 +15,51 @@ on:
     branches: [ "6.6.0" ]
 
 jobs:
-  build:
-
+  build-server:
     runs-on: ubuntu-latest
     permissions:
       contents: write
 
     steps:
     - uses: actions/checkout@v4
+      with:
+        submodules: 'recursive'
     - name: Set up JDK 21
       uses: actions/setup-java@v4
       with:
         java-version: '21'
         distribution: 'temurin'
 
-    # Configure Gradle for optimal use in GitHub Actions, including caching of downloaded dependencies.
-    # See: https://github.com/gradle/actions/blob/main/setup-gradle/README.md
     - name: Setup Gradle
       uses: gradle/actions/setup-gradle@af1da67850ed9a4cedd57bfd976089dd991e2582 # v4.0.0
 
     - name: Build with Gradle Wrapper
       run: ./gradlew jar
 
-    - name: Archive Artifacts
+    - name: Archive Server JAR
       uses: actions/upload-artifact@v4
       with:
-        name: Artifacts
+        name: LunaGC-Server
         path: LunaGC-6.6.0.jar
+
+  build-patch:
+    runs-on: windows-latest
+    permissions:
+      contents: read
+
+    steps:
+    - uses: actions/checkout@v4
+      with:
+        submodules: 'recursive'
+    - name: Set up Rust
+      uses: actions-rust-lang/setup-rust-toolchain@v1
+
+    - name: Build Patch (Release)
+      working-directory: patch
+      run: cargo build --release
+
+    - name: Archive Patch DLL
+      uses: actions/upload-artifact@v4
+      with:
+        name: LunaGC-Patch
+        path: patch/target/release/ext.dll
