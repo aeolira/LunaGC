@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message InazumaBadmintonLevelInfo {
+	uint32 JJNKGBICAMO = 6;
+}

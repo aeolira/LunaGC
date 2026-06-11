@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message MonsterSnapSettleInfo {
+	uint32 level_id = 11;
+	uint32 score = 3;
+	bool is_new_record = 9;
+}

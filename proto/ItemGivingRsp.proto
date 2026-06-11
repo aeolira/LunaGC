@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message ItemGivingRsp {
+	uint32 giving_id = 3;
+	uint32 giving_group_id = 5;
+	int32 retcode = 9;
+}

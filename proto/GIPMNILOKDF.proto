@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "ExamInfo.proto";
+import "OrderInfo.proto";
+
+message GIPMNILOKDF {
+	repeated uint32 BAMFNBKJANC = 14;
+	oneof detail {
+		_OrderInfo order_info = 6;
+		_ExamInfo exam_info = 13;
+	}
+}

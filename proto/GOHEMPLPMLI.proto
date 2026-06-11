@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "ShowAvatarInfo.proto";
+
+message GOHEMPLPMLI {
+	repeated ShowAvatarInfo avatar_info_list = 2;
+}

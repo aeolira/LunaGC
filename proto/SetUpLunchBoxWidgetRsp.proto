@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "LunchBoxData.proto";
+
+message SetUpLunchBoxWidgetRsp {
+	LunchBoxData lunch_box_data = 2;
+	int32 retcode = 13;
+}

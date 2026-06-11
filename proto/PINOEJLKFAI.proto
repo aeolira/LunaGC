@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "CurrentPhase.proto";
+
+message PINOEJLKFAI {
+	repeated int32 GGMNMPFOOPB = 1;
+	repeated _CurrentPhase BGLNLLNHKEB = 2;
+}

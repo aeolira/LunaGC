@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "MonsterChessV2CombatDetail.proto";
+import "MonsterChessV2RecordInfo.proto";
+
+message MonsterChessV2DetailInfo {
+	_MonsterChessV2CombatDetail _combat_detail = 8;
+	repeated _MonsterChessV2RecordInfo _monster_chess_record_info = 3;
+}

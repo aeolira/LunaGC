@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "CustomGalleryProgressInfo.proto";
+import "CustomGalleryScoreBoardInfo.proto";
+
+message CustomGalleryInfo {
+	repeated uint32 _modified_progress_id_list = 9;
+	repeated _CustomGalleryProgressInfo _progress_list = 4;
+	repeated _CustomGalleryScoreBoardInfo _score_board_list = 15;
+	bool _is_need_update = 1;
+}

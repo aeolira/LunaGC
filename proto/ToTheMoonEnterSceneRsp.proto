@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message ToTheMoonEnterSceneRsp {
+	int32 retcode = 4;
+}

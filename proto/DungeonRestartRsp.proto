@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message DungeonRestartRsp {
+	uint32 point_id = 5;
+	int32 retcode = 4;
+	uint32 dungeon_id = 2;
+}

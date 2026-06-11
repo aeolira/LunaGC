@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "ClientPlayDetailInfo.proto";
+
+message ClientPlayLevelInfo {
+	_ClientPlayDetailInfo detail_info = 11;
+	uint32 level_id = 6;
+	uint32 best_record = 4;
+	uint32 _play_times = 1;
+	uint32 _finish_times = 12;
+	bool is_open = 7;
+}

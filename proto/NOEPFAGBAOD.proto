@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message NOEPFAGBAOD {
+	uint32 uid = 3;
+	uint32 CABOAAEIOHF = 2;
+}

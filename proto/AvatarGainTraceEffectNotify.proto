@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message AvatarGainTraceEffectNotify {
+	uint32 _trace_effect_id = 3;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "JNEIBBNPDEE.proto";
+
+message LFAOFEMCPCI {
+	repeated uint32 KIHEIBJGOJB = 12;
+	repeated JNEIBBNPDEE level_info_list = 15;
+	uint32 _win_count = 1;
+	uint32 HJPEEGEGMOJ = 9;
+	uint32 IIFAILPGAHO = 8;
+}

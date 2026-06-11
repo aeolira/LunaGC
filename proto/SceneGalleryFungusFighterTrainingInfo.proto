@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message SceneGalleryFungusFighterTrainingInfo {
+	uint32 PJPDKDPEPKN = 12;
+	uint32 LNOFGKFGHDH = 2;
+	uint32 buff_id = 1;
+	uint32 MNEPEKDANPA = 4;
+	uint32 KNPJGOINGNF = 3;
+	uint32 KCPJBBOMAGG = 14;
+	uint32 max_monster_count = 15;
+}

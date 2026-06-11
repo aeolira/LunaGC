@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message MusicGameSettleRsp {
+	uint32 music_basic_id = 9;
+	bool is_new_record = 14;
+	bool is_unlock_next_level = 15;
+	int32 retcode = 5;
+	uint64 ugc_guid = 6;
+}

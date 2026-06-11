@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SceneGalleryHideAndSeekInfo {
+	repeated uint32 CNACJCJBFKO = 15;
+	repeated uint32 JKKDGOILBGD = 9;
+}

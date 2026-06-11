@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SceneGalleryFlightGearInfo {
+	uint32 FECAMLOHOOM = 2;
+	uint32 BDAAIIHADBH = 15;
+}

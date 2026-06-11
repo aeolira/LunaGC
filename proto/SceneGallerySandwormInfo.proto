@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "SceneGallerySandwormCannonSpecialEffectType.proto";
+
+message SceneGallerySandwormInfo {
+	bool _is_sandworm_appear = 15;
+	_SceneGallerySandwormCannonSpecialEffectType _special_effect_type = 6;
+	uint32 _max_energy = 7;
+	uint32 energy = 4;
+}

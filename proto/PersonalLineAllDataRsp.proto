@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "LockedPersonallineData.proto";
+
+message PersonalLineAllDataRsp {
+	repeated uint32 JCCDFHGEDIE = 7;
+	repeated uint32 NKFHCKFMGPE = 11;
+	repeated uint32 INEFAOLMPIE = 8;
+	repeated LockedPersonallineData locked_personal_line_list = 2;
+	uint32 legendary_key_count = 12;
+	int32 retcode = 5;
+	uint32 cur_finished_daily_task_count = 13;
+}

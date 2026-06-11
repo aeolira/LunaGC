@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "EAJDMLGLPHJ.proto";
+import "EPDGGHGDGAP.proto";
+import "GFABIDDDJCF.proto";
+import "LENMHFAOGIL.proto";
+import "MLNFIPLILGL.proto";
+
+message PenumbraAdventureDetailInfo {
+	GFABIDDDJCF PMNCJJCJICE = 6;
+	EAJDMLGLPHJ BGJCBODLMPM = 7;
+	LENMHFAOGIL OKMMOFEHLJJ = 1;
+	EPDGGHGDGAP CPCNAJAENHI = 12;
+	MLNFIPLILGL AFGMMGMOKDM = 13;
+}

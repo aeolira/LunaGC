@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "HINHHJGKMPB.proto";
+import "IBMOLKIPBCA.proto";
+import "ICAHLGPOFGO.proto";
+
+message FCNANEKDOJP {
+	repeated IBMOLKIPBCA BBDFDPNLKJJ = 1;
+	repeated HINHHJGKMPB BKOGIKMAHFI = 3;
+	repeated ICAHLGPOFGO MJIAAEOMOLL = 2;
+}

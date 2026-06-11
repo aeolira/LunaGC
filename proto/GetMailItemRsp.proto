@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "EquipParam.proto";
+import "ItemHint.proto";
+
+message GetMailItemRsp {
+	repeated EquipParam item_list = 9;
+	repeated ItemHint _beyond_item_hint = 12;
+	repeated uint32 mail_id_list = 4;
+	int32 retcode = 14;
+}

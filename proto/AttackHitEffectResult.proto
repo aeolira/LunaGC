@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message AttackHitEffectResult {
+	float AIMOEJHCKHP = 1;
+	uint32 DDMMELKFINN = 12;
+	float ALHIDILKJHH = 9;
+	uint32 HMLKNBABIHG = 11;
+	float IJMKPEEGGNH = 4;
+	float CLGBKCMIMOH = 6;
+}

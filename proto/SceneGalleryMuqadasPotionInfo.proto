@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SceneGalleryMuqadasPotionInfo {
+	uint32 ANMKBEPIKHF = 13;
+	uint32 capture_weakness_count = 8;
+	uint32 BLBFNPANIPG = 15;
+	uint32 score = 3;
+}

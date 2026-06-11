@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "IIOFICFEEDL.proto";
+
+message BirdBallDetailInfo {
+	repeated IIOFICFEEDL OHAOKMIAMGM = 4;
+	repeated IIOFICFEEDL BMAGFJDJEGD = 5;
+	uint32 COCKJFHNHJM = 6;
+}

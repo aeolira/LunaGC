@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message HNNPFJHOKIE {
+	uint32 config_id = 1;
+}

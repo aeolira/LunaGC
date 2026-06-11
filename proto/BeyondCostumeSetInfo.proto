@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "BeyondCostumeSetDetail.proto";
+
+message BeyondCostumeSetInfo {
+	uint32 _costume_set_index = 1;
+	_BeyondCostumeSetDetail _costume_set = 2;
+	_BeyondCostumeSetDetail _makeup_set = 3;
+}

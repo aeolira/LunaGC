@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message DAIFFPJAPPC {
+	repeated uint32 EOGDJGMNHDK = 10;
+	repeated uint32 MMJNFPMLEOJ = 15;
+	uint32 level_id = 14;
+	bool CBCEHAIPDBG = 11;
+	bool NKKMJDNFIDK = 13;
+	uint32 best_score = 3;
+}

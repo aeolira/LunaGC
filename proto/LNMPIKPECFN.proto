@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "JMCIKHMINDL.proto";
+
+message LNMPIKPECFN {
+	repeated JMCIKHMINDL KLHOBGDHDGL = 13;
+}

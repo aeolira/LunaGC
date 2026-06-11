@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message LoliJumpLevelInfo {
+	uint32 JJNKGBICAMO = 6;
+}

@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "ReunionWatcherInfo.proto";
+
+message DGABCHKMPDG {
+	repeated Uint32Pair MJABLFHPNFO = 12;
+	repeated ReunionWatcherInfo DGMFAEBMIEE = 13;
+	repeated Uint32Pair JJKFLDBJEAB = 9;
+	repeated uint32 FCMDKOAIIOJ = 1;
+	uint32 cur_score = 7;
+	uint32 LDEACPOHBBE = 6;
+	bool is_activated = 15;
+	uint32 GCFJPMJKPDD = 8;
+}

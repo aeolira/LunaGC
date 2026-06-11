@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message AFKFEICJEKG {
+	uint64 _type_guid = 1;
+	int32 EEBCDNINDDO = 2;
+	bool FHGBCGFIBOD = 3;
+	bool PHLIMLMIAAN = 4;
+	bool KILKPCBMJDJ = 5;
+	bool CLECJAAPDMG = 6;
+}

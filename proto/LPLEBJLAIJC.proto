@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message LPLEBJLAIJC {
+	repeated uint32 value_list = 1;
+}

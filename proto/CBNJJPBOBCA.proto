@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message CBNJJPBOBCA {
+	uint32 best_score = 15;
+	uint32 level_id = 1;
+	bool is_open = 7;
+	bool is_finish = 10;
+	bool is_succ = 9;
+}

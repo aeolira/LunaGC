@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message HachiActivityDetailInfo {
+	map<uint32, HachiStageInfo> stage_map = 1;
+}

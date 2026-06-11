@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "LanV6CardSticker.proto";
+import "LanV6CardTextInfo.proto";
+
+message LanV6CardDetail {
+	repeated _LanV6CardSticker _card_sticker = 3;
+	_LanV6CardTextInfo _card_text_info = 4;
+	fixed64 card_guid = 1;
+	uint32 FHEJPCCHCJF = 5;
+	uint32 LKKCMFAPOML = 2;
+}

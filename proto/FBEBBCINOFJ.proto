@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message FBEBBCINOFJ {
+	int32 route_id = 1;
+}

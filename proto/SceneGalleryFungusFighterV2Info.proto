@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+message SceneGalleryFungusFighterV2Info {
+	message KMKHHNAJPDD {
+		uint32 fungus_id = 11;
+		bool is_alive = 5;
+		uint64 LBOBJPOILHF = 9;
+	}
+
+	string transaction = 5;
+	repeated KMKHHNAJPDD JPJENPMLHJP = 9;
+	uint64 ODGGCFMAANH = 10;
+	float IJMCBMJHPJL = 8;
+	uint32 DKDKGFOKIGB = 12;
+	uint32 FFNGEJFPNOJ = 3;
+}

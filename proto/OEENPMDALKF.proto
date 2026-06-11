@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message OEENPMDALKF {
+	map<uint32, MusicGameRecord> music_game_record_map = 12;
+}

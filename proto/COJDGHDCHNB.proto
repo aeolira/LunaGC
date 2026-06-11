@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "CBNJJPBOBCA.proto";
+
+message COJDGHDCHNB {
+	repeated CBNJJPBOBCA level_info_list = 3;
+}

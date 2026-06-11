@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "KKBIPJBHLEF.proto";
+import "MGNHFDDNBBL.proto";
+import "MKBAOCHJFHC.proto";
+
+message ToyBattleDetailInfo {
+	KKBIPJBHLEF EEOMHIBHCJB = 6;
+	MGNHFDDNBBL camp_info = 1;
+	MKBAOCHJFHC LDHHLBNCOBJ = 12;
+}

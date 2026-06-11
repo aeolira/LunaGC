@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message ABEGPJCFLHI {
+	uint32 level_id = 7;
+	bool is_finished = 15;
+	bool is_open = 11;
+}

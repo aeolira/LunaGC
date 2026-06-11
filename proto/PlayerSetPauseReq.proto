@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message PlayerSetPauseReq {
+	bool is_paused = 14;
+}

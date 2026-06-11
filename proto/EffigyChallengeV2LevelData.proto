@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message EffigyChallengeV2LevelData {
+	bool is_level_open = 9;
+	uint32 DLOKPJOBHIH = 5;
+	uint32 HNHHEBGHKLE = 12;
+	uint32 PHKBHDAEBEO = 10;
+	uint32 level_id = 8;
+	uint32 MKDBBLLALJC = 4;
+}

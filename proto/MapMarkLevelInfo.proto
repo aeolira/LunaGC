@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "KNHCIJPCHGP.proto";
+
+message MapMarkLevelInfo {
+	repeated KNHCIJPCHGP AEDOIPOPKKE = 8;
+}

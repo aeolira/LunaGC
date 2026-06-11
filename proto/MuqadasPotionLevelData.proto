@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message MuqadasPotionLevelData {
+	uint32 max_score = 3;
+	bool is_open = 4;
+	uint32 level_id = 5;
+}

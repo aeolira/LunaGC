@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "CKMLAFEBDPI.proto";
+
+message DBAOPEBFLFF {
+	string name = 14;
+	repeated CKMLAFEBDPI FKADPJEFBCJ = 12;
+	uint32 audit_state = 5;
+	uint32 slot_id = 10;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "LMFIEDMCKIL.proto";
+import "Vector.proto";
+
+message GadgetBase {
+	uint32 FBNJGKGKMCO = 1;
+	repeated LMFIEDMCKIL BIBGDOBJONO = 2;
+	Vector BGFGCHDFFOL = 3;
+}

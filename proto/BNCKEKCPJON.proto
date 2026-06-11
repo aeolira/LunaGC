@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message BNCKEKCPJON {
+	uint32 EOFBGNPEOJC = 15;
+	bool is_open = 14;
+	bool is_finish = 4;
+	uint32 level_id = 3;
+}

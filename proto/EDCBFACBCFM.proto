@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "EIBOEKDGAPJ.proto";
+
+message EDCBFACBCFM {
+	repeated EIBOEKDGAPJ level_info_list = 8;
+}

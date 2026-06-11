@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SceneGalleryAkaFesArchaeologyInfo {
+	uint32 total_count = 12;
+	uint32 EIHMBOAGEGI = 14;
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "FMLPKONJOBI.proto";
+import "IIBEOJFPJMJ.proto";
+
+message FCMLFGCLBPF {
+	repeated IIBEOJFPJMJ team_info_list = 11;
+	repeated uint64 equip_guid_list = 13;
+	FMLPKONJOBI PAHKNFKMNBK = 12;
+	uint32 cost_time = 15;
+	uint32 NNBGDPEGOJK = 1;
+	bool is_finished = 14;
+}

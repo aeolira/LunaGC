@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message WidgetClientDetectorInfo {
+	repeated uint32 config_id_list = 5;
+}

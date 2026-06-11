@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ShowAvatarInfo.proto";
+
+message GetFriendShowAvatarInfoRsp {
+	repeated ShowAvatarInfo show_avatar_info_list = 12;
+	uint32 uid = 11;
+	int32 retcode = 4;
+}

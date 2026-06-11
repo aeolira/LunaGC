@@ -1,0 +1,19 @@
+syntax = "proto3";
+
+import "HNGMMEHIBJE.proto";
+import "ShowAvatarInfo.proto";
+
+message OIHFBCKPFPK {
+	repeated ShowAvatarInfo show_avatar_info_list = 1;
+	repeated uint32 KPEPMGEHAOB = 11;
+	repeated HNGMMEHIBJE EOGGOAGPCBG = 14;
+	repeated uint32 LPKBAPJMIJI = 6;
+	uint32 level_id = 9;
+	uint32 KIJDKGKFJPD = 7;
+	bool is_finish = 2;
+	bool is_open = 5;
+	bool NIGCHJGAGBE = 3;
+	uint32 OJJPLPJPHFH = 4;
+	uint32 NKBPDNLDNHJ = 15;
+	uint32 cost_time = 12;
+}

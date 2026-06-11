@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "ShopGoods.proto";
+
+message BuyGoodsRsp {
+	repeated ShopGoods goods_list = 7;
+	ShopGoods goods = 2;
+	int32 retcode = 3;
+	uint32 buy_count = 11;
+	uint32 shop_type = 13;
+}

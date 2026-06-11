@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "ActivityAvatarInfo.proto";
+
+message HolidayResortBattleLevelInfo {
+	repeated _ActivityAvatarInfo avatar_list = 5;
+}

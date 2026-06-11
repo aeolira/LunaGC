@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "ChatEmojiCollectionData.proto";
+
+message GetChatEmojiCollectionRsp {
+	ChatEmojiCollectionData chat_emoji_collection_data = 8;
+	int32 retcode = 7;
+}

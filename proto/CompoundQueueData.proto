@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message CompoundQueueData {
+	uint32 NOJHLEGJNNL = 4;
+	uint32 MANNMCFAFPN = 8;
+	uint32 compound_id = 14;
+	uint32 NDBBPDNNMEP = 10;
+}

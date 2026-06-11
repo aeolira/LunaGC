@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "KMGECOOFMLO.proto";
+import "MCPKFEHLIEN.proto";
+
+message IAFPLBPKCPJ {
+	string key = 1;
+	MCPKFEHLIEN value = 2;
+	KMGECOOFMLO JMJMGBDFNPC = 3;
+}

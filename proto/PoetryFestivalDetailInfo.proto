@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "CCGOCDFENCP.proto";
+import "MEPGPPDPNFH.proto";
+import "MMJALNKAABI.proto";
+
+message PoetryFestivalDetailInfo {
+	CCGOCDFENCP PFGBGENJJGE = 1;
+	MMJALNKAABI CCNMGHEDCCB = 7;
+	MEPGPPDPNFH JHBGMFNGGFO = 15;
+}

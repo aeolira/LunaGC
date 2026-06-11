@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "LifeByOwnerType.proto";
+
+message EvtLocalGadgetOwnerLeaveSceneNotify {
+	repeated _LifeByOwnerType _life_by_owner_type_list = 6;
+	uint32 entity_id = 9;
+}

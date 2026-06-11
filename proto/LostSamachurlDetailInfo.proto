@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "BBJNJEOIGMD.proto";
+import "DNOPPMDOLDO.proto";
+
+message LostSamachurlDetailInfo {
+	repeated DNOPPMDOLDO GCGNLJIMAKJ = 11;
+	repeated BBJNJEOIGMD PACGBDIGHNE = 5;
+}

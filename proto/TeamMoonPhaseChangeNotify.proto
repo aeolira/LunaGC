@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message TeamMoonPhaseChangeNotify {
+	uint64 MDNLKCGAKBP = 5;
+	uint32 _moon_phase_type = 9;
+	bool FKDPDKHJBHI = 7;
+	uint32 _moon_phase_level = 13;
+	uint32 GCFNIGDBKNG = 1;
+}

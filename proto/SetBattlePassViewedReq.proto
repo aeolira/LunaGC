@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SetBattlePassViewedReq {
+	uint32 schedule_id = 14;
+}

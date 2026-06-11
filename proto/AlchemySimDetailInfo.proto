@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+import "GBIHDJELLIM.proto";
+import "GIPMNILOKDF.proto";
+import "HANNHIPCKBK.proto";
+import "IJODBJGJPLP.proto";
+import "MFNCBJDAHEM.proto";
+import "OGIJCAHGOKJ.proto";
+import "OIEPKFMCNCI.proto";
+import "OIMAIPKAAHN.proto";
+import "OLKPAMOIKPN.proto";
+
+message AlchemySimDetailInfo {
+	MFNCBJDAHEM FLBNFJFECFF = 15;
+	OIEPKFMCNCI NHNFLBIAGKF = 13;
+	HANNHIPCKBK IAPKHNGCDAH = 6;
+	OGIJCAHGOKJ FMJPMOCKJML = 5;
+	repeated IJODBJGJPLP LKDHLILLLFP = 1;
+	GBIHDJELLIM BJDCJHLPNDM = 9;
+	OLKPAMOIKPN basic_info = 4;
+	repeated OIMAIPKAAHN IMNBGKIFDGM = 11;
+	GIPMNILOKDF HKBOGLIKOLE = 14;
+}

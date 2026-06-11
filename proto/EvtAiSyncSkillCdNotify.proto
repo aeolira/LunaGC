@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message EvtAiSyncSkillCdNotify {
+	map<uint32, AiSkillCdInfo> ai_cd_map = 9;
+}

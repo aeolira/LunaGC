@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "LanV6CardDetail.proto";
+import "LanV6LanternGiftSource.proto";
+
+message LanV6LanternGiftDetail {
+	_LanV6CardDetail card = 1;
+	_LanV6LanternGiftSource source = 7;
+}

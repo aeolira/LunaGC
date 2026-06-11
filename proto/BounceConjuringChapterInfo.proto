@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message BounceConjuringChapterInfo {
+	uint32 open_time = 8;
+	uint32 best_score = 5;
+	uint32 chapter_id = 9;
+}

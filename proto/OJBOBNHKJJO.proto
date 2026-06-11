@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "CurrentPhase.proto";
+
+message OJBOBNHKJJO {
+	uint32 guid = 1;
+	_CurrentPhase NLFPJHIJDHD = 2;
+	float DAMHLHIMBGH = 3;
+}

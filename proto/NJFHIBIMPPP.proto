@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "BEAPOLACBNE.proto";
+
+message NJFHIBIMPPP {
+	string EEIONMFKLAN = 9;
+	string LMLCMNFAFBN = 13;
+	BEAPOLACBNE dungeon_info = 8;
+	bool is_trial = 1;
+}

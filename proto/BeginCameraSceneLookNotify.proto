@@ -1,0 +1,31 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message BeginCameraSceneLookNotify {
+	enum KeepRotType {
+		KEEP_ROT_TYPE_KEEP_ROT_X = 0;
+		KEEP_ROT_TYPE_KEEP_ROT_XY = 1;
+	}
+
+	repeated string other_params = 6;
+	Vector OPBEHCGMFPK = 12;
+	Vector LMHLFDLFINB = 7;
+	float PBGKAKMNFDK = 10;
+	bool LKHKMAMJCKA = 11;
+	bool FAKPCPCNJOF = 5;
+	bool JFMHHADLDDM = 4;
+	bool JMFJNBGPFPF = 1;
+	KeepRotType keep_rot_type = 3;
+	float EHMGIKPMAAA = 15;
+	float duration = 14;
+	bool CBEEANCHPNB = 954;
+	bool JGPOIGILGCN = 13;
+	bool PBHNJPMIPEK = 8;
+	bool EDONPFBOLIK = 9;
+	float BILDPOLKONK = 679;
+	float DGKHKPHODLO = 2;
+	uint32 entity_id = 1416;
+	uint32 GHLECPLAKAN = 1759;
+	uint32 IOIIDHBEPFP = 335;
+}

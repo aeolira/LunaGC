@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message EnterSceneDoneReq {
+	uint32 enter_scene_token = 13 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val ^ 8244) - 34313"];
+}

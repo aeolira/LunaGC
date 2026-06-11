@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "LILOKJFOOBI.proto";
+
+message ExamInfo {
+	repeated uint32 npc_id_list = 3;
+	repeated uint32 PCIBCPNMFKP = 11;
+	bool PLACHEJJJEF = 6;
+	bool OJFPMKHNMFH = 1;
+	uint32 id = 2;
+	LILOKJFOOBI HEIMAJONPJI = 9;
+	uint32 HODDKOAOFFF = 5;
+	uint32 OAPFPEAHNEH = 12;
+}

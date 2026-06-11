@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SceneGalleryHomeSeekFurnitureInfo {
+	map<uint32, uint32> player_score_map = 11;
+	uint32 BCDCKLLALOH = 3;
+	uint32 GNJBELDKAJN = 12;
+	uint32 ALNJHGKPACB = 13;
+}

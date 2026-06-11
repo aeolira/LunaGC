@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message LanV6CardSticker {
+	uint32 _sticker_id = 2;
+	uint32 slot_id = 1;
+}

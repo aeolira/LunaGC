@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+enum CCJPPHLJFIE {
+	CCJPPHLJFIE_NONE = 0;
+	CCJPPHLJFIE_HINT = 1;
+	CCJPPHLJFIE_FINISH = 2;
+}

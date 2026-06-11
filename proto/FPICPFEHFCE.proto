@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message FPICPFEHFCE {
+	uint32 param = 7;
+	uint32 avatar_type = 4;
+	uint32 NMMJBOMNDHK = 13;
+}

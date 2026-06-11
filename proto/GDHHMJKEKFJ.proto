@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+import "CurrentPhase.proto";
+import "KMGECOOFMLO.proto";
+import "Vector.proto";
+
+message GDHHMJKEKFJ {
+	int32 KIKLFBCCIFI = 1;
+	int32 LEBFCOKEFNE = 2;
+	string IJPNBCEFHDO = 3;
+	bool FGPEDDAHHKL = 4;
+	bool FJLMDAEGJIM = 5;
+	Vector KJCOAONBCFP = 6;
+	Vector rot = 7;
+	float BGFGCHDFFOL = 8;
+	_CurrentPhase CIIECLKDMND = 9;
+	repeated int32 PMACNABAOLH = 10;
+	KMGECOOFMLO BLIOPJBNGBL = 11;
+	_CurrentPhase NAGEAHPBKPN = 12;
+	bool KCBDGGHIGCC = 13;
+}

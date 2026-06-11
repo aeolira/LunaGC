@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "TriggerAbility.proto";
+
+message CHGPCNHCILF {
+	bool HCKHIBGLBIK = 1;
+	float BFOJHPLFMPM = 2;
+	oneof action {
+		_TriggerAbility trigger_ability = 100;
+	}
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message GetAreaExplorePointReq {
+	repeated uint32 area_id_list = 2;
+}

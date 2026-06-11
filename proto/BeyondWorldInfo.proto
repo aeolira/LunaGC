@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message BeyondWorldInfo {
+	repeated uint64 BHMFCPKPMFF = 2;
+	uint32 PGOLFHFMPPC = 1;
+}

@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+import "WidgetCameraInfo.proto";
+import "WidgetClientDetectorInfo.proto";
+import "WidgetCreateLocationInfo.proto";
+import "WidgetCreatorInfo.proto";
+import "WidgetNewDetectorInfo.proto";
+import "WidgetSorushInfo.proto";
+import "WidgetThunderBirdFeatherInfo.proto";
+
+message QuickUseWidgetReq {
+	bool _is_force_ignore_cd = 722;
+	uint32 HMDAJNJJHIA = 1458;
+	oneof param {
+		_WidgetSorushInfo sorush_info = 1667;
+		_WidgetClientDetectorInfo client_detector_info = 6809;
+		_WidgetNewDetectorInfo new_detector_info = 18914;
+		WidgetCreatorInfo creator_info = 1522;
+		WidgetCreateLocationInfo location_info = 746;
+		WidgetCameraInfo camera_info = 941;
+		WidgetThunderBirdFeatherInfo thunder_bird_feather_info = 511;
+	}
+}

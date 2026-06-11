@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "FriendBrief.proto";
+import "HCJNIAJPENL.proto";
+
+message AdShootingSettleInfo {
+	FriendBrief _friend_brief = 11;
+	repeated Uint32Pair MKHKKKBJDGH = 8;
+	HCJNIAJPENL type = 2;
+	uint32 score = 15;
+	bool GAADCCCOEMH = 14;
+	bool DJNOAFKOHLN = 3;
+	bool LEOMBOJIMED = 12;
+	uint32 level_id = 6;
+}

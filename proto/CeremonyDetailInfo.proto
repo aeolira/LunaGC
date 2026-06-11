@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "GCKECFEDDJC.proto";
+import "MKEMALIAOLC.proto";
+import "POJLECHLMMM.proto";
+
+message CeremonyDetailInfo {
+	GCKECFEDDJC battle_info = 5;
+	POJLECHLMMM DEBDJLCPMNC = 14;
+	MKEMALIAOLC CPPNDHALIOC = 10;
+}

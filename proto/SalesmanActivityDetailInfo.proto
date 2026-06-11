@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "SalesmanStatusType.proto";
+
+message SalesmanActivityDetailInfo {
+	map<uint32, uint32> selected_reward_id_map = 14;
+	uint32 NBEMLHBAJJG = 5;
+	uint32 day_index = 13;
+	uint32 NDEHHGJJDOJ = 1;
+	uint32 CBFKGKDDHHJ = 3;
+	bool GOPOBLLJDIC = 2;
+	bool PBCFLACILNE = 6;
+	uint32 GILGNIJNJHI = 15;
+	uint32 BFADJKIIGED = 10;
+	SalesmanStatusType status = 12;
+}

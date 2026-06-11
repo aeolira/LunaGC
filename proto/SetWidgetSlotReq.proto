@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "WidgetSlotOp.proto";
+import "WidgetSlotTag.proto";
+
+message SetWidgetSlotReq {
+	repeated WidgetSlotTag tag_list = 12;
+	uint32 material_id = 5;
+	WidgetSlotOp op = 10;
+}

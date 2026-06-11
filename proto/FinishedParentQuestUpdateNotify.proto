@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "ParentQuest.proto";
+
+message FinishedParentQuestUpdateNotify {
+	repeated ParentQuest parent_quest_list = 11;
+}

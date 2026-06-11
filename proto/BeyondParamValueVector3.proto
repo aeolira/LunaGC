@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "GBEBLLDKKFE.proto";
+
+message BeyondParamValueVector3 {
+	GBEBLLDKKFE value = 1;
+}

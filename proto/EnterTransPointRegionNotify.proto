@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message EnterTransPointRegionNotify {
+	uint32 point_id = 8;
+	uint32 scene_id = 6;
+}

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+import "ChapterState.proto";
+
+message ChapterStateNotify {
+	message PMGOOMACHIP {
+		uint32 NOOCNKPMNDJ = 15;
+		bool LBBIHDNCIJP = 14;
+	}
+
+	message CDACDCIOPLN {
+		bool LBBIHDNCIJP = 2;
+		uint32 NPBODACKFAM = 3;
+	}
+
+	PMGOOMACHIP JPJMBJLLBDC = 15;
+	CDACDCIOPLN GDFJFHNBJKP = 5;
+	ChapterState chapter_state = 6;
+	uint32 chapter_id = 1;
+}

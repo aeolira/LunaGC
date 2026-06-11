@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "FCMMGCOHPBD.proto";
+import "PGAJAMBHILH.proto";
+
+message CatcafeDetailInfo {
+	repeated PGAJAMBHILH HEOMDDGEMKJ = 4;
+	repeated FCMMGCOHPBD AHBIHLNPNNN = 2;
+}

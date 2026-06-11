@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message CustomGalleryProgressInfo {
+	repeated uint32 uid_list = 4;
+	repeated string _score_board_list = 3;
+	uint32 HBBJHIEPAHM = 5;
+	uint32 LAINLHHJMOM = 6;
+}

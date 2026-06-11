@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "AbilityInvokeEntry.proto";
+
+message EntityAbilityInvokeEntry {
+	repeated AbilityInvokeEntry invokes = 2;
+	uint32 entity_id = 9;
+}

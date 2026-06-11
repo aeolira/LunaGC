@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "EGDBPOBHIJA.proto";
+import "LJDNIFDCKIC.proto";
+
+message BCNNPIEIDPJ {
+	LJDNIFDCKIC PHOHHPJJDNC = 15;
+	uint32 max_level = 8;
+	uint32 AEGHCGAOFOJ = 6;
+	EGDBPOBHIJA state = 11;
+	uint32 level = 7;
+}

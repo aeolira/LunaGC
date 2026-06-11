@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ClientDetectorResult {
+	repeated uint32 FGADPKBNHDL = 5;
+	bool BIBIOFGMHDJ = 8;
+}

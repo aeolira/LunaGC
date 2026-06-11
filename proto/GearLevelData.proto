@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message GearLevelData {
+	uint32 NNJFGINLFFN = 5;
+	bool is_finished = 7;
+	bool is_open = 1;
+	uint32 open_time = 14;
+	uint32 AAPLIHOFPCB = 8;
+	uint32 level_id = 10;
+}

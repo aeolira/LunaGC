@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message NNHFIBCOAGL {
+	uint32 avatar_id = 6;
+	bool is_trial_avatar = 7;
+}

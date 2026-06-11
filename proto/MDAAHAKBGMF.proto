@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message MDAAHAKBGMF {
+	uint32 start_time = 8;
+	uint32 end_time = 5;
+	uint32 uid = 14;
+	uint32 entity_id = 1;
+}

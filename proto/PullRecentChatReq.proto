@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message PullRecentChatReq {
+	uint32 begin_sequence = 7;
+	uint32 pull_num = 13;
+}

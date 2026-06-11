@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message AvatarExpeditionAllDataRsp {
+	map<uint64, AvatarExpeditionInfo> expedition_info_map = 7;
+	repeated uint32 open_expedition_list = 10;
+	uint32 expedition_count_limit = 1;
+	int32 retcode = 6;
+}

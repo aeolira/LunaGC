@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "WidgetSlotData.proto";
+
+message GetWidgetSlotRsp {
+	repeated WidgetSlotData slot_list = 14;
+	int32 retcode = 9;
+}

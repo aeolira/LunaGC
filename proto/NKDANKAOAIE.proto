@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message NKDANKAOAIE {
+	uint32 HNHHEBGHKLE = 8;
+	bool is_level_open = 5;
+	uint32 level_id = 13;
+}

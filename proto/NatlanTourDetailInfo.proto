@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "HHGFIMEGFHI.proto";
+import "LMDKPKOCEPP.proto";
+import "OLKHGMJCCDD.proto";
+
+message NatlanTourDetailInfo {
+	LMDKPKOCEPP ONIPNAPBPBG = 15;
+	OLKHGMJCCDD LGGJEOLONBC = 13;
+	HHGFIMEGFHI explore_info = 2;
+}

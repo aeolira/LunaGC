@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "CEAMLMLEAFF.proto";
+
+message SumeruAdventureGoalFightingLevelInfo {
+	CEAMLMLEAFF PLOANCJHCIN = 9;
+	uint32 HNDIFJABMFN = 5;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SetEquipLockStateReq {
+	uint64 target_equip_guid = 11;
+	bool is_locked = 9;
+}

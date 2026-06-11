@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message BeyondCostumePieceAdjustment {
+	uint32 _adjust_key = 1;
+	uint32 _adjust_value = 2;
+}

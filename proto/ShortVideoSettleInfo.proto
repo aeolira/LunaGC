@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "GalleryStopReason.proto";
+
+message ShortVideoSettleInfo {
+	uint32 use_time = 15;
+	GalleryStopReason reason = 7;
+	uint32 level_id = 2;
+}

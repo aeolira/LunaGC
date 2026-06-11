@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "GalleryContextEntry.proto";
+
+message INIPECMDBLO {
+	string title = 14;
+	repeated _GalleryContextEntry MJGNDFPPIFB = 11;
+}

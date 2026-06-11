@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "EffigyChallengeV5SocialInfo.proto";
+
+message BDIILDOBHIO {
+	bool CCMLIGPNGGB = 15;
+	oneof value {
+		_EffigyChallengeV5SocialInfo effigy_challenge_v5_social_info = 1402;
+	}
+}

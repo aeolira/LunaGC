@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message AvatarPropNotify {
+	map<uint32, int64> prop_map = 3;
+	uint64 avatar_guid = 13;
+}

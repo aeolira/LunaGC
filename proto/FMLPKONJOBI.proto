@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message FMLPKONJOBI {
+	uint64 IJGDOCGNCHN = 15;
+	uint32 NGKIDJOMIFH = 8;
+	uint32 HANEEMKEDIH = 13;
+	uint32 ENAGBDIKEFM = 5;
+}

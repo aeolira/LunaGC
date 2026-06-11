@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message OBEBNFPCKCC {
+	uint32 cur_score = 7;
+	sfixed64 OFCIPDNKECB = 14;
+	sfixed64 OLHCOHFIDCJ = 8;
+	uint32 kill_num = 1;
+	uint32 uid = 10;
+	uint32 FAPMOBCMIKP = 6;
+	uint32 OCAPGOENCNA = 13;
+	sfixed64 PJCAAKMIJAC = 2;
+}

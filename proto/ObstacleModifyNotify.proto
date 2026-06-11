@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "ObstacleInfo.proto";
+
+message ObstacleModifyNotify {
+	repeated int32 FANLIIOLBCA = 1;
+	repeated int32 remove_obstacle_ids = 15;
+	repeated ObstacleInfo add_obstacles = 8;
+	repeated int32 FHMIPLNOLCC = 11;
+	uint32 scene_id = 4;
+}

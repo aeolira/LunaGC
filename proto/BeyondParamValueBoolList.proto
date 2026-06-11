@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message BeyondParamValueBoolList {
+	repeated bool value_list = 1;
+}

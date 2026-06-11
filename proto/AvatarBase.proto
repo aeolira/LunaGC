@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "IOLKHFCLGFP.proto";
+
+message AvatarBase {
+	uint32 GEMICOIPAPI = 1;
+	bool HANEGAFHMNA = 2;
+	IOLKHFCLGFP BANCLKCECJE = 3;
+}

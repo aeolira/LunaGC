@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "GCEFFLIIAKM.proto";
+import "MDAAHAKBGMF.proto";
+
+message SceneGalleryHideAndSeekV4Info {
+	repeated MDAAHAKBGMF CCCHLBILEIH = 13;
+	repeated uint32 CNACJCJBFKO = 4;
+	repeated uint32 JKKDGOILBGD = 9;
+	repeated GCEFFLIIAKM OFKHFOOAMIE = 15;
+}

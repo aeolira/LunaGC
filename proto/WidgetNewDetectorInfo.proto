@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message WidgetNewDetectorInfo {
+	repeated uint32 area_id_list = 10;
+	uint32 _detector_level = 9;
+}

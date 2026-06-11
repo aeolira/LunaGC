@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+import "RoguelikeRuneRecord.proto";
+import "RogueShowAvatarTeamInfo.proto";
+
+message RogueStageInfo {
+	repeated RoguelikeRuneRecord rune_record_list = 10;
+	RogueShowAvatarTeamInfo avatar_team = 4;
+	uint32 revise_monster_level = 544;
+	bool MBICOGKOFFD = 6;
+	bool is_taken_reward = 9;
+	uint32 NCPPBJLCLHP = 13;
+	bool is_open = 8;
+	bool is_passed = 2;
+	bool HANEGAFHMNA = 12;
+	uint32 IOMEMEJLCCE = 3;
+	uint32 stage_id = 5;
+	uint32 PDAMMGLBAKM = 1131;
+	uint32 KHEPBFDNBLM = 14;
+	uint32 CEFDGEALIPF = 1;
+	uint32 cur_level = 7;
+}

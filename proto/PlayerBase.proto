@@ -1,0 +1,25 @@
+syntax = "proto3";
+
+import "AFKFEICJEKG.proto";
+import "CurrentPhase.proto";
+import "FFBPLMABGCB.proto";
+import "JDMNJFFLNMI.proto";
+import "MBMMPJHOBFE.proto";
+import "MBOIKDNELHE.proto";
+import "OOPMPLOBCJP.proto";
+import "Vector.proto";
+
+message PlayerBase {
+	uint32 uid = 1;
+	MBMMPJHOBFE NCIKKCMCDGH = 2;
+	repeated uint32 FJNAOEIHBCI = 3;
+	JDMNJFFLNMI OLFKGBJIONE = 4;
+	MBOIKDNELHE ABABOLAJKFM = 5;
+	OOPMPLOBCJP LBBEBBMJDCG = 6;
+	FFBPLMABGCB EOEPGEMPKEO = 7;
+	float CMDLOGLENJK = 8;
+	Vector NBMIKFMBBPN = 9;
+	repeated AFKFEICJEKG FNPHDGKCJIO = 10;
+	_CurrentPhase KAEGBCMGBHK = 11;
+	bool HBJDNKJINLC = 12;
+}

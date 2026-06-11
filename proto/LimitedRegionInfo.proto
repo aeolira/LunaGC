@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message LimitedRegionInfo {
+	repeated uint32 _limited_region_list = 8;
+}

@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "OOOABJGNLEK.proto";
+
+message MMNEBBCNJFK {
+	repeated OOOABJGNLEK LKFHMFPHMOP = 1;
+	uint32 stage_id = 11;
+	uint32 best_score = 10;
+	bool is_open = 6;
+	bool is_finish = 5;
+}

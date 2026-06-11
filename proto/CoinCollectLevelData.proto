@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "CoinCollectTeamInfoData.proto";
+
+message CoinCollectLevelData {
+	repeated CoinCollectTeamInfoData double_best_team_info_list = 8;
+	CoinCollectTeamInfoData single_best_team_info = 3;
+	bool GGEHHANODOD = 7;
+	bool KKJFFIMDPCL = 6;
+	bool is_level_open = 5;
+	bool GLHCIHDKONO = 14;
+	uint32 PGFEHEBJFIK = 2;
+	uint32 level_id = 12;
+	uint32 DFMKPHLAFHK = 9;
+	uint32 DFCPALEEOEJ = 4;
+	uint32 HFLPMFIKBDB = 11;
+	uint32 LEBOCJHPOHJ = 13;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SceneGalleryAkaFesRhythmInfo {
+	string transaction = 9;
+	bool KHCKCPMNBHC = 5;
+}

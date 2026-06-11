@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "NKDANKAOAIE.proto";
+
+message FungusFighterV2DetailInfo {
+	repeated NKDANKAOAIE level_data_list = 13;
+}

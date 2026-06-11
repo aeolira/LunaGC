@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message CharMasterSettleInfo {
+	uint32 reward_id = 15;
+}

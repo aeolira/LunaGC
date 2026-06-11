@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SceneInitFinishReq {
+	uint32 enter_scene_token = 6 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val ^ 22131) + 63693"];
+}

@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "DragonSpineChapterInfo.proto";
+
+message DragonSpineActivityDetailInfo {
+	repeated DragonSpineChapterInfo chapter_info_list = 12;
+	uint32 AJAEGKJDGHD = 2;
+	uint32 KNAENOILADO = 14;
+	uint32 weapon_enhance_level = 1;
+	uint32 JMKCMNJCMME = 8;
+	bool is_content_closed = 10;
+	uint32 content_finish_time = 7;
+}

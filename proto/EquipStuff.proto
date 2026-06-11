@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "OJBOBNHKJJO.proto";
+
+message EquipStuff {
+	bool PKFMHCNDFAD = 1;
+	bool GPDNBLHMAGF = 2;
+	repeated OJBOBNHKJJO AEJGDLDAEAJ = 3;
+}

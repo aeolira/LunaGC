@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message BIGEDPEGCBP {
+	int32 id = 1;
+	float AKIJMDNGIOO = 2;
+	float BEKAOBPDIBG = 3;
+}

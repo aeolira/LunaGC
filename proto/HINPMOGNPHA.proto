@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "ActionPointsNoCostInfo.proto";
+import "RevenueBonusInfo.proto";
+
+message HINPMOGNPHA {
+	bool GMGPJKOMAKN = 10;
+	uint32 buff_id = 12;
+	oneof detail {
+		_RevenueBonusInfo revenue_bonus_info = 1079;
+		_ActionPointsNoCostInfo action_points_no_cost_info = 481;
+	}
+}

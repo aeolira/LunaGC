@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message UpgradeToBonusFacilityRevenueBuffInfo {
+	repeated Uint32Pair MPOJBJMJBFC = 1;
+	bool IJLKIBAKKAD = 3;
+	uint32 JNICJDCKPFL = 10;
+}

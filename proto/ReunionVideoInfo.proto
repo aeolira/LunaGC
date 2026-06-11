@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message ReunionVideoInfo {
+	repeated uint32 BPIDPKPPOLI = 3;
+	string video_key = 2;
+	bool _is_video_reward_taken = 1;
+	uint32 CGFPLOLNHAC = 8;
+}

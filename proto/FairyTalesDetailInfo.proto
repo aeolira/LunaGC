@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "DAIFFPJAPPC.proto";
+import "DONLFGGKNMM.proto";
+import "JJODILKDBCP.proto";
+import "LLLNLAPNMME.proto";
+
+message FairyTalesDetailInfo {
+	repeated uint32 HGNOPAJDKAH = 12;
+	JJODILKDBCP OHIJFNILNPH = 4;
+	repeated DAIFFPJAPPC FBNLODFFNJM = 14;
+	repeated LLLNLAPNMME JIIEHDCDPBE = 1;
+	repeated DONLFGGKNMM JKHOFPBNOMA = 15;
+	bool DHMPBMEJODN = 2;
+}

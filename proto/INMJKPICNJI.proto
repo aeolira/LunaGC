@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+import "CBHKKIEMDAH.proto";
+import "JCMNIEIECKL.proto";
+
+message INMJKPICNJI {
+	repeated CBHKKIEMDAH record_list = 12;
+	repeated Uint32Pair KBMKGPBDHNE = 3;
+	repeated JCMNIEIECKL BKMJBFKLODL = 13;
+	repeated Uint32Pair HHHMIFLPDLA = 14;
+	bool is_open = 11;
+	bool GIEKHKPCCKB = 9;
+	uint32 CJHCHMAECBC = 5;
+	uint32 DHCMCMDCBOI = 15;
+	uint32 EHEEMFALIPE = 10;
+	uint64 EJKEPGAJIBH = 4;
+}

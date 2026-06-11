@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "BeyondGachaTransferItem.proto";
+import "ItemParam.proto";
+
+message BeyondGachaItem {
+	ItemParam item_param = 11;
+	repeated _BeyondGachaTransferItem transfer_item_list = 12;
+	bool DHCMPBPOODC = 14;
+}

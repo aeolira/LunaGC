@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "NNHFIBCOAGL.proto";
+
+message HJNBPALILBK {
+	repeated NNHFIBCOAGL avatar_list = 4;
+	uint32 OFICIOMGKJN = 6;
+	uint32 IJMCBMJHPJL = 2;
+	uint32 JCKJHHDGPNO = 11;
+}

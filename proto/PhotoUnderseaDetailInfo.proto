@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "DAKANDEKIDN.proto";
+import "JLPPNGEEOLO.proto";
+
+message PhotoUnderseaDetailInfo {
+	repeated DAKANDEKIDN object_info_list = 1;
+	repeated JLPPNGEEOLO level_info_list = 4;
+}

@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "ActivityAvatarInfo.proto";
+
+message CEAMLMLEAFF {
+	repeated _ActivityAvatarInfo avatar_info_list = 4;
+	bool DDCAGLBOFMD = 2;
+	uint32 GDOGBEEBOAN = 12;
+	uint32 difficulty = 11;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ThemeParkParkourSettleInfo {
+	uint32 level_id = 6;
+	bool PFGDKNIPEKG = 1;
+}

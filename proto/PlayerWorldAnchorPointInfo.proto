@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message PlayerWorldAnchorPointInfo {
+	bool is_valid = 1;
+	uint32 anchor_point_id = 2;
+}

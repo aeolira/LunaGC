@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CustomGalleryCountdownScoreBoard {
+	int32 _passed_time = 7;
+	uint32 start_time = 14;
+	bool is_paused = 10;
+}

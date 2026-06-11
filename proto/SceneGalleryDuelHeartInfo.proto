@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SceneGalleryDuelHeartInfo {
+	uint32 difficulty = 5;
+}

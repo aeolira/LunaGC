@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "EJNNLOJLLPC.proto";
+
+message IEIIHOCPLOH {
+	EJNNLOJLLPC source = 6;
+	uint32 DNBPIHCCKJC = 12;
+	uint32 avatar_id = 7;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message AvatarChangeTraceEffectReq {
+	uint32 _trace_effect_id = 13;
+	uint64 avatar_guid = 6;
+}

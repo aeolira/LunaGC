@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message TowerAllDataReq {
+	bool is_interact = 13;
+}

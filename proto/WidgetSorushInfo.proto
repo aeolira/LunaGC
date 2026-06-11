@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message WidgetSorushInfo {
+	Vector rot = 14;
+	Vector pos = 7;
+	bool LKLDGKLJEDF = 8;
+	bool PDJHLAFCHDN = 13;
+	bool BBPIHAMENNI = 4;
+	uint32 slot = 9;
+}

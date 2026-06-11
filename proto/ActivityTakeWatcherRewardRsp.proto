@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message ActivityTakeWatcherRewardRsp {
+	uint32 watcher_id = 8;
+	uint32 activity_id = 5;
+	int32 retcode = 10;
+}

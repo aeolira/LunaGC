@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "MCPKFEHLIEN.proto";
+
+message MBKBKMDFGLM {
+	repeated MCPKFEHLIEN member_list = 1;
+}

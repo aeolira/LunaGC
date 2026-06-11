@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message FishingJoyDetailInfo {
+	bool LHMBGGFELDB = 5;
+	bool ALNDIBJHHHC = 9;
+	uint32 NJPKBAEMBNA = 1;
+}

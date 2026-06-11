@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message IrodoriPoetryThemeData {
+	repeated uint32 GAAOHCNNMAJ = 9;
+	repeated uint32 LFPHIJFBKKE = 13;
+	uint32 progress = 5;
+	uint32 DJFHMECHOAN = 12;
+	uint32 DDKCPCKOJMM = 6;
+	uint32 max_progress = 1;
+	uint32 IJOIKJHGDHD = 15;
+}

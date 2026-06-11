@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "GalleryStartSource.proto";
+import "IslandPartySailStage.proto";
+
+message SceneGalleryIslandPartySailInfo {
+	uint32 NFEOGECLFIA = 12;
+	uint32 coin = 9;
+	uint32 MHCPMFGDBEK = 14;
+	uint32 CEBIKGBPHIN = 15;
+	IslandPartySailStage stage = 5;
+	GalleryStartSource start_source = 1;
+	uint32 MMILBBMOHAD = 3;
+}

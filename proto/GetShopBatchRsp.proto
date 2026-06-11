@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "Shop.proto";
+
+message GetShopBatchRsp {
+	repeated Shop _shop_list = 8;
+	int32 retcode = 1;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message BeyondParamValueFloatList {
+	repeated float value_list = 1;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "MonsterChessV2RecordCardDetail.proto";
+
+message MonsterChessV2RecordTeamInfo {
+	repeated _MonsterChessV2RecordCardDetail _monster_card_list = 1;
+	uint32 _flag_id = 4;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "LunchBoxData.proto";
+
+message SetUpLunchBoxWidgetReq {
+	LunchBoxData lunch_box_data = 14;
+}

@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message OtherPlayerEnterHomeNotify {
+	enum Reason {
+		INVALID = 0;
+		ENTER = 1;
+		LEAVE = 2;
+	}
+
+	string nickname = 13;
+	Reason reason = 12;
+}

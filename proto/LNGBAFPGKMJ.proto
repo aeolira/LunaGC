@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "MFJKDKDFJCL.proto";
+
+message LNGBAFPGKMJ {
+	repeated MFJKDKDFJCL FFPCIMBECOC = 7;
+	Uint32Pair progress = 15;
+	uint32 max_hp = 6;
+	uint32 EALKFMODECC = 13;
+	uint32 hp = 10;
+}

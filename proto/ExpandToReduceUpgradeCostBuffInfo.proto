@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ExpandToReduceUpgradeCostBuffInfo {
+	bool IJLKIBAKKAD = 2;
+	uint32 JNICJDCKPFL = 6;
+}

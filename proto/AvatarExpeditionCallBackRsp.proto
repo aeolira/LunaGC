@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message AvatarExpeditionCallBackRsp {
+	map<uint64, AvatarExpeditionInfo> expedition_info_map = 14;
+	int32 retcode = 2;
+}

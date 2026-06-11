@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "ONIHKPCMLEH.proto";
+
+message GJFOKGCGBHB {
+	ONIHKPCMLEH key = 4;
+	uint32 value = 11;
+}

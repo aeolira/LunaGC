@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "TemplatePotionInfo.proto";
+
+message GINNHBABCHA {
+	_TemplatePotionInfo DDMFFKKKANM = 6;
+	uint32 cost = 14;
+	uint32 HKOJCHPPHHM = 10;
+	uint32 PMHLDJENHDH = 15;
+	uint32 DIJEMIPBEKD = 3;
+}

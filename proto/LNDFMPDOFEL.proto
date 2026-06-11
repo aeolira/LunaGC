@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message LNDFMPDOFEL {
+	map<uint32, uint32> delete_time_num_map = 1;
+}

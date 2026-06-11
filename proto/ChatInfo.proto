@@ -1,0 +1,99 @@
+syntax = "proto3";
+
+import "BeyondGachaGift.proto";
+
+message ChatInfo {
+	message SystemHint {
+		repeated uint32 uid_list = 5;
+		uint32 type = 13;
+	}
+
+	message _BeyondCollectionNewCaptain {
+		string HCHPDANLMOG = 4;
+		uint32 MFBOOJMFCNP = 3;
+		uint32 ACIFGBKINDP = 14;
+	}
+
+	message _HallInvitation {
+		repeated uint32 JOFKGFKFNFO = 1;
+		uint64 CMNPEHMNIMJ = 5;
+		uint32 CPOKKOBODAD = 10;
+		uint32 GKFAIFHMIDN = 4;
+		uint32 KEFDEAGLADO = 7;
+		uint32 FHLJIAGJHIB = 13;
+		uint64 GFGEKNJPNHN = 14;
+	}
+
+	message _BeyondTeamInvitation {
+		uint32 KEFDEAGLADO = 4;
+		uint64 GFGEKNJPNHN = 13;
+		uint32 FHLJIAGJHIB = 14;
+		uint32 GKFAIFHMIDN = 11;
+	}
+
+	message _BeyondTeamApplication {
+		uint32 IJLBKOGAIDI = 4;
+		uint32 LOEIPNIOEFE = 3;
+		uint32 target_uid = 10;
+		uint64 HBOFNHOEJPL = 7;
+	}
+
+	message _BeyondTeamRecruitment {
+		uint32 GDPCEFJMHEA = 5;
+		uint32 HAEDGOFHBJO = 8;
+		uint32 GGGCKHGOINM = 14;
+	}
+
+	message _BeyondRoomInvitation {
+		uint64 GFGEKNJPNHN = 15;
+		uint64 GGBFMBEEFJD = 6;
+		uint32 KEFDEAGLADO = 13;
+		uint32 FHLJIAGJHIB = 3;
+		uint32 GKFAIFHMIDN = 4;
+	}
+
+	message _BeyondGachaGift {
+		string transaction = 12;
+	}
+
+	message _BeyondCostumeShareCode {
+		bytes PGLHKNCCMOE = 13;
+	}
+
+	message _HallRecruitingInvitation {
+		repeated uint32 JCJBIBCMCLC = 15;
+		uint64 IDMJDPKFIML = 3;
+		uint32 LCLNLENNBFE = 13;
+		uint32 GGGCKHGOINM = 11;
+		uint64 HAEDGOFHBJO = 10;
+		uint32 PKOEDOFJAFE = 2;
+	}
+
+	string _xbox_id = 12;
+	uint32 uid = 3;
+	uint32 to_uid = 7;
+	uint32 JODAMIAHCPP = 9;
+	uint32 time = 6;
+	uint32 sequence = 13;
+	uint32 platform_type = 4;
+	uint64 GIDCNDEAHFG = 14;
+	bool is_read = 5;
+	oneof HGIIOKKHLPF {
+		uint32 mentioned_uid = 10;
+		bool is_mention_all = 8;
+	}
+	oneof content {
+		string text = 382;
+		_BeyondTeamInvitation beyond_team_invitation = 1794;
+		_BeyondCollectionNewCaptain beyond_collection_new_captain = 1401;
+		_BeyondRoomInvitation beyond_room_invitation = 1789;
+		_HallInvitation hall_invitation = 1160;
+		_BeyondCostumeShareCode beyond_costume_share_code = 1404;
+		_HallRecruitingInvitation hall_recruiting_invitation = 1075;
+		_BeyondGachaGift beyond_gacha_gift = 1754;
+		_BeyondTeamRecruitment beyond_team_recruitment = 1990;
+		_BeyondTeamApplication beyond_team_application = 714;
+		uint32 icon = 1510;
+		SystemHint system_hint = 1928;
+	}
+}

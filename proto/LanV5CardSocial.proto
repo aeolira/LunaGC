@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message LanV5CardSocial {
+	uint32 like_num = 13;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message SceneGalleryEffigyChallengeV2Info {
+	uint32 NPGGNKLBHHO = 15;
+	uint32 GDFMEHFIENN = 14;
+	uint32 EFHHMJNNJEI = 7;
+	uint32 DKCJKMHILNO = 3;
+	uint32 LGGEOPMJKCA = 13;
+}

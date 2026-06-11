@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message HolidayResortDetailInfo {
+	uint32 GLAJMBFHCCP = 9;
+}

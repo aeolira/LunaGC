@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message GetActivityShopSheetInfoReq {
+	uint32 shop_type = 12;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message EJOLAEJEEDN {
+	bool is_open = 15;
+	uint32 level_id = 14;
+}

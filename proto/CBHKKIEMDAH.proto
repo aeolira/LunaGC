@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "HPLBIFMGAEC.proto";
+
+message CBHKKIEMDAH {
+	repeated HPLBIFMGAEC HMAJBAGCIII = 7;
+	repeated uint32 winner_uid_list = 4;
+	uint32 start_time = 6;
+	uint32 finish_time = 14;
+	uint64 guid = 10;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message PlayerQuitDungeonReq {
+	uint32 point_id = 7;
+	bool is_quit_immediately = 4;
+}

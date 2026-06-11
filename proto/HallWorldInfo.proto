@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message HallWorldInfo {
+	uint64 EPPIJPAELII = 1;
+	uint32 PPIOKLLPPMM = 3;
+	bool LBBIDELNOBC = 2;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message ThemeParkTriathlonSettleInfo {
+	bool PFGDKNIPEKG = 5;
+	uint32 level_id = 7;
+}

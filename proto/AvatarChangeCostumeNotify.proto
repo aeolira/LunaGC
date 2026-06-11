@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "PGBKHJPDCAG.proto";
+import "SceneEntityInfo.proto";
+
+message AvatarChangeCostumeNotify {
+	SceneEntityInfo entity_info = 6;
+	PGBKHJPDCAG PIGPIKNHMEC = 3;
+}

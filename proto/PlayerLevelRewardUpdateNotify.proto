@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message PlayerLevelRewardUpdateNotify {
+	repeated uint32 level_list = 4;
+}

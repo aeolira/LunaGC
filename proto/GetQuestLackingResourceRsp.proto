@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "LackingResourceInfo.proto";
+
+message GetQuestLackingResourceRsp {
+	_LackingResourceInfo _lacking_resource_info = 3;
+	int32 retcode = 7;
+	uint32 quest_id = 1;
+}

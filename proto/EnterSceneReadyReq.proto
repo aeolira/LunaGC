@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message EnterSceneReadyReq {
+	uint32 enter_scene_token = 14 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val ^ 59587) + 19457"];
+}

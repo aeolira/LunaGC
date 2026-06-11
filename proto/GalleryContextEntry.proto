@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message GalleryContextEntry {
+	map<string, string> NCIOOEJAFII = 4;
+}

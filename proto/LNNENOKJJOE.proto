@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "JPNAJFFLCNP.proto";
+
+message LNNENOKJJOE {
+	repeated JPNAJFFLCNP option_list = 1;
+}

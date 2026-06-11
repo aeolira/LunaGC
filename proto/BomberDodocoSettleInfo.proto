@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message BomberDodocoSettleInfo {
+	uint32 game_time = 9;
+}

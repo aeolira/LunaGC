@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "MathQuaternion.proto";
+import "Vector.proto";
+
+message RotateMoverInfo {
+	Vector IDMPOGJEHKA = 1;
+	float PNIMIMHMBFK = 2;
+	MathQuaternion FEBILOKAOFJ = 3;
+}

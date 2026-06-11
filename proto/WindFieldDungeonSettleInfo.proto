@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "WindFieldDungeonFailReason.proto";
+
+message WindFieldDungeonSettleInfo {
+	repeated uint32 FOCFHMJEGNA = 11;
+	repeated uint32 OKHNBJIEPLF = 13;
+	WindFieldDungeonFailReason fail_reason = 7;
+}

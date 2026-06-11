@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message BladeHeartLevelInfo {
+	bool MCONBNJNFBM = 1;
+	bool is_perfect = 7;
+}

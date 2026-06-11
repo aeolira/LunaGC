@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message GetShopmallDataReq {
+	uint32 param = 14;
+}

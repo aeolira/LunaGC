@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "CCJPPHLJFIE.proto";
+
+message AILJEGGNPBL {
+	uint32 target_id = 9;
+	CCJPPHLJFIE state = 8;
+}

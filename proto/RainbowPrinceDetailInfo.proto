@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "GDPDMDHHMIF.proto";
+import "KIOPGLKFEEN.proto";
+
+message RainbowPrinceDetailInfo {
+	repeated GDPDMDHHMIF JHGCLOKACHP = 12;
+	repeated KIOPGLKFEEN DGKHMPNLFCH = 9;
+}

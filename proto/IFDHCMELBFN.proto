@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "LJDNIFDCKIC.proto";
+
+message IFDHCMELBFN {
+	LJDNIFDCKIC FGHEJIDMFNI = 7;
+	repeated uint32 AGBCGHMGDNA = 3;
+	LJDNIFDCKIC EDGJPEKBCIC = 10;
+	bool ABJHOJGGPBH = 8;
+	bool HEOACNCAKNN = 12;
+	uint32 NGJNGPNFOAE = 1;
+	uint32 EDIOOJAPGOC = 11;
+	uint32 HAKCEOOEBHI = 9;
+	uint32 upgrade_level = 5;
+	uint32 DNLLCLPJNII = 2;
+	uint32 GFJGGMBBBMF = 6;
+	uint32 EDIGEHFCCIB = 15;
+}

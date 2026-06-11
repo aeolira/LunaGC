@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "AMLNHCGLECM.proto";
+
+message OGOCPJCCDME {
+	repeated AMLNHCGLECM level_info_list = 13;
+}

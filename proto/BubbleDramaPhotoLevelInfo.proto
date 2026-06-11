@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "AILJEGGNPBL.proto";
+
+message BubbleDramaPhotoLevelInfo {
+	repeated AILJEGGNPBL BPJJPODAHNC = 2;
+}

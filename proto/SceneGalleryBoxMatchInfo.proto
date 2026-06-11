@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "GPJCJPNECFO.proto";
+
+message SceneGalleryBoxMatchInfo {
+	repeated GPJCJPNECFO FGGJHHALDEN = 10;
+	repeated GPJCJPNECFO BEMCHKPHOGB = 12;
+}

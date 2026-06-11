@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "MKJKBKAKKOF.proto";
+
+message CookGameDetailInfo {
+	repeated MKJKBKAKKOF level_info_list = 15;
+}

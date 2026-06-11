@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "BeyondCostumePieceAdjustment.proto";
+import "BeyondCostumePieceInfo.proto";
+
+message BeyondCostumeSetDetail {
+	repeated _BeyondCostumePieceInfo _piece_info = 1;
+	repeated _BeyondCostumePieceAdjustment _piece_adjustment = 2;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message PartyLevelInfo {
+	uint32 CCGDMJABFPM = 13;
+}

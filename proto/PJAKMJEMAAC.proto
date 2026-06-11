@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "INIPECMDBLO.proto";
+
+message PJAKMJEMAAC {
+	repeated INIPECMDBLO data_list = 4;
+}

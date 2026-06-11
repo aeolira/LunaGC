@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message LimitedTimeRewardAreaBannerDetailInfo {
+	repeated Uint32Pair IKPKOLNNECJ = 1;
+}

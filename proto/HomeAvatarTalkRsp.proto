@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "HomeAvatarTalkFinishInfo.proto";
+
+message HomeAvatarTalkRsp {
+	HomeAvatarTalkFinishInfo avatar_talk_info = 10;
+	int32 retcode = 7;
+}

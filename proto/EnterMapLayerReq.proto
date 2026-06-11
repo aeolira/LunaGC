@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message EnterMapLayerReq {
+	uint32 _map_layer_id = 8;
+}

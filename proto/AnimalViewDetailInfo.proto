@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "IGAPFHOFJFN.proto";
+
+message AnimalViewDetailInfo {
+	repeated IGAPFHOFJFN NOOMICPOJHO = 11;
+}

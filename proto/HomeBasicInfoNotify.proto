@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "HomeBasicInfo.proto";
+
+message HomeBasicInfoNotify {
+	HomeBasicInfo basic_info = 9;
+}

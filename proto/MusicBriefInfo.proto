@@ -1,0 +1,27 @@
+syntax = "proto3";
+
+import "MusicGameSocial.proto";
+
+message MusicBriefInfo {
+	repeated uint32 _beatmap_category_id_list = 657;
+	repeated uint32 JJLICDOFAJE = 708;
+	_MusicGameSocial social = 6;
+	string _xbox_id = 1380;
+	string psn_id = 1203;
+	string creator_nickname = 7;
+	uint32 GCCJCFMLEJB = 15;
+	uint32 _beatmap_entry_type = 1779;
+	uint32 max_score = 5;
+	uint32 JOCLPIMGCOK = 1;
+	uint32 GJBDJMGBALE = 8;
+	uint32 AOPEMAKNNHI = 14;
+	uint64 ugc_guid = 10;
+	uint32 GNFKANIPLKP = 12;
+	bool is_stored = 9;
+	bool is_played = 4;
+	bool _is_allow_import = 13;
+	bool is_psn_platform = 2;
+	uint32 HNCCOGIFKNJ = 2010;
+	uint32 publish_time = 3;
+	uint32 music_id = 11;
+}

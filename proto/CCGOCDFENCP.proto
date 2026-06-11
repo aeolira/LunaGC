@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "AJJBFFELEEG.proto";
+
+message CCGOCDFENCP {
+	repeated AJJBFFELEEG ELAPGNCLOPL = 2;
+}

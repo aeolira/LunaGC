@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SceneGallerySorushTrialPhotoMatchInfo {
+	bool JPHHBEJDPFE = 3;
+	bool KPOLKLOIEKI = 11;
+}

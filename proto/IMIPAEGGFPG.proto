@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message IMIPAEGGFPG {
+	uint64 ugc_guid = 12;
+	bool is_open = 14;
+	bool is_finish = 13;
+	uint32 level_id = 2;
+}

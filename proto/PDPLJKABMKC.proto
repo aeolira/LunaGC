@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "FCKOAKPKPBF.proto";
+
+message PDPLJKABMKC {
+	repeated FCKOAKPKPBF value_list = 1;
+}

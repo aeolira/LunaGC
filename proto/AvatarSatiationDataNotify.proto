@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "AvatarSatiationData.proto";
+
+message AvatarSatiationDataNotify {
+	repeated AvatarSatiationData satiation_data_list = 9;
+}

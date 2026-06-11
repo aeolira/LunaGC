@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message PGDJAMGEEIA {
+	uint32 use_time = 3;
+	uint32 score = 11;
+	uint32 FAPMOBCMIKP = 6;
+	bool is_open = 4;
+	bool is_finish = 8;
+	uint32 DCPLECBCJLG = 14;
+	uint32 level_id = 10;
+}

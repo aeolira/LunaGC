@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message SceneGalleryTeamChainInfo {
+	uint32 ICKFEMKBCBG = 4;
+	uint32 HGLONCONFNI = 3;
+	uint32 DKCJKMHILNO = 15;
+	uint32 OGKODLLIPEI = 6;
+	uint32 NPGGNKLBHHO = 9;
+}

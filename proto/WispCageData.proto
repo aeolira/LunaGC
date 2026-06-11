@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "ItemParam.proto";
+import "Vector.proto";
+import "WispCageState.proto";
+
+message WispCageData {
+	repeated ItemParam _last_used_material_list = 14;
+	Vector rot = 4;
+	Vector pos = 13;
+	uint32 gadget_entity_id = 15;
+	uint32 _collect_finish_time = 11;
+	_WispCageState state = 5;
+	uint32 scene_id = 10;
+}

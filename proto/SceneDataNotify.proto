@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+import "LimitedRegionInfo.proto";
+import "MapLayerInfo.proto";
+
+message SceneDataNotify {
+	repeated uint32 scene_tag_id_list = 7;
+	_MapLayerInfo _map_layer_info = 10;
+	_LimitedRegionInfo _limited_region_info = 8;
+	repeated string level_config_name_list = 9;
+	uint32 scene_id = 3;
+}

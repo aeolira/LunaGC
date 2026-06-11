@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "OPGNEGJKIHO.proto";
+
+message SnowRaceDetailInfo {
+	OPGNEGJKIHO IOOMGKMHDFE = 11;
+	uint32 KPMLIJGPPGE = 7;
+}

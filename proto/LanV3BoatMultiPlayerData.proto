@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message LanV3BoatMultiPlayerData {
+	uint32 uid = 15;
+	uint32 accumulate_coin_num = 5;
+}

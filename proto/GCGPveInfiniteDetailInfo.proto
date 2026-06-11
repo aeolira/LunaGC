@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message GCGPveInfiniteDetailInfo {
+	map<uint32, uint32> GDIFAAICBJA = 11;
+	bool GNEJLMJINJC = 15;
+}

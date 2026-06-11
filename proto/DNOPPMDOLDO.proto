@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message DNOPPMDOLDO {
+	uint32 HNHHEBGHKLE = 5;
+	bool is_finish = 13;
+	bool is_open = 4;
+	uint32 level_id = 2;
+}

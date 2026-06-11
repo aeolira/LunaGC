@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message TakeFurnitureMakeReq {
+	uint32 index = 15;
+	bool is_fast_finish = 4;
+	uint32 make_id = 5;
+}

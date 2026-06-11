@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+message SceneGalleryWindFieldInfo {
+	uint32 OCHLBFBIGMH = 11;
+	uint32 killed_monster_num = 4;
+	uint32 DNAJCBPJDEL = 8;
+	uint32 JJKPMCAPDJC = 6;
+	uint32 MEFJKJEGKMC = 7;
+	uint32 element_ball_num = 1;
+	uint32 coin_num = 9;
+	uint32 PMIHPBHDAGH = 14;
+}

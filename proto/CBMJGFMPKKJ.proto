@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "CurrentPhase.proto";
+
+message CBMJGFMPKKJ {
+	int32 talk_id = 1;
+	_CurrentPhase NKDFCOEGDFE = 2;
+	repeated uint32 FBDIBPOINDB = 3;
+}

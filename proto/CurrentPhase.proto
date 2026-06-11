@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "HBGPMBOLDPP.proto";
+
+message CurrentPhase {
+	HBGPMBOLDPP AHPJFBPOPLB = 1;
+	uint32 POLLCBEDPCL = 2;
+}

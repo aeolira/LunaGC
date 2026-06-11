@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message TakeBattlePassMissionPointRsp {
+	repeated uint32 mission_id_list = 1;
+	int32 retcode = 6;
+}

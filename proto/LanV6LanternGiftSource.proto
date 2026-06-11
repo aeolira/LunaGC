@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "FBJPDPPPPFL.proto";
+import "PEELHJCJJLE.proto";
+
+message LanV6LanternGiftSource {
+	fixed32 JJMKGKKFLLP = 5;
+	fixed32 timestamp = 3;
+	oneof detail {
+		FBJPDPPPPFL player = 460;
+		PEELHJCJJLE npc = 818;
+	}
+}

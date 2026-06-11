@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message GetQuestLackingResourceReq {
+	uint32 quest_id = 13;
+}

@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message BGKAEANCLFK {
+	bool is_trial_avatar = 4;
+	uint32 avatar_id = 7;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "OBEBNFPCKCC.proto";
+
+message SceneGalleryTargetShootingInfo {
+	repeated OBEBNFPCKCC JMODANOOAPN = 4;
+	uint32 OGKODLLIPEI = 9;
+	uint32 ANJNKPMNDHJ = 15;
+}

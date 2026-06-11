@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "MCPKFEHLIEN.proto";
+
+message GMCFIBAOAHI {
+	repeated MCPKFEHLIEN ADPIKHJBLBN = 1;
+}

@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message NormalStuff {
+	uint32 count = 1;
+}

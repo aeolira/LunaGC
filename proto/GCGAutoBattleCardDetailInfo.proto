@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "IAABJEEPBBC.proto";
+import "OABDEHEDOGM.proto";
+import "OBAPBONFOFH.proto";
+
+message GCGAutoBattleCardDetailInfo {
+	IAABJEEPBBC FGMAINFDLBM = 12;
+	OBAPBONFOFH AGBOBAPBKFJ = 4;
+	OABDEHEDOGM FFOCGEKAEPP = 13;
+	repeated uint32 MGKHMEGMCED = 9;
+	bool ALNDIBJHHHC = 10;
+}

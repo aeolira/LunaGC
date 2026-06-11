@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+import "BeyondWorldInfo.proto";
+import "HallWorldInfo.proto";
+import "PlayerWorldAnchorPointInfo.proto";
+import "PlayerWorldInfo.proto";
+
+message LAHFJCEMAAF {
+	oneof detail {
+		_HallWorldInfo hall_world_info = 12;
+		_BeyondWorldInfo beyond_world_info = 11;
+		_PlayerWorldAnchorPointInfo player_world_anchor_point_info = 14;
+		_PlayerWorldInfo player_world_info = 13;
+	}
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ShortVideoLevelData.proto";
+import "ShortVideoVoteRecord.proto";
+
+message ShortVideoDetailInfo {
+	repeated _ShortVideoLevelData level_data_list = 6;
+	repeated _ShortVideoVoteRecord _vote_record_list = 15;
+}

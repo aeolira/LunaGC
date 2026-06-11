@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message HomeKickPlayerReq {
+	bool is_kick_all = 9;
+	uint32 target_uid = 4;
+}

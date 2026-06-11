@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "PALAEOOIMGN.proto";
+
+message ENPPLONOPPA {
+	repeated PALAEOOIMGN value_list = 1;
+}

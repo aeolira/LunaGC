@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SceneGalleryTreasureSeelieInfo {
+	uint32 goal = 3;
+	uint32 progress = 5;
+}

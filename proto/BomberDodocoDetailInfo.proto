@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "LLJFABLCLFJ.proto";
+
+message BomberDodocoDetailInfo {
+	repeated LLJFABLCLFJ level_info_list = 6;
+}

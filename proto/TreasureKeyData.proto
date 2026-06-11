@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "TreasureKeyMarkPoint.proto";
+
+message TreasureKeyData {
+	_TreasureKeyMarkPoint _mark_point = 9;
+}

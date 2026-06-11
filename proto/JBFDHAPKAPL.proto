@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message JBFDHAPKAPL {
+	uint32 best_score = 12;
+	bool NKKMJDNFIDK = 15;
+	bool CBCEHAIPDBG = 2;
+	uint32 level_id = 10;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message ClientLoadingCostumeVerificationNotify {
+	uint64 guid = 5;
+	uint64 prefab_hash = 6;
+	uint32 costume_id = 2;
+}

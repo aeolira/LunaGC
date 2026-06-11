@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message ShopBeyondMcoinProduct {
+	string product_id = 1;
+	string price_tier = 2;
+	uint32 HAKEIPKKFGN = 4;
+	uint32 PIKEODAEBJO = 3;
+}

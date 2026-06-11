@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message SumeruAdventureTrainingDetailInfo {
+	uint32 JMALFKFNMFC = 13;
+}

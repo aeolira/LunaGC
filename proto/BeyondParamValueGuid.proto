@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message BeyondParamValueGuid {
+	uint32 value = 1;
+}

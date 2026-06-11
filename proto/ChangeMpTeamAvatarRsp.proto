@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message ChangeMpTeamAvatarRsp {
+	repeated uint64 avatar_guid_list = 10;
+	uint64 cur_avatar_guid = 3;
+	int32 retcode = 6;
+}

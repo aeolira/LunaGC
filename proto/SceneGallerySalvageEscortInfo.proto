@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SceneGallerySalvageEscortInfo {
+	uint32 LENLDGOHDHO = 9;
+	uint32 DBDCBLMBJOI = 2;
+	uint32 max_monster_count = 8;
+	uint32 monster_count = 7;
+}

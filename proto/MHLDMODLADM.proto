@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "IOLKHFCLGFP.proto";
+
+message MHLDMODLADM {
+	int32 PNGKGOJIOGJ = 1;
+	IOLKHFCLGFP status = 2;
+}

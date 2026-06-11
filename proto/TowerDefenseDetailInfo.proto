@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message TowerDefenseDetailInfo {
+	repeated uint32 _unlocked_skill_id_list = 2;
+}

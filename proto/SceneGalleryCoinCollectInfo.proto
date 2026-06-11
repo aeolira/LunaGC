@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message SceneGalleryCoinCollectInfo {
+	uint32 EAKCMGHLKJN = 3;
+	uint32 MPLCOBFAHLD = 11;
+}

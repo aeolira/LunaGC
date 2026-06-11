@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "MHLDMODLADM.proto";
+
+message JDMNJFFLNMI {
+	string MEHIANFILAD = 1;
+	repeated MHLDMODLADM ANLHFIKEDHL = 2;
+	int32 ELJDOBBAPPH = 3;
+}

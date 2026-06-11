@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "GBEBLLDKKFE.proto";
+
+message BeyondParamValueVector3List {
+	repeated GBEBLLDKKFE value_list = 1;
+}

@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "TowerCurLevelRecord.proto";
+
+message TowerCurLevelRecordChangeNotify {
+	TowerCurLevelRecord cur_level_record = 5;
+}

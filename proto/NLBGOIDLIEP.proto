@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "JGOPGCBBOOM.proto";
+
+message NLBGOIDLIEP {
+	repeated JGOPGCBBOOM MJJLNMAKJOB = 1;
+}

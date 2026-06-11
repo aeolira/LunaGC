@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "HMKCHACPFEC.proto";
+
+message PALLIFJMOCL {
+	repeated HMKCHACPFEC JKLOEFMLLLP = 6;
+	bool is_open = 2;
+	bool DHGHBDHJLMC = 10;
+	bool is_finish = 3;
+	uint32 level_id = 1;
+}

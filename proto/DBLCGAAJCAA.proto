@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "HJNBPALILBK.proto";
+
+message DBLCGAAJCAA {
+	repeated HJNBPALILBK team_list = 13;
+	uint32 DNOCIMNHMIB = 12;
+	uint32 KEGFODGIAAH = 5;
+	uint32 difficulty = 15;
+}

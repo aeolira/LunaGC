@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "ClientPlayType.proto";
+
+message ClientPlayCurLevelInfo {
+	uint32 level_id = 7;
+	_ClientPlayType _client_play_type = 5;
+}

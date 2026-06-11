@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message HGPNCLJDLPP {
+	uint32 FAPMOBCMIKP = 2;
+	bool is_open = 1;
+	bool is_finish = 13;
+	uint32 max_score = 7;
+	uint32 level_id = 4;
+}

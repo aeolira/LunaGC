@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+message UgcV2OfficialLevelData {
+	uint32 best_score = 1;
+	uint32 level_id = 13;
+	bool is_level_open = 6;
+	bool is_finished = 4;
+	uint64 _level_guid = 12;
+}

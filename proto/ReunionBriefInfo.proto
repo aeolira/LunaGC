@@ -1,0 +1,28 @@
+syntax = "proto3";
+
+import "CFOMEKCKBAM.proto";
+import "DGABCHKMPDG.proto";
+import "ReunionPrivilegeInfo.proto";
+import "ReunionReportType.proto";
+import "ReunionVideoInfo.proto";
+
+message ReunionBriefInfo {
+	repeated _ReunionReportType ALCCHOKKJIK = 15;
+	ReunionPrivilegeInfo privilege_info = 4;
+	repeated uint32 PMNCGDFJAPI = 7;
+	repeated uint32 EDEKPNGBKCA = 1168;
+	_ReunionVideoInfo _video_info = 919;
+	DGABCHKMPDG LPHIJBNMIEM = 1417;
+	string version = 11;
+	CFOMEKCKBAM OJGCPOFIIBE = 1;
+	uint32 AIACFCAFLGN = 14;
+	bool ONKGKPLCDME = 9;
+	bool ILMHNNGFMFD = 12;
+	bool EMAJFPKDLEC = 2;
+	uint32 finish_time = 6;
+	uint32 first_day_start_time = 5;
+	uint32 privilege_id = 10;
+	uint32 LBLKFBDDGHG = 3;
+	uint32 mission_id = 13;
+	uint32 start_time = 8;
+}

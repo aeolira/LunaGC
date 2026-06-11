@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message MistTrialSettleInfo {
+	map<uint32, uint32> OPCMMILCLCH = 6;
+}

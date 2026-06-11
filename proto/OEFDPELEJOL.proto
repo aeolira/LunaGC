@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "BKFGFMIPMJN.proto";
+
+message OEFDPELEJOL {
+	repeated BKFGFMIPMJN LABDCCAGEJH = 2;
+}

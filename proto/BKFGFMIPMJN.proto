@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message BKFGFMIPMJN {
+	repeated uint32 equip_id_list = 15;
+	uint32 _auto_chess_chess_id = 5;
+	uint32 _chess_level_up_id = 12;
+}

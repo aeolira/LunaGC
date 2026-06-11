@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "BHJDFCOECPJ.proto";
+import "FFDICFPMCNC.proto";
+import "GLNOMJINGEL.proto";
+import "KHOBHJCBPDK.proto";
+
+message JourneyDetailInfo {
+	FFDICFPMCNC GJLBNLOJJEE = 2;
+	KHOBHJCBPDK OOLOHDNCNAG = 7;
+	BHJDFCOECPJ PCMHGBFKEKI = 5;
+	GLNOMJINGEL KCOPDJHIHBN = 6;
+}

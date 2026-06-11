@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message JMCIKHMINDL {
+	bool is_unlock = 6;
+	uint32 music_basic_id = 5;
+	uint32 max_score = 3;
+}

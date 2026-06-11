@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "UiSettingInputType.proto";
+
+message UiSettingInputTypeNotify {
+	_UiSettingInputType _input_type = 13;
+}

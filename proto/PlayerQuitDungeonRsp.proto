@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message PlayerQuitDungeonRsp {
+	uint32 point_id = 10;
+	int32 retcode = 15;
+}

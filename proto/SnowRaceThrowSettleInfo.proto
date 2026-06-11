@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message SnowRaceThrowSettleInfo {
+	uint32 level_id = 7;
+	bool is_new_record = 14;
+	uint32 use_time = 5;
+	uint32 score = 6;
+}

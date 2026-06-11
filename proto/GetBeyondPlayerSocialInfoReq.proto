@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message GetBeyondPlayerSocialInfoReq {
+	repeated uint32 player_uid_list = 9;
+	uint32 param = 6;
+}

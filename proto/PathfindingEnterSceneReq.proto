@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+import "ObstacleInfo.proto";
+
+message PathfindingEnterSceneReq {
+	repeated ObstacleInfo obstacles = 10;
+	repeated int32 KKIDJCCDKCK = 4;
+	bool is_editor = 14;
+	uint32 LHGKMDILKOD = 13;
+	uint32 version = 5;
+	uint32 FBKNBOFDMKD = 7;
+	uint32 scene_id = 9;
+}

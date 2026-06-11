@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "BKOAGPFNGCE.proto";
+
+message PHOAOPNJOFP {
+	repeated BKOAGPFNGCE HNIBPEDBHJG = 11;
+	map<uint32, uint32> OGMFEKIIOPK = 3;
+	uint32 NHEDDKAAOJC = 13;
+	uint32 GIBBGDLCGNM = 14;
+	uint32 OKCOAFMDIII = 15;
+}

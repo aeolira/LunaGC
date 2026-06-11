@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message HOJALKIMKLA {
+	uint32 value = 3;
+	uint32 key = 10;
+}

@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message QueryPathRsp {
+	enum PathStatusType {
+		STATUS_FAIL = 0;
+		STATUS_SUCC = 1;
+		STATUS_PARTIAL = 2;
+	}
+
+	repeated Vector corners = 6;
+	int32 query_id = 14;
+	int32 retcode = 12;
+	PathStatusType query_status = 8;
+}

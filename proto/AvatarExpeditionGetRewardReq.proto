@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message AvatarExpeditionGetRewardReq {
+	bool _is_claim_all = 10;
+	uint64 avatar_guid = 8;
+}

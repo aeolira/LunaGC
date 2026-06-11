@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message VintageMarketDealInfo {
+	map<uint32, VintageMarketTraderInfo> trader_item_info_map = 11;
+}

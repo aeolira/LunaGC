@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message LevelStateMachineComp {
+	int32 DGEANOPCIKK = 1;
+	string MCCACGMHOLB = 2;
+}

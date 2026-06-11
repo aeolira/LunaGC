@@ -1,0 +1,70 @@
+syntax = "proto3";
+
+import "AGFKMGAILAA.proto";
+import "AHBFMKFBHFM.proto";
+import "AKHIDLMMCME.proto";
+import "BMPMDABBCCI.proto";
+import "CBMJGFMPKKJ.proto";
+import "CLMONGHOPNE.proto";
+import "EFJBLIFFLLL.proto";
+import "EHDKPDJMFCL.proto";
+import "ENNGBEIHBDH.proto";
+import "GKIBPJEFJLB.proto";
+import "IPBPHMNLCOO.proto";
+import "JFBBEGPMBBL.proto";
+import "JJLHDPCKMOD.proto";
+import "JOMJPFODFHA.proto";
+import "KDAEHGBAEGJ.proto";
+import "KPCPIPBJGIN.proto";
+import "KPDPFLNNHMN.proto";
+import "LAHOKMFJMDP.proto";
+import "LevelStateMachineComp.proto";
+import "LNNENOKJJOE.proto";
+import "MJNLABOJJBC.proto";
+import "MJPJJNPNGHD.proto";
+import "MNNNEHCLKBG.proto";
+import "MOBDIGEJPPN.proto";
+import "NLBGOIDLIEP.proto";
+import "NMDFAHFBHOB.proto";
+import "NOJNEOJKIOC.proto";
+import "OIILCAGKJGC.proto";
+import "PINOEJLKFAI.proto";
+import "POMOHDELCIE.proto";
+import "SubSwitchComp.proto";
+
+message LGEOBLBDPIN {
+	bool is_active = 1;
+	MOBDIGEJPPN OMIFOHJCEOD = 2;
+	oneof detail {
+		MJPJJNPNGHD custom_value_comp = 11;
+		AHBFMKFBHFM timer_comp = 13;
+		EHDKPDJMFCL move_comp = 14;
+		MJNLABOJJBC client_trigger_comp = 15;
+		OIILCAGKJGC effect_comp = 16;
+		ENNGBEIHBDH collision_comp = 18;
+		LAHOKMFJMDP follow_move_comp = 19;
+		AKHIDLMMCME bullet_move_comp = 21;
+		JFBBEGPMBBL hit_detection_comp = 22;
+		AGFKMGAILAA camera_comp = 23;
+		CLMONGHOPNE role_status_comp = 24;
+		NMDFAHFBHOB avatar_disturber_comp = 25;
+		MNNNEHCLKBG count_down_comp = 26;
+		LNNENOKJJOE option_comp = 27;
+		BMPMDABBCCI hitbox_comp = 28;
+		POMOHDELCIE custom_skill_comp = 29;
+		KDAEHGBAEGJ enmity_comp = 31;
+		PINOEJLKFAI nameplate_comp = 32;
+		CBMJGFMPKKJ talk_comp = 33;
+		JJLHDPCKMOD sound_effect_comp = 34;
+		GKIBPJEFJLB monster_patrol_comp = 35;
+		_LevelStateMachineComp level_state_machine_comp = 36;
+		KPCPIPBJGIN minimap_mark_comp = 37;
+		JOMJPFODFHA stuff_bag_comp = 38;
+		NLBGOIDLIEP equip_stuff_bag_comp = 39;
+		EFJBLIFFLLL drop_gather_comp = 40;
+		NOJNEOJKIOC light_group_comp = 41;
+		IPBPHMNLCOO scan_entity_comp = 42;
+		_SubSwitchComp sub_switch_comp = 43;
+		KPDPFLNNHMN monster_ai_comp = 44;
+	}
+}

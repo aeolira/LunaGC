@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "HEIIKLGCONB.proto";
+
+message LOBPEBIGBKE {
+	HEIIKLGCONB AEKDMIOHGIE = 1;
+	bool AIOJOPPBLBM = 2;
+}

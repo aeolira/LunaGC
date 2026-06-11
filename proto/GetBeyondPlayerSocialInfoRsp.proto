@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "BeyondPlayerSocialInfo.proto";
+
+message GetBeyondPlayerSocialInfoRsp {
+	repeated uint32 _invalid_player_uid_list = 9;
+	repeated _BeyondPlayerSocialInfo _beyond_player_social_info_list = 5;
+	int32 retcode = 6;
+	uint32 param = 13;
+}

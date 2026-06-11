@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ADENKIHHOIM.proto";
+
+message HHGFIMEGFHI {
+	repeated ADENKIHHOIM level_info_list = 3;
+	repeated uint32 HNHNGDNOEOF = 5;
+	repeated Uint32Pair BIMPGKGKHJB = 10;
+}

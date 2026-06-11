@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+message HPHDMLFNFBM {
+	repeated uint32 NGHLHFENAJJ = 10;
+	uint32 CEPPCOAPOPE = 2;
+	bool AMNNPJBEECN = 3;
+	bool is_finish = 8;
+	uint32 GDBKADKHGMN = 11;
+	uint32 FCLDGCPJNNB = 6;
+	uint32 level_id = 7;
+}

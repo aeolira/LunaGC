@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message PPFANIBMAPG {
+	bool KMMIKLIGOLJ = 1;
+	float CFFODHJIJEO = 2;
+}

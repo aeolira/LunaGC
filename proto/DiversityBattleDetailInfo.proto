@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message DiversityBattleDetailInfo {
+	uint32 last_difficulty_id = 8;
+}

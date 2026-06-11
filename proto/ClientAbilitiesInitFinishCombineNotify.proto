@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+import "EntityAbilityInvokeEntry.proto";
+
+message ClientAbilitiesInitFinishCombineNotify {
+	repeated EntityAbilityInvokeEntry entity_invoke_list = 8;
+}

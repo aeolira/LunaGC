@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message PartyDetailInfo {
+	bool HBODNPOOFGO = 9;
+	bool NHHAHIOCDNJ = 2;
+}

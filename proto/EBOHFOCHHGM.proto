@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+message EBOHFOCHHGM {
+	bool is_open = 5;
+	bool is_finish = 4;
+	uint32 best_score = 12;
+	uint32 level_id = 13;
+}

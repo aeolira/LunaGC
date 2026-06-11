@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+message AJGGDJEHMOG {
+	uint64 start_time = 1;
+	uint32 AIDMEIBFNKK = 2;
+	uint32 KPNCLEPDEPI = 3;
+	float JAGDKNOLLKO = 4;
+	float speed = 5;
+	bool is_started = 6;
+}

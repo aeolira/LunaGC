@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+import "CurrentPhase.proto";
+import "DOBMLBBDAMP.proto";
+import "LLCDLHFPBLN.proto";
+import "PIHMPLBPBIH.proto";
+
+message NKCKKILFGJM {
+	_CurrentPhase NCPABJKHJFD = 1;
+	repeated DOBMLBBDAMP HKLKDFLNKIP = 2;
+	repeated LLCDLHFPBLN ALJGMEDCODD = 3;
+	repeated PIHMPLBPBIH PBGLIJKPMBE = 4;
+	uint32 KABGIJAEFCM = 5;
+}

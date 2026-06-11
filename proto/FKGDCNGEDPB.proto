@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+import "CurrentPhase.proto";
+import "FGENJMIALPF.proto";
+import "MCPKFEHLIEN.proto";
+
+message FKGDCNGEDPB {
+	uint32 slot_id = 1;
+	_CurrentPhase JKMCCDPGCMI = 2;
+	repeated FGENJMIALPF MEOIDHKKALP = 3;
+	uint32 ICDALEELMBK = 4;
+	uint32 CGCEIHOJLGH = 5;
+	uint32 OADMMAPOBKI = 6;
+	float MICBPDOCLNN = 7;
+	uint32 NPJDINDDJNO = 8;
+	bool ECHHCMCBHAH = 9;
+	MCPKFEHLIEN MJKGHMGKLOM = 10;
+	float NBKCPCIEGOP = 11;
+	uint64 CFOFJAEOFIA = 12;
+	uint64 EIFFPAEEIHC = 13;
+}

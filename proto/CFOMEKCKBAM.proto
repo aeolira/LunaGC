@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+message CFOMEKCKBAM {
+	repeated uint32 avatar_id_list = 11;
+	fixed32 begin_time = 4;
+	fixed32 end_time = 7;
+}
