@@ -3,7 +3,7 @@
 
 
 message MonsterAlertChangeNotify {
-	repeated 
-	
-	
+	repeated uint32 monster_entity_list = 15;
+	uint32 is_alert = 4;
+	uint32 avatar_entity_id = 3;
 }

@@ -3,8 +3,8 @@
 import "CodexType.proto";
 
 message CodexDataUpdateNotify {
-	
-	
+	bool MJIHHLCAEDG = 3;
+	uint32 id = 1;
 	CodexType type = 12;
-	
+	uint32 weapon_max_promote_level = 4;
 }

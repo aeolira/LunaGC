@@ -3,6 +3,6 @@
 
 
 message EnterWorldAreaReq {
-	
-	
+	uint32 area_type = 1;
+	uint32 area_id = 9;
 }

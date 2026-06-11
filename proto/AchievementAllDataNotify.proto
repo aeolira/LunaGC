@@ -4,5 +4,5 @@ import "Achievement.proto";
 
 message AchievementAllDataNotify {
 	repeated Achievement achievement_list = 9;
-	repeated 
+	repeated uint32 reward_taken_goal_id_list = 5;
 }

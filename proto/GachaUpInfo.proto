@@ -3,6 +3,6 @@
 
 
 message GachaUpInfo {
-	repeated 
-	
+	repeated uint32 item_id_list = 2;
+	uint32 item_parent_type = 1;
 }

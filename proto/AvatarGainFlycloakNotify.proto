@@ -3,5 +3,5 @@
 
 
 message AvatarGainFlycloakNotify {
-	
+	uint32 flycloak_id = 3;
 }

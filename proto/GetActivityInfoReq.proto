@@ -3,5 +3,5 @@
 
 
 message GetActivityInfoReq {
-	repeated 
+	repeated uint32 activity_id_list = 3;
 }

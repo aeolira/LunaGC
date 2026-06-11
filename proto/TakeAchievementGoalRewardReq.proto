@@ -3,5 +3,5 @@
 
 
 message TakeAchievementGoalRewardReq {
-	repeated 
+	repeated uint32 id_list = 8;
 }

@@ -3,6 +3,6 @@
 
 
 message TakeoffEquipReq {
-	
-	
+	uint64 avatar_guid = 1;
+	uint32 slot = 4;
 }

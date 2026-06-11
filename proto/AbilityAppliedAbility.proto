@@ -7,5 +7,5 @@ message AbilityAppliedAbility {
 	AbilityString ability_name = 1;
 	AbilityString ability_override = 2;
 	repeated AbilityScalarValueEntry override_map = 3;
-	
+	uint32 instanced_ability_id = 4;
 }

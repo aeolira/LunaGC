@@ -5,5 +5,5 @@ import "MailData.proto";
 message MailChangeNotify {
 	repeated MailData mail_list = 2;
 	repeated MailData _change_mail_list = 4;
-	repeated 
+	repeated uint32 del_mail_id_list = 8;
 }

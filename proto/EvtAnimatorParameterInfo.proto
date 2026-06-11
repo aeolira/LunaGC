@@ -4,7 +4,7 @@ import "AnimatorParameterValueInfo.proto";
 
 message EvtAnimatorParameterInfo {
 	AnimatorParameterValueInfo value = 11;
-	
-	
-	
+	int32 name_id = 3;
+	uint32 entity_id = 14;
+	bool is_server_cache = 9;
 }

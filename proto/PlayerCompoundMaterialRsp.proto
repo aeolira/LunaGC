@@ -4,5 +4,5 @@ import "CompoundQueueData.proto";
 
 message PlayerCompoundMaterialRsp {
 	CompoundQueueData compound_que_data = 11;
-	
+	int32 retcode = 10;
 }

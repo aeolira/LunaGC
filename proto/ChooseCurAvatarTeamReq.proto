@@ -3,5 +3,5 @@
 
 
 message ChooseCurAvatarTeamReq {
-	
+	uint32 team_id = 10;
 }

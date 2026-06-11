@@ -3,6 +3,6 @@
 
 
 message MarkNewNotify {
-	repeated 
-	
+	repeated uint32 id_list = 3;
+	uint32 mark_new_type = 15;
 }

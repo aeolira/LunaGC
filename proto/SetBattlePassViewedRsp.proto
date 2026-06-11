@@ -3,6 +3,6 @@
 
 
 message SetBattlePassViewedRsp {
-	
-	
+	int32 retcode = 3;
+	uint32 schedule_id = 13;
 }

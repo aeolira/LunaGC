@@ -4,9 +4,9 @@ import "GachaInfo.proto";
 
 message GetGachaInfoRsp {
 	repeated GachaInfo gacha_info_list = 5;
-	
-	
-	
-	
-	
+	uint32 daily_gacha_times = 14;
+	uint32 gacha_random = 1;
+	int32 retcode = 3;
+	bool CFBLEIDDFIB = 9;
+	bool IPAPAKHLNDJ = 10;
 }

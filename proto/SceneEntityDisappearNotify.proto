@@ -3,7 +3,7 @@
 import "VisionType.proto";
 
 message SceneEntityDisappearNotify {
-	repeated 
-	
+	repeated uint32 entity_list = 8;
+	uint32 param = 7;
 	VisionType disappear_type = 6;
 }

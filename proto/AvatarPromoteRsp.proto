@@ -3,6 +3,6 @@
 
 
 message AvatarPromoteRsp {
-	
-	
+	uint64 guid = 2;
+	int32 retcode = 15;
 }

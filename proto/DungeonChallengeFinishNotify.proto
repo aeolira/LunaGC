@@ -8,12 +8,12 @@ import "PotionDungeonResultInfo.proto";
 
 message DungeonChallengeFinishNotify {
 	map<uint32, StrengthenPointData> strengthen_point_data_map = 6;
-	
-	
-	
-	
-	
-	
+	uint32 challenge_index = 11;
+	uint32 time_cost = 7;
+	uint32 current_value = 1;
+	bool is_new_record = 9;
+	bool is_success = 15;
+	uint32 challenge_record_type = 12;
 	ChallengeFinishType finish_type = 5;
 	oneof detail {
 		PotionDungeonResultInfo potion_dungeon_result_info = 958;

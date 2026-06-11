@@ -3,8 +3,8 @@
 
 
 message AvatarWearFlycloakRsp {
-	repeated 
-	repeated 
-	
-	
+	repeated uint64 MKDHJIIODCO = 4;
+	repeated uint64 avatar_guid_list = 1;
+	uint32 flycloak_id = 3;
+	int32 retcode = 7;
 }

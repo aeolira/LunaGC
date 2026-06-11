@@ -3,8 +3,8 @@
 
 
 message PlayerApplyEnterMpResultRsp {
-	
-	
-	
-	
+	int32 retcode = 2;
+	uint32 param = 11;
+	bool is_agreed = 15;
+	uint32 apply_uid = 13;
 }

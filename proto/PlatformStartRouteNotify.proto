@@ -4,6 +4,6 @@ import "PlatformInfo.proto";
 
 message PlatformStartRouteNotify {
 	PlatformInfo platform = 1;
-	
-	
+	uint32 entity_id = 6;
+	uint32 scene_time = 9;
 }

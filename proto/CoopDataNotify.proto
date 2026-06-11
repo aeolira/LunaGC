@@ -4,7 +4,7 @@ import "CoopChapter.proto";
 
 message CoopDataNotify {
 	repeated CoopChapter chapter_list = 11;
-	repeated 
-	
-	
+	repeated uint32 viewed_chapter_list = 13;
+	bool is_have_progress = 9;
+	uint32 cur_coop_point = 10;
 }

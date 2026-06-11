@@ -3,5 +3,5 @@
 
 
 message GetAreaExplorePointReq {
-	repeated 
+	repeated uint32 area_id_list = 2;
 }

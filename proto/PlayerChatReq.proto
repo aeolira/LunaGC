@@ -4,5 +4,5 @@ import "ChatInfo.proto";
 
 message PlayerChatReq {
 	ChatInfo chat_info = 7;
-	
+	uint32 channel_id = 11;
 }

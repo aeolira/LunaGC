@@ -4,7 +4,7 @@ import "Item.proto";
 import "TrialAvatarGrantRecord.proto";
 
 message TrialAvatarInfo {
-	
+	uint32 trial_avatar_id = 1;
 	repeated Item trial_equip_list = 2;
 	TrialAvatarGrantRecord grant_record = 3;
 }

@@ -4,6 +4,6 @@ import "Vector.proto";
 
 message PersonalSceneJumpRsp {
 	Vector dest_pos = 8;
-	
-	
+	uint32 dest_scene_id = 6;
+	int32 retcode = 10;
 }

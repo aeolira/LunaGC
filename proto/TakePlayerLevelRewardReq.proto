@@ -3,5 +3,5 @@
 
 
 message TakePlayerLevelRewardReq {
-	
+	uint32 level = 3;
 }

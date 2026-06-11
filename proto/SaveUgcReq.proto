@@ -6,7 +6,7 @@ import "UgcMusicRecord.proto";
 import "UgcType.proto";
 
 message SaveUgcReq {
-	
+	uint32 schedule_id = 15;
 	DKFCFLLEHDF NAOAJNMEDDE = 8;
 	UgcType ugc_type = 1;
 	oneof record {

@@ -3,10 +3,10 @@
 
 
 message PacketHead {
-	
-	
-	
-	
-	
-	
+	uint32 client_sequence_id = 3;
+	uint64 sent_ms = 6;
+	uint32 EFDABPJFFIO = 7;
+	uint32 LFKGHCEJLCA = 8;
+	uint32 DJHCBCACABO = 9;
+	uint32 BANKPAGJJKH = 10;
 }

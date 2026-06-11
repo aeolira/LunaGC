@@ -3,5 +3,5 @@
 
 
 message ParamList {
-	repeated 
+	repeated uint32 param_list = 1;
 }

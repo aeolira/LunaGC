@@ -10,10 +10,10 @@ message MotionInfo {
 	MotionState state = 4;
 	repeated Vector params = 5;
 	Vector ref_pos = 6;
-	
-	
-	
-	
-	
-	repeated 
+	uint32 ref_id = 7;
+	uint32 scene_time = 8;
+	uint64 interval_velocity = 9;
+	uint32 KPNCLEPDEPI = 10;
+	uint32 FNGPJDDGBJG = 11;
+	repeated int32 BKMHKMOINKM = 100;
 }

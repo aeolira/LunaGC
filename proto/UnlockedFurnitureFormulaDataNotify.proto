@@ -3,6 +3,6 @@
 
 
 message UnlockedFurnitureFormulaDataNotify {
-	repeated 
-	
+	repeated uint32 furniture_id_list = 3;
+	bool is_all = 4;
 }

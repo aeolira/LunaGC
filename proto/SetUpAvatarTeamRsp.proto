@@ -3,7 +3,7 @@
 
 
 message SetUpAvatarTeamRsp {
-	repeated 
+	repeated uint64 avatar_team_guid_list = 3;
 	uint32 team_id = 4 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val - 65504) ^ 27354"];
 	int32 retcode = 12 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val - 51228) ^ 9379"];
 	uint64 cur_avatar_guid = 5 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val + 3667) ^ 14049"];

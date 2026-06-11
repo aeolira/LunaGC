@@ -3,6 +3,6 @@
 
 
 message ChangeMailStarNotify {
-	repeated 
-	
+	repeated uint32 mail_id_list = 12;
+	bool is_star = 1;
 }

@@ -3,10 +3,10 @@
 import "KFEJHJCACKB.proto";
 
 message AbilityIdentifier {
-	
+	uint32 instanced_modifier_id = 4;
 	KFEJHJCACKB CGFCNFDDCAI = 14;
-	
-	
-	
-	
+	uint32 instanced_ability_id = 2;
+	uint32 AOJMCEHLKBC = 1;
+	uint32 MKKAINBAGIO = 8;
+	int32 local_id = 7;
 }

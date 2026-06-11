@@ -3,7 +3,7 @@
 
 
 message AvatarSkillMaxChargeCountNotify {
-	
-	
-	
+	uint32 skill_id = 6;
+	uint32 max_charge_count = 8;
+	uint64 avatar_guid = 1;
 }

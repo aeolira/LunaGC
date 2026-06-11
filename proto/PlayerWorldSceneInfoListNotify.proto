@@ -3,6 +3,6 @@
 import "PlayerWorldSceneInfo.proto";
 
 message PlayerWorldSceneInfoListNotify {
-	repeated 
+	repeated uint32 EPMKMIKGLOE = 1129;
 	repeated PlayerWorldSceneInfo info_list = 1;
 }

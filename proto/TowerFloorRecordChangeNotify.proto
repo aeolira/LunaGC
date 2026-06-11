@@ -4,5 +4,5 @@ import "TowerFloorRecord.proto";
 
 message TowerFloorRecordChangeNotify {
 	repeated TowerFloorRecord tower_floor_record_list = 11;
-	
+	bool is_finished_entrance_floor = 13;
 }

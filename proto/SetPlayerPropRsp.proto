@@ -3,5 +3,5 @@
 
 
 message SetPlayerPropRsp {
-	
+	int32 retcode = 2;
 }

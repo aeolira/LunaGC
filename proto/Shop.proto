@@ -13,9 +13,9 @@ message Shop {
 	repeated ShopCardProduct card_product_list = 9;
 	repeated 
 	repeated ShopGoods goods_list = 13;
-	
-	
-	
-	
-	
+	uint32 shop_type = 5;
+	uint32 next_refresh_time = 12;
+	uint32 NEKALCAIFKH = 6;
+	uint32 city_reputation_level = 8;
+	uint32 city_id = 11;
 }

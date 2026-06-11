@@ -3,6 +3,6 @@
 
 
 message SceneEntityDrownRsp {
-	
-	
+	int32 retcode = 14;
+	uint32 entity_id = 10;
 }

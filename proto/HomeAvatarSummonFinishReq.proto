@@ -3,5 +3,5 @@
 
 
 message HomeAvatarSummonFinishReq {
-	
+	uint32 event_id = 10;
 }

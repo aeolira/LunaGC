@@ -5,5 +5,5 @@ import "Vector.proto";
 message HomeAnimalData {
 	Vector spawn_rot = 14;
 	Vector spawn_pos = 13;
-	
+	uint32 furniture_id = 2;
 }

@@ -3,5 +3,5 @@
 
 
 message ServerAnnounceRevokeNotify {
-	repeated 
+	repeated uint32 config_id_list = 13;
 }

@@ -3,6 +3,6 @@
 
 
 message DelMailRsp {
-	repeated 
-	
+	repeated uint32 mail_id_list = 10;
+	int32 retcode = 1;
 }

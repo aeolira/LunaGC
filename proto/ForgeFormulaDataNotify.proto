@@ -3,6 +3,6 @@
 
 
 message ForgeFormulaDataNotify {
-	
-	
+	uint32 forge_id = 4;
+	bool is_locked = 14;
 }

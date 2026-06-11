@@ -4,5 +4,5 @@ import "HomeResource.proto";
 
 message HomeResourceTakeHomeCoinRsp {
 	HomeResource home_coin = 12;
-	
+	int32 retcode = 6;
 }

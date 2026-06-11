@@ -3,9 +3,9 @@
 
 
 message PlayerWorldSceneInfo {
-	repeated 
+	repeated uint32 scene_tag_id_list = 8;
 	
 	
-	
-	
+	uint32 scene_id = 11;
+	bool is_locked = 3;
 }

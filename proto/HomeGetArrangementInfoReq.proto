@@ -3,5 +3,5 @@
 
 
 message HomeGetArrangementInfoReq {
-	repeated 
+	repeated uint32 scene_id_list = 14;
 }

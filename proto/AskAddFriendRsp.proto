@@ -3,7 +3,7 @@
 
 
 message AskAddFriendRsp {
-	
-	
-	
+	uint32 param = 3;
+	int32 retcode = 13;
+	uint32 target_uid = 7;
 }

@@ -3,6 +3,6 @@
 
 
 message ItemParam {
-	
-	
+	uint32 item_id = 1;
+	uint32 count = 2;
 }

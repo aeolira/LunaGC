@@ -3,5 +3,5 @@
 
 
 message WorldPlayerReviveRsp {
-	
+	int32 retcode = 14;
 }

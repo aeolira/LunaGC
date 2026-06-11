@@ -3,5 +3,5 @@
 
 
 message GetBargainDataReq {
-	
+	uint32 bargain_id = 2;
 }

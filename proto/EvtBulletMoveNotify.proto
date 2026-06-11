@@ -5,7 +5,7 @@ import "Vector.proto";
 
 message EvtBulletMoveNotify {
 	Vector cur_pos = 10;
-	
-	
+	bool ELIONFHLNGA = 5;
+	uint32 entity_id = 13;
 	ForwardType forward_type = 4;
 }

@@ -3,6 +3,6 @@
 
 
 message QuestGlobalVar {
-	
-	
+	int32 value = 9;
+	uint32 key = 14;
 }

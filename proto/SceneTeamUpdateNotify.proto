@@ -4,5 +4,5 @@ import "SceneTeamAvatar.proto";
 
 message SceneTeamUpdateNotify {
 	repeated SceneTeamAvatar scene_team_avatar_list = 4;
-	
+	bool is_in_mp = 3;
 }

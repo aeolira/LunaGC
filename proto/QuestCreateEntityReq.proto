@@ -4,7 +4,7 @@ import "CreateEntityInfo.proto";
 
 message QuestCreateEntityReq {
 	CreateEntityInfo entity = 11;
-	
-	
-	
+	uint32 quest_id = 7;
+	uint32 parent_quest_id = 8;
+	bool is_rewind = 3;
 }

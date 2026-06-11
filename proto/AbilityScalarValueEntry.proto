@@ -4,5 +4,5 @@ import "AbilityString.proto";
 
 message AbilityScalarValueEntry {
 	AbilityString key = 1;
-	
+	float float_value = 3;
 }

@@ -3,8 +3,8 @@
 
 
 message QueryCodexMonsterBeKilledNumRsp {
-	repeated 
-	repeated 
-	repeated 
-	
+	repeated uint32 CJEDKPFKPMC = 10;
+	repeated uint32 codex_id_list = 2;
+	repeated uint32 BGLHADPEGEG = 13;
+	int32 retcode = 6;
 }

@@ -3,6 +3,6 @@
 
 
 message WorktopOptionNotify {
-	repeated 
-	
+	repeated uint32 option_list = 15;
+	uint32 gadget_entity_id = 3;
 }

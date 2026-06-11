@@ -3,6 +3,6 @@
 import "StoreType.proto";
 
 message StoreItemDelNotify {
-	repeated 
+	repeated uint64 guid_list = 6;
 	StoreType store_type = 15;
 }

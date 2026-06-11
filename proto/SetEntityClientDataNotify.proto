@@ -4,5 +4,5 @@ import "EntityClientData.proto";
 
 message SetEntityClientDataNotify {
 	EntityClientData entity_client_data = 13;
-	
+	uint32 entity_id = 1;
 }

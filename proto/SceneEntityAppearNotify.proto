@@ -6,5 +6,5 @@ import "VisionType.proto";
 message SceneEntityAppearNotify {
 	repeated SceneEntityInfo entity_list = 5;
 	VisionType appear_type = 3;
-	
+	uint32 param = 7;
 }

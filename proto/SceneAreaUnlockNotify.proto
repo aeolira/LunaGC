@@ -3,6 +3,6 @@
 
 
 message SceneAreaUnlockNotify {
-	repeated 
-	
+	repeated uint32 area_list = 11;
+	uint32 scene_id = 4;
 }

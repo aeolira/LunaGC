@@ -3,5 +3,5 @@
 
 
 message QueryCodexMonsterBeKilledNumReq {
-	repeated 
+	repeated uint32 codex_id_list = 4;
 }

@@ -4,6 +4,6 @@ import "InvestigationMonster.proto";
 
 message GetInvestigationMonsterRsp {
 	repeated InvestigationMonster monster_list = 5;
-	
-	
+	int32 retcode = 13;
+	bool is_for_mark = 12;
 }

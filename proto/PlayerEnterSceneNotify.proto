@@ -8,20 +8,20 @@ import "Vector.proto";
 message PlayerEnterSceneNotify {
 	IEHCJBPPCMD HJGLNPEOIDE = 785;
 	
-	
+	string scene_transaction = 205;
 	
 	Vector pos = 13;
 	Vector BNNBCCNPOJG = 9;
 	NJFHIBIMPPP JEGBHLHCKLD = 1289;
-	repeated 
+	repeated uint32 scene_tag_id_list = 6;
 	
 	Vector EOKPAOCNGBM = 751;
 	uint32 enter_reason = 1911 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val ^ 43962) + 40350"];
 	uint32 enter_scene_token = 2 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val ^ 57361) - 22665"];
 	uint32 FCKJJGAHHLI = 1416 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val - 7304) ^ 7061", (ys_custom).value_unmask = "(val ^ 7061) + 7304"];
 	uint32 create_player_uid = 983 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val - 50775) ^ 38388"];
-	
-	
+	bool is_skip_ui = 1551;
+	bool is_first_login_enter_scene = 8;
 	uint32 target_uid = 15 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val - 30259) ^ 4145"];
 	uint32 dungeon_id = 12 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val ^ 27544) - 17829"];
 	uint32 _dungeon_difficulty_type = 1292 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val ^ 60001) + 6461"];

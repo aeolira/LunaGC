@@ -3,7 +3,7 @@
 
 
 message SetUpAvatarTeamReq {
-	repeated 
+	repeated uint64 avatar_team_guid_list = 8;
 	uint64 cur_avatar_guid = 5 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val + 41090) ^ 1583"];
 	uint32 team_id = 9 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val + 19529) ^ 63709"];
 }

@@ -3,7 +3,7 @@
 
 
 message ServerGlobalValueChangeNotify {
-	
-	
-	
+	float value = 5;
+	uint32 entity_id = 7;
+	uint32 key_hash = 13;
 }

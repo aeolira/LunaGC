@@ -3,5 +3,5 @@
 
 
 message HomeMarkPointSuiteData {
-	
+	uint32 suite_id = 1;
 }

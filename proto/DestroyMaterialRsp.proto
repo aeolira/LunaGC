@@ -3,7 +3,7 @@
 
 
 message DestroyMaterialRsp {
-	repeated 
-	repeated 
-	
+	repeated uint32 item_count_list = 14;
+	repeated uint32 item_id_list = 12;
+	int32 retcode = 13;
 }

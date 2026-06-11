@@ -3,5 +3,5 @@
 
 
 message ForgeStartRsp {
-	
+	int32 retcode = 8;
 }

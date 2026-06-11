@@ -17,14 +17,14 @@ message DungeonSettleNotify {
 	map<uint32, StrengthenPointData> strengthen_point_data_map = 13;
 	map<uint32, ParamList> settle_show = 15;
 	repeated DungeonSettleExhibitionInfo exhibition_info_list = 9;
-	repeated 
-	repeated 
-	
-	
-	
-	
-	
-	
+	repeated uint32 player_uid_list = 4;
+	repeated uint32 fail_cond_list = 1;
+	uint32 result = 7;
+	uint32 dungeon_id = 10;
+	bool is_success = 2;
+	uint32 close_time = 12;
+	uint32 use_time = 5;
+	uint32 create_player_uid = 14;
 	oneof detail {
 		
 		

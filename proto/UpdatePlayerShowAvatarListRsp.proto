@@ -3,8 +3,8 @@
 
 
 message UpdatePlayerShowAvatarListRsp {
-	repeated 
-	
-	
-	
+	repeated uint32 show_avatar_id_list = 1;
+	bool _is_show_constellation_num = 12;
+	bool is_show_avatar = 6;
+	int32 retcode = 10;
 }

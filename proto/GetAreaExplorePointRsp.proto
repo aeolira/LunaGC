@@ -3,7 +3,7 @@
 
 
 message GetAreaExplorePointRsp {
-	repeated 
-	repeated 
-	
+	repeated uint32 explore_point_list = 15;
+	repeated uint32 area_id_list = 11;
+	int32 retcode = 7;
 }

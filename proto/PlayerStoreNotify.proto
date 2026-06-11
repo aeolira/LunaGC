@@ -6,5 +6,5 @@ import "StoreType.proto";
 message PlayerStoreNotify {
 	repeated Item item_list = 2;
 	StoreType store_type = 12;
-	
+	uint32 weight_limit = 1;
 }

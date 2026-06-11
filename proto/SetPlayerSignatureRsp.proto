@@ -3,6 +3,6 @@
 
 
 message SetPlayerSignatureRsp {
-	
-	
+	string signature = 2;
+	int32 retcode = 6;
 }

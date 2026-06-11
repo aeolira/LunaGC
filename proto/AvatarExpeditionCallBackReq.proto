@@ -3,5 +3,5 @@
 
 
 message AvatarExpeditionCallBackReq {
-	repeated 
+	repeated uint64 avatar_guid = 15;
 }

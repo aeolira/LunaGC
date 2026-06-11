@@ -3,6 +3,6 @@
 
 
 message PlayerCookArgsReq {
-	
-	
+	uint32 assist_avatar = 14;
+	uint32 recipe_id = 8;
 }

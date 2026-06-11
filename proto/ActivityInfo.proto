@@ -73,36 +73,36 @@ import "WindFieldDetailInfo.proto";
 import "WinterCampActivityDetailInfo.proto";
 
 message ActivityInfo {
-	repeated 
+	repeated uint32 taken_reward_list = 1022;
 	repeated ActivityWatcherInfo watcher_info_list = 7;
 	
-	repeated 
-	repeated 
+	repeated uint64 KCAGGKGJGJC = 1063;
+	repeated uint32 expire_cond_list = 4;
 	map<uint32, uint32> activity_coin_map = 193;
 	BDIILDOBHIO JCAFPINKDJO = 1466;
 	repeated ActivityPushTipsData activity_push_tips_data_list = 1750;
 	
 	map<uint32, uint32> wish_gift_num_map = 22;
-	repeated 
-	repeated 
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	repeated uint32 quick_open_pre_quest_list = 1035;
+	repeated uint32 meet_cond_list = 11;
+	uint32 GGFFFHBCODJ = 1532;
+	uint32 score_limit = 1818;
+	uint32 activity_type = 13;
+	uint32 DGGFCBNEJPC = 1305;
+	bool is_play_open_anim = 15;
+	bool is_quick_open = 1475;
+	bool is_finished = 3;
+	uint32 activity_id = 5;
+	uint32 schedule_id = 9;
+	uint64 HOODIOIPADC = 2025;
+	uint32 end_time = 2;
+	uint32 cur_score = 231;
+	bool is_banner_cleared = 1728;
+	bool is_starting = 6;
+	bool is_hidden = 1116;
+	bool is_common_content_closed = 685;
+	uint32 first_day_start_time = 116;
+	uint32 begin_time = 14;
 	oneof detail {
 		
 		

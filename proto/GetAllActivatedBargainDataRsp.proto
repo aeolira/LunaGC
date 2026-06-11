@@ -4,5 +4,5 @@ import "BargainSnapshot.proto";
 
 message GetAllActivatedBargainDataRsp {
 	repeated BargainSnapshot snapshot_list = 3;
-	
+	int32 retcode = 10;
 }
