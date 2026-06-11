@@ -59,7 +59,7 @@ tmp/
 /keys
 /language
 /languages
-/proto
+/proto/*
 
 /*.jar
 /*.sh
