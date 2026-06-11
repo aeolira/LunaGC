@@ -2,10 +2,9 @@
 
 
 
-
 message TowerLevelStarCondData {
-	uint32 LPBDMLGHCHI = 13;
-	uint32 MFFODAGNHMK = 3;
-	bool LHEILMMKOLH = 8;
-	bool AIOJOPPBLBM = 6;
+	
+	
+	
+	
 }

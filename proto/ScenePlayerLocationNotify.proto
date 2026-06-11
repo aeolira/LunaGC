@@ -1,11 +1,10 @@
 ﻿syntax = "proto3";
 
-
 import "PlayerLocationInfo.proto";
 import "VehicleLocationInfo.proto";
 
 message ScenePlayerLocationNotify {
 	repeated VehicleLocationInfo vehicle_loc_list = 4;
 	repeated PlayerLocationInfo player_loc_list = 13;
-	uint32 scene_id = 10;
+	
 }

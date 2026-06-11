@@ -1,6 +1,5 @@
 ﻿syntax = "proto3";
 
-
 import "PlayerLocationInfo.proto";
 import "PlayerWorldLocationInfo.proto";
 

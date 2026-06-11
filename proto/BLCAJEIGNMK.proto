@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "PALAEOOIMGN.proto";
-
-message BLCAJEIGNMK {
-	PALAEOOIMGN value = 1;
-}

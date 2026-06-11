@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message GLLDIMINEOH {
-	int32 index = 1;
-	repeated uint32 FFGHBCOCNKA = 2;
-}

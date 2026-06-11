@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message MKBNFBAHNCA {
-	repeated uint32 CANKIIAJLHP = 15;
-	uint32 count = 11;
-}

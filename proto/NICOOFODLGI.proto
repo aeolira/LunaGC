@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "GOHEMPLPMLI.proto";
-
-message NICOOFODLGI {
-	repeated GOHEMPLPMLI MDFGOHOHLNA = 5;
-	uint32 schedule_id = 6;
-}

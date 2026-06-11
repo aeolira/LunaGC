@@ -1,13 +1,11 @@
 ﻿syntax = "proto3";
 
-
-import "_BeyondPlayerInfo.proto";
 import "OnlinePlayerInfo.proto";
 import "PlayerWidgetInfo.proto";
 
 message WorldPlayerInfoNotify {
-	repeated uint32 player_uid_list = 5;
-	repeated _BeyondPlayerInfo _beyond_player_info_list = 14;
+	repeated 
+	repeated 
 	repeated OnlinePlayerInfo player_info_list = 15;
 	repeated PlayerWidgetInfo player_widget_info_list = 2;
 }

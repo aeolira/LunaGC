@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "JFFKHDNEMBM.proto";
-
-message _SandwormCannonDetailInfo {
-	repeated JFFKHDNEMBM BEDDPKMIAPG = 4;
-}

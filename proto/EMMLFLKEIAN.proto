@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "CENMDMHLBNA.proto";
-
-message EMMLFLKEIAN {
-	repeated CENMDMHLBNA MGBKDPHJGOO = 5;
-}

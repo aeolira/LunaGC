@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "GOICJCKCHAL.proto";
-
-message AIMALCCHIGF {
-	repeated GOICJCKCHAL stage_info_list = 10;
-}

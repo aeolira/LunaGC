@@ -2,7 +2,6 @@
 
 
 
-
 message AbilityMetaSetKilledState {
-	bool killed = 1;
+	
 }

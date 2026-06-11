@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message _BeyondCostumePieceInfo {
-	uint32 costume_id = 1;
-	uint32 _costume_slot_index = 2;
-}

@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "IGAPFHOFJFN.proto";
-
-message _AnimalViewDetailInfo {
-	repeated IGAPFHOFJFN NOOMICPOJHO = 11;
-}

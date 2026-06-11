@@ -2,7 +2,6 @@
 
 
 
-
 message Furniture {
-	uint32 count = 1;
+	
 }

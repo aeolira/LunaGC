@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "HIPEPJMHJFO.proto";
-
-message MKBAOCHJFHC {
-	repeated HIPEPJMHJFO level_info_list = 1;
-}

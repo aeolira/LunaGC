@@ -2,7 +2,6 @@
 
 
 
-
 message ServerTimeNotify {
-	uint64 server_time = 1;
+	
 }

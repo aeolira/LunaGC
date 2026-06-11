@@ -1,6 +1,5 @@
 ﻿syntax = "proto3";
 
-
 import "ChatEmojiCollectionData.proto";
 
 message SetChatEmojiCollectionReq {

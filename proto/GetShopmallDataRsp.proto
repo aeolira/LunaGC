@@ -2,9 +2,8 @@
 
 
 
-
 message GetShopmallDataRsp {
-	repeated uint32 shop_type_list = 13;
-	int32 retcode = 6;
-	uint32 param = 15;
+	repeated 
+	
+	
 }

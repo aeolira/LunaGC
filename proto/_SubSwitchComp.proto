@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "CIHNLENFKFF.proto";
-
-message _SubSwitchComp {
-	repeated CIHNLENFKFF KMHBOOLCEIC = 1;
-}

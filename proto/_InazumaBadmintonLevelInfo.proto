@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message _InazumaBadmintonLevelInfo {
-	uint32 JJNKGBICAMO = 6;
-}

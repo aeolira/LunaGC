@@ -1,91 +1,5 @@
 ﻿syntax = "proto3";
 
-
-import "_AcrobaticsBattleDetailInfo.proto";
-import "_ActivityMultiCharacterDetailInfo.proto";
-import "_AdShootingDetailInfo.proto";
-import "_AkaFesDetailInfo.proto";
-import "_AlchemySimDetailInfo.proto";
-import "_AnimalViewDetailInfo.proto";
-import "_ArenaChallengeV5DetailInfo.proto";
-import "_AutochessDetailInfo.proto";
-import "_AutoTimeStopDetailInfo.proto";
-import "_BirdBallDetailInfo.proto";
-import "_BlessingV2DetailInfo.proto";
-import "_BoltbugAbyssDetailInfo.proto";
-import "_BomberDodocoDetailInfo.proto";
-import "_BubbleDramaDetailInfo.proto";
-import "_BulletHellDetailInfo.proto";
-import "_CatcafeDetailInfo.proto";
-import "_CeremonyDetailInfo.proto";
-import "_ClientPlayCurLevelInfo.proto";
-import "_ClientPlayData.proto";
-import "_CollectUnderwaterDetailInfo.proto";
-import "_ColorBallDetailInfo.proto";
-import "_CookGameDetailInfo.proto";
-import "_CooperateChallengeDetailInfo.proto";
-import "_DiversityBattleDetailInfo.proto";
-import "_EffigyChallengeV4DetailInfo.proto";
-import "_EffigyChallengeV5DetailInfo.proto";
-import "_ElectroherculesBattleV3DetailInfo.proto";
-import "_FairyTalesDetailInfo.proto";
-import "_FilmfestDetailInfo.proto";
-import "_FishBlasterDetailInfo.proto";
-import "_FishingJoyDetailInfo.proto";
-import "_FleurFairV2DetailInfo.proto";
-import "_FontaineGatherDetailInfo.proto";
-import "_FungusFighterV2DetailInfo.proto";
-import "_FungusFighterV3DetailInfo.proto";
-import "_GainBuffDetailInfo.proto";
-import "_GCGAutoBattleCardDetailInfo.proto";
-import "_GCGPveDetailInfo.proto";
-import "_GCGPveInfiniteDetailInfo.proto";
-import "_GCGPvePuzzleDetailInfo.proto";
-import "_GoalChallengeDetailInfo.proto";
-import "_GreatFestivalV2DetailInfo.proto";
-import "_HideAndSeekV4ActivityDetailInfo.proto";
-import "_HolidayResortDetailInfo.proto";
-import "_JourneyDetailInfo.proto";
-import "_LanternRiteV4DetailInfo.proto";
-import "_LanternRiteV5DetailInfo.proto";
-import "_LanternRiteV6DetailInfo.proto";
-import "_LeyLineChallengeDetailInfo.proto";
-import "_LimitedTimeRewardAreaBannerDetailInfo.proto";
-import "_LoliFriendDetailInfo.proto";
-import "_LostSamachurlDetailInfo.proto";
-import "_MikawaFlowerDetailInfo.proto";
-import "_MonsterChessDetailInfo.proto";
-import "_MonsterChessV2DetailInfo.proto";
-import "_MonsterVsMonsterDetailInfo.proto";
-import "_Mvm2DetailInfo.proto";
-import "_NahidaBirthDetailInfo.proto";
-import "_NatlanArenaDetailInfo.proto";
-import "_NatlanDrillDetailInfo.proto";
-import "_NatlanRaceDetailInfo.proto";
-import "_NatlanTourDetailInfo.proto";
-import "_PartyDetailInfo.proto";
-import "_PenumbraAdventureDetailInfo.proto";
-import "_PhotoUnderseaDetailInfo.proto";
-import "_PoetryFestivalDetailInfo.proto";
-import "_QuickTimeCombatDetailInfo.proto";
-import "_RainbowPrinceDetailInfo.proto";
-import "_RechargeDiskDetailInfo.proto";
-import "_SandwormCannonDetailInfo.proto";
-import "_ShortVideoDetailInfo.proto";
-import "_SlimeCannonDetailInfo.proto";
-import "_SnowRaceDetailInfo.proto";
-import "_SorushTrialDetailInfo.proto";
-import "_StaminaFightDetailInfo.proto";
-import "_SumeruAdventureTrainingDetailInfo.proto";
-import "_ThemeParkSimDetailInfo.proto";
-import "_TowerChallengeDetailInfo.proto";
-import "_TowerDefenseDetailInfo.proto";
-import "_ToyBattleDetailInfo.proto";
-import "_TradeShowDetailInfo.proto";
-import "_TreasureHuntV4DetailInfo.proto";
-import "_UgcV2DetailInfo.proto";
-import "_WatergunDetailInfo.proto";
-import "_WeekActiveDetailInfo.proto";
 import "ActivityPushTipsData.proto";
 import "ActivityWatcherInfo.proto";
 import "ArenaChallengeActivityDetailInfo.proto";
@@ -159,187 +73,187 @@ import "WindFieldDetailInfo.proto";
 import "WinterCampActivityDetailInfo.proto";
 
 message ActivityInfo {
-	repeated uint32 taken_reward_list = 1022;
+	repeated 
 	repeated ActivityWatcherInfo watcher_info_list = 7;
-	_ClientPlayData _client_play_data = 270;
-	repeated uint64 KCAGGKGJGJC = 1063;
-	repeated uint32 expire_cond_list = 4;
+	
+	repeated 
+	repeated 
 	map<uint32, uint32> activity_coin_map = 193;
 	BDIILDOBHIO JCAFPINKDJO = 1466;
 	repeated ActivityPushTipsData activity_push_tips_data_list = 1750;
-	_ClientPlayCurLevelInfo _client_play_cur_level_info = 830;
+	
 	map<uint32, uint32> wish_gift_num_map = 22;
-	repeated uint32 quick_open_pre_quest_list = 1035;
-	repeated uint32 meet_cond_list = 11;
-	uint32 GGFFFHBCODJ = 1532;
-	uint32 score_limit = 1818;
-	uint32 activity_type = 13;
-	uint32 DGGFCBNEJPC = 1305;
-	bool is_play_open_anim = 15;
-	bool is_quick_open = 1475;
-	bool is_finished = 3;
-	uint32 activity_id = 5;
-	uint32 schedule_id = 9;
-	uint64 HOODIOIPADC = 2025;
-	uint32 end_time = 2;
-	uint32 cur_score = 231;
-	bool is_banner_cleared = 1728;
-	bool is_starting = 6;
-	bool is_hidden = 1116;
-	bool is_common_content_closed = 685;
-	uint32 first_day_start_time = 116;
-	uint32 begin_time = 14;
+	repeated 
+	repeated 
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	oneof detail {
-		_NatlanDrillDetailInfo natlan_drill_info = 1296;
-		_Mvm2DetailInfo mvm_2_detail_info = 1858;
-		_ElectroherculesBattleV3DetailInfo electrohercules_battle_v3_detail_info = 1640;
-		_FishBlasterDetailInfo fish_blaster_info = 378;
-		_LostSamachurlDetailInfo lost_samachurl_info = 1687;
+		
+		
+		
+		
+		
 		ExpeditionActivityDetailInfo expedition_info = 394;
 		CrucibleActivityDetailInfo crucible_info = 8;
-		_PoetryFestivalDetailInfo poetry_festival_detail_info = 509;
-		_TowerChallengeDetailInfo tower_challenge_detail_info = 624;
-		_FilmfestDetailInfo filmfest_detail_info = 396;
+		
+		
+		
 		ChannelerSlabActivityDetailInfo challneler_slab_info = 1031;
 		TeamChainDetailInfo team_chain_info = 2011;
-		_QuickTimeCombatDetailInfo quick_time_combat_info = 1206;
+		
 		FindHilichurlDetailInfo find_hilichurl_info = 792;
 		PotionActivityDetailInfo potion_info = 1253;
-		_FungusFighterV3DetailInfo fungus_fighter_v3_info = 1118;
-		_BomberDodocoDetailInfo bomber_dodoco_detail_info = 1727;
-		_NahidaBirthDetailInfo nahida_birth_detail_info = 2005;
+		
+		
+		
 		HideAndSeekActivityDetailInfo hide_and_seek_info = 1218;
 		EchoShellDetailInfo echo_shell_info = 1556;
 		GachaActivityDetailInfo gacha_info = 1461;
-		_SumeruAdventureTrainingDetailInfo sumeru_adventure_training_detail_info = 1175;
+		
 		WaterSpiritActivityDetailInfo water_spirit_info = 1612;
-		_BoltbugAbyssDetailInfo boltbug_abyss_detail_info = 963;
+		
 		LunaRiteDetailInfo luna_rite_info = 1448;
 		DigActivityDetailInfo dig_info = 1550;
-		_AcrobaticsBattleDetailInfo acrobatics_battle_detail_info = 1351;
-		_AutochessDetailInfo autochess_info = 923;
-		_EffigyChallengeV4DetailInfo effigy_challenge_v4_info = 71;
-		_LanternRiteV6DetailInfo lantern_rite_v6_info = 1737;
-		_RainbowPrinceDetailInfo rainbow_prince_detail_info = 1047;
+		
+		
+		
+		
+		
 		IslandPartyDetailInfo island_party_info = 1529;
-		_SorushTrialDetailInfo sorush_trial_info = 913;
-		_BlessingV2DetailInfo blessing_v2_info = 1964;
-		_GreatFestivalV2DetailInfo great_festival_v2_detail_info = 1027;
+		
+		
+		
 		LanternRiteActivityDetailInfo lantern_rite_activity_info = 1514;
-		_SlimeCannonDetailInfo slime_cannon_detail_info = 152;
+		
 		MusicGameActivityDetailInfo music_game_info = 658;
-		_RechargeDiskDetailInfo recharge_disk_detail_info = 1434;
+		
 		FleurFairActivityDetailInfo fleur_fair_info = 788;
 		PlantFlowerActivityDetailInfo plant_flower_info = 415;
 		InstableSprayDetailInfo instable_spray_info = 1605;
 		RockBoardExploreDetailInfo rock_board_explore_info = 1518;
-		_AkaFesDetailInfo aka_fes_info = 1212;
-		_WatergunDetailInfo watergun_info = 1239;
-		_ActivityMultiCharacterDetailInfo activity_multi_character_info = 435;
+		
+		
+		
 		FlightActivityDetailInfo flight_info = 800;
-		_GoalChallengeDetailInfo goal_challenge_info = 953;
-		_LoliFriendDetailInfo loli_friend_detail_info = 1377;
+		
+		
 		BlessingActivityDetailInfo blessing_info = 323;
-		_GainBuffDetailInfo gain_buff_detail_info = 1101;
+		
 		LuminanceStoneChallengeActivityDetailInfo luminance_stone_challenge_info = 785;
-		_GCGPveDetailInfo gcg_pve_info = 1942;
+		
 		HachiActivityDetailInfo hachi_info = 1776;
-		_TowerDefenseDetailInfo tower_defense_detail_info = 740;
+		
 		UgcActivityDetailInfo ugc_info = 770;
 		RogueDiaryActivityDetailInfo rogue_diary_info = 1438;
 		TanukiTravelActivityDetailInfo tanuki_travel_activity_info = 828;
-		_TreasureHuntV4DetailInfo treasure_hunt_v4_info = 1207;
+		
 		MistTrialActivityDetailInfo mist_trial_activity_info = 2001;
-		_HolidayResortDetailInfo holiday_resort_detail_info = 1771;
+		
 		CrystalLinkActivityDetailInfo crystal_link_info = 1796;
-		_AlchemySimDetailInfo alchemy_sim_detail_info = 1989;
-		_WeekActiveDetailInfo week_active_detail_info = 1441;
+		
+		
 		EffigyActivityDetailInfo effigy_info = 130;
-		_MikawaFlowerDetailInfo mikawa_flower_detail_info = 1632;
-		_GCGPveInfiniteDetailInfo gcg_pve_infinite_info = 1828;
-		_JourneyDetailInfo journey_info = 1950;
+		
+		
+		
 		ElectroherculesBattleDetailInfo electrohercules_battle_info = 1112;
-		_UgcV2DetailInfo ugc_v2_info = 680;
-		_NatlanTourDetailInfo natlan_tour_detail_info = 1953;
-		_CooperateChallengeDetailInfo cooperate_challenge_detail_info = 308;
+		
+		
+		
 		GearActivityDetailInfo gear_info = 1573;
-		_FishingJoyDetailInfo fishing_joy_detail_info = 946;
+		
 		SeaLampV3DetailInfo sea_lamp_v3_info = 611;
-		_ThemeParkSimDetailInfo theme_park_sim_detail_info = 186;
+		
 		DuelHeartDetailInfo duel_heart_info = 133;
 		SeaLampActivityDetailInfo sam_lamp_info = 12;
 		GCGFestivalDetailInfo gcg_festival_info = 1054;
 		ChessActivityDetailInfo chess_info = 1778;
-		_MonsterChessDetailInfo monster_chess_detail_info = 995;
-		_CookGameDetailInfo cook_game_detail_info = 2004;
-		_SnowRaceDetailInfo snow_race_detail_info = 293;
-		_CatcafeDetailInfo catcafe_detail_info = 1594;
-		_ShortVideoDetailInfo short_video_detail_info = 1119;
+		
+		
+		
+		
+		
 		DragonSpineActivityDetailInfo dragon_spine_info = 1885;
-		_BulletHellDetailInfo bullet_hell_detail_info = 91;
-		_CollectUnderwaterDetailInfo collect_underwater_info = 1057;
-		_LanternRiteV5DetailInfo lantern_rite_v5_detail_info = 1058;
+		
+		
+		
 		TrialAvatarActivityDetailInfo trial_avatar_info = 1;
-		_ToyBattleDetailInfo toy_battle_info = 1938;
-		_ArenaChallengeV5DetailInfo arena_challenge_v5_detail_info = 1452;
+		
+		
 		BartenderActivityDetailInfo bartender_info = 1635;
 		WinterCampActivityDetailInfo winter_camp_info = 902;
-		_FungusFighterV2DetailInfo fungus_fighter_v2_info = 341;
-		_PenumbraAdventureDetailInfo penumbra_adventure_info = 1836;
-		_DiversityBattleDetailInfo diversity_battle_detail_info = 1932;
+		
+		
+		
 		MoonfinTrialActivityDetailInfo moonfin_trial_info = 349;
 		SeaLampActivityInfo sea_lamp_info = 1963;
-		_NatlanRaceDetailInfo natlan_race_info = 996;
+		
 		BlitzRushActivityDetailInfo blitz_rush_info = 357;
-		_LanternRiteV4DetailInfo lantern_rite_v4_info = 966;
+		
 		ArenaChallengeActivityDetailInfo arena_challenge_info = 1954;
-		_SandwormCannonDetailInfo sandworm_cannon_detail_info = 1595;
-		_PhotoUnderseaDetailInfo photo_undersea_info = 1247;
-		_EffigyChallengeV5DetailInfo effigy_challenge_v5_detail_info = 1801;
-		_BirdBallDetailInfo bird_ball_detail_info = 1209;
-		_MonsterChessV2DetailInfo monster_chess_v2_detail_info = 1431;
+		
+		
+		
+		
+		
 		AsterActivityDetailInfo aster_info = 1990;
-		_BubbleDramaDetailInfo bubble_drama_detail_info = 711;
+		
 		RoguelikeDungeonActivityDetailInfo roguelike_dungoen_info = 507;
-		_GCGPvePuzzleDetailInfo gcg_pve_puzzle_info = 942;
+		
 		SpiceActivityDetailInfo spice_info = 1272;
 		GravenInnocenceDetailInfo graven_innocence_info = 1302;
 		SalesmanActivityDetailInfo salesman_info = 10;
-		_FontaineGatherDetailInfo fontaine_gather_info = 17;
-		_MonsterVsMonsterDetailInfo monster_vs_monster_detail_info = 1666;
+		
+		
 		PhotoActivityDetailInfo photo_info = 810;
-		_StaminaFightDetailInfo stamina_fight_info = 227;
+		
 		WindFieldDetailInfo wind_field_info = 79;
 		CoinCollectDetailInfo coin_collect_info = 1519;
 		BrickBreakerDetailInfo brick_breaker_info = 104;
-		_PartyDetailInfo party_detail_info = 1483;
-		_FairyTalesDetailInfo fairy_tales_detail_info = 1314;
-		_HideAndSeekV4ActivityDetailInfo hide_and_seek_v4_detail_info = 1009;
+		
+		
+		
 		CharAmusementDetailInfo char_amusement_info = 1183;
 		DeliveryActivityDetailInfo delivery_info = 303;
 		MuqadasPotionActivityDetailInfo muqadas_potion_info = 1298;
-		_TradeShowDetailInfo trade_show_detail_info = 1021;
+		
 		SummerTimeV2DetailInfo summer_time_v2_info = 1355;
 		SummerTimeDetailInfo summer_time_info = 1467;
 		BounceConjuringActivityDetailInfo bounce_conjuring_info = 1071;
 		VintageActivityDetailInfo vintage_info = 2003;
 		BuoyantCombatDetailInfo buoyant_combat_info = 162;
-		_LimitedTimeRewardAreaBannerDetailInfo limited_time_reward_area_banner_info = 53;
-		_AdShootingDetailInfo ad_shooting_detail_info = 545;
-		_AutoTimeStopDetailInfo auto_time_stop_detail_info = 748;
-		_AnimalViewDetailInfo animal_view_info = 1491;
+		
+		
+		
+		
 		EffigyChallengeV2DetailInfo effigy_challenge_info = 1465;
-		_NatlanArenaDetailInfo natlan_arena_detail_info = 1285;
+		
 		FungusFighterDetailInfo fungus_fighter_info = 1219;
-		_ColorBallDetailInfo color_ball_detail_info = 576;
+		
 		TreasureSeelieActivityDetailInfo treasure_seelie_info = 1870;
 		IrodoriActivityDetailInfo irodori_info = 2026;
-		_LeyLineChallengeDetailInfo ley_line_challenge_detail_info = 797;
+		
 		SumoActivityDetailInfo sumo_info = 185;
-		_CeremonyDetailInfo ceremony_info = 1172;
-		_FleurFairV2DetailInfo fleur_fair_v2_info = 1598;
+		
+		
 		TreasureMapActivityDetailInfo treasure_map_info = 667;
 		MichiaeMatsuriActivityDetailInfo michiae_matsuri_info = 839;
-		_GCGAutoBattleCardDetailInfo gcg_auto_battle_card_detail_info = 1784;
+		
 	}
 }

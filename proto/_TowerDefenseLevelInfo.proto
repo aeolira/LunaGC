@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message _TowerDefenseLevelInfo {
-	uint64 _first_pass_time_ms = 10;
-	bool _is_perfect_defense = 13;
-}

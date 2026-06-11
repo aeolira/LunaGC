@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "IAFPLBPKCPJ.proto";
-
-message MJPJJNPNGHD {
-	repeated IAFPLBPKCPJ AFDKBNJLLHN = 1;
-}

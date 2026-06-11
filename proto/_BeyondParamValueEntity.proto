@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message _BeyondParamValueEntity {
-	uint32 value = 1;
-}

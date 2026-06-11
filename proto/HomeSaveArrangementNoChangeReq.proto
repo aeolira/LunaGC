@@ -2,7 +2,6 @@
 
 
 
-
 message HomeSaveArrangementNoChangeReq {
-	uint32 scene_id = 4;
+	
 }

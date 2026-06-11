@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "MOBDIGEJPPN.proto";
-
-message _BeyondParamValueCompType {
-	MOBDIGEJPPN value = 1;
-}

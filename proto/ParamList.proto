@@ -2,7 +2,6 @@
 
 
 
-
 message ParamList {
-	repeated uint32 param_list = 1;
+	repeated 
 }

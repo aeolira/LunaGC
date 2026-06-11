@@ -2,9 +2,8 @@
 
 
 
-
 message HomeTransferReq {
-	uint32 guid = 4;
-	bool MMJEJHJEHII = 1;
-	bool LPOLOOJKPEG = 13;
+	
+	
+	
 }

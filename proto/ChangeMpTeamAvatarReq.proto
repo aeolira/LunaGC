@@ -2,8 +2,7 @@
 
 
 
-
 message ChangeMpTeamAvatarReq {
-	repeated uint64 avatar_guid_list = 6;
-	uint64 cur_avatar_guid = 14;
+	repeated 
+	
 }

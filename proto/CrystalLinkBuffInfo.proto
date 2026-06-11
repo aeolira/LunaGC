@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message CrystalLinkBuffInfo {
-	uint32 GFKOJJGELHH = 2;
-	uint32 DGFJDDFOCOD = 10;
-}

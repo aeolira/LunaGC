@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message _BomberDodocoSettleInfo {
-	uint32 game_time = 9;
-}

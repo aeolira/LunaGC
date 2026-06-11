@@ -2,7 +2,6 @@
 
 
 
-
 message GetActivityShopSheetInfoReq {
-	uint32 shop_type = 12;
+	
 }

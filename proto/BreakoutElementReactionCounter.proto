@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message BreakoutElementReactionCounter {
-	uint32 element_reaction = 1;
-	uint32 count = 2;
-}

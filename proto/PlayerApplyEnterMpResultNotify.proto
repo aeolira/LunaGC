@@ -2,7 +2,6 @@
 
 
 
-
 message PlayerApplyEnterMpResultNotify {
 	enum Reason {
 		PLAYER_JUDGE = 0;
@@ -26,8 +25,8 @@ message PlayerApplyEnterMpResultNotify {
 		XBOX_ONLY = 18;
 	}
 
-	string target_nickname = 14;
-	uint32 target_uid = 2;
-	bool is_agreed = 3;
+	
+	
+	
 	Reason reason = 9;
 }

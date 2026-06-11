@@ -2,7 +2,6 @@
 
 
 
-
 message GetAllMailNotify {
-	bool is_collected = 8;
+	
 }

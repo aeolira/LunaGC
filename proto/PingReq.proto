@@ -2,14 +2,13 @@
 
 
 
-
 message PingReq {
-	bytes KHMBHIKDDBH = 1;
-	bytes GAGLGOMNGAF = 11;
-	uint64 DONCOOGGOJE = 6;
-	double total_tick_time = 13;
-	uint32 BAIGMCECEIF = 3;
-	uint32 client_time = 14;
-	float ue_time = 2;
-	uint32 seq = 10;
+	
+	
+	
+	
+	
+	
+	
+	
 }

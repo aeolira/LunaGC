@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message _NoQuestApCostAfterQuestFinishBuffInfo {
-	bool IJLKIBAKKAD = 13;
-	uint32 progress = 5;
-}

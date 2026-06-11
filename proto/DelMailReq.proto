@@ -2,7 +2,6 @@
 
 
 
-
 message DelMailReq {
-	repeated uint32 mail_id_list = 1;
+	repeated 
 }

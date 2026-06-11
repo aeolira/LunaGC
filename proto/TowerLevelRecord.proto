@@ -2,8 +2,7 @@
 
 
 
-
 message TowerLevelRecord {
-	repeated uint32 satisfied_cond_list = 8;
-	uint32 level_id = 1;
+	repeated 
+	
 }

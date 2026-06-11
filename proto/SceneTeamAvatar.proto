@@ -1,6 +1,5 @@
 ﻿syntax = "proto3";
 
-
 import "AbilityControlBlock.proto";
 import "AbilitySyncStateInfo.proto";
 import "AvatarInfo.proto";
@@ -16,13 +15,13 @@ message SceneTeamAvatar {
 	AbilitySyncStateInfo DMLKOPFAJAI = 5;
 	repeated ServerBuff server_buff_list = 7;
 	AbilityControlBlock ability_control_block = 10;
-	uint64 avatar_guid = 15;
-	uint32 entity_id = 12;
-	uint32 weapon_entity_id = 2;
-	bool is_player_cur_avatar = 14;
-	bool is_reconnect = 1;
-	bool is_on_scene = 1054;
-	uint32 player_uid = 13;
-	uint64 weapon_guid = 9;
-	uint32 scene_id = 4;
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }

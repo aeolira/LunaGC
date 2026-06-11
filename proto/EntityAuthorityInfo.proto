@@ -1,6 +1,5 @@
 ﻿syntax = "proto3";
 
-
 import "AbilitySyncStateInfo.proto";
 import "AnimatorParameterValueInfoPair.proto";
 import "EntityClientExtraInfo.proto";

@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "IENBMEOAPHG.proto";
-
-message _StaminaFightDetailInfo {
-	repeated IENBMEOAPHG level_info_list = 13;
-}

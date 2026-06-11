@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "ENNLLGOIIAI.proto";
-
-message _EffigyChallengeV4DetailInfo {
-	repeated ENNLLGOIIAI PNHCCNCHGJG = 12;
-}

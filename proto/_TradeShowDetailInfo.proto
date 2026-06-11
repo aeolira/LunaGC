@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message _TradeShowDetailInfo {
-	uint32 NFNGBLPJMAI = 10;
-}

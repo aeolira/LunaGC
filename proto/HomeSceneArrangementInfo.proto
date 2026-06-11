@@ -1,6 +1,5 @@
 ﻿syntax = "proto3";
 
-
 import "DMJKKKFLIGA.proto";
 import "HomeBlockArrangementInfo.proto";
 import "HomeFurnitureData.proto";
@@ -17,10 +16,10 @@ message HomeSceneArrangementInfo {
 	Vector GDFOGBCJNFI = 4;
 	repeated HomeFurnitureData door_list = 3;
 	repeated DMJKKKFLIGA GFNOIABIHKK = 542;
-	uint32 scene_id = 12;
-	uint32 comfort_value = 15;
-	uint32 bgm_id = 13;
-	uint32 tmp_version = 6;
-	bool ANNFCNKJADG = 7;
-	bool OCIHMJGDNFD = 14;
+	
+	
+	
+	
+	
+	
 }

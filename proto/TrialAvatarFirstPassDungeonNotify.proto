@@ -2,7 +2,6 @@
 
 
 
-
 message TrialAvatarFirstPassDungeonNotify {
-	uint32 trial_avatar_index_id = 14;
+	
 }

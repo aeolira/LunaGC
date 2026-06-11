@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message _ClientDetectorResult {
-	repeated uint32 FGADPKBNHDL = 5;
-	bool BIBIOFGMHDJ = 8;
-}

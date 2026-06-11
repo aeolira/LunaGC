@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message ODDMGJHCBIL {
-	uint32 OIMNGAHMEFD = 9;
-	uint32 furniture_id = 1;
-}

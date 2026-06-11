@@ -1,6 +1,5 @@
 ﻿syntax = "proto3";
 
-
 import "AbilityEmbryo.proto";
 
 message AbilityControlBlock {

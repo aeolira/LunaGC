@@ -2,8 +2,7 @@
 
 
 
-
 message HomeAvatarTalkFinishInfo {
-	repeated uint32 finish_talk_id_list = 11;
-	uint32 avatar_id = 14;
+	repeated 
+	
 }

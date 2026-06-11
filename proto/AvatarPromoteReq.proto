@@ -2,7 +2,6 @@
 
 
 
-
 message AvatarPromoteReq {
-	uint64 guid = 15;
+	
 }

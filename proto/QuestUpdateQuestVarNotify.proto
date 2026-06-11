@@ -2,9 +2,8 @@
 
 
 
-
 message QuestUpdateQuestVarNotify {
-	repeated int32 quest_var = 14;
-	uint32 parent_quest_id = 13;
-	uint32 parent_quest_var_seq = 15;
+	repeated 
+	
+	
 }

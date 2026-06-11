@@ -2,8 +2,7 @@
 
 
 
-
 message HomeChooseModuleRsp {
-	uint32 module_id = 5;
-	int32 retcode = 2;
+	
+	
 }

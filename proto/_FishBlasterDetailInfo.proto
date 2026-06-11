@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "GKEIBGLOIJL.proto";
-
-message _FishBlasterDetailInfo {
-	repeated GKEIBGLOIJL level_info_list = 13;
-}

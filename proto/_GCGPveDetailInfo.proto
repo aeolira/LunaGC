@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "DOBDEFIDCLP.proto";
-
-message _GCGPveDetailInfo {
-	repeated DOBDEFIDCLP level_data_list = 4;
-	bool GNEJLMJINJC = 12;
-}

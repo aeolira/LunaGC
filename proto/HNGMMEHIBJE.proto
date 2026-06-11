@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message HNGMMEHIBJE {
-	repeated uint32 KPEPMGEHAOB = 2;
-	uint32 difficulty_id = 1;
-}

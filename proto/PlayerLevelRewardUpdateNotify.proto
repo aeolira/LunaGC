@@ -2,7 +2,6 @@
 
 
 
-
 message PlayerLevelRewardUpdateNotify {
-	repeated uint32 level_list = 4;
+	repeated 
 }

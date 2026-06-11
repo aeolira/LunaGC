@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message OfficialCustomDungeon {
-	uint32 win_times = 3;
-	uint32 dungeon_id = 9;
-}

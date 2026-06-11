@@ -2,9 +2,8 @@
 
 
 
-
 message SetEquipLockStateRsp {
-	uint64 target_equip_guid = 5;
-	bool is_locked = 14;
-	int32 retcode = 8;
+	
+	
+	
 }

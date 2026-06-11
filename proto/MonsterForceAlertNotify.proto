@@ -2,7 +2,6 @@
 
 
 
-
 message MonsterForceAlertNotify {
-	uint32 monster_entity_id = 11;
+	
 }

@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message StrengthenPointData {
-	uint32 FJNOKCNFGLJ = 1;
-	uint32 JGGCLMNCHBL = 5;
-}

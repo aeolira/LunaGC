@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "BBCBCJKPAMA.proto";
-
-message _TreasureHuntV4DetailInfo {
-	repeated BBCBCJKPAMA level_info_list = 6;
-}

@@ -1,6 +1,5 @@
 ﻿syntax = "proto3";
 
-
 import "ChildQuest.proto";
 import "GCOJDICJGKK.proto";
 import "InferencePageInfo.proto";
@@ -11,15 +10,15 @@ message ParentQuest {
 	repeated InferencePageInfo inference_page_list = 15;
 	ParentQuestRandomInfo random_info = 4;
 	repeated ChildQuest child_quest_list = 1;
-	repeated int32 quest_var = 13;
+	repeated 
 	repeated GCOJDICJGKK LNFIAFHCDOO = 10;
-	uint32 parent_quest_id = 7;
-	uint32 parent_quest_state = 11;
-	bool is_random = 3;
-	bool OFFFGMMAMIN = 5;
-	bool _is_focus_mode = 14;
-	bool is_finished = 8;
-	uint32 accept_time = 12;
-	uint64 video_key = 6;
-	uint32 quest_var_seq = 2;
+	
+	
+	
+	
+	
+	
+	
+	
+	
 }

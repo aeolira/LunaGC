@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message FGENJMIALPF {
-	uint64 EIFFPAEEIHC = 1;
-}

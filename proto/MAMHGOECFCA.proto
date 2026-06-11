@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "JDBOGJOOJDB.proto";
-
-message MAMHGOECFCA {
-	repeated JDBOGJOOJDB level_info_list = 4;
-}

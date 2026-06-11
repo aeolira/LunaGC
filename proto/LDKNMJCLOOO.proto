@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "Item.proto";
-
-message LDKNMJCLOOO {
-	Item item = 3;
-	uint32 reason = 10;
-}

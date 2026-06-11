@@ -2,7 +2,6 @@
 
 
 
-
 message DungeonShowReminderNotify {
-	uint32 reminder_id = 6;
+	
 }

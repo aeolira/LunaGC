@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message _CharMasterSettleInfo {
-	uint32 reward_id = 15;
-}

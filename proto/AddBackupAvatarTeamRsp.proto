@@ -2,7 +2,6 @@
 
 
 
-
 message AddBackupAvatarTeamRsp {
-	int32 retcode = 8;
+	
 }

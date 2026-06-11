@@ -1,6 +1,5 @@
 ﻿syntax = "proto3";
 
-
 import "AvatarSatiationData.proto";
 
 message AvatarSatiationDataNotify {

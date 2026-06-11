@@ -2,7 +2,6 @@
 
 
 
-
 message TakeBattlePassMissionPointReq {
-	repeated uint32 mission_id_list = 10;
+	repeated 
 }

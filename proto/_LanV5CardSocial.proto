@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message _LanV5CardSocial {
-	uint32 like_num = 13;
-}

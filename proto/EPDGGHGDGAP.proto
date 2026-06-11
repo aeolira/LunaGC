@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "BBEBKKELAGP.proto";
-
-message EPDGGHGDGAP {
-	repeated BBEBKKELAGP FMKIKCDEDLG = 8;
-}

@@ -2,7 +2,6 @@
 
 
 
-
 message BattlePassMission {
 	enum MissionStatus {
 		MISSION_INVALID = 0;
@@ -12,9 +11,9 @@ message BattlePassMission {
 	}
 
 	MissionStatus mission_status = 13;
-	uint32 mission_type = 2;
-	uint32 total_progress = 3;
-	uint32 cur_progress = 7;
-	uint32 reward_battle_pass_point = 5;
-	uint32 mission_id = 14;
+	
+	
+	
+	
+	
 }

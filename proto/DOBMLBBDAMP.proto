@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "_CurrentPhase.proto";
-
-message DOBMLBBDAMP {
-	_CurrentPhase NLFPJHIJDHD = 1;
-	uint32 count = 2;
-}

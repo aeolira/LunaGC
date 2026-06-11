@@ -1,6 +1,5 @@
 ﻿syntax = "proto3";
 
-
 import "HomeSceneArrangementInfo.proto";
 
 message HomeUpdateArrangementInfoReq {

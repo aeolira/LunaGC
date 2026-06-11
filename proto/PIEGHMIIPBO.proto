@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message PIEGHMIIPBO {
-	uint32 id = 1;
-	float cur_value = 2;
-}

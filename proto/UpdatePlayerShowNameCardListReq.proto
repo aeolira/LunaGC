@@ -2,7 +2,6 @@
 
 
 
-
 message UpdatePlayerShowNameCardListReq {
-	repeated uint32 show_name_card_id_list = 13;
+	repeated 
 }

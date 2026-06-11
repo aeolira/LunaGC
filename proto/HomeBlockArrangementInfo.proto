@@ -1,6 +1,5 @@
 ﻿syntax = "proto3";
 
-
 import "HomeAnimalData.proto";
 import "HomeBlockDotPattern.proto";
 import "HomeBlockFieldData.proto";
@@ -22,7 +21,7 @@ message HomeBlockArrangementInfo {
 	repeated HomeBlockFieldData field_list = 15;
 	repeated HomeFurnitureData persistent_furniture_list = 10;
 	repeated HomeFurnitureCustomSuiteData furniture_custom_suite_list = 2;
-	bool is_unlocked = 3;
-	uint32 block_id = 14;
-	uint32 comfort_value = 12;
+	
+	
+	
 }

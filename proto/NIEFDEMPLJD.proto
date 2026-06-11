@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "_ActivityAvatarInfo.proto";
-
-message NIEFDEMPLJD {
-	repeated _ActivityAvatarInfo avatar_list = 11;
-}

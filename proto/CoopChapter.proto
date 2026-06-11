@@ -1,6 +1,5 @@
 ﻿syntax = "proto3";
 
-
 import "CoopCg.proto";
 import "CoopPoint.proto";
 import "CoopReward.proto";
@@ -13,15 +12,15 @@ message CoopChapter {
 		STATE_ACCEPT = 3;
 	}
 
-	repeated uint32 lock_reason_list = 14;
-	repeated uint32 DNEDOKHNKCF = 13;
-	repeated uint32 AIMPAEMAFBG = 12;
+	repeated 
+	repeated 
+	repeated 
 	repeated CoopPoint coop_point_list = 11;
 	repeated CoopCg coop_cg_list = 4;
 	repeated CoopReward coop_reward_list = 10;
 	map<uint32, uint32> seen_ending_map = 5;
-	uint32 total_end_count = 2;
-	uint32 finished_end_count = 9;
+	
+	
 	State state = 15;
-	uint32 id = 3;
+	
 }

@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "MMNEBBCNJFK.proto";
-
-message _GoalChallengeDetailInfo {
-	repeated MMNEBBCNJFK stage_info_list = 10;
-	uint32 EMHDFOOLGLO = 12;
-}

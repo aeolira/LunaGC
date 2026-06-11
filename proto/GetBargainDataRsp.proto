@@ -1,10 +1,9 @@
 ﻿syntax = "proto3";
 
-
 import "BargainSnapshot.proto";
 
 message GetBargainDataRsp {
 	BargainSnapshot snapshot = 11;
-	uint32 bargain_id = 1;
-	int32 retcode = 6;
+	
+	
 }

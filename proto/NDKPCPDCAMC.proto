@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message NDKPCPDCAMC {
-	repeated uint32 OFLKHFPKDCC = 10;
-}

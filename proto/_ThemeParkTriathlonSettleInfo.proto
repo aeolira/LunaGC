@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message _ThemeParkTriathlonSettleInfo {
-	bool PFGDKNIPEKG = 5;
-	uint32 level_id = 7;
-}

@@ -1,11 +1,5 @@
 ﻿syntax = "proto3";
 
-
-import "_JourneyGearGadgetInfo.proto";
-import "_LanV6CardTextInfo.proto";
-import "_TrifleGadgetInfo.proto";
-import "_UgcSpecialGadgetInfo.proto";
-import "_UgcTowerLevelUpGadgetInfo.proto";
 import "AbilityGadgetInfo.proto";
 import "AJGGDJEHMOG.proto";
 import "BlossomChestInfo.proto";
@@ -33,32 +27,32 @@ import "WeatherInfo.proto";
 import "WorktopInfo.proto";
 
 message SceneGadgetInfo {
-	uint32 gadget_id = 1;
-	uint32 group_id = 2;
-	uint32 config_id = 3;
-	uint32 owner_entity_id = 4;
+	
+	
+	
+	
 	GadgetBornType born_type = 5;
-	uint32 gadget_state = 6;
-	uint32 gadget_type = 7;
-	bool is_show_cutscene = 8;
-	uint32 authority_peer_id = 9;
-	bool is_enable_interact = 10;
-	uint32 interact_id = 11;
-	uint32 mark_flag = 21;
-	uint32 prop_owner_entity_id = 22;
+	
+	
+	
+	
+	
+	
+	
+	
 	PlatformInfo platform = 23;
-	repeated uint32 interact_uid_list = 24;
-	uint32 draft_id = 25;
-	uint32 gadget_talk_state = 26;
+	repeated 
+	
+	
 	AJGGDJEHMOG DOHCIHKGFBA = 27;
-	uint32 init_pose_id = 28;
-	repeated uint32 affix_list = 29;
+	
+	repeated 
 	GadgetPlayInfo play_info = 100;
-	_UgcTowerLevelUpGadgetInfo _ugc_tower_level_up_gadget_info = 101;
-	_JourneyGearGadgetInfo _journey_gear_operator_info = 102;
-	_UgcSpecialGadgetInfo _ugc_v2_special_gadget_info = 103;
-	fixed64 _lan_v6_card_guid = 104;
-	_LanV6CardTextInfo _lan_v6_card_text_info = 105;
+	
+	
+	
+	
+	
 	oneof content {
 		GatherGadgetInfo gather_gadget = 13;
 		WorktopInfo worktop = 14;
@@ -81,6 +75,6 @@ message SceneGadgetInfo {
 		NightCrowGadgetInfo night_crow_gadget_info = 62;
 		DeshretObeliskGadgetInfo deshret_obelisk_gadget_info = 63;
 		CoinCollectOperatorInfo coin_collect_operator_info = 64;
-		_TrifleGadgetInfo trifle_gadget = 67;
+		
 	}
 }

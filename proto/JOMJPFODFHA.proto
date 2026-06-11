@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "NKCKKILFGJM.proto";
-
-message JOMJPFODFHA {
-	NKCKKILFGJM KLMJLEFKIMJ = 1;
-}

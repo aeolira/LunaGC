@@ -2,8 +2,7 @@
 
 
 
-
 message AvatarFlycloakChangeNotify {
-	repeated uint64 avatar_guid_list = 9;
-	uint32 flycloak_id = 11;
+	repeated 
+	
 }

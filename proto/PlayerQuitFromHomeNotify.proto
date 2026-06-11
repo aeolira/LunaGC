@@ -2,7 +2,6 @@
 
 
 
-
 message PlayerQuitFromHomeNotify {
 	enum QuitReason {
 		INVALID = 0;

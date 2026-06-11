@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message _SpecificGameserver {
-	uint32 FFONEBABEPA = 1;
-	uint32 INAILFDAIHK = 2;
-}

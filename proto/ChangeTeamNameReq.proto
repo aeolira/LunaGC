@@ -2,8 +2,7 @@
 
 
 
-
 message ChangeTeamNameReq {
-	string team_name = 4;
-	int32 team_id = 9;
+	
+	
 }

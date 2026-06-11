@@ -1,7 +1,0 @@
-﻿syntax = "proto3";
-
-enum LILOKJFOOBI {
-	LILOKJFOOBI_NONE = 0;
-	LILOKJFOOBI_SUCC = 1;
-	LILOKJFOOBI_FAIL = 2;
-}

@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message _Mvm2SimulateSettleInfo {
-	uint32 use_time = 8;
-	uint32 progress = 13;
-}

@@ -2,7 +2,6 @@
 
 
 
-
 message QuestDelNotify {
-	uint32 quest_id = 10;
+	
 }

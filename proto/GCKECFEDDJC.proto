@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "EIMPOEMEDCO.proto";
-
-message GCKECFEDDJC {
-	repeated EIMPOEMEDCO level_info_list = 4;
-}

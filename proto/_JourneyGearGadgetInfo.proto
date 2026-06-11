@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message _JourneyGearGadgetInfo {
-	uint32 level_id = 1;
-}

@@ -2,7 +2,6 @@
 
 
 
-
 message UnlockTransPointRsp {
-	int32 retcode = 7;
+	
 }

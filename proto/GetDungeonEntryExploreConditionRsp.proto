@@ -1,9 +1,8 @@
 ﻿syntax = "proto3";
 
-
 import "DungeonEntryCond.proto";
 
 message GetDungeonEntryExploreConditionRsp {
 	DungeonEntryCond dungeon_entry_cond = 2;
-	int32 retcode = 1;
+	
 }

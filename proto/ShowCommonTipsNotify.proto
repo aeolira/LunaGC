@@ -2,9 +2,8 @@
 
 
 
-
 message ShowCommonTipsNotify {
-	string content = 2;
-	string title = 12;
-	uint32 close_time = 5;
+	
+	
+	
 }

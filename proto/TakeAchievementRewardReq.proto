@@ -2,7 +2,6 @@
 
 
 
-
 message TakeAchievementRewardReq {
-	repeated uint32 id_list = 8;
+	repeated 
 }

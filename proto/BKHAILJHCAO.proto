@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-enum BKHAILJHCAO {
-	BKHAILJHCAO_DEFAULT_VALUE = 0;
-	BKHAILJHCAO__1 = 1;
-	BKHAILJHCAO__2 = 2;
-	BKHAILJHCAO__3 = 3;
-}

@@ -2,8 +2,7 @@
 
 
 
-
 message UnfreezeGroupLimitNotify {
-	uint32 point_id = 13;
-	uint32 scene_id = 14;
+	
+	
 }

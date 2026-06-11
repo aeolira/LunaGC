@@ -2,8 +2,7 @@
 
 
 
-
 message AvatarChangeElementTypeReq {
-	uint32 area_id = 14;
-	uint32 scene_id = 8;
+	
+	
 }

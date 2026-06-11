@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "GBEBLLDKKFE.proto";
-
-message _BeyondParamValueVector3List {
-	repeated GBEBLLDKKFE value_list = 1;
-}

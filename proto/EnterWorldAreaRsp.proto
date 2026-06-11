@@ -2,9 +2,8 @@
 
 
 
-
 message EnterWorldAreaRsp {
-	uint32 area_type = 7;
-	int32 retcode = 15;
-	uint32 area_id = 9;
+	
+	
+	
 }

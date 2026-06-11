@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message _BeyondParamValueString {
-	string value = 1;
-	uint32 EAOANFJNBBN = 2;
-}

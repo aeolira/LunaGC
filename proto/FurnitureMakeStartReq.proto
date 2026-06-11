@@ -2,8 +2,7 @@
 
 
 
-
 message FurnitureMakeStartReq {
-	uint32 avatar_id = 5;
-	uint32 make_id = 1;
+	
+	
 }

@@ -1,22 +1,21 @@
 ﻿syntax = "proto3";
 
-
 import "ForwardType.proto";
 import "Vector.proto";
 
 message EvtAvatarEnterFocusNotify {
 	Vector focus_forward = 14;
-	uint32 entity_id = 5;
-	bool BBNDBGIEKEE = 4;
-	bool NNHEEAGDKKP = 1;
-	bool IJIJMGLOLHH = 6;
-	bool BEGFMNLPGJJ = 15;
-	bool HHBONFGMOCO = 12;
-	bool OJMAFMLJOGP = 10;
+	
+	
+	
+	
+	
+	
+	
 	ForwardType forward_type = 9;
-	int32 HGJJLJOPCBD = 2;
-	bool NHGJFJGBKBG = 11;
-	bool ECHEICGDKMH = 3;
-	bool EMFOELNDBJB = 13;
-	bool DFDIBMEOFIO = 7;
+	
+	
+	
+	
+	
 }

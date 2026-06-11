@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "OABDEHEDOGM.proto";
-
-message OBAPBONFOFH {
-	OABDEHEDOGM GPGMMAJCBKK = 13;
-}

@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message KPCGKOGHPJB {
-	int32 HENEJAIPCOB = 1;
-	bool is_active = 2;
-}

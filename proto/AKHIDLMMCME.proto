@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message AKHIDLMMCME {
-	uint64 HINIKLIHACA = 1;
-	uint32 AJNBLBHIPML = 2;
-}

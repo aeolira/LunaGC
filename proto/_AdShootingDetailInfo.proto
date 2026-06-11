@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "PALLIFJMOCL.proto";
-
-message _AdShootingDetailInfo {
-	repeated PALLIFJMOCL level_info_list = 6;
-}

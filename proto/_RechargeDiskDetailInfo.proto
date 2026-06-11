@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "JHFFPEOIEOC.proto";
-
-message _RechargeDiskDetailInfo {
-	repeated JHFFPEOIEOC level_info_list = 14;
-}

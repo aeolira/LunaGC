@@ -1,7 +1,0 @@
-﻿syntax = "proto3";
-
-enum BCIFOBHMHAC {
-	BCIFOBHMHAC_NONE = 0;
-	BCIFOBHMHAC_NORMAL = 1;
-	BCIFOBHMHAC_EQUIP = 2;
-}

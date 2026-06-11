@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message _LoliFriendDetailInfo {
-	uint32 NFNGBLPJMAI = 11;
-}

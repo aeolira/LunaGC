@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message BartenderTaskInfo {
-	uint32 id = 4;
-	bool is_finish = 2;
-}

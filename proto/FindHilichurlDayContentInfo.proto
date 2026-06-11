@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message FindHilichurlDayContentInfo {
-	uint32 start_time = 11;
-}

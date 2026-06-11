@@ -2,8 +2,7 @@
 
 
 
-
 message EntityFightPropUpdateNotify {
 	map<uint32, float> fight_prop_map = 11;
-	uint32 entity_id = 5;
+	
 }

@@ -1,9 +1,8 @@
 ﻿syntax = "proto3";
 
-
 import "ChatInfo.proto";
 
 message PullPrivateChatRsp {
 	repeated ChatInfo chat_info = 3;
-	int32 retcode = 8;
+	
 }

@@ -2,7 +2,6 @@
 
 
 
-
 message PersonalSceneJumpReq {
-	uint32 point_id = 1;
+	
 }

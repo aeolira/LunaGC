@@ -1,6 +1,5 @@
 ﻿syntax = "proto3";
 
-
 import "DPDAPPMNNFA.proto";
 import "MonsterRoute.proto";
 import "ServantInfo.proto";
@@ -10,8 +9,8 @@ message SceneEntityAiInfo {
 	ServantInfo servant_info = 4;
 	map<uint32, uint32> ai_threat_map = 5;
 	map<uint32, uint32> skill_group_cd_map = 6;
-	uint32 cur_tactic = 7;
-	bool is_entered_combat = 8;
+	
+	
 	MonsterRoute monster_route = 9;
 	DPDAPPMNNFA ECJICJHFJDM = 10;
 }

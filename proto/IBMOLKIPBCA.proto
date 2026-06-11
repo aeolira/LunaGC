@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message IBMOLKIPBCA {
-	int32 key_hash = 1;
-	float value = 2;
-}

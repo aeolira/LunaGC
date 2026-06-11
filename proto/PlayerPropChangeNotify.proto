@@ -2,8 +2,7 @@
 
 
 
-
 message PlayerPropChangeNotify {
-	uint32 prop_type = 2;
-	uint32 prop_delta = 5;
+	
+	
 }

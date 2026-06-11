@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message KGENIDEPJMK {
-	uint32 JCHFCONGIEL = 6;
-	uint32 JAFMKKNEDGN = 7;
-}

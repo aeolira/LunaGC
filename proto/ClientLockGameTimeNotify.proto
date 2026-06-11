@@ -2,7 +2,6 @@
 
 
 
-
 message ClientLockGameTimeNotify {
-	bool is_lock = 9;
+	
 }

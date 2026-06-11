@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "KJBANLFPOIO.proto";
-
-message DFEECEMHIPB {
-	repeated KJBANLFPOIO DHEBKEFIGAA = 3;
-}

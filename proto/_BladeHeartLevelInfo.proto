@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message _BladeHeartLevelInfo {
-	bool MCONBNJNFBM = 1;
-	bool is_perfect = 7;
-}

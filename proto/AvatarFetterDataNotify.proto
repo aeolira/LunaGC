@@ -1,7 +1,6 @@
 ﻿syntax = "proto3";
 
 
-import "AvatarFetterInfo.proto";
 
 message AvatarFetterDataNotify {
 	map<uint64, AvatarFetterInfo> fetter_info_map = 15;

@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "Uint32Pair.proto";
-
-message _LimitedTimeRewardAreaBannerDetailInfo {
-	repeated Uint32Pair IKPKOLNNECJ = 1;
-}

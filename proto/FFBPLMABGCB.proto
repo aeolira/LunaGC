@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "LHOCCEIBCMC.proto";
-
-message FFBPLMABGCB {
-	LHOCCEIBCMC DKFABEBFEPI = 1;
-	bool AIOJOPPBLBM = 2;
-}

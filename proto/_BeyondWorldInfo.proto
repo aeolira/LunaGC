@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message _BeyondWorldInfo {
-	repeated uint64 BHMFCPKPMFF = 2;
-	uint32 PGOLFHFMPPC = 1;
-}

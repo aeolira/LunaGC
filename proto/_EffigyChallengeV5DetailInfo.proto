@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "OIHFBCKPFPK.proto";
-
-message _EffigyChallengeV5DetailInfo {
-	repeated OIHFBCKPFPK level_info_list = 11;
-	bool PPNGFGBPIGF = 8;
-}

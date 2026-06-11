@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "FLDKHFEGHIM.proto";
-
-message _MinloadGameserver {
-	FLDKHFEGHIM PCNPNJFPKNM = 1;
-}

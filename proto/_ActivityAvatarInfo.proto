@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message _ActivityAvatarInfo {
-	bool is_trial_avatar = 9;
-	uint32 avatar_id = 11;
-}

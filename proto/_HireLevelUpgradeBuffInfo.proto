@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message _HireLevelUpgradeBuffInfo {
-	repeated uint32 AGBCGHMGDNA = 1;
-}

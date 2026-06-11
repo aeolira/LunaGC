@@ -2,7 +2,6 @@
 
 
 
-
 message BargainTerminateNotify {
-	uint32 bargain_id = 12;
+	
 }

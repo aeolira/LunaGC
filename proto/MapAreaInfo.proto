@@ -2,8 +2,7 @@
 
 
 
-
 message MapAreaInfo {
-	uint32 map_area_id = 1;
-	bool is_open = 2;
+	
+	
 }

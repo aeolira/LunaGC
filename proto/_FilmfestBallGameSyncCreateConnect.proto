@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message _FilmfestBallGameSyncCreateConnect {
-	repeated uint32 uid_list = 1;
-}

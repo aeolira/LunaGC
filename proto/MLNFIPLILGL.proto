@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "FBFJCDDEMHL.proto";
-
-message MLNFIPLILGL {
-	repeated FBFJCDDEMHL level_info_list = 2;
-}

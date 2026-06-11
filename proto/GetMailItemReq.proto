@@ -2,7 +2,6 @@
 
 
 
-
 message GetMailItemReq {
-	repeated uint32 mail_id_list = 2;
+	repeated 
 }

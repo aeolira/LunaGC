@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "IOLKHFCLGFP.proto";
-
-message _BeyondParamValueEnum {
-	IOLKHFCLGFP value = 1;
-}

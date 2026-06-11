@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "MAGNKPBKINP.proto";
-
-message CALOFHFDFAE {
-	repeated MAGNKPBKINP photo_pos_data_list = 9;
-}

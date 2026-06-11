@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "HFEIPBJIMPC.proto";
-
-message JFBBEGPMBBL {
-	repeated HFEIPBJIMPC PHJGDIIELND = 1;
-}

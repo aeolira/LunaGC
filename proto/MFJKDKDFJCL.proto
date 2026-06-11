@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-
-message MFJKDKDFJCL {
-	uint32 _auto_chess_chess_id = 1;
-	uint32 _chess_level_up_id = 3;
-}

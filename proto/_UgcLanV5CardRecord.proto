@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "CKMLAFEBDPI.proto";
-
-message _UgcLanV5CardRecord {
-	repeated CKMLAFEBDPI FKADPJEFBCJ = 13;
-}

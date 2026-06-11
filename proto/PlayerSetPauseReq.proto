@@ -2,7 +2,6 @@
 
 
 
-
 message PlayerSetPauseReq {
-	bool is_paused = 14;
+	
 }

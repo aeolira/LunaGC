@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "BGKAEANCLFK.proto";
-
-message OOOABJGNLEK {
-	repeated BGKAEANCLFK avatar_list = 10;
-}

@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-import "KNHOOIKBILB.proto";
-
-message JFFKHDNEMBM {
-	uint32 level_id = 9;
-	KNHOOIKBILB AMPCBIIDKBO = 1;
-}
