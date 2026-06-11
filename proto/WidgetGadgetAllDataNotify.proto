@@ -1,7 +1,0 @@
-﻿syntax = "proto3";
-
-import "WidgetGadgetData.proto";
-
-message WidgetGadgetAllDataNotify {
-	repeated WidgetGadgetData widget_gadget_data = 4;
-}

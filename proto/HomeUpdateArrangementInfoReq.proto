@@ -1,7 +1,0 @@
-﻿syntax = "proto3";
-
-import "HomeSceneArrangementInfo.proto";
-
-message HomeUpdateArrangementInfoReq {
-	HomeSceneArrangementInfo scene_arrangement_info = 7;
-}

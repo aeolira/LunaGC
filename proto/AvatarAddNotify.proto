@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-import "AvatarInfo.proto";
-
-message AvatarAddNotify {
-	AvatarInfo avatar = 14;
-	bool is_in_team = 11;
-}

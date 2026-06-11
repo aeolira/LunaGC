@@ -1,7 +1,0 @@
-﻿syntax = "proto3";
-
-import "FireworksLaunchSchemeData.proto";
-
-message LaunchFireworksReq {
-	FireworksLaunchSchemeData scheme_data = 4;
-}

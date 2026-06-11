@@ -1,7 +1,0 @@
-﻿syntax = "proto3";
-
-import "AbilityInvokeEntry.proto";
-
-message AbilityInvocationsNotify {
-	repeated AbilityInvokeEntry invokes = 12;
-}

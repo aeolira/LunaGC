@@ -1,7 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-message QueryCodexMonsterBeKilledNumReq {
-	repeated uint32 codex_id_list = 4;
-}

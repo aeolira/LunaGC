@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-message PostEnterSceneReq {
-	double total_tick_time = 11;
-	uint32 enter_scene_token = 4 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val ^ 18690) - 46006"];
-}

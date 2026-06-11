@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-import "HomeResource.proto";
-
-message HomeResourceNotify {
-	HomeResource fetter_exp = 7;
-	HomeResource home_coin = 10;
-}

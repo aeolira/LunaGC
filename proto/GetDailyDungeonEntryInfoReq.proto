@@ -1,7 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-message GetDailyDungeonEntryInfoReq {
-	uint32 scene_id = 3;
-}

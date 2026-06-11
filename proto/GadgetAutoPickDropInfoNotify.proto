@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-import "Item.proto";
-import "LDKNMJCLOOO.proto";
-
-message GadgetAutoPickDropInfoNotify {
-	repeated Item item_list = 13;
-	repeated LDKNMJCLOOO BDLJBLMDLJL = 8;
-}

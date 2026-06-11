@@ -1,7 +1,0 @@
-﻿syntax = "proto3";
-
-import "ChatInfo.proto";
-
-message PrivateChatNotify {
-	ChatInfo chat_info = 11;
-}

@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-message ChooseCurAvatarTeamRsp {
-	uint32 cur_team_id = 11;
-	int32 retcode = 4;
-}

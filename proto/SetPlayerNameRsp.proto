@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-message SetPlayerNameRsp {
-	string nick_name = 9;
-	int32 retcode = 1;
-}

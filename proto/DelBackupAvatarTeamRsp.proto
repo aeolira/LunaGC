@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-message DelBackupAvatarTeamRsp {
-	uint32 backup_avatar_team_id = 8;
-	int32 retcode = 15;
-}

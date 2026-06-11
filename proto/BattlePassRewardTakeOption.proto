@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-import "BattlePassRewardTag.proto";
-
-message BattlePassRewardTakeOption {
-	BattlePassRewardTag tag = 5;
-	uint32 _battle_pass_plan = 8;
-	uint32 option_idx = 12;
-}

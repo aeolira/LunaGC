@@ -1,7 +1,0 @@
-﻿syntax = "proto3";
-
-import "PlayerRTTInfo.proto";
-
-message WorldPlayerRTTNotify {
-	repeated PlayerRTTInfo player_rtt_list = 15;
-}

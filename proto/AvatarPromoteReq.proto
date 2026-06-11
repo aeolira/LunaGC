@@ -1,7 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-message AvatarPromoteReq {
-	uint64 guid = 15;
-}

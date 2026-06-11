@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-message PlayerChatRsp {
-	int32 retcode = 15;
-	uint32 chat_forbidden_endtime = 9;
-}

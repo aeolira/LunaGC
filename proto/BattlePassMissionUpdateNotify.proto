@@ -1,7 +1,0 @@
-﻿syntax = "proto3";
-
-import "BattlePassMission.proto";
-
-message BattlePassMissionUpdateNotify {
-	repeated BattlePassMission mission_list = 5;
-}

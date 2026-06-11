@@ -1,7 +1,0 @@
-﻿syntax = "proto3";
-
-import "FireworksReformData.proto";
-
-message ReformFireworksReq {
-	FireworksReformData fireworks_reform_data = 9;
-}

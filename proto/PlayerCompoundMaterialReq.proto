@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-message PlayerCompoundMaterialReq {
-	uint32 compound_id = 1;
-	uint32 count = 9;
-}

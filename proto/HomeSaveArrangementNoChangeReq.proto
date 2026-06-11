@@ -1,7 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-message HomeSaveArrangementNoChangeReq {
-	uint32 scene_id = 4;
-}

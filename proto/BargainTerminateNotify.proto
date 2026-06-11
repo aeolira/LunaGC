@@ -1,7 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-message BargainTerminateNotify {
-	uint32 bargain_id = 12;
-}

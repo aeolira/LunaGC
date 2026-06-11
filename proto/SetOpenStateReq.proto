@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-message SetOpenStateReq {
-	uint32 value = 5;
-	uint32 key = 9;
-}

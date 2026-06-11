@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-import "ChatInfo.proto";
-
-message PlayerChatNotify {
-	ChatInfo chat_info = 14;
-	uint32 channel_id = 2;
-}

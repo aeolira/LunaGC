@@ -1,7 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-message StartCoopPointReq {
-	uint32 coop_point = 6;
-}

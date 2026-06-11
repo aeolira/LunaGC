@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-import "UgcType.proto";
-
-message CheckUgcUpdateRsp {
-	repeated uint64 update_ugc_guid_list = 12;
-	UgcType ugc_type = 14;
-	int32 retcode = 1;
-}

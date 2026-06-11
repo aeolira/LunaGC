@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-message ReliquaryDecomposeRsp {
-	repeated uint64 guid_list = 13;
-	int32 retcode = 8;
-}

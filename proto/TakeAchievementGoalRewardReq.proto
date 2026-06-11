@@ -1,7 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-message TakeAchievementGoalRewardReq {
-	repeated uint32 id_list = 8;
-}

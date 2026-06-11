@@ -1,7 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-message AvatarGainCostumeNotify {
-	uint32 costume_id = 5;
-}

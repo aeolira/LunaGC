@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-message TowerEnterLevelReq {
-	bool NFCFCCADHLN = 5;
-	uint32 enter_point_id = 15;
-}

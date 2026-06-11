@@ -1,7 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-message ClientLockGameTimeNotify {
-	bool is_lock = 9;
-}

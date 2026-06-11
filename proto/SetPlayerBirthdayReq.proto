@@ -1,7 +1,0 @@
-﻿syntax = "proto3";
-
-import "Birthday.proto";
-
-message SetPlayerBirthdayReq {
-	Birthday birthday = 9;
-}

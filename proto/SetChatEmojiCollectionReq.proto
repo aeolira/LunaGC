@@ -1,7 +1,0 @@
-﻿syntax = "proto3";
-
-import "ChatEmojiCollectionData.proto";
-
-message SetChatEmojiCollectionReq {
-	ChatEmojiCollectionData chat_emoji_collection_data = 14;
-}

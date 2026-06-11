@@ -1,7 +1,0 @@
-﻿syntax = "proto3";
-
-import "GivingRecord.proto";
-
-message GivingRecordNotify {
-	repeated GivingRecord giving_record_list = 8;
-}

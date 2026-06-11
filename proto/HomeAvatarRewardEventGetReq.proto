@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-message HomeAvatarRewardEventGetReq {
-	uint32 avatar_id = 5;
-	uint32 event_id = 10;
-}

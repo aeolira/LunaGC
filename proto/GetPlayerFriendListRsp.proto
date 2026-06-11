@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-import "FriendBrief.proto";
-
-message GetPlayerFriendListRsp {
-	repeated FriendBrief ask_friend_list = 15;
-	repeated FriendBrief friend_list = 2;
-	int32 retcode = 10;
-}

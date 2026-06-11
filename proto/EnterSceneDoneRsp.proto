@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-message EnterSceneDoneRsp {
-	uint32 enter_scene_token = 11 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val ^ 49009) - 34315"];
-	int32 retcode = 14 [(ys_custom).is_masked = true, (ys_custom).value_mask = "(val ^ 27936) - 48812"];
-}

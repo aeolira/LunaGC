@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-import "AbilityInvokeEntry.proto";
-
-message ClientAbilityInitFinishNotify {
-	repeated AbilityInvokeEntry invokes = 2;
-	uint32 entity_id = 4;
-}

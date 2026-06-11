@@ -1,7 +1,0 @@
-﻿syntax = "proto3";
-
-import "QuestGlobalVar.proto";
-
-message QuestGlobalVarNotify {
-	repeated QuestGlobalVar var_list = 6;
-}

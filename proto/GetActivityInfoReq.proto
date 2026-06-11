@@ -1,7 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-message GetActivityInfoReq {
-	repeated uint32 activity_id_list = 3;
-}

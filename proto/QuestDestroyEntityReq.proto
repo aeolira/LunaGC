@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-message QuestDestroyEntityReq {
-	uint32 scene_id = 3;
-	uint32 quest_id = 12;
-	uint32 entity_id = 8;
-}

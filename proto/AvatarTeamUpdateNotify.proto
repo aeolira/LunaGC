@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-message AvatarTeamUpdateNotify {
-	repeated uint64 temp_avatar_guid_list = 13;
-	map<uint32, AvatarTeam> avatar_team_map = 7;
-}

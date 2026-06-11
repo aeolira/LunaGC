@@ -1,7 +1,0 @@
-﻿syntax = "proto3";
-
-import "Quest.proto";
-
-message QuestListUpdateNotify {
-	repeated Quest quest_list = 7;
-}

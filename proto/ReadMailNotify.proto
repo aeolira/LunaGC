@@ -1,7 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-message ReadMailNotify {
-	repeated uint32 mail_id_list = 4;
-}

@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-message WearEquipRsp {
-	int32 retcode = 4;
-	uint64 avatar_guid = 10;
-	uint64 equip_guid = 11;
-}

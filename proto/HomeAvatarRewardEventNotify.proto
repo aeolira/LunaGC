@@ -1,9 +1,0 @@
-﻿syntax = "proto3";
-
-import "HomeAvatarRewardEventInfo.proto";
-
-message HomeAvatarRewardEventNotify {
-	repeated HomeAvatarRewardEventInfo pending_list = 10;
-	HomeAvatarRewardEventInfo reward_event = 11;
-	bool is_event_trigger = 12;
-}

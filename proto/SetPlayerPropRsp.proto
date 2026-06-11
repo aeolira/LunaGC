@@ -1,7 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-message SetPlayerPropRsp {
-	int32 retcode = 2;
-}

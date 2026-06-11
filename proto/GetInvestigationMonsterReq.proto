@@ -1,8 +1,0 @@
-﻿syntax = "proto3";
-
-
-
-message GetInvestigationMonsterReq {
-	repeated uint32 city_id_list = 11;
-	bool is_for_mark = 14;
-}
