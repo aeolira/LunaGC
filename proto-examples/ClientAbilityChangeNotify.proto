@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "AbilityInvokeEntry.proto";
+
+// opcode: 25821
+message ClientAbilityChangeNotify {
+  bool is_init_hash = 4;
+  uint32 entity_id = 2;
+  repeated AbilityInvokeEntry invokes = 9;
+}

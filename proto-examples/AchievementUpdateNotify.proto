@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "Achievement.proto";
+
+// opcode: 20114
+message AchievementUpdateNotify {
+  repeated Achievement achievement_list = 11;
+}

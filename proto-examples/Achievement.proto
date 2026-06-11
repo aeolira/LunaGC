@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message Achievement {
+  enum Status {
+    STATUS_INVALID = 0;
+    STATUS_UNFINISHED = 1;
+    STATUS_FINISHED = 2;
+    STATUS_REWARD_TAKEN = 3;
+  }
+  uint32 id = 4;
+  Status status = 11;
+  uint32 finish_timestamp = 14;
+  uint32 cur_progress = 8;
+  uint32 total_progress = 1;
+}

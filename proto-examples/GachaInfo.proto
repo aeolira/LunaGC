@@ -1,0 +1,5 @@
+syntax = "proto3";
+
+message GachaInfo {
+  string gacha_record_url = 13;
+}

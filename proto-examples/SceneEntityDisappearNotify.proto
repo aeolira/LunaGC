@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "VisionType.proto";
+
+// opcode: 23139
+message SceneEntityDisappearNotify {
+  VisionType disappear_type = 7;
+  repeated uint32 entity_list = 5;
+}

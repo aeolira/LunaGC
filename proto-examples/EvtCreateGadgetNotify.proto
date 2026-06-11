@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+import "AbilityString.proto";
+import "ForwardType.proto";
+import "Vector.proto";
+
+// opcode: 25070
+message EvtCreateGadgetNotify {
+  ForwardType forward_type = 8;
+  Vector init_pos = 6;
+  Vector init_euler_angles = 7;
+  uint32 config_id = 3;
+  uint32 camp_id = 13;
+  uint32 camp_type = 2;
+  uint32 entity_id = 4;
+  uint32 owner_entity_id = 12;
+  uint32 prop_owner_entity_id = 14;
+  uint32 target_entity_id = 11;
+  AbilityString ability_name = 591;
+}

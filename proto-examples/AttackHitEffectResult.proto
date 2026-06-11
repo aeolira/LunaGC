@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+message AttackHitEffectResult {
+  float hit_halt_time = 6;
+  float hit_halt_time_scale = 2;
+}

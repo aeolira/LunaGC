@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+// opcode: 4838
+message GetPlayerTokenRsp {
+  uint32 uid = 5;
+}

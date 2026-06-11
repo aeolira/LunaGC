@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+import "Item.proto";
+import "StoreType.proto";
+
+// opcode: 26571
+message StoreItemChangeNotify {
+  StoreType store_type = 7;
+  repeated Item item_list = 9;
+}

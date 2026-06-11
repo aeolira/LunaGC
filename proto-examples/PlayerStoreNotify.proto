@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "Item.proto";
+import "StoreType.proto";
+
+// opcode: 24104
+message PlayerStoreNotify {
+  StoreType store_type = 6;
+  uint32 weight_limit = 2;
+  repeated Item item_list = 3;
+}

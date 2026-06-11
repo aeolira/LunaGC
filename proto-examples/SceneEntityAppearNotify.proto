@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "SceneEntityInfo.proto";
+import "VisionType.proto";
+
+// opcode: 5582
+message SceneEntityAppearNotify {
+  VisionType appear_type = 1;
+  uint32 param = 4;
+  repeated SceneEntityInfo entity_list = 10;
+}

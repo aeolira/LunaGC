@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "ChangeEnergyReason.proto";
+import "ChangeHpDebts.proto";
+import "ChangeHpReason.proto";
+import "PropChangeReason.proto";
+
+// opcode: 27992
+message EntityFightPropChangeReasonNotify {
+  uint32 entity_id = 15;
+  PropChangeReason reason = 10;
+  ChangeHpReason change_hp_reason = 8;
+  ChangeHpDebts change_hp_debts = 12;
+  ChangeEnergyReason change_energy_reason = 13;
+  repeated uint32 param_list = 14;
+  uint32 prop_type = 9;
+  float prop_delta = 5;
+}

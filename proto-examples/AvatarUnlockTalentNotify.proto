@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+// opcode: 25134
+message AvatarUnlockTalentNotify {
+  uint32 skill_depot_id = 5;
+  uint64 avatar_guid = 2;
+  uint32 entity_id = 13;
+  uint32 talent_id = 7;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "GachaInfo.proto";
+
+// opcode: 27750
+message GetGachaInfoRsp {
+  repeated GachaInfo gacha_info_list = 1;
+}

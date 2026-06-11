@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+import "CombatInvokeEntry.proto";
+
+// opcode: 4810
+message CombatInvocationsNotify {
+  repeated CombatInvokeEntry invoke_list = 13;
+}

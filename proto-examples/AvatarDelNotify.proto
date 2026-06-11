@@ -1,0 +1,6 @@
+syntax = "proto3";
+
+// opcode: 27942
+message AvatarDelNotify {
+  repeated uint64 avatar_guid_list = 12;
+}

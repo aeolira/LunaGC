@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+import "AbilityAttachedModifier.proto";
+import "AbilityString.proto";
+import "ModifierAction.proto";
+import "ModifierProperty.proto";
+
+message AbilityMetaModifierChange {
+  ModifierAction action = 13;
+  int32 modifier_local_id = 14;
+  uint32 apply_entity_id = 5;
+  uint64 avatar_guid = 9;
+  bool is_mute_remote = 7;
+  bool is_attached_parent_ability = 15;
+  AbilityString parent_ability_name = 12;
+  AbilityAttachedModifier attached_instanced_modifier = 8;
+  repeated ModifierProperty properties = 3;
+}

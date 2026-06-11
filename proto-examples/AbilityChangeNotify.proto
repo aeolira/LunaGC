@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "AbilityControlBlock.proto";
+
+// opcode: 28188
+message AbilityChangeNotify {
+  uint32 entity_id = 13;
+  AbilityControlBlock ability_control_block = 9;
+}

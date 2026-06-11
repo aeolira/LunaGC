@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "StoreType.proto";
+
+// opcode: 4248
+message StoreItemDelNotify {
+  StoreType store_type = 1;
+  repeated uint64 guid_list = 11;
+}

@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+import "AbilityIdentifier.proto";
+import "AttackHitEffectResult.proto";
+import "HitCollision.proto";
+import "Vector.proto";
+
+message AttackResult {
+  uint32 attack_timestamp_ms = 410;
+  uint32 attacker_id = 1;
+  uint32 defense_id = 5;
+  uint32 target_type = 1846;
+  float damage = 3;
+  float damage_shield = 1023;
+  bool is_resist_text = 1697;
+  bool is_crit = 2;
+  uint32 critical_rand = 605;
+  uint32 hashed_anim_event_id = 520;
+  AbilityIdentifier ability_identifier = 10;
+  uint32 hit_pos_type = 7;
+  int32 hit_retreat_angle_compat = 15;
+  AttackHitEffectResult hit_eff_result = 8;
+  HitCollision hit_collision = 6;
+  Vector resolved_dir = 11;
+  uint32 endure_break = 13;
+  float endure_delta = 151;
+  uint32 element_type = 9;
+  uint32 addhurt_reaction_type = 1819;
+  uint32 amplify_reaction_type = 1820;
+  float element_amplify_rate = 1073;
+  float element_durability_attenuation = 142;
+  bool mute_element_hurt = 643;
+  uint32 bullet_fly_time_ms = 1580;
+  uint32 attack_count = 56;
+}

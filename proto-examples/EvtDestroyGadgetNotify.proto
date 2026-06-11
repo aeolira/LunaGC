@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "ForwardType.proto";
+
+// opcode: 9557
+message EvtDestroyGadgetNotify {
+  ForwardType forward_type = 1;
+  uint32 entity_id = 4;
+}

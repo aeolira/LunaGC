@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+import "PropValue.proto";
+
+// opcode: 5677
+message PlayerDataNotify {
+  string nick_name = 1;
+  uint64 server_time = 2;
+  map<uint32, PropValue> prop_map = 8;
+  uint32 region_id = 14;
+}

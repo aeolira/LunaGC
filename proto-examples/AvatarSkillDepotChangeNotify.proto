@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+// opcode: 26732
+message AvatarSkillDepotChangeNotify {
+  map<uint32, uint32> proud_skill_extra_level_map = 14;
+  repeated uint32 proud_skill_list = 5;
+  uint32 entity_id = 9;
+  uint64 avatar_guid = 8;
+  map<uint32, uint32> skill_level_map = 7;
+  uint32 skill_depot_id = 6;
+  repeated uint32 talent_id_list = 13;
+}

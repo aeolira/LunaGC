@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "AbilityInvokeEntry.proto";
+
+// opcode: 20007
+message ClientAbilityInitFinishNotify {
+  uint32 entity_id = 5;
+  repeated AbilityInvokeEntry invokes = 15;
+}

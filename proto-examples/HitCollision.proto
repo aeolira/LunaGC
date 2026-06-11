@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "Vector.proto";
+
+message HitCollision {
+  int32 hit_box_index = 6;
+  Vector hit_dir = 3;
+  Vector hit_point = 14;
+}

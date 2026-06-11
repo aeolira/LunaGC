@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+import "SceneTeamAvatar.proto";
+
+// opcode: 21351
+message SceneTeamUpdateNotify {
+  bool is_in_mp = 14;
+  repeated SceneTeamAvatar scene_team_avatar_list = 15;
+}
