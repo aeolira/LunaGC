@@ -1,0 +1,20 @@
+﻿syntax = "proto3";
+
+
+import "_BeyondMaterial.proto";
+import "_Facility.proto";
+import "Equip.proto";
+import "Furniture.proto";
+import "Material.proto";
+
+message Item {
+	uint32 item_id = 1;
+	uint64 guid = 2;
+	oneof detail {
+		Material material = 5;
+		Equip equip = 6;
+		Furniture furniture = 7;
+		_BeyondMaterial beyond_material = 8;
+		_Facility facility = 9;
+	}
+}

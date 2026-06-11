@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+
+
+import "GLLDIMINEOH.proto";
+
+message MJNLABOJJBC {
+	repeated GLLDIMINEOH AHBJGFOBDIK = 1;
+}

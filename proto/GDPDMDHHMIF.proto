@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+
+
+
+message GDPDMDHHMIF {
+	uint32 max_score = 11;
+	uint32 level_id = 14;
+}

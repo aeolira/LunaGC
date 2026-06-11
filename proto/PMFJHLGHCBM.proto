@@ -1,0 +1,14 @@
+﻿syntax = "proto3";
+
+
+import "EDFELFMNFHA.proto";
+import "FCMLFGCLBPF.proto";
+
+message PMFJHLGHCBM {
+	repeated FCMLFGCLBPF AEDOIPOPKKE = 14;
+	repeated EDFELFMNFHA player_info_list = 3;
+	uint32 difficulty = 15;
+	uint32 schedule_id = 5;
+	fixed64 timestamp = 9;
+	bool MMBHBAPJPAA = 11;
+}

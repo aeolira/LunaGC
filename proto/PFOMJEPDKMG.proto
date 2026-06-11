@@ -1,0 +1,16 @@
+﻿syntax = "proto3";
+
+
+import "ShowAvatarInfo.proto";
+
+message PFOMJEPDKMG {
+	repeated ShowAvatarInfo KKKNPMEBCLD = 11;
+	uint32 BBLMOLEANPI = 13;
+	uint32 NJLOKDOEMOI = 2;
+	uint32 FNJPGLDCDNO = 5;
+	uint32 GDHNDCBDMKB = 1;
+	uint32 level_id = 15;
+	bool is_finish = 8;
+	bool is_open = 6;
+	uint32 FEHEOJBOCLC = 3;
+}

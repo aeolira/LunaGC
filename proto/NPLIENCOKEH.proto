@@ -1,0 +1,11 @@
+﻿syntax = "proto3";
+
+
+import "AJNOOEKDLMF.proto";
+
+message NPLIENCOKEH {
+	repeated AJNOOEKDLMF PHLHDAAFFNI = 9;
+	bool is_finished = 13;
+	bool is_open = 1;
+	uint32 stage_id = 2;
+}

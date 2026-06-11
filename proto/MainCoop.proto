@@ -1,0 +1,20 @@
+﻿syntax = "proto3";
+
+
+
+
+message MainCoop {
+	enum Status {
+		INVALID = 0;
+		RUNNING = 1;
+		FINISHED = 2;
+	}
+
+	map<uint32, uint32> seen_ending_map = 3;
+	repeated uint32 save_point_id_list = 10;
+	map<uint32, int32> LJNNMKNNKKI = 15;
+	map<uint32, int32> CDKIKAIMDKC = 11;
+	Status status = 14;
+	uint32 id = 13;
+	uint32 self_confidence = 1;
+}

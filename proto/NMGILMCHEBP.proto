@@ -1,0 +1,15 @@
+﻿syntax = "proto3";
+
+
+
+
+message NMGILMCHEBP {
+	repeated uint32 FJLKIOGAFPB = 2;
+	uint32 level_id = 15;
+	uint32 CJGCBAFHEII = 9;
+	uint32 LNBGNANIFHH = 5;
+	uint32 CLFBNNNJLDE = 6;
+	bool is_played = 7;
+	bool is_unlock = 8;
+	bool is_finished = 11;
+}

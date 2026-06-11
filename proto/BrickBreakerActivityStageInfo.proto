@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+
+
+
+message BrickBreakerActivityStageInfo {
+	uint32 stage_id = 9;
+	bool FIFFLCNMLHJ = 11;
+	bool CLCKCMGOLDI = 5;
+}

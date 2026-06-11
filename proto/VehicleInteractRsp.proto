@@ -1,0 +1,19 @@
+﻿syntax = "proto3";
+
+
+import "FHDPFCILAFJ.proto";
+import "Vector.proto";
+import "VehicleInteractType.proto";
+import "VehicleMember.proto";
+
+message VehicleInteractRsp {
+	Vector _vehicle_rot = 7;
+	VehicleMember member = 13;
+	Vector _vehicle_pos = 3;
+	int32 retcode = 6;
+	uint32 _vehicle_type = 8;
+	uint32 entity_id = 11;
+	FHDPFCILAFJ HAPPBJCJLIJ = 10;
+	VehicleInteractType interact_type = 5;
+	uint32 gadget_id = 2;
+}

@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+
+
+import "DFEABDHOKGE.proto";
+
+message _FungusFighterV3DetailInfo {
+	repeated DFEABDHOKGE level_info_list = 9;
+}

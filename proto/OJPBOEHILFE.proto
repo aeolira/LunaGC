@@ -1,0 +1,16 @@
+﻿syntax = "proto3";
+
+
+import "DPDLIOKBEPJ.proto";
+import "KMGECOOFMLO.proto";
+
+message OJPBOEHILFE {
+	string key = 1;
+	float CPOEJGOIHBB = 2;
+	uint64 FNADKAFOMLI = 3;
+	uint64 COEENDNKBNE = 4;
+	bool OCDNNDNAKED = 5;
+	DPDLIOKBEPJ status = 6;
+	float CCLDLNIOFJI = 7;
+	KMGECOOFMLO JMJMGBDFNPC = 8;
+}

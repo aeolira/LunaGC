@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+
+import "FBEBBCINOFJ.proto";
+import "MathQuaternion.proto";
+
+message _RouteMoverInfo {
+	MathQuaternion PGCBEECOKHF = 1;
+	FBEBBCINOFJ CMJLAEONCNN = 2;
+}

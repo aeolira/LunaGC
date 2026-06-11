@@ -1,0 +1,12 @@
+﻿syntax = "proto3";
+
+
+import "_ActivityAvatarInfo.proto";
+
+message JDBOGJOOJDB {
+	repeated _ActivityAvatarInfo DBBBIFLAMMJ = 10;
+	uint32 level_id = 2;
+	bool is_open = 7;
+	bool is_finish = 12;
+	uint32 best_score = 1;
+}

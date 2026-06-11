@@ -1,0 +1,19 @@
+﻿syntax = "proto3";
+
+
+import "_Vector2Int.proto";
+
+message AGBEDALGLKB {
+	uint32 id = 1;
+	_Vector2Int pos = 2;
+	int32 rotation = 3;
+	_Vector2Int FBKIGKEMJLC = 4;
+	uint32 IBCIJAJAIPC = 5;
+	repeated uint32 GIOAIHOGFDM = 6;
+	repeated _Vector2Int NABMBJEGFIN = 7;
+	repeated int32 int_param_list = 9;
+	uint32 AGIOIHBBKBM = 11;
+	uint32 config_id = 12;
+	uint32 KMFGABFCHEB = 13;
+	int32 EJPJDKDCPNJ = 14;
+}

@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+
+import "Vector.proto";
+
+message EvtAvatarLockChairReq {
+	Vector position = 8;
+	int32 direction = 15;
+	uint64 chair_id = 14;
+}

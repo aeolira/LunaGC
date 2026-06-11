@@ -1,0 +1,21 @@
+﻿syntax = "proto3";
+
+
+import "InterOpType.proto";
+import "ResinCostType.proto";
+
+message GadgetInteractReq {
+	ResinCostType resin_cost_type = 10;
+	bool OHFEGIOMKJC = 5;
+	bool BCFGLEKHFOB = 14;
+	bool GKGNOKBDBNM = 13;
+	bool EJOCPDPPKOF = 11;
+	uint32 KOMCKJBLOCP = 12;
+	uint32 gadget_entity_id = 4;
+	uint32 EEDEFLIOBKC = 3;
+	uint32 CDIGFADDFDI = 7;
+	bool BGHGNBKEODP = 1;
+	bool CENADDFKBHF = 6;
+	InterOpType op_type = 15;
+	uint32 gadget_id = 8;
+}

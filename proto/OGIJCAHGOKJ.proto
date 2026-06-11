@@ -1,0 +1,12 @@
+﻿syntax = "proto3";
+
+
+import "IPFCJBFJFKC.proto";
+
+message OGIJCAHGOKJ {
+	repeated uint32 KJFMHMAPEJA = 1;
+	repeated IPFCJBFJFKC NNPIPEEANMJ = 10;
+	repeated uint32 NEMMBLMFGIG = 9;
+	uint32 OLHAFDMICPK = 12;
+	uint32 PMDJNLPCGDK = 7;
+}

@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+
+import "Uint32Pair.proto";
+
+message JGOPGCBBOOM {
+	Uint32Pair DHOABAFMNJK = 1;
+	uint32 EOMMOBCPBAG = 2;
+}

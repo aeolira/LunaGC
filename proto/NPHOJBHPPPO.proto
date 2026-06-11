@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+
+
+
+message NPHOJBHPPPO {
+	uint32 level_id = 15;
+	bool is_finish = 12;
+	bool is_open = 11;
+}

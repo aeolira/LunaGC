@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+
+
+
+message ReliquaryDecomposeReq {
+	repeated uint64 guid_list = 11;
+	uint32 target_count = 13;
+	uint32 config_id = 1;
+}

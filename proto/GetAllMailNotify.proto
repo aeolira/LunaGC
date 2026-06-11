@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+
+
+
+
+message GetAllMailNotify {
+	bool is_collected = 8;
+}

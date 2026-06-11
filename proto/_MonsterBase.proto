@@ -1,0 +1,11 @@
+﻿syntax = "proto3";
+
+
+import "EJDGLPBDMIB.proto";
+
+message _MonsterBase {
+	uint32 MNPOJOCLIBN = 1;
+	uint32 JENHDOMLJGN = 2;
+	float DBJOACFOJAJ = 3;
+	repeated EJDGLPBDMIB LHJDNKGBKKE = 4;
+}

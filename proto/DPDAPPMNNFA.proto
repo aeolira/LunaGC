@@ -1,0 +1,16 @@
+﻿syntax = "proto3";
+
+
+import "_CurrentPhase.proto";
+import "_TacticReturnToBornPosInfo.proto";
+import "BIGEDPEGCBP.proto";
+import "PPFANIBMAPG.proto";
+
+message DPDAPPMNNFA {
+	_CurrentPhase HGMFILEBNNA = 1;
+	uint32 ECNDFANEHCB = 2;
+	_TacticReturnToBornPosInfo KCFPMBPFPDB = 3;
+	repeated BIGEDPEGCBP PHPCHAMNCEC = 4;
+	repeated BIGEDPEGCBP DHOBBFHOBMO = 5;
+	PPFANIBMAPG FNKIFFABOHG = 6;
+}

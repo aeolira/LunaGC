@@ -1,0 +1,17 @@
+﻿syntax = "proto3";
+
+
+import "MathQuaternion.proto";
+import "OBDALDAJPML.proto";
+import "Vector.proto";
+
+message EHDKPDJMFCL {
+	repeated OBDALDAJPML JOAJGGKNFKC = 1;
+	uint64 JAPGFBFMPFG = 2;
+	Vector KDCEEAJAKAA = 3;
+	Vector MMDEKLJHEPN = 4;
+	Vector init_pos = 5;
+	Vector KHDCJDILJCF = 6;
+	MathQuaternion BOLCEGBPEGK = 7;
+	MathQuaternion DJEMMFHCFEC = 8;
+}

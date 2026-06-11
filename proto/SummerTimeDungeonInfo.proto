@@ -1,0 +1,12 @@
+﻿syntax = "proto3";
+
+
+
+
+message SummerTimeDungeonInfo {
+	uint32 KNABOKNEPPL = 8;
+	uint32 OAONDINFDGK = 15;
+	uint32 IHFNDCGJJIC = 12;
+	uint32 dungeon_id = 7;
+	uint32 LHPGEEGKKPO = 4;
+}

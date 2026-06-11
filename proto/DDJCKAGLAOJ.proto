@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+
+
+
+message DDJCKAGLAOJ {
+	int32 id = 1;
+	bool is_active = 2;
+}

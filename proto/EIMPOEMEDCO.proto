@@ -1,0 +1,12 @@
+﻿syntax = "proto3";
+
+
+import "_ActivityAvatarInfo.proto";
+
+message EIMPOEMEDCO {
+	repeated _ActivityAvatarInfo select_avatar_list = 6;
+	uint32 max_score = 11;
+	uint32 level_id = 12;
+	bool is_open = 4;
+	bool is_finish = 1;
+}

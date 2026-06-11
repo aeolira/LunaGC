@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+
+
+import "CookRecipeData.proto";
+
+message CookRecipeDataNotify {
+	CookRecipeData recipe_data = 5;
+}

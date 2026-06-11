@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+
+
+import "BNCKEKCPJON.proto";
+
+message POJLECHLMMM {
+	repeated BNCKEKCPJON level_info_list = 4;
+}

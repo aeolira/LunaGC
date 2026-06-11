@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+
+import "RogueDiaryDungeonRecord.proto";
+
+message RogueDiaryStageInfo {
+	RogueDiaryDungeonRecord best_record = 11;
+	bool is_have_try = 14;
+	uint32 stage_id = 15;
+}

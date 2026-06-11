@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+
+import "_MapLayerInfo.proto";
+
+message _MirrorWorldSceneDetail {
+	repeated uint32 scene_tag_id_list = 6;
+	_MapLayerInfo _map_layer_info = 4;
+	uint32 _mirrored_scene_id = 3;
+}

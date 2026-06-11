@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+
+
+import "_LanV6CardText.proto";
+
+message _LanV6CardTextInfo {
+	repeated _LanV6CardText _card_text = 1;
+}

@@ -1,0 +1,12 @@
+﻿syntax = "proto3";
+
+
+import "ItemParam.proto";
+
+message WeaponUpgradeRsp {
+	repeated ItemParam item_param_list = 6;
+	uint32 old_level = 2;
+	uint32 cur_level = 13;
+	int32 retcode = 5;
+	uint64 target_weapon_guid = 7;
+}

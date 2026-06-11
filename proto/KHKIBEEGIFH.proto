@@ -1,0 +1,17 @@
+﻿syntax = "proto3";
+
+
+import "_CurrentPhase.proto";
+import "_EquipStuff.proto";
+import "_NormalStuff.proto";
+import "BCIFOBHMHAC.proto";
+
+message KHKIBEEGIFH {
+	_CurrentPhase NLFPJHIJDHD = 1;
+	BCIFOBHMHAC AIDBIDLICEK = 2;
+	uint32 guid = 3;
+	oneof detail {
+		_NormalStuff normal_stuff = 100;
+		_EquipStuff equip_stuff = 101;
+	}
+}

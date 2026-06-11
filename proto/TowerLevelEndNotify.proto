@@ -1,0 +1,12 @@
+﻿syntax = "proto3";
+
+
+import "ItemParam.proto";
+
+message TowerLevelEndNotify {
+	repeated uint32 finished_star_cond_list = 3;
+	repeated ItemParam reward_item_list = 4;
+	uint32 JAFMPMLIJOI = 8;
+	bool is_success = 14;
+	uint32 ODJAHIECLLF = 7;
+}

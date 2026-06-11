@@ -1,0 +1,14 @@
+﻿syntax = "proto3";
+
+
+import "KHJFEOHBLFO.proto";
+import "LJDNIFDCKIC.proto";
+
+message CENMDMHLBNA {
+	LJDNIFDCKIC CAPIOPJLEEM = 13;
+	KHJFEOHBLFO FLIJJNLAFDC = 12;
+	uint32 GEBMFKBPAJK = 3;
+	bool is_accept = 5;
+	uint32 MJEFIGAPAEE = 11;
+	uint32 progress = 1;
+}

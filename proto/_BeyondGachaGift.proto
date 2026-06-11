@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+
+import "_BeyondGachaItem.proto";
+
+message _BeyondGachaGift {
+	repeated _BeyondGachaItem _beyond_gacha_item_list = 9;
+	uint32 _beyond_gacha_type = 1;
+}

@@ -1,0 +1,12 @@
+﻿syntax = "proto3";
+
+
+import "IFAAFDHMADK.proto";
+
+message _PacmanSettleInfo {
+	bool is_new_record = 11;
+	uint32 killed_monster_num = 2;
+	IFAAFDHMADK reason = 4;
+	uint32 final_score = 9;
+	uint32 coin_num = 6;
+}

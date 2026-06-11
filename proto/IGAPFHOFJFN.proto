@@ -1,0 +1,11 @@
+﻿syntax = "proto3";
+
+
+
+
+message IGAPFHOFJFN {
+	repeated uint32 HNBKOJBIKII = 10;
+	bool is_finish = 15;
+	bool is_open = 7;
+	uint32 level_id = 6;
+}

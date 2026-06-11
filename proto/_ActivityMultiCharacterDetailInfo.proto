@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+
+
+import "NFBOLMKLMIH.proto";
+
+message _ActivityMultiCharacterDetailInfo {
+	repeated NFBOLMKLMIH stage_info_list = 14;
+}

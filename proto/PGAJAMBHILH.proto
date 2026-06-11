@@ -1,0 +1,11 @@
+﻿syntax = "proto3";
+
+
+import "ODDMGJHCBIL.proto";
+
+message PGAJAMBHILH {
+	repeated ODDMGJHCBIL LLHEGILAFLM = 12;
+	uint32 FANHJMBFHDE = 9;
+	uint32 stage = 1;
+	uint32 level_id = 7;
+}

@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+
+
+
+message ALKBPNIPEBD {
+	string price_tier = 2;
+	string product_id = 1;
+}

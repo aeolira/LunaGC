@@ -1,0 +1,16 @@
+﻿syntax = "proto3";
+
+
+import "ItemHint.proto";
+import "Vector.proto";
+
+message ItemAddHintNotify {
+	Vector position = 2;
+	repeated ItemHint item_list = 4;
+	repeated ItemHint overflow_transformed_item_list = 8;
+	uint32 quest_id = 14;
+	uint32 reason = 5;
+	bool LPNPKOHDPBL = 7;
+	bool ALEFNHEHEBE = 6;
+	bool JOEFCMMMOHA = 13;
+}

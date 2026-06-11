@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+
+
+
+message CIHNLENFKFF {
+	int32 JNEDJEAJIJL = 1;
+	bool is_active = 2;
+}

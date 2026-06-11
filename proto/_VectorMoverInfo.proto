@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+
+
+import "Vector.proto";
+
+message _VectorMoverInfo {
+	Vector CNMLMHNOHGL = 1;
+}

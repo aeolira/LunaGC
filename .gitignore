@@ -92,3 +92,13 @@ patches/*.patch
 
 # Artifact Signatures
 *.asc
+
+!/proto/*.proto
+!/proto/**/*.proto
+other-resources/
+generated-backup/
+proto-backup/
+proto-6.5/
+protos-original/
+split-proto.ps1
+proto-missing.txt

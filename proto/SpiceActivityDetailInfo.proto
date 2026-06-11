@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+
+import "SpiceStageData.proto";
+
+message SpiceActivityDetailInfo {
+	repeated SpiceStageData spice_stage_data_list = 15;
+	uint32 AEGMOGCNDKK = 2;
+	uint32 PPACHGFMAHO = 11;
+}

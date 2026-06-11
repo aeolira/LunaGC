@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+
+
+
+message TakeoffEquipRsp {
+	int32 retcode = 4;
+	uint32 slot = 11;
+	uint64 avatar_guid = 1;
+}

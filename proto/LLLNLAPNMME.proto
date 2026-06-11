@@ -1,0 +1,11 @@
+﻿syntax = "proto3";
+
+
+
+
+message LLLNLAPNMME {
+	uint32 score = 5;
+	bool is_finish = 13;
+	bool is_open = 12;
+	uint32 level_id = 11;
+}

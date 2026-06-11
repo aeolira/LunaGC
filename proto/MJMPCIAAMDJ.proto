@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+
+
+import "ALHOCAPCLCK.proto";
+
+message MJMPCIAAMDJ {
+	repeated ALHOCAPCLCK level_info_list = 15;
+}

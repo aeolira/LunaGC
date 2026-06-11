@@ -1,0 +1,11 @@
+﻿syntax = "proto3";
+
+
+import "GLNJJOOGIHM.proto";
+import "INMDHHGAEOK.proto";
+
+message JJODILKDBCP {
+	repeated GLNJJOOGIHM IHKCFCGGKDL = 5;
+	repeated INMDHHGAEOK BKFBCJGPFKH = 15;
+	uint32 DMCEELDEBJK = 7;
+}

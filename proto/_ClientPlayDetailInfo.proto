@@ -1,0 +1,42 @@
+﻿syntax = "proto3";
+
+
+import "_AutochessLevelInfo.proto";
+import "_BladeHeartLevelInfo.proto";
+import "_BubbleDramaPhotoLevelInfo.proto";
+import "_DiversityBattleLevelInfo.proto";
+import "_DoppelgangerPuzzleLevelInfo.proto";
+import "_DreamSwitchingLevelInfo.proto";
+import "_HolidayResortAdventureLevelInfo.proto";
+import "_HolidayResortBattleLevelInfo.proto";
+import "_HolidayResortGraffitiLevelInfo.proto";
+import "_HolidayResortSniperLevelInfo.proto";
+import "_InazumaBadmintonLevelInfo.proto";
+import "_LoliJumpLevelInfo.proto";
+import "_MapMarkLevelInfo.proto";
+import "_NatlanDrillBattleLevelInfo.proto";
+import "_PartyLevelInfo.proto";
+import "_SumeruAdventureGoalFightingLevelInfo.proto";
+import "_TowerDefenseLevelInfo.proto";
+
+message _ClientPlayDetailInfo {
+	oneof detail {
+		_HolidayResortBattleLevelInfo holiday_resort_battle_level_info = 3422;
+		_BubbleDramaPhotoLevelInfo bubble_drama_photo_level_info = 17506;
+		_HolidayResortGraffitiLevelInfo holiday_resort_graffiti_level_info = 9054;
+		_HolidayResortAdventureLevelInfo holiday_resort_adventure_level_info = 11604;
+		_BladeHeartLevelInfo blade_heart_level_info = 6531;
+		_InazumaBadmintonLevelInfo inazuma_badminton_level_info = 13537;
+		_NatlanDrillBattleLevelInfo natlan_drill_battle_level_info = 18634;
+		_MapMarkLevelInfo map_mark_level_info = 11689;
+		_SumeruAdventureGoalFightingLevelInfo sumeru_adventure_goal_fighting_level_info = 17872;
+		_HolidayResortSniperLevelInfo holiday_resort_sniper_level_info = 9833;
+		_DreamSwitchingLevelInfo dream_switching_level_info = 5014;
+		_TowerDefenseLevelInfo tower_defense_level_info = 5934;
+		_LoliJumpLevelInfo loli_jump_level_info = 12204;
+		_DoppelgangerPuzzleLevelInfo doppelganger_puzzle_level_info = 7256;
+		_DiversityBattleLevelInfo diversity_battle_level_info = 10993;
+		_AutochessLevelInfo autochess_level_info = 12707;
+		_PartyLevelInfo party_level_info = 8452;
+	}
+}

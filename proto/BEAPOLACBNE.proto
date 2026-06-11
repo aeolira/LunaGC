@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+
+
+
+message BEAPOLACBNE {
+	uint64 dungeon_guid = 1;
+	uint32 version = 2;
+	bool EBEKCBBGOHA = 3;
+}

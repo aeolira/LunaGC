@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+
+
+import "FLLFHJJPBIN.proto";
+
+message _ActionPointsNoCostBuffInfo {
+	FLLFHJJPBIN AIAFJBCMFHM = 14;
+}

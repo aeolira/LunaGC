@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+
+import "HGNCJOMPMEJ.proto";
+
+message _NatlanRaceDetailInfo {
+	repeated HGNCJOMPMEJ level_info_list = 11;
+	bool is_special_reward_taken = 7;
+}

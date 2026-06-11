@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+
+
+
+message _UgcSpecialGadgetInfo {
+	uint32 group_id = 1;
+	uint32 guid = 2;
+	uint32 IMFHNCPHFBH = 3;
+}

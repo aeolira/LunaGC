@@ -1,0 +1,27 @@
+﻿syntax = "proto3";
+
+
+import "_DrawPlayInfo.proto";
+import "_FilmfestBallGameSnapShot.proto";
+import "AAJONFDNNFH.proto";
+import "BreakoutSnapShot.proto";
+import "KFEJHJCACKB.proto";
+import "MassivePropSyncInfo.proto";
+
+message AbilityMixinRecoverInfo {
+	uint32 local_id = 3;
+	repeated uint32 data_list = 4;
+	repeated MassivePropSyncInfo massive_prop_list = 6;
+	BreakoutSnapShot breakout_snap_shot = 7;
+	_FilmfestBallGameSnapShot EPDOKLHPMFI = 8;
+	AAJONFDNNFH GPEOOIFFGBD = 9;
+	KFEJHJCACKB CGFCNFDDCAI = 10;
+	repeated float CMHDJBBAMKH = 11;
+	oneof info {
+		_DrawPlayInfo draw_play_info = 100;
+	}
+	oneof source {
+		uint32 instanced_ability_id = 1;
+		uint32 instanced_modifier_id = 2;
+	}
+}

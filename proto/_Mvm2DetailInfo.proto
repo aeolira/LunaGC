@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+
+import "IFHCPPJKOLK.proto";
+import "INMJKPICNJI.proto";
+
+message _Mvm2DetailInfo {
+	repeated IFHCPPJKOLK MEBPCLEEGHD = 9;
+	INMJKPICNJI GIABIIFKMEF = 5;
+}

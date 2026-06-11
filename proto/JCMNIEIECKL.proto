@@ -1,0 +1,11 @@
+﻿syntax = "proto3";
+
+
+import "Vector.proto";
+
+message JCMNIEIECKL {
+	Vector pos = 15;
+	Vector rot = 8;
+	uint32 card_id = 4;
+	uint32 point_id = 10;
+}

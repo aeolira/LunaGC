@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+
+import "FLLFHJJPBIN.proto";
+
+message _AddTotalRevenueAfterActionsExecBuffInfo {
+	repeated FLLFHJJPBIN action_list = 7;
+	bool IJLKIBAKKAD = 5;
+}

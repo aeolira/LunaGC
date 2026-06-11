@@ -1,0 +1,15 @@
+﻿syntax = "proto3";
+
+
+
+
+message CKMLAFEBDPI {
+	uint32 id = 6;
+	float LCAAMMHJBNF = 10;
+	float ENNGCLLJMEN = 4;
+	uint32 LHBHIECGEMN = 11;
+	float rot = 3;
+	bool GANBLOCFMFM = 8;
+	float KPJIIAIPOIE = 12;
+	uint32 value = 9;
+}

@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+
+
+
+message JPMAEPMOBDL {
+	repeated uint32 CLEFCKHBCLL = 9;
+	repeated uint32 DHJEABLFDNP = 12;
+	uint32 difficulty = 14;
+}

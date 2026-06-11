@@ -1,0 +1,27 @@
+﻿syntax = "proto3";
+
+
+import "HPHDMLFNFBM.proto";
+import "Uint32Pair.proto";
+
+message LDPBJNCGCGP {
+	message JFNKFJLDNBP {
+		repeated uint32 avatar_id_list = 4;
+		uint32 NNBGDPEGOJK = 11;
+	}
+
+	Uint32Pair GPCEJPIPIKI = 1;
+	repeated uint32 HAHLPKLADCA = 2;
+	repeated uint32 MPEONLJOANA = 5;
+	repeated Uint32Pair DMIGDIHNFKI = 14;
+	repeated HPHDMLFNFBM AFCDFGPIGCN = 12;
+	Uint32Pair KENKOBGFELK = 13;
+	repeated uint32 POLKEEIPMJO = 6;
+	Uint32Pair FOCNPHFNDEJ = 10;
+	repeated JFNKFJLDNBP GMOFMHNPFCK = 3;
+	uint32 difficulty_id = 9;
+	uint32 OJKGHANANLP = 4;
+	uint32 OJOOAJGNPGL = 15;
+	uint32 HNFODDPPGGD = 8;
+	uint32 IDFKIIHNOKJ = 7;
+}

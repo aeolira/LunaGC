@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+
+
+
+message KIOPGLKFEEN {
+	bool is_finished = 12;
+	uint32 level_id = 5;
+	uint32 EIFAAGMCMDK = 7;
+}

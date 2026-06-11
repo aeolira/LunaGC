@@ -1,0 +1,11 @@
+﻿syntax = "proto3";
+
+
+
+
+message AMLNHCGLECM {
+	uint32 level_id = 15;
+	bool is_open = 11;
+	bool is_finished = 4;
+	uint32 max_score = 3;
+}

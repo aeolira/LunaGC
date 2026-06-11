@@ -1,0 +1,11 @@
+﻿syntax = "proto3";
+
+
+
+
+message BargainSnapshot {
+	uint32 KEEMGGOIPHF = 7;
+	uint32 bargain_id = 9;
+	int32 cur_mood = 3;
+	uint32 MOKENFKKOEP = 1;
+}

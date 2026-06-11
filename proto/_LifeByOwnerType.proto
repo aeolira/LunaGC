@@ -1,0 +1,7 @@
+﻿syntax = "proto3";
+
+enum _LifeByOwnerType {
+	_LIFE_BY_OWNER_TYPE_LIFE_BY_OWNER_NONE = 0;
+	_LIFE_BY_OWNER_TYPE_LIFE_BY_OWNER_V2 = 1;
+	_LIFE_BY_OWNER_TYPE_LIFE_BY_OWNER_V3 = 2;
+}

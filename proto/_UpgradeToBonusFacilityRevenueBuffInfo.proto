@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+
+import "Uint32Pair.proto";
+
+message _UpgradeToBonusFacilityRevenueBuffInfo {
+	repeated Uint32Pair MPOJBJMJBFC = 1;
+	bool IJLKIBAKKAD = 3;
+	uint32 JNICJDCKPFL = 10;
+}

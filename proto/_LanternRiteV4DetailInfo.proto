@@ -1,0 +1,12 @@
+﻿syntax = "proto3";
+
+
+import "CEFNEJDCDPI.proto";
+import "HPGFKJOIMOH.proto";
+import "OGOCPJCCDME.proto";
+
+message _LanternRiteV4DetailInfo {
+	HPGFKJOIMOH HOLMHDKKNDM = 12;
+	CEFNEJDCDPI MPAEGGMJDNM = 7;
+	OGOCPJCCDME PJJIMLLMEPE = 13;
+}

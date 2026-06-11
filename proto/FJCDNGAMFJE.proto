@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+
+
+import "_ActivityAvatarInfo.proto";
+
+message FJCDNGAMFJE {
+	repeated _ActivityAvatarInfo avatar_info_list = 13;
+}

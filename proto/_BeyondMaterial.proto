@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+
+import "LNDFMPDOFEL.proto";
+
+message _BeyondMaterial {
+	uint32 count = 1;
+	LNDFMPDOFEL delete_info = 2;
+}

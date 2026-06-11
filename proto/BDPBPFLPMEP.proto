@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+
+
+import "MCPKFEHLIEN.proto";
+
+message BDPBPFLPMEP {
+	repeated MCPKFEHLIEN JJCMCEDLAOC = 1;
+}

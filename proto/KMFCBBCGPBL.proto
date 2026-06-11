@@ -1,0 +1,15 @@
+﻿syntax = "proto3";
+
+
+import "GINNHBABCHA.proto";
+
+message KMFCBBCGPBL {
+	repeated GINNHBABCHA NKPFDNHGMHJ = 4;
+	repeated uint32 FFHKDJAENCD = 12;
+	uint32 HMDGFDJBLMA = 10;
+	uint32 OFIGDFBGOAA = 1;
+	uint32 MLLHPPAJIPE = 15;
+	uint32 ICIMCHCEPMA = 11;
+	uint32 PMHLDJENHDH = 9;
+	uint32 DJGNFNPPCLC = 3;
+}

@@ -1,0 +1,13 @@
+﻿syntax = "proto3";
+
+
+import "DKFGDLDJKPJ.proto";
+import "JBFDHAPKAPL.proto";
+import "NCOLIKOJHID.proto";
+
+message _FilmfestDetailInfo {
+	repeated JBFDHAPKAPL JHGCLOKACHP = 8;
+	repeated DKFGDLDJKPJ PGFAMGOHHGE = 15;
+	repeated NCOLIKOJHID OMFKGFOKFEA = 7;
+	bool IFAPCHPALAG = 13;
+}

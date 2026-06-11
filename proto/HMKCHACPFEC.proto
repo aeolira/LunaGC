@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+
+import "Uint32Pair.proto";
+
+message HMKCHACPFEC {
+	repeated Uint32Pair MKHKKKBJDGH = 13;
+	bool KIIGAFACAGG = 12;
+	uint32 finish_time = 15;
+}

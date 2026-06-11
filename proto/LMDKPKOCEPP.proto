@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+
+import "BNFNJGPDOKH.proto";
+
+message LMDKPKOCEPP {
+	repeated uint32 HNHNGDNOEOF = 12;
+	repeated BNFNJGPDOKH level_info_list = 6;
+}

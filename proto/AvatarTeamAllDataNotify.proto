@@ -1,0 +1,11 @@
+﻿syntax = "proto3";
+
+
+import "AvatarTeam.proto";
+
+message AvatarTeamAllDataNotify {
+	map<uint32, AvatarTeam> avatar_team_map = 6;
+	repeated uint32 backup_avatar_team_order_list = 11;
+	repeated uint64 temp_avatar_guid_list = 10;
+	uint32 cur_avatar_team_id = 4;
+}

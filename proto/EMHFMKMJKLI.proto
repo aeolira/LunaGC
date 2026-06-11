@@ -1,0 +1,14 @@
+﻿syntax = "proto3";
+
+
+import "OMHFJFBPMKO.proto";
+
+message EMHFMKMJKLI {
+	uint32 OMONFEAGEPI = 8;
+	int32 local_id = 6;
+	uint32 MKKAINBAGIO = 7;
+	uint32 HHJKDIAJPGL = 3;
+	OMHFJFBPMKO ANDGFLJLMCI = 12;
+	uint32 PNAGAPHAHDL = 11;
+	uint32 instanced_ability_id = 4;
+}

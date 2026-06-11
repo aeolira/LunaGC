@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+
+import "SocialDetail.proto";
+
+message GetPlayerSocialDetailRsp {
+	SocialDetail detail_data = 4;
+	uint32 param = 3;
+	int32 retcode = 11;
+}

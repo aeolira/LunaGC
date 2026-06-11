@@ -1,0 +1,11 @@
+﻿syntax = "proto3";
+
+
+import "DOBMLBBDAMP.proto";
+import "KHKIBEEGIFH.proto";
+
+message FPPLJGCGJEF {
+	repeated DOBMLBBDAMP HKLKDFLNKIP = 1;
+	repeated KHKIBEEGIFH ODHMGFNBECN = 2;
+	uint32 ONPMABKBNIO = 3;
+}

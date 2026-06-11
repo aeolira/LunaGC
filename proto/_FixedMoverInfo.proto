@@ -1,0 +1,12 @@
+﻿syntax = "proto3";
+
+
+import "MathQuaternion.proto";
+import "Vector.proto";
+
+message _FixedMoverInfo {
+	Vector CNMLMHNOHGL = 1;
+	Vector IDMPOGJEHKA = 2;
+	float PNIMIMHMBFK = 3;
+	MathQuaternion JIAOOCBONAH = 4;
+}

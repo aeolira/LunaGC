@@ -1,0 +1,19 @@
+﻿syntax = "proto3";
+
+
+import "_ClientDetectorResult.proto";
+import "ClientCollectorData.proto";
+import "OneoffGatherPointDetectorData.proto";
+import "SkyCrystalDetectorQuickUseResult.proto";
+
+message QuickUseWidgetRsp {
+	int32 retcode = 4;
+	uint32 material_id = 15;
+	uint32 HMDAJNJJHIA = 13;
+	oneof param {
+		OneoffGatherPointDetectorData detector_data = 5;
+		ClientCollectorData client_collector_data = 9;
+		_ClientDetectorResult client_detector_result = 6074;
+		SkyCrystalDetectorQuickUseResult sky_crystal_detector_quick_use_result = 8294;
+	}
+}

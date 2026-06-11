@@ -1,0 +1,13 @@
+﻿syntax = "proto3";
+
+
+import "_LanternRiteV6CardInfo.proto";
+import "_LanternRiteV6DanmakuInfo.proto";
+
+message _LanternRiteV6DetailInfo {
+	_LanternRiteV6DanmakuInfo _danmaku_info = 3;
+	_LanternRiteV6CardInfo _card_info = 12;
+	uint32 FLAKKIEPBBE = 4;
+	bool is_taken_costume_reward = 9;
+	uint32 like_num = 10;
+}

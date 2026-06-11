@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+
+import "ItemParam.proto";
+
+message _BeyondGachaTransferItem {
+	ItemParam item_param = 14;
+	bool DHCMPBPOODC = 12;
+}

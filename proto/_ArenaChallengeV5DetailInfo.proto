@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+
+import "FONANDBJKGC.proto";
+import "LGJFOKABDGN.proto";
+
+message _ArenaChallengeV5DetailInfo {
+	repeated LGJFOKABDGN level_info_list = 2;
+	repeated FONANDBJKGC level_list = 14;
+}

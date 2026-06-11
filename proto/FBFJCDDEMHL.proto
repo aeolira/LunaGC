@@ -1,0 +1,11 @@
+﻿syntax = "proto3";
+
+
+
+
+message FBFJCDDEMHL {
+	bool is_open = 4;
+	bool is_finish = 13;
+	uint32 level_id = 8;
+	uint32 best_score = 6;
+}

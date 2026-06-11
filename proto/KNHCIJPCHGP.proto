@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+
+
+
+message KNHCIJPCHGP {
+	uint32 score = 11;
+	float GHBHEOHKPCM = 3;
+	uint32 KHLGDGCKEBG = 12;
+}

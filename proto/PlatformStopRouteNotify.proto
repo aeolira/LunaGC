@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+
+import "PlatformInfo.proto";
+
+message PlatformStopRouteNotify {
+	PlatformInfo platform = 4;
+	uint32 scene_time = 3;
+	uint32 entity_id = 10;
+}

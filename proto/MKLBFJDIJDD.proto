@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+
+import "IEIIHOCPLOH.proto";
+
+message MKLBFJDIJDD {
+	repeated IEIIHOCPLOH DLAEGKLKHEB = 15;
+	uint32 schedule_id = 11;
+}

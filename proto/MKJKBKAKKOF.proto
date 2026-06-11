@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+
+
+
+message MKJKBKAKKOF {
+	uint32 level_id = 2;
+	bool is_finish = 4;
+	bool is_open = 14;
+}

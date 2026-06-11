@@ -1,0 +1,13 @@
+﻿syntax = "proto3";
+
+
+import "ECMJEIEHFCE.proto";
+import "EPAOAGMJKDP.proto";
+import "LAHFJCEMAAF.proto";
+
+message AIOGAJBLMAB {
+	ECMJEIEHFCE CANJADOIKCB = 2;
+	LAHFJCEMAAF OPGBOFGKBDH = 3;
+	EPAOAGMJKDP EEBKNJALDHJ = 4;
+	bool GOGHMPKBLFA = 1;
+}

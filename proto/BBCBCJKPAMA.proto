@@ -1,0 +1,15 @@
+﻿syntax = "proto3";
+
+
+import "Vector.proto";
+
+message BBCBCJKPAMA {
+	Vector region_center_pos = 10;
+	repeated uint32 FNBFFNPBEME = 12;
+	bool is_open = 8;
+	bool is_finish = 2;
+	uint32 scene_id = 13;
+	uint32 open_time = 15;
+	float region_radius = 5;
+	uint32 level_id = 6;
+}

@@ -1,0 +1,31 @@
+﻿syntax = "proto3";
+
+
+import "_ActivityAvatarInfo.proto";
+
+message MFACIEDKBNF {
+	message LEBOOHKHHJP {
+		repeated _ActivityAvatarInfo avatar_list = 13;
+		uint32 difficulty = 8;
+		bool DDCAGLBOFMD = 2;
+		uint32 cost_time = 11;
+		uint32 IEIHADFONOM = 12;
+	}
+
+	message FHFLEJFCGGG {
+		uint32 avatar_id = 5;
+		uint32 avatar_type = 2;
+		uint32 costume_id = 11;
+	}
+
+	repeated _ActivityAvatarInfo ODDIFPFHDOE = 10;
+	repeated FHFLEJFCGGG KLOJADOGAID = 7;
+	repeated _ActivityAvatarInfo ACCBHAKIOGG = 3;
+	LEBOOHKHHJP PLOANCJHCIN = 2;
+	uint32 level_id = 9;
+	bool is_open = 12;
+	bool is_finish = 14;
+	bool FGGLCPPGPIE = 6;
+	uint32 KHHCALHNPFD = 13;
+	uint32 cost_time = 5;
+}

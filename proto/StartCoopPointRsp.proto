@@ -1,0 +1,11 @@
+﻿syntax = "proto3";
+
+
+import "MainCoop.proto";
+
+message StartCoopPointRsp {
+	MainCoop start_main_coop = 3;
+	uint32 coop_point = 14;
+	int32 retcode = 7;
+	bool is_start = 5;
+}

@@ -1,0 +1,11 @@
+﻿syntax = "proto3";
+
+
+
+
+message KMGECOOFMLO {
+	oneof detail {
+		string primitive_str = 1;
+		uint32 hash_code = 2;
+	}
+}

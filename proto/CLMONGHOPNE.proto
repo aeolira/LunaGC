@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+
+
+import "FKGDCNGEDPB.proto";
+
+message CLMONGHOPNE {
+	repeated FKGDCNGEDPB slot_list = 1;
+}

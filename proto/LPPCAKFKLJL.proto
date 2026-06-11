@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+
+import "CMKADHFAEJC.proto";
+import "KLNJAOONICC.proto";
+
+message LPPCAKFKLJL {
+	CMKADHFAEJC NKJKMEKPPJD = 1;
+	KLNJAOONICC BNONFNMOGNN = 2;
+}

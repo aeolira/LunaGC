@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+
+
+
+message DGLCPBBDPMO {
+	uint32 avatar_id = 1;
+	bool is_trial = 8;
+}

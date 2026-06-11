@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+
+import "HOJALKIMKLA.proto";
+
+message GCGPlayCardCostInfo {
+	repeated HOJALKIMKLA token_list = 1;
+	uint32 card_id = 13;
+}

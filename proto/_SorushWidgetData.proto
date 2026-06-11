@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+
+
+
+
+message _SorushWidgetData {
+	bool _is_need_destroy = 3;
+}

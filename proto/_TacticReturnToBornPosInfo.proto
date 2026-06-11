@@ -1,0 +1,13 @@
+﻿syntax = "proto3";
+
+
+
+
+message _TacticReturnToBornPosInfo {
+	bool KJGMJGOIFMO = 1;
+	int32 speed_level = 2;
+	bool FBCCFKECCEG = 3;
+	float BMJELNMEEHM = 4;
+	float JNIHFFIICEG = 5;
+	bool INOALKNCPFI = 6;
+}

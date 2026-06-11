@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+
+import "ActivityWatcherInfo.proto";
+
+message ActivityUpdateWatcherNotify {
+	ActivityWatcherInfo watcher_info = 14;
+	uint32 activity_id = 3;
+}

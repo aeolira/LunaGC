@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+
+import "KHKIBEEGIFH.proto";
+
+message LLCDLHFPBLN {
+	uint32 DFNKKHICEEI = 1;
+	KHKIBEEGIFH PFOJFGAMOHK = 2;
+}

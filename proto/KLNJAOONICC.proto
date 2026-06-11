@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+
+import "HBGPMBOLDPP.proto";
+
+message KLNJAOONICC {
+	HBGPMBOLDPP AHPJFBPOPLB = 1;
+	uint32 HOIBDNBIGOE = 2;
+}

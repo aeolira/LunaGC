@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+
+
+
+message OLFFNALHHCO {
+	uint32 cur_value = 1;
+	uint32 max_value = 14;
+}

@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+
+
+import "LBJMEKFOFAB.proto";
+
+message _AcrobaticsBattleDetailInfo {
+	repeated LBJMEKFOFAB stage_info_list = 10;
+}

@@ -1,0 +1,21 @@
+﻿syntax = "proto3";
+
+
+import "OCKFHJNABFG.proto";
+
+message _TemplatePotionInfo {
+	repeated uint32 PDFIPDKMGHB = 5;
+	repeated uint32 tag_list = 4;
+	repeated OCKFHJNABFG IEEJDNNPEGC = 9;
+	repeated uint32 CANKIIAJLHP = 12;
+	uint32 OLHAFDMICPK = 7;
+	uint32 NKKOKLHHGFN = 15;
+	uint32 level = 11;
+	uint32 guid = 8;
+	uint32 rank = 14;
+	uint32 AIPKLDLPPMI = 13;
+	uint32 KLHEHBHDNKB = 2;
+	bool OHBNFAHOHLN = 10;
+	bool KFPIDKAHDOD = 3;
+	bool ANNFGGOGEJA = 6;
+}

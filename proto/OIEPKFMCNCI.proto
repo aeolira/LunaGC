@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+
+
+
+message OIEPKFMCNCI {
+	map<uint32, uint32> NFNMAJMELCN = 1;
+	repeated uint32 LBKKMGFFJNK = 14;
+}

@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+
+import "Item.proto";
+
+message _TrifleGadgetInfo {
+	Item item = 1;
+	uint32 HNDHCFGOIGM = 2;
+}

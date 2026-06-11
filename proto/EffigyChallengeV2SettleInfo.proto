@@ -1,0 +1,13 @@
+﻿syntax = "proto3";
+
+
+
+
+message EffigyChallengeV2SettleInfo {
+	bool HOKCGIMKPHI = 14;
+	bool LBIBHHMLLNA = 6;
+	uint32 challenge_mode_difficulty = 3;
+	uint32 BOPAFDLPIBN = 10;
+	uint32 NFPANGJADJN = 15;
+	uint32 FFNABFLNOJM = 8;
+}

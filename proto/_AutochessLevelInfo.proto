@@ -1,0 +1,14 @@
+﻿syntax = "proto3";
+
+
+import "_AutochessRecordSocialBrief.proto";
+import "LNGBAFPGKMJ.proto";
+import "Uint32Pair.proto";
+
+message _AutochessLevelInfo {
+	Uint32Pair ALEDHLHGDCL = 2;
+	LNGBAFPGKMJ AMHICIMFMDC = 14;
+	repeated _AutochessRecordSocialBrief record_list = 9;
+	_AutochessRecordSocialBrief best_record = 7;
+	uint32 MEMGJOACCDC = 12;
+}

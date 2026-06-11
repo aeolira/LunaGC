@@ -1,0 +1,12 @@
+﻿syntax = "proto3";
+
+
+import "COJDGHDCHNB.proto";
+import "IENFMCMCFOA.proto";
+import "MAMHGOECFCA.proto";
+
+message _NahidaBirthDetailInfo {
+	MAMHGOECFCA JKOLDEABPBL = 3;
+	IENFMCMCFOA ONHKGIOLPMK = 13;
+	COJDGHDCHNB CPHHLGKAPCH = 8;
+}

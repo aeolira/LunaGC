@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+
+
+
+message _ShortVideoVoteRecord {
+	uint32 value = 2;
+	uint64 key = 15;
+}

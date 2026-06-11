@@ -1,0 +1,12 @@
+﻿syntax = "proto3";
+
+
+
+
+message NCOLIKOJHID {
+	float HLNFFAMCBNM = 12;
+	uint32 DPCHHEKOHLO = 14;
+	uint32 level_id = 4;
+	bool is_finish = 6;
+	bool is_open = 13;
+}

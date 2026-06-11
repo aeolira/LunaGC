@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+
+
+import "HBGPMBOLDPP.proto";
+
+message MHJPFGAKHDM {
+	HBGPMBOLDPP value = 1;
+}

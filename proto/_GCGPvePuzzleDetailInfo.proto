@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+
+
+
+message _GCGPvePuzzleDetailInfo {
+	repeated uint32 KLHFOGPLGND = 9;
+	bool GNEJLMJINJC = 6;
+}

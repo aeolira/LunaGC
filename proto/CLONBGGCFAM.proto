@@ -1,0 +1,12 @@
+﻿syntax = "proto3";
+
+
+import "Vector.proto";
+
+message CLONBGGCFAM {
+	Vector pos = 5;
+	uint32 type = 11;
+	uint32 gadget_id = 15;
+	uint32 group_id = 1;
+	uint32 config_id = 14;
+}

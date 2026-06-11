@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+
+
+import "PGDJAMGEEIA.proto";
+
+message _SlimeCannonDetailInfo {
+	repeated PGDJAMGEEIA level_info_list = 1;
+}

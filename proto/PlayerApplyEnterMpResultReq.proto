@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+
+
+
+message PlayerApplyEnterMpResultReq {
+	uint32 apply_uid = 12;
+	bool is_agreed = 9;
+}

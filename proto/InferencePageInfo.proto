@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+
+import "InfernceWordInfo.proto";
+
+message InferencePageInfo {
+	repeated InfernceWordInfo unlock_word_list = 2;
+	uint32 page_id = 8;
+}

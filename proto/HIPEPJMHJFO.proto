@@ -1,0 +1,11 @@
+﻿syntax = "proto3";
+
+
+
+
+message HIPEPJMHJFO {
+	uint32 score = 10;
+	uint32 level_id = 5;
+	bool is_open = 7;
+	bool is_finish = 13;
+}

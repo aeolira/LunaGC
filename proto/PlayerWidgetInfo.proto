@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+
+import "WidgetSlotData.proto";
+
+message PlayerWidgetInfo {
+	repeated WidgetSlotData slot_list = 15;
+	uint32 uid = 14;
+}

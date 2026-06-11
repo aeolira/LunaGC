@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+
+
+import "HGPNCLJDLPP.proto";
+
+message EAJDMLGLPHJ {
+	repeated HGPNCLJDLPP FPCABNGECBK = 3;
+}

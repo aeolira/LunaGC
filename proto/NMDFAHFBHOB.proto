@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+
+
+
+
+message NMDFAHFBHOB {
+	int32 NJLCLPPJGLC = 1;
+}

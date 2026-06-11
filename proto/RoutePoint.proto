@@ -1,0 +1,36 @@
+﻿syntax = "proto3";
+
+
+import "BKHAILJHCAO.proto";
+import "CHGPCNHCILF.proto";
+import "MathQuaternion.proto";
+import "Vector.proto";
+
+message RoutePoint {
+	enum FJPKNGDFMHN {
+		FJPKNGDFMHN_KEEP_MOVE = 0;
+		FJPKNGDFMHN_TELEPORT_BY_OBSTACLE = 1;
+		FJPKNGDFMHN_FADE_IN_OUT_TELEPORT_BY_OBSTACLE = 2;
+	}
+
+	Vector position = 1;
+	float arrive_range = 2;
+	bool has_reach_event = 3;
+	int32 speed_level = 4;
+	BKHAILJHCAO point_type = 24;
+	CHGPCNHCILF action = 25;
+	bool NKBFAOPDACL = 26;
+	uint32 IABEJJFPAOG = 27;
+	bool HGDDKHCMCPK = 28;
+	bool GOBMILADJJN = 29;
+	FJPKNGDFMHN NEIJHFPBJBE = 30;
+	oneof move_params {
+		float velocity = 11;
+		float time = 12;
+	}
+	oneof rotate_params {
+		Vector rotation = 21;
+		MathQuaternion rotation_speed = 22;
+		MathQuaternion axis_speed = 23;
+	}
+}

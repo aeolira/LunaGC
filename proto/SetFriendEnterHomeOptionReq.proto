@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+
+
+import "FriendEnterHomeOption.proto";
+
+message SetFriendEnterHomeOptionReq {
+	FriendEnterHomeOption option = 8;
+}

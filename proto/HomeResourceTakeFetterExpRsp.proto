@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+
+import "HomeResource.proto";
+
+message HomeResourceTakeFetterExpRsp {
+	HomeResource fetter_exp = 7;
+	int32 retcode = 11;
+}

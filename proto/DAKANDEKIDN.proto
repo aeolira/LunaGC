@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+
+
+
+message DAKANDEKIDN {
+	uint32 object_id = 10;
+	uint32 finish_time = 6;
+}

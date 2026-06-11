@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+
+
+
+message PullPrivateChatReq {
+	uint32 pull_num = 8;
+	uint32 from_sequence = 15;
+	uint32 target_uid = 1;
+}

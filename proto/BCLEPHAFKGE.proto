@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+
+
+import "IKNJHPJPOEI.proto";
+
+message BCLEPHAFKGE {
+	repeated IKNJHPJPOEI level_info_list = 14;
+}

@@ -1,0 +1,11 @@
+﻿syntax = "proto3";
+
+
+
+
+message GKEIBGLOIJL {
+	bool is_finished = 8;
+	bool is_level_open = 4;
+	uint32 level_id = 11;
+	uint32 max_score = 12;
+}

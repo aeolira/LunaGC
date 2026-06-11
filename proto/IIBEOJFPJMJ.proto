@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+
+import "SocialShowAvatarInfo.proto";
+
+message IIBEOJFPJMJ {
+	repeated SocialShowAvatarInfo avatar_info_list = 6;
+	bool JLOBMPCKGDG = 7;
+	uint32 uid = 10;
+}

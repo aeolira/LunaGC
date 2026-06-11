@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+
+
+import "OJPBOEHILFE.proto";
+
+message MNNNEHCLKBG {
+	repeated OJPBOEHILFE KGKBNFODGDA = 1;
+}

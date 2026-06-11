@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+
+
+import "FCKOAKPKPBF.proto";
+
+message MGJDEEIHCAJ {
+	FCKOAKPKPBF value = 1;
+}

@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+
+
+
+message _RevenueBonusInfo {
+	uint32 AAOMKCFNNHH = 12;
+	uint32 CDOPOCAKPHI = 15;
+	uint32 LEEAHGPOOPI = 8;
+}

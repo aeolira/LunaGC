@@ -1,0 +1,11 @@
+﻿syntax = "proto3";
+
+
+import "CLONBGGCFAM.proto";
+
+message LENMHFAOGIL {
+	repeated uint32 HGNOPAJDKAH = 14;
+	repeated CLONBGGCFAM mark_list = 6;
+	bool ONHNAFPJDFB = 7;
+	bool LIMHFPFDKHI = 3;
+}

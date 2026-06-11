@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+
+
+
+
+message ReceivedTrialAvatarActivityRewardReq {
+	uint32 trial_avatar_index_id = 3;
+}

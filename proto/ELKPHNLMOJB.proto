@@ -1,0 +1,11 @@
+﻿syntax = "proto3";
+
+
+import "IFDHCMELBFN.proto";
+
+message ELKPHNLMOJB {
+	repeated uint32 FAELPLKCDOB = 11;
+	repeated IFDHCMELBFN FLFJLNBALHD = 15;
+	uint32 DBMEPKADKAK = 8;
+	bool OPCPKJGMPMC = 3;
+}

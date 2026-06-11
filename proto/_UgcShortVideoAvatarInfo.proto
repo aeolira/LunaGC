@@ -1,0 +1,11 @@
+﻿syntax = "proto3";
+
+
+import "SocialShowAvatarInfo.proto";
+
+message _UgcShortVideoAvatarInfo {
+	oneof avatar_info {
+		uint32 trial_avatar_id = 2;
+		SocialShowAvatarInfo social_show_avatar_info = 1;
+	}
+}

@@ -1,0 +1,16 @@
+﻿syntax = "proto3";
+
+
+
+
+message CoopPoint {
+	enum State {
+		STATE_UNSTARTED = 0;
+		STATE_STARTED = 1;
+		STATE_FINISHED = 2;
+	}
+
+	State state = 6;
+	uint32 self_confidence = 7;
+	uint32 id = 3;
+}

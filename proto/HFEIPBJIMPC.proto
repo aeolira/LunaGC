@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+
+
+
+message HFEIPBJIMPC {
+	uint32 MDJKJOJGGCP = 1;
+	uint64 NFPEKHANHIN = 2;
+	uint32 EMNJGDDLFAN = 3;
+}

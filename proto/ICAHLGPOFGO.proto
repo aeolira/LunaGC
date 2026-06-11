@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+
+
+
+message ICAHLGPOFGO {
+	repeated float DIJDCKOHELM = 2;
+	int32 key_hash = 1;
+}

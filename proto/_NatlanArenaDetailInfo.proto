@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+
+import "MFACIEDKBNF.proto";
+
+message _NatlanArenaDetailInfo {
+	repeated MFACIEDKBNF level_info_list = 6;
+	uint32 KKKFOKCEBAD = 3;
+}

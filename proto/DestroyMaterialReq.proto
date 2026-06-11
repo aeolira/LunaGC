@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+
+
+import "MaterilaInfo.proto";
+
+message DestroyMaterialReq {
+	repeated MaterilaInfo material_list = 10;
+}

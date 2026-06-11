@@ -1,0 +1,17 @@
+﻿syntax = "proto3";
+
+
+import "FungusDetail.proto";
+import "FungusPlotStageDetail.proto";
+import "FungusTrainingDungeonDetail.proto";
+import "FungusTrainingProgressDetail.proto";
+
+message FungusFighterDetailInfo {
+	repeated FungusDetail fungus_detail_list = 8;
+	repeated FungusTrainingProgressDetail training_dungeon_progress_detail_list = 12;
+	repeated uint32 DOJEAPCDLOC = 2;
+	repeated FungusTrainingDungeonDetail training_dungeon_detail_list = 5;
+	repeated uint32 PJGLPLFJPGF = 7;
+	repeated FungusPlotStageDetail plot_stage_detail_list = 15;
+	repeated uint32 BLMBBPABPKH = 10;
+}

@@ -1,0 +1,12 @@
+﻿syntax = "proto3";
+
+
+import "GCGPlayCardCostInfo.proto";
+
+message OABDEHEDOGM {
+	repeated uint32 PLFCLJJAFGO = 4;
+	repeated uint32 EPHIJIANELP = 5;
+	repeated GCGPlayCardCostInfo OGJKDGPGAFE = 7;
+	uint32 IBLJNHJAPBI = 2;
+	uint32 EPJJEFBKFEB = 1;
+}

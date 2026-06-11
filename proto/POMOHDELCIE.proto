@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+
+import "OCMPBHGLOII.proto";
+
+message POMOHDELCIE {
+	repeated OCMPBHGLOII KHAEKFEMJOO = 1;
+	repeated OCMPBHGLOII DAKBKPKOPEL = 2;
+	repeated int32 DCGMGMLBGDL = 3;
+}

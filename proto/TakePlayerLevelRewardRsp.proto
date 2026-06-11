@@ -1,0 +1,10 @@
+﻿syntax = "proto3";
+
+
+
+
+message TakePlayerLevelRewardRsp {
+	uint32 level = 5;
+	int32 retcode = 11;
+	uint32 reward_id = 13;
+}

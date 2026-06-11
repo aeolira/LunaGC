@@ -1,0 +1,12 @@
+﻿syntax = "proto3";
+
+
+import "Vector.proto";
+
+message DropHintNotify {
+	repeated uint32 item_id_list = 1;
+	Vector position = 4;
+	Vector rotation = 5;
+	uint32 entity_id = 8;
+	bool BGHGNBKEODP = 3;
+}

@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+
+import "EJOLAEJEEDN.proto";
+
+message CEFNEJDCDPI {
+	repeated EJOLAEJEEDN level_info_list = 3;
+	bool OJOGGFDHOIJ = 7;
+}

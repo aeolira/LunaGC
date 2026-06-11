@@ -1,0 +1,7 @@
+﻿syntax = "proto3";
+
+enum DKFCFLLEHDF {
+	DKFCFLLEHDF_NONE = 0;
+	DKFCFLLEHDF_RENAME_MY = 1;
+	DKFCFLLEHDF_COPY_MY = 2;
+}

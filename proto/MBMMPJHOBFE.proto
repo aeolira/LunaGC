@@ -1,0 +1,12 @@
+﻿syntax = "proto3";
+
+
+import "KMGECOOFMLO.proto";
+
+message MBMMPJHOBFE {
+	string NDNLNAODJNN = 1;
+	uint32 MHJDAFBIKJN = 2;
+	uint32 EHJBKPAIHEF = 3;
+	KMGECOOFMLO KHGOBHOLKFI = 4;
+	string CJBHLFEKJPF = 5;
+}

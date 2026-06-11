@@ -1,0 +1,15 @@
+﻿syntax = "proto3";
+
+
+
+
+message DKFGDLDJKPJ {
+	repeated uint32 MKHKKKBJDGH = 7;
+	repeated uint32 ODCDHOLEJPG = 15;
+	repeated uint32 FDDJGHKGLEN = 10;
+	repeated uint32 MOPDOEHFIEA = 9;
+	bool is_finish = 8;
+	bool is_open = 14;
+	uint32 score = 5;
+	uint32 level_id = 3;
+}

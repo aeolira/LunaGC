@@ -1,0 +1,14 @@
+﻿syntax = "proto3";
+
+
+import "KFEJHJCACKB.proto";
+
+message AbilityInvokeEntryHead {
+	uint32 instanced_modifier_id = 1;
+	int32 modifier_config_local_id = 7;
+	KFEJHJCACKB CGFCNFDDCAI = 8;
+	uint32 server_buff_uid = 5;
+	uint32 instanced_ability_id = 4;
+	uint32 target_id = 3;
+	int32 local_id = 11;
+}

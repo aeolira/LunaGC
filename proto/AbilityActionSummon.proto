@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+
+import "Vector.proto";
+
+message AbilityActionSummon {
+	Vector pos = 14;
+	Vector rot = 8;
+}

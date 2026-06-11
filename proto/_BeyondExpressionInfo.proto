@@ -1,0 +1,18 @@
+﻿syntax = "proto3";
+
+
+
+
+message _BeyondExpressionInfo {
+	enum CDOFGAOHEJN {
+		CDOFGAOHEJN_NONE = 0;
+		CDOFGAOHEJN_EMOJI = 1;
+		CDOFGAOHEJN_POSE = 2;
+		CDOFGAOHEJN_SUIT_POSE = 3;
+		CDOFGAOHEJN_GOLDEN_POSE = 4;
+	}
+
+	uint32 index = 1;
+	CDOFGAOHEJN MEBEJHAPEGP = 2;
+	uint32 id = 3;
+}
